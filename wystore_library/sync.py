@@ -6,6 +6,7 @@ import re
 import tempfile
 from pathlib import Path
 from .github import Publisher
+from .presentation import release_presentation
 from .verification import verify_manifest
 
 PACKAGE = re.compile(r'[A-Za-z][A-Za-z0-9_]*(?:\.[A-Za-z][A-Za-z0-9_]*)+')
@@ -52,6 +53,7 @@ def run(config, repository, output, client, publisher, check_only=False):
                 raise ValueError('Play returned an unknown, paid or invalid version')
             old = entries.get((package, profile))
             if old and version <= old['version_code']:
+                print(f'{package} {profile}: no newer version (Play {version}, published {old["version_code"]})')
                 continue
             if check_only:
                 print(f'{package} {profile}: update available ({version})')
@@ -79,17 +81,22 @@ def run(config, repository, output, client, publisher, check_only=False):
             expected_assets = {f['name']: {'size': f['size'], 'sha256': f['sha256']} for f in public['files']}
             expected_assets[metadata.name] = {'size': metadata.stat().st_size, 'sha256': hashlib.sha256(metadata.read_bytes()).hexdigest()}
             tag = f'{package}-{profile}-{version}'
-            urls = publisher.publish_release(tag, files, expected_assets)
+            title, notes = release_presentation(app, profile, result.get('device', {}), public)
+            urls = publisher.publish_release(tag, files, expected_assets, title=title, notes=notes)
             entries[(package, profile)] = {'package': package, 'profile': profile, 'version_code': version,
                 'certificate_sha256': public['certificate_sha256'], 'version_name': version_name,
                 'assets': [{**f, 'url': urls[f['name']]} for f in public['files']],
                 'manifest_url': urls[metadata.name],
+                'manifest_size': expected_assets[metadata.name]['size'],
+                'manifest_sha256': expected_assets[metadata.name]['sha256'],
                 'metadata_url': f'https://raw.githubusercontent.com/{repository}/main/library/apps/{package}/metadata.json'}
             changed = True
         if changed:
             index_path = Path(temp) / 'index.json'
             index_path.write_text(json.dumps({'schema': 1, 'entries': sorted(entries.values(), key=lambda e: (e['package'], e['profile']))}, indent=2, sort_keys=True) + '\n', encoding='utf-8')
             publisher.publish_index(index_path)
+        if not check_only:
+            publisher.prune_releases([entries[pair] for pair in pairs if pair in entries])
     return changed
 
 

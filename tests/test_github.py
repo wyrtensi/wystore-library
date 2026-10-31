@@ -73,3 +73,93 @@ class GitHubTests(unittest.TestCase):
             path = Path(temp) / 'index.json'; path.write_text('{}')
             with self.assertRaises(RuntimeError): publisher.publish_index(path)
         self.assertEqual(publisher.index_sha, 'old'); publisher._gh.assert_called_once()
+
+class ReleaseCleanupTests(unittest.TestCase):
+    def setUp(self):
+        from unittest.mock import Mock
+        self.publisher = Publisher('owner/repo')
+        self.entry = {'package': 'org.example.app', 'profile': 'px_9a', 'version_code': 10,
+                      'assets': [{'name': 'base.apk', 'size': 3, 'sha256': 'a' * 64, 'url': 'https://example.test/base'}],
+                      'manifest_url': 'https://example.test/manifest', 'manifest_size': 4, 'manifest_sha256': 'b' * 64}
+        self.keeper = {'tag_name': 'org.example.app-px_9a-10', 'draft': False, 'assets': [
+            {'name': 'base.apk', 'size': 3, 'digest': 'sha256:' + 'a' * 64, 'state': 'uploaded', 'browser_download_url': 'https://example.test/base'},
+            {'name': 'manifest-public.json', 'size': 4, 'digest': 'sha256:' + 'b' * 64, 'state': 'uploaded', 'browser_download_url': 'https://example.test/manifest'}]}
+        self.publisher.release = Mock(return_value=self.keeper)
+
+    def test_prune_paginates_and_only_deletes_older_managed_versions(self):
+        import json
+        from unittest.mock import Mock
+        pages = [[{'tag_name': 'org.example.app-px_9a-9'}, {'tag_name': 'org.example.app-px_9a-10'}, {'tag_name': 'org.example.app-px_9a-11'}],
+                 [{'tag_name': 'org.example.app-px_9a-1', 'draft': True}, {'tag_name': 'org.example.app-px_9a-0'}, {'tag_name': 'manual-1'}, {'tag_name': 'other.app-px_9a-2'}, {'tag_name': 'org.example.app-px_9a-09'}]]
+        self.publisher._gh = Mock(return_value=json.dumps(pages))
+        self.publisher.prune_releases([self.entry])
+        self.publisher._gh.assert_any_call('api', 'repos/owner/repo/releases', '--paginate', '--slurp')
+        deletes = [c.args for c in self.publisher._gh.call_args_list if c.args[:2] == ('release', 'delete')]
+        self.assertEqual(deletes, [('release', 'delete', 'org.example.app-px_9a-9', '--yes', '--cleanup-tag', '--repo', 'owner/repo'), ('release', 'delete', 'org.example.app-px_9a-1', '--yes', '--cleanup-tag', '--repo', 'owner/repo')])
+
+    def test_all_keepers_are_verified_before_any_delete(self):
+        from unittest.mock import Mock
+        second = {**self.entry, 'package': 'org.example.other'}
+        self.publisher.release = Mock(side_effect=[self.keeper, {'draft': False, 'assets': []}])
+        self.publisher._gh = Mock()
+        with self.assertRaises((ValueError, RuntimeError)): self.publisher.prune_releases([self.entry, second])
+        self.publisher._gh.assert_not_called()
+
+    def test_bad_index_or_keeper_never_deletes(self):
+        import copy
+        from unittest.mock import Mock
+        for case in ('missing_manifest', 'bad_sha', 'bad_size', 'duplicate_name', 'wrong_url', 'draft', 'wrong_digest', 'missing_asset'):
+            with self.subTest(case=case):
+                entry, keeper = copy.deepcopy(self.entry), copy.deepcopy(self.keeper)
+                if case == 'missing_manifest': del entry['manifest_sha256']
+                if case == 'bad_sha': entry['assets'][0]['sha256'] = 'x' * 64
+                if case == 'bad_size': entry['manifest_size'] = True
+                if case == 'duplicate_name': entry['assets'].append(copy.deepcopy(entry['assets'][0]))
+                if case == 'wrong_url': keeper['assets'][0]['browser_download_url'] = 'https://example.test/wrong'
+                if case == 'draft': keeper['draft'] = True
+                if case == 'wrong_digest': keeper['assets'][0]['digest'] = 'sha256:' + 'c' * 64
+                if case == 'missing_asset': keeper['assets'].pop()
+                self.publisher.release = Mock(return_value=keeper)
+                self.publisher._gh = Mock()
+                with self.assertRaises((ValueError, RuntimeError)): self.publisher.prune_releases([entry])
+                self.publisher._gh.assert_not_called()
+
+    def test_partial_failure_is_reported_and_next_run_deletes_remaining(self):
+        import json
+        from unittest.mock import Mock
+        remaining = ['org.example.app-px_9a-2', 'org.example.app-px_9a-3']
+        fail = [True]
+        def gh(*args, **kwargs):
+            if args[0] == 'api': return json.dumps([[{'tag_name': t} for t in remaining]])
+            if args[2].endswith('-3') and fail[0]:
+                fail[0] = False
+                raise RuntimeError('delete failed')
+            remaining.remove(args[2])
+            return ''
+        self.publisher._gh = Mock(side_effect=gh)
+        with self.assertRaises(RuntimeError): self.publisher.prune_releases([self.entry])
+        self.assertEqual(remaining, ['org.example.app-px_9a-3'])
+        self.publisher.prune_releases([self.entry])
+        self.assertEqual(remaining, [])
+
+    def test_new_draft_uses_requested_metadata(self):
+        from unittest.mock import Mock
+        self.publisher.release = Mock(side_effect=[None, {'draft': True, 'assets': []}, {'draft': False, 'assets': []}])
+        self.publisher._gh = Mock(return_value='')
+        self.publisher.publish_release('tag', [], {}, title='Friendly', notes='Details')
+        self.publisher._gh.assert_any_call('release', 'create', 'tag', '--repo', 'owner/repo', '--draft', '--title', 'Friendly', '--notes', 'Details')
+
+    def test_public_release_is_never_uploaded_over(self):
+        from unittest.mock import Mock
+        self.publisher.release = Mock(return_value=self.keeper)
+        self.publisher._gh = Mock()
+        expected = {'base.apk': {'size': 3, 'sha256': 'a' * 64}, 'manifest-public.json': {'size': 4, 'sha256': 'b' * 64}}
+        self.publisher.publish_release('org.example.app-px_9a-10', [], expected)
+        self.publisher._gh.assert_not_called()
+
+    def test_bad_pagination_response_never_deletes(self):
+        import json
+        from unittest.mock import Mock
+        self.publisher._gh = Mock(return_value=json.dumps([[{'tag_name': 'org.example.app-px_9a-2'}], [{'invalid': True}]]))
+        with self.assertRaises(ValueError): self.publisher.prune_releases([self.entry])
+        self.assertFalse(any(c.args[:2] == ('release', 'delete') for c in self.publisher._gh.call_args_list))

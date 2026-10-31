@@ -2,6 +2,8 @@
 import base64
 import binascii
 import json
+import re
+from urllib.parse import urlsplit
 import subprocess
 from pathlib import Path
 
@@ -43,10 +45,10 @@ class Publisher:
         self.index_read = True
         return index
 
-    def publish_release(self, tag, paths, expected):
+    def publish_release(self, tag, paths, expected, *, title=None, notes=None):
         release = self.release(tag)
         if release is None:
-            self._gh('release', 'create', tag, '--repo', self.repository, '--draft', '--title', tag, '--notes', 'Verified APK set')
+            self._gh('release', 'create', tag, '--repo', self.repository, '--draft', '--title', title if title is not None else tag, '--notes', notes if notes is not None else 'Verified APK set')
             release = self.release(tag)
         if release and release.get('draft') is True:
             present = self._check_assets(release, expected, draft=True, allow_missing=True)
@@ -70,6 +72,66 @@ class Publisher:
         if len(actual) != len(assets) or any(name not in wanted or wanted[name] != value for name, value in actual.items()) or (not allow_missing and actual != wanted):
             raise RuntimeError('Release assets do not match verified files')
         return set(actual)
+
+    def prune_releases(self, entries):
+        if not isinstance(entries, list):
+            raise ValueError('Invalid cleanup entries')
+        keepers = {}
+        for entry in entries:
+            if not isinstance(entry, dict):
+                raise ValueError('Invalid cleanup entry')
+            package, profile, version = entry.get('package'), entry.get('profile'), entry.get('version_code')
+            if (not isinstance(package, str) or not re.fullmatch(r'[A-Za-z][A-Za-z0-9_]*(?:\.[A-Za-z][A-Za-z0-9_]*)+', package)
+                    or not isinstance(profile, str) or not re.fullmatch(r'[A-Za-z0-9_]+', profile)
+                    or type(version) is not int or version <= 0 or (package, profile) in keepers):
+                raise ValueError('Invalid cleanup identity')
+            assets = entry.get('assets')
+            if not isinstance(assets, list) or not assets:
+                raise ValueError('Invalid cleanup assets')
+            expected, urls = {}, {}
+            def add_asset(name, size, digest, url):
+                if (not isinstance(name, str) or not name or name in expected or '/' in name or '\\' in name
+                        or any(ord(c) < 32 for c in name) or name in ('.', '..')
+                        or type(size) is not int or size <= 0
+                        or not isinstance(digest, str) or not re.fullmatch(r'[0-9a-f]{64}', digest)
+                        or not isinstance(url, str)):
+                    raise ValueError('Invalid cleanup asset')
+                parsed = urlsplit(url)
+                if parsed.scheme != 'https' or not parsed.netloc:
+                    raise ValueError('Invalid cleanup asset URL')
+                expected[name] = {'sha256': digest, 'size': size}
+                urls[name] = url
+            for asset in assets:
+                if not isinstance(asset, dict):
+                    raise ValueError('Invalid cleanup asset')
+                add_asset(asset.get('name'), asset.get('size'), asset.get('sha256'), asset.get('url'))
+            add_asset('manifest-public.json', entry.get('manifest_size'), entry.get('manifest_sha256'), entry.get('manifest_url'))
+            tag = f'{package}-{profile}-{version}'
+            release = self.release(tag)
+            if not isinstance(release, dict) or release.get('tag_name') != tag:
+                raise RuntimeError('Keeper release is missing or has a different tag')
+            self._check_assets(release, expected, draft=False)
+            if any(a.get('browser_download_url') != urls[a['name']] for a in release['assets']):
+                raise RuntimeError('Keeper release URLs do not match the index')
+            keepers[(package, profile)] = version
+        if not keepers:
+            return
+        pages = json.loads(self._gh('api', f'repos/{self.repository}/releases', '--paginate', '--slurp'))
+        if not isinstance(pages, list) or any(not isinstance(page, list) for page in pages):
+            raise ValueError('Invalid releases response')
+        tags = []
+        for page in pages:
+            for release in page:
+                if not isinstance(release, dict) or not isinstance(release.get('tag_name'), str):
+                    raise ValueError('Invalid release in response')
+                tag = release['tag_name']
+                for (package, profile), version in keepers.items():
+                    match = re.fullmatch(re.escape(f'{package}-{profile}-') + r'([1-9][0-9]*)', tag)
+                    if match and int(match.group(1)) < version:
+                        tags.append(tag)
+                        break
+        for tag in tags:
+            self._gh('release', 'delete', tag, '--yes', '--cleanup-tag', '--repo', self.repository)
 
     def publish_index(self, path):
         if not self.index_read:

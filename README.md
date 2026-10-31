@@ -115,7 +115,7 @@ Solid lines show existing flows. Dashed lines mark APK publication being set up 
 
 | Component | Status |
 | --- | --- |
-| Metadata, artwork and release notes for four apps | Published; scheduled refresh every 6 hours |
+| Metadata, artwork and release notes for four apps | Published; scheduled refresh once daily |
 | APK verification and publication | Authenticated version checks pass; publication setup in progress |
 | Library integration with Wy Store | Planned; no Android client changes yet |
 
@@ -126,6 +126,16 @@ The [app catalog](library/catalog.json) and [APK index](library/index.json) are 
 1. **Check the version first.** The pipeline reads `versionCode` before downloading. Equal and older versions are skipped.
 2. **Verify the package set.** Every base and split APK is checked for hashes, package name, version and signing certificate. Signing-key changes require review.
 3. **Publish complete versions.** Verified files go into a versioned release before the index is updated. Published assets are never overwritten.
+
+Each app and device profile has its own release with an app name, version,
+installation instructions and verified checksums. Only a newer `versionCode`
+starts a download and publication. After the new release and index are checked,
+older managed releases and their tags are removed. If cleanup is interrupted,
+the next run resumes cleanup without downloading or uploading that version again.
+
+Metadata refresh runs daily at **02:43 UTC** and APK checks at **03:17 UTC**
+(07:43 and 08:17 in Yekaterinburg). GitHub schedules can be delayed; manual runs
+remain available.
 
 The pipeline preserves original publisher signatures and split packages. It does not merge or re-sign APKs. The initial device profile is **Android 15 / arm64-v8a / 420 dpi**; packages are selected for that profile rather than presented as universal builds.
 

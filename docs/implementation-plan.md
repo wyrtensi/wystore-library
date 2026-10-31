@@ -23,6 +23,12 @@ Python orchestration and pinned Go playfetch backend.
 - [ ] Run full unit suite, live metadata refresh, authentication check and
   trusted GitHub Actions runs. Obtain independent final branch review and
   resolve material findings before pushing the finished implementation.
+- [x] Schedule both workflows once daily and keep version checks before downloads.
+- [x] Add readable per-app releases and verified manifest hashes to the index.
+- [x] Add fail-closed cleanup of strictly older managed releases after index commit,
+  with keeper preflight and retry without duplicate APK transfers.
+- [ ] Verify full publication for all four apps and an equal-version live rerun;
+  update the public availability status only after successful runs.
 
 ## Review focus
 

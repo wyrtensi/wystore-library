@@ -39,3 +39,20 @@ would require an Android/JVM wrapper; a permanently hosted dispenser adds
 infrastructure. A bounded CLI job with operator credentials fits the chosen
 scheduled mirror design. A public metadata-only catalogue is useful on its
 own, but cannot provide versionCode or installable artifacts.
+
+## Daily releases and retention
+
+The operator chose one current release per app and device profile. Metadata
+refresh and authenticated APK checks run once daily. Releases use readable app
+names, versions and device models, with installation instructions and verified
+checksums. Equal or older upstream versions do not trigger downloads or uploads.
+
+After all new sets are verified and the index is committed, verify every retained
+release against index asset and manifest digests before deleting any strictly
+older managed release and its tag. The next equal-version run retries interrupted
+cleanup without repeating publication. Unknown tags and newer releases awaiting
+recovery stay intact. Keep the shared write concurrency group and index SHA guard.
+
+Alternatives considered: one combined daily release would mix app lifecycles;
+retaining all historical APKs would use storage contrary to the operator's choice.
+Changelog history remains in metadata independently of APK retention.

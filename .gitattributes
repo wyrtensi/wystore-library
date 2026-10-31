@@ -3,3 +3,5 @@
 *.jpg binary
 *.webp binary
 *.gif binary
+# Unified-diff context prefixes precede the Go source's indentation tabs.
+patches/*.patch whitespace=-space-before-tab

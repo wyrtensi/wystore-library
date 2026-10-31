@@ -35,8 +35,8 @@ Publisher APKs are never merged, modified or re-signed.
 
 ## Workflows
 
-- **Refresh Play metadata**: every six hours and manually; no Google credentials.
-- **Sync Google Play APKs**: every six hours and manually. Its manual `check_only`
+- **Refresh Play metadata**: daily at 02:43 UTC and manually; no Google credentials.
+- **Sync Google Play APKs**: daily at 03:17 UTC and manually. Its manual `check_only`
   option reads native versions without downloading APKs.
 - **Verify library tooling**: Python tests and the pinned upstream backend build.
   Pull-request checks never receive Google account secrets.
@@ -122,6 +122,27 @@ files are never overwritten. The index is updated afterwards through GitHub's
 Contents API with the previous SHA, so failed or conflicting writes retain the
 old index. A later package failure may leave a complete release not yet referenced
 by the index; the next run can recover it.
+
+## Current-version retention
+
+One versioned release is kept for each configured app and device profile. Titles
+contain the app name, display version and device model; release notes include
+the Google Play source, installation instructions, APK hashes and signer hashes.
+The index also records `manifest_size` and `manifest_sha256` so the complete
+current release can be checked before cleanup.
+
+Cleanup starts after synchronization and any atomic index write succeed. Every
+retained release must match the index by tag, uploaded asset names, sizes,
+SHA-256 digests and URLs before any deletion occurs. Only strictly older version
+tags belonging to configured package/profile pairs are removed, together with
+their release assets. Unrelated tags and newer releases awaiting recovery are
+preserved. Missing verification data stops cleanup without deleting anything.
+
+Cleanup errors fail the job. A subsequent run with equal versions skips APK
+downloads and uploads, then retries cleanup. `check_only` does not publish or
+delete releases. The shared workflow concurrency group serializes all library
+writes; expected index SHAs prevent stale writes from overwriting a newer index.
+Release-note history remains available in application metadata.
 
 ## Development
 
