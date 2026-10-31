@@ -109,7 +109,7 @@ paid versions do not trigger APK downloads. Display versions from web metadata
 are never used for this decision.
 
 Before publishing, every base/split APK is checked against Google delivery hashes,
-its package/version and its cryptographic signature using Android `aapt` and
+its package/version and its cryptographic signature using Android `aapt2` and
 `apksigner`. Signers must match Google metadata, all splits must agree, and later
 updates must retain the previously recorded signer. Signing-key rotation requires
 manual review. Unsupported expansion files are rejected rather than silently
@@ -152,7 +152,7 @@ python -m unittest discover -s tests -v
 python -m wystore_library.metadata --config apps.json --output library
 ```
 
-APK synchronization additionally requires `gh`, Android build-tools (`aapt` and
+APK synchronization additionally requires `gh`, Android build-tools (`aapt2` and
 `apksigner`) and the pinned [playfetch](https://github.com/Exmeaning/playfetch)
 commit `8bf14e52133d9609ad91ff830252414716d79017` in PATH. GitHub Actions builds
 that commit from source with

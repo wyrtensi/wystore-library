@@ -6,6 +6,21 @@ import hashlib
 from wystore_library.verification import inspect_apk, verify_manifest
 
 class InspectionTests(unittest.TestCase):
+    def test_split_metadata_uses_aapt2_without_resolving_legacy_label_references(self):
+        from subprocess import CompletedProcess
+        def tools(args, **kwargs):
+            if args[0] == 'apksigner':
+                return CompletedProcess(args, 0, 'Signer #1 certificate SHA-256 digest: ' + 'a' * 64 + '\nSigner #1 certificate SHA-1 digest: ' + 'b' * 40, '')
+            if args[:3] == ['aapt2', 'dump', 'badging']:
+                return CompletedProcess(args, 0, "package: name='org.example.app' versionCode='2' split='chrome'", '')
+            return CompletedProcess(args, 1, '', "ERROR getting 'android:label' attribute: attribute value reference does not exist")
+        with patch('wystore_library.verification.subprocess.run', side_effect=tools):
+            try:
+                result = inspect_apk('split_chrome.apk')
+            except ValueError as error:
+                self.fail('Supported split metadata was rejected: ' + str(error))
+        self.assertEqual(result[:3], ('org.example.app', 2, 'chrome'))
+
     def test_build_tools_37_scheme_signer_excludes_source_stamp_and_public_key(self):
         from subprocess import CompletedProcess
         output = '\n'.join([

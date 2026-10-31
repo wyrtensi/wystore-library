@@ -67,9 +67,9 @@ jobs:
         run: |
           tools="$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -n 1)"
           test -x "$tools/apksigner"
-          test -x "$tools/aapt"
+          test -x "$tools/aapt2"
           "$tools/apksigner" version
-          "$tools/aapt" version
+          "$tools/aapt2" version
           echo "$tools" >> "$GITHUB_PATH"
       - name: Synchronize verified APK sets
         working-directory: library

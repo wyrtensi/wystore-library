@@ -30,7 +30,7 @@ def inspect_apk(path):
         tool_output[args[0]] = result
         return result.stdout
     signature = invoke(['apksigner', 'verify', '--verbose', '--print-certs', str(path)])
-    badging = invoke(['aapt', 'dump', 'badging', str(path)])
+    badging = invoke(['aapt2', 'dump', 'badging', str(path)])
     header = next((line for line in badging.splitlines() if line.startswith('package: ')), '')
     def field(name):
         found = re.search(r"(?:^|\s)" + name + r"='([^']*)'", header)
@@ -60,7 +60,7 @@ def inspect_apk(path):
                           'stderr': shape(result.stderr)} for tool, result in tool_output.items()}
         raise ValueError('APK signature or package metadata missing '
                          f'(sha256={len(sha256)}, sha1={len(sha1)}, version_code={field("versionCode").isdigit()}; '
-                         f'signer labels: {", ".join(labels) or "none"}; aapt fields: {", ".join(fields) or "none"}; '
+                         f'signer labels: {", ".join(labels) or "none"}; manifest fields: {", ".join(fields) or "none"}; '
                          f'tool output: {json.dumps(details)})')
     return field('name'), int(field('versionCode')), field('split'), sha256, sha1
 
