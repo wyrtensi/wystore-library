@@ -8,6 +8,23 @@ from unittest.mock import patch
 
 
 class PlayClientTests(unittest.TestCase):
+    def test_google_rejection_reports_only_a_known_reason(self):
+        from wystore_library.play import safe_failure_reason
+
+        message = "error: google auth rejected the AAS token: BadAuthentication account@example.test private-token"
+        self.assertEqual(safe_failure_reason(message), "Google rejected account authentication (BadAuthentication)")
+
+    def test_endpoint_failure_excludes_response_body_and_account(self):
+        from wystore_library.play import safe_failure_reason
+
+        message = "error: play checkin: HTTP 403: account@example.test secret-cookie"
+        self.assertEqual(safe_failure_reason(message), "Google checkin returned HTTP 403")
+
+    def test_unknown_diagnostics_stay_private(self):
+        from wystore_library.play import safe_failure_reason
+
+        self.assertEqual(safe_failure_reason("private-token account@example.test"), "upstream diagnostic withheld")
+
     def test_missing_credentials_never_starts_anonymous_backend(self):
         from wystore_library.play import PlayClient, PlayError
 

@@ -13,6 +13,27 @@ class PlayError(RuntimeError):
     """An actionable backend failure without secret-bearing upstream output."""
 
 
+def safe_failure_reason(diagnostic: str) -> str:
+    """Report recognized failure categories, never upstream response text."""
+    known = "BadAuthentication|NeedsBrowser|CaptchaRequired|AccountDisabled|ServiceDisabled|DeviceManagementRequired"
+    match = re.search(r"google auth rejected the AAS token: (" + known + r")\b", diagnostic)
+    if match:
+        return "Google rejected account authentication (" + match.group(1) + ")"
+    match = re.search(r"play (checkin|details|uploadDeviceConfig|delivery|purchase|toc): HTTP ([1-5][0-9]{2})\b", diagnostic)
+    if match:
+        return "Google " + match.group(1) + " returned HTTP " + match.group(2)
+    match = re.search(r"google auth returned HTTP ([1-5][0-9]{2})\b", diagnostic)
+    if match:
+        return "Google authorization returned HTTP " + match.group(1)
+    if "DF-DFERH-01" in diagnostic:
+        return "Google Play reported DF-DFERH-01"
+    if "no accounts are stored" in diagnostic or "no stored account called" in diagnostic:
+        return "the configured private account could not be loaded"
+    if "terms of service" in diagnostic.lower():
+        return "Google Play terms require account-owner action"
+    return "upstream diagnostic withheld"
+
+
 class PlayClient:
     def __init__(self, binary: str | list[str] = "playfetch"):
         email = os.environ.get("GOOGLE_EMAIL", "").strip()
@@ -61,7 +82,8 @@ class PlayClient:
         if result.returncode:
             # Upstream errors may contain account identifiers, credentials,
             # cookies or download URLs. Never forward them to public CI logs.
-            raise PlayError(f"Google Play {operation} failed (exit {result.returncode}); check account access and device compatibility.")
+            reason = safe_failure_reason(result.stderr)
+            raise PlayError(f"Google Play {operation} failed (exit {result.returncode}): {reason}.")
         return result.stdout
 
     def info(self, package: str, profile: str) -> dict:
