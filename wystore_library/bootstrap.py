@@ -38,6 +38,11 @@ def main():
             password = os.environ.get("GOOGLE_PASSWORD") or getpass.getpass("Google password: ")
             result = gpsoauth.perform_master_login(email, password, android_id)
         token = require_token(result)
+        # Google may resolve a sign-in alias to a different primary address.
+        # Subsequent Play authorization must use the account paired with the token.
+        email = result.get("Email", email)
+        if not isinstance(email, str) or not re.fullmatch(r"[^@\s]+@[^@\s]+", email):
+            raise AuthenticationError("Google returned an invalid account email; no credentials were stored.")
     except AuthenticationError as error:
         raise SystemExit(str(error)) from None
     except Exception:

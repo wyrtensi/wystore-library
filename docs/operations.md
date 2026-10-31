@@ -72,9 +72,29 @@ The helper accepts `GOOGLE_EMAIL`, `GOOGLE_PASSWORD`, `GOOGLE_ANDROID_ID` and,
 when needed, a one-time `GOOGLE_OAUTH_TOKEN` through the environment. Without
 environment credentials it prompts locally, hiding password entry. It stores
 the resulting AAS token through `gh secret set`, never in Git or console output.
+When Google returns the account's primary email, the helper stores that address
+with the token instead of the sign-in alias. It does not print either value.
 See the [gpsoauth sign-in flow](https://github.com/simon-weber/gpsoauth#alternative-flow)
 for obtaining a one-time token after Google verification. Do not paste tokens
 into issues, workflow inputs, logs, release assets or commits.
+
+After restoring account access and replacing the token, run an authenticated
+version check before attempting publication:
+
+```sh
+gh workflow run sync.yml --ref main -f check_only=true
+```
+
+Only after that run succeeds, start the full synchronization:
+
+```sh
+gh workflow run sync.yml --ref main -f check_only=false
+```
+
+`BadAuthentication` means Google rejected the saved credentials before the
+catalog request. Re-running the job does not renew that token. The account
+owner must complete Google's verification and repeat local bootstrap; there
+is no automatic fallback to another account or a public token dispenser.
 
 Password/bootstrap secrets are never supplied to scheduled jobs. The APK job
 uses a private temporary credentials file, explicitly selects the stored account,
