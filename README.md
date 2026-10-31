@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/library-banner.png" alt="Wy Store Library — an application library for Wy Store" width="760">
+<img src="assets/library-banner.png" alt="Wy Store Library: Google Play to GitHub Actions to the library, with Wy Store integration planned" width="760">
 
 **An application library for [Wy Store](https://github.com/wyrtensi/wystore).**
 
