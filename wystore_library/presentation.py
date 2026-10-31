@@ -52,6 +52,14 @@ def release_presentation(app, profile, device, verified):
     for asset in verified['files']:
         lines.append(f'| {code(asset["name"])} | {asset["size"]:,} bytes | `{asset["sha256"]}` |')
     lines += ['', '### Signing certificate SHA-256', '']
+    if 'certificate_scope' in verified:
+        scope = verified['certificate_scope']
+        lines += [
+            f'Recorded signing identity: **Android SDK {scope["sdk"]}**.',
+            'Full APK cryptographic verification is retained. '
+            'Listing certificate metadata is not used for verification.',
+            '',
+        ]
     lines += [f'- `{certificate}`' for certificate in verified['certificate_sha256']]
     lines += ['', 'Only the current verified version is retained for this app and device profile.']
     return title, '\n'.join(lines) + '\n'

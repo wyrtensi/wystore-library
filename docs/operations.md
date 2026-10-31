@@ -111,9 +111,21 @@ are never used for this decision.
 
 Before publishing, every base/split APK is checked against Google delivery hashes,
 its package/version and its cryptographic signature using Android `aapt2` and
-`apksigner`. Signers must match Google metadata, all splits must agree, and later
-updates must retain the previously recorded signer. Signing-key rotation requires
-manual review. Unsupported expansion files are rejected rather than silently
+`apksigner`. The library trusts authenticated Google Play delivery and does not
+compare APK certificates with the listing's certificate metadata. All splits
+must agree, and later updates must retain the previously recorded signer.
+For APKs with different keys for different Android SDK ranges, the recorded
+signing identity uses the authenticated device SDK, which must agree with the
+downloaded manifest. Full cryptographic APK verification still covers all
+declared Android ranges.
+The optional `certificate_scope: {"mode": "android-sdk", "sdk": N}` field in
+the manifest and index, and the release notes, identify the Android SDK used
+for signer continuity. An absent field means the recorded fingerprints cover
+all cryptographically verified signers. Existing immutable manifests retain
+their recorded signer identities. Changes to the
+previously recorded effective signer require manual review. See the
+[certificate verification contract](profile-certificate-verification.md).
+Unsupported expansion files are rejected rather than silently
 omitted. Account information and temporary Google CDN URLs are excluded from
 public manifests.
 

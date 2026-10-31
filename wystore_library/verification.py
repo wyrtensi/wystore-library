@@ -5,6 +5,7 @@ import json
 import re
 import shutil
 import subprocess
+from dataclasses import dataclass
 from pathlib import Path
 
 
@@ -21,7 +22,19 @@ def digest(value, size):
         return None
 
 
-def inspect_apk(path):
+@dataclass
+class ApkInspection:
+    package: str
+    version_code: int
+    split: str
+    certificate_sha256: set
+    certificate_sha1: set
+    certificate_scope: dict | None = None
+
+
+def inspect_apk_details(path, sdk=None):
+    if sdk is not None and (type(sdk) is not int or sdk <= 0):
+        raise ValueError('Invalid Android SDK')
     tool_output = {}
     def invoke(args):
         result = subprocess.run(args, capture_output=True, text=True, check=False)
@@ -38,12 +51,38 @@ def inspect_apk(path):
     # Build-tools 37 names APK signers by scheme. Source Stamp signers and
     # public-key fingerprints describe different identities and must not match.
     # Rotated signing keys can apply to different Android SDK ranges.
-    sdk_range = r'\(minSdkVersion=[0-9]+, maxSdkVersion=[0-9]+\)'
-    signer = (r'^[ \t]*(?:(?:Signer #\d+:?|V(?:1|2|3\.[01]) Signer(?: #\d+)?:)'
-              r'(?:[ \t]+' + sdk_range + r')?|Signer[ \t]+' + sdk_range + r')[ \t]+certificate ')
-    sha256 = {m.lower() for m in re.findall(signer + r'SHA-256 digest:[ \t]+([0-9a-fA-F]{64})[ \t]*$', signature, re.MULTILINE)}
-    sha1 = {m.lower() for m in re.findall(signer + r'SHA-1 digest:[ \t]+([0-9a-fA-F]{40})[ \t]*$', signature, re.MULTILINE)}
-    if not sha256 or len(sha256) != len(sha1) or not field('versionCode').isdigit():
+    sdk_range = r'\(minSdkVersion=([0-9]+), maxSdkVersion=([0-9]+)\)'
+    signer = re.compile(r'^(?P<label>(?:Signer #[0-9]+:?|V(?:1|2|3\.[01]) Signer(?: #[0-9]+)?:)(?:[ \t]+' + sdk_range + r')?|Signer[ \t]+' + sdk_range + r')[ \t]+certificate SHA-(?P<kind>256|1) digest:[ \t]+(?P<value>[0-9a-fA-F]+)[ \t]*$')
+    identities = {}
+    malformed = False
+    for line in signature.splitlines():
+        line = line.strip()
+        if line.startswith('Source Stamp ') or ' public key ' in line:
+            continue
+        if not re.search(r'\bcertificate SHA-(?:256|1) digest:', line):
+            continue
+        match = signer.fullmatch(line)
+        if not match or len(match['value']) != (64 if match['kind'] == '256' else 40):
+            malformed = True
+            continue
+        bounds = (match.group(2), match.group(3)) if match.group(2) is not None else (match.group(4), match.group(5))
+        limits = tuple(map(int, bounds)) if bounds[0] is not None else None
+        if limits and (limits[0] <= 0 or limits[0] > limits[1]):
+            malformed = True
+            continue
+        entry = identities.setdefault(match['label'], {'limits': limits})
+        value = match['value'].lower()
+        if match['kind'] in entry and entry[match['kind']] != value:
+            malformed = True
+        entry[match['kind']] = value
+    malformed |= any('256' not in item or '1' not in item for item in identities.values())
+    complete = [item for item in identities.values() if '256' in item and '1' in item]
+    all_pairs = {(item['256'], item['1']) for item in complete}
+    selected = {(item['256'], item['1']) for item in complete
+                if sdk is None or item['limits'] is None or item['limits'][0] <= sdk <= item['limits'][1]}
+    sha256 = {pair[0] for pair in selected}
+    sha1 = {pair[1] for pair in selected}
+    if malformed or not selected or len(sha256) != len(sha1) or not field('versionCode').isdigit():
         # Tool versions can change labels. Report their structure, never raw
         # certificate values or other output that may contain private data.
         labels = sorted({line.partition(':')[0].strip() for line in signature.splitlines()
@@ -65,12 +104,20 @@ def inspect_apk(path):
                          f'(sha256={len(sha256)}, sha1={len(sha1)}, version_code={field("versionCode").isdigit()}; '
                          f'signer labels: {", ".join(labels) or "none"}; manifest fields: {", ".join(fields) or "none"}; '
                          f'tool output: {json.dumps(details)})')
-    return field('name'), int(field('versionCode')), field('split'), sha256, sha1
+    scope = {'mode': 'android-sdk', 'sdk': sdk} if sdk is not None and all_pairs - selected else None
+    return ApkInspection(field('name'), int(field('versionCode')), field('split'), sha256, sha1, scope)
 
 
-def verify_manifest(manifest, directory, package, version, expected, previous):
+def inspect_apk(path):
+    result = inspect_apk_details(path)
+    return result.package, result.version_code, result.split, result.certificate_sha256, result.certificate_sha1
+
+
+def verify_manifest(manifest, directory, package, version, previous, sdk=None):
     if not isinstance(manifest, dict) or manifest.get('schema') != 'playfetch/v1':
         raise ValueError('Unsupported downloaded manifest schema')
+    if sdk is not None and (type(sdk) is not int or sdk <= 0 or not isinstance(manifest.get('device'), dict) or type(manifest['device'].get('sdk')) is not int or manifest['device']['sdk'] != sdk):
+        raise ValueError('Downloaded manifest Android SDK does not match device profile')
     app = manifest.get('app')
     if not isinstance(app, dict):
         raise ValueError('Invalid downloaded manifest app')
@@ -80,11 +127,8 @@ def verify_manifest(manifest, directory, package, version, expected, previous):
     if not isinstance(records, list) or not records or manifest.get('bundle'):
         raise ValueError('Unsupported or empty delivery')
     directory = Path(directory).resolve()
-    names, splits, certs = set(), set(), None
+    names, splits, certs, scope = set(), set(), None, None
     public_files = []
-    trusted = {v for h in expected for v in (digest(h, 32), digest(h, 20)) if v}
-    if not trusted:
-        raise ValueError('Play did not provide a usable publisher certificate')
     for record in records:
         if not isinstance(record, dict) or not isinstance(record.get('local'), dict):
             raise ValueError('Invalid downloaded file record')
@@ -106,14 +150,16 @@ def verify_manifest(manifest, directory, package, version, expected, previous):
         provided = [(v, n, actual) for v, n, actual in checks if v]
         if not provided or any(digest(v, n) != actual for v, n, actual in provided):
             raise ValueError('APK differs from Google delivery hashes')
-        actual_package, actual_version, split, signing256, signing1 = inspect_apk(path)
+        inspection = inspect_apk_details(path, sdk)
+        actual_package, actual_version, split = inspection.package, inspection.version_code, inspection.split
+        signing256 = inspection.certificate_sha256
+        if inspection.certificate_scope:
+            scope = inspection.certificate_scope
         if actual_package != package or actual_version != version:
             raise ValueError('APK package or version mismatch')
         if (role == 'base' and split) or (role == 'split' and (not split or record.get('split') != split)) or split in splits:
             raise ValueError('APK split identity mismatch')
         splits.add(split)
-        if not (signing256 <= trusted or signing1 <= trusted):
-            raise ValueError('APK certificate does not match Play')
         if certs is not None and certs != signing256:
             raise ValueError('APK split signatures differ')
         certs = signing256
@@ -122,4 +168,7 @@ def verify_manifest(manifest, directory, package, version, expected, previous):
         raise ValueError('APK set must contain one base')
     if previous is not None and set(previous) != certs:
         raise ValueError('Publisher signing certificate changed; manual review required')
-    return {'package': package, 'version_code': version, 'certificate_sha256': sorted(certs), 'files': public_files}
+    result = {'package': package, 'version_code': version, 'certificate_sha256': sorted(certs), 'files': public_files}
+    if scope:
+        result['certificate_scope'] = scope
+    return result

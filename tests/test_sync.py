@@ -13,7 +13,29 @@ class SyncTests(unittest.TestCase):
         self.config.write_text(json.dumps({'schema': 1, 'apps': [{'package': 'org.example.app', 'profiles': ['px_9a']}]}))
         self.client = Mock(); self.publisher = Mock()
         self.publisher.read_index.return_value = {'schema': 1, 'entries': []}
-        self.client.info.return_value = {'app': {'package': 'org.example.app', 'version_code': 2, 'free': True, 'certificate_hashes': ['ab']}}
+        self.client.info.return_value = {'device': {'sdk': 35}, 'app': {'package': 'org.example.app', 'version_code': 2, 'free': True, 'certificate_hashes': ['ab']}}
+
+    def test_missing_or_invalid_authenticated_sdk_never_downloads(self):
+        for device in (None, {}, {'sdk': None}, {'sdk': '35'}, {'sdk': True}, {'sdk': 0}):
+            with self.subTest(device=device):
+                self.client.info.return_value['device'] = device
+                with self.assertRaisesRegex(ValueError, 'device SDK'):
+                    run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher)
+        self.client.pull.assert_not_called()
+        self.publisher.publish_release.assert_not_called()
+        self.publisher.publish_index.assert_not_called()
+
+    @patch('wystore_library.sync.verify_manifest')
+    def test_profile_certificate_scope_is_verified_and_published(self, verify):
+        scope = {'mode': 'android-sdk', 'sdk': 35}
+        verify.return_value = {'files': [], 'certificate_sha256': ['abc'], 'certificate_scope': scope}
+        self.publisher.publish_release.return_value = {'manifest-public.json': 'https://example.test/manifest'}
+        captured = {}
+        self.publisher.publish_index.side_effect = lambda path: captured.update(json.loads(path.read_text()))
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher)
+        self.assertEqual(verify.call_args.kwargs, {'sdk': 35})
+        self.assertEqual(captured['entries'][0]['certificate_scope'], scope)
+        self.assertIn('SDK 35', self.publisher.publish_release.call_args.kwargs['notes'])
     def test_equal_version_skips_download(self):
         self.publisher.read_index.return_value['entries'] = [{'package': 'org.example.app', 'profile': 'px_9a', 'version_code': 2}]
         run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher)
@@ -65,12 +87,26 @@ class SyncTests(unittest.TestCase):
         self.publisher.read_index.return_value['entries'] = [current, other]
         run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher)
         self.publisher.prune_releases.assert_called_once_with([current])
-    def test_missing_google_certificates_never_downloads_or_prunes(self):
-        self.client.info.return_value['app']['certificate_hashes'] = []
-        with self.assertRaisesRegex(ValueError, 'publisher certificates'):
+    @patch('wystore_library.sync.verify_manifest')
+    def test_listing_certificate_metadata_is_not_required_to_publish_verified_delivery(self, verify):
+        self.client.info.return_value['app'].pop('certificate_hashes')
+        verify.return_value = {'files': [], 'certificate_sha256': ['abc']}
+        self.publisher.publish_release.return_value = {'manifest-public.json': 'https://example.test/manifest'}
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher)
+        self.client.pull.assert_called_once()
+        verify.assert_called_once()
+        self.publisher.publish_release.assert_called_once()
+        self.publisher.publish_index.assert_called_once()
+
+    @patch('wystore_library.sync.verify_manifest')
+    def test_previously_published_signer_is_still_required_during_verification(self, verify):
+        self.publisher.read_index.return_value['entries'] = [{'package': 'org.example.app', 'profile': 'px_9a', 'version_code': 1, 'certificate_sha256': ['abc']}]
+        verify.side_effect = ValueError('Publisher signing certificate changed; manual review required')
+        with self.assertRaisesRegex(ValueError, 'signing certificate changed'):
             run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher)
-        self.client.pull.assert_not_called()
-        self.publisher.prune_releases.assert_not_called()
+        self.assertEqual(verify.call_args.args[-1], ['abc'])
+        self.publisher.publish_release.assert_not_called()
+        self.publisher.publish_index.assert_not_called()
     @patch('wystore_library.sync.verify_manifest')
     def test_release_uses_app_version_profile_and_verified_asset_details(self, verify):
         self.client.info.return_value['app'].update(title='Example App', version_name='2.1')
@@ -102,7 +138,7 @@ class SyncTests(unittest.TestCase):
     @patch('wystore_library.sync.verify_manifest')
     def test_later_failure_never_publishes_partial_index(self, verify):
         self.config.write_text(json.dumps({'schema':1, 'apps':[{'package':'org.example.app','profiles':['px_9a']}, {'package':'org.example.other','profiles':['px_9a']}]}))
-        self.client.info.side_effect = lambda package, profile: {'app': {'package':package, 'version_code':2, 'free':True, 'certificate_hashes':['abc']}}
+        self.client.info.side_effect = lambda package, profile: {'device': {'sdk': 35}, 'app': {'package':package, 'version_code':2, 'free':True, 'certificate_hashes':['abc']}}
         verify.return_value = {'files': [], 'certificate_sha256':['abc']}
         self.publisher.publish_release.side_effect = [{'manifest-public.json':'https://example.test/manifest'}, RuntimeError('failed')]
         with self.assertRaises(RuntimeError): run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher)

@@ -58,18 +58,19 @@ def run(config, repository, output, client, publisher, check_only=False):
             if check_only:
                 print(f'{package} {profile}: update available ({version})')
                 continue
+            device = result.get('device')
+            sdk = device.get('sdk') if isinstance(device, dict) else None
+            if type(sdk) is not int or sdk <= 0:
+                raise ValueError('Play did not provide a valid device SDK')
             previous = None
             if old:
                 previous = old.get('certificate_sha256')
                 if not isinstance(previous, list) or not previous:
                     raise ValueError('Previous publisher certificate is unavailable')
-            expected = app.get('certificate_hashes')
-            if not isinstance(expected, list) or not expected:
-                raise ValueError('Play did not provide publisher certificates')
             folder = Path(temp) / f'{package}-{profile}-{version}'
             folder.mkdir()
             manifest = client.pull(package, profile, version, folder)
-            public = verify_manifest(manifest, folder, package, version, expected, previous)
+            public = verify_manifest(manifest, folder, package, version, previous, sdk=sdk)
             version_name = app.get('version_name')
             if version_name is not None and not isinstance(version_name, str):
                 raise ValueError('Invalid Play version name')
@@ -81,7 +82,7 @@ def run(config, repository, output, client, publisher, check_only=False):
             expected_assets = {f['name']: {'size': f['size'], 'sha256': f['sha256']} for f in public['files']}
             expected_assets[metadata.name] = {'size': metadata.stat().st_size, 'sha256': hashlib.sha256(metadata.read_bytes()).hexdigest()}
             tag = f'{package}-{profile}-{version}'
-            title, notes = release_presentation(app, profile, result.get('device', {}), public)
+            title, notes = release_presentation(app, profile, device, public)
             urls = publisher.publish_release(tag, files, expected_assets, title=title, notes=notes)
             entries[(package, profile)] = {'package': package, 'profile': profile, 'version_code': version,
                 'certificate_sha256': public['certificate_sha256'], 'version_name': version_name,
@@ -90,6 +91,8 @@ def run(config, repository, output, client, publisher, check_only=False):
                 'manifest_size': expected_assets[metadata.name]['size'],
                 'manifest_sha256': expected_assets[metadata.name]['sha256'],
                 'metadata_url': f'https://raw.githubusercontent.com/{repository}/main/library/apps/{package}/metadata.json'}
+            if 'certificate_scope' in public:
+                entries[(package, profile)]['certificate_scope'] = public['certificate_scope']
             changed = True
         if changed:
             index_path = Path(temp) / 'index.json'
