@@ -6,6 +6,70 @@ import hashlib
 from wystore_library.verification import inspect_apk, verify_manifest
 from wystore_library import verification
 
+class SplitContextTests(unittest.TestCase):
+    def setUp(self):
+        from subprocess import CompletedProcess
+        self.CompletedProcess = CompletedProcess
+        self.temporary = TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.root = Path(self.temporary.name)
+        self.files = []
+        for name, role in [('split.apk', 'split'), ('base.apk', 'base')]:
+            data = name.encode()
+            (self.root / name).write_bytes(data)
+            checksum = hashlib.sha256(data).hexdigest()
+            record = {'name': name, 'role': role, 'size': len(data), 'local': {'sha256': checksum}, 'play_sha256': checksum}
+            if role == 'split':
+                record['split'] = 'config.en'
+            self.files.append(record)
+        self.manifest = {'schema': 'playfetch/v1', 'app': {'package': 'org.example.app', 'version_code': 2}, 'device': {'sdk': 35}, 'files': self.files}
+
+    def tools(self, minimum, label='minSdkVersion', split_valid=True, split_signer='a'):
+        base_verified = False
+        def invoke(args, **kwargs):
+            nonlocal base_verified
+            is_base = Path(args[-1]).name == 'base.apk'
+            if args[0] == 'apksigner':
+                self.assertNotIn('--max-sdk-version', args)
+                if is_base:
+                    self.assertNotIn('--min-sdk-version', args)
+                    base_verified = True
+                else:
+                    self.assertTrue(base_verified, 'Base signature must be verified before any split')
+                    if '--min-sdk-version' not in args:
+                        return self.CompletedProcess(args, 1, '', 'ERROR: Missing META-INF/MANIFEST.MF')
+                    self.assertEqual(args[args.index('--min-sdk-version') + 1], str(minimum))
+                    if not split_valid:
+                        return self.CompletedProcess(args, 1, '', 'ERROR: invalid signature')
+                signer = 'a' if is_base else split_signer
+                output = 'Signer #1 certificate SHA-256 digest: ' + signer * 64 + '\nSigner #1 certificate SHA-1 digest: ' + signer * 40
+                return self.CompletedProcess(args, 0, output, '')
+            header = "package: name='org.example.app' versionCode='2'"
+            header += '\n' + label + ":'" + str(minimum) + "'" if is_base else " split='config.en'"
+            return self.CompletedProcess(args, 0, header, '')
+        return invoke
+
+    def test_resource_splits_use_verified_base_minimum_not_profile_sdk(self):
+        for minimum, label in ((33, 'minSdkVersion'), (26, 'sdkVersion')):
+            with self.subTest(minimum=minimum), patch('wystore_library.verification.subprocess.run', side_effect=self.tools(minimum, label)):
+                result = verify_manifest(self.manifest, self.root, 'org.example.app', 2, None, sdk=35)
+                self.assertEqual({f['name'] for f in result['files']}, {'base.apk', 'split.apk'})
+
+    def test_invalid_split_signature_is_not_ignored_with_base_context(self):
+        with patch('wystore_library.verification.subprocess.run', side_effect=self.tools(33, split_valid=False)):
+            with self.assertRaisesRegex(ValueError, 'APK inspection failed: apksigner'):
+                verify_manifest(self.manifest, self.root, 'org.example.app', 2, None, sdk=35)
+
+    def test_split_with_another_signer_is_rejected_with_base_context(self):
+        with patch('wystore_library.verification.subprocess.run', side_effect=self.tools(33, split_signer='c')):
+            with self.assertRaisesRegex(ValueError, 'split signatures differ'):
+                verify_manifest(self.manifest, self.root, 'org.example.app', 2, None, sdk=35)
+
+    def test_base_minimum_above_requested_sdk_is_rejected(self):
+        with patch('wystore_library.verification.subprocess.run', side_effect=self.tools(36)):
+            with self.assertRaisesRegex(ValueError, 'minimum Android SDK'):
+                verify_manifest(self.manifest, self.root, 'org.example.app', 2, None, sdk=35)
+
 class ProfileInspectionTests(unittest.TestCase):
     def inspect(self, output, sdk=None):
         from subprocess import CompletedProcess

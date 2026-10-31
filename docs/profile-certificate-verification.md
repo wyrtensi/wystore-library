@@ -7,8 +7,13 @@ determines which identity is recorded for future update continuity.
 
 ## Contract
 
-- Continue running full `apksigner verify --verbose --print-certs` without
-  reducing its Android SDK verification range. Tool failure rejects the APK.
+- Verify the base APK first with `apksigner verify --verbose --print-certs`.
+  Read its minimum SDK only after that signature check succeeds. Resource
+  splits can omit `uses-sdk`; verify them with the authenticated base minimum
+  via `--min-sdk-version`, leaving the maximum unbounded. This checks the
+  application's supported Android range instead of a standalone split's
+  implicit API 1. Never replace that minimum with the device profile SDK.
+  Any signature-verification failure rejects the APK.
 - Parse each APK signer certificate as one identity with paired SHA-256 and
   SHA-1 digests. Exclude Source Stamp and public-key fingerprints. Reject
   malformed or unsupported signer annotations, incomplete identities and

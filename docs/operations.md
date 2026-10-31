@@ -116,8 +116,10 @@ compare APK certificates with the listing's certificate metadata. All splits
 must agree, and later updates must retain the previously recorded signer.
 For APKs with different keys for different Android SDK ranges, the recorded
 signing identity uses the authenticated device SDK, which must agree with the
-downloaded manifest. Full cryptographic APK verification still covers all
-declared Android ranges.
+downloaded manifest. The base APK is verified first; its declared minimum SDK
+then supplies the verification context for splits that can omit `uses-sdk`.
+The upper SDK bound remains unrestricted, so verification covers the
+application's supported Android range rather than just the device profile.
 The optional `certificate_scope: {"mode": "android-sdk", "sdk": N}` field in
 the manifest and index, and the release notes, identify the Android SDK used
 for signer continuity. An absent field means the recorded fingerprints cover

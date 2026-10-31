@@ -33,6 +33,10 @@
 - [ ] Verify Git/GitHub identity, commit and push, run full publication for all
   55 apps, audit all release assets/manifests/index entries, and run again to
   confirm equal versions cause no APK download or upload.
+- [x] Reproduce Copilot resource split rejection and verify splits using the
+  already authenticated base APK's minimum SDK. Keep the upper SDK bound
+  unrestricted and reject invalid signatures, different signers and base SDKs
+  exceeding the selected profile.
 
 ## Review focus
 

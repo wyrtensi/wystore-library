@@ -30,11 +30,14 @@ class ApkInspection:
     certificate_sha256: set
     certificate_sha1: set
     certificate_scope: dict | None = None
+    min_sdk: int = 1
 
 
-def inspect_apk_details(path, sdk=None):
+def inspect_apk_details(path, sdk=None, verification_min_sdk=None):
     if sdk is not None and (type(sdk) is not int or sdk <= 0):
         raise ValueError('Invalid Android SDK')
+    if verification_min_sdk is not None and (type(verification_min_sdk) is not int or verification_min_sdk <= 0):
+        raise ValueError('Invalid verification minimum Android SDK')
     tool_output = {}
     def invoke(args):
         result = subprocess.run(args, capture_output=True, text=True, check=False)
@@ -42,12 +45,25 @@ def inspect_apk_details(path, sdk=None):
             raise ValueError('APK inspection failed: ' + args[0])
         tool_output[args[0]] = result
         return result.stdout
-    signature = invoke(['apksigner', 'verify', '--verbose', '--print-certs', str(path)])
+    command = ['apksigner', 'verify', '--verbose', '--print-certs']
+    if verification_min_sdk is not None:
+        command += ['--min-sdk-version', str(verification_min_sdk)]
+    signature = invoke(command + [str(path)])
     badging = invoke(['aapt2', 'dump', 'badging', str(path)])
     header = next((line for line in badging.splitlines() if line.startswith('package: ')), '')
     def field(name):
         found = re.search(r"(?:^|\s)" + name + r"='([^']*)'", header)
         return found.group(1) if found else ''
+    minimum_lines = [line.strip() for line in badging.splitlines()
+                     if re.match(r'^(?:minSdkVersion|sdkVersion):', line.strip())]
+    minimum_values = [re.fullmatch(r"(?:minSdkVersion|sdkVersion):'([0-9]+)'", line)
+                      for line in minimum_lines]
+    if any(value is None for value in minimum_values):
+        raise ValueError('Invalid minimum Android SDK metadata')
+    minimums = {int(value.group(1)) for value in minimum_values}
+    if len(minimums) > 1 or any(value <= 0 for value in minimums):
+        raise ValueError('Conflicting or invalid minimum Android SDK metadata')
+    minimum = next(iter(minimums), 1)
     # Build-tools 37 names APK signers by scheme. Source Stamp signers and
     # public-key fingerprints describe different identities and must not match.
     # Rotated signing keys can apply to different Android SDK ranges.
@@ -105,7 +121,7 @@ def inspect_apk_details(path, sdk=None):
                          f'signer labels: {", ".join(labels) or "none"}; manifest fields: {", ".join(fields) or "none"}; '
                          f'tool output: {json.dumps(details)})')
     scope = {'mode': 'android-sdk', 'sdk': sdk} if sdk is not None and all_pairs - selected else None
-    return ApkInspection(field('name'), int(field('versionCode')), field('split'), sha256, sha1, scope)
+    return ApkInspection(field('name'), int(field('versionCode')), field('split'), sha256, sha1, scope, minimum)
 
 
 def inspect_apk(path):
@@ -126,10 +142,17 @@ def verify_manifest(manifest, directory, package, version, previous, sdk=None):
     records = manifest.get('files')
     if not isinstance(records, list) or not records or manifest.get('bundle'):
         raise ValueError('Unsupported or empty delivery')
+    if any(not isinstance(record, dict) for record in records):
+        raise ValueError('Invalid downloaded file record')
+    bases = [record for record in records if record.get('role') == 'base']
+    if len(bases) != 1:
+        raise ValueError('APK set must contain one base')
+    ordered = bases + [record for record in records if record is not bases[0]]
     directory = Path(directory).resolve()
     names, splits, certs, scope = set(), set(), None, None
     public_files = []
-    for record in records:
+    base_minimum = None
+    for record in ordered:
         if not isinstance(record, dict) or not isinstance(record.get('local'), dict):
             raise ValueError('Invalid downloaded file record')
         name, role = record.get('name'), record.get('role')
@@ -150,7 +173,14 @@ def verify_manifest(manifest, directory, package, version, previous, sdk=None):
         provided = [(v, n, actual) for v, n, actual in checks if v]
         if not provided or any(digest(v, n) != actual for v, n, actual in provided):
             raise ValueError('APK differs from Google delivery hashes')
-        inspection = inspect_apk_details(path, sdk)
+        # Resource splits can omit uses-sdk. Their standalone default of API 1
+        # would incorrectly demand a JAR signature even when the verified base
+        # supports only newer Android. Keep the application's full SDK range.
+        inspection = inspect_apk_details(path, sdk, verification_min_sdk=base_minimum)
+        if role == 'base':
+            base_minimum = inspection.min_sdk
+            if sdk is not None and base_minimum > sdk:
+                raise ValueError('Application minimum Android SDK exceeds device profile')
         actual_package, actual_version, split = inspection.package, inspection.version_code, inspection.split
         signing256 = inspection.certificate_sha256
         if inspection.certificate_scope:
@@ -168,6 +198,8 @@ def verify_manifest(manifest, directory, package, version, previous, sdk=None):
         raise ValueError('APK set must contain one base')
     if previous is not None and set(previous) != certs:
         raise ValueError('Publisher signing certificate changed; manual review required')
+    order = {record['name']: position for position, record in enumerate(records)}
+    public_files.sort(key=lambda record: order[record['name']])
     result = {'package': package, 'version_code': version, 'certificate_sha256': sorted(certs), 'files': public_files}
     if scope:
         result['certificate_scope'] = scope
