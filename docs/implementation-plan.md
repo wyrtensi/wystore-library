@@ -43,7 +43,7 @@ Python orchestration and pinned Go playfetch backend.
   55 configured apps; retain explicit failures rather than substitute metadata.
 - [x] Review configuration, documentation and market-selection changes; verify
   secrets are absent; push and run the existing verified APK publication.
-- [ ] Audit live catalog/index coverage and an equal-version rerun without
+- [x] Audit live catalog/index coverage and an equal-version rerun without
   repeated APK downloads or uploads.
 - [x] Render README application rows from the update feed and refresh them after
   successful trusted APK or metadata jobs. Document the single-file client API.

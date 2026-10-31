@@ -30,7 +30,7 @@
 - [x] Run the full suite, workflow lint, metadata and privacy audits, then verify
   live Google Earth with its recorded profile signer and a deliberately wrong previous key.
   Obtain one independent whole-branch review and resolve material findings.
-- [ ] Verify Git/GitHub identity, commit and push, run full publication for all
+- [x] Verify Git/GitHub identity, commit and push, run full publication for all
   55 apps, audit all release assets/manifests/index entries, and run again to
   confirm equal versions cause no APK download or upload.
 - [x] Reproduce Copilot resource split rejection and verify splits using the
@@ -44,3 +44,18 @@ Malformed annotations cannot hide an extra signer. Both digests belong to one
 signer identity. Every split must match the recorded effective signing identity. Missing
 SDK and delivery SDK conflicts cannot select a certificate implicitly. Scope
 is explicit only when another identity is excluded; legacy assets stay reusable.
+
+## Verified publication
+
+- The Python suite contains 107 passing tests; workflow lint and public-data
+  privacy checks pass. Live Google Earth and Copilot APK sets pass complete
+  package, delivery-hash, signature and signer-continuity checks.
+- Run `41198277231` published the complete 55-app index. Run `41199752331`
+  skipped all 55 versions without APK transfers and completed current-only
+  cleanup, leaving exactly 55 releases and 55 managed tags.
+- Run `41200023750` detected a genuine Meta AI version advance. Its previous
+  release was removed, while the other 54 releases retained their IDs, asset
+  IDs, sizes and digests. The final audit verified 55 current sets and 186 APKs.
+- README workflow runs `41199848135` and `41200136268` completed successfully;
+  the latter updated the table from the changed index. The public feed and
+  README agree. No Android Wy Store client changes were made.
