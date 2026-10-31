@@ -36,6 +36,15 @@ class InspectionTests(unittest.TestCase):
         self.assertIn('"sha1_mentions": 1', message)
         self.assertNotIn('private-account', message)
 
+    def test_diagnostic_labels_keep_signer_scopes_before_digest_separator(self):
+        from subprocess import CompletedProcess
+        output = 'Signer #1: certificate SHA-256 digest: private-account-token'
+        with patch('wystore_library.verification.subprocess.run', side_effect=[CompletedProcess([], 0, output, ''), CompletedProcess([], 0, "package: name='org.example.app' versionCode='2'", '')]):
+            with self.assertRaises(ValueError) as error:
+                inspect_apk('base.apk')
+        self.assertIn('Signer #1: certificate SHA-256 digest', str(error.exception))
+        self.assertNotIn('private-account', str(error.exception))
+
 class VerificationTests(unittest.TestCase):
     def test_manifest_version_is_not_trusted(self):
         with TemporaryDirectory() as tmp:

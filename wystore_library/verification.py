@@ -46,8 +46,8 @@ def inspect_apk(path):
         fields = sorted(set(re.findall(r'([A-Za-z]+)=', header)))
         def shape(output):
             output = output or ''
-            prefixes = {line.partition(':')[0].strip()[:160] for line in output.splitlines()
-                        if ':' in line and re.search(r'\bSHA[- ]?(?:256|1)\b', line.partition(':')[0])}
+            prefixes = {line.rpartition(':')[0].strip()[:160] for line in output.splitlines()
+                        if ':' in line and re.search(r'\bSHA[- ]?(?:256|1)\b', line.rpartition(':')[0])}
             return {'bytes': len(output.encode('utf-8')), 'lines': len(output.splitlines()),
                     'sha256_mentions': len(re.findall(r'\bSHA[- ]?256\b', output)),
                     'sha1_mentions': len(re.findall(r'\bSHA[- ]?1\b', output)),
