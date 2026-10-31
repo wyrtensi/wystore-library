@@ -24,7 +24,7 @@ Artwork and metadata remain attributed to the respective app publishers.
 - [APK index](../library/index.json): latest complete verified set per package/profile.
 - [Versioned APK releases](https://github.com/wyrtensi/wystore-library/releases).
 
-The APK index remains empty until the first authenticated synchronization succeeds.
+The APK index references complete verified releases and their public manifests.
 Authenticated version checks and APK publication are separate stages. A populated
 metadata card does not imply that an APK has been downloaded or published.
 

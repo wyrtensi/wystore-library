@@ -5,7 +5,7 @@
 **An application library for [Wy Store](https://github.com/wyrtensi/wystore).**
 
 App descriptions, screenshots and release notes from Google Play.<br>
-A companion catalog preparing original app packages for Wy Store.
+A companion catalog with verified original app packages.
 
 [![Checks](https://github.com/wyrtensi/wystore-library/actions/workflows/verify.yml/badge.svg)](https://github.com/wyrtensi/wystore-library/actions/workflows/verify.yml)
 [![Metadata](https://github.com/wyrtensi/wystore-library/actions/workflows/metadata.yml/badge.svg)](https://github.com/wyrtensi/wystore-library/actions/workflows/metadata.yml)
@@ -84,16 +84,16 @@ Screenshots and icons come from the app publishers on Google Play. Full image se
 
 ## Where the apps come from
 
-This library uses **Google Play** as its source. Scheduled GitHub Actions collect metadata and provide a pipeline for checking, verifying and publishing app packages. Connecting the library to the Wy Store client is the next stage.
+This library uses **Google Play** as its source. Scheduled GitHub Actions collect metadata and publish verified original app packages. Connecting the library to the Wy Store client is the next stage.
 
 ```mermaid
 flowchart TB
     Publisher["App publishers"] --> Play["Google Play"]
     Play -->|"Descriptions, artwork and release notes"| Metadata["Collect metadata"]
-    Play -.->|"New versions and original APKs"| Verify["Download and verify APK sets"]
+    Play -->|"New versions and original APKs"| Verify["Download and verify APK sets"]
     subgraph Library["Wy Store Library · GitHub"]
         Metadata --> Catalog["Catalog and artwork<br/>library/"]
-        Verify -.-> Releases["Versioned APK sets<br/>GitHub Releases"]
+        Verify --> Releases["Current verified APK sets<br/>GitHub Releases"]
     end
     Catalog -.->|"Planned integration"| WyStore["Wy Store<br/>Install and update apps"]
     Releases -.-> WyStore
@@ -101,25 +101,23 @@ flowchart TB
     GitHub["App publishers on GitHub"] --> WyStore
     classDef source fill:#242b34,stroke:#66788f,color:#f0f3f7
     classDef ready fill:#23352e,stroke:#688e7a,color:#eef6f1
-    classDef pending fill:#302c30,stroke:#8a7b7e,color:#e0d7db,stroke-dasharray:5 4
     classDef store fill:#433026,stroke:#d88e6c,color:#fff0e7
     class Play,RuStore,GitHub,Publisher source
-    class Metadata,Catalog ready
-    class Verify,Releases pending
+    class Metadata,Catalog,Verify,Releases ready
     class WyStore store
 ```
 
-Solid lines show existing flows. Dashed lines mark APK publication being set up and planned library integration. Wy Store already supports RuStore and GitHub directly.
+Solid lines show existing flows. Dashed lines mark planned library integration. Wy Store already supports RuStore and GitHub directly.
 
 ### Current availability
 
 | Component | Status |
 | --- | --- |
 | Metadata, artwork and release notes for four apps | Published; scheduled refresh once daily |
-| APK verification and publication | Authenticated version checks pass; publication setup in progress |
+| Verified APKs for four apps | Published; checked once daily; current versions only |
 | Library integration with Wy Store | Planned; no Android client changes yet |
 
-The [app catalog](library/catalog.json) and [APK index](library/index.json) are separate. The APK index is currently empty: no verified APKs have been published yet. App metadata can be browsed independently.
+The [app catalog](library/catalog.json) and [APK index](library/index.json) are separate. The APK index points to complete verified releases and their public manifests. Descriptions, screenshots and release notes can also be browsed independently.
 
 ## How updates are prepared
 

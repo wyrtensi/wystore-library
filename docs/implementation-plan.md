@@ -20,14 +20,14 @@ Python orchestration and pinned Go playfetch backend.
 - [x] Integration: implement protected credentials bootstrap and PlayClient,
   trusted-branch-only workflows, schedule, documentation and dependency pins.
   Verify secrets are absent from staged files and public outputs.
-- [ ] Run full unit suite, live metadata refresh, authentication check and
+- [x] Run full unit suite, live metadata refresh, authentication check and
   trusted GitHub Actions runs. Obtain independent final branch review and
   resolve material findings before pushing the finished implementation.
 - [x] Schedule both workflows once daily and keep version checks before downloads.
 - [x] Add readable per-app releases and verified manifest hashes to the index.
 - [x] Add fail-closed cleanup of strictly older managed releases after index commit,
   with keeper preflight and retry without duplicate APK transfers.
-- [ ] Verify full publication for all four apps and an equal-version live rerun;
+- [x] Verify full publication for all four apps and an equal-version live rerun;
   update the public availability status only after successful runs.
 
 ## Review focus
@@ -43,11 +43,10 @@ historical archive supplied by Play.
 
 - Git identity and authenticated GitHub account both verified as wyrtensi.
 - New repository is isolated from the existing Android project.
-- Direct password login was refused by Google with BadAuthentication; no
-  token was printed or committed. Further authentication may require owner
-  interaction. Account details stored only in GitHub Secrets.
-- Browser login accepted the password but required phone/device verification.
-  The operator has been asked to complete that Google verification.
+- Initial authentication was refused by Google. After the operator completed
+  Google Play sign-in, a fresh one-time token exchange succeeded. Credentials
+  remain in GitHub Secrets with a local Windows DPAPI backup; no account values
+  are included in public artifacts.
 - Initial metadata dependency omitted release notes and disabled TLS checks;
   replaced it with a bounded standard-library reader with verified TLS.
 - Public index uses atomic GitHub Contents API updates, not mutable release
@@ -56,3 +55,10 @@ historical archive supplied by Play.
   one app failed after other cards had refreshed. The commit step now runs for
   a completed refresh even on failure, retaining the failed job status. Failed
   preliminary tests still prevent refresh/publication.
+- Live publication run `41178911537` completed for all four apps. Equal-version
+  run `41179129710` skipped all four packages; the index SHA, release IDs and
+  every asset ID, size and digest remained unchanged.
+- Metadata refresh run `41179193482` and the backend/Python verification passed.
+- Public manifests, releases, index and rerun logs were checked for private
+  account values. All four public manifests match their indexed digests and
+  contain only the intended public fields.
