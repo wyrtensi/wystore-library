@@ -817,18 +817,18 @@
         {
           "name": "base.apk",
           "role": "base",
-          "sha256": "5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d",
-          "size": 94854028,
+          "sha256": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+          "size": 95710457,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-px_9a-969602402/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-px_9a-969702176/base.apk"
         },
         {
           "name": "split_config.arm64_v8a.apk",
           "role": "split",
-          "sha256": "e13c869061f67dc8e35cbdb58157b2fdaddc4df534f5bacc195eb9788616d3d7",
-          "size": 187366977,
+          "sha256": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+          "size": 188760156,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-px_9a-969602402/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-px_9a-969702176/split_config.arm64_v8a.apk"
         }
       ],
       "certificate_scope": {
@@ -838,14 +838,14 @@
       "certificate_sha256": [
         "c56f50a826029dbd893a527103a224ca1ca2074ed79deee76fae18e1d6e6c768"
       ],
-      "manifest_sha256": "3f7839ec7f6361dec3fc5910028fc31f0735044a7f63ee85ebbfda93113f7169",
+      "manifest_sha256": "47c73bbac949ce5bd50394851afe5ae93926426a46915c5cee3fe1c0c61ed411",
       "manifest_size": 726,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-px_9a-969602402/manifest-public.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-px_9a-969702176/manifest-public.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.facebook.stella/metadata.json",
       "package": "com.facebook.stella",
       "profile": "px_9a",
-      "version_code": 969602402,
-      "version_name": "296.2.0.26.165"
+      "version_code": 969702176,
+      "version_name": "297.0.0.22.166"
     },
     {
       "assets": [
