@@ -27,6 +27,10 @@ There is no silent market fallback when a listing cannot be fetched.
 - [APK index](../library/index.json): latest complete verified set per package/profile.
 - [Versioned APK releases](https://github.com/wyrtensi/wystore-library/releases).
 
+Wy Store's single-request update endpoint and field contract are documented in
+the [client feed guide](client-feed.md). Clients compare numeric version codes
+from `library/index.json`; release titles are presentation only.
+
 The APK index references complete verified releases and their public manifests.
 Authenticated version checks and APK publication are separate stages. A populated
 metadata card does not imply that an APK has been downloaded or published.
@@ -41,6 +45,11 @@ This profile is useful for matching devices, but its SDK version is not an app m
   option reads native versions without downloading APKs.
 - **Verify library tooling**: Python tests and the pinned upstream backend build.
   Pull-request checks never receive Google account secrets.
+- **Refresh README catalog**: after successful trusted main-branch APK sync or
+  metadata refresh, and manually. It renders current version links from the
+  same APK index, updates only the marked catalog block, and preserves the rest
+  of the remotely read README with a compare-and-swap SHA. No Google secrets
+  are passed to this workflow.
 
 If one metadata fetch fails, successful updates for the other apps are still
 committed, the old failed card is retained, and the workflow remains failed so
@@ -148,10 +157,12 @@ current release can be checked before cleanup.
 
 Cleanup starts after synchronization and any atomic index write succeed. Every
 retained release must match the index by tag, uploaded asset names, sizes,
-SHA-256 digests and URLs before any deletion occurs. Only strictly older version
-tags belonging to configured package/profile pairs are removed, together with
-their release assets. Unrelated tags and newer releases awaiting recovery are
-preserved. Missing verification data stops cleanup without deleting anything.
+SHA-256 digests and URLs before any deletion occurs. Every other numeric version
+tag belonging to configured package/profile pairs is removed with its assets,
+including unindexed releases left by interrupted runs. The successfully
+published index is authoritative even if Play withdraws a newer rollout.
+Unrelated and manual tags are preserved. Missing verification data stops cleanup
+without deleting anything.
 
 Cleanup errors fail the job. A subsequent run with equal versions skips APK
 downloads and uploads, then retries cleanup. `check_only` does not publish or

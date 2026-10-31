@@ -1,60 +1,445 @@
 {
   "schema": 1,
   "apps": [
-    {"package": "com.planfixng", "profiles": ["px_9a"]},
-    {"package": "com.vivaldi.browser", "profiles": ["px_9a"]},
-    {"package": "com.brave.browser", "profiles": ["px_9a"]},
-    {"package": "org.mozilla.firefox", "profiles": ["px_9a"]},
-    {"package": "com.canva.editor", "profiles": ["px_9a"]},
-    {"package": "com.google.earth", "profiles": ["px_9a"]},
-    {"package": "com.strava", "profiles": ["px_9a"]},
-    {"package": "com.linkedin.android", "profiles": ["px_9a"]},
-    {"package": "com.amazon.kindle", "profiles": ["px_9a"]},
-    {"package": "com.myfitnesspal.android", "profiles": ["px_9a"]},
-    {"package": "com.runtastic.android", "profiles": ["px_9a"]},
-    {"package": "com.fitbit.FitbitMobile", "profiles": ["px_9a"]},
-    {"package": "com.weightwatchers.mobile", "profiles": ["px_9a"]},
-    {"package": "com.mcdonalds.mobileapp", "profiles": ["px_9a"]},
-    {"package": "com.starbucks.mobilecard", "profiles": ["px_9a"]},
-    {"package": "com.google.android.apps.chromecast.app", "profiles": ["px_9a"]},
-    {"package": "com.amazon.dee.app", "profiles": ["px_9a"]},
-    {"package": "com.amazon.flex.rabbit", "profiles": ["px_9a"]},
-    {"package": "com.google.android.apps.walletnfcrel", "profiles": ["px_9a"]},
-    {"package": "com.squareup.cash", "profiles": ["px_9a"]},
-    {"package": "com.myklarnamobile", "profiles": ["px_9a"]},
-    {"package": "com.amazon.mShop.android.shopping", "profiles": ["px_9a"]},
-    {"package": "com.einnovation.temu", "profiles": ["px_9a"]},
-    {"package": "com.contextlogic.wish", "profiles": ["px_9a"]},
-    {"package": "com.walmart.android", "profiles": ["px_9a"]},
-    {"package": "com.spotify.music", "profiles": ["px_9a"]},
-    {"package": "deezer.android.app", "profiles": ["px_9a"]},
-    {"package": "com.amazon.mp3", "profiles": ["px_9a"]},
-    {"package": "com.funcamerastudio.videomaker", "profiles": ["px_9a"]},
-    {"package": "com.bilibili.app.in", "profiles": ["px_9a"]},
-    {"package": "com.kwai.video", "profiles": ["px_9a"]},
-    {"package": "com.netflix.mediaclient", "profiles": ["px_9a"]},
-    {"package": "com.wbd.stream", "profiles": ["px_9a"]},
-    {"package": "com.amazon.avod.thirdpartyclient", "profiles": ["px_9a"]},
-    {"package": "com.disney.disneyplus", "profiles": ["px_9a"]},
-    {"package": "ai.perplexity.app.android", "profiles": ["px_9a"]},
-    {"package": "com.facebook.stella", "profiles": ["px_9a"]},
-    {"package": "ai.x.grok", "profiles": ["px_9a"]},
-    {"package": "com.microsoft.office.officehubrow", "profiles": ["px_9a"]},
-    {"package": "com.google.android.apps.bard", "profiles": ["px_9a"]},
-    {"package": "com.openai.chatgpt", "profiles": ["px_9a"]},
-    {"package": "com.anthropic.claude", "profiles": ["px_9a"]},
-    {"package": "com.thomsonreuters.reuters", "profiles": ["px_9a"]},
-    {"package": "com.abc.abcnews", "profiles": ["px_9a"]},
-    {"package": "com.particlenews.newsbreak", "profiles": ["px_9a"]},
-    {"package": "jp.gocro.smartnews.android", "profiles": ["px_9a"]},
-    {"package": "com.tinder", "profiles": ["px_9a"]},
-    {"package": "com.badoo.mobile", "profiles": ["px_9a"]},
-    {"package": "com.bumble.app", "profiles": ["px_9a"]},
-    {"package": "jp.naver.line.android", "profiles": ["px_9a"]},
-    {"package": "com.avast.android.mobilesecurity", "profiles": ["px_9a"]},
-    {"package": "com.antivirus", "profiles": ["px_9a"]},
-    {"package": "com.symantec.mobilesecurity", "profiles": ["px_9a"]},
-    {"package": "com.joytunes.simplypiano", "profiles": ["px_9a"]},
-    {"package": "com.joytunes.simplyguitar", "profiles": ["px_9a"]}
+    {
+      "package": "com.planfixng",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Planfix",
+      "category": "Productivity"
+    },
+    {
+      "package": "com.vivaldi.browser",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Vivaldi",
+      "category": "Browsers"
+    },
+    {
+      "package": "com.brave.browser",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Brave",
+      "category": "Browsers"
+    },
+    {
+      "package": "org.mozilla.firefox",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Firefox",
+      "category": "Browsers"
+    },
+    {
+      "package": "com.canva.editor",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Canva",
+      "category": "Creativity"
+    },
+    {
+      "package": "com.google.earth",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Google Earth",
+      "category": "Maps"
+    },
+    {
+      "package": "com.strava",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Strava",
+      "category": "Health & fitness"
+    },
+    {
+      "package": "com.linkedin.android",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "LinkedIn",
+      "category": "Social"
+    },
+    {
+      "package": "com.amazon.kindle",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Amazon Kindle",
+      "category": "Books"
+    },
+    {
+      "package": "com.myfitnesspal.android",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "MyFitnessPal",
+      "category": "Health & fitness"
+    },
+    {
+      "package": "com.runtastic.android",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "adidas Running",
+      "category": "Health & fitness"
+    },
+    {
+      "package": "com.fitbit.FitbitMobile",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Fitbit",
+      "category": "Health & fitness"
+    },
+    {
+      "package": "com.weightwatchers.mobile",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "WeightWatchers",
+      "category": "Health & fitness"
+    },
+    {
+      "package": "com.mcdonalds.mobileapp",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "McDonald's",
+      "category": "Food & drink"
+    },
+    {
+      "package": "com.starbucks.mobilecard",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Starbucks (US)",
+      "category": "Food & drink"
+    },
+    {
+      "package": "com.google.android.apps.chromecast.app",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Google Home",
+      "category": "Smart home"
+    },
+    {
+      "package": "com.amazon.dee.app",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Amazon Alexa",
+      "category": "Smart home"
+    },
+    {
+      "package": "com.amazon.flex.rabbit",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Amazon Flex",
+      "category": "Work"
+    },
+    {
+      "package": "com.google.android.apps.walletnfcrel",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Google Wallet",
+      "category": "Finance"
+    },
+    {
+      "package": "com.squareup.cash",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Cash App",
+      "category": "Finance"
+    },
+    {
+      "package": "com.myklarnamobile",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Klarna",
+      "category": "Shopping"
+    },
+    {
+      "package": "com.amazon.mShop.android.shopping",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Amazon Shopping",
+      "category": "Shopping"
+    },
+    {
+      "package": "com.einnovation.temu",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Temu",
+      "category": "Shopping"
+    },
+    {
+      "package": "com.contextlogic.wish",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Wish",
+      "category": "Shopping"
+    },
+    {
+      "package": "com.walmart.android",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Walmart",
+      "category": "Shopping"
+    },
+    {
+      "package": "com.spotify.music",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Spotify",
+      "category": "Music"
+    },
+    {
+      "package": "deezer.android.app",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Deezer",
+      "category": "Music"
+    },
+    {
+      "package": "com.amazon.mp3",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Amazon Music",
+      "category": "Music"
+    },
+    {
+      "package": "com.funcamerastudio.videomaker",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Filmigo",
+      "category": "Creativity"
+    },
+    {
+      "package": "com.bilibili.app.in",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Bilibili",
+      "category": "Video"
+    },
+    {
+      "package": "com.kwai.video",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Kwai",
+      "category": "Video"
+    },
+    {
+      "package": "com.netflix.mediaclient",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Netflix",
+      "category": "Video"
+    },
+    {
+      "package": "com.wbd.stream",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "HBO Max",
+      "category": "Video"
+    },
+    {
+      "package": "com.amazon.avod.thirdpartyclient",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Amazon Prime Video",
+      "category": "Video"
+    },
+    {
+      "package": "com.disney.disneyplus",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Disney+",
+      "category": "Video"
+    },
+    {
+      "package": "ai.perplexity.app.android",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Perplexity",
+      "category": "AI assistants"
+    },
+    {
+      "package": "com.facebook.stella",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Meta AI",
+      "category": "AI assistants"
+    },
+    {
+      "package": "ai.x.grok",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Grok",
+      "category": "AI assistants"
+    },
+    {
+      "package": "com.microsoft.office.officehubrow",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Microsoft Copilot",
+      "category": "AI assistants"
+    },
+    {
+      "package": "com.google.android.apps.bard",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Google Gemini",
+      "category": "AI assistants"
+    },
+    {
+      "package": "com.openai.chatgpt",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "ChatGPT",
+      "category": "AI assistants"
+    },
+    {
+      "package": "com.anthropic.claude",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Claude",
+      "category": "AI assistants"
+    },
+    {
+      "package": "com.thomsonreuters.reuters",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Reuters",
+      "category": "News"
+    },
+    {
+      "package": "com.abc.abcnews",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "ABC News",
+      "category": "News"
+    },
+    {
+      "package": "com.particlenews.newsbreak",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "NewsBreak",
+      "category": "News"
+    },
+    {
+      "package": "jp.gocro.smartnews.android",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "SmartNews",
+      "category": "News"
+    },
+    {
+      "package": "com.tinder",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Tinder",
+      "category": "Dating"
+    },
+    {
+      "package": "com.badoo.mobile",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Badoo",
+      "category": "Dating"
+    },
+    {
+      "package": "com.bumble.app",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Bumble",
+      "category": "Dating"
+    },
+    {
+      "package": "jp.naver.line.android",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "LINE",
+      "category": "Messaging"
+    },
+    {
+      "package": "com.avast.android.mobilesecurity",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Avast One",
+      "category": "Security"
+    },
+    {
+      "package": "com.antivirus",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "AVG AntiVirus",
+      "category": "Security"
+    },
+    {
+      "package": "com.symantec.mobilesecurity",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Norton 360",
+      "category": "Security"
+    },
+    {
+      "package": "com.joytunes.simplypiano",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Simply Piano",
+      "category": "Music education"
+    },
+    {
+      "package": "com.joytunes.simplyguitar",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Simply Guitar",
+      "category": "Music education"
+    }
   ]
 }

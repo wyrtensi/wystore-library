@@ -62,6 +62,33 @@ class Publisher:
         self.index_read = True
         return index
 
+    def read_readme(self):
+        raw = self._gh('api', f'repos/{self.repository}/contents/README.md?ref=main')
+        try:
+            response = json.loads(raw)
+            sha = response['sha']
+            if response.get('encoding') != 'base64' or not isinstance(sha, str) or not sha:
+                raise ValueError('Invalid README response')
+            content = base64.b64decode(''.join(response['content'].split()), validate=True).decode('utf-8')
+        except (KeyError, TypeError, ValueError, UnicodeError, binascii.Error):
+            raise ValueError('Invalid README response') from None
+        return content, sha
+
+    def write_readme(self, content, sha):
+        if not isinstance(content, str) or not isinstance(sha, str) or not sha:
+            raise ValueError('Invalid README update')
+        self._write_content('README.md', content.encode('utf-8'), sha,
+                            'Refresh the application catalog in the README.')
+
+    def _write_content(self, path, content, sha, message):
+        identity = {'name': 'wyrtensi', 'email': 'wyrtensi@gmail.com'}
+        body = {'message': message, 'content': base64.b64encode(content).decode('ascii'),
+                'branch': 'main', 'author': identity, 'committer': identity}
+        if sha is not None:
+            body['sha'] = sha
+        self._gh('api', '--method', 'PUT', f'repos/{self.repository}/contents/{path}',
+                 '--input', '-', input_data=json.dumps(body))
+
     def publish_release(self, tag, paths, expected, *, title=None, notes=None):
         def check_identity(value, expected_id=None):
             if (not isinstance(value, dict) or type(value.get('id')) is not int or value['id'] <= 0
@@ -156,7 +183,9 @@ class Publisher:
             tag = release['tag_name']
             for (package, profile), version in keepers.items():
                 match = re.fullmatch(re.escape(f'{package}-{profile}-') + r'([1-9][0-9]*)', tag)
-                if match and int(match.group(1)) < version:
+                # A completed index is authoritative even after Play rolls a
+                # version back. Interrupted runs must not leave extra releases.
+                if match and int(match.group(1)) != version:
                     tags.append(tag)
                     break
         for tag in tags:
@@ -165,10 +194,6 @@ class Publisher:
     def publish_index(self, path):
         if not self.index_read:
             raise RuntimeError('Index must be read before publication')
-        content = base64.b64encode(Path(path).read_bytes()).decode('ascii')
-        identity = {'name': 'wyrtensi', 'email': 'wyrtensi@gmail.com'}
-        body = {'message': 'Update library index', 'content': content, 'branch': 'main', 'author': identity, 'committer': identity}
-        if self.index_sha is not None:
-            body['sha'] = self.index_sha
-        self._gh('api', '--method', 'PUT', f'repos/{self.repository}/contents/library/index.json', '--input', '-', input_data=json.dumps(body))
+        self._write_content('library/index.json', Path(path).read_bytes(), self.index_sha,
+                            'Update library index')
         self.index_read = False

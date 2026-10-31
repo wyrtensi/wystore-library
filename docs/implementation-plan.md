@@ -25,7 +25,7 @@ Python orchestration and pinned Go playfetch backend.
   resolve material findings before pushing the finished implementation.
 - [x] Schedule both workflows once daily and keep version checks before downloads.
 - [x] Add readable per-app releases and verified manifest hashes to the index.
-- [x] Add fail-closed cleanup of strictly older managed releases after index commit,
+- [x] Add fail-closed cleanup of noncurrent managed releases after index commit,
   with keeper preflight and retry without duplicate APK transfers.
 - [x] Verify full publication for all four apps and an equal-version live rerun;
   update the public availability status only after successful runs.
@@ -41,10 +41,12 @@ Python orchestration and pinned Go playfetch backend.
   mixed-market request behavior in a failing test, then run the complete suite.
 - [x] Collect descriptions, icons, screenshots and changelog snapshots for all
   55 configured apps; retain explicit failures rather than substitute metadata.
-- [ ] Review configuration, documentation and market-selection changes; verify
+- [x] Review configuration, documentation and market-selection changes; verify
   secrets are absent; push and run the existing verified APK publication.
 - [ ] Audit live catalog/index coverage and an equal-version rerun without
   repeated APK downloads or uploads.
+- [x] Render README application rows from the update feed and refresh them after
+  successful trusted APK or metadata jobs. Document the single-file client API.
 
 ## Review focus
 

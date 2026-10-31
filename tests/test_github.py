@@ -73,7 +73,7 @@ class ReleaseCleanupTests(unittest.TestCase):
             {'name': 'manifest-public.json', 'size': 4, 'digest': 'sha256:' + 'b' * 64, 'state': 'uploaded', 'browser_download_url': 'https://example.test/manifest'}]}
         self.publisher.release = Mock(return_value=self.keeper)
 
-    def test_prune_paginates_and_only_deletes_older_managed_versions(self):
+    def test_prune_paginates_and_deletes_every_noncurrent_managed_version(self):
         import json
         from unittest.mock import Mock
         pages = [[{'tag_name': 'org.example.app-px_9a-9'}, {'tag_name': 'org.example.app-px_9a-10'}, {'tag_name': 'org.example.app-px_9a-11'}],
@@ -82,7 +82,7 @@ class ReleaseCleanupTests(unittest.TestCase):
         self.publisher.prune_releases([self.entry])
         self.publisher._gh.assert_any_call('api', 'repos/owner/repo/releases', '--paginate', '--slurp')
         deletes = [c.args for c in self.publisher._gh.call_args_list if c.args[:2] == ('release', 'delete')]
-        self.assertEqual(deletes, [('release', 'delete', 'org.example.app-px_9a-9', '--yes', '--cleanup-tag', '--repo', 'owner/repo'), ('release', 'delete', 'org.example.app-px_9a-1', '--yes', '--cleanup-tag', '--repo', 'owner/repo')])
+        self.assertEqual(deletes, [('release', 'delete', 'org.example.app-px_9a-9', '--yes', '--cleanup-tag', '--repo', 'owner/repo'), ('release', 'delete', 'org.example.app-px_9a-11', '--yes', '--cleanup-tag', '--repo', 'owner/repo'), ('release', 'delete', 'org.example.app-px_9a-1', '--yes', '--cleanup-tag', '--repo', 'owner/repo')])
 
     def test_all_keepers_are_verified_before_any_delete(self):
         from unittest.mock import Mock
