@@ -35,8 +35,11 @@ def inspect_apk(path):
     def field(name):
         found = re.search(r"(?:^|\s)" + name + r"='([^']*)'", header)
         return found.group(1) if found else ''
-    sha256 = {m.lower() for m in re.findall(r'Signer #\d+ certificate SHA-256 digest: ([0-9a-fA-F]{64})', signature)}
-    sha1 = {m.lower() for m in re.findall(r'Signer #\d+ certificate SHA-1 digest: ([0-9a-fA-F]{40})', signature)}
+    # Build-tools 37 names APK signers by scheme. Source Stamp signers and
+    # public-key fingerprints describe different identities and must not match.
+    signer = r'^[ \t]*(?:Signer #\d+:?|V(?:1|2|3\.[01]) Signer(?: #\d+)?:)[ \t]+certificate '
+    sha256 = {m.lower() for m in re.findall(signer + r'SHA-256 digest:[ \t]+([0-9a-fA-F]{64})[ \t]*$', signature, re.MULTILINE)}
+    sha1 = {m.lower() for m in re.findall(signer + r'SHA-1 digest:[ \t]+([0-9a-fA-F]{40})[ \t]*$', signature, re.MULTILINE)}
     if not sha256 or len(sha256) != len(sha1) or not field('versionCode').isdigit():
         # Tool versions can change labels. Report their structure, never raw
         # certificate values or other output that may contain private data.

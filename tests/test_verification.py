@@ -6,6 +6,29 @@ import hashlib
 from wystore_library.verification import inspect_apk, verify_manifest
 
 class InspectionTests(unittest.TestCase):
+    def test_build_tools_37_scheme_signer_excludes_source_stamp_and_public_key(self):
+        from subprocess import CompletedProcess
+        output = '\n'.join([
+            'V3.0 Signer: certificate SHA-256 digest: ' + 'a' * 64,
+            'V3.0 Signer: certificate SHA-1 digest: ' + 'b' * 40,
+            'V3.0 Signer: public key SHA-256 digest: ' + 'e' * 64,
+            'Source Stamp Signer: certificate SHA-256 digest: ' + 'c' * 64,
+            'Source Stamp Signer: certificate SHA-1 digest: ' + 'd' * 40,
+        ])
+        with patch('wystore_library.verification.subprocess.run', side_effect=[CompletedProcess([], 0, output, ''), CompletedProcess([], 0, "package: name='org.example.app' versionCode='2'", '')]):
+            try:
+                result = inspect_apk('base.apk')
+            except ValueError as error:
+                self.fail('Supported SDK 37 signer output was rejected: ' + str(error))
+        self.assertEqual(result, ('org.example.app', 2, '', {'a' * 64}, {'b' * 40}))
+
+    def test_source_stamp_alone_never_counts_as_an_app_signer(self):
+        from subprocess import CompletedProcess
+        output = 'Source Stamp Signer: certificate SHA-256 digest: ' + 'a' * 64 + '\nSource Stamp Signer: certificate SHA-1 digest: ' + 'b' * 40
+        with patch('wystore_library.verification.subprocess.run', side_effect=[CompletedProcess([], 0, output, ''), CompletedProcess([], 0, "package: name='org.example.app' versionCode='2'", '')]):
+            with self.assertRaises(ValueError):
+                inspect_apk('base.apk')
+
     def test_supported_tool_output_retains_package_version_and_both_digests(self):
         from subprocess import CompletedProcess
         output = 'Signer #1 certificate SHA-256 digest: ' + 'a' * 64 + '\nSigner #1 certificate SHA-1 digest: ' + 'b' * 40
