@@ -34,7 +34,15 @@ def inspect_apk(path):
     sha256 = {m.lower() for m in re.findall(r'Signer #\d+ certificate SHA-256 digest: ([0-9a-fA-F]{64})', signature)}
     sha1 = {m.lower() for m in re.findall(r'Signer #\d+ certificate SHA-1 digest: ([0-9a-fA-F]{40})', signature)}
     if not sha256 or len(sha256) != len(sha1) or not field('versionCode').isdigit():
-        raise ValueError('APK signature or package metadata missing')
+        # Tool versions can change labels. Report their structure, never raw
+        # certificate values or other output that may contain private data.
+        labels = sorted({line.partition(':')[0].strip() for line in signature.splitlines()
+                         if 'SHA-' in line.partition(':')[0]
+                         and re.fullmatch(r'Signer [A-Za-z0-9 #()=,._/\-]{1,160}', line.partition(':')[0].strip())})
+        fields = sorted(set(re.findall(r'([A-Za-z]+)=', header)))
+        raise ValueError('APK signature or package metadata missing '
+                         f'(sha256={len(sha256)}, sha1={len(sha1)}, version_code={field("versionCode").isdigit()}; '
+                         f'signer labels: {", ".join(labels) or "none"}; aapt fields: {", ".join(fields) or "none"})')
     return field('name'), int(field('versionCode')), field('split'), sha256, sha1
 
 
