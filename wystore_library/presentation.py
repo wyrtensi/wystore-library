@@ -12,6 +12,12 @@ def markdown(value):
     return re.sub(r'([\\`|*_\[\]<>])', r'\\\1', text(value))
 
 
+def code(value):
+    fence = '`' * (max((len(run) for run in re.findall(r'`+', value)), default=0) + 1)
+    padding = ' ' if value.startswith(('`', ' ')) or value.endswith(('`', ' ')) else ''
+    return fence + padding + value.replace('|', r'\|') + padding + fence
+
+
 def release_presentation(app, profile, device, verified):
     package = app['package']
     name = text(app.get('title')) or package
@@ -28,7 +34,7 @@ def release_presentation(app, profile, device, verified):
     if device.get('release'):
         lines.append(f'- Android: **{markdown(device["release"])}** (SDK {device["sdk"]}).')
     if device.get('abis'):
-        lines.append('- Architecture: ' + ', '.join(f'`{markdown(abi)}`' for abi in device['abis']) + '.')
+        lines.append('- Architecture: ' + ', '.join(code(abi) for abi in device['abis']) + '.')
     if device.get('density'):
         lines.append(f'- Density: **{device["density"]} dpi**.')
     lines += [
@@ -44,7 +50,7 @@ def release_presentation(app, profile, device, verified):
         '| --- | ---: | --- |',
     ]
     for asset in verified['files']:
-        lines.append(f'| `{markdown(asset["name"])}` | {asset["size"]:,} bytes | `{asset["sha256"]}` |')
+        lines.append(f'| {code(asset["name"])} | {asset["size"]:,} bytes | `{asset["sha256"]}` |')
     lines += ['', '### Signing certificate SHA-256', '']
     lines += [f'- `{certificate}`' for certificate in verified['certificate_sha256']]
     lines += ['', 'Only the current verified version is retained for this app and device profile.']
