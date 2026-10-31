@@ -163,3 +163,51 @@ class ReleaseCleanupTests(unittest.TestCase):
         self.publisher._gh = Mock(return_value=json.dumps([[{'tag_name': 'org.example.app-px_9a-2'}], [{'invalid': True}]]))
         with self.assertRaises(ValueError): self.publisher.prune_releases([self.entry])
         self.assertFalse(any(c.args[:2] == ('release', 'delete') for c in self.publisher._gh.call_args_list))
+
+class ReleaseLookupTests(unittest.TestCase):
+    def setUp(self):
+        from unittest.mock import Mock
+        self.publisher = Publisher('owner/repo')
+        self.publisher._gh = Mock()
+        self.tag = 'org.example.app-px_9a-10'
+
+    def test_404_finds_exact_draft_on_later_page(self):
+        import json
+        draft = {'tag_name': self.tag, 'draft': True, 'assets': []}
+        self.publisher._gh.side_effect = [None, json.dumps([[{'tag_name': self.tag + '-other'}], [draft]])]
+        self.assertEqual(self.publisher.release(self.tag), draft)
+        self.assertEqual(self.publisher._gh.call_args_list[1].args, ('api', 'repos/owner/repo/releases', '--paginate', '--slurp'))
+
+    def test_public_release_lookup_does_not_list(self):
+        import json
+        release = {'tag_name': self.tag, 'draft': False}
+        self.publisher._gh.return_value = json.dumps(release)
+        self.assertEqual(self.publisher.release(self.tag), release)
+        self.publisher._gh.assert_called_once()
+
+    def test_404_without_matching_release_returns_none(self):
+        import json
+        self.publisher._gh.side_effect = [None, json.dumps([[{'tag_name': 'different'}], []])]
+        self.assertIsNone(self.publisher.release(self.tag))
+        self.assertEqual(self.publisher._gh.call_count, 2)
+
+    def test_ambiguous_or_malformed_listing_never_creates_release(self):
+        import json
+        for pages in ([[{'tag_name': self.tag}], [{'tag_name': self.tag}]], [[{'tag_name': ''}]], [[{'tag_name': None}]], [None], {'tag_name': self.tag}):
+            with self.subTest(pages=pages):
+                self.publisher._gh.reset_mock()
+                self.publisher._gh.side_effect = [None, json.dumps(pages)]
+                with self.assertRaises((ValueError, RuntimeError)): self.publisher.publish_release(self.tag, [], {})
+                self.assertFalse(any(c.args[:2] == ('release', 'create') for c in self.publisher._gh.call_args_list))
+
+    def test_existing_draft_is_resumed_and_reloaded_after_upload(self):
+        import json
+        draft = {'tag_name': self.tag, 'draft': True, 'assets': []}
+        asset = {'name': 'base.apk', 'size': 3, 'digest': 'sha256:' + 'a' * 64, 'state': 'uploaded', 'browser_download_url': 'https://example.test/base'}
+        uploaded = {**draft, 'assets': [asset]}
+        published = {**uploaded, 'draft': False}
+        self.publisher._gh.side_effect = [None, json.dumps([[draft]]), '', None, json.dumps([[uploaded]]), '', json.dumps(published)]
+        result = self.publisher.publish_release(self.tag, ['base.apk'], {'base.apk': {'size': 3, 'sha256': 'a' * 64}})
+        self.assertEqual(result, {'base.apk': 'https://example.test/base'})
+        self.assertFalse(any(c.args[:2] == ('release', 'create') for c in self.publisher._gh.call_args_list))
+        self.publisher._gh.assert_any_call('release', 'upload', self.tag, 'base.apk', '--repo', 'owner/repo')

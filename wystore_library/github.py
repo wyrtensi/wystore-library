@@ -21,9 +21,26 @@ class Publisher:
             raise RuntimeError('GitHub operation failed: gh ' + ' '.join(args[:2]))
         return result.stdout
 
+    def _list_releases(self):
+        pages = json.loads(self._gh('api', f'repos/{self.repository}/releases', '--paginate', '--slurp'))
+        if not isinstance(pages, list) or any(not isinstance(page, list) for page in pages):
+            raise ValueError('Invalid releases response')
+        releases = []
+        for page in pages:
+            for release in page:
+                if not isinstance(release, dict) or not isinstance(release.get('tag_name'), str) or not release['tag_name']:
+                    raise ValueError('Invalid release in response')
+                releases.append(release)
+        return releases
+
     def release(self, tag):
         raw = self._gh('api', f'repos/{self.repository}/releases/tags/{tag}', allow_not_found=True)
-        return json.loads(raw) if raw is not None else None
+        if raw is not None:
+            return json.loads(raw)
+        matches = [release for release in self._list_releases() if release['tag_name'] == tag]
+        if len(matches) > 1:
+            raise ValueError('Multiple releases match the same tag')
+        return matches[0] if matches else None
 
     def read_index(self):
         raw = self._gh('api', f'repos/{self.repository}/contents/library/index.json?ref=main', allow_not_found=True)
@@ -116,20 +133,14 @@ class Publisher:
             keepers[(package, profile)] = version
         if not keepers:
             return
-        pages = json.loads(self._gh('api', f'repos/{self.repository}/releases', '--paginate', '--slurp'))
-        if not isinstance(pages, list) or any(not isinstance(page, list) for page in pages):
-            raise ValueError('Invalid releases response')
         tags = []
-        for page in pages:
-            for release in page:
-                if not isinstance(release, dict) or not isinstance(release.get('tag_name'), str):
-                    raise ValueError('Invalid release in response')
-                tag = release['tag_name']
-                for (package, profile), version in keepers.items():
-                    match = re.fullmatch(re.escape(f'{package}-{profile}-') + r'([1-9][0-9]*)', tag)
-                    if match and int(match.group(1)) < version:
-                        tags.append(tag)
-                        break
+        for release in self._list_releases():
+            tag = release['tag_name']
+            for (package, profile), version in keepers.items():
+                match = re.fullmatch(re.escape(f'{package}-{profile}-') + r'([1-9][0-9]*)', tag)
+                if match and int(match.group(1)) < version:
+                    tags.append(tag)
+                    break
         for tag in tags:
             self._gh('release', 'delete', tag, '--yes', '--cleanup-tag', '--repo', self.repository)
 
