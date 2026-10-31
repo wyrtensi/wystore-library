@@ -1,4 +1,161 @@
 {
-  "schema": 1,
-  "entries": []
+  "entries": [
+    {
+      "assets": [
+        {
+          "name": "base.apk",
+          "role": "base",
+          "sha256": "a6b2bd501265916e18fcdb34882f0d689550b1142454e37f5281380a6f4b949c",
+          "size": 256900527,
+          "split": "",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-px_9a-429806004/base.apk"
+        },
+        {
+          "name": "split_chrome.apk",
+          "role": "split",
+          "sha256": "a909b25ba25fe60829806d6927dfd3d52c60d3ae66349148ab6ae6ad9a890d5b",
+          "size": 10682633,
+          "split": "chrome",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-px_9a-429806004/split_chrome.apk"
+        },
+        {
+          "name": "split_config.en.apk",
+          "role": "split",
+          "sha256": "bf2ce187b5e25316f5d18b013653fbb9d8d6c5f9a49bf0e33c2dfee05de483da",
+          "size": 373544,
+          "split": "config.en",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-px_9a-429806004/split_config.en.apk"
+        },
+        {
+          "name": "split_on_demand.apk",
+          "role": "split",
+          "sha256": "2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8",
+          "size": 1499343,
+          "split": "on_demand",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-px_9a-429806004/split_on_demand.apk"
+        }
+      ],
+      "certificate_sha256": [
+        "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+      ],
+      "manifest_sha256": "949ecbf7a3ef245f416add11371d70691370ae2d8e2d81260145292882bca042",
+      "manifest_size": 1039,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-px_9a-429806004/manifest-public.json",
+      "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.brave.browser/metadata.json",
+      "package": "com.brave.browser",
+      "profile": "px_9a",
+      "version_code": 429806004,
+      "version_name": "1.98.60"
+    },
+    {
+      "assets": [
+        {
+          "name": "base.apk",
+          "role": "base",
+          "sha256": "4798ec3b40877b06feb77b4200fefb470ca6a80c27579422790abe064f8c287d",
+          "size": 52293165,
+          "split": "",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.planfixng-px_9a-1228/base.apk"
+        },
+        {
+          "name": "split_config.arm64_v8a.apk",
+          "role": "split",
+          "sha256": "a7ee6ff69e7fedff1df332dd5197e7e73d327870001d135c89971fdca4b6017f",
+          "size": 78461874,
+          "split": "config.arm64_v8a",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.planfixng-px_9a-1228/split_config.arm64_v8a.apk"
+        },
+        {
+          "name": "split_config.xxhdpi.apk",
+          "role": "split",
+          "sha256": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e",
+          "size": 190973,
+          "split": "config.xxhdpi",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.planfixng-px_9a-1228/split_config.xxhdpi.apk"
+        }
+      ],
+      "certificate_sha256": [
+        "5dc8c0426d0baf6d6e43cf73c039cc6785c8249bf5f3101ddf033cb960d9d700"
+      ],
+      "manifest_sha256": "31a3a7699ec44b0372697f19c2424ebb77787b205afcccc0cb62fc6513d85089",
+      "manifest_size": 849,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.planfixng-px_9a-1228/manifest-public.json",
+      "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.planfixng/metadata.json",
+      "package": "com.planfixng",
+      "profile": "px_9a",
+      "version_code": 1228,
+      "version_name": "0.74.2"
+    },
+    {
+      "assets": [
+        {
+          "name": "base.apk",
+          "role": "base",
+          "sha256": "5d0b2fbd800ce7a5ebe6d372095a0f4f0d39d8dabfedf2d77b1efc8f6db9f9e2",
+          "size": 342690939,
+          "split": "",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-px_9a-541470201/base.apk"
+        },
+        {
+          "name": "split_chrome.apk",
+          "role": "split",
+          "sha256": "33068abe7c5ace24d72859a644b58997b423dec8ea5e399cf8395528544adbc8",
+          "size": 8200459,
+          "split": "chrome",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-px_9a-541470201/split_chrome.apk"
+        }
+      ],
+      "certificate_sha256": [
+        "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
+      ],
+      "manifest_sha256": "2ed90bef18bb59cffef6b7e94c02087050b1a634000a01df17f213110bb1ddc1",
+      "manifest_size": 632,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-px_9a-541470201/manifest-public.json",
+      "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.vivaldi.browser/metadata.json",
+      "package": "com.vivaldi.browser",
+      "profile": "px_9a",
+      "version_code": 541470201,
+      "version_name": "8.2.4147.201"
+    },
+    {
+      "assets": [
+        {
+          "name": "base.apk",
+          "role": "base",
+          "sha256": "b9795bf3f85138ce1d884a4aabe200cf3172cb729f39e44e47df5088736cfcc3",
+          "size": 68569153,
+          "split": "",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/org.mozilla.firefox-px_9a-2016191887/base.apk"
+        },
+        {
+          "name": "split_config.arm64_v8a.apk",
+          "role": "split",
+          "sha256": "be049442185f98ad933d5f8cb0c0ccbac99b4e6e477a7c9141b1ae9a8928fbaa",
+          "size": 200758766,
+          "split": "config.arm64_v8a",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/org.mozilla.firefox-px_9a-2016191887/split_config.arm64_v8a.apk"
+        },
+        {
+          "name": "split_config.xxhdpi.apk",
+          "role": "split",
+          "sha256": "d8e3d6fee26a8fb634439e18e214707abc781062e58a689d4c8006bb13d646e8",
+          "size": 82902,
+          "split": "config.xxhdpi",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/org.mozilla.firefox-px_9a-2016191887/split_config.xxhdpi.apk"
+        }
+      ],
+      "certificate_sha256": [
+        "a78b62a5165b4494b2fead9e76a280d22d937fee6251aece599446b2ea319b04"
+      ],
+      "manifest_sha256": "47f9042571175c6e90ec0e157303c09a0bf76801cf5d9ec3c813c8cd2c6db94e",
+      "manifest_size": 860,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/org.mozilla.firefox-px_9a-2016191887/manifest-public.json",
+      "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/org.mozilla.firefox/metadata.json",
+      "package": "org.mozilla.firefox",
+      "profile": "px_9a",
+      "version_code": 2016191887,
+      "version_name": "159.0"
+    }
+  ],
+  "schema": 1
 }
