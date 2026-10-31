@@ -1,0 +1,87 @@
+diff --git a/internal/play/client.go b/internal/play/client.go
+index 7261e7e..be66abf 100644
+--- a/internal/play/client.go
++++ b/internal/play/client.go
+@@ -453,6 +453,9 @@ func (c *Client) Details(ctx context.Context, pkg string) (*AppInfo, error) {
+ 		CertHashes:  ad.GetCertificateHash(),
+ 		OfferType:   1,
+ 	}
++	for _, group := range ad.GetCertificateSet() {
++		info.CertHashes = append(info.CertHashes, group.GetSha256()...)
++	}
+ 	if offers := item.GetOffer(); len(offers) > 0 {
+ 		info.OfferType = offers[0].GetOfferType()
+ 		info.Free = offers[0].GetMicros() == 0
+diff --git a/internal/play/details_certificate_test.go b/internal/play/details_certificate_test.go
+new file mode 100644
+index 0000000..4dd5997
+--- /dev/null
++++ b/internal/play/details_certificate_test.go
+@@ -0,0 +1,67 @@
++package play
++
++import (
++	"context"
++	"net/http"
++	"net/http/httptest"
++	"net/url"
++	"reflect"
++	"testing"
++
++	"github.com/Exmeaning/playfetch/internal/gplay"
++	"google.golang.org/protobuf/proto"
++)
++
++type localDetailsTransport struct {
++	target *url.URL
++	base   http.RoundTripper
++}
++
++func (tr localDetailsTransport) RoundTrip(req *http.Request) (*http.Response, error) {
++	clone := req.Clone(req.Context())
++	clone.URL.Scheme, clone.URL.Host = tr.target.Scheme, tr.target.Host
++	return tr.base.RoundTrip(clone)
++}
++
++func TestDetailsCertificateHashes(t *testing.T) {
++	tests := []struct {
++		name   string
++		legacy []string
++		sets   []*gplay.CertificateSet
++		want   []string
++	}{
++		{name: "legacy", legacy: []string{"legacy"}, want: []string{"legacy"}},
++		{name: "certificate set SHA256 only", sets: []*gplay.CertificateSet{{CertificateHash: []string{"sha1"}, Sha256: []string{"sha256"}}}, want: []string{"sha256"}},
++		{name: "legacy and multiple sets", legacy: []string{"legacy"}, sets: []*gplay.CertificateSet{{CertificateHash: []string{"sha1-a"}, Sha256: []string{"sha256-a"}}, {CertificateHash: []string{"sha1-b"}, Sha256: []string{"sha256-b", "sha256-c"}}}, want: []string{"legacy", "sha256-a", "sha256-b", "sha256-c"}},
++		{name: "missing certificates"},
++		{name: "set without SHA256", sets: []*gplay.CertificateSet{{CertificateHash: []string{"sha1"}}}},
++	}
++	for _, tt := range tests {
++		t.Run(tt.name, func(t *testing.T) {
++			data, err := proto.Marshal(&gplay.ResponseWrapper{Payload: &gplay.Payload{DetailsResponse: &gplay.DetailsResponse{Item: &gplay.Item{Details: &gplay.DocumentDetails{AppDetails: &gplay.AppDetails{CertificateHash: tt.legacy, CertificateSet: tt.sets}}}}}})
++			if err != nil {
++				t.Fatal(err)
++			}
++			server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
++				if r.Method != http.MethodGet || r.URL.Path != "/fdfe/details" || r.URL.Query().Get("doc") != "test.package" {
++					http.Error(w, "unexpected request", http.StatusBadRequest)
++					return
++				}
++				_, _ = w.Write(data)
++			}))
++			defer server.Close()
++			target, err := url.Parse(server.URL)
++			if err != nil {
++				t.Fatal(err)
++			}
++			client := NewClient(&Device{}, &http.Client{Transport: localDetailsTransport{target: target, base: http.DefaultTransport}})
++			info, err := client.Details(context.Background(), "test.package")
++			if err != nil {
++				t.Fatal(err)
++			}
++			if !reflect.DeepEqual(info.CertHashes, tt.want) {
++				t.Errorf("CertHashes = %v, want %v", info.CertHashes, tt.want)
++			}
++		})
++	}
++}

@@ -25,9 +25,8 @@ Artwork and metadata remain attributed to the respective app publishers.
 - [Versioned APK releases](https://github.com/wyrtensi/wystore-library/releases).
 
 The APK index remains empty until the first authenticated synchronization succeeds.
-An AAS token has been saved privately, but Google Play session requests currently
-return `BadAuthentication`; no APKs have been published. A populated metadata card does not imply
-that an APK has been downloaded or published.
+Authenticated version checks and APK publication are separate stages. A populated
+metadata card does not imply that an APK has been downloaded or published.
 
 The initial device profile is Pixel 9a: Android SDK 35, arm64-v8a, 420 dpi.
 These are device-specific APK sets, not universal APKs. Other profiles can be
@@ -135,13 +134,24 @@ python -m wystore_library.metadata --config apps.json --output library
 APK synchronization additionally requires `gh`, Android build-tools (`aapt` and
 `apksigner`) and the pinned [playfetch](https://github.com/Exmeaning/playfetch)
 commit `8bf14e52133d9609ad91ff830252414716d79017` in PATH. GitHub Actions builds
-that commit from source. It is used as an external GPL-3.0-or-later tool; it is
-not bundled into the Wy Store Android app.
+that commit from source with
+[`patches/playfetch-certificate-sets.patch`](../patches/playfetch-certificate-sets.patch).
+The patch includes regression tests and adds SHA-256 signing-certificate hashes
+from Google's `AppDetails.certificateSet` field alongside the legacy certificate
+list. Package, delivery-hash, APK-signature, split and signer-continuity checks
+remain mandatory. Both verification and synchronization apply the same patch
+and run the backend tests before building.
+
+For local backend builds, apply that patch to the pinned source before running
+`go test ./...` and `go build ./cmd/playfetch`.
+The backend and its compatibility patch are GPL-3.0-or-later, with license text in
+[`patches/LICENSE`](../patches/LICENSE). The backend is not bundled into the
+Wy Store Android app.
 
 The operator must have permission to redistribute each APK and comply with
 publisher licenses and Google Play terms. A free download does not itself grant
 redistribution permission. Access may change with account region, device profile,
 publisher policy or Google's unofficial protocol.
 
-The MIT license covers this repository's tooling only. Third-party applications,
-artwork and external tools retain their own licenses and terms.
+The MIT license covers the Python orchestration. The backend patch, third-party
+applications, artwork and external tools retain their own licenses and terms.

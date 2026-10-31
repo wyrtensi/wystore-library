@@ -9,7 +9,7 @@ A companion catalog preparing original app packages for Wy Store.
 
 [![Checks](https://github.com/wyrtensi/wystore-library/actions/workflows/verify.yml/badge.svg)](https://github.com/wyrtensi/wystore-library/actions/workflows/verify.yml)
 [![Metadata](https://github.com/wyrtensi/wystore-library/actions/workflows/metadata.yml/badge.svg)](https://github.com/wyrtensi/wystore-library/actions/workflows/metadata.yml)
-[![License](https://img.shields.io/badge/tooling-MIT-A85A38?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/orchestration-MIT-A85A38?style=flat-square)](LICENSE)
 
 [**Wy Store**](https://github.com/wyrtensi/wystore) · [**Download Wy Store**](https://github.com/wyrtensi/wystore/releases/latest/download/wystore.apk) · [**Catalog**](library/catalog.json) · [**APK releases**](https://github.com/wyrtensi/wystore-library/releases)
 
@@ -116,7 +116,7 @@ Solid lines show existing flows. Dashed lines mark APK publication being set up 
 | Component | Status |
 | --- | --- |
 | Metadata, artwork and release notes for four apps | Published; scheduled refresh every 6 hours |
-| APK verification and publication | Pipeline configured; Google Play access is currently blocked |
+| APK verification and publication | Authenticated version checks pass; publication setup in progress |
 | Library integration with Wy Store | Planned; no Android client changes yet |
 
 The [app catalog](library/catalog.json) and [APK index](library/index.json) are separate. The APK index is currently empty: no verified APKs have been published yet. App metadata can be browsed independently.
@@ -152,4 +152,4 @@ Library clients receive app data only. Source credentials stay in GitHub Secrets
 
 ---
 
-Library tooling is licensed under [MIT](LICENSE). Apps, trademarks, descriptions and artwork retain their publishers’ rights and distribution terms. Wy Store Library is independent of Google and the listed app publishers.
+Python orchestration is licensed under [MIT](LICENSE); the backend compatibility patch is [GPL-3.0-or-later](patches/LICENSE). Apps, trademarks, descriptions and artwork retain their publishers’ rights and distribution terms. Wy Store Library is independent of Google and the listed app publishers.

@@ -48,6 +48,11 @@ jobs:
           ref: 8bf14e52133d9609ad91ff830252414716d79017
           path: backend
           persist-credentials: false
+      - name: Apply certificate metadata compatibility patch
+        working-directory: backend
+        run: |
+          git apply --check ../library/patches/playfetch-certificate-sets.patch
+          git apply ../library/patches/playfetch-certificate-sets.patch
       - uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
         with:
           go-version-file: backend/go.mod
@@ -55,6 +60,7 @@ jobs:
       - name: Build pinned backend
         working-directory: backend
         run: |
+          go test ./...
           go build -trimpath -o "$RUNNER_TEMP/playfetch" ./cmd/playfetch
           echo "$RUNNER_TEMP" >> "$GITHUB_PATH"
       - name: Locate APK verification tools
