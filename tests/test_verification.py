@@ -24,6 +24,18 @@ class InspectionTests(unittest.TestCase):
         self.assertIn('Signer #1 (SDK=35) certificate SHA-256 digest', str(error.exception))
         self.assertNotIn('private-account', str(error.exception))
 
+    def test_diagnostics_distinguish_empty_stdout_from_certificate_lines_on_stderr(self):
+        from subprocess import CompletedProcess
+        stderr = 'Signer #1 certificate SHA-256 digest: private-account-token\nSigner #1 certificate SHA-1 digest: private-account-email'
+        with patch('wystore_library.verification.subprocess.run', side_effect=[CompletedProcess([], 0, '', stderr), CompletedProcess([], 0, "package: name='org.example.app' versionCode='2'", '')]):
+            with self.assertRaises(ValueError) as error:
+                inspect_apk('base.apk')
+        message = str(error.exception)
+        self.assertIn('"stdout": {"bytes": 0', message)
+        self.assertIn('"sha256_mentions": 1', message)
+        self.assertIn('"sha1_mentions": 1', message)
+        self.assertNotIn('private-account', message)
+
 class VerificationTests(unittest.TestCase):
     def test_manifest_version_is_not_trusted(self):
         with TemporaryDirectory() as tmp:

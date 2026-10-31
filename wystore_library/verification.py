@@ -1,7 +1,9 @@
 """Verify downloaded APK sets before they can be published."""
 import base64
 import hashlib
+import json
 import re
+import shutil
 import subprocess
 from pathlib import Path
 
@@ -20,10 +22,12 @@ def digest(value, size):
 
 
 def inspect_apk(path):
+    tool_output = {}
     def invoke(args):
         result = subprocess.run(args, capture_output=True, text=True, check=False)
         if result.returncode:
             raise ValueError('APK inspection failed: ' + args[0])
+        tool_output[args[0]] = result
         return result.stdout
     signature = invoke(['apksigner', 'verify', '--verbose', '--print-certs', str(path)])
     badging = invoke(['aapt', 'dump', 'badging', str(path)])
@@ -40,9 +44,21 @@ def inspect_apk(path):
                          if 'SHA-' in line.partition(':')[0]
                          and re.fullmatch(r'Signer [A-Za-z0-9 #()=,._/\-]{1,160}', line.partition(':')[0].strip())})
         fields = sorted(set(re.findall(r'([A-Za-z]+)=', header)))
+        def shape(output):
+            output = output or ''
+            prefixes = {line.partition(':')[0].strip()[:160] for line in output.splitlines()
+                        if ':' in line and re.search(r'\bSHA[- ]?(?:256|1)\b', line.partition(':')[0])}
+            return {'bytes': len(output.encode('utf-8')), 'lines': len(output.splitlines()),
+                    'sha256_mentions': len(re.findall(r'\bSHA[- ]?256\b', output)),
+                    'sha1_mentions': len(re.findall(r'\bSHA[- ]?1\b', output)),
+                    'certificate_mentions': output.lower().count('certificate'),
+                    'signer_mentions': output.count('Signer'), 'labels': sorted(prefixes)}
+        details = {tool: {'executable': shutil.which(tool), 'stdout': shape(result.stdout),
+                          'stderr': shape(result.stderr)} for tool, result in tool_output.items()}
         raise ValueError('APK signature or package metadata missing '
                          f'(sha256={len(sha256)}, sha1={len(sha1)}, version_code={field("versionCode").isdigit()}; '
-                         f'signer labels: {", ".join(labels) or "none"}; aapt fields: {", ".join(fields) or "none"})')
+                         f'signer labels: {", ".join(labels) or "none"}; aapt fields: {", ".join(fields) or "none"}; '
+                         f'tool output: {json.dumps(details)})')
     return field('name'), int(field('versionCode')), field('split'), sha256, sha1
 
 
