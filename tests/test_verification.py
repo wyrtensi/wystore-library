@@ -6,6 +6,37 @@ import hashlib
 from wystore_library.verification import inspect_apk, verify_manifest
 
 class InspectionTests(unittest.TestCase):
+    def test_rotated_signers_include_each_sdk_range_and_exclude_other_identities(self):
+        from subprocess import CompletedProcess
+        output = '\n'.join([
+            'V3.0 Signer: (minSdkVersion=24, maxSdkVersion=32) certificate SHA-256 digest: ' + 'a' * 64,
+            'V3.0 Signer: (minSdkVersion=24, maxSdkVersion=32) certificate SHA-1 digest: ' + 'b' * 40,
+            'V3.1 Signer: (minSdkVersion=33, maxSdkVersion=2147483647) certificate SHA-256 digest: ' + 'c' * 64,
+            'V3.1 Signer: (minSdkVersion=33, maxSdkVersion=2147483647) certificate SHA-1 digest: ' + 'd' * 40,
+            'V3.1 Signer: (minSdkVersion=33, maxSdkVersion=2147483647) public key SHA-256 digest: ' + 'e' * 64,
+            'Source Stamp Signer: (minSdkVersion=33, maxSdkVersion=2147483647) certificate SHA-256 digest: ' + 'f' * 64,
+            'Source Stamp Signer: (minSdkVersion=33, maxSdkVersion=2147483647) certificate SHA-1 digest: ' + 'f' * 40,
+        ])
+        with patch('wystore_library.verification.subprocess.run', side_effect=[CompletedProcess([], 0, output, ''), CompletedProcess([], 0, "package: name='org.example.app' versionCode='2'", '')]):
+            self.assertEqual(inspect_apk('base.apk'), ('org.example.app', 2, '', {'a' * 64, 'c' * 64}, {'b' * 40, 'd' * 40}))
+
+    def test_older_aosp_sdk_range_signer_is_recognized(self):
+        from subprocess import CompletedProcess
+        prefix = 'Signer (minSdkVersion=33, maxSdkVersion=2147483647) certificate '
+        output = prefix + 'SHA-256 digest: ' + 'a' * 64 + '\n' + prefix + 'SHA-1 digest: ' + 'b' * 40
+        with patch('wystore_library.verification.subprocess.run', side_effect=[CompletedProcess([], 0, output, ''), CompletedProcess([], 0, "package: name='org.example.app' versionCode='2'", '')]):
+            self.assertEqual(inspect_apk('base.apk')[3:], ({'a' * 64}, {'b' * 40}))
+
+    def test_malformed_sdk_range_does_not_count_as_signer(self):
+        from subprocess import CompletedProcess
+        for annotation in ('minSdkVersion=x, maxSdkVersion=32', 'minSdkVersion=24, maxSdkVersion=', 'maxSdkVersion=32, minSdkVersion=24'):
+            with self.subTest(annotation=annotation):
+                prefix = 'V3.0 Signer: (' + annotation + ') certificate '
+                output = prefix + 'SHA-256 digest: ' + 'a' * 64 + '\n' + prefix + 'SHA-1 digest: ' + 'b' * 40
+                with patch('wystore_library.verification.subprocess.run', side_effect=[CompletedProcess([], 0, output, ''), CompletedProcess([], 0, "package: name='org.example.app' versionCode='2'", '')]):
+                    with self.assertRaises(ValueError):
+                        inspect_apk('base.apk')
+
     def test_split_metadata_uses_aapt2_without_resolving_legacy_label_references(self):
         from subprocess import CompletedProcess
         def tools(args, **kwargs):
@@ -84,6 +115,22 @@ class InspectionTests(unittest.TestCase):
         self.assertNotIn('private-account', str(error.exception))
 
 class VerificationTests(unittest.TestCase):
+    def test_rotated_signer_missing_from_google_metadata_is_rejected(self):
+        from subprocess import CompletedProcess
+        with TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'base.apk'; path.write_bytes(b'apk')
+            file_hash = hashlib.sha256(b'apk').hexdigest()
+            manifest = {'schema': 'playfetch/v1', 'app': {'package': 'org.example.app', 'version_code': 2}, 'files': [{'name': 'base.apk', 'role': 'base', 'size': 3, 'local': {'sha256': file_hash}, 'play_sha256': file_hash}]}
+            output = '\n'.join([
+                'V3.0 Signer: (minSdkVersion=24, maxSdkVersion=32) certificate SHA-256 digest: ' + 'a' * 64,
+                'V3.0 Signer: (minSdkVersion=24, maxSdkVersion=32) certificate SHA-1 digest: ' + 'b' * 40,
+                'V3.1 Signer: (minSdkVersion=33, maxSdkVersion=2147483647) certificate SHA-256 digest: ' + 'c' * 64,
+                'V3.1 Signer: (minSdkVersion=33, maxSdkVersion=2147483647) certificate SHA-1 digest: ' + 'd' * 40,
+            ])
+            with patch('wystore_library.verification.subprocess.run', side_effect=[CompletedProcess([], 0, output, ''), CompletedProcess([], 0, "package: name='org.example.app' versionCode='2'", '')]):
+                with self.assertRaisesRegex(ValueError, 'APK certificate does not match Play'):
+                    verify_manifest(manifest, tmp, 'org.example.app', 2, ['a' * 64], None)
+
     def test_manifest_version_is_not_trusted(self):
         with TemporaryDirectory() as tmp:
             path = Path(tmp) / 'base.apk'; path.write_bytes(b'apk')

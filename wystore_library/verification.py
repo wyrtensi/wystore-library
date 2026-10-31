@@ -37,7 +37,10 @@ def inspect_apk(path):
         return found.group(1) if found else ''
     # Build-tools 37 names APK signers by scheme. Source Stamp signers and
     # public-key fingerprints describe different identities and must not match.
-    signer = r'^[ \t]*(?:Signer #\d+:?|V(?:1|2|3\.[01]) Signer(?: #\d+)?:)[ \t]+certificate '
+    # Rotated signing keys can apply to different Android SDK ranges.
+    sdk_range = r'\(minSdkVersion=[0-9]+, maxSdkVersion=[0-9]+\)'
+    signer = (r'^[ \t]*(?:(?:Signer #\d+:?|V(?:1|2|3\.[01]) Signer(?: #\d+)?:)'
+              r'(?:[ \t]+' + sdk_range + r')?|Signer[ \t]+' + sdk_range + r')[ \t]+certificate ')
     sha256 = {m.lower() for m in re.findall(signer + r'SHA-256 digest:[ \t]+([0-9a-fA-F]{64})[ \t]*$', signature, re.MULTILINE)}
     sha1 = {m.lower() for m in re.findall(signer + r'SHA-1 digest:[ \t]+([0-9a-fA-F]{40})[ \t]*$', signature, re.MULTILINE)}
     if not sha256 or len(sha256) != len(sha1) or not field('versionCode').isdigit():
