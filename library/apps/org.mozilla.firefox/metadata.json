@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "package": "org.mozilla.firefox",
+  "locales": {
+    "ru_RU": {
+      "title": "Firefox приватный браузер",
+      "developer": "Mozilla",
+      "description": "Вы заслуживаете лучшего интернета.<br><br>Firefox – это быстрый и приватный браузер, который по умолчанию защищает вас. Он автоматически блокирует распространённые трекеры, помогает защитить ваши данные и позволяет уверенно пользоваться интернетом – без лишних настроек и потребности постоянно делать выбор.<br><br><b>Почему пользователи выбирают Firefox:</b><br>✔ Улучшенная защита от отслеживания – По умолчанию блокирует трекеры и не позволяет компаниям отслеживать вас в интернете.<br>✔ Приватный режим работы – Просматривайте сайты без сохранения истории, поисковых запросов и куки. Приватные вкладки автоматически блокируются, когда вы прекращаете работу.<br>✔ Полная защита от куки – Ограничивает отслеживающие куки одним сайтом, мешая отслеживать вас между разными сайтами.<br>✔ Расширения – Добавьте поддерживаемые расширения, такие как блокировщики рекламы и инструменты приватности, чтобы настроить браузер под себя.<br>✔ Встроенный менеджер паролей – Создавайте надёжные пароли, безопасно их сохраняйте и автоматически вводите при входе.<br>✔ Гибкие варианты поиска – Выбирайте поисковую систему по умолчанию или переключайтесь между ними прямо в строке поиска.<br>✔ Режим для чтения – Сосредоточьтесь на чтении, убрав рекламу и всё лишнее со страниц.<br>✔ Синхронизация между устройствами – Войдите в аккаунт Mozilla и продолжайте с того места, где остановились: вкладки, закладки и пароли всегда на месте.<br><br><b>Приватность по умолчанию</b><br>Firefox создан со встроенной защитой приватности – с первой минуты вашей работы в интернете. Улучшенная защита от отслеживания автоматически блокирует распространённые скрытые трекеры, включая трекеры соцсетей, криптомайнеры и отпечатки. Полная защита от куки разделяет вашу активность по сайтам, мешая компаниям собирать единый профиль вашего поведения в интернете.<br><br>Для дополнительной приватности можно использовать режим приватного просмотра, который не сохраняет историю, поисковые запросы и куки. Приватные вкладки автоматически блокируются при переключении на другое приложение. Для разблокировки требуется отпечаток пальца, PIN или защитная система устройства – это помогает сохранить конфиденциальность, если телефоном пользуется кто-то ещё.<br><br><b>Сосредоточьтесь на главном</b><br>В интернете легко потеряться. Firefox помогает сосредоточиться, не перекладывая всё управление на вас. Режим для чтения убирает всё лишнее из статей, а «картинка в картинке» позволяет держать видео на экране во время других дел – не отвлекая от главного.<br><br><b>Просматривайте сайты так, как вам удобно</b><br>Настройте Firefox под свой стиль работы в интернете. Настройте домашний экран с помощью обоев и вариантов оформления, добавляйте расширения – блокировщики рекламы и инструменты приватности – и выбирайте поисковую систему сами, а не в рамках одного навязанного экосистемой варианта.<br><br>Вы можете разместить строку поиска вверху или внизу экрана, чтобы удобнее пользоваться браузером одной рукой. Войдите в аккаунт Mozilla, чтобы синхронизировать вкладки, закладки, пароли и историю между устройствами – и легко продолжать работу с любого из них.<br><br><b>Создан для людей, а не для прибыли</b><br>Firefox был создан Mozilla в 2004 году как более быстрая, приватная и гибкая альтернатива другим браузерам. Сегодня Mozilla по-прежнему остаётся некоммерческой организацией и работает над тем, чтобы интернет – и ваше время в нём – становились лучше.<br><br>Узнайте больше о Mozilla: https://www.mozilla.org<br>Условия пользования: https://www.mozilla.org/about/legal/terms/firefox/<br>Политика конфиденциальности: https://www.mozilla.org/privacy/firefox<br>Последние новости: https://blog.mozilla.org",
+      "shortDescription": "Приватность по умолчанию. Меньше отслеживания. Встроенное спокойствие.",
+      "versionName": "159.0",
+      "updatedDate": "2026-10-22",
+      "playUrl": "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
+      "changelog": "- Significantly reduced how often tabs unexpectedly reload on Xiaomi and Redmi devices.<br>- Fixed alarms being silenced when a video was playing on sites such as YouTube.<br>- Fixed videos not playing on some sites, such as The New York Times.",
+      "icon": "images/f8a1c9c8fe396386fb02f632f929884ad2d3e47fc7b9a961d1e72ffce9528989.png",
+      "screenshots": [
+        "images/9be8e6584968ab0d7de9a82fb08498e8a061e4f576da72702e783585524afa01.jpg",
+        "images/e603e5d1d51b89166ff3d79dadf8e96fd5b27b987a1534d63fa6f4e3bd84cc31.jpg",
+        "images/52bb495d9d974bd5fa7a6663268df3bd22549e5087a5bcfb41eae6ec9e258d05.jpg",
+        "images/8263f2a995c93589b546fba488ef5971ee2a44d11203b4a25cdd4f608b1cbd03.jpg",
+        "images/5aa2cb68a43f31e123baa683508cae24dd3bf90957c5ff0b4afdae79d517756c.jpg",
+        "images/ad8e9079969230947c752462f87dfad1d28fe31a9f2f15a0a95b9f5046226062.jpg",
+        "images/4f73dc9c2466c47454eacccb0f6545fc0699e16659c4559d5a2d25ca2651b1e4.jpg",
+        "images/015ecfd7ebde2bd170460d0da8332491f7d77ff20a7c0818fa27a70c223fa56f.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Firefox Fast & Private Browser",
+      "developer": "Mozilla",
+      "description": "<b>The internet. As it should be.</b><br><br>Firefox is a <b>private web browser</b> designed to protect your data, block trackers and make browsing fast, secure and simple. Whether you’re looking for an incognito browser, a private search experience or a reliable browser for everyday use, Firefox puts you first.<br><br><b>Why people choose Firefox</b><br><br>• <b>More privacy, less tracking</b> – Firefox automatically blocks social media trackers, cross-site cookies, crypto miners and fingerprinting scripts.<br>• <b>Private browsing that protects you</b> – Open private tabs that don’t save your history, searches or cookies. Lock them with your device security for extra protection.<br>• <b>Fast, smooth performance</b> – Load pages faster by blocking trackers and reducing unnecessary data usage.<br>• <b>Search your way</b> – Use your preferred private search engine or switch easily from the search bar.<br>• <b>Passwords made simple</b> – Generate, store and autofill passwords securely.<br>• <b>Tabs that work for you</b> – Easily organize and switch between tabs and sync them across devices to pick up where you left off.<br>• <b>Focus without distractions</b> – Reader View strips away clutter, while picture-in-picture lets you multitask with videos.<br>• <b>Control your experience</b> – Add extensions like ad blockers, customize settings and choose how you browse.<br>• <b>Make it yours</b> – Customize your home screen, layout and shortcuts for a more personal browsing experience.<br>• <b>AI on your terms</b> – Turn AI completely off or customize it feature by feature.<br>• <b>Quick page summaries</b> – Shake your phone to cut through long pages and get the key points.<br>• <b>Sync across devices</b> – Access your bookmarks, tabs and passwords anywhere you use Firefox.<br><br><b>Private by default</b><br>Firefox is built to protect you. <b>Enhanced Tracking Protection</b> automatically blocks common trackers, while <b>Total Cookie Protection</b> keeps cookies isolated to the sites where they belong. When you need more privacy, private browsing mode ensures your history, searches and cookies aren’t saved. Private tabs can also lock automatically, so your activity stays yours.<br><br><b>Your browser. Your rules.</b><br>Firefox puts you in charge of your internet. Add privacy or productivity <b>extensions</b>, including ad blockers, move your search bar, choose your default search engine and tailor your browser to how you use the web. Sync your data across devices for a seamless, consistent experience.<br><br><b>Focus with Firefox. Fast, secure and built around you </b><br>Firefox is designed to help you stay focused with faster, more secure browsing. <b>Reader Mode</b> removes clutter from articles, <b>Picture-in-Picture</b> keeps videos accessible while you multitask and <b>Tracker Blocking</b> helps pages load faster. Built-in password management and private browsing keep everyday browsing simple and protected.<br><br><b>Built for people, not profit</b><br>Firefox was created in 2004 by Mozilla as a faster, more private and customizable browser designed to put people first. Today, Mozilla remains a nonprofit working to make the internet — and the time you spend on it — better.<br><br>Learn more about Mozilla: https://www.mozilla.org<br>Terms of Use: https://www.mozilla.org/about/legal/terms/firefox/<br>Privacy Policy: https://www.mozilla.org/privacy/firefox<br>Latest news: https://blog.mozilla.org",
+      "shortDescription": "Private by default. Less tracking. Peace of mind built in.",
+      "versionName": "159.0",
+      "updatedDate": "2026-10-22",
+      "playUrl": "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
+      "changelog": "- Significantly reduced how often tabs unexpectedly reload on Xiaomi and Redmi devices.<br>- Fixed alarms being silenced when a video was playing on sites such as YouTube.<br>- Fixed videos not playing on some sites, such as The New York Times.",
+      "icon": "images/f8a1c9c8fe396386fb02f632f929884ad2d3e47fc7b9a961d1e72ffce9528989.png",
+      "screenshots": [
+        "images/8232bbf82998e7933dc8d6789ebf176cd9390cfc08ee746e0ba347bc1d3874b4.jpg",
+        "images/85daec7a24adc9c23324386f38254c2bfbec0121dbcf3ec3ea39e1c8fb12d30c.jpg",
+        "images/e3a2f898d26fd676d59ce8f07726a053a318b22736dcfa24c08f77702acf43c1.jpg",
+        "images/22588ed1f990155bd2f7d0deec6c0cb2903af1b7f7f6dd15171ccfc5dc6bc2b3.jpg",
+        "images/70215519c059b8faa9fb802ad9636d1683e87090b5f0da05f2352e0f0044aaf0.jpg",
+        "images/3c81c1f59a246348f835edfd8cbbfe420d82495343cf5244a751750510caba16.jpg",
+        "images/51fd715fea8106f44473b5dc4fa4082312f6cc9ff35dfe7a6cb034da9128e013.jpg",
+        "images/a7433488e25d0907770a4d5faf0acc388b3a48ca94fe4b3af89b2515255e1536.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "159.0",
+        "updatedDate": "2026-10-22",
+        "text": "- Significantly reduced how often tabs unexpectedly reload on Xiaomi and Redmi devices.<br>- Fixed alarms being silenced when a video was playing on sites such as YouTube.<br>- Fixed videos not playing on some sites, such as The New York Times."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "159.0",
+        "updatedDate": "2026-10-22",
+        "text": "- Significantly reduced how often tabs unexpectedly reload on Xiaomi and Redmi devices.<br>- Fixed alarms being silenced when a video was playing on sites such as YouTube.<br>- Fixed videos not playing on some sites, such as The New York Times."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/jQAmlGUkuJGc4TjZs2OEUeB5Gy3dCpKCWqfgVmab5NvM_43oed2qhVhrlEajccjJV6VkDFCEXws_6t6StKKLTY4": "f8a1c9c8fe396386fb02f632f929884ad2d3e47fc7b9a961d1e72ffce9528989.png",
+    "https://play-lh.googleusercontent.com/7ydbH4OGOVaHoP2J3V78UIm6dGFvHaVxmqDPudNhvHEfXMheKEICDsynkgkPI4T00YSmZP8vr-9KqBYL71I-C8I": "9be8e6584968ab0d7de9a82fb08498e8a061e4f576da72702e783585524afa01.jpg",
+    "https://play-lh.googleusercontent.com/Pis4Lm5qgDxhij9Wow6TpZ4gMb39fJ5KoT1YW_maPRqhf35ho4U4wJrAdK3T-8WiZVA2c5S_wRPqj-Imym43waM": "e603e5d1d51b89166ff3d79dadf8e96fd5b27b987a1534d63fa6f4e3bd84cc31.jpg",
+    "https://play-lh.googleusercontent.com/gOdWbBY4EXjSpbeUqt7PXcgomk3rSUDt2CLiSB-ixTJcbP7eCUvlP1cmbSEbGPMOxtXXDm2iAkzlbGZCFXoX": "52bb495d9d974bd5fa7a6663268df3bd22549e5087a5bcfb41eae6ec9e258d05.jpg",
+    "https://play-lh.googleusercontent.com/YKZ5ajAmOGHlgvc6imJebCf25xfpPACY15ThymqAIGHVVnxmOMUKt-7PSetXEP-Q2Ro2t1Gja72mfhWw5ssX8bU": "8263f2a995c93589b546fba488ef5971ee2a44d11203b4a25cdd4f608b1cbd03.jpg",
+    "https://play-lh.googleusercontent.com/KJ91XnaXe18aYGqJ_2vunOULpCyQZGjvW_ge719waYUC2d6qRZGG37wOGuvswQGzKck9-gLYK4ZRIwIlE6GvNek": "5aa2cb68a43f31e123baa683508cae24dd3bf90957c5ff0b4afdae79d517756c.jpg",
+    "https://play-lh.googleusercontent.com/NdNmzMkvES4EaY_u75RNsqt3up4X78sO0fxekboaEqTO-3PySzDxuSEwO4UEU3PdPPuWsUMsWQ2QYM_iHwtS2Q": "ad8e9079969230947c752462f87dfad1d28fe31a9f2f15a0a95b9f5046226062.jpg",
+    "https://play-lh.googleusercontent.com/FSfdbxoo9paOU3tziCJYL9UWlgA3gsE2TghvPpTsIFtvcAge42C9Ch7lRpbRMPKljccTQO4lhpxNQrSqFh5AWA": "4f73dc9c2466c47454eacccb0f6545fc0699e16659c4559d5a2d25ca2651b1e4.jpg",
+    "https://play-lh.googleusercontent.com/09PZgdeG0z1cJgg28wHsro0VjRg4jyMfw9omfRBM50QwB-cvyc9Snk5j-A2RkD2NRlNhHgVcsD8pn_rcKRjqaQ": "015ecfd7ebde2bd170460d0da8332491f7d77ff20a7c0818fa27a70c223fa56f.jpg",
+    "https://play-lh.googleusercontent.com/qqYu4GY5YnNL6rWcVsvE6NkPI4Iao6LWu6wVhtdSUe5dIceLNClc6T8UGZxxoZEGcX0V5wPE4xhpZXtHVQYm": "8232bbf82998e7933dc8d6789ebf176cd9390cfc08ee746e0ba347bc1d3874b4.jpg",
+    "https://play-lh.googleusercontent.com/usHjJU5PeEOk4Jf4FNH_gUqe_-zEm51Y9Pj9WX1JFWHXxANj_N_gScd4KLTj1_UuVybCOJkE2-GV3gDgEMrxgg": "85daec7a24adc9c23324386f38254c2bfbec0121dbcf3ec3ea39e1c8fb12d30c.jpg",
+    "https://play-lh.googleusercontent.com/oZY3Zz09xQk8o67GJHVBWtACaYtZ3Zq9-9-dYwCZMuaaKWn1NKOlx_2y9qU0V1WWxVLuZZ9WAUaE-UdECStFcT4": "e3a2f898d26fd676d59ce8f07726a053a318b22736dcfa24c08f77702acf43c1.jpg",
+    "https://play-lh.googleusercontent.com/DYTBj2kM7maSN7l9cakwNW9ExGbQwG5r463UBex_YxbtzDj9rzGBH4ubU_6ondnxfyTHpN2OynfIg5rIpZfJWIA": "22588ed1f990155bd2f7d0deec6c0cb2903af1b7f7f6dd15171ccfc5dc6bc2b3.jpg",
+    "https://play-lh.googleusercontent.com/qsAi_NjuxpAWEzioWGYlz0EuMPnxIoDvETAMSfSXkhPM0Lr8RuxLNCyoOodAzQM_Go3-t6uk0FV6l9kQwhG_Vw": "70215519c059b8faa9fb802ad9636d1683e87090b5f0da05f2352e0f0044aaf0.jpg",
+    "https://play-lh.googleusercontent.com/RDctlhSd2ccLTD5Yv06bLDRP-1sD6SBslPj1vTCh7j9hYLmiVDDSusVIsNQnoat-uJgfmNAewG7zJhG0bzSFWPQ": "3c81c1f59a246348f835edfd8cbbfe420d82495343cf5244a751750510caba16.jpg",
+    "https://play-lh.googleusercontent.com/9UYWI-bSytYGPVUWPbf07UP0kMMZ8BroLarfpvLHtE0u_-mEmCD25tx1lKcLUgD48-nSusAgXBTKdZ0fG2cgxw": "51fd715fea8106f44473b5dc4fa4082312f6cc9ff35dfe7a6cb034da9128e013.jpg",
+    "https://play-lh.googleusercontent.com/GWrwiqlSARJonztl8dmhXA45PEZ7_1J5ALQdAeDLLCc-gQG4b-S86paFzvAdTqqh6HkVv_kMwCjBCp7_fDOt": "a7433488e25d0907770a4d5faf0acc388b3a48ca94fe4b3af89b2515255e1536.jpg"
+  }
+}

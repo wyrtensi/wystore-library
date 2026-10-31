@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "apps": [
+    {
+      "package": "com.planfixng",
+      "metadataPath": "apps/com.planfixng/metadata.json",
+      "title": "Planfix",
+      "developer": "Planfix Inc.",
+      "icon": "apps/com.planfixng/images/cb5fb1cd1554835a10e4c26e70c506dd85f6a9eaab9c295408238b1c0abed8dd.png"
+    },
+    {
+      "package": "com.vivaldi.browser",
+      "metadataPath": "apps/com.vivaldi.browser/metadata.json",
+      "title": "Vivaldi - Мощный веб-браузер",
+      "developer": "Vivaldi Technologies",
+      "icon": "apps/com.vivaldi.browser/images/1d8bc7c7ed087bde30c84a41b84fafe81f0e8c9ada29922ad974f1656800f981.png"
+    },
+    {
+      "package": "com.brave.browser",
+      "metadataPath": "apps/com.brave.browser/metadata.json",
+      "title": "Brave: Браузер и Поиск Веб",
+      "developer": "Brave Software",
+      "icon": "apps/com.brave.browser/images/f530c6614ca50de84e370ee4b1f53cf47062ca64db26f2bb28029c770a4b0fc0.png"
+    },
+    {
+      "package": "org.mozilla.firefox",
+      "metadataPath": "apps/org.mozilla.firefox/metadata.json",
+      "title": "Firefox приватный браузер",
+      "developer": "Mozilla",
+      "icon": "apps/org.mozilla.firefox/images/f8a1c9c8fe396386fb02f632f929884ad2d3e47fc7b9a961d1e72ffce9528989.png"
+    }
+  ]
+}

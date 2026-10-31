@@ -1,0 +1,76 @@
+name: Sync Google Play APKs
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      check_only:
+        description: Check authenticated versions without downloading APKs
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: library-writes
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          path: library
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: library/requirements.txt
+      - run: python -m pip install -r requirements.txt
+        working-directory: library
+      - run: python -m unittest discover -s tests -v
+        working-directory: library
+      - name: Check operator credentials
+        env:
+          GOOGLE_EMAIL: ${{ secrets.GOOGLE_EMAIL }}
+          GOOGLE_AAS_TOKEN: ${{ secrets.GOOGLE_AAS_TOKEN }}
+        run: |
+          python -c "import os,sys; sys.exit(0 if os.environ.get('GOOGLE_EMAIL') and os.environ.get('GOOGLE_AAS_TOKEN') else 'GOOGLE_AAS_TOKEN is missing. Complete interactive Google verification, then run the local bootstrap helper.')"
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: Exmeaning/playfetch
+          ref: 8bf14e52133d9609ad91ff830252414716d79017
+          path: backend
+          persist-credentials: false
+      - uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
+        with:
+          go-version-file: backend/go.mod
+          cache-dependency-path: backend/go.sum
+      - name: Build pinned backend
+        working-directory: backend
+        run: |
+          go build -trimpath -o "$RUNNER_TEMP/playfetch" ./cmd/playfetch
+          echo "$RUNNER_TEMP" >> "$GITHUB_PATH"
+      - name: Locate APK verification tools
+        run: |
+          tools="$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -n 1)"
+          test -x "$tools/apksigner"
+          test -x "$tools/aapt"
+          echo "$tools" >> "$GITHUB_PATH"
+      - name: Synchronize verified APK sets
+        working-directory: library
+        env:
+          GOOGLE_EMAIL: ${{ secrets.GOOGLE_EMAIL }}
+          GOOGLE_AAS_TOKEN: ${{ secrets.GOOGLE_AAS_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+          CHECK_ONLY: ${{ inputs.check_only }}
+        run: |
+          args=()
+          if [ "$CHECK_ONLY" = "true" ]; then args+=(--check-only); fi
+          python -m wystore_library.sync --config apps.json --repository "$GITHUB_REPOSITORY" --output "$RUNNER_TEMP/apks" "${args[@]}"

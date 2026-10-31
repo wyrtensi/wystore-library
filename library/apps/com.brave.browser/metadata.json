@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "package": "com.brave.browser",
+  "locales": {
+    "ru_RU": {
+      "title": "Brave: Браузер и Поиск Веб",
+      "developer": "Brave Software",
+      "description": "Веб-браузер Brave — это ваш личный бесплатный и безопасный браузер, блокирующий постороннюю рекламу.<br><br>Веб-браузер Brave (Брейв) — это быстрое и безопасное приложение для Android со встроенным блокировщиком сторонней рекламы. Brave — это молниеносный, безопасный и приватный браузер. Он защищает вас от отслеживания рекламой, заражения вредоносными программами и всплывающих окон. Загрузите лучший веб-браузер сегодня.<br><br><b>🔒 Быстрый и безопасный веб-браузер</b><br>Никаких внешних плагинов или настроек не требуется! Веб-браузер Brave — это просто самый безопасный и быстрый веб-браузер для Android. Наслаждайтесь просмотром страниц без всплывающих окон, вредоносных программ и других неприятностей.<br><br><b>🚫 Веб-браузер с блокировкой рекламы</b><br>Веб-браузер Brave имеет встроенный блокировщик рекламы (блокировщик всплывающих окон). Бесплатный блокировщик рекламы от Brave защищает вас от рекламы, которая отслеживает ваши интересы при просмотре веб-страниц, обеспечивая вашу конфиденциальность.<br><br><b>🙈 Автоматическая конфиденциальность — защита браузера AdBlock</b><br>Веб-браузер Brave защищает вас с помощью ведущих функций обеспечения конфиденциальности и безопасности: HTTPS Everywhere (зашифрованного трафика данных), блокировки сценариев, блокировки сторонних файлов cookie и приватных вкладок.<br><br><b>Возможности приложения</b><br>• Встроенный блокировщик рекламы<br>• Блокировщик всплывающих окон<br>• Экономит потребление мобильных данных и заряд батареи<br>• Блокирует рекламу, нарушающую конфиденциальность<br>• Синхронизация закладок<br>• Отслеживание защиты браузера<br>• HTTPS Everywhere (для безопасности)<br>• Блокировщик сценариев<br>• Блокировщик сторонних cookie<br>• История<br>• Приватные вкладки<br>• Последние вкладки<br>• Быстрый поиск<br><br><b>О браузере Brave</b><br>Наша миссия — защитить пользователей сети Интернет, создав безопасный, быстрый и приватный браузер, увеличивающий доход от рекламы для создателей контента. Brave стремится трансформировать экосистему онлайн-рекламы с помощью микроплатежей и нового решения по распределению доходов, предлагая пользователям и издателям наилучший вариант, где безопасный и быстрый просмотр — это путь к будущему открытой сети.<br><br>Чтобы узнать больше о веб-браузере Brave со встроенным блокировщиком рекламы, отслеживанием и защитой, перейдите по ссылке https://www.brave.com<br><br><b>Вопросы/поддержка?</b><br>Свяжитесь с нами по адресу https://brave.com/msupport. Мы всегда рады помочь вам!<br><br>Вам нравится приложение? Пожалуйста, оставьте нам 5 звезд в отзывах!<br><br>Загрузите лучший браузер сегодня.",
+      "shortDescription": "Лучший приватный и бесплатный браузер: быстро, безопасно и без всплывающих окон.",
+      "versionName": "1.98.60",
+      "updatedDate": "2026-10-30",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.brave.browser",
+      "changelog": "In this release we:<br><br>Improved top sites. You can now long-press the top sites widget on the new tab page to switch between displaying your favorites or frequently visited websites.<br>Made several general stability improvements.<br>Upgraded to Chromium 156.<br>Have questions, comments, or suggestions for future releases? Visit the Brave Community (https://community.brave.com) to let us know.",
+      "icon": "images/f530c6614ca50de84e370ee4b1f53cf47062ca64db26f2bb28029c770a4b0fc0.png",
+      "screenshots": [
+        "images/298dcbe233f6045dd05ecdef1ada1a6d4557403520449826d9cbce0c1262313d.png",
+        "images/67adb1f60186228ca5eaa3ead67eaba6a5874028a68f483a0dc540fa5f34d1d6.png",
+        "images/c37a1e7b8a992f879f3c541ba672c0d5a59f84f0aeef43c4c594bba37e67959d.png",
+        "images/928e77c76ca5aa2ebed31e24a12f1263aef10ffda1a2c4425b427e13d18dcd4c.png",
+        "images/7aca2be1cf2ea627f266f930c00b538243be77b4b732fa982f92c9edf0216d36.png",
+        "images/3537bbdae4f0357369f0140ec2c2e999c097050fd7eabd7aa4b636dbb7afb14c.png",
+        "images/f96007e82f42ec4001b233e7e7fedcbe5836fb630c095ecbfd41ebc2cd1e8edf.png",
+        "images/9bb14daf57f3fd8033c6b86de8d3bafe6d13270092d85d56dd24199c9d9ea290.png"
+      ]
+    },
+    "en_US": {
+      "title": "Brave Private Web Browser, VPN",
+      "developer": "Brave Software",
+      "description": "<b>Browse 3X faster on Brave Browser.</b> Get a lightning fast, safe and private web browser with AI, Adblock, and VPN. <br><br>Loved by over 100 million users, Brave has AI assistant Brave Leo, Firewall + VPN, Brave Search, and night mode.<br><br><b>NEW App Features</b><br>✓ Brave Leo: AI assistant<br>✓ Firewall + VPN<br>✓ Brave Search. Private, independent search engine. No profiling<br>✓ Night Mode. Easily read in low light. <br><br><b>Additional Features</b><br>✓ Free built-in Adblock<br>✓ Private internet browser with pop-up blocker<br>✓ Saves data and battery <br>✓ Sync Bookmarks securely<br>✓ Free tracking protection<br>✓ Https Everywhere (for security)<br>✓ Script Blocker<br>✓ Private bookmarks <br>✓ Browsing history<br>✓ Recent and private tabs<br>✓ Import/export bookmarks from/to another browser<br>✓ Blocks cookie consent notifications by default <br>✓ Removes tracking codes when you copy URLs<br><br>Supports Android 7 and above. <br><br><b>🤖 NEW: AI ASSISTANT</b><br>Meet Brave Leo, the smart, free AI assistant in your browser. Ask answers, get answers, translate languages, and more. Leo doesn't record or share your chats, or use them for model training.<br><br><b>🔎 Brave Search</b><br>Brave Search is the only global-scale search engine built with privacy at its core. Brave Search doesn't profile you, and it's independent of Big Tech.<br><br><b>🙈 Private Browsing</b><br>Enjoy fast, secure, private browsing. Get free ad blocker, anonymous browsing history, personalized private search, and private tabs. Browse the internet without saving your history.<br><br><b>🚀 Browse Faster</b><br>Brave is a fast web browser! Brave reduces page loading times, improves web browser performance and blocks ads infected with malware. <br><br><b>🔒 Privacy Protection</b><br>Be protected with leading privacy and security features such as HTTPS Everywhere (encrypted data traffic), script blocking, cookie blocking, and private incognito tabs. All other browsers fall short of the level of the privacy and security protection that Brave provides. Global Privacy Control enabled by default to assert your legal rights to not be tracked online.<br><br><b>🏆 Brave Rewards</b><br>With your old web browser, you paid to browse the internet by viewing ads. Now, Brave welcomes you to the new internet. One where your time is valued, your personal data is kept private, and you actually get paid for your attention.<br><br><b>About Brave</b><br>Our mission is to protect your privacy online by making a safe, fast, and private browser while growing ad revenue for content creators. Brave aims to transform the online ad ecosystem with micropayments and a new revenue-sharing solution to give users and publishers a better deal.<br><br>To learn more about Brave Web Browser, please go to www.brave.com.<br><br><b>Questions/support?</b><br>Contact us at http://brave.com/msupport. We love hearing from you.<br><br>Terms of Use: https://brave.com/terms-of-use/<br>Privacy Policy: https://brave.com/privacy/<br><br>Download the best private web browser app for Android today! Securely browse the internet with confidence.",
+      "shortDescription": "Fast internet with AI, Adblock & VPN. Browse on a safe, incognito web browser.",
+      "versionName": "1.98.60",
+      "updatedDate": "2026-10-30",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.brave.browser",
+      "changelog": "In this release we:<br><br>Improved top sites. You can now long-press the top sites widget on the new tab page to switch between displaying your favorites or frequently visited websites.<br>Made several general stability improvements.<br>Upgraded to Chromium 156.<br>Have questions, comments, or suggestions for future releases? Visit the Brave Community (https://community.brave.com) to let us know.",
+      "icon": "images/5a5c283664afc841640a88263733c0fc525ac3810e2a7d4490bede874e5b02e8.png",
+      "screenshots": [
+        "images/57ec68db0c8dc6c799d798ff6b6fa526ff8d8b161f4110d21e22fc4c3d72112a.png",
+        "images/29e8272ffca4f1ba5b061397945d081a984a27869fb055c813d386f1ad7f06a6.png",
+        "images/701468a55e53cfc7424d53cafc2e449f455a97864f705751acc883971f3034ff.png",
+        "images/94dd8bd59fc8ac9106bd5321ba7a6962d4488b18e0962757a94173485754c0fd.png",
+        "images/37d55b9173594b3bfca52dc6d4e5fe270de2302cfd246615898f8fb3809ff87b.png",
+        "images/32dd956c7305705c4c0491ee67b2f83de98b287c59994344f86d16262809c1ea.png",
+        "images/3de790337b1041009797ab27ff10bb02c16bd251305cae7dd893faec1ebffbcb.png",
+        "images/4a9b3ad6fb7e72f0dd0c07835aab0dc9286b58087a106c1b59bc7be374e54cb0.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "1.98.60",
+        "updatedDate": "2026-10-30",
+        "text": "In this release we:<br><br>Improved top sites. You can now long-press the top sites widget on the new tab page to switch between displaying your favorites or frequently visited websites.<br>Made several general stability improvements.<br>Upgraded to Chromium 156.<br>Have questions, comments, or suggestions for future releases? Visit the Brave Community (https://community.brave.com) to let us know."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "1.98.60",
+        "updatedDate": "2026-10-30",
+        "text": "In this release we:<br><br>Improved top sites. You can now long-press the top sites widget on the new tab page to switch between displaying your favorites or frequently visited websites.<br>Made several general stability improvements.<br>Upgraded to Chromium 156.<br>Have questions, comments, or suggestions for future releases? Visit the Brave Community (https://community.brave.com) to let us know."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/fIUSQ2pWZkqL5sg8f8Y9X4gWzrN3iFafQ9XonRNo9qN5fkiWLbaOxmH-Z6Dw_Nfx1krnCT7T1pqqrp2QWPtoWw": "f530c6614ca50de84e370ee4b1f53cf47062ca64db26f2bb28029c770a4b0fc0.png",
+    "https://play-lh.googleusercontent.com/jU_fDsZ9tZzbAmOyFh-vGaARRQViPX98wd9yDf29rqk6i5cNRwlvcvlQUukC-ro7NAMzGGuw_I3L4cwkdk_XTtc": "298dcbe233f6045dd05ecdef1ada1a6d4557403520449826d9cbce0c1262313d.png",
+    "https://play-lh.googleusercontent.com/LjriP5ekKTXo4-hMUXf1XD8V-z7T_llfDNKtXlNlz7_eSJFqCtQEQeq2cU2Urpx1DuIe6EYNBpIUlVnYHqqGMYk": "67adb1f60186228ca5eaa3ead67eaba6a5874028a68f483a0dc540fa5f34d1d6.png",
+    "https://play-lh.googleusercontent.com/Kqgy4oL0EVDvG2SRW7fjDDzQ5qm4csMhpCFF-pVYtyM_l5wPL24lPN0rQWsLAl1Yu3pzF-ah9rQlAqFDf16Ptko": "c37a1e7b8a992f879f3c541ba672c0d5a59f84f0aeef43c4c594bba37e67959d.png",
+    "https://play-lh.googleusercontent.com/IH-OJqc4JKuZAQ-FZ7ZYTTHhC6sQaWyb26zpooUT-sPLDKC2F6UZY2vJEefNaANvwUgS80XJxE66f6GvnaLDpA": "928e77c76ca5aa2ebed31e24a12f1263aef10ffda1a2c4425b427e13d18dcd4c.png",
+    "https://play-lh.googleusercontent.com/JcqcB_kAZTYNH8NVnQZsaCtC2ziRYw5k92mWX6jsRN0RS4EKCCPt7BYwzvC3Tspgq7r7kq_Vw5x4dvjbqezL": "7aca2be1cf2ea627f266f930c00b538243be77b4b732fa982f92c9edf0216d36.png",
+    "https://play-lh.googleusercontent.com/nqTBtyQGdIe5VtDxa2_aN8B2rQE7RL7pwAtRgPKLegIotlgmbYzjN_9LnzcSUFyjBQsDyD61OEzrk0mSfh8l5Q": "3537bbdae4f0357369f0140ec2c2e999c097050fd7eabd7aa4b636dbb7afb14c.png",
+    "https://play-lh.googleusercontent.com/D6OcaDtS4mPfyoTtKTPO2MMGRV3L09hPIDRmltKe4Zdt9iBK1O-rjPuk05OQWCgzcviqz8PiRsOiCT14morK": "f96007e82f42ec4001b233e7e7fedcbe5836fb630c095ecbfd41ebc2cd1e8edf.png",
+    "https://play-lh.googleusercontent.com/JExoRZI7PGF-z6qzLsngbvJ1D82Ii2Z0oJYbLWJMqml877E1PL2LoHzEKBPZ9lSJyJYsyR3Hdqx-4qydYfL_VA": "9bb14daf57f3fd8033c6b86de8d3bafe6d13270092d85d56dd24199c9d9ea290.png",
+    "https://play-lh.googleusercontent.com/UBrZnuXGb-QACU0uUdF5r_n5nx5oBbdfPyEbtsr0xXv00RN7rpaTVu3GjLeE90aHFmNlbaCmm8vNcmY0eE98U9E": "5a5c283664afc841640a88263733c0fc525ac3810e2a7d4490bede874e5b02e8.png",
+    "https://play-lh.googleusercontent.com/s8xZ20jzSby49AlTs_5i7_UO3EXclYsoQwLN4sweksd3c07idQUbUPnXhpzDhwfXE5yPAantrkFLJUJ7b_4jqw": "57ec68db0c8dc6c799d798ff6b6fa526ff8d8b161f4110d21e22fc4c3d72112a.png",
+    "https://play-lh.googleusercontent.com/LR4jv55a1NiOsxC1_UpdPd5kFn6gJ3z4HCnY049kkYMu_2LtXaWxSgZANh6wzsZKbr60xfU-N51tM5n1cwfv": "29e8272ffca4f1ba5b061397945d081a984a27869fb055c813d386f1ad7f06a6.png",
+    "https://play-lh.googleusercontent.com/_vb9-TJE4rir7HD9mfxvtPbubdwp4GUUVTrkf2FiPE8kOkiqROODCLjFBMcJYWgmVVQku9-mWe7ZOM0bGcjs": "701468a55e53cfc7424d53cafc2e449f455a97864f705751acc883971f3034ff.png",
+    "https://play-lh.googleusercontent.com/xzfSSbd_bOiKxgrqR6QarHA2m2DVvMBOhuLH81tjHHTBNrCHlOb4NW4znxwyY5o8NfeULCn0mtGggJtGywxq": "94dd8bd59fc8ac9106bd5321ba7a6962d4488b18e0962757a94173485754c0fd.png",
+    "https://play-lh.googleusercontent.com/vzTLA_riXFvKszbFpTYx0JALXB6rFVa0UZSrz8NYarNStNFi-PzIlEUrKctxu_amZmssCut0YCoiAHmNYk0QEg": "37d55b9173594b3bfca52dc6d4e5fe270de2302cfd246615898f8fb3809ff87b.png",
+    "https://play-lh.googleusercontent.com/ZVfx_YYjHZoo8EIP5WtBgBc6ODQGPcgJi-vLibASrnk17MdefzXvgZqq56k4yvH8L7fM93Mmc0A7Tbi_vxJn5w": "32dd956c7305705c4c0491ee67b2f83de98b287c59994344f86d16262809c1ea.png",
+    "https://play-lh.googleusercontent.com/Om5h-wb36_7Zh_Xw9HHB3eWfmqxm65qVSOh-N9shXfAqUrJujl7OiaZ0duljjcwGjPCB3X2GyxwB0uJNOZZDcg": "3de790337b1041009797ab27ff10bb02c16bd251305cae7dd893faec1ebffbcb.png",
+    "https://play-lh.googleusercontent.com/G50fZm6iveMrcIcUMT1tRxcnSqxBRCEbOtyHnsxIMEmjS-6JHaxf_pTvH2vtC1LnYTtrJktGoPxcn5UIyMxOxeI": "4a9b3ad6fb7e72f0dd0c07835aab0dc9286b58087a106c1b59bc7be374e54cb0.png"
+  }
+}

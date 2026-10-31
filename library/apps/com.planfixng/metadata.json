@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "package": "com.planfixng",
+  "locales": {
+    "ru_RU": {
+      "title": "Planfix",
+      "developer": "Planfix Inc.",
+      "description": "Planfix помогает организовать совместную работу людей и управлять ею.<br>С помощью Planfix вы можете ставить задачи сотрудникам, общаться с клиентами, работать над проектами, распределять и отслеживать заявки — и многое другое.<br><br>Planfix одинаково хорошо подходит для бизнеса и некоммерческих организаций, общественных объединений или любой другой группы людей, работающих над общим делом.",
+      "shortDescription": "Planfix— это платформа для создания системы управления предприятием",
+      "versionName": "0.74.2",
+      "updatedDate": "2026-10-18",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.planfixng",
+      "changelog": "Что нового:<br>• Небольшие доработки и исправления ошибок",
+      "icon": "images/cb5fb1cd1554835a10e4c26e70c506dd85f6a9eaab9c295408238b1c0abed8dd.png",
+      "screenshots": [
+        "images/65ff548ff13a5456c04b49d007c0ec83381961b3c0527305d35b23a2ad1e4ebb.png",
+        "images/1c86159b24b25d3ecee31b5071c6a6e08b8dde23c3eb5ee83d1c506b5da03baf.png",
+        "images/9b81792186b7a9aeffef59ed46b724355a0d3865ba3a3261fc949b1b38a98643.png",
+        "images/cdfea4d0e3c7e5acd738759dad9b8f6a18bcd9f7cbc5a8dd6c385662ae9662c8.png",
+        "images/03e1e2e10d26368af5dc170ef2b616c684368f6f4a8433fcd1e7f5a9fb0a52aa.png",
+        "images/8776cc6762a246bd352e7cfad3c7e3e3caeab8448c82400d3862d223035ce65d.png",
+        "images/6cc8e13649c1fb7202f93f23a89e42b245e3bce240c3f990bd3e42fe5546e1dc.png"
+      ]
+    },
+    "en_US": {
+      "title": "Planfix: Teamwork Management",
+      "developer": "Planfix Inc.",
+      "description": "Planfix is a SaaS management system that works according to your rules. You can use Planfix to manage your organization's internal tasks, project management, client requests, CRM, support, logistics, and much more. A significant advantage of Planfix is that it provides the ability to use one system for all your business units. All departments and offices work in one general information space. As orders, projects, and tasks reach different stages, they are taken on by various departments, who all exchange data. This helps your organization work like a fine-tuned machine — no data is lost, and no time is spent transferring it between different systems.<br><br>Configuration happens through the web service. The mobile app lets you receive messages from colleagues and clients — regarding new tasks, comments, and reminders — and handle them quickly and effectively. The app is currently being actively developed, and every release contains new features.",
+      "shortDescription": "Planfix is a platform for creating Enterprise Management Systems",
+      "versionName": "0.74.2",
+      "updatedDate": "2026-10-18",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.planfixng",
+      "changelog": "What's new:<br>• Minor bug fixes and updates",
+      "icon": "images/cb5fb1cd1554835a10e4c26e70c506dd85f6a9eaab9c295408238b1c0abed8dd.png",
+      "screenshots": [
+        "images/96e6960eafa3ddc4780e8cec8ffb77c2064e7ea5dd70514325a02cf17064f8ed.png",
+        "images/fa442edb9636020ea75991bb790b12a9d19452fa6061932ff1fd9f4e9533c96c.png",
+        "images/1a0b7dc3c48129a4e77c0b7ad25d4b939f3b61f516fea3af4b9cff73b6550c61.png",
+        "images/18e6963180732ab6f74aaa1477087c3ac64a7a1d66d6ea4d4cd8425dd6180ae6.png",
+        "images/6ef9cbcdca1e521b280ff19130560955c6b7d53a90bb8f544db0651a712a7f05.png",
+        "images/7461c459d9b72a7767c422ea8e0dbf8e0a8d0a45a14be3b636ae1aa355daad15.png",
+        "images/ffed8cd149446ab6ffb30a9e9787836c668a54949821fc87e747e64406be5f4f.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "0.74.2",
+        "updatedDate": "2026-10-18",
+        "text": "Что нового:<br>• Небольшие доработки и исправления ошибок"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "0.74.2",
+        "updatedDate": "2026-10-18",
+        "text": "What's new:<br>• Minor bug fixes and updates"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/fPB3_iq7dJiWHavYXvA3QRTarCRlKrVKbN-tNYoZiwtIyAcM1pjk89Ojrx7sFUVoC9rfVM4NpFnX5VeiJyZmBw": "cb5fb1cd1554835a10e4c26e70c506dd85f6a9eaab9c295408238b1c0abed8dd.png",
+    "https://play-lh.googleusercontent.com/ldOEOAqcqc6E3GJhmuCFHOcNPMdO__fG0FCALVt8we3pNka5B65rZfrSCxa0lHqV2lH1HYrcqiY8rWNG5CZRHr0": "65ff548ff13a5456c04b49d007c0ec83381961b3c0527305d35b23a2ad1e4ebb.png",
+    "https://play-lh.googleusercontent.com/WnS2Nugm-Qv3z_1lR6go3disJqqP8TVJbbpGyyWWRxN53NgJTMJN4ovKAWgu_yuerAeiBHmgZiQksMlaC95p7Q": "1c86159b24b25d3ecee31b5071c6a6e08b8dde23c3eb5ee83d1c506b5da03baf.png",
+    "https://play-lh.googleusercontent.com/gewfkJgwCxoz2niImIVhET_mXKJN_xWs9LxgPXUwcAgfLL9L4kuURp8l2LF9gHCLwqKl51rfvz5W5d0dJTAo": "9b81792186b7a9aeffef59ed46b724355a0d3865ba3a3261fc949b1b38a98643.png",
+    "https://play-lh.googleusercontent.com/u61cpacV6S8QT_zh_Mf6wp4rNn9ZnpWETK2TmwVOwX0SQPy0haZIY45nRTQnY4GddniYULlA75KFXSuT7K26nQ": "cdfea4d0e3c7e5acd738759dad9b8f6a18bcd9f7cbc5a8dd6c385662ae9662c8.png",
+    "https://play-lh.googleusercontent.com/zlw2xJlpvv9GNNZ8aGvG5VkJ4JgLCn6e6rgMgMZ_VKEDD8drNLfnKZ1ApfsaJaB1QHJFcvEuCvrZ1hG6FHXB9PY": "03e1e2e10d26368af5dc170ef2b616c684368f6f4a8433fcd1e7f5a9fb0a52aa.png",
+    "https://play-lh.googleusercontent.com/RZyzsrD82_cHNIwDm4N5xO9YU8l36MnNlqHW4I0SVcMg_aaQotdYTNUMQYYLcpf1u1SPKkDcyPGl86XzIDAak-4": "8776cc6762a246bd352e7cfad3c7e3e3caeab8448c82400d3862d223035ce65d.png",
+    "https://play-lh.googleusercontent.com/p-AA-GEE-AccEz_P1Y0dU56xWG2NLvxaSEC3TIF3OQP9M0ZDJ73_t5Wc4JUBHO_hZSY4rjCMFYWSLFe8cFhiUA": "6cc8e13649c1fb7202f93f23a89e42b245e3bce240c3f990bd3e42fe5546e1dc.png",
+    "https://play-lh.googleusercontent.com/BcuecR4mT0Dq8aPU9bEiS8MFFd70WBwCyd01IT5yiTlnufv_hxBCPefVKaId7pM4_9NhAbUzs9P6EphAthPv": "96e6960eafa3ddc4780e8cec8ffb77c2064e7ea5dd70514325a02cf17064f8ed.png",
+    "https://play-lh.googleusercontent.com/avasfrwjd1QZ9BDnbNlGVsWNgVb6y8AwZULY1bsw_jdpvk6h5j6A8M4HwOWx3Smr3mbLoYp7MVk4UvKYX655_p0": "fa442edb9636020ea75991bb790b12a9d19452fa6061932ff1fd9f4e9533c96c.png",
+    "https://play-lh.googleusercontent.com/XFaxE1WKnQC9G-RkteD6tVl0PEfNsRs0A3Gt38-DYjOeUxQPDVb77PAD_LgMiZo4be6tQRJnPLy28Di-ArhK": "1a0b7dc3c48129a4e77c0b7ad25d4b939f3b61f516fea3af4b9cff73b6550c61.png",
+    "https://play-lh.googleusercontent.com/g9JUyK0lusTv43a3yMah24DxhHggHNiCcD5n6VU_JVmqhMymOBQ8BejZ4_MDhpBXYntpndwZhnwudvPmpd8Ctg": "18e6963180732ab6f74aaa1477087c3ac64a7a1d66d6ea4d4cd8425dd6180ae6.png",
+    "https://play-lh.googleusercontent.com/ORHsCD6JWnzZ4whomaAVS5BpaoFpIfQIxrCYbmrpOeKlisDzBhLVywCjVd7i9IOrij5MicSh5eyPRgbphy_YbA": "6ef9cbcdca1e521b280ff19130560955c6b7d53a90bb8f544db0651a712a7f05.png",
+    "https://play-lh.googleusercontent.com/APpxWcAg0EHPccQ2Mys0qsrb-7pjsy_0aFwNWvBzU11Yn7jYq5mB083zp_gC3I7t3vJPW0voNALHxFrdWRPv": "7461c459d9b72a7767c422ea8e0dbf8e0a8d0a45a14be3b636ae1aa355daad15.png",
+    "https://play-lh.googleusercontent.com/RWXXkcSx5dEzO-vV1cM1spwow6V9EbtO2sUtb2JMjYaF95KUykRAP4rAjDRh85IQ8p8vALeTth7FXEZ2H8F0-g": "ffed8cd149446ab6ffb30a9e9787836c668a54949821fc87e747e64406be5f4f.png"
+  }
+}

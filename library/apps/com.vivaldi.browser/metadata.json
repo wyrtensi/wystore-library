@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "package": "com.vivaldi.browser",
+  "locales": {
+    "ru_RU": {
+      "title": "Vivaldi - Мощный веб-браузер",
+      "developer": "Vivaldi Technologies",
+      "description": "Браузер Vivaldi — это мощный, персональный и приватный веб-браузер со встроенной блокировкой рекламы и слежки с более чем 2 миллионами пользователей по всему миру.<br><br>Полностью настраиваемый. Меняйте интерфейс браузера с помощью настроек. Используйте темы оформления и панель вкладок, а также удобные инструменты, доступные в боковой панели.<br><br>Мощное управление браузерными вкладками. Используйте панель вкладок. Сдвигайте панель для поиска открытых и приватных вкладок, а также для доступа к недавно закрытым или размещённым в браузере на другом устройстве.<br><br>Используйте несколько поисковиков. Переключайтесь между поисковиками в одно касание. Используйте префиксы в адресной строке для выбора нужного поисковика.<br><br>Создавайте заметки во время работы и безопасно синхронизируйте их между устройствами.<br><br>Делайте скриншоты. Создавайте снимки всей страницы целиком или только видимого экрана прямо в браузере!<br><br>Безопасно синхронизируйте пароли, закладки, заметки и многое другое между браузерами на разных устройствах с использованием шифрования. <br><br>Работайте быстрее. Держите любимые интернет сайты под рукой, размещая ссылки на них на Экспресс-панели.<br><br><b>Список возможностей браузера Vivaldi</b><br><br>🔻 Блокировка рекламы и трекинга со стороны веб-страниц<br>🔻 Защита от утечек WebRTC<br>🔻 Переоткрытие закрытых вкладок<br>🔻 Зашифрованная синхронизация с настольной версией браузера на русском языке<br>🔻 Блокирует рекламу, в том числе - нарушающую конфиденциальность<br>🔻 Снимок страницы во всю высоту прямо в веб-браузере<br>🔻 Выбор поисковика одной буквой<br>🔻 Браузер без истории — автоматическая очистка при выходе<br>🔻 Затемнение фона сайта<br>🔻 QR-код для ссылки<br>🔻 Вкладки, избранное, экспресс-панель<br>🔻 Режим чтения<br>🔻 Заметки с форматированием текста<br>🔻 Совместимость с внешними приложениями для загрузки файлов<br>🔻 Бонус: встроенная игра :)<br><br>Некоторые ссылки в Vivaldi являются партнёрскими. Как участник программы Amazon Associates и партнёр eBay, Vivaldi может получать вознаграждение, если вы совершите покупку через сайт, открытый в Vivaldi. Это помогает поддерживать Vivaldi и сохранять его независимость.<br><br><b>О веб-браузере Vivaldi и компании</b><br><br>Цель Vivaldi — фантастический инструмент для интернета, приватный браузер, который можно полностью настроить под себя. Компания не собирает данные о том, что делают пользователи, и соответственно не зарабатывает с их продажи.",
+      "shortDescription": "Мощный приватный браузер! Встроенный адблок, синхронизация и вкладки как на ПК",
+      "versionName": "8.2.4147.201",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.vivaldi.browser",
+      "changelog": "В Vivaldi 8.2 для Android есть чему порадоваться 🎉:<br><br>- Расширения! Все расширения из Интернет-магазина Chrome теперь доступны на телефоне и планшете. Настройте браузер так, как нравится вам.<br><br>- Калькулятор прямо в адресной строке: считайте легко и конфиденциально. Вычисления производятся на вашем устройстве. Забудьте о переключении приложений и лишних вкладках!<br><br>Оценили обновление? Поставьте нам 5⭐ и расскажите друзьям о Vivaldi!",
+      "icon": "images/1d8bc7c7ed087bde30c84a41b84fafe81f0e8c9ada29922ad974f1656800f981.png",
+      "screenshots": [
+        "images/4c835cf1e3b7226ae0a204c6fedf7cfa618adcd658d21a7006bf7b59bb8585fc.png",
+        "images/e172bd20f21c9e2918f2c3a1368a7b97eae9348aa03c89dad45304deb421c26a.png",
+        "images/a15d213d57270b1149c33782a615ff5920ca49fc49c32db1f26994ab6e32d3fa.png",
+        "images/c786a1d96b6aed2be1c5e522c196a8c0adad3d2b30ee19f102f2377f09059c06.png",
+        "images/88e71c174a68c6a42a77f391d7eb923c905e863293f8427c015eb7eb432ee30b.png",
+        "images/6d0e97b1a3df177abc02e715d6d6793648de853cb0e6b9f0d02bdaf8dabf1c82.png",
+        "images/3ff8b95bbcbd02c7b8ce0ccec50c708e5776b82008bd5464db7e4355059dd410.png"
+      ]
+    },
+    "en_US": {
+      "title": "Vivaldi Browser - Fast & Safe",
+      "developer": "Vivaldi Technologies",
+      "description": "Powerful. Personal. Private.<br>Now with browser extensions. Vivaldi is a fast, private web browser that blocks ads and trackers before a page loads.<br><br>We don't profile your behaviour and we don't sell your data. Vivaldi is built in Europe, and stays independent with no ad business, and nothing to gain from watching what you do.<br><br><b>The extensions you already use</b><br>Vivaldi on Android works with extensions, so what you rely on at your computer works on your phone. Keep Desktop site enabled while browsing the store. Not every extension is compatible with a mobile browser.<br><br><b>Ad blocking and tracker blocking, on by default</b><br>Vivaldi's free built-in Ad Blocker removes pop-ups and ads, and the Tracker Blocker stops companies following you from site to site. Nothing to install, nothing to configure, nothing to pay for. Open the Privacy Dashboard on any page to see exactly what was blocked there.<br><br><b>Private browsing that leaves nothing behind</b><br>Private tabs keep searches, links, visited sites, cookies and temporary files off your device. Cookie banners are dismissed for you. WebRTC leak protection keeps your real IP address hidden. Browsing data can clear itself every time you exit, and you decide what goes. A secure, private browser shouldn't be a paid upgrade, and here it isn't.<br><br><b>Powerful</b><br>Vivaldi gives you everything you love from the browser you have on your computer. Two rows of tabs, stacks you can group and expand, and a Tab Bar built for tablets and large screens. Desktop Mode for sites that hide their best features on a phone. A built-in PDF reader. Vivaldi Translate powered by Lingvanex for private page translations in over 100 languages.<br><br><b>Personal</b><br>Add the sites you use most to Speed Dial and sort them into folders. Pick a theme and a layout, set a custom app icon from 20 designs, and open a new Daily Image every morning. Switch search engine mid-typing with a nickname — \"d\" for DuckDuckGo, \"w\" for Wikipedia.<br><br><b>On all your devices</b><br>Vivaldi is also a desktop web browser for Windows, Mac and Linux. Bookmarks, notes, open tabs, saved logins and passwords sync with end-to-end encryption, protected by an encryption password only you know.<br><br><b>All Vivaldi browser features</b><br>✓ Browser Extensions<br>✓ Free built-in Ad Blocker with pop-up blocker<br>✓ Tracker blocker for privacy<br>✓ Privacy Dashboard showing what was blocked on every page<br>✓ Private tabs for incognito browsing<br>✓ Cookie banner blocking<br>✓ WebRTC leak protection keeps your real IP address hidden<br>✓ Clear browsing data automatically on exit<br>✓ Two-level and Accordion Tab Stacks<br>✓ Tab Bar for tablets and large screens<br>✓ Pin, clone and reopen recently closed tabs<br>✓ Speed Dial bookmarks on the start page<br>✓ Bookmarks Manager with import<br>✓ Password manager, or use another autofill service<br>✓ Notes with rich text, synced across devices<br>✓ Page Capture for full-page screenshots<br>✓ QR Code Scanner<br>✓ Reader View for distraction-free reading<br>✓ Page Actions to change how any page looks<br>✓ Desktop Mode for full desktop sites<br>✓ Built-in PDF reader, or open PDFs in another app<br>✓ Vivaldi Translate, private page translation<br>✓ Dark Mode for reading at night<br>✓ Custom app icons, themes and layouts<br>✓ Search engine nicknames<br>✓ Download manager with external downloader support<br>✓ Encrypted Sync across desktop and mobile<br>✓ Vivaldia, a built-in arcade game<br><br><b>About Vivaldi</b><br>Get the Vivaldi web browser for Windows, Mac and Linux at vivaldi.com, and everything follows you across.<br><br>Some links in Vivaldi are affiliate links. As an eBay Partner, Vivaldi may be compensated if you make a qualifying purchase via a website you open in Vivaldi. This helps support Vivaldi and keeps it independent.<br><br>Download Vivaldi: your desktop extensions on your phone, ad blocking from the first launch, private web browsing that leaves nothing behind, and nothing about you for sale.",
+      "shortDescription": "Powerful, Personal & Private web browser! Fast browsing, 0 tracking, ad blocker.",
+      "versionName": "8.2.4147.201",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.vivaldi.browser",
+      "changelog": "Vivaldi 8.2 hits Android with exciting news 🎉:<br><br> - Extensions support: full access to Chrome Web Store extensions from your phone or tablet, so you can shape your mobile browser exactly the way you want it.<br><br>- Local calculator in your Address Bar: a convenient and private way to perform your daily math, directly from your browser. No more switching apps or opening new tabs! <br><br>Love this update? Rate us 5⭐ and tell others about Vivaldi!",
+      "icon": "images/1d8bc7c7ed087bde30c84a41b84fafe81f0e8c9ada29922ad974f1656800f981.png",
+      "screenshots": [
+        "images/bbe2dddfec7bcd98a3ebee28df9f5b75466ab538bf491d65396360f1ce17bae1.png",
+        "images/4597f268a1e1ce6b251eab0adb6538f1ced49c8f4dd9df210e6f1bc7b26c7d27.png",
+        "images/f15f6c1fecd51d0b3366ea1b57ef44958c05e20ed798ace36a0a23728fcf7563.png",
+        "images/2f98fdd208996489356bb7bc1b4f0f4b45528ac578b5b0a4af4799df5ef29b6e.png",
+        "images/765fc1a6c58086bad61d731fcf0011b7291b87d623ffaa8040d858d8dd0ef614.png",
+        "images/567f08a084c721232bc026eb7f58195bbed60ddc20fcfeaa2fa5fa05a71ea994.png",
+        "images/731bdedc0f7dd615ef2ed7ca9177c1369ce20b6e8ca19393b90cd85b82f3401e.png",
+        "images/aa5c2cb752451bf95753d53e88f871239770999649cb0c30e5ea18bfad719501.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "8.2.4147.201",
+        "updatedDate": "2026-10-29",
+        "text": "В Vivaldi 8.2 для Android есть чему порадоваться 🎉:<br><br>- Расширения! Все расширения из Интернет-магазина Chrome теперь доступны на телефоне и планшете. Настройте браузер так, как нравится вам.<br><br>- Калькулятор прямо в адресной строке: считайте легко и конфиденциально. Вычисления производятся на вашем устройстве. Забудьте о переключении приложений и лишних вкладках!<br><br>Оценили обновление? Поставьте нам 5⭐ и расскажите друзьям о Vivaldi!"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "8.2.4147.201",
+        "updatedDate": "2026-10-29",
+        "text": "Vivaldi 8.2 hits Android with exciting news 🎉:<br><br> - Extensions support: full access to Chrome Web Store extensions from your phone or tablet, so you can shape your mobile browser exactly the way you want it.<br><br>- Local calculator in your Address Bar: a convenient and private way to perform your daily math, directly from your browser. No more switching apps or opening new tabs! <br><br>Love this update? Rate us 5⭐ and tell others about Vivaldi!"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/RNTChezdp-FkUkw6pldhlIi3uCeP_J6fQ0x5NwWfVV9tTdFZidR-z1V9MNVHww4sNdNLOQLw0yW6NJjVF1H0Fw": "1d8bc7c7ed087bde30c84a41b84fafe81f0e8c9ada29922ad974f1656800f981.png",
+    "https://play-lh.googleusercontent.com/mZc-4eVWc5cwEkDYQAdsC835_97X2q_XC2tVoVSLZo-egGiUuReQfB17r0qC5i5gomSbEZ4fW16SdY6a_JOXtg": "4c835cf1e3b7226ae0a204c6fedf7cfa618adcd658d21a7006bf7b59bb8585fc.png",
+    "https://play-lh.googleusercontent.com/mRuVAtW8YZRtAGekrx_ax8aKdMFescL-PbZIC5ITyVMS6MA5zr5IyWulo9Ayk3SSjvSyL1Uja4wJnDWPxEBlOKk": "e172bd20f21c9e2918f2c3a1368a7b97eae9348aa03c89dad45304deb421c26a.png",
+    "https://play-lh.googleusercontent.com/jIQdgfaIJC7Bdf4Y_lQheeHnAPR4KoeWXHE8tRKpNraodECf3BYThBzWepknJjMQrGSiJy_udl6OCIA0qiPX2Q": "a15d213d57270b1149c33782a615ff5920ca49fc49c32db1f26994ab6e32d3fa.png",
+    "https://play-lh.googleusercontent.com/eeOR95_G_un7U08Rcs9JSYcR-na06aPoQu_2zVseRPOsL8uPnjx_qqPzt2TTScmsMckZjTRflQWKK1G8vKBfdA": "c786a1d96b6aed2be1c5e522c196a8c0adad3d2b30ee19f102f2377f09059c06.png",
+    "https://play-lh.googleusercontent.com/MJVgTgdGeqSKnPxuZJCbcG1xxQ8IBHX9RMON660tGZjnduhBdQFKsmCINdcCS4zIVkRDDn2H-5xtb-X6kUCcDQ": "88e71c174a68c6a42a77f391d7eb923c905e863293f8427c015eb7eb432ee30b.png",
+    "https://play-lh.googleusercontent.com/SFvyJxUIkFQuv64_sRnbMJQBf8d79zi2NXow3-EtKZNrRZoN19SaVgFr82BOmz3vwc1mNRojuKMov6hPE-y1fA": "6d0e97b1a3df177abc02e715d6d6793648de853cb0e6b9f0d02bdaf8dabf1c82.png",
+    "https://play-lh.googleusercontent.com/DcMHbhcIqffmng42KQlFfN_KlXBRoGcPLx_l-b2omwsTYImys0wShtO06bWW2qKH5K7hzEYQYineiWi6IW0pXw": "3ff8b95bbcbd02c7b8ce0ccec50c708e5776b82008bd5464db7e4355059dd410.png",
+    "https://play-lh.googleusercontent.com/aCuu6KfaEtZPiL6lKKX2mVvfP4ESVl6KasdC3uFJjB4PfITorH7TxgMSQp9beBFAnIb8I0m10Qlb_lCnyF50": "bbe2dddfec7bcd98a3ebee28df9f5b75466ab538bf491d65396360f1ce17bae1.png",
+    "https://play-lh.googleusercontent.com/SqeZ_W6GBcGoGAiyoT7L30k0hDmR-RksNVkK505rOkQcqW54kjYRjX2qWq_zShm-QYfM4UvR8P_H30a-La_ZSw": "4597f268a1e1ce6b251eab0adb6538f1ced49c8f4dd9df210e6f1bc7b26c7d27.png",
+    "https://play-lh.googleusercontent.com/YW5coEt54C6-skDErzf6tChBDiG3825Ip75UKqnDlsrcEtj41lwZenTx8fTiFY02mmuxf2-Ou7Uq6hEd4f2WagE": "f15f6c1fecd51d0b3366ea1b57ef44958c05e20ed798ace36a0a23728fcf7563.png",
+    "https://play-lh.googleusercontent.com/xQGVNbwBCxb00RXLtDyZfR-n7aOoyDAxaPGh0HdVBgnMV11EsIp7zpm1HtOAmScYTTzoNRxq1AZ3Byekm-iFQQ": "2f98fdd208996489356bb7bc1b4f0f4b45528ac578b5b0a4af4799df5ef29b6e.png",
+    "https://play-lh.googleusercontent.com/ObQOgZBzlQflCezNlGZIUpRtDwF8B6gw6gzywm5-IKQpaf1K3OXO6-EDpQqE7AIky9GWDCRhCUvPChG7UAEK_w": "765fc1a6c58086bad61d731fcf0011b7291b87d623ffaa8040d858d8dd0ef614.png",
+    "https://play-lh.googleusercontent.com/dBKUKE6Ty0OyzEHWZcsjkBTr1r2KsC1xDnEJFeulwm169bF4ZhP_W4f4xYQhTKKg9mJSeM5J2Gm_ANavrC44DNE": "567f08a084c721232bc026eb7f58195bbed60ddc20fcfeaa2fa5fa05a71ea994.png",
+    "https://play-lh.googleusercontent.com/pQ78lwWJ050FW2wqvwgOXdrOlmA9khlBy8nLqjtu6Ysa17cXQPsvx8eJEJZ-SEa3Q23p8MZmU5mgCEyp40snSQ": "731bdedc0f7dd615ef2ed7ca9177c1369ce20b6e8ca19393b90cd85b82f3401e.png",
+    "https://play-lh.googleusercontent.com/7gBwisiHnpwep83R73BoDGOGcmpqJgOWrExwMhUeboV4KuYIT9_5WJHOyYYK5tmnzdl4R9uriRstZpaiou2dx3Y": "aa5c2cb752451bf95753d53e88f871239770999649cb0c30e5ea18bfad719501.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "apps": [
+    {"package": "com.planfixng", "profiles": ["px_9a"]},
+    {"package": "com.vivaldi.browser", "profiles": ["px_9a"]},
+    {"package": "com.brave.browser", "profiles": ["px_9a"]},
+    {"package": "org.mozilla.firefox", "profiles": ["px_9a"]}
+  ]
+}
