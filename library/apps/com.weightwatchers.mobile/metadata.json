@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "package": "com.weightwatchers.mobile",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Weight Watchers Program",
+      "developer": "WW INTERNATIONAL, INC",
+      "description": "The #1 Doctor-Recommended Weight Loss Program†<br><br>Get a science-backed weight loss tracker and diet plan tailored to your body. Whether you want to lose weight, maintain, or manage weight loss medication, Weight Watchers provides the tools for lasting results.<br><br>NEW: GLP-1 & Clinical Support<br>GLP-1 Success Program: Specialized nutrition, dose tracking, and side-effect management for members on weight-loss medications.<br>Weight Watchers Med+: Access clinical experts and weight-loss medication prescriptions (if eligible).<br><br>NEW: AI-Powered Progress Tracking<br>AI Body Scanner: See 3D progress beyond the scale, including muscle and body fat changes.<br>Weight Health Score: Get a holistic view of how your sleep, activity, and nutrition impact your health. <br><br>Flexible Weight Loss Tools<br>Customized Modes: Choose your path—Lose, Maintain, go All-In, or take a break from tracking with new Vacation Mode.<br>Menopause Support: Manage symptoms and weight changes with tailored guidance.<br>Points® Program: Our famous calorie counter alternative—track foods easily with ZeroPoint® foods and a barcode scanner.<br>Macro Tracking: Monitor protein, fiber, carbs, and calories in one place.<br><br>Integration & Coaching<br>App and Device Syncs: Connect Google Health Connect, Fitbit®, and more to track activity and sleep automatically.<br>Virtual Experiences: Join live sessions led by expert Weight Loss Coaches.<br>Registered Dietitians: Get 1:1 meal planning and nutrition support.*<br><br>Food & Recipes<br>Log Meals Instantly: Snap a photo or search our database of 12,000+ recipes and 450+ restaurants.<br>Community: Join an exclusive social network of members for daily motivation.<br><br>MEMBERSHIP TERMS<br><br>Privacy Policy: https://www.weightwatchers.com/us/privacy/policy<br><br>Terms of Service: https://www.weightwatchers.com/us/termsandconditions/membership<br><br>†Based on a 2023 survey by Cerner Enviza of 500 doctors who recommend weight-loss programs to patients.<br><br>*For as low as $0 for WeightWatchers members with qualified insurance coverage. Copays, coinsurance & deductibles may apply.<br><br>Google, Android, and Health Connect are trademarks of Google LLC.",
+      "shortDescription": "Рекомендованная врачами программа снижения веса. Отслеживайте приемы пищи, лекарства GLP-1, физическую активность и сон.",
+      "versionName": "11.32.0",
+      "updatedDate": "2026-10-22",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.weightwatchers.mobile",
+      "changelog": null,
+      "icon": "images/e59fbcb83b113f7526a21b2059aa263f466c0807cbb5b9cf7a1df030e66432c9.png",
+      "screenshots": [
+        "images/50ef406f9a81542d3aa525e40ea2309ec70995627d3f547a802b0f3dcb34cd90.png",
+        "images/199e43e170062b5302618a4a6ca0a79be53b28e5b6076153d628af461b70ff52.png",
+        "images/85ef5ed7dbda87373a9d759aff7b9e29a33ad4375b2487919e42b88473401769.png",
+        "images/5cd88178aea9ec45f0deff96ea99a617f51e2e53d9e91b3ac787800d07b163b9.png",
+        "images/e42a2d2bbeb6d7b90178cdcd92ab19a85befaeb5fdd16b6680f4803a1bdd4223.png",
+        "images/52217ed3ef7a53c71238277c50abf086afb655a5f6719cd1ec8174d836ce3534.png",
+        "images/73553dbfbf068430190a7c7a77d80f3930a9e2a0702da35191efa37da36fc37c.png",
+        "images/87a78da998e89176c9d284aedbc8ae4353fe6b1f2dd85b5feafb81df4afd1248.png"
+      ]
+    },
+    "en_US": {
+      "title": "Weight Watchers Program",
+      "developer": "WW INTERNATIONAL, INC",
+      "description": "The #1 Doctor-Recommended Weight Loss Program†<br><br>Get a science-backed weight loss tracker and diet plan tailored to your body. Whether you want to lose weight, maintain, or manage weight loss medication, Weight Watchers provides the tools for lasting results.<br><br>NEW: GLP-1 & Clinical Support<br>GLP-1 Success Program: Specialized nutrition, dose tracking, and side-effect management for members on weight-loss medications.<br>Weight Watchers Med+: Access clinical experts and weight-loss medication prescriptions (if eligible).<br><br>NEW: AI-Powered Progress Tracking<br>AI Body Scanner: See 3D progress beyond the scale, including muscle and body fat changes.<br>Weight Health Score: Get a holistic view of how your sleep, activity, and nutrition impact your health. <br><br>Flexible Weight Loss Tools<br>Customized Modes: Choose your path—Lose, Maintain, go All-In, or take a break from tracking with new Vacation Mode.<br>Menopause Support: Manage symptoms and weight changes with tailored guidance.<br>Points® Program: Our famous calorie counter alternative—track foods easily with ZeroPoint® foods and a barcode scanner.<br>Macro Tracking: Monitor protein, fiber, carbs, and calories in one place.<br><br>Integration & Coaching<br>App and Device Syncs: Connect Google Health Connect, Fitbit®, and more to track activity and sleep automatically.<br>Virtual Experiences: Join live sessions led by expert Weight Loss Coaches.<br>Registered Dietitians: Get 1:1 meal planning and nutrition support.*<br><br>Food & Recipes<br>Log Meals Instantly: Snap a photo or search our database of 12,000+ recipes and 450+ restaurants.<br>Community: Join an exclusive social network of members for daily motivation.<br><br>MEMBERSHIP TERMS<br><br>Privacy Policy: https://www.weightwatchers.com/us/privacy/policy<br><br>Terms of Service: https://www.weightwatchers.com/us/termsandconditions/membership<br><br>†Based on a 2023 survey by Cerner Enviza of 500 doctors who recommend weight-loss programs to patients.<br><br>*For as low as $0 for WeightWatchers members with qualified insurance coverage. Copays, coinsurance & deductibles may apply.<br><br>Google, Android, and Health Connect are trademarks of Google LLC.",
+      "shortDescription": "Dr-Recommended Weight Loss Program. Track meals, GLP-1 meds, activity, sleep.",
+      "versionName": "11.32.0",
+      "updatedDate": "2026-10-22",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.weightwatchers.mobile",
+      "changelog": null,
+      "icon": "images/e59fbcb83b113f7526a21b2059aa263f466c0807cbb5b9cf7a1df030e66432c9.png",
+      "screenshots": [
+        "images/50ef406f9a81542d3aa525e40ea2309ec70995627d3f547a802b0f3dcb34cd90.png",
+        "images/199e43e170062b5302618a4a6ca0a79be53b28e5b6076153d628af461b70ff52.png",
+        "images/85ef5ed7dbda87373a9d759aff7b9e29a33ad4375b2487919e42b88473401769.png",
+        "images/5cd88178aea9ec45f0deff96ea99a617f51e2e53d9e91b3ac787800d07b163b9.png",
+        "images/e42a2d2bbeb6d7b90178cdcd92ab19a85befaeb5fdd16b6680f4803a1bdd4223.png",
+        "images/52217ed3ef7a53c71238277c50abf086afb655a5f6719cd1ec8174d836ce3534.png",
+        "images/73553dbfbf068430190a7c7a77d80f3930a9e2a0702da35191efa37da36fc37c.png",
+        "images/87a78da998e89176c9d284aedbc8ae4353fe6b1f2dd85b5feafb81df4afd1248.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [],
+    "en_US": []
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/Rzokxs0sEy8qRzr6YGcc8hiToxwlVbuCW3rpTPpPgEQa1vKzdgFZxU1OJvARYZZpTjyqG0B6yBDywE1hnslq": "e59fbcb83b113f7526a21b2059aa263f466c0807cbb5b9cf7a1df030e66432c9.png",
+    "https://play-lh.googleusercontent.com/KL7CXg8wUiNAfPT7nvuYXiVGbEIxt7jXVpocwFnOQlAs2L04lt9_NyqjD9y853piw_CVrcd4F4tAkp8VVoAC6AY": "50ef406f9a81542d3aa525e40ea2309ec70995627d3f547a802b0f3dcb34cd90.png",
+    "https://play-lh.googleusercontent.com/5O87-6TVQ2D1yLC8xZEqdqSChn2XEjRVHys8jc9KsJQ05K7LrPDfDMSJF2xZSVCJz-EOQbKCjkw5ow5IrDYA": "199e43e170062b5302618a4a6ca0a79be53b28e5b6076153d628af461b70ff52.png",
+    "https://play-lh.googleusercontent.com/4Hm_633WOlkI6BETusXjiaShRUISrZNYorf2_duZJtkgO4eCZ1n-mUb4sYmzCZ3h2cr0S_4csXnzb9sS_WnKCA": "85ef5ed7dbda87373a9d759aff7b9e29a33ad4375b2487919e42b88473401769.png",
+    "https://play-lh.googleusercontent.com/lnBqEeCPbo6fPGwQ7beziBpRLUHvBAHifNbUbMdE1SWZKg7wFXg5IRIAgUWlW_qwXxQPdBIe4a_ee1-BW7pS": "5cd88178aea9ec45f0deff96ea99a617f51e2e53d9e91b3ac787800d07b163b9.png",
+    "https://play-lh.googleusercontent.com/bTcuSzD6vZcqa8-qyYNeAGA9GtHqeDxQyWw8STj72E6AtFlDU-JPqIPK5vAi1-ac1PKc86EMNP908fiX2wjdkQ": "e42a2d2bbeb6d7b90178cdcd92ab19a85befaeb5fdd16b6680f4803a1bdd4223.png",
+    "https://play-lh.googleusercontent.com/dpp8WqF5o-BvIBapSS59Dy3ab94lcxYM2I3fkshczaDT4nYDpqNZSSUbUGcO7E3x7oigfMZPb1ZW7dLydg0A": "52217ed3ef7a53c71238277c50abf086afb655a5f6719cd1ec8174d836ce3534.png",
+    "https://play-lh.googleusercontent.com/n_hSlaZj6fIa0OGSQz5y7wlwl63jl2DjXl9PNZO4h35do90P6Zq_nXtZ_N4mfL35KjDHBgGk5VMYu5dw8nXkmZE": "73553dbfbf068430190a7c7a77d80f3930a9e2a0702da35191efa37da36fc37c.png",
+    "https://play-lh.googleusercontent.com/aXLWn9BrY0obumXxxk-uNPKi9GI_-f1xjgE9F_4zoMB5hF1KQHbcuaJpYwc_5D0gHOcYk_BxNO3q6z9fpXpfrFg": "87a78da998e89176c9d284aedbc8ae4353fe6b1f2dd85b5feafb81df4afd1248.png"
+  }
+}

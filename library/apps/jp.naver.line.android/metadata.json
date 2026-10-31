@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "package": "jp.naver.line.android",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "LINE: звонки и сообщения",
+      "developer": "LINE (LY Corporation)",
+      "description": "LINE меняет представления об общении по всему миру! Теперь вы можете не только переписываться, но и совершать бесплатные голосовые и видеозвонки, где бы вы ни были.<br><br>LINE доступен на мобильных устройствах, компьютерах и устройствах Wear OS.<br><br>Новейшие возможности LINE<br><br>★ Групповые видеозвонки делают возможными как личные беседы, так и конференции со множеством участников где угодно<br><br>Общайтесь в чатах групп сразу с 200 друзьями или наслаждайтесь личными видеочатами с избранными собеседниками!<br><br>★ Используйте опросы, чтобы быстро узнать мнения друзей<br><br>Не спорьте, куда сходить на обед и что заказать. Просто принимайте решения с помощью опросов!<br><br>Основные возможности LINE<br><br>★ Бесплатные голосовые и видеозвонки всегда и везде<br><br>Совершайте звонки и наслаждайтесь их высоким качеством бесплатно, где бы вы ни были. Даже международные звонки с количеством участников до 200 абсолютно бесплатны! Эффекты и фильтры сделают ваши видеозвонки еще интереснее (обратите внимание, что эта функция может быть доступна не на всех устройствах).<br><br>★ Удобные чаты, в которых можно все!<br><br>С легкостью делитесь с друзьями текстовыми и голосовыми сообщениями, фото, видео, стикерами и местоположением.<br><br>★ Самые популярные в мире персонажи в магазине стикеров<br><br>Сотни популярных бесплатных стикеров, а также восхитительные изображения самых известных в мире персонажей! Наборы стикеров LINE оживят ваши сообщения и помогут проявить индивидуальность.<br><br>★ Автоматическая синхронизация с ПК и устройствами Wear OS<br><br>Общаетесь ли вы на ходу с помощью мобильного приложения, умных часов либо используете версию для ПК с Windows или компьютеров Mac — ваши чаты в LINE всегда синхронизированы и актуальны на любом устройстве.<br><br>★ Keep — ваше личное пространство для хранения<br><br>Храните в Keep сообщения, фото, видео и многое другое, а также делитесь всем этим с друзьями.<br><br>★ Найдите всех Ваших любимых героев в нашем магазине стикеров!<br><br>В магазине собраны веселые и забавные стикеры с изображением известных персонажей со всего мира!<br><br>★ Международные звонки с помощью LINE Out<br><br>Звоните на мобильные и городские телефоны в другие страны по низким ценам. Звонить можно даже друзьям, которые не используют LINE.<br>К тому же, с LINE Out Free можно получить бесплатные звонки за просмотр рекламы.<br><br>★ Умные часы<br><br>На умных часах с Wear OS вы можете подключаться к приложению LINE, чтобы проверять наличие сообщений, а также добавлять контакты и функции приложения LINE на экран.<br><br>■ За передачу данных может взиматься оплата. Рекомендуем пользоваться специальными тарифными планами или подключаться к Wi-Fi.<br><br>■ Кроме того, для доступа ко всем возможностям LINE рекомендуется использовать устройства с Android OS версии 8.0 или более поздней.<br><br>**********<br>Если скорость передачи данных в вашей сети слишком низкая или на устройстве не хватает места, приложение LINE может не установиться.<br><br>В этом случае проверьте сетевое подключение и повторите попытку.<br>**********",
+      "shortDescription": "LINE - это приложение для БЕСПЛАТНЫХ звонков и SMS в любое время и любом месте!",
+      "versionName": null,
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=jp.naver.line.android",
+      "changelog": "• Мы постоянно совершенствуем LINE. Обновите приложение и попробуйте последнюю версию уже сегодня!",
+      "icon": "images/d7e22f6d6996a0157e41e27123e146f4c32551cb8581a5a91a2818c6e8c14409.png",
+      "screenshots": [
+        "images/8c9c68fcb258c25f2552ae9e75a65457589864483c2c3b6b1fc51b5785e20fb4.png",
+        "images/baa6763bd1776ca1f65bda8ef598ca9c8dff04f06f61cc56c3b328fc0ddd9a1d.png",
+        "images/65b60ceddabaf8e75c106c63a9a2421932b9bc70e6d2adc230250e231cf37d09.png",
+        "images/3658a0f26a6a7dc202ee19ee5da37ee2eb2707e7b8b98c1d8ba4874c65cb9d33.png",
+        "images/792a7d0fee6569c061e0bf7dd27824b0bbb7eba2a1cf625b2cae42e61558b5c8.png",
+        "images/ef944a8a245732a3a31ec3f4bc49145f86916932beda773fd90196ea76fdb1b7.png",
+        "images/9d2b72363d93ae7b30bf327c0b2ad7b6c8306d9c775007d28f4d3e5f896a068b.png",
+        "images/3c6e4705e125364ac71407b7d747ad62fd16247c32d81596bb67edee118117d7.png"
+      ]
+    },
+    "en_US": {
+      "title": "LINE: Calls & Messages",
+      "developer": "LINE (LY Corporation)",
+      "description": "LINE is transforming the way people communicate, closing the distance between family, friends, and loved ones—for free. With voice and video calls, messages, and a limitless variety of exciting stickers, you’ll be able to express yourself in ways that you never thought possible. Available all around the world on mobile, desktop, and Wear OS, the LINE platform continues to grow, always offering new services and features that make your life more fun and convenient.<br><br>◆ Messages, Voice calls, Video calls<br>Enjoy voice and video calls and exchanging messages with your LINE friends.<br><br>◆ LINE stickers, emojis, and themes<br>Express yourself just the way you want with stickers and emojis. Also, find your favorite themes to customize your LINE app.<br><br>◆ Home<br>Gives you easy access to your friends list, birthdays, the sticker shop and various services and contents offered by LINE.<br><br>◆ Seamless connection on mobile, Wear OS, and PC<br>Chat anytime and anywhere. Whether you’re on the go or working at the office or remotely, use LINE via your smartphone, Wear OS, or desktop.<br><br>◆ Store your personal information with Keep Memo<br>My own chatroom to temporarily store messages, photos, and videos.<br><br>◆ Messages protected with Letter Sealing<br>Letter Sealing encrypts your messages, call history and location information. Always be assured of your privacy when using LINE.<br><br>◆ Smartwatch<br>On smartwatches equipped with Wear OS, you can connect it with the LINE app to check messages and add the LINE app complication to your watch face.<br><br>* We recommend using a data plan or connecting to Wi-Fi as you may incur data usage fees otherwise.<br><br>* Please use LINE with Android OS versions 11.0 or above to enjoy LINE to the fullest extent.<br><br>**********<br>If your network speed is too slow or you don't have enough device storage, LINE may not install properly.<br><br>If this happens, please check your connection and try again.<br>**********",
+      "shortDescription": "Stay in touch with your friends and family using LINE!",
+      "versionName": null,
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=jp.naver.line.android",
+      "changelog": "• We're always working hard to make LINE even better. Update today for the latest experience!",
+      "icon": "images/d7e22f6d6996a0157e41e27123e146f4c32551cb8581a5a91a2818c6e8c14409.png",
+      "screenshots": [
+        "images/a1683f9ad513217f2fc5015ff70eb7840e1037716561157151b6a8d0ecb55697.png",
+        "images/94cc42386e71393114a53a011544fc4b4ddc3094453921ea7fdc5887242cdb27.png",
+        "images/6ef275e8326159cb6c1c63b1aab04edf60b35ae6b164ef7080b2560971020ce8.png",
+        "images/2d8392928a217e81410187b6d990eb9c21a1b98ae08c5b39e2cdc84c4ab2c6c2.png",
+        "images/9f44ddd3bf785a84bb4db9ddcb81573d9137290466d164f222960d1beec74b45.png",
+        "images/3a8c099d890b92dd92ac10a32012de3d0ee2cd809be754f6658e5cb3addab486.png",
+        "images/dc8a521f192aa860adc6790d6e2335e965b671dde9dd08d08224012a5c7a145f.png",
+        "images/c012e6a4d6f36d70381ef54336b17534015b5079f9682101934ff880b207c24a.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-27",
+        "text": "• Мы постоянно совершенствуем LINE. Обновите приложение и попробуйте последнюю версию уже сегодня!"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-27",
+        "text": "• We're always working hard to make LINE even better. Update today for the latest experience!"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/7PeaZXtTu7EuCuWzGpkXWAnT9pLs_Ly9MbVSeZUULlIc5H02wGWzvrbmqxj86UnkM9gjUaGSeAcKbYbfbegTJw": "d7e22f6d6996a0157e41e27123e146f4c32551cb8581a5a91a2818c6e8c14409.png",
+    "https://play-lh.googleusercontent.com/1G3MTb19PQmQzZUlt2esSG0V6oeEDw6jPfwZLc2a4pG8T_G4E2fs6qeFkSAVerqoWvH7uwJyvn5gc3FQZeuWSA": "8c9c68fcb258c25f2552ae9e75a65457589864483c2c3b6b1fc51b5785e20fb4.png",
+    "https://play-lh.googleusercontent.com/i3F5ooUaZTNKix4NoMD9Dqsr-in2qwHlFmY-Ctws908KWrPOSMEE7z1_YBTRfIeA8incGITkiFZKsZanRH1rJA": "baa6763bd1776ca1f65bda8ef598ca9c8dff04f06f61cc56c3b328fc0ddd9a1d.png",
+    "https://play-lh.googleusercontent.com/wwHeooORpJ1g6SdzHciZW1PnPTD7p8OQFbBnMPG-FXRNFEkS_9yG7X2yw5e1iTw2fTdMIGqe8dnDurhcJX5fzg": "65b60ceddabaf8e75c106c63a9a2421932b9bc70e6d2adc230250e231cf37d09.png",
+    "https://play-lh.googleusercontent.com/eEHu2cOyy6zyHzwhDpBG5NvxAkyFyQSR0D6UzNqAmItzOvk_HJfH708wvezu9kPWWDkYD6QK53YeuFhtj9N8": "3658a0f26a6a7dc202ee19ee5da37ee2eb2707e7b8b98c1d8ba4874c65cb9d33.png",
+    "https://play-lh.googleusercontent.com/SL5B0gksecWBsztFdLkspWuoYoBD7TpcbLMjRiCi9zi_hcymUSr34YAgJ80lBWenLPk3c9kQEqe63U7eegZtupw": "792a7d0fee6569c061e0bf7dd27824b0bbb7eba2a1cf625b2cae42e61558b5c8.png",
+    "https://play-lh.googleusercontent.com/DNlQU48JjTW65XC-IyaB4fFHHkFlI9RHuQIJ5w3WMNpWwygZMH_EUfkdd6npm-aaSWEaZLbpx5Na63-zbfR1ClA": "ef944a8a245732a3a31ec3f4bc49145f86916932beda773fd90196ea76fdb1b7.png",
+    "https://play-lh.googleusercontent.com/r1GsWtmCh8yXKJpvEJclcu1tOhxeTQkhqjb8r1eNp3VgWfppp0pEQ_c3rAihoG3WlJH9EIkMzXsDIuWivWg8a_g": "9d2b72363d93ae7b30bf327c0b2ad7b6c8306d9c775007d28f4d3e5f896a068b.png",
+    "https://play-lh.googleusercontent.com/h4yfynJQoBOCaMK_G2TOJORumkR37QPuQCMwrmKEylry7YpdliEEgBsLGLG7geHlCZKk7q2NN__6GQ-jc8NFqw": "3c6e4705e125364ac71407b7d747ad62fd16247c32d81596bb67edee118117d7.png",
+    "https://play-lh.googleusercontent.com/Onjg2sJGsW7v6lDgydGXzODsqcDz8MYqpV6WaXjYyaXvG7tH_kTLE6scVycxvnUtfajbzoUaCHh8IH1vBh2nvw": "a1683f9ad513217f2fc5015ff70eb7840e1037716561157151b6a8d0ecb55697.png",
+    "https://play-lh.googleusercontent.com/qJ6jAdVxSj6ptFiCV4fwakTge-PHplEXUo1WkeapGNg1gENhQQnrtEOfob8-Fyx4yoV5Yq6h8gNLWqS3MKHVrQ": "94cc42386e71393114a53a011544fc4b4ddc3094453921ea7fdc5887242cdb27.png",
+    "https://play-lh.googleusercontent.com/kJz1tkR03ypocNGUHdmr2ClgfUMToJi341d_rxY8fOX0AzurkzPZItdRFAGmCy9DCg5U11teDVs__wFYIw2OwA": "6ef275e8326159cb6c1c63b1aab04edf60b35ae6b164ef7080b2560971020ce8.png",
+    "https://play-lh.googleusercontent.com/gSsHSW1FHVhi0qYUjCb5ZjeLtKcJuZmTWIJB5ORzM00F9bvu8nYSjlqe20RuCX35ShNDAgB_ODZklp59X9SK7A": "2d8392928a217e81410187b6d990eb9c21a1b98ae08c5b39e2cdc84c4ab2c6c2.png",
+    "https://play-lh.googleusercontent.com/msgh3Yy6uZ_-0-dszpydafamW8gtPuyxTSSLOnaJECd1rC21ZNwszYacDlh5q2EpAIXLBMGEtc1B8i8uRw3dnQ": "9f44ddd3bf785a84bb4db9ddcb81573d9137290466d164f222960d1beec74b45.png",
+    "https://play-lh.googleusercontent.com/eLLTJlewlfU26MDRdxb3Uu83MnPupVKDbLnfsXEyvt-LbFESAUG--PpPXt4WUIqUpoNjhk_tKAIOIJ2KqtRrMQ": "3a8c099d890b92dd92ac10a32012de3d0ee2cd809be754f6658e5cb3addab486.png",
+    "https://play-lh.googleusercontent.com/8EHU0iPaw3-RIipHL4wOewHYOS8QYngGsIWaHTXh00dyncng10SONGrnnqltuXqDa4d2x86VPaUaCcsMf8k5Uw": "dc8a521f192aa860adc6790d6e2335e965b671dde9dd08d08224012a5c7a145f.png",
+    "https://play-lh.googleusercontent.com/CEmjWWX87ILWvVz3nDVeZdKuT2G_rkGbfcDyCT-i7Ci0ps7s-9JZap_b33xmJ42C0mr1I_RCZnlGEmbuABqbivw": "c012e6a4d6f36d70381ef54336b17534015b5079f9682101934ff880b207c24a.png"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.squareup.cash",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Cash App",
+      "developer": "Block, Inc.",
+      "description": "Send money and bitcoin easily. Invest, bank and do more with your money<br><br>Cash App makes it easy to:<br>- Spend, send, save, & invest<br>- Borrow cash<br>- Get teens started with money<br><br>Send money instantly for free. Get paid up to 2 days early when you set up direct deposit.*<br><br>Join the millions of people who've bought & sold bitcoin*** with Cash App.<br><br>Get a customizable Cash App Card, a debit card that works with Apple Pay, Google Pay, & digital wallets. Save instantly with exclusive offers.<br><br>TRUSTED BY MILLIONS OF FAMILIES<br>• Ages 13 to 17 can use Cash App when sponsored by a parent/guardian****<br>• Personalized debit card, extra security features, & parental controls<br><br>P2P PAYMENTS<br>• Pay people using their phone number, email, $cashtag, or QR code<br>• Proactive security features to avoid scams<br><br>CUSTOMIZABLE DEBIT CARD*<br>• Works where Visa® is accepted<br>• No monthly or hidden fees<br>• Exclusive styles<br>• Real-time alerts<br>• 24/7 fraud monitoring<br><br>SIMPLIFIED BANKING*<br>• No minimum balance requirements<br>• Distribute part of your paycheck to savings, stocks, or bitcoin***<br>• Free in-network ATM withdrawals & up to $200 in free overdraft coverage when you earn Green status**<br><br>EASY WAYS TO SAVE<br>• Up to 3.5% interest when you earn Green status**<br>• Round up spare change or put part of your paychecks into savings, stocks, or bitcoin***<br><br>EXCLUSIVE DISCOUNTS & ACCESS<br>• Save on everyday spending with offers<br>• Get access to concert presales & exclusive events<br><br>INVEST IN STOCKS & BUY BITCOIN***<br>• Buy with as little as $1<br>• Get paid in bitcoin & buy stocks with no commission fees<br><br>—<br><br>*Cash App is a financial services platform, not a bank. Banking services provided by Cash App's bank partner(s). Prepaid debit cards issued by Sutton Bank, Member FDIC. Cash App Visa® Debit Flex Cards issued by Sutton Bank, Member FDIC, and The Bancorp Bank, N.A., pursuant to a license from Visa U.S.A. Inc. See terms and conditions at cash.app/legal. Discounts, Round Ups, Direct Deposit, Offers, Savings, P2P and Cash App Green features provided by Cash App, a Block, Inc brand. Offers may not be affiliated with third party merchants.<br><br>**Customers can qualify for Cash App Green by spending $500 in Qualifying Purchases using your Cash App Card or Cash App Pay per month, or by depositing $300 of Qualifying Deposits per month. Eligibility restrictions apply to some benefits. See Terms and Conditions for more information on borrowing, free overdraft coverage, savings interest, free in-network ATM withdrawals.<br><br>***Brokerage services by Cash App Investing LLC, subsidiary of Block, Inc. For additional information, see cash.app/CAIdisclosures. Bitcoin services provided by Block, Inc. Bitcoin services are not licensable activity in all U.S. states and territories. For additional information, see Bitcoin disclosures.<br><br>Additional fees for securities may apply such as regulatory fees and fees to transfer securities externally. See house rules for details.<br><br>****Teens 13 to 17 can use Cash App with sponsorship by an eligible parent or guardian. See eligibility requirements at cash.app/legal.<br><br>Contact Cash App Support by phone at (800) 969-1940 or mail at:<br>Block, Inc.<br>1955 Broadway, Suite 600<br>Oakland, CA 94612",
+      "shortDescription": "Легко отправляйте деньги и биткойны. Инвестируйте, вкладывайте деньги и делайте больше со своими деньгами",
+      "versionName": null,
+      "updatedDate": "2026-10-30",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.squareup.cash",
+      "changelog": "Various bug fixes and improvements.",
+      "icon": "images/0476d81de14b01f5631859076959ef4a7e545e3181ab84415cb3558325a6e3eb.png",
+      "screenshots": [
+        "images/2818b1f75615e7556e9c260f4161caa390b0ecaff597efce25c0103b6572714e.png",
+        "images/77216b7ca2a1fa0f1116bbb7bedeba1c593c7b414f4e4ec7ebdfd582c9fbe52e.png",
+        "images/deb09faaa9f9f8a455a0d2234fa0a55b3829074e43e52196f98c4e352417ad11.png",
+        "images/9436f16a121793c3489469010b5156bafb25026fed43c59355d47bd540cfe080.png",
+        "images/0064296d618f2680dc453c6021e216817edc663dd66736ba5948117072c6c306.png",
+        "images/6e73a5723f4ccf9a9066470cb008d67e01bb09a228b3af8bf75ce92e8990bcb1.png",
+        "images/3bf7cc5daab778cb14f2618cb0adc43fd616e2464bc0f3251d1b6a4d40efc5c3.png",
+        "images/91c7857347caf4bce6582d30b119d32399c0b53c5bed67cbd7cf3849d7ba85db.png"
+      ]
+    },
+    "en_US": {
+      "title": "Cash App",
+      "developer": "Block, Inc.",
+      "description": "Send money and bitcoin easily. Invest, bank and do more with your money<br><br>Cash App makes it easy to:<br>- Spend, send, save, & invest<br>- Borrow cash<br>- Get teens started with money<br><br>Send money instantly for free. Get paid up to 2 days early when you set up direct deposit.*<br><br>Join the millions of people who've bought & sold bitcoin*** with Cash App.<br><br>Get a customizable Cash App Card, a debit card that works with Apple Pay, Google Pay, & digital wallets. Save instantly with exclusive offers.<br><br>TRUSTED BY MILLIONS OF FAMILIES<br>• Ages 13 to 17 can use Cash App when sponsored by a parent/guardian****<br>• Personalized debit card, extra security features, & parental controls<br><br>P2P PAYMENTS<br>• Pay people using their phone number, email, $cashtag, or QR code<br>• Proactive security features to avoid scams<br><br>CUSTOMIZABLE DEBIT CARD*<br>• Works where Visa® is accepted<br>• No monthly or hidden fees<br>• Exclusive styles<br>• Real-time alerts<br>• 24/7 fraud monitoring<br><br>SIMPLIFIED BANKING*<br>• No minimum balance requirements<br>• Distribute part of your paycheck to savings, stocks, or bitcoin***<br>• Free in-network ATM withdrawals & up to $200 in free overdraft coverage when you earn Green status**<br><br>EASY WAYS TO SAVE<br>• Up to 3.5% interest when you earn Green status**<br>• Round up spare change or put part of your paychecks into savings, stocks, or bitcoin***<br><br>EXCLUSIVE DISCOUNTS & ACCESS<br>• Save on everyday spending with offers<br>• Get access to concert presales & exclusive events<br><br>INVEST IN STOCKS & BUY BITCOIN***<br>• Buy with as little as $1<br>• Get paid in bitcoin & buy stocks with no commission fees<br><br>—<br><br>*Cash App is a financial services platform, not a bank. Banking services provided by Cash App's bank partner(s). Prepaid debit cards issued by Sutton Bank, Member FDIC. Cash App Visa® Debit Flex Cards issued by Sutton Bank, Member FDIC, and The Bancorp Bank, N.A., pursuant to a license from Visa U.S.A. Inc. See terms and conditions at cash.app/legal. Discounts, Round Ups, Direct Deposit, Offers, Savings, P2P and Cash App Green features provided by Cash App, a Block, Inc brand. Offers may not be affiliated with third party merchants.<br><br>**Customers can qualify for Cash App Green by spending $500 in Qualifying Purchases using your Cash App Card or Cash App Pay per month, or by depositing $300 of Qualifying Deposits per month. Eligibility restrictions apply to some benefits. See Terms and Conditions for more information on borrowing, free overdraft coverage, savings interest, free in-network ATM withdrawals.<br><br>***Brokerage services by Cash App Investing LLC, subsidiary of Block, Inc. For additional information, see cash.app/CAIdisclosures. Bitcoin services provided by Block, Inc. Bitcoin services are not licensable activity in all U.S. states and territories. For additional information, see Bitcoin disclosures.<br><br>Additional fees for securities may apply such as regulatory fees and fees to transfer securities externally. See house rules for details.<br><br>****Teens 13 to 17 can use Cash App with sponsorship by an eligible parent or guardian. See eligibility requirements at cash.app/legal.<br><br>Contact Cash App Support by phone at (800) 969-1940 or mail at:<br>Block, Inc.<br>1955 Broadway, Suite 600<br>Oakland, CA 94612",
+      "shortDescription": "Send money and bitcoin easily. Invest, bank and do more with your money",
+      "versionName": null,
+      "updatedDate": "2026-10-30",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.squareup.cash",
+      "changelog": "Various bug fixes and improvements.",
+      "icon": "images/0476d81de14b01f5631859076959ef4a7e545e3181ab84415cb3558325a6e3eb.png",
+      "screenshots": [
+        "images/2818b1f75615e7556e9c260f4161caa390b0ecaff597efce25c0103b6572714e.png",
+        "images/77216b7ca2a1fa0f1116bbb7bedeba1c593c7b414f4e4ec7ebdfd582c9fbe52e.png",
+        "images/deb09faaa9f9f8a455a0d2234fa0a55b3829074e43e52196f98c4e352417ad11.png",
+        "images/9436f16a121793c3489469010b5156bafb25026fed43c59355d47bd540cfe080.png",
+        "images/0064296d618f2680dc453c6021e216817edc663dd66736ba5948117072c6c306.png",
+        "images/6e73a5723f4ccf9a9066470cb008d67e01bb09a228b3af8bf75ce92e8990bcb1.png",
+        "images/3bf7cc5daab778cb14f2618cb0adc43fd616e2464bc0f3251d1b6a4d40efc5c3.png",
+        "images/91c7857347caf4bce6582d30b119d32399c0b53c5bed67cbd7cf3849d7ba85db.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-30",
+        "text": "Various bug fixes and improvements."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-30",
+        "text": "Various bug fixes and improvements."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/pBe5_NoQ0uojR_XLb_5f2mMxVOnFczommOo5Ho297TYnkqt6I26YM3X2cpKtowkLsxe27IdhP1gQz-Mq4OSQ": "0476d81de14b01f5631859076959ef4a7e545e3181ab84415cb3558325a6e3eb.png",
+    "https://play-lh.googleusercontent.com/lOSeXHF6-xTTS5UBdW5yMFIDAwVLsndyyGWv1Ozs-0ulcRGoW25psNGzZQhXmYFsc6ezrS1B4BvpNKxvaWsi": "2818b1f75615e7556e9c260f4161caa390b0ecaff597efce25c0103b6572714e.png",
+    "https://play-lh.googleusercontent.com/MM869t1cGihV9a12lPDeKVL9dyEGRpS1Tj1cDWmXB63eEXwMuZRgsz3uQbb1Wkys4Xj27zOzqikFtTnDzlh12Q": "77216b7ca2a1fa0f1116bbb7bedeba1c593c7b414f4e4ec7ebdfd582c9fbe52e.png",
+    "https://play-lh.googleusercontent.com/D7nKTZWUHFh55Lz-zYMbk1I1Zospn3AsqCvXSkoEH8_vogcaUmT0j_zUUVEgP0uL8a7VbKw0BwSbn05-5vPElA": "deb09faaa9f9f8a455a0d2234fa0a55b3829074e43e52196f98c4e352417ad11.png",
+    "https://play-lh.googleusercontent.com/an1RItV3Ct1AJsPrOc2gvZmNDsMkZS0ciraesLHK4ZTbiYKr5G-79kZfF0atcwl0YBxFP8scaDz5xVMSKx45dw": "9436f16a121793c3489469010b5156bafb25026fed43c59355d47bd540cfe080.png",
+    "https://play-lh.googleusercontent.com/kCcrhaiLhN0VYZm4cpTt03of95k6x8HbvadaCkr8ezbnl8fOsu44SiBbYMCho1ylXVVcMFc-_hM-kfZ0HM9NdFg": "0064296d618f2680dc453c6021e216817edc663dd66736ba5948117072c6c306.png",
+    "https://play-lh.googleusercontent.com/2dtRBmbqeWAeW55AsdA0k_-jTtt1wkp-sJUsQU0MCgJZZBzz61hTYh6t8iojxIZ7bt4QoUcw0mM_HxqtY2uC": "6e73a5723f4ccf9a9066470cb008d67e01bb09a228b3af8bf75ce92e8990bcb1.png",
+    "https://play-lh.googleusercontent.com/Rqg-dokwjiaxg6ETxzuofkNKFdiUKHrm5Ts53VkWGAJhk9lWVWFaW6eVfKmxYFAKWvWMl83BGymJdqQQboBxfQ": "3bf7cc5daab778cb14f2618cb0adc43fd616e2464bc0f3251d1b6a4d40efc5c3.png",
+    "https://play-lh.googleusercontent.com/ON97gGEcdcBAttOjRTKirFmhmYQNCBem8iBvBpny-dSaveHVueGq0eJFskuj31GJC-T9k_xGEoV94dhcru2E": "91c7857347caf4bce6582d30b119d32399c0b53c5bed67cbd7cf3849d7ba85db.png"
+  }
+}

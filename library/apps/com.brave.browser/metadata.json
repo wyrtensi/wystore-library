@@ -1,26 +1,27 @@
 {
   "schema": 1,
   "package": "com.brave.browser",
+  "market": "us",
   "locales": {
     "ru_RU": {
       "title": "Brave: Браузер и Поиск Веб",
       "developer": "Brave Software",
-      "description": "Веб-браузер Brave — это ваш личный бесплатный и безопасный браузер, блокирующий постороннюю рекламу.<br><br>Веб-браузер Brave (Брейв) — это быстрое и безопасное приложение для Android со встроенным блокировщиком сторонней рекламы. Brave — это молниеносный, безопасный и приватный браузер. Он защищает вас от отслеживания рекламой, заражения вредоносными программами и всплывающих окон. Загрузите лучший веб-браузер сегодня.<br><br><b>🔒 Быстрый и безопасный веб-браузер</b><br>Никаких внешних плагинов или настроек не требуется! Веб-браузер Brave — это просто самый безопасный и быстрый веб-браузер для Android. Наслаждайтесь просмотром страниц без всплывающих окон, вредоносных программ и других неприятностей.<br><br><b>🚫 Веб-браузер с блокировкой рекламы</b><br>Веб-браузер Brave имеет встроенный блокировщик рекламы (блокировщик всплывающих окон). Бесплатный блокировщик рекламы от Brave защищает вас от рекламы, которая отслеживает ваши интересы при просмотре веб-страниц, обеспечивая вашу конфиденциальность.<br><br><b>🙈 Автоматическая конфиденциальность — защита браузера AdBlock</b><br>Веб-браузер Brave защищает вас с помощью ведущих функций обеспечения конфиденциальности и безопасности: HTTPS Everywhere (зашифрованного трафика данных), блокировки сценариев, блокировки сторонних файлов cookie и приватных вкладок.<br><br><b>Возможности приложения</b><br>• Встроенный блокировщик рекламы<br>• Блокировщик всплывающих окон<br>• Экономит потребление мобильных данных и заряд батареи<br>• Блокирует рекламу, нарушающую конфиденциальность<br>• Синхронизация закладок<br>• Отслеживание защиты браузера<br>• HTTPS Everywhere (для безопасности)<br>• Блокировщик сценариев<br>• Блокировщик сторонних cookie<br>• История<br>• Приватные вкладки<br>• Последние вкладки<br>• Быстрый поиск<br><br><b>О браузере Brave</b><br>Наша миссия — защитить пользователей сети Интернет, создав безопасный, быстрый и приватный браузер, увеличивающий доход от рекламы для создателей контента. Brave стремится трансформировать экосистему онлайн-рекламы с помощью микроплатежей и нового решения по распределению доходов, предлагая пользователям и издателям наилучший вариант, где безопасный и быстрый просмотр — это путь к будущему открытой сети.<br><br>Чтобы узнать больше о веб-браузере Brave со встроенным блокировщиком рекламы, отслеживанием и защитой, перейдите по ссылке https://www.brave.com<br><br><b>Вопросы/поддержка?</b><br>Свяжитесь с нами по адресу https://brave.com/msupport. Мы всегда рады помочь вам!<br><br>Вам нравится приложение? Пожалуйста, оставьте нам 5 звезд в отзывах!<br><br>Загрузите лучший браузер сегодня.",
+      "description": "Веб-браузер Brave — это ваш личный бесплатный и безопасный браузер, блокирующий постороннюю рекламу. Браузер и поисковую систему Brave с удовольствием используют более 100 миллионов пользователей. В Brave есть ИИ-ассистент Brave Leo, брандмауэр + VPN, блокировка рекламы и многое другое. <br><br>Веб-браузер Brave (Брейв) — это быстрое и безопасное приложение для Android со встроенным блокировщиком сторонней рекламы. Brave — это молниеносный, безопасный и приватный браузер. Он защищает вас от отслеживания рекламой, заражения вредоносными программами и всплывающих окон. Загрузите лучший веб-браузер сегодня.<br><br><b>🔒 Быстрый и безопасный веб-браузер</b><br>Никаких внешних плагинов или настроек не требуется! Веб-браузер Brave — это просто самый безопасный и быстрый веб-браузер для Android. Наслаждайтесь просмотром страниц без всплывающих окон, вредоносных программ и других неприятностей.<br><br><b>🚫 Веб-браузер с блокировкой рекламы</b><br>Веб-браузер Brave имеет встроенный блокировщик рекламы (блокировщик всплывающих окон). Бесплатный блокировщик рекламы от Brave защищает вас от рекламы, которая отслеживает ваши интересы при просмотре веб-страниц, обеспечивая вашу конфиденциальность.<br><br><b>🙈 Автоматическая конфиденциальность — защита браузера AdBlock</b><br>Веб-браузер Brave защищает вас с помощью ведущих функций обеспечения конфиденциальности и безопасности: HTTPS Everywhere (зашифрованного трафика данных), блокировки сценариев, блокировки сторонних файлов cookie и приватных вкладок.<br><br><b>Возможности приложения</b><br>• Встроенный блокировщик рекламы<br>• Блокировщик всплывающих окон<br>• Экономит потребление мобильных данных и заряд батареи<br>• Блокирует рекламу, нарушающую конфиденциальность<br>• Синхронизация закладок<br>• Отслеживание защиты браузера<br>• HTTPS Everywhere (для безопасности)<br>• Блокировщик сценариев<br>• Блокировщик сторонних cookie<br>• История<br>• Приватные вкладки<br>• Последние вкладки<br>• Быстрый поиск<br><br><b>О браузере Brave</b><br>Наша миссия — защитить пользователей сети Интернет, создав безопасный, быстрый и приватный браузер, увеличивающий доход от рекламы для создателей контента. Brave стремится трансформировать экосистему онлайн-рекламы с помощью микроплатежей и нового решения по распределению доходов, предлагая пользователям и издателям наилучший вариант, где безопасный и быстрый просмотр — это путь к будущему открытой сети.<br><br>Чтобы узнать больше о веб-браузере Brave со встроенным блокировщиком рекламы, отслеживанием и защитой, перейдите по ссылке https://www.brave.com<br><br><b>Вопросы/поддержка?</b><br>Свяжитесь с нами по адресу https://brave.com/msupport. Мы всегда рады помочь вам!<br><br>Вам нравится приложение? Пожалуйста, оставьте нам 5 звезд в отзывах!<br><br>Загрузите лучший браузер сегодня.",
       "shortDescription": "Лучший приватный и бесплатный браузер: быстро, безопасно и без всплывающих окон.",
       "versionName": "1.98.60",
       "updatedDate": "2026-10-30",
       "playUrl": "https://play.google.com/store/apps/details?id=com.brave.browser",
       "changelog": "In this release we:<br><br>Improved top sites. You can now long-press the top sites widget on the new tab page to switch between displaying your favorites or frequently visited websites.<br>Made several general stability improvements.<br>Upgraded to Chromium 156.<br>Have questions, comments, or suggestions for future releases? Visit the Brave Community (https://community.brave.com) to let us know.",
-      "icon": "images/f530c6614ca50de84e370ee4b1f53cf47062ca64db26f2bb28029c770a4b0fc0.png",
+      "icon": "images/5a5c283664afc841640a88263733c0fc525ac3810e2a7d4490bede874e5b02e8.png",
       "screenshots": [
-        "images/298dcbe233f6045dd05ecdef1ada1a6d4557403520449826d9cbce0c1262313d.png",
-        "images/67adb1f60186228ca5eaa3ead67eaba6a5874028a68f483a0dc540fa5f34d1d6.png",
-        "images/c37a1e7b8a992f879f3c541ba672c0d5a59f84f0aeef43c4c594bba37e67959d.png",
-        "images/928e77c76ca5aa2ebed31e24a12f1263aef10ffda1a2c4425b427e13d18dcd4c.png",
-        "images/7aca2be1cf2ea627f266f930c00b538243be77b4b732fa982f92c9edf0216d36.png",
-        "images/3537bbdae4f0357369f0140ec2c2e999c097050fd7eabd7aa4b636dbb7afb14c.png",
-        "images/f96007e82f42ec4001b233e7e7fedcbe5836fb630c095ecbfd41ebc2cd1e8edf.png",
-        "images/9bb14daf57f3fd8033c6b86de8d3bafe6d13270092d85d56dd24199c9d9ea290.png"
+        "images/6dc26afdc5c35daf53ff12b9b91f92a7ec577ebd288cbff4fad08420fcb295c0.png",
+        "images/7cacee31fd1d611d4fae77286ee7cbbbe580b7c3ff9f95f91836a7141b248d7a.png",
+        "images/8654a40eb74dee88fb3cf247aa4ab18629247b05638dc45203593543851348fb.png",
+        "images/3a9feb17a954f0a4a4db05dd37457f8aff3f8c47f4c63c1fdf536918720e3ce8.png",
+        "images/fd60a7203279103ff000c797fafb78c248d9e5feba898b713dbbfe18b2e147d6.png",
+        "images/1b98fc027feaca64c47cad0d5ebb9bebabee93f33790b4fa7a4103d1527e324e.png",
+        "images/65ed76575ffc01728f1c2c259cb20b98ee753f0d76f7baac5ef70c806a99f97a.png",
+        "images/516c5035e57ea6f3e4c228afa4b3483f80f55d34520587edd190f158806d102a.png"
       ]
     },
     "en_US": {
@@ -62,16 +63,15 @@
     ]
   },
   "imageSources": {
-    "https://play-lh.googleusercontent.com/fIUSQ2pWZkqL5sg8f8Y9X4gWzrN3iFafQ9XonRNo9qN5fkiWLbaOxmH-Z6Dw_Nfx1krnCT7T1pqqrp2QWPtoWw": "f530c6614ca50de84e370ee4b1f53cf47062ca64db26f2bb28029c770a4b0fc0.png",
-    "https://play-lh.googleusercontent.com/jU_fDsZ9tZzbAmOyFh-vGaARRQViPX98wd9yDf29rqk6i5cNRwlvcvlQUukC-ro7NAMzGGuw_I3L4cwkdk_XTtc": "298dcbe233f6045dd05ecdef1ada1a6d4557403520449826d9cbce0c1262313d.png",
-    "https://play-lh.googleusercontent.com/LjriP5ekKTXo4-hMUXf1XD8V-z7T_llfDNKtXlNlz7_eSJFqCtQEQeq2cU2Urpx1DuIe6EYNBpIUlVnYHqqGMYk": "67adb1f60186228ca5eaa3ead67eaba6a5874028a68f483a0dc540fa5f34d1d6.png",
-    "https://play-lh.googleusercontent.com/Kqgy4oL0EVDvG2SRW7fjDDzQ5qm4csMhpCFF-pVYtyM_l5wPL24lPN0rQWsLAl1Yu3pzF-ah9rQlAqFDf16Ptko": "c37a1e7b8a992f879f3c541ba672c0d5a59f84f0aeef43c4c594bba37e67959d.png",
-    "https://play-lh.googleusercontent.com/IH-OJqc4JKuZAQ-FZ7ZYTTHhC6sQaWyb26zpooUT-sPLDKC2F6UZY2vJEefNaANvwUgS80XJxE66f6GvnaLDpA": "928e77c76ca5aa2ebed31e24a12f1263aef10ffda1a2c4425b427e13d18dcd4c.png",
-    "https://play-lh.googleusercontent.com/JcqcB_kAZTYNH8NVnQZsaCtC2ziRYw5k92mWX6jsRN0RS4EKCCPt7BYwzvC3Tspgq7r7kq_Vw5x4dvjbqezL": "7aca2be1cf2ea627f266f930c00b538243be77b4b732fa982f92c9edf0216d36.png",
-    "https://play-lh.googleusercontent.com/nqTBtyQGdIe5VtDxa2_aN8B2rQE7RL7pwAtRgPKLegIotlgmbYzjN_9LnzcSUFyjBQsDyD61OEzrk0mSfh8l5Q": "3537bbdae4f0357369f0140ec2c2e999c097050fd7eabd7aa4b636dbb7afb14c.png",
-    "https://play-lh.googleusercontent.com/D6OcaDtS4mPfyoTtKTPO2MMGRV3L09hPIDRmltKe4Zdt9iBK1O-rjPuk05OQWCgzcviqz8PiRsOiCT14morK": "f96007e82f42ec4001b233e7e7fedcbe5836fb630c095ecbfd41ebc2cd1e8edf.png",
-    "https://play-lh.googleusercontent.com/JExoRZI7PGF-z6qzLsngbvJ1D82Ii2Z0oJYbLWJMqml877E1PL2LoHzEKBPZ9lSJyJYsyR3Hdqx-4qydYfL_VA": "9bb14daf57f3fd8033c6b86de8d3bafe6d13270092d85d56dd24199c9d9ea290.png",
     "https://play-lh.googleusercontent.com/UBrZnuXGb-QACU0uUdF5r_n5nx5oBbdfPyEbtsr0xXv00RN7rpaTVu3GjLeE90aHFmNlbaCmm8vNcmY0eE98U9E": "5a5c283664afc841640a88263733c0fc525ac3810e2a7d4490bede874e5b02e8.png",
+    "https://play-lh.googleusercontent.com/NVrOExv1nArel03F5u0oz0MOFDstF7mXGh3AN39Ki8ab0BoNNdPwSt-wWZu2atkuB7z0fzvxhc-pxBpBqSWV0SA": "6dc26afdc5c35daf53ff12b9b91f92a7ec577ebd288cbff4fad08420fcb295c0.png",
+    "https://play-lh.googleusercontent.com/EKGjsJdp_4BpccMzaA0Wztq_1FfqSedG91peDB-Tkls1INQwSza6KCY-tuda_BeUFJk7wwG7qMeBVdGWw5Hg": "7cacee31fd1d611d4fae77286ee7cbbbe580b7c3ff9f95f91836a7141b248d7a.png",
+    "https://play-lh.googleusercontent.com/JBNQPKJpqYOsRFgND3aBIPvkZe6q_DOr2h6t2UnTKgilaQXZVysk_oWPlBIczAU-pllcMzUfZYlcLu7X_NcpWA": "8654a40eb74dee88fb3cf247aa4ab18629247b05638dc45203593543851348fb.png",
+    "https://play-lh.googleusercontent.com/0n6ldMePRZ7V85G7dRQP0sijKG20NBlkP8SwRSvFrSiDiS_X2Ty8hJ3w67CzccHrF1pDFr5DQUEyhIMqZeT1": "3a9feb17a954f0a4a4db05dd37457f8aff3f8c47f4c63c1fdf536918720e3ce8.png",
+    "https://play-lh.googleusercontent.com/pUyotrXpOCgWPPgZz9lnAdPQ6EaFlJjZpcToLP3LY0tVAyZxxg7ipByiJEdKuVwEYBs8iuaF9hDBjQFOB9k6Sg": "fd60a7203279103ff000c797fafb78c248d9e5feba898b713dbbfe18b2e147d6.png",
+    "https://play-lh.googleusercontent.com/D9a7d6q75ukqLSfWnDKu_WrQgyOskCOGcPl8SCFjS9aBjb9dZmXMu3xL0gcpKfvvdGDW_NZpoa26bCOVtXKHUw": "1b98fc027feaca64c47cad0d5ebb9bebabee93f33790b4fa7a4103d1527e324e.png",
+    "https://play-lh.googleusercontent.com/KA9GKMlnxyUHXUSSbkYqUXskRK9fRn5T0lzdgn8Q8BFkUp0I_7NQIwWP3456tkpaYwuKjEnPLbObdr330BQE": "65ed76575ffc01728f1c2c259cb20b98ee753f0d76f7baac5ef70c806a99f97a.png",
+    "https://play-lh.googleusercontent.com/0hQx3iO6VbBuur5AlaRjgyNikphE0IhXAPwGJDeK_VhTq0TI6594Djw0xlXhFyN09Ke0YuWtNue5olx4uMCtKlw": "516c5035e57ea6f3e4c228afa4b3483f80f55d34520587edd190f158806d102a.png",
     "https://play-lh.googleusercontent.com/s8xZ20jzSby49AlTs_5i7_UO3EXclYsoQwLN4sweksd3c07idQUbUPnXhpzDhwfXE5yPAantrkFLJUJ7b_4jqw": "57ec68db0c8dc6c799d798ff6b6fa526ff8d8b161f4110d21e22fc4c3d72112a.png",
     "https://play-lh.googleusercontent.com/LR4jv55a1NiOsxC1_UpdPd5kFn6gJ3z4HCnY049kkYMu_2LtXaWxSgZANh6wzsZKbr60xfU-N51tM5n1cwfv": "29e8272ffca4f1ba5b061397945d081a984a27869fb055c813d386f1ad7f06a6.png",
     "https://play-lh.googleusercontent.com/_vb9-TJE4rir7HD9mfxvtPbubdwp4GUUVTrkf2FiPE8kOkiqROODCLjFBMcJYWgmVVQku9-mWe7ZOM0bGcjs": "701468a55e53cfc7424d53cafc2e449f455a97864f705751acc883971f3034ff.png",

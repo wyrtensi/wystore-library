@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.amazon.dee.app",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Amazon Alexa",
+      "developer": "Amazon Mobile LLC",
+      "description": "Use the Amazon Alexa App to set up your Alexa-enabled devices, listen to music, create shopping lists, get news updates, and much more. The more you use Alexa, the more she adapts to your voice, vocabulary, and personal preferences.<br><br>DISCOVER MORE<br>• Get more out of your Echo device through personalized feature recommendations from Alexa<br>• Discover and enable recommended Alexa skills<br>• Pick up where you left off directly from the home feed with lists, shopping, or recently played Music and Books<br><br>MANAGE YOUR DEVICES<br>• Set up your Alexa-enabled devices, control or check status of your compatible smart lights, locks and thermostats at home or on the go<br>• Create routines to automate your smart home devices<br><br>MUSIC & BOOKS<br>• Connect to music services like Amazon Music, Pandora, Spotify, TuneIn, and iHeartRadio. Choose a song or playlist and listen on your Alexa-enabled devices<br>• Create speaker groups to play music across your compatible Echo devices for multi-room music<br><br>ORGANIZE YOUR DAY<br>• View and edit shopping and to-do lists on the go, get weather and news updates, manage timers and alarms, and more<br><br>STAY CONNECTED<br>• Use Drop In from your app to connect instantly with your compatible Echo devices, like a two-way intercom <br>• Call or message supported Alexa-enabled devices, at no additional cost",
+      "shortDescription": "ВСЕГДА ГОТОВ, связи, а БЫСТРО. Просто спросите.",
+      "versionName": "2.2.724579.0",
+      "updatedDate": "2026-10-19",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.dee.app",
+      "changelog": "Our new design has made it easier to access your favorite features and devices. The Home page offers quick access to smart home controls, Echo management, and numerous Alexa features. The Devices page offers customizable views to manage your devices.",
+      "icon": "images/9307d8251ba20b3c1afa61eb0b99f1fd5e5e4ab43ede49bd9a2788b4d6e715e9.png",
+      "screenshots": [
+        "images/b85aee469adeab220bc1ebd76e7a9d5846bfdb103a889f6a8a1acdaa0573a4d8.png",
+        "images/59f006b88896f5ef1dc7508726df94e57019de047ce6c01eff6bf65f9a9fad6e.png",
+        "images/83d09e3b43ded5c5cdadb6b99570b2a1a7be7bd4c1dc47d7c41c8a100ef15176.png",
+        "images/e620badb2fbb2f7a575c9464a5bd3008b89e39a810daadd69252810fa62763d8.png",
+        "images/d06015149bc3c1f0accdbe74c737ceac4c9beaf3392a3412892ef7a48bef9d5e.png",
+        "images/9869bd6579073ecd639dd823a28635337ab011a111349fbaf486800287438594.png",
+        "images/13301b2f3ae043a74587b9e16438c1cbddb2c56f13e9d0bc2821738ec06c8488.png",
+        "images/7373a56db75d3678e7bb4035a8691e7e54551d68672ac1b8a48ca2c1aacd53b2.png"
+      ]
+    },
+    "en_US": {
+      "title": "Amazon Alexa",
+      "developer": "Amazon Mobile LLC",
+      "description": "Use the Amazon Alexa App to set up your Alexa-enabled devices, listen to music, create shopping lists, get news updates, and much more. The more you use Alexa, the more she adapts to your voice, vocabulary, and personal preferences.<br><br>DISCOVER MORE<br>• Get more out of your Echo device through personalized feature recommendations from Alexa<br>• Discover and enable recommended Alexa skills<br>• Pick up where you left off directly from the home feed with lists, shopping, or recently played Music and Books<br><br>MANAGE YOUR DEVICES<br>• Set up your Alexa-enabled devices, control or check status of your compatible smart lights, locks and thermostats at home or on the go<br>• Create routines to automate your smart home devices<br><br>MUSIC & BOOKS<br>• Connect to music services like Amazon Music, Pandora, Spotify, TuneIn, and iHeartRadio. Choose a song or playlist and listen on your Alexa-enabled devices<br>• Create speaker groups to play music across your compatible Echo devices for multi-room music<br><br>ORGANIZE YOUR DAY<br>• View and edit shopping and to-do lists on the go, get weather and news updates, manage timers and alarms, and more<br><br>STAY CONNECTED<br>• Use Drop In from your app to connect instantly with your compatible Echo devices, like a two-way intercom <br>• Call or message supported Alexa-enabled devices, at no additional cost",
+      "shortDescription": "ALWAYS READY, CONNECTED, AND FAST. Just ask.",
+      "versionName": "2.2.724579.0",
+      "updatedDate": "2026-10-19",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.dee.app",
+      "changelog": "Our new design has made it easier to access your favorite features and devices. The Home page offers quick access to smart home controls, Echo management, and numerous Alexa features. The Devices page offers customizable views to manage your devices.",
+      "icon": "images/9307d8251ba20b3c1afa61eb0b99f1fd5e5e4ab43ede49bd9a2788b4d6e715e9.png",
+      "screenshots": [
+        "images/b85aee469adeab220bc1ebd76e7a9d5846bfdb103a889f6a8a1acdaa0573a4d8.png",
+        "images/59f006b88896f5ef1dc7508726df94e57019de047ce6c01eff6bf65f9a9fad6e.png",
+        "images/83d09e3b43ded5c5cdadb6b99570b2a1a7be7bd4c1dc47d7c41c8a100ef15176.png",
+        "images/e620badb2fbb2f7a575c9464a5bd3008b89e39a810daadd69252810fa62763d8.png",
+        "images/d06015149bc3c1f0accdbe74c737ceac4c9beaf3392a3412892ef7a48bef9d5e.png",
+        "images/9869bd6579073ecd639dd823a28635337ab011a111349fbaf486800287438594.png",
+        "images/13301b2f3ae043a74587b9e16438c1cbddb2c56f13e9d0bc2821738ec06c8488.png",
+        "images/7373a56db75d3678e7bb4035a8691e7e54551d68672ac1b8a48ca2c1aacd53b2.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "2.2.724579.0",
+        "updatedDate": "2026-10-19",
+        "text": "Our new design has made it easier to access your favorite features and devices. The Home page offers quick access to smart home controls, Echo management, and numerous Alexa features. The Devices page offers customizable views to manage your devices."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "2.2.724579.0",
+        "updatedDate": "2026-10-19",
+        "text": "Our new design has made it easier to access your favorite features and devices. The Home page offers quick access to smart home controls, Echo management, and numerous Alexa features. The Devices page offers customizable views to manage your devices."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/OOxnnLU7QYnPuFgfZ0qS1t0mUtCBF_6ttoGfseEdJ6RuKO6WizEJAX_IHWofaUpip04m50xsrk0gt6bbVPqI": "9307d8251ba20b3c1afa61eb0b99f1fd5e5e4ab43ede49bd9a2788b4d6e715e9.png",
+    "https://play-lh.googleusercontent.com/WAgX2C70a_9GTgRma4K6RF2cmGZtK8OXLMSqnjMZcP8UDnhDv94SNALrSbg_-0LbP6WvCMGenO-GC0cIW_hS": "b85aee469adeab220bc1ebd76e7a9d5846bfdb103a889f6a8a1acdaa0573a4d8.png",
+    "https://play-lh.googleusercontent.com/RqwycUVg9R_knjCl-096ihGmq54XfDsqWPpftr9VHht5MQJdevYFYkE-lUG7Dt7oihlWtbMIvbE1mII-t5W4Fg": "59f006b88896f5ef1dc7508726df94e57019de047ce6c01eff6bf65f9a9fad6e.png",
+    "https://play-lh.googleusercontent.com/WYGXjPhEXYSWuaw1c_1S5gsouyCubBQQuBGMVZZzegSTuMuQWc_8UkFp5MtcCrYRGqzpWLkS6IwYtjAd_hOy": "83d09e3b43ded5c5cdadb6b99570b2a1a7be7bd4c1dc47d7c41c8a100ef15176.png",
+    "https://play-lh.googleusercontent.com/thSwr7ettS06UuGNcUa1-B8TXyAjOlOxJXOlT81omStzi5e8vms2i0XAdxF6EXhjoKj0eNHUhLzM2hyhhk2CQA": "e620badb2fbb2f7a575c9464a5bd3008b89e39a810daadd69252810fa62763d8.png",
+    "https://play-lh.googleusercontent.com/URUPA8HKTvv06OAg5bLPCkiokYFdLXZc9vWyHwnpQ8dhSOHsNSep2ZWJD0V6U2PQSiiQ_DPUW79WmpZWKAWz": "d06015149bc3c1f0accdbe74c737ceac4c9beaf3392a3412892ef7a48bef9d5e.png",
+    "https://play-lh.googleusercontent.com/nTHgUKzrDXyOHtfny1ATZhUyPOWnaseJp6fHqZoTs7gZXKBfbQru_5Xs69ZERw4IjoLJEkOy4vikOo1jDUwlpg": "9869bd6579073ecd639dd823a28635337ab011a111349fbaf486800287438594.png",
+    "https://play-lh.googleusercontent.com/DvVT7Q4dpuCvgw_nOGomfNUtrQ0O1LeBFkW9hEj52uq0Pwq0V3bEp71q8WcgAKvVbiPKlbslL1FABs-1PYZkbg": "13301b2f3ae043a74587b9e16438c1cbddb2c56f13e9d0bc2821738ec06c8488.png",
+    "https://play-lh.googleusercontent.com/XYiUl8cJfiZlPZ9lQpmKNJ_PoL1iGQ0-gSJmu-qupX4ksSFyQ8S4hZWftADBMx812yrzBL-vFw0Hp5FpssPJ": "7373a56db75d3678e7bb4035a8691e7e54551d68672ac1b8a48ca2c1aacd53b2.png"
+  }
+}

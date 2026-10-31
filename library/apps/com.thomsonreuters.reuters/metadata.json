@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.thomsonreuters.reuters",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Reuters - Breaking World News",
+      "developer": "Thomson Reuters",
+      "description": "Welcome to the New Reuters News App! 🚀<br><br>We’re thrilled to announce a major update to the Reuters News app, rebuilt to help you keep up with global news and personalize your experience. Your feedback has guided our efforts, and we can’t wait to hear what you think! <br><br><b>Fresh New Design</b><br>- Enjoy a sleek, modern interface with improved readability and user experience, featuring “Today,” our new home for news. <br><br><b>Enhanced Article Experience</b><br>- Dive into news stories with a visually engaging layout, interactive graphics, and related content. <br><br><b>My News</b><br>- Personalize your Reuters experience with a customized feed based on your interests. Save articles to read later and manage your preferences easily. <br><br><b>Breaking Markets Updates</b><br>- Track the latest market trends with our improved Markets section. Create a personalized Watchlist and follow companies for breaking news. <br><br><b>Media Hub</b><br>- Explore our rich library of videos, podcasts, and photo galleries, including our newest podcast, Reuters Econ World. <br><br><b>Customizable Push Notifications</b><br>- Stay updated with customizable breaking news alerts and opt-in to podcast notifications. <br><br><b>We Value Your Feedback!</b><br>- Leave us a review or contact Reuters Customer Support. Thank you for being part of our journey. Happy reading! <br><br>Do Not Sell: https://privacyportal-cdn.onetrust.com/dsarwebform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/5dc91c0f-f1b7-4b6e-9d42-76043adaf72d.html",
+      "shortDescription": "Глобальное освещение, отмеченное наградами",
+      "versionName": "7.50.1",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.thomsonreuters.reuters",
+      "changelog": "- Bug fixes and performance improvements",
+      "icon": "images/1151b3b8ec25c3e3ec32cd1da6e51560b3b5070171b0bf3098c9db85b3292d30.png",
+      "screenshots": [
+        "images/1d1a2ddcf67a58a997610313d074410e33d316be91d79bb85a5c664a8a717615.png",
+        "images/db502a385ec1b72b5d512c0b9e0c1ecfa86e1d67fdf93434bc74068611f30baa.png",
+        "images/07ea939b1758ca62ac1357005dc9045b376828805dff3fd68eb6e243f4555222.png",
+        "images/292a9c3b373a8b25b1e4f1eba93cb766044981dcea9905be963f64414f7acb6e.png",
+        "images/bb9feb74e5d1f74be8240d6ddacecd2117e90100d85dc4194e504924abd5097b.png",
+        "images/13c7cd7630e1cd2df7fb9fd0a2e93ac8c377dbaba825f2b0a77883d4e7e8bbc6.png",
+        "images/6308798a9471e891300d70fe98cf4b604de8b6f9554838f8dac8ff452336fd12.png",
+        "images/21b0b6958f0c51ab7018d670cb722db44bde49334b3ba6c259a2da0fa04e1aeb.png"
+      ]
+    },
+    "en_US": {
+      "title": "Reuters - Breaking World News",
+      "developer": "Thomson Reuters",
+      "description": "Welcome to the New Reuters News App! 🚀<br><br>We’re thrilled to announce a major update to the Reuters News app, rebuilt to help you keep up with global news and personalize your experience. Your feedback has guided our efforts, and we can’t wait to hear what you think! <br><br><b>Fresh New Design</b><br>- Enjoy a sleek, modern interface with improved readability and user experience, featuring “Today,” our new home for news. <br><br><b>Enhanced Article Experience</b><br>- Dive into news stories with a visually engaging layout, interactive graphics, and related content. <br><br><b>My News</b><br>- Personalize your Reuters experience with a customized feed based on your interests. Save articles to read later and manage your preferences easily. <br><br><b>Breaking Markets Updates</b><br>- Track the latest market trends with our improved Markets section. Create a personalized Watchlist and follow companies for breaking news. <br><br><b>Media Hub</b><br>- Explore our rich library of videos, podcasts, and photo galleries, including our newest podcast, Reuters Econ World. <br><br><b>Customizable Push Notifications</b><br>- Stay updated with customizable breaking news alerts and opt-in to podcast notifications. <br><br><b>We Value Your Feedback!</b><br>- Leave us a review or contact Reuters Customer Support. Thank you for being part of our journey. Happy reading! <br><br>Do Not Sell: https://privacyportal-cdn.onetrust.com/dsarwebform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/5dc91c0f-f1b7-4b6e-9d42-76043adaf72d.html",
+      "shortDescription": "Award-winning global coverage",
+      "versionName": "7.50.1",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.thomsonreuters.reuters",
+      "changelog": "- Bug fixes and performance improvements",
+      "icon": "images/1151b3b8ec25c3e3ec32cd1da6e51560b3b5070171b0bf3098c9db85b3292d30.png",
+      "screenshots": [
+        "images/1d1a2ddcf67a58a997610313d074410e33d316be91d79bb85a5c664a8a717615.png",
+        "images/db502a385ec1b72b5d512c0b9e0c1ecfa86e1d67fdf93434bc74068611f30baa.png",
+        "images/07ea939b1758ca62ac1357005dc9045b376828805dff3fd68eb6e243f4555222.png",
+        "images/292a9c3b373a8b25b1e4f1eba93cb766044981dcea9905be963f64414f7acb6e.png",
+        "images/bb9feb74e5d1f74be8240d6ddacecd2117e90100d85dc4194e504924abd5097b.png",
+        "images/13c7cd7630e1cd2df7fb9fd0a2e93ac8c377dbaba825f2b0a77883d4e7e8bbc6.png",
+        "images/6308798a9471e891300d70fe98cf4b604de8b6f9554838f8dac8ff452336fd12.png",
+        "images/21b0b6958f0c51ab7018d670cb722db44bde49334b3ba6c259a2da0fa04e1aeb.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "7.50.1",
+        "updatedDate": "2026-10-29",
+        "text": "- Bug fixes and performance improvements"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "7.50.1",
+        "updatedDate": "2026-10-29",
+        "text": "- Bug fixes and performance improvements"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/g2BiK-pSG3LciadR4o1oPcthnmPhWA-7FS4Zq8FGE5eZ8xYpqZUUeIolwAiTNCXA0eazK9_d8F5IonIvYldjzdE": "1151b3b8ec25c3e3ec32cd1da6e51560b3b5070171b0bf3098c9db85b3292d30.png",
+    "https://play-lh.googleusercontent.com/k8K6XhVAOtTjaoSZGuVTDm7kcvZLFWdTyWhmKC_fT9Rgxye9MPClYcUfKk3K9Px4Wktn_ZhtgUAYunDKzi0crA": "1d1a2ddcf67a58a997610313d074410e33d316be91d79bb85a5c664a8a717615.png",
+    "https://play-lh.googleusercontent.com/fhN-kGlieX7YdigMrZtbXSisCcxPlJKVHHRrmIghjFNM8EJVXNbVpV3FZWl4dxKy538015bCXCyozwdsJAlYlQ": "db502a385ec1b72b5d512c0b9e0c1ecfa86e1d67fdf93434bc74068611f30baa.png",
+    "https://play-lh.googleusercontent.com/3QNE0ZynCnnETddCexNO3R8BT7HzdNVFEW5UU7kNcT6IwefbqSfpMHC5cqeTSbGnM-LEvVCUBQ9qNYwd4K71": "07ea939b1758ca62ac1357005dc9045b376828805dff3fd68eb6e243f4555222.png",
+    "https://play-lh.googleusercontent.com/UL-9pI32M5VvV9DCFGfGSWCuaZvX4v244TB0NfJPY5r8MWQNGp7IX_GjfsK2sf8FEmofblUAuGsPsO3iQI6KJg": "292a9c3b373a8b25b1e4f1eba93cb766044981dcea9905be963f64414f7acb6e.png",
+    "https://play-lh.googleusercontent.com/4hsGnPuugMwlPJ28VkYhlUbqUP2q5qsTSV5BjNTAMuXziFdcZkjMp4wmvljdigCN5eH3G0WJMqJdZ3spvfw3PQ": "bb9feb74e5d1f74be8240d6ddacecd2117e90100d85dc4194e504924abd5097b.png",
+    "https://play-lh.googleusercontent.com/v2AhtcrQTVpuJCms_fq0bzTAFahuBxWv2dvkm5mG9H2OYkP4zcISLnphh0A1fqasQ6LpUz5urJDFyfeYu6gGug": "13c7cd7630e1cd2df7fb9fd0a2e93ac8c377dbaba825f2b0a77883d4e7e8bbc6.png",
+    "https://play-lh.googleusercontent.com/Ma1CaHDeDb4Fbn4R7P2zbO8qVz6TOyeXJGBu2Bopw8rOemmInqxWMphIUEsB3k7tFOm849fPEioT6YZM1GflGVs": "6308798a9471e891300d70fe98cf4b604de8b6f9554838f8dac8ff452336fd12.png",
+    "https://play-lh.googleusercontent.com/Xn5ceyyDC4ZuFVojQEjnR67i6W0XzSmJbg0Rs9j_d0D8tcMvt_aGcH8mSEH5gF3s3xvL3RpXZssWz4yZ-HTW": "21b0b6958f0c51ab7018d670cb722db44bde49334b3ba6c259a2da0fa04e1aeb.png"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "package": "com.bilibili.app.in",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "bilibili - Anime · Video HD",
+      "developer": "BILIBILI INC.",
+      "description": "🎬 Welcome to bilibili – the ultimate home for anime fans, gamers, tech geeks, and culture lovers.<br><br>Ever dreamed of a place where you could binge anime edits, watch live esports with 10,000 danmu (bullet comments), and explore street food from across the globe—all in a single afternoon?<br><br>That's what we do here.<br><br>We're bilibili. We watch, we laugh, we remix, we overthink, and then we create again.<br><br>Whatever you're into—we've got it.<br>🎮 Hardcore into gaming?<br>From competitive esports to chill strategy Let's Plays, we've got gameplay videos, walkthroughs, speedruns, and rage quits galore.<br>🤖 Love cool gadgets and tech?<br>Dive into in-depth unboxings, honest reviews, or sci-fi concepts brought to life.<br>🎨 Obsessed with anime and fandoms?<br>This is your paradise—AMVs, cosplay tutorials, parody dubs, and wild fan theories included.<br>🌍 Into global culture?<br>Explore music, performing arts, creative writing, and street food from all over the world. Here, culture is binged just like a series.<br>💡 Hear creators in your language<br>With our new AI Dubbing feature, you can enjoy creators from around the world without needing subtitles. Fewer language barriers, more \"I get you.\"<br>Your passion deserves a stage. Or at least a fanbase. 🚀<br>Got a hot take? A crazy remix idea? A cosplay transformation to show off? This is your space.<br><br>Everyone here is a creator in the making—drawing, dubbing, animating, narrating, memeing, and constantly inventing something new. From \"fan\" to \"creator,\" you're just one upload away.<br><br>✨ We're not just a video app.<br><br>We're a creative community where culture meets fandom, memes meet meaning, and your interests meet their tribe.<br><br>We'll see you in the danmu. Or maybe on the Trending tab 😉<br><br>– With creativity & culture,<br><br>The bilibili team 💙💗",
+      "shortDescription": "Сообщество для всех фэндомов",
+      "versionName": "6.7.1",
+      "updatedDate": "2026-10-21",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.bilibili.app.in",
+      "changelog": "We made some improvements and squashed a few bugs.",
+      "icon": "images/604e84a2f691f1d909c84d9a732eeb480ceba945968f2d3ba7684365c8f2a7fc.png",
+      "screenshots": [
+        "images/4619a036c301e3448a1bbf00a1a9864d289459eebe74f246e5896b4177ad236f.jpg",
+        "images/48213f88f0b6dfd6fa567c6338e6430257e1043ae26f780ce9994edb47888ff3.jpg",
+        "images/6602a532abbeb5966bce5a81955f33218ca9faed6ed3cb633d4045d97ff56b52.jpg",
+        "images/4619a036c301e3448a1bbf00a1a9864d289459eebe74f246e5896b4177ad236f.jpg",
+        "images/48213f88f0b6dfd6fa567c6338e6430257e1043ae26f780ce9994edb47888ff3.jpg",
+        "images/6602a532abbeb5966bce5a81955f33218ca9faed6ed3cb633d4045d97ff56b52.jpg",
+        "images/4619a036c301e3448a1bbf00a1a9864d289459eebe74f246e5896b4177ad236f.jpg",
+        "images/48213f88f0b6dfd6fa567c6338e6430257e1043ae26f780ce9994edb47888ff3.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "bilibili - Anime · Video HD",
+      "developer": "BILIBILI INC.",
+      "description": "🎬 Welcome to bilibili – the ultimate home for anime fans, gamers, tech geeks, and culture lovers.<br><br>Ever dreamed of a place where you could binge anime edits, watch live esports with 10,000 danmu (bullet comments), and explore street food from across the globe—all in a single afternoon?<br><br>That's what we do here.<br><br>We're bilibili. We watch, we laugh, we remix, we overthink, and then we create again.<br><br>Whatever you're into—we've got it.<br>🎮 Hardcore into gaming?<br>From competitive esports to chill strategy Let's Plays, we've got gameplay videos, walkthroughs, speedruns, and rage quits galore.<br>🤖 Love cool gadgets and tech?<br>Dive into in-depth unboxings, honest reviews, or sci-fi concepts brought to life.<br>🎨 Obsessed with anime and fandoms?<br>This is your paradise—AMVs, cosplay tutorials, parody dubs, and wild fan theories included.<br>🌍 Into global culture?<br>Explore music, performing arts, creative writing, and street food from all over the world. Here, culture is binged just like a series.<br>💡 Hear creators in your language<br>With our new AI Dubbing feature, you can enjoy creators from around the world without needing subtitles. Fewer language barriers, more \"I get you.\"<br>Your passion deserves a stage. Or at least a fanbase. 🚀<br>Got a hot take? A crazy remix idea? A cosplay transformation to show off? This is your space.<br><br>Everyone here is a creator in the making—drawing, dubbing, animating, narrating, memeing, and constantly inventing something new. From \"fan\" to \"creator,\" you're just one upload away.<br><br>✨ We're not just a video app.<br><br>We're a creative community where culture meets fandom, memes meet meaning, and your interests meet their tribe.<br><br>We'll see you in the danmu. Or maybe on the Trending tab 😉<br><br>– With creativity & culture,<br><br>The bilibili team 💙💗",
+      "shortDescription": "Community for Every Fandom",
+      "versionName": "6.7.1",
+      "updatedDate": "2026-10-21",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.bilibili.app.in",
+      "changelog": "We made some improvements and squashed a few bugs.",
+      "icon": "images/604e84a2f691f1d909c84d9a732eeb480ceba945968f2d3ba7684365c8f2a7fc.png",
+      "screenshots": [
+        "images/4619a036c301e3448a1bbf00a1a9864d289459eebe74f246e5896b4177ad236f.jpg",
+        "images/48213f88f0b6dfd6fa567c6338e6430257e1043ae26f780ce9994edb47888ff3.jpg",
+        "images/6602a532abbeb5966bce5a81955f33218ca9faed6ed3cb633d4045d97ff56b52.jpg",
+        "images/4619a036c301e3448a1bbf00a1a9864d289459eebe74f246e5896b4177ad236f.jpg",
+        "images/48213f88f0b6dfd6fa567c6338e6430257e1043ae26f780ce9994edb47888ff3.jpg",
+        "images/6602a532abbeb5966bce5a81955f33218ca9faed6ed3cb633d4045d97ff56b52.jpg",
+        "images/4619a036c301e3448a1bbf00a1a9864d289459eebe74f246e5896b4177ad236f.jpg",
+        "images/48213f88f0b6dfd6fa567c6338e6430257e1043ae26f780ce9994edb47888ff3.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "6.7.1",
+        "updatedDate": "2026-10-21",
+        "text": "We made some improvements and squashed a few bugs."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "6.7.1",
+        "updatedDate": "2026-10-21",
+        "text": "We made some improvements and squashed a few bugs."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/yo17-9ouHGh2geCjk4dcZgVWZUcp-f8EhyMaeieZTlXrAtm5dowy32sQ_UfjEaSb6zLmYg-wxVhm3FKt9ppfoQ": "604e84a2f691f1d909c84d9a732eeb480ceba945968f2d3ba7684365c8f2a7fc.png",
+    "https://play-lh.googleusercontent.com/Oq7uIFOq5Dz8tPwBCNfjMAwGXecmQS89hJ7u__c5FFtkwWK8vcDKLsihNG9A_S7sT6dmPL1CBxK8-aK0SjJQzTM": "4619a036c301e3448a1bbf00a1a9864d289459eebe74f246e5896b4177ad236f.jpg",
+    "https://play-lh.googleusercontent.com/m-aN9ga0TQpK21BbKRQhsTRnuxqwtYkhbMmrJYPNhJ3ocMLS31pz-W2npYLBv_TvHO9CrrBwBcCrBb6zUPtg": "48213f88f0b6dfd6fa567c6338e6430257e1043ae26f780ce9994edb47888ff3.jpg",
+    "https://play-lh.googleusercontent.com/Je-oIe7UR5NOYb8BFiu2f4FSqH2_-KaVZF-FgqgQtVZnaz-QplzI4sjVS6yVZU766dbN3YvHeyVvIB6dUYRQ": "6602a532abbeb5966bce5a81955f33218ca9faed6ed3cb633d4045d97ff56b52.jpg"
+  }
+}

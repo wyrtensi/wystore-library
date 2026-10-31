@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "jp.gocro.smartnews.android",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "SmartNews: Local Breaking News",
+      "developer": "SmartNews, Inc.",
+      "description": "We combine the best of quality journalism with expert curation to help you stay informed—and feel good while doing it. With quality articles from trustworthy publishers, you can easily curate your feed based on the topics that interest you most. <br><br>Discover top news from premium publishers in one app: Bloomberg, The Atlantic, USA Today, TIME, The Huffington Post, Bleacher Report, Quartz, The Verge, LAT, VOX, AP, Reuters, Buzzfeed, Fast Company.<br><br>SmartNews rewards you for staying up to date and informed. Earn points every day by reading articles and exchange them for gift cards from your favorite brands or donations to charities you support. <br><br>Rewards<br>-Earn points for reading articles and completing daily reading missions. <br>-Redeem those points for gift cards from your favorite retail brands or for donations to charities you care about. <br><br>Local <br>-Get informative stories from premium publishers based on your location. <br>-See the latest local news on government, traffic, weather, politics, school boards, and more.<br>-Read news about local cultural events, hidden gems, restaurants, family-friendly activities, and your summer farmer’s market.<br><br>Travel<br>-Discover the best spots wherever you go with location-based news and updates.<br>-Learn about top travel tips from your favorite publishers.<br>-Plan your next vacation with trending news on the best destinations, travel hacks, and flight deals before you depart. <br><br>Politics<br>-  Get prepared for the elections, polls, and debates with stories across the political spectrum from Democrat to Republican.<br>- Understand candidates, ballot measures, debates, results, and city council elections near you.<br>-Find voter information, campaign finance stories, verified election reports, and expert election analysis you can trust.<br><br>Quality <br>-We partner with thousands of trusted publishers for premium, balanced news.<br>-Our award-winning journalists validate content to ensure it meets our high-quality standards.<br><br>Entertainment  <br>-Discover top movies or TV shows with your favorite actors. <br>-Follow entertainment topics so you never miss a story.<br><br>Sports<br>-Get daily articles highlighting the latest games, teams, players, and sporting events.<br>-Set notifications for your favorite teams.<br>-See breaking news about football, basketball, golf, tennis, soccer, and more.<br><br>Health<br>-Discover the healthcare news that impacts you all in one free app. <br>-See what experts say about wellness, aging, and mental health from top publishers.<br>-Follow stories about pain relief updates, exercise trends, and home remedies. <br><br><br>***<br>SMARTNEWS IN THE PRESS<br><br>“Browse headlines quickly, customize your channels, and read the news offline. SmartNews is an excellent free alternative to other popular news apps.”<br>- CNET<br><br>***<br>AWARDS<br><br>Winner of the 2025 May Award Contest - Best Mobile App<br>Best Mobile App Awards<br><br>Best Local News App, 2024 (US)<br>Bestapp<br><br>Best News Aggregator, 2023 (US)<br>Lifewire<br><br>Best News App, 2023  (US)<br>AndroidCentral<br><br><br>***<br>REVIEWS<br><br>“Better than Feedly or Flipboard. Love it!” Joe C.<br><br>“Much better than the new version of Apple News.” - Donald B.<br><br>“Been using Google News, but this is better. Much easier to share.” Nikki H.<br><br>***<br><br>Terms of Service<br>The SmartNews Terms of Service are linked below. Please read and confirm these terms before using our services.<br>https://www.smartnews.com/terms/<br><br>Rewards Disclaimer<br>You must be a legal resident of the 50 United States or the District of Columbia<br><br>The Program may be offered only in certain geographic regions in the United States and may not be available in all jurisdictions. SmartNews may limit, restrict, suspend, or discontinue Program availability, in whole or in part, at any time and in its sole discretion.<br><br>The merchants represented are not sponsors of the rewards or otherwise affiliated with SmartNews. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates. Please visit each company's website for additional terms and conditions.",
+      "shortDescription": "Политические новости, результаты выборов, развлечения, спорт и местные истории.",
+      "versionName": null,
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=jp.gocro.smartnews.android",
+      "changelog": "- Performance improvements and bug fixes to enhance your reading experience.",
+      "icon": "images/41164742a6d2778144efe6012905074753f9727a3debceee3213b3c21b3f472c.png",
+      "screenshots": [
+        "images/63856ce4ab559a2eef99257d6e1b3644244c370c2354c6d1acbc82ac587a3a2e.png",
+        "images/de1229d8d23ce983b549a596fc57a1433a05f945b945c26e88ebc97496ef46b7.png",
+        "images/98785110491f82397b0756e0d57ca19ba2e6f70ec37e129c141d19e46520e405.png",
+        "images/27ebf60e82fca63d0306e5aae1bb895849f021ab1b712b73d19995aab949678e.jpg",
+        "images/cb2e8f51cd8350e321a544eb008af48c3147992340382d33c1592845026bb3b7.png",
+        "images/5dabb14b30af3735f369bb3c504a77a7f221c3d23b8d149df262f93e7ae22c8c.png",
+        "images/d1b57cb2eadf17bf24f7ee8dfe120b25875326b4a947ad7c4dbbdcf5d2ab404d.jpg",
+        "images/0b5ea7f22d8d35550ff90f1404df04c9060e274236be7b986709ec3184a7c772.png"
+      ]
+    },
+    "en_US": {
+      "title": "SmartNews: Local Breaking News",
+      "developer": "SmartNews, Inc.",
+      "description": "We combine the best of quality journalism with expert curation to help you stay informed—and feel good while doing it. With quality articles from trustworthy publishers, you can easily curate your feed based on the topics that interest you most. <br><br>Discover top news from premium publishers in one app: Bloomberg, The Atlantic, USA Today, TIME, The Huffington Post, Bleacher Report, Quartz, The Verge, LAT, VOX, AP, Reuters, Buzzfeed, Fast Company.<br><br>SmartNews rewards you for staying up to date and informed. Earn points every day by reading articles and exchange them for gift cards from your favorite brands or donations to charities you support. <br><br>Rewards<br>-Earn points for reading articles and completing daily reading missions. <br>-Redeem those points for gift cards from your favorite retail brands or for donations to charities you care about. <br><br>Local <br>-Get informative stories from premium publishers based on your location. <br>-See the latest local news on government, traffic, weather, politics, school boards, and more.<br>-Read news about local cultural events, hidden gems, restaurants, family-friendly activities, and your summer farmer’s market.<br><br>Travel<br>-Discover the best spots wherever you go with location-based news and updates.<br>-Learn about top travel tips from your favorite publishers.<br>-Plan your next vacation with trending news on the best destinations, travel hacks, and flight deals before you depart. <br><br>Politics<br>-  Get prepared for the elections, polls, and debates with stories across the political spectrum from Democrat to Republican.<br>- Understand candidates, ballot measures, debates, results, and city council elections near you.<br>-Find voter information, campaign finance stories, verified election reports, and expert election analysis you can trust.<br><br>Quality <br>-We partner with thousands of trusted publishers for premium, balanced news.<br>-Our award-winning journalists validate content to ensure it meets our high-quality standards.<br><br>Entertainment  <br>-Discover top movies or TV shows with your favorite actors. <br>-Follow entertainment topics so you never miss a story.<br><br>Sports<br>-Get daily articles highlighting the latest games, teams, players, and sporting events.<br>-Set notifications for your favorite teams.<br>-See breaking news about football, basketball, golf, tennis, soccer, and more.<br><br>Health<br>-Discover the healthcare news that impacts you all in one free app. <br>-See what experts say about wellness, aging, and mental health from top publishers.<br>-Follow stories about pain relief updates, exercise trends, and home remedies. <br><br><br>***<br>SMARTNEWS IN THE PRESS<br><br>“Browse headlines quickly, customize your channels, and read the news offline. SmartNews is an excellent free alternative to other popular news apps.”<br>- CNET<br><br>***<br>AWARDS<br><br>Winner of the 2025 May Award Contest - Best Mobile App<br>Best Mobile App Awards<br><br>Best Local News App, 2024 (US)<br>Bestapp<br><br>Best News Aggregator, 2023 (US)<br>Lifewire<br><br>Best News App, 2023  (US)<br>AndroidCentral<br><br><br>***<br>REVIEWS<br><br>“Better than Feedly or Flipboard. Love it!” Joe C.<br><br>“Much better than the new version of Apple News.” - Donald B.<br><br>“Been using Google News, but this is better. Much easier to share.” Nikki H.<br><br>***<br><br>Terms of Service<br>The SmartNews Terms of Service are linked below. Please read and confirm these terms before using our services.<br>https://www.smartnews.com/terms/<br><br>Rewards Disclaimer<br>You must be a legal resident of the 50 United States or the District of Columbia<br><br>The Program may be offered only in certain geographic regions in the United States and may not be available in all jurisdictions. SmartNews may limit, restrict, suspend, or discontinue Program availability, in whole or in part, at any time and in its sole discretion.<br><br>The merchants represented are not sponsors of the rewards or otherwise affiliated with SmartNews. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates. Please visit each company's website for additional terms and conditions.",
+      "shortDescription": "Political news, election results, entertainment, sports and local stories.",
+      "versionName": null,
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=jp.gocro.smartnews.android",
+      "changelog": "- Performance improvements and bug fixes to enhance your reading experience.",
+      "icon": "images/41164742a6d2778144efe6012905074753f9727a3debceee3213b3c21b3f472c.png",
+      "screenshots": [
+        "images/63856ce4ab559a2eef99257d6e1b3644244c370c2354c6d1acbc82ac587a3a2e.png",
+        "images/de1229d8d23ce983b549a596fc57a1433a05f945b945c26e88ebc97496ef46b7.png",
+        "images/98785110491f82397b0756e0d57ca19ba2e6f70ec37e129c141d19e46520e405.png",
+        "images/27ebf60e82fca63d0306e5aae1bb895849f021ab1b712b73d19995aab949678e.jpg",
+        "images/cb2e8f51cd8350e321a544eb008af48c3147992340382d33c1592845026bb3b7.png",
+        "images/5dabb14b30af3735f369bb3c504a77a7f221c3d23b8d149df262f93e7ae22c8c.png",
+        "images/d1b57cb2eadf17bf24f7ee8dfe120b25875326b4a947ad7c4dbbdcf5d2ab404d.jpg",
+        "images/0b5ea7f22d8d35550ff90f1404df04c9060e274236be7b986709ec3184a7c772.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-27",
+        "text": "- Performance improvements and bug fixes to enhance your reading experience."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-27",
+        "text": "- Performance improvements and bug fixes to enhance your reading experience."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/V6wYSXrSloYomj44CkX6XnfflRfG3qTYh451MXUZHBUxqszW0pUrLt5TdlOXJv_qt3Kv37vQ725Ql7E6b49u6Q": "41164742a6d2778144efe6012905074753f9727a3debceee3213b3c21b3f472c.png",
+    "https://play-lh.googleusercontent.com/JVqXDIdkfFz9T8LNQ_kJCruEs8Qq8sSHaxDODpY29epWSx-ya80zXZNDfVGa6X50qey4L-IXGz4damK_dlaM": "63856ce4ab559a2eef99257d6e1b3644244c370c2354c6d1acbc82ac587a3a2e.png",
+    "https://play-lh.googleusercontent.com/SpjmqaIY8zLhNYvE74SclH_uMQE552Fu8hFyoTfT2pJ3sJV0Vi1GCRBAMhxawmdo3Y84FT9et-4OTyobmU2YLA": "de1229d8d23ce983b549a596fc57a1433a05f945b945c26e88ebc97496ef46b7.png",
+    "https://play-lh.googleusercontent.com/TkwCQqIityVaXjvsSCzTlEMXg1p0JuiFSpXb649r5soOoxwo3Vsni2dUGl-Ui3rULVdiq6TcGgaPHeLupWkYNjY": "98785110491f82397b0756e0d57ca19ba2e6f70ec37e129c141d19e46520e405.png",
+    "https://play-lh.googleusercontent.com/mjzRv62lbct2WAxyZmmu8lhV7NcITuJsXpGhNI3cpItEHDJDzDv2wng2_51pxyFKCcdQH42JaGSW-8X8j2VIrAc": "27ebf60e82fca63d0306e5aae1bb895849f021ab1b712b73d19995aab949678e.jpg",
+    "https://play-lh.googleusercontent.com/ILkLVTRxUrf293qZrkSk0ST_cmNyw8L8VDA1KBMAUMc-RzdRfPCSlBDkfcR9YnwMSv9tE78gU1fCr8iQh582_A": "cb2e8f51cd8350e321a544eb008af48c3147992340382d33c1592845026bb3b7.png",
+    "https://play-lh.googleusercontent.com/mfvQ1ruXWRNl3TChQ2xzIg-MfrFMsrlxMJYZ8b_agGCwRqMO0j0f3p5y3fllNsoavGn2u2aOCcAlPmr0kpsf": "5dabb14b30af3735f369bb3c504a77a7f221c3d23b8d149df262f93e7ae22c8c.png",
+    "https://play-lh.googleusercontent.com/FW7ytpdkEo2E_XrJhXtyPPOhXxCQ5hcNgFyNoOJyQ7uJWKCuZPGSLHvXk-WdoE6ENbunOCR5z1xs_2_sbnCwnQ": "d1b57cb2eadf17bf24f7ee8dfe120b25875326b4a947ad7c4dbbdcf5d2ab404d.jpg",
+    "https://play-lh.googleusercontent.com/4GFshzwl1rE86HTXju9gjQYtKUWMqZtiitIpjY9u_s6po6sk4y1uf6I_cIQyN5ug3b7PvWZ9TAKwdjUvXJi5": "0b5ea7f22d8d35550ff90f1404df04c9060e274236be7b986709ec3184a7c772.png"
+  }
+}

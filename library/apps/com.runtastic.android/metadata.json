@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.runtastic.android",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "adidas Running: Run tracker",
+      "developer": "adidas",
+      "description": "Track workouts, runs & fitness progress with the adidas Running app<br><br>Make daily fitness a priority with adidas Running. Track your progress, get in shape, and hit your goals while being part of the ultimate health and fitness community!<br><br>The adidas Running app is the perfect tool for any type of runner, cyclist, or athlete. Whether you're a beginner looking for guidance or a seasoned pro seeking new challenges, adidas Running has you covered.<br><br>Join over 170 million people who use adidas Running to track more than 90 sports and activities. Whether it's hiking, cycling, marathon training, or at-home workouts, your fitness log lets you track your stats seamlessly.<br><br>Track all your sports and activities in one place—walking distance, exercise routines, weight loss, and more. Dive into fitness challenges or virtual races to stay motivated and crush your goals.<br><br>Log minutes, miles, and calories burned to monitor your health and fitness journey over time. Follow other athletes, join sports clubs near you, and stay inspired in your daily routines!<br><br>ADIDAS RUNNING FEATURES<br><br>THE FITNESS APP FOR ALL ACTIVITIES<br><br>- Choose from 90+ sports & activities<br>- Running, biking, swimming & more—track any passion with ease<br><br>TRAINING FOR ALL FITNESS LEVELS<br><br>- Beginner-friendly running challenges to help you start strong<br>- Set and track new goals to keep improving<br>- Recharge your fitness plan and build on previous gains<br><br>TRACK RUNNING DISTANCE & ACTIVITY<br><br>- Monitor running and biking distance, heart rate, pace, calories burned & cadence<br>- Set your own plan: choose distance, duration & frequency<br>- Auto-pause when you stop moving<br><br>WEAR OS COMPATIBILITY<br><br>- Link your adidas Running account to your favorite wearable device<br>- Monitor weight loss & daily progress across devices<br>- Two Wear OS tiles: one for stats over the past 6 months, one for quick-starting activities<br>- Three complications supported: Start Activity, Weekly Distance, Weekly Activities<br><br>HALF-MARATHON & MARATHON TRAINING<br><br>- Train with a running coach and personalized plans for 5K, 10K, half-marathon & marathon<br>- Build endurance and improve performance with adaptive training plans<br>- Interval training to boost speed and stamina<br> <br>Available on mobile, Wear OS, and other wearable devices.<br> <br>Runtastic Terms of Service: https://www.runtastic.com/in-app/iphone/appstore/terms<br>Runtastic Privacy Policy: https://www.runtastic.com/privacy-notice",
+      "shortDescription": "От пешей ходьбы до подготовки к марафону",
+      "versionName": null,
+      "updatedDate": "2026-10-14",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.runtastic.android",
+      "changelog": "Set event-based Goals for your 5K, 10K, Half Marathon, or Marathon through our new Goals Questionnaire. Never lose sight of race day with home screen Widgets - your goal, right where you need it.",
+      "icon": "images/c1b4c68484b936dbdcb66ab3131f25beca97c24c43c3aef58de69967a9fd8a55.png",
+      "screenshots": [
+        "images/6e0bebb6e1e59deba963a5ae8de97d0e099a8227d3c01a49b8572ea02299f2a1.png",
+        "images/a56599f0c9a83c90c1425649c57cb9a23728d01ad7d006f32ade4b24749ed484.png",
+        "images/ec23fa54bcff6939be23448dc8fc09c17682837a7c63392fe1f69fb6358f4f04.png",
+        "images/7fa2557ca4db185b3804d7012910c9c64c191c1424d06448beba3b31a20ccb95.png",
+        "images/edd8d8a7242d7fb774b72185ce8ed03b421a25acd117d313d32705fa80b256b2.png",
+        "images/ca53fa5753f32c5469cef00d75a33c965c5931607cc7b9822f4521d912bf3052.png",
+        "images/f4fe6bb95ddc3caaf419808d04360ad93831f6b096f0f060c8ececcff5b318bf.png",
+        "images/2af0e583a33339323791b58794828760c108ad3e4be19f6e1877a725cfa0a8d1.png"
+      ]
+    },
+    "en_US": {
+      "title": "adidas Running: Run tracker",
+      "developer": "adidas",
+      "description": "Track workouts, runs & fitness progress with the adidas Running app<br><br>Make daily fitness a priority with adidas Running. Track your progress, get in shape, and hit your goals while being part of the ultimate health and fitness community!<br><br>The adidas Running app is the perfect tool for any type of runner, cyclist, or athlete. Whether you're a beginner looking for guidance or a seasoned pro seeking new challenges, adidas Running has you covered.<br><br>Join over 170 million people who use adidas Running to track more than 90 sports and activities. Whether it's hiking, cycling, marathon training, or at-home workouts, your fitness log lets you track your stats seamlessly.<br><br>Track all your sports and activities in one place—walking distance, exercise routines, weight loss, and more. Dive into fitness challenges or virtual races to stay motivated and crush your goals.<br><br>Log minutes, miles, and calories burned to monitor your health and fitness journey over time. Follow other athletes, join sports clubs near you, and stay inspired in your daily routines!<br><br>ADIDAS RUNNING FEATURES<br><br>THE FITNESS APP FOR ALL ACTIVITIES<br><br>- Choose from 90+ sports & activities<br>- Running, biking, swimming & more—track any passion with ease<br><br>TRAINING FOR ALL FITNESS LEVELS<br><br>- Beginner-friendly running challenges to help you start strong<br>- Set and track new goals to keep improving<br>- Recharge your fitness plan and build on previous gains<br><br>TRACK RUNNING DISTANCE & ACTIVITY<br><br>- Monitor running and biking distance, heart rate, pace, calories burned & cadence<br>- Set your own plan: choose distance, duration & frequency<br>- Auto-pause when you stop moving<br><br>WEAR OS COMPATIBILITY<br><br>- Link your adidas Running account to your favorite wearable device<br>- Monitor weight loss & daily progress across devices<br>- Two Wear OS tiles: one for stats over the past 6 months, one for quick-starting activities<br>- Three complications supported: Start Activity, Weekly Distance, Weekly Activities<br><br>HALF-MARATHON & MARATHON TRAINING<br><br>- Train with a running coach and personalized plans for 5K, 10K, half-marathon & marathon<br>- Build endurance and improve performance with adaptive training plans<br>- Interval training to boost speed and stamina<br> <br>Available on mobile, Wear OS, and other wearable devices.<br> <br>Runtastic Terms of Service: https://www.runtastic.com/in-app/iphone/appstore/terms<br>Runtastic Privacy Policy: https://www.runtastic.com/privacy-notice",
+      "shortDescription": "From Walk to Marathon training",
+      "versionName": null,
+      "updatedDate": "2026-10-14",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.runtastic.android",
+      "changelog": "Set event-based Goals for your 5K, 10K, Half Marathon, or Marathon through our new Goals Questionnaire. Never lose sight of race day with home screen Widgets - your goal, right where you need it.",
+      "icon": "images/c1b4c68484b936dbdcb66ab3131f25beca97c24c43c3aef58de69967a9fd8a55.png",
+      "screenshots": [
+        "images/6e0bebb6e1e59deba963a5ae8de97d0e099a8227d3c01a49b8572ea02299f2a1.png",
+        "images/a56599f0c9a83c90c1425649c57cb9a23728d01ad7d006f32ade4b24749ed484.png",
+        "images/ec23fa54bcff6939be23448dc8fc09c17682837a7c63392fe1f69fb6358f4f04.png",
+        "images/7fa2557ca4db185b3804d7012910c9c64c191c1424d06448beba3b31a20ccb95.png",
+        "images/edd8d8a7242d7fb774b72185ce8ed03b421a25acd117d313d32705fa80b256b2.png",
+        "images/ca53fa5753f32c5469cef00d75a33c965c5931607cc7b9822f4521d912bf3052.png",
+        "images/f4fe6bb95ddc3caaf419808d04360ad93831f6b096f0f060c8ececcff5b318bf.png",
+        "images/2af0e583a33339323791b58794828760c108ad3e4be19f6e1877a725cfa0a8d1.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-14",
+        "text": "Set event-based Goals for your 5K, 10K, Half Marathon, or Marathon through our new Goals Questionnaire. Never lose sight of race day with home screen Widgets - your goal, right where you need it."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-14",
+        "text": "Set event-based Goals for your 5K, 10K, Half Marathon, or Marathon through our new Goals Questionnaire. Never lose sight of race day with home screen Widgets - your goal, right where you need it."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/1udXK8cLZbTqF8fY5H1hMfx9uQH7knUHU0-lMGqcZeIqptldP6IUdpg9XdJEqkNz64zF3R-nE68I9NoQh31fnQ": "c1b4c68484b936dbdcb66ab3131f25beca97c24c43c3aef58de69967a9fd8a55.png",
+    "https://play-lh.googleusercontent.com/wsr8S6KOfOP9EoJ1Xu76bf2Iv3OGOz__6V0jmntsml5CG1L3lH77SWvnrZZGsQNoAcBdNm3PEilbjOgaSSS69A": "6e0bebb6e1e59deba963a5ae8de97d0e099a8227d3c01a49b8572ea02299f2a1.png",
+    "https://play-lh.googleusercontent.com/RWklXtreoA26Nxk5zuoC3TlUrrYlNXxx9LJ1w-_YSCcXbfB4tpiAitFOPqPTH9CCtCHjCkExm0it5rpsin5ZyJM": "a56599f0c9a83c90c1425649c57cb9a23728d01ad7d006f32ade4b24749ed484.png",
+    "https://play-lh.googleusercontent.com/jN-UYw5Oo9QIVteWt0ACtTRk2c7IRMr60pfYMe4A_oywK5ApMtDNDCGq93w17njc_QSHdtKcQIuOuUfVenDAhEI": "ec23fa54bcff6939be23448dc8fc09c17682837a7c63392fe1f69fb6358f4f04.png",
+    "https://play-lh.googleusercontent.com/mQrzpSI0ShKdPQungJpS86Zks4Xd8pSiCW29f1MlmBaNc8MW9kRcl41Wsrqd9gbmwFJZ45Q0vhPVwomY85aB": "7fa2557ca4db185b3804d7012910c9c64c191c1424d06448beba3b31a20ccb95.png",
+    "https://play-lh.googleusercontent.com/y0ycapuJa9cdRRXoqGGtQ5kLOMbpoOS_nNsjxdY86r3-p9_NzMu0DiEkAw0hwf64-nLcpAPFaUpQLLEL0zT2Rw": "edd8d8a7242d7fb774b72185ce8ed03b421a25acd117d313d32705fa80b256b2.png",
+    "https://play-lh.googleusercontent.com/Jcd3mH6twViVsjqPBb7ROHuqOebQlZs87Mfg_OgFXqDCphowoLP2J1teOgDS76pbUR5qa_etBKl86CQHZffV": "ca53fa5753f32c5469cef00d75a33c965c5931607cc7b9822f4521d912bf3052.png",
+    "https://play-lh.googleusercontent.com/rpKNggB1JFjjjAVgCADsMaSCxKLO-uLBiB6loQjg4bWgvBRQixcMPgG-F7i1ClnfA2CpTo12cr1DAOigHSqd": "f4fe6bb95ddc3caaf419808d04360ad93831f6b096f0f060c8ececcff5b318bf.png",
+    "https://play-lh.googleusercontent.com/4rcpfflkF5AiwnOM8TfmZE3Cmj3p0BoqHN9D7Ry-VTM137V9mEi8Z3RFGmVenVMXS1TuX8OPjsqeknS2fRDGxw": "2af0e583a33339323791b58794828760c108ad3e4be19f6e1877a725cfa0a8d1.png"
+  }
+}

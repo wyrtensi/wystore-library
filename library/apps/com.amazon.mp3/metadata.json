@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.amazon.mp3",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Amazon Music: Songs & Podcasts",
+      "developer": "Amazon Mobile LLC",
+      "description": "We're changing the way you discover and play the music you love. Listen free to music and podcasts with ads—no credit card required. Prime members can enjoy all the music + top podcasts ad-free. Want more benefits? Get 100 million songs on-demand, ad-free top podcasts, and audiobooks with Amazon Music Unlimited.<br><br><br><b><u>Included with your Prime membership at no additional cost:</u></b><br>• All the music ad-free <br>• The largest catalog of ad-free top podcasts<br>• Discover new music and podcasts based on your likes <br>• Shuffle play any artist, album, or playlist <br><br><b><u>Amazon Music Unlimited:</u></b><br>• Unlimited access to 100 million songs <br>• Pick and play any song, ad-free <br>• The most ad-free top podcasts<br>• Access the largest catalog of audiobooks <br>• Listen to one audiobook each month <br>• Listen offline <br>• Unlimited skips<br>• Experience our fast-growing collection of spatial audio<br><br><b><u>Or listen to free streaming music, no credit card required:</u></b><br>• Thousands of stations and top playlists<br>• Millions of podcast episodes <br>• Discover new music and podcasts based on your likes <br>• No credit card required<br><br><b><u>Import your playlists:</u></b><br>• Move existing playlists from other music platforms to Amazon Music in a few quick steps. Learn more at http://www.amazon.com/playlistimport<br><br><b><u>My Music:</u></b><br>• Listen to music you’ve purchased from Amazon – MP3s or AutoRip CDs/Vinyl. Your Amazon purchases are stored for free in the Amazon cloud<br><br><b><u>Wear OS features</u></b><br>• Access your favorite music, right from your wrist<br>• Play top recommendations, songs from your library, or search for your favorite artists, albums, playlists, and more<br>• Use your watch to cast to and control playback on compatible Android devices<br>• Download your Playlists and Albums onto your watch and listen to them in Offline Mode when you're on the go<br><br><br><b><u>Visit us at:</u></b><br>www.amazon.com/music/unlimited<br>www.amazon.com/music/prime<br>www.facebook.com/amazonmusic<br>www.twitter.com/amazonmusic<br>www.instagram.com/amazonmusic",
+      "shortDescription": "Слушайте подкасты, популярные плейлисты, хиты и любимые песни.",
+      "versionName": null,
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.mp3",
+      "changelog": "We’re improving your Amazon Music listening experience all the time. In this version, we fixed some bugs and made other improvements.",
+      "icon": "images/a58043d5116ae2118b227eb51728eed5bf807c2bd4ffc82e0c28dbc3a81aca94.png",
+      "screenshots": [
+        "images/ff102eaff8db2eba599fc2a392500691a65775a58d17bfaaab30539920d215ee.png",
+        "images/c0741a965bc1f4283a98a208edc7c8690bf8f84c33fcd04c3a9066e96cc49cec.png",
+        "images/f53cc2935e8bde213f32fda4c9f2cf2a06215264188462f37d7dd0d094877375.png",
+        "images/cf41a46a17b773c5d6f49a9c6278331dea0537cac6f8653317e40fecab870bfd.png",
+        "images/57e6c3554d9be4291f3b3461348b26e5a7c826e37e4d13a763e17718ba204861.png",
+        "images/b7b6c3c869badb00906ab0933a42327ec95f6ef9dac015ee807b282d49414e33.png",
+        "images/e8920b6cda13dbc3a317ea943b5681ed75a22556d37f50b4f1b2739896f075e1.png",
+        "images/b0d4f48a8e091a75d2e8f6e299778401312dab6770bbdd1e025b2af7e7ab20fa.png"
+      ]
+    },
+    "en_US": {
+      "title": "Amazon Music: Songs & Podcasts",
+      "developer": "Amazon Mobile LLC",
+      "description": "We're changing the way you discover and play the music you love. Listen free to music and podcasts with ads—no credit card required. Prime members can enjoy all the music + top podcasts ad-free. Want more benefits? Get 100 million songs on-demand, ad-free top podcasts, and audiobooks with Amazon Music Unlimited.<br><br><br><b><u>Included with your Prime membership at no additional cost:</u></b><br>• All the music ad-free <br>• The largest catalog of ad-free top podcasts<br>• Discover new music and podcasts based on your likes <br>• Shuffle play any artist, album, or playlist <br><br><b><u>Amazon Music Unlimited:</u></b><br>• Unlimited access to 100 million songs <br>• Pick and play any song, ad-free <br>• The most ad-free top podcasts<br>• Access the largest catalog of audiobooks <br>• Listen to one audiobook each month <br>• Listen offline <br>• Unlimited skips<br>• Experience our fast-growing collection of spatial audio<br><br><b><u>Or listen to free streaming music, no credit card required:</u></b><br>• Thousands of stations and top playlists<br>• Millions of podcast episodes <br>• Discover new music and podcasts based on your likes <br>• No credit card required<br><br><b><u>Import your playlists:</u></b><br>• Move existing playlists from other music platforms to Amazon Music in a few quick steps. Learn more at http://www.amazon.com/playlistimport<br><br><b><u>My Music:</u></b><br>• Listen to music you’ve purchased from Amazon – MP3s or AutoRip CDs/Vinyl. Your Amazon purchases are stored for free in the Amazon cloud<br><br><b><u>Wear OS features</u></b><br>• Access your favorite music, right from your wrist<br>• Play top recommendations, songs from your library, or search for your favorite artists, albums, playlists, and more<br>• Use your watch to cast to and control playback on compatible Android devices<br>• Download your Playlists and Albums onto your watch and listen to them in Offline Mode when you're on the go<br><br><br><b><u>Visit us at:</u></b><br>www.amazon.com/music/unlimited<br>www.amazon.com/music/prime<br>www.facebook.com/amazonmusic<br>www.twitter.com/amazonmusic<br>www.instagram.com/amazonmusic",
+      "shortDescription": "Listen to podcasts, trending playlists, hit music and your favorite songs",
+      "versionName": null,
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.mp3",
+      "changelog": "We’re improving your Amazon Music listening experience all the time. In this version, we fixed some bugs and made other improvements.",
+      "icon": "images/a58043d5116ae2118b227eb51728eed5bf807c2bd4ffc82e0c28dbc3a81aca94.png",
+      "screenshots": [
+        "images/ff102eaff8db2eba599fc2a392500691a65775a58d17bfaaab30539920d215ee.png",
+        "images/c0741a965bc1f4283a98a208edc7c8690bf8f84c33fcd04c3a9066e96cc49cec.png",
+        "images/f53cc2935e8bde213f32fda4c9f2cf2a06215264188462f37d7dd0d094877375.png",
+        "images/cf41a46a17b773c5d6f49a9c6278331dea0537cac6f8653317e40fecab870bfd.png",
+        "images/57e6c3554d9be4291f3b3461348b26e5a7c826e37e4d13a763e17718ba204861.png",
+        "images/b7b6c3c869badb00906ab0933a42327ec95f6ef9dac015ee807b282d49414e33.png",
+        "images/e8920b6cda13dbc3a317ea943b5681ed75a22556d37f50b4f1b2739896f075e1.png",
+        "images/b0d4f48a8e091a75d2e8f6e299778401312dab6770bbdd1e025b2af7e7ab20fa.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-29",
+        "text": "We’re improving your Amazon Music listening experience all the time. In this version, we fixed some bugs and made other improvements."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-29",
+        "text": "We’re improving your Amazon Music listening experience all the time. In this version, we fixed some bugs and made other improvements."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/9v2z1-7g8pWbxek8IW3Q9gGsAqD-YkTvy_rmyd4Cfb-OkpVR2T6jt-Ev2eKDcvx72njhCQ_4fEd9qg8-T9AaDA": "a58043d5116ae2118b227eb51728eed5bf807c2bd4ffc82e0c28dbc3a81aca94.png",
+    "https://play-lh.googleusercontent.com/Pg7DKJCXtnuPcaC-4eS6wV_KBKPvpOs2Ntu1drdmVsrftjmRDYUjN_dRPcglBpdavQNFLW-XBHuq3vXxEqH1Jw": "ff102eaff8db2eba599fc2a392500691a65775a58d17bfaaab30539920d215ee.png",
+    "https://play-lh.googleusercontent.com/5VDyPLYzjSjIioOWLwpGkSkjd1U9VI5lnGUOs1s-Z-0YvN0MX5YYmS_x9MTkq1fqCJ7Wmz_UGy2gkGz8ucqo9w": "c0741a965bc1f4283a98a208edc7c8690bf8f84c33fcd04c3a9066e96cc49cec.png",
+    "https://play-lh.googleusercontent.com/7it-rSQXzfM55RV7PPX8oQxRltDP4kDsSOrCQiV0fm2kOZhI2UseG9wsGCUdOsGz3_wTlVlkkGLgGK3JWVJd": "f53cc2935e8bde213f32fda4c9f2cf2a06215264188462f37d7dd0d094877375.png",
+    "https://play-lh.googleusercontent.com/Du7pM5FAbMjqxRavGG53_7ru-LNoHmi34wWp8KOiFOD9lsA00ME69SAa5Qho6ZiHVq544hKOyC744scN_-VP": "cf41a46a17b773c5d6f49a9c6278331dea0537cac6f8653317e40fecab870bfd.png",
+    "https://play-lh.googleusercontent.com/Bw9kSX6CHQezwQLuWksfIE0zQVEqbNWjaVUxm_SrJlw1wc9BnDIpsYKywVFKExoRp8d0jBgcbY6RKDoVnbz8cQ": "57e6c3554d9be4291f3b3461348b26e5a7c826e37e4d13a763e17718ba204861.png",
+    "https://play-lh.googleusercontent.com/dPmv2m4lF13UgR8ebLJ3Bpazm2WHhvlxY3OZfq7rbgfupJ6U0rFoos7vxk2SVmziCOOTTw21nZ0zkJ3YZkl5tA": "b7b6c3c869badb00906ab0933a42327ec95f6ef9dac015ee807b282d49414e33.png",
+    "https://play-lh.googleusercontent.com/dweeurLu0gjnF3legEvzHlpmWh85FsGFK4dRH1cp5438no0YuQbY-RnlXBF1DhkLZ0zvdmq2ycKWphlFld1J3E4": "e8920b6cda13dbc3a317ea943b5681ed75a22556d37f50b4f1b2739896f075e1.png",
+    "https://play-lh.googleusercontent.com/xHxvuDqathaS1KADY5p6eJ8OAbwPTJ2UkHL-fL2Dhau3I0EJMMtwSplXIyjLPUUycCtXb6zmBzffE1t2lRUnkw": "b0d4f48a8e091a75d2e8f6e299778401312dab6770bbdd1e025b2af7e7ab20fa.png"
+  }
+}

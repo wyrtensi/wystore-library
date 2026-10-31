@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "package": "com.tinder",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Tinder - знакомства и чат",
+      "developer": "Tinder LLC",
+      "description": "<b>Tinder® — это ведущее бесплатное приложение для знакомств</b>, в котором уже образовано более 70 миллиардов пар. Ищешь настоящую любовь? Открытые отношения? Хочешь сходить на свидание или завести новых друзей? В Tinder ты сможешь знакомиться с людьми по всему миру и получать положительные эмоции:<br><br>Наше приложение открыто для гетеросексуалов, геев, бисексуалов и других ориентаций: Tinder позволяет тебе быть собой и находить кого угодно <br>Делись интересами и узнавай больше о своих парах, находи общие темы и приятных собеседников.<br><b>Профили с проверенными фото:</b> чтобы единственным сюрпризом на первом свидании были цветы.<br><b>Видеочат:</b> проверь свою симпатию и знакомься с новыми людьми прямо из дома!<br>Собираешься в путешествие? Пообщайся с местными из любой точки мира. Знакомства в Москве, новые друзья в Тбилиси или свидания в Лондоне — мы поможем найти компанию где угодно.<br><br>Для кого-то мы «самое надёжное приложение для поиска пар», для других — <b>«самый популярный в мире сайт для знакомств»</b>. Мы не знаем, кем станем для тебя, но точно поможем найти компанию поблизости.<br><br><b>Знакомься. Общайся. Встречайся. Это наш девиз.</b><br><br>Знакомиться с новыми людьми в Tinder® просто и увлекательно. Чтобы сделать профиль заметным, добавь свои лучшие фотографии и расскажи немного о себе. Свайпай вправо, чтобы поставить кому-то лайк, или свайпай влево, чтобы перейти к следующему профилю. Если тебе поставили ответный лайк, пара совпала! Не волнуйся: образовать пару можно только при наличии взаимного интереса. Много ли приложений способны на такое?<br><br> Наслаждайся премиум-функциями Tinder с подпиской Tinder Gold™<br><br>Лайки — узнай, кто тебя лайкнул, и сэкономь время<br>Безлимит лайков — не упускай потенциальные пары <br>Перемотка — отменяй последний свайп <br>Загранпаспорт — находи знакомых в других странах и регионах прямо из дома <br>Ежемесячный буст — помести свой профиль на первое место на 30 минут, чтобы привлечь еще больше внимания <br>Суперлайки каждую неделю специально для тех, кто тебе очень нравится<br>Оформи подписку Tinder Platinum™, чтобы получить все эти премиум-функции, а также приоритетные лайки, возможность добавлять сообщения до создания пары и многое другое.<br><br>Если пока не хочешь оформлять <b>Gold</b> или Platinum, ничего страшного! Получи безлимит лайков, неограниченную Перемотку и Загранпаспорт с подпиской Tinder Плюс.<br><br>Чего же ты ждёшь? <b>Скачай лучшее бесплатное приложение для знакомств уже сегодня!</b> Если ты хочешь встречаться с новыми людьми, искать друзей или найти идеальную пару, ты по адресу — Tinder не хватает именно тебя.<br><br>-----------------------------------<br><br>Если ты решишь купить Tinder Плюс, Tinder Gold™ или Tinder Platinum™, то сделать это можно через аккаунт Google Play. С этого же аккаунта будут списаны средства за 24 часа до завершения текущего платного периода. Автоматическое продление подписки можно отключить в настройках Google Play в любое время после покупки. Отменить текущую подписку в период её действия невозможно. Если ты не планируешь покупать Tinder Плюс, Tinder Gold™ или Tinder Platinum™, можешь продолжать пользоваться Tinder бесплатно.<br><br>На всех фотографиях изображены модели, которые используются только в качестве примера.<br><br>Политика конфиденциальности: https://www.gotinder.com/privacy<br><br>Условия: https://www.gotinder.com/terms",
+      "shortDescription": "Попробуйте онлайн-знакомств для общение, знакомств рядом или новых знакомств!",
+      "versionName": "17.40.0",
+      "updatedDate": "2026-10-26",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.tinder",
+      "changelog": "<br>Мы улучшили поиск. Теперь легче находить людей, которые хотят того же, что и ты: влюбленности, эмоций или чего-то посерьезнее.<br><br>Каждый свайп — еще один шаг навстречу твоей цели в Tinder.",
+      "icon": "images/a3b20e898bb52dfd761f9d0330e7bce28641834317cde4c83fd7cca5ece9694e.png",
+      "screenshots": [
+        "images/96a127b4c1c5a61e3349b40b295289b1f268e6b1f8ed2ada5731b004290558dd.jpg",
+        "images/a66bf1d03abcf7fa2582468206b783e0b0eb0b5a44b8707b0f4d677c75e273ad.jpg",
+        "images/6d070bf36eaa974f0f4b4536a64476309486809eecce3e3adb7aaba0b75e3f83.jpg",
+        "images/99587f979ae4c68b16a16c34c7e0ffbfbda6f814221a513f53f1ecdf5f4d7d1f.jpg",
+        "images/1f776fc2bb4d73d2338ab1e37d943ef08092bab797d176b63d31cf3ac16a47a9.jpg",
+        "images/0380cd89d2991634e9277138f7d4e09b20aeed28bf496d8118153e93c6824e48.jpg",
+        "images/4303a3c57fefacefdc3bf042b0dac1bdb45fb9a0ba99e4971269ee0b917cc970.jpg",
+        "images/d5648dc234907a5e9aee4814e82f02a9bf902c0a84cb5429cce80039012a7035.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Tinder Dating App: Chat & Date",
+      "developer": "Tinder LLC",
+      "description": "Tinder is the place to meet someone new and see where a spark might lead. With millions of people nearby and around the world, Tinder makes dating fun and helps you find someone who matches your vibe, interests, and intentions.<br><br><b> ✨ HOW IT WORKS </b><br>Meeting new people on Tinder feels easy and natural. Every match is a chance to meet someone interesting and enjoy the kind of dating experience that feels fun, relaxed, and right for you. Conversations unfold at your pace and help you figure out who you genuinely connect with.<br><br>* Set your preferences and explore profiles that fit what you're looking for<br>* Match with people nearby or around the world<br>* Build real connections with real people through Face Check<br>* Use Astrology Mode to see how you and a potential match could be compatible.<br>* Answer prompts that help you share more of your personality<br>* Add photos and interests to show your style and what you care about<br>* Go on a Double Date and bring a friend along for the fun<br>* Let a friend know when you're meeting someone so you feel confident going out<br>* Chat with tools designed to help you feel safe and in control<br><br>Dating here is about exploring possibilities, connecting with people who catch your attention, and sparking conversations that grow.<br><br><b> 💞 A PLACE TO BE YOURSELF </b><br>The place where your personality can shine—your humor, your interests, your quirks, your style. When you share the things that make you who you are, it becomes easier to meet people who genuinely appreciate your vibe.<br><br>We bring together people who are open to meeting someone interesting and trying something new. It’s a place where a simple match can turn into a great chat, a fun first date, or something unexpectedly meaningful.<br><br><b>➕TRY TINDER PLUS</b><br>With <b>Unlimited Likes</b>, swipe on as many people as you want.  <b>Passport Mode™</b> lets you match and chat with locals anywhere in the world. <b> Unlimited Rewinds </b> let you take back any swipe, and Go Incognito shows you only to the people you like.<br><br><b>🏆 EXPERIENCE TINDER GOLD</b><br>Tinder Gold™ includes everything in Plus™. Try a week before subscribing, see who <b>Likes You</b> for instant matches, use <b>Monthly Boosts</b> to stand out, and get <b>Weekly Super Likes</b> for the people you really like.<br><br><b>🥈UPGRADE TO TINDER PLATINUM</b><br>Get most of our premium features: Join Tinder Platinum™ to prioritize your Likes with potential matches, send a compliment before matching, and more dating perks<br><br><b> 🔒 SAFETY YOU CAN TRUST </b> <br>Your comfort matters to us. We include multiple ways to verify profiles, added safety tools, and features that help you stay in control of how — and when — you meet new people.<br><br><b> 💖 START YOUR NEXT CONNECTION </b><br>Download now to spark something new today.<br><br>--------<br>If you choose to purchase Tinder Plus®, Tinder Gold™ or Tinder Platinum™ payment will be charged to your Google Play account, and your account will be charged for renewal within 24-hours prior to the end of the current period. Auto-renewal may be turned off at any time by going to your settings in the Google Play Store after purchase. No cancellation of the current subscription is allowed during the active subscription period. If you don’t choose to purchase Tinder Plus®, Tinder Gold™ or Tinder Platinum™, you can simply continue using Tinder for free.<br><br>All photos are of models and used for illustrative purposes only.<br><br>Privacy: https://www.gotinder.com/privacy<br>Terms: https://www.gotinder.com/terms<br>Visit: https://www.tinderlove.com/",
+      "shortDescription": "The dating app for adults to meet new people & match with local singles online",
+      "versionName": "17.40.0",
+      "updatedDate": "2026-10-26",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.tinder",
+      "changelog": "We’ve improved how you find and connect with people who want what you want—whether it's a spark, a story, or something long-term. <br><br>Get one step closer to what you're looking for on Tinder.",
+      "icon": "images/a3b20e898bb52dfd761f9d0330e7bce28641834317cde4c83fd7cca5ece9694e.png",
+      "screenshots": [
+        "images/5ab22c6138ae2b3b20f2921f46e49d8f9824ae7c41c1b0c3ea198ec9510f3022.jpg",
+        "images/5472acadd05da214580b8576995c11ce7d77cc25e759aeea38ecbf02951a6220.jpg",
+        "images/d324428c8ff89eaf7471e8b6b956cb6e9d7f5cd613a11c401e27cd83ecaa915d.jpg",
+        "images/63f29ddd0865736df8f24aeb973fe357d1b5bd44789bddc3c9476479a4838c3b.jpg",
+        "images/91734eff495c2a2c63c9d43cb08dc16f6fdc222e21f29926fcd918492559de56.jpg",
+        "images/58f6722bcf08cf45e7fd1adb7537de80613a69fafbe1b27e39ef746239b555bb.jpg",
+        "images/42ef813aea3e440757c593fa208c07254cc8319b472819e54c9cca9324ba6474.jpg",
+        "images/97855602199d208d42c8536de5765e768756d5c24a1ecd44acba8d4f1a47ccbd.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "17.40.0",
+        "updatedDate": "2026-10-26",
+        "text": "<br>Мы улучшили поиск. Теперь легче находить людей, которые хотят того же, что и ты: влюбленности, эмоций или чего-то посерьезнее.<br><br>Каждый свайп — еще один шаг навстречу твоей цели в Tinder."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "17.40.0",
+        "updatedDate": "2026-10-26",
+        "text": "We’ve improved how you find and connect with people who want what you want—whether it's a spark, a story, or something long-term. <br><br>Get one step closer to what you're looking for on Tinder."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/VaExVMyjnrd9PkIAKchSBK6Eo7zb4A2rriDbD3pUvmveAy46StPS-Hs5mYVIP9upZV4YCJxRoQRnj77FAaQd2A": "a3b20e898bb52dfd761f9d0330e7bce28641834317cde4c83fd7cca5ece9694e.png",
+    "https://play-lh.googleusercontent.com/FaejhbAb9n6l0hOgcv6HAGFX8JyPUpFhksRP5FGxC4Qk5nSdLj0iPuxkLW9hE7EkcXU9bFNnaRaqoW4mwPbd": "96a127b4c1c5a61e3349b40b295289b1f268e6b1f8ed2ada5731b004290558dd.jpg",
+    "https://play-lh.googleusercontent.com/wi4zK3nuUIaMP6h7EHUlG2dO-5FhLul39rq-EaaxkEON9n-z2e0yNoAKtLiusRc0J1bwxhtD0ubBzcolywLIE5c": "a66bf1d03abcf7fa2582468206b783e0b0eb0b5a44b8707b0f4d677c75e273ad.jpg",
+    "https://play-lh.googleusercontent.com/_1V4WiQo3w7OAYa6PsVvNJnFmFKNXM6NC6IxE1VJGUz5CE0ADJgO-AhIFzhqDO7bMov_lhE6jmxpNHyxZMyLTg": "6d070bf36eaa974f0f4b4536a64476309486809eecce3e3adb7aaba0b75e3f83.jpg",
+    "https://play-lh.googleusercontent.com/AN9wKtgGNWlb7br3xPJ-UDg2vYwOiR4tBsswHTet2H8Pa59FL3uH8EuqBP-YWIrEgtKIYUQyvngJnwSRgOikM5w": "99587f979ae4c68b16a16c34c7e0ffbfbda6f814221a513f53f1ecdf5f4d7d1f.jpg",
+    "https://play-lh.googleusercontent.com/n25eSya0uowHFT0SP_rPXi1YfZU2iPjdio5cvLrDIAmbQgGySVDFTA9-9mg-z7HfyHPoSygKkaKs4pbWxYgfEQ": "1f776fc2bb4d73d2338ab1e37d943ef08092bab797d176b63d31cf3ac16a47a9.jpg",
+    "https://play-lh.googleusercontent.com/guJA6fw4Xguyut2XnFk28AHH9ohtXWUEX4x9aMeAWdtQ4Beuh36L_0bbnx4662rAsqbJmj7PBtKktCv2fybm3w": "0380cd89d2991634e9277138f7d4e09b20aeed28bf496d8118153e93c6824e48.jpg",
+    "https://play-lh.googleusercontent.com/LTufMJ-7GU-UhEYbndBIO21LuZT-BKip_5qI0OGj_c3Lk12iQJcIngfb3rzm6tVkll7PRvVRqkgMn_RvGSoLcA": "4303a3c57fefacefdc3bf042b0dac1bdb45fb9a0ba99e4971269ee0b917cc970.jpg",
+    "https://play-lh.googleusercontent.com/2IsCOOewlKhJdfc5XopAs2UmzgK4l25kCVNGyS9LcFUKAFlxaLbOTR5LA5GQRTzTw6u1djmt1FXkl_p8PcGKtQ": "d5648dc234907a5e9aee4814e82f02a9bf902c0a84cb5429cce80039012a7035.jpg",
+    "https://play-lh.googleusercontent.com/QY4EdJAWwrdHwXjj5nUrOrn34zmzpGbud5mgIGyAdyMJuk0pJTuqgA4VpdWiJuCaQh9MNLoebzidfZqnf0coG40": "5ab22c6138ae2b3b20f2921f46e49d8f9824ae7c41c1b0c3ea198ec9510f3022.jpg",
+    "https://play-lh.googleusercontent.com/FfesW5jEWtAlV3MDtFLSEF-wCXwoOUKzILh8WO25cgn5MjhJraJrIQuRwrkNKSecJJlLWXTj7_zyUZ2jLW_nXA": "5472acadd05da214580b8576995c11ce7d77cc25e759aeea38ecbf02951a6220.jpg",
+    "https://play-lh.googleusercontent.com/e3iZ0RH3bXPj3GWoAfBIR3AoXkRRtKLgNyyr5GxTST8Y6QKdcpQkSrzGBvoO4x1GTY90qu4-MIyEqBes0lU8xw": "d324428c8ff89eaf7471e8b6b956cb6e9d7f5cd613a11c401e27cd83ecaa915d.jpg",
+    "https://play-lh.googleusercontent.com/QCtaNziHgoINmTxMx_YcQQ-_LBsOcLrQ6WfEnlnYObX4VoPq6wmajNEeQGhFKhXl0lSVIvpkPoBTIrN2M_D87w": "63f29ddd0865736df8f24aeb973fe357d1b5bd44789bddc3c9476479a4838c3b.jpg",
+    "https://play-lh.googleusercontent.com/tfAMtaoLB2RgwROTaYYIrmzub56rV-lwIPPLNNMjTDIYWTSbP-l5AGagzeaIP9CiyGMeJDTLnRL7Nb9whRVcMA": "91734eff495c2a2c63c9d43cb08dc16f6fdc222e21f29926fcd918492559de56.jpg",
+    "https://play-lh.googleusercontent.com/SvL_TFpvevSjcw_mRkxxCc5AHJfCjdSLvxyhsGFUIfzNrU8GRGLuF0mNPsI7ryrSS76TxxE7uPrsgvZUwJ-3uQ": "58f6722bcf08cf45e7fd1adb7537de80613a69fafbe1b27e39ef746239b555bb.jpg",
+    "https://play-lh.googleusercontent.com/jKx_tOVDFE7P1EMdAN-biimcj8jEa5Ms9o66ZYl4k_gjt4zqu9cmvsDknREsWQYvwoLvv8CnqUTJo1GI9wPyWyI": "42ef813aea3e440757c593fa208c07254cc8319b472819e54c9cca9324ba6474.jpg",
+    "https://play-lh.googleusercontent.com/cPtE_6gXllM4XHA6rxXvgb6VwCOdFXgy3vulfx3KHxS8p-NQXSTByUvf4AKVbV1DHl8LCZqcTgMuqC36bjzb3w": "97855602199d208d42c8536de5765e768756d5c24a1ecd44acba8d4f1a47ccbd.png"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "package": "com.contextlogic.wish",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Wish: покупай и экономь",
+      "developer": "Wish US Holdings LLC",
+      "description": "На Wish тебя ждут миллионы предложений из разных уголков мира. У нас найдется все от повседневных товаров до самых удивительных вещиц, а цены греют душу. <br><br>Вот почему Wish – очень выгодный интернет-магазин, о котором пока прознали не все:<br><br>УДОБНЫЙ ПОИСК – УДАЧНЫЕ НАХОДКИ 🤗<br>• Черпай вдохновение для новых покупок в видеоклипах Wish.<br>• Заказывай у Образцовых продавцов с высокой репутацией. <br>• Листай безграничную ленту товаров, выбранных специально для тебя.<br>• Ищи фирменные товары своих любимых брендов. <br>• Сохраняй полюбившиеся товары в список желаний.<br><br>ИЗОБИЛИЕ СКИДОК И КУПОНОВ 💵<br>• Крути Колесо удачи и выигрывай скидки! До 100 товаров на определенное время станут для тебя дешевле.<br>• Зарабатывай марку каждый день, когда заходишь в приложение Wish. Собери 7 марок и получи скидку до 50 %!<br>• На праздники мы дарим подарки — устраиваем фейерверк скидок и раздаем всем купоны со специальными кодами!  <br><br>НА WISH МОЖНО ПОЛОЖИТЬСЯ 🤝<br>• На все заказы распространяется Гарантия возврата денег.<br>• Уведомления о статусе заказа на каждом этапе доставки.<br>• Безопасная оплата дебетовыми и кредитными картами, PayPal, Klarna и через другие сервисы.<br>• Возникли затруднения? Служба поддержки Wish придет на помощь круглосуточно.<br><br>ДОВОЛЕН ОСТАНЕТСЯ КАЖДЫЙ 📱🛍🥋<br>• Чем больше товаров просматриваешь – тем точнее мы сможем подобрать тебе что-то особенное.<br>• Широкий ассортимент товаров: одежда, электроника, садовый инструмент, спортивное снаряжение, аниме-фигурки, сумки, декор для интерьера, косметика, игрушки, дроны, умные часы, дизайнерские духи.<br>• Необычные подарки на день рождения, годовщину, выпускной и другие праздники на любой бюджет. <br><br>МЕЖДУНАРОДНЫЙ ОХВАТ 🌎<br>• Доставка более чем в 60 стран.<br>• Экономия при самовывозе из пункта Wish Local.<br>• Приложение Wish доступно на 32 языках, включая английский, испанский, итальянский, японский, португальский, китайский и другие.<br><br>Скачай приложение Wish и отправляйся на поиск сокровищ прямо на смартфоне!<br><br>КОНТАКТЫ<br>Подписывайся на @wish в Facebook, Twitter и Instagram.<br>Если нужна помощь, заходи на www.wish.com/help",
+      "shortDescription": "Оригинальные товары по отличной цене. Защита клиентов, гарантия возврата денег.",
+      "versionName": "26.7.9",
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.contextlogic.wish",
+      "changelog": "Optimizations for BlackFriday and Cyber Monday",
+      "icon": "images/8a8aab0bcb435b72d75452af15748c0d4729a91b0ad010b3b659aaf04addd96e.png",
+      "screenshots": [
+        "images/f3e86215d336119ec513aae163f85cd5b0ffbd4adc89bbaa48715b524704059b.jpg",
+        "images/ef34602986f513d067bc92e58584c60fd8133da490e83e0402a8968ac1ba6200.jpg",
+        "images/0f7be10434e51774a06d4f0a5051f1c945598080bd37772748562b3a44382e1c.jpg",
+        "images/e71bb09b215ee946b02743db007d4b5877a9422e26bfa5ae9182b73e442ca4fc.jpg",
+        "images/95ee394c42319328978a986d5d86143621fe1629869e052ddbf15eed2c24284c.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Wish: Shop and Save",
+      "developer": "Wish US Holdings LLC",
+      "description": "Wish is home to deals on millions of items from around the world. The destination for home and life - discover everything from everyday basics, hobbies & DIY, fashion for all, the latest in tech, to the wonderfully unexpected - and everything in-between, at prices likely to make you smile! The Wish app is the internet’s best-kept secret for affordable online shopping.<br><br>DESTINATION FOR HOME AND LIFE 🏠🪴<br>Fuel your free time with a little bit of everything from electronics, fashion, automotive gear, wellness, home essentials, unique decor, the intentionally surprising, and much, much more.<br><br>DISCOVERY IS EASY 👍<br>Scroll the infinite product feed that features items chosen just for you.<br>Explore by category to find just what you’re looking for.<br>Find authentic products from your favorite brands.<br><br>SAVE ON SHIPPING 🚚📦<br>Spend less to ship the deals you’ll discover with flat rate shipping.<br>Get $2.99 flat rate shipping when you spend $10 on eligible items.<br>Save even more by snagging extra shipping promos and discounts.<br>Available only in select countries.<br><br>SHOP AND SAVE 💵<br>Shop daily deals and flash sales.<br>Earn a daily login stamp for every day you open the Wish app. 7 visits gets you up to 50% off!<br>Use your rewards points to save even more on your favorite items.<br><br>WE’VE GOT YOUR BACK 🤝<br>Every order is backed by our Wish Buyer Protection promise.<br>Get notifications about your order status every step of the way.<br>Check out securely with credit/debit card, PayPal, Klarna, and more.<br>Need help with your order? Wish Assistant is at your service 24/7.<br><br>SOMETHING FOR EVERYONE 📱🛍🥋<br>We’ve got whatever you’re into: clothing, electronics, gardening tools, sports equipment, anime figurines, bags, decor, makeup, toys, drones, smartwatches, or designer perfume.<br>Find one-of-a-kind gifts for every occasion without going over budget.<br><br>STAY IN TOUCH<br>Instagram: @wish<br>Facebook: @wish<br>Customer support: www.wish.com/help",
+      "shortDescription": "Home & Life, Fashion, Electronics",
+      "versionName": "26.7.9",
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.contextlogic.wish",
+      "changelog": "Optimizations for BlackFriday and Cyber Monday",
+      "icon": "images/8a8aab0bcb435b72d75452af15748c0d4729a91b0ad010b3b659aaf04addd96e.png",
+      "screenshots": [
+        "images/27dcf1039f3325eb65646f03622f4e76c593487eda8a00c1eb397b6a5c150a78.png",
+        "images/296b96a72d6ee75cac57df0abe68b3782a9f5af175a0acf6893ce73fb740ed64.png",
+        "images/2152e291ac150f4c3b6099cb3b9cde957e7ed81907aadbc1581780fffbd43552.png",
+        "images/27b1bebb9e2e8577bb49985bbfca92c19ea29c393cdb031826beee40e551874b.png",
+        "images/75181f5507ed35a65fb9fdb4613d73bb92895d3b0c4035f0ef058c90361c421f.png",
+        "images/a383813ede0df30138f2d5bb23253ab0f37631b3134bd813486fb18c3bea8cfa.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "26.7.9",
+        "updatedDate": "2026-10-27",
+        "text": "Optimizations for BlackFriday and Cyber Monday"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "26.7.9",
+        "updatedDate": "2026-10-27",
+        "text": "Optimizations for BlackFriday and Cyber Monday"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/IQKc-fF8iDPysSuc9EssDW84qXGsLsO3W4aTCmBnavjAFJqo2z6KXe9_xZOoMm5Q6JnoNKmW49ZgszrtLtgR": "8a8aab0bcb435b72d75452af15748c0d4729a91b0ad010b3b659aaf04addd96e.png",
+    "https://play-lh.googleusercontent.com/FViuI-aYVu0C-Y_eTuEnG1Jszn2GIlmxKoyNNx9O0JeGpwPd2jK6jqSe_VksVa8SBRtpp0nOrChNyc_L5fDN": "f3e86215d336119ec513aae163f85cd5b0ffbd4adc89bbaa48715b524704059b.jpg",
+    "https://play-lh.googleusercontent.com/rW3PTaxkOzRRhINpDf0JQNFh5zje8lDcv93PmZe2OLXhWD2r26U4bSSmJVpeOB9tV1WLLeNv1N_9RazZ6ZeT": "ef34602986f513d067bc92e58584c60fd8133da490e83e0402a8968ac1ba6200.jpg",
+    "https://play-lh.googleusercontent.com/cIiDbC0wzOEma1pATGhZLgcvCx4d8m7BNA5WuVIf4AZcYawf3wiEd7kNf5h59UkEaL71o1jPAPOjUgGG-ddp": "0f7be10434e51774a06d4f0a5051f1c945598080bd37772748562b3a44382e1c.jpg",
+    "https://play-lh.googleusercontent.com/dO4x7CfJ6APSIAyopUs_o2f839ulnXaBewgdYFWcEvGKovSx6rbyKNiUhEtrLniAyZuxlIvB1nSjcNk7qLuTrjk": "e71bb09b215ee946b02743db007d4b5877a9422e26bfa5ae9182b73e442ca4fc.jpg",
+    "https://play-lh.googleusercontent.com/gFJirZJ3I_Os3zWYsBFIuHche22r87HKBoF2xMbA1uKnH5M_bMrtkDTB-8-sTpR3aKlSGxrE3zPhTc98S7p_kQ": "95ee394c42319328978a986d5d86143621fe1629869e052ddbf15eed2c24284c.jpg",
+    "https://play-lh.googleusercontent.com/xCKiIJlysS-7JCQGSrx1oL2ZpzZwRSjGmr704Ju1oJJZohhycygDFmnMBR6_2Sb26UTUjspWCggEmLdIOtXyig": "27dcf1039f3325eb65646f03622f4e76c593487eda8a00c1eb397b6a5c150a78.png",
+    "https://play-lh.googleusercontent.com/KaJJ7qrsNPj7Vfr1-PFw_OsSalx8jQnh6cue4CfleIgo1an8cefVn3FoAQRHtdJnjX2cOCU-JwkSDd5YMrbZyQ": "296b96a72d6ee75cac57df0abe68b3782a9f5af175a0acf6893ce73fb740ed64.png",
+    "https://play-lh.googleusercontent.com/tKWpeN3698etSJw2Z1lUKpNxIuqJxuxZhMCQbmYSKiKoXxpQem1vQ2If9xhThZ_tFsGpIUnKUpScLPGQk0qJcQ": "2152e291ac150f4c3b6099cb3b9cde957e7ed81907aadbc1581780fffbd43552.png",
+    "https://play-lh.googleusercontent.com/Hx7JUHKYkrb-7J2XuHmtPjfK7sTutncIIPqFlIDkPOeHvLNzPL6hDo654s2QPDWETHa8iuom2opTBPJVji6_Bg": "27b1bebb9e2e8577bb49985bbfca92c19ea29c393cdb031826beee40e551874b.png",
+    "https://play-lh.googleusercontent.com/XaKdv-zqI6DH43WPhRtxG_TIJfWNWgIOWejURbA4195hTzxrNGBgci-cLaev40QAke6HqWZxs3gCpR15fU93Zg": "75181f5507ed35a65fb9fdb4613d73bb92895d3b0c4035f0ef058c90361c421f.png",
+    "https://play-lh.googleusercontent.com/zG0_-9lNvuKsp1CwXvqVd1n7i03mNfydfv9cRuEPmr9705xruMN6T9kptey7Pn1d0_3XpEA_f8cAxOPYdmPw-w": "a383813ede0df30138f2d5bb23253ab0f37631b3134bd813486fb18c3bea8cfa.png"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "package": "com.bumble.app",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Bumble — Знакомства и общение",
+      "developer": "Bumble Holding Limited",
+      "description": "<b>Приложение для знакомств, которое верит в любовь</b><br><br>Bumble – это дейтинг-приложение, где люди знакомятся, общаются и влюбляются. Мы считаем, что здоровые, осознанные отношения – основа счастливой и наполненной жизни. Мы сделаем всё возможное, чтобы подарить вам это в максимально безопасной и доверительной манере.<br><br><b>Знакомьтесь с подходящими людьми, встречайтесь и наслаждайтесь настоящими чувствами</b><br><br>Bumble – бесплатное приложение для знакомств в атмосфере поддержки и уважения. Хотите найти настоящую любовь или просто походить на свидания? Bumble поможет вам встретить реальных – и реально интересных людей – какими бы ни были ваши ожидания от дейтинга.<br><br><b>Мы всегда выступаем за любовь, которая рождается в уважительной, поддерживающей и доброй обстановке</b><br><br>💛 Интересы наших пользователей для нас превыше всего<br>💛 Безопасность – наш главный приоритет. Профили проходят верификацию, чтобы вы могли знакомиться уверенно<br>💛 Наши главные ценности – уважение, смелость и радость, и мы приглашаем вас разделить их с нами<br><br><b>Попробуйте наши бесплатные функции, призванные сделать дейтинг ещё легче и приятнее</b><br>- Добавьте в профиль интересы и тизеры, чтобы привлечь внимание<br>- Верификация по удостоверению личности подтверждает, что симпатия – реальный человек<br>- Советы наших дейтинг-экспертов помогут вам укрепить уверенность<br>- Привяжите свой аккаунт Spotify, чтобы знакомиться с теми, кто разделяет ваши музыкальные вкусы<br>- Общайтесь по видео и делитесь любимыми фотографиями, чтобы узнать друг друга лучше<br>- Смело заводите новые чаты – правила нашего сообщества оградят вас от неприемлемых сообщений<br>- Воспользуйтесь дополнительным уровнем безопасности, рассказав о предстоящем свидании кому-то, кому вы доверяете<br>- Если захотите отдохнуть от дейтинга, скройте свой профиль с помощью режима невидимки (сохранив при этом свои симпатии)<br><br><b>Хотите ещё больше возможностей? Активируйте Bumble Premium и получите дополнительные функции, которые сделают ваше путешествие в мир дейтинга ещё ярче</b><br>💛 Просматривайте всех, кому вы понравились<br>🔍 Используйте дополнительные фильтры, такие как «Цель знакомства», чтобы найти людей со схожими ценностями, увлечениями и планами на будущее<br>🔁 Восстанавливайте сгоревшие симпатии, чтобы случайно не пропустить «ту самую»<br>😶‍🌫️ Просматривайте профили анонимно в режиме Инкогнито – вас видят только выбранные<br>➕ Продлевайте свои симпатии на 24 часа<br>👉 Делайте свайпы без ограничений, чтобы встретить больше потрясающих людей<br>✈️ Наслаждайтесь дейтингом в разных уголках мира благодаря режиму Путешествий<br>✨ Привлекайте ещё больше внимания с помощью бесплатных SuperSwipes и Spotlights, которые обновляются еженедельно<br><br><b>Здесь рады всем – без исключения.</b><br>Bumble поддерживает любовь во всех её формах – гетеросексуальные, однополые, квир и любые другие отношения. Мы хотим, чтобы все наши пользователи чувствовали себя защищёнными и замеченными. Независимо от того, что вы ищете – тёплое общение, отношения без обязательств или настоящую любовь – у нас найдётся именно то, что вам нужно.<br><br>---<br>Дейтинг-приложение Bumble можно скачать и использовать бесплатно. По желанию вы можете оформить подписку (Bumble Boost и Bumble Premium) или приобрести платные услуги (Bumble Spotlight и Bumble SuperSwipe). Обработка ваших персональных данных защищена нашей политикой конфиденциальности и законом.<br>https://bumble.com/en/privacy<br>https://bumble.com/en/terms<br>Bumble Inc. – материнская компания Bumble, Badoo и BumbleBFF, социальных сетей и дейтинг-приложений, которые можно скачать и использовать бесплатно.",
+      "shortDescription": "Bumble знакомит вас с новыми людьми, предлагая девушкам сделать первый шаг.",
+      "versionName": "5.489.0",
+      "updatedDate": "2026-10-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.bumble.app",
+      "changelog": null,
+      "icon": "images/9fd17b015964d02c470f422e58a9dda7609331dd571b284906744fabc3f689d4.png",
+      "screenshots": [
+        "images/a9c04cbf6751517516267cb67e6456f4cd80cd2e296a0c931b06d8883957af7a.png",
+        "images/5d4b05d10c526f25cd145567e3c3127d426128cc9b3e8ca0eef2a08d665c8d43.png",
+        "images/c5b42ef844db34b6850fa36a0662da569656320a9526095fa962a02ed05fa2dd.png",
+        "images/0e7cb06993b5234cabcd1a040f7a659c172c0c7c2b8840b98af70dff63c1e000.png",
+        "images/7b6aa5f88e00d3defb9940a42da07e0fcfe2318f3b2b2e969f5c9c18d24fb52c.png",
+        "images/21b09aec29b085891ce16ca78cfbe5769d47a5d865a38c4f183c16b84da75303.png",
+        "images/b53cd24c669957774ac8fa81f6b983d9f528c9e87c6ea9ac70470c1bc47392cb.png"
+      ]
+    },
+    "en_US": {
+      "title": "Bumble Dating App: Meet & Date",
+      "developer": "Bumble Holding Limited",
+      "description": "<b>The dating app bringing people closer to love</b><br><br>Bumble is the dating app where people meet, make connections, and start their love stories. We believe meaningful relationships are the foundation of a happy, healthy life — and we're here to help you find yours with a commitment to member safety and tools that empower confident dating.<br><br><b>Match with the right people, date, and find meaningful connection</b><br><br>Bumble is a free app for meeting singles and building connections grounded in mutual respect and trust. Whether you’re ready to find the one or date for fun, Bumble can help you connect with real people to build something authentic.<br><br><b>As champions of love, we prioritize creating a space where our members feel respected, confident, and empowered to make connections</b><br><br>💛 Our members are at the heart of everything we do<br>💛 We put safety first — so you can date with confidence, knowing you’re connecting with verified matches<br>💛 Respect, courage, and joy guide how we show up — and inspire others to do the same<br><br><b>Try our free features — built to make dating easier</b><br>- For better connections, conversations, and dates, personalize your profile with interests and prompts to showcase who you are, what you’re into, and what you’re looking for<br>- Trust that the person you’re talking to is real with ID Verification<br>- Feel confident with expert-backed dating advice designed to help you succeed<br>- See what music you bond over by linking your Spotify account<br>- Video chat and share your favorite pictures with your matches to get to know them better<br>- Chat with peace of mind — knowing that when you’re talking to new people, all messages must meet our community guidelines<br>- Get extra reassurance by sharing the details of your meetups with someone you trust<br>- If you’re ever in need of a dating break, hide your profile with the Snooze Mode (you'll still keep all your matches)<br><br><b>Want even more ways to connect? Bumble Premium unlocks extra features to boost your dating experience</b><br>💛 See everyone who likes you<br>🔍 Use Advanced Filters like “What are they looking for?” to meet people who share your values, hobbies, and goals<br>🔁 Rematch with expired connections — so you don’t miss out on a great potential date<br>😶‍🌫️  Browse anonymously with Incognito Mode and only seen by who you want to see you<br>➕ Extend your matches by 24 hours<br>👉 Swipe as much as you like to meet more people<br>✈️ Tap into dating scenes around the world with Travel Mode<br>✨ Stand out and get noticed with free SuperSwipes & Spotlights, refreshed weekly<br><br><b>Inclusivity is key</b><br>At Bumble, we promise to support and include all forms of love: straight, gay, lesbian, queer, and beyond. We want everyone in our community to feel safe and welcome. So no matter how you identify, if you're looking for a place to chat, date, and find real love, we’ve got what you’re looking for.<br><br>---<br>Bumble is a free dating app to download and use. We offer optional subscription packages (Bumble Boost & Bumble Premium) and non-subscription, single, and multi-use paid features (Bumble Spotlight & Bumble SuperSwipe). Your personal data is securely processed in line with our privacy policy and applicable laws—be sure to read our privacy policy and terms and conditions.<br>https://bumble.com/en/privacy<br>https://bumble.com/en/terms<br>Bumble Inc. is the parent company of Bumble, Badoo, and BFF, social networks, and dating apps free to download and use.",
+      "shortDescription": "Dating app to meet new people, chat and date with singles IRL or make friends.",
+      "versionName": "5.489.0",
+      "updatedDate": "2026-10-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.bumble.app",
+      "changelog": null,
+      "icon": "images/9fd17b015964d02c470f422e58a9dda7609331dd571b284906744fabc3f689d4.png",
+      "screenshots": [
+        "images/2e3347a238069b38802d1ec58ab5bf6c5d8174c8a8ffd7fb43a654bd91e01671.png",
+        "images/33e27bda9ae1f68a8b935bc594a5b12bce0230837c493483dc7d8502b5db16d1.png",
+        "images/20ff22d054f21bb3e1fd2c68f7f05dfce91ec70dff9152a935763e75f4314373.png",
+        "images/5fe4192dbb6e18257b8881e2ed90b26a94170b063aa4f68b4aca454e0664f499.png",
+        "images/a4bc6fee74906cfe72e77977d96fc598cb0d9ae66b55f859f467155677cbfa32.png",
+        "images/5cd89250a5da09830cefe92f1a30865e9fd694d22267f094ce1e29faae437b6e.png",
+        "images/22bafe8b4027de8e6f1213500d59f2e43e22abc9748a5030516566904b8bc9ce.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [],
+    "en_US": []
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/7GSSxUQ2KneDsNK1KIlBa26ukNM6UmOtpfAVSj-72Im-62jd1-38et6VEqBD-LKfXZdGHQfucP3tVOIGa3kV": "9fd17b015964d02c470f422e58a9dda7609331dd571b284906744fabc3f689d4.png",
+    "https://play-lh.googleusercontent.com/548fEWKGgqvefh_gsowI5lJ6IIStAT-OG8eAhImGr681hMxEoVERj99Rqd6wZ7wyv3e1SJQxLCmv0-eUwC9R9Q": "a9c04cbf6751517516267cb67e6456f4cd80cd2e296a0c931b06d8883957af7a.png",
+    "https://play-lh.googleusercontent.com/uQ5LbKbLnB5wCDxU7YCLYtxOCHiKnahJxWeJNOChSk7RFYYnhWKBabFna9FeMccb8iyNr--ZwRGGerOBp2ab0w": "5d4b05d10c526f25cd145567e3c3127d426128cc9b3e8ca0eef2a08d665c8d43.png",
+    "https://play-lh.googleusercontent.com/q7qlegWUGKTxXe9YRYes2yXSHoo_CUEyOqkypvOOVR8mHGM-sW_Ez_QveSLlpVUTCZnjezoCHH57w_gSRBH3": "c5b42ef844db34b6850fa36a0662da569656320a9526095fa962a02ed05fa2dd.png",
+    "https://play-lh.googleusercontent.com/g0SWr_W_cbuLOBG6ZW7G5Bp_JeWX6gY_klyopLTlyjwmNaBIc8hQ5VxylAbB6PGLhrEcZ1YpfR8JPrIIoDUS": "0e7cb06993b5234cabcd1a040f7a659c172c0c7c2b8840b98af70dff63c1e000.png",
+    "https://play-lh.googleusercontent.com/DGp6eadDmnQWceLBh7ZfHvQLr1_G7Mi4YO5-B8Pz2E7vsrOv13NwxUYJZXxHEIvsYI9khxWNsPOfRnAR0SkK": "7b6aa5f88e00d3defb9940a42da07e0fcfe2318f3b2b2e969f5c9c18d24fb52c.png",
+    "https://play-lh.googleusercontent.com/htjN7Z481UmUoZnBhOBgw0_tcMCtQZBi0vONV2Sr_1DJVDhhY7VgZ2MWEPeIx-smNZkT0Exsq38zOEOGOZxoFQ": "21b09aec29b085891ce16ca78cfbe5769d47a5d865a38c4f183c16b84da75303.png",
+    "https://play-lh.googleusercontent.com/MPl_dZMv_YGT2r4HOxcafOvQggWBp5TqbIVY14I-1DUSzXTxT7qcHEv9d2Lepljam9p_eRq7AHcojVXA60xxpzI": "b53cd24c669957774ac8fa81f6b983d9f528c9e87c6ea9ac70470c1bc47392cb.png",
+    "https://play-lh.googleusercontent.com/TFNoc60HXwKZe1VqaO3GG_BtVsK7p9LwB7Ee8cLvBd0JiKwnzI9TaWexWPr0Ey_YaDoHEQBu5Ii3DVm0SJGE": "2e3347a238069b38802d1ec58ab5bf6c5d8174c8a8ffd7fb43a654bd91e01671.png",
+    "https://play-lh.googleusercontent.com/p5_1ntfC-5NVhfxwdW9nsQmsc7tdNg7cTDUTGMb237du3Zs0Hg4efPV5QRj44MZXd2y3rAgRhK79Pp0KpNG_": "33e27bda9ae1f68a8b935bc594a5b12bce0230837c493483dc7d8502b5db16d1.png",
+    "https://play-lh.googleusercontent.com/cMiAXliaVq9lOT7GYc7vzNbZWMtNvie8RGHKLKqnEapindf-16FpsPGRdXGHHIHc5Pz6G347PTp9zSM0O1g8": "20ff22d054f21bb3e1fd2c68f7f05dfce91ec70dff9152a935763e75f4314373.png",
+    "https://play-lh.googleusercontent.com/ALtQZ9sVAy00PlI1s8mXyNRjZR2kd7T7FcSL0gvwbr2pNnWjplD6g-rgyAsvDqFF15iDh2EudtqvASUXlm0qqg": "5fe4192dbb6e18257b8881e2ed90b26a94170b063aa4f68b4aca454e0664f499.png",
+    "https://play-lh.googleusercontent.com/GQ5kefskTu8_dtRlYtCLkT6n-kWaq2IMwWachaKQuYZVMWPK37PKVqd0ppIfuZm6nLk5Zx-m18vI85VVgFpo": "a4bc6fee74906cfe72e77977d96fc598cb0d9ae66b55f859f467155677cbfa32.png",
+    "https://play-lh.googleusercontent.com/QM0Uup4KtzJTK7WqpxE8XqdDQiCMI2-vK4SIYwsvfLe6D5ww3Q_fVJieo7xL3PE2_wiRiHoc9-Fvjlx5r6UIEQ": "5cd89250a5da09830cefe92f1a30865e9fd694d22267f094ce1e29faae437b6e.png",
+    "https://play-lh.googleusercontent.com/vpmjlyYg0maWxbuwd65ZMjM9nnxUFngFePcXjmOJcRr62AyINcNcoOehdI1K3sA9uDc3KPfk4lxYt-epQsJ4": "22bafe8b4027de8e6f1213500d59f2e43e22abc9748a5030516566904b8bc9ce.png"
+  }
+}

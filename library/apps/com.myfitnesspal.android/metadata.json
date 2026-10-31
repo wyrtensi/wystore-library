@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "package": "com.myfitnesspal.android",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "MyFitnessPal: Счетчик калорий",
+      "developer": "MyFitnessPal, Inc.",
+      "description": "Отслеживайте питание, физическую активность и потребление воды в MyFitnessPal. Это универсальное приложение, в котором можно <b>считать калории, трекер интервального голодания, планировать рацион, вести дневник питания и следить за весом</b>.<br><br>MyFitnessPal не будет вас ограничивать в еде, ведь диеты — это не про нас. Самое главное — ваше здоровье: приложение поможет вам узнать всё о ваших привычках и пищевом поведении, получить нужную мотивацию и поддержку и улучшить здоровье.<br><br><b>Скачайте приложение сегодня же! Во время бесплатного 30-дневного периода вы сможете оценить все преимущества подписки «Премиум»</b> и эксклюзивные функции. Очень скоро вы поймете, почему MyFitnessPal — лучшее в мире приложение для здорового питания.<br><br><b>ЭТО НАМНОГО БОЛЬШЕ, ЧЕМ ПРОСТО СЧЕТЧИК КАЛОРИЙ И ДНЕВНИК ПИТАНИЯ</b><br><br>У вас словно появляется личный нутрициолог и тренер, который всегда доступен.<br><br>■ <b>Записывайте, что вы едите</b>: простые инструменты помогут вам легко отследить и проанализировать каждое блюдо.<br>■ <b>Голодание под контролем</b>: засекайте интервалы голодания и отслеживайте свой прогресс<br>■ <b>Регистрируйте активность</b>: добавляйте упражнения и целые программы тренировок.<br>■ <b>Настраивайте цели для себя</b>: укажите в приложении, чего вы хотите — например, снизить, набрать или поддерживать вес, правильно питаться или больше двигаться.<br>■ <b>Следите за прогрессом</b>: наблюдайте за достижениями — вы удивитесь, насколько лучше вы стали питаться.<br>■ <b>Общайтесь с другими пользователями</b>: на форумах MyFitnessPal вы встретите новых друзей и сможете мотивировать друг друга на пути к цели!<br><br><b>ПОДРОБНЕЕ О ФУНКЦИЯХ И ВОЗМОЖНОСТЯХ</b><br><br><b>Регистрация продуктов и персонализированные аналитические данные</b><br>Узнайте, какая еда для вас полезнее всего. Приложение не заставит вас голодать или изнурять себя тяжелыми упражнениями — оно поможет вам более осознанно и ответственно относиться к своему телу, рациону питания и образу жизни. <br><br>■ Крупнейшая база данных по калорийности — более 14 миллионов базовых продуктов и целых блюд.<br>■ Новый трекер интервального голодания – засекайте время голодания и отмечайте достижения в дневнике<br>■ Простое отслеживание питания: просто введите продукт или блюдо, выберите его в истории или отсканируйте штрихкод с этикетки.<br>■ Счетчик калорий: узнавайте энергетическую ценность продуктов и следите за потреблением калорий.<br>■ Счетчик питательных веществ: следите за тем, сколько белков, жиров и углеводов вы потребляете с каждой трапезой.<br>■ Расширенная аналитика: определяйте, сколько витаминов и микроэлементов вы получаете из еды и следите за потреблением холестерина, соли, крахмала и вредных жиров.<br><br><b>Персонализация</b><br>Настройте приложение согласно своим потребностям.<br><br>■ Цели: устанавливайте лимиты калорийности для отдельных приемов пищи или на целый день, отслеживайте питательные вещества — и не только!<br>■ Настраиваемая информационная панель: выберите, что вы хотите отслеживать, — например, количество сахара за день.<br>■ Счетчик белков: удовлетворяйте потребность в белках с учетом физических нагрузок.<br>■ Библиотека еды: добавляйте свои рецепты здоровых блюд и делитесь ими с другими пользователями.<br>■ Интеграция более чем с 50 приложений и устройств: используйте MyFitnessPal вместе с фитнес-трекерами и смарт-часами.<br>■ Мониторинг с Wear OS — счетчик калорий, выпитой воды и макроэлементов прямо на ваших часах, в том числе в виде плиток и дополнений для циферблата.<br><br>Правила и условия использования и наша политика конфиденциальности доступны на сайте: https://www.myfitnesspal.com/privacy-and-terms",
+      "shortDescription": "Считайте калории и следите за весом. Эксперт по питанию у вас в смартфоне.",
+      "versionName": null,
+      "updatedDate": "2026-10-23",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.myfitnesspal.android",
+      "changelog": "Когда вы хотите записать данные — будь то свой полезный полдник, первую пробежку за несколько недель или лучший вес за последние годы,— мы знаем, что вы рассчитываете на надежную работу MyFitnessPal.<br><br>Вот почему в этом выпуске исправлено много ошибок и существенно улучшены производительность и стабильность работы. Так мы сможем поддерживать вас на каждом этапе пути к здоровому образу жизни.",
+      "icon": "images/8ce1d74ede5fad08fdb38862cadde44a99967b3b2674fdae31c54df5c18b0738.jpg",
+      "screenshots": [
+        "images/87f45393552c60239009f03ce64a5fec4ad435ef111c61807b53e6e9e6dab839.png",
+        "images/55be6a8b59dfdfa140f51f62ce1347ca4a105a56070ca8297a711da2ac50f334.png",
+        "images/c581ff1b439cbef2a90c0a39636afa5b4cb251c19062f1216d656dc76e2eaf23.png",
+        "images/cb03d052e5a7f2c60899436d53be5d50673f037ca913c75b72eec8961006578b.png",
+        "images/5ce69fb279064ca1693cced9bf39dff80347d9bdb7b3be1d31692383ab6bb4ae.png",
+        "images/fcd1e2777000e9011a227b7d9190d3cab39026b673e054b9fbe8feaf9851aeec.png",
+        "images/b07c46e71cf516b4a1946ffdfd5aeb32d4c726cd93188a1c728c161c81e4190a.png",
+        "images/d41264261cf2f57ee106ebd6dc9d45660741bfb727029ca6fd091892efe12734.png"
+      ]
+    },
+    "en_US": {
+      "title": "MyFitnessPal: Calorie Counter",
+      "developer": "MyFitnessPal, Inc.",
+      "description": "Achieve your nutrition, calorie, macro & fitness goals with MyFitnessPal – the AI-powered food & fitness tracker with everything you need. Calories, macros, food, workouts – track it all in one place with one of the most comprehensive health, nutrition & fitness tracking apps available.<br><br>Create personalized fitness & nutrition goals, build better habits around food, nutrition & calorie tracking and monitor your water intake. Download the app & start your free Premium trial today. With MyFitnessPal, you get food inspiration, an intermittent fasting tracker, science backed nutrition, and powerful fitness logging tools. MyFitnessPal is the #1 nutrition, macro & calorie tracking app in the U.S. – as featured in the New York Times, Forbes, the Today Show & U.S. News & World Report.<br><br>More than a calorie tracker & food journal – MyFitnessPal is an AI-powered health, nutrition & fitness platform built to help you track macros, monitor nutrition progress & crush your fitness goals.<br><br>NEW FEATURE: AI COACH<br>■ Nutrition insights tailored to your goals, habits, and logging history<br>■ Guidance to find what you need in the app, faster<br><br>NEW FEATURE: GLP-1 TRACKING<br>■ Log & track how you feel on your GLP-1 medications to spot patterns in your symptoms & side effects.<br>■ Stick to your schedule with custom reminders for your GLP-1 medication<br>■ Build healthy habits that actually stick with simple, effective nutrition & medication for tracking your GLP-1 journey<br><br>TRACK FOOD, CALORIES & MACROS WITH AI <br>■ Log meals effortlessly from 20.5M+ foods, including restaurant dishes<br>■ Full nutrition & macro tracker breakdown – carbs, fat & protein – with custom targets for macros, protein, sodium, fiber & more <br>■ Stay hydrated and support your nutrition goals with the built-in water tracker<br><br>FITNESS TRACKING, WORKOUTS & PROGRESS <br>■ Log workouts & steps with the integrated fitness tracker to monitor health, nutrition & calorie burn <br>■ Track calories, macros, nutrition stats & health insights at a glance or dive deep into the details <br>■ See how fitness activity, nutrition & diet affect your daily calorie goals <br>■ Wear OS support – calorie tracker, water tracker & macro tracker on your wrist for faster nutrition & fitness logging. Add complications to the home screen for faster fitness logging and the tile for tracking different nutrients at a glance<br><br>PERSONALIZED FITNESS PLANS & NUTRITION TOOLS <br>■ Customize calorie, nutrition & fitness goals – weight loss, gain, maintenance, or performance <br>■ Personalized nutrition & health dashboards – calorie, macro, fitness & diet stats all in one place <br>■ Save meals & recipes for quick calorie, nutrition & macro logging <br>■ Streamlined meal planner to simplify nutrition tracking & hit your calorie & macro targets <br>■ Connect 40+ fitness trackers, smartwatches & health apps via one unified nutrition & fitness ecosystem <br>■ Find friends & motivation in the MyFitnessPal health, nutrition & fitness community<br><br>PREMIUM <br>■ Faster nutrition, calorie & macro tracking with barcode scan, meal scan & voice logging <br>■ Customized macro, calorie & nutrition goals tailored to your fitness targets <br>■ Ad-free logging with built-in nutrition insights & calorie & macro progress comparisons <br>■ Net Carbs Mode – track net carbs across all food, nutrition & macro logs for keto and low-carb diets<br><br>PREMIUM PLUS <br>■ All Premium features, including barcode scanning, now paired with full nutrition-focused meal planning <br>■ Personalized meal plans, integrated grocery delivery & smart calorie, nutrition & macro tracking tools <br>■ 1500+ healthy recipes tailored to your calorie, macro, nutrition & fitness goals<br><br>MyFitnessPal is the leading health and fitness tracking app to monitor your calorie, nutrition & macro intake to help conquer your health & fitness goals.<br><br>Download today & start your free Premium trial.<br><br>View our terms & conditions and privacy policy: <br>https://www.myfitnesspal.com/terms-of-service<br>https://www.myfitnesspal.com/privacy-policy",
+      "shortDescription": "Track calories, macros & nutrition with AI. Log Fitness, workouts & meals daily",
+      "versionName": null,
+      "updatedDate": "2026-10-23",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.myfitnesspal.android",
+      "changelog": "✅Fixed: The app crashed when you moved between dates while looking at Highest in Carbohydrates/Protein/Fat on the Progress.<br>➡️Now you can browse your days and top macros without a hitch.<br><br>🐜 The bugs tried to form a fitness club. Unfortunately, their membership has been… squashed.<br><br>*For all the latest fixes, update to the latest app version",
+      "icon": "images/8ce1d74ede5fad08fdb38862cadde44a99967b3b2674fdae31c54df5c18b0738.jpg",
+      "screenshots": [
+        "images/a5d90b1b8b7ab850260b22afeec1c513b998f5a30f4f9be2c55dbb05a55d5f7d.png",
+        "images/700a4b1b731c67e1dfad242ce9c20ca82b3d5cd2418b0b2bfbe0070876bc4556.png",
+        "images/061a2db3cbaf4f247192227b7bb1c2d23c89e4fc4ba8b7dbc799abbcec08bad0.png",
+        "images/d50c372f77a953fd8b6ebabe2d488d0a16cfc82afd01034696eba289ef1da5d1.png",
+        "images/897f438b37c83b727ffa53fd3cfd15a202b576c5fb5d3626a4f984846a21acbe.png",
+        "images/9e5f1c979f7639cc0ecb54278cfedcdbfe0757b5f09377d88bc6caff59bfa1bd.png",
+        "images/ff10245da029eb6c50df4f61fe8d4cfb26cafa38e06022c7a3ee64906f324b6e.png",
+        "images/0104d4696c5504f2eeddc741cbb214e8e17a72669a7025489e3be55026653ab8.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-23",
+        "text": "Когда вы хотите записать данные — будь то свой полезный полдник, первую пробежку за несколько недель или лучший вес за последние годы,— мы знаем, что вы рассчитываете на надежную работу MyFitnessPal.<br><br>Вот почему в этом выпуске исправлено много ошибок и существенно улучшены производительность и стабильность работы. Так мы сможем поддерживать вас на каждом этапе пути к здоровому образу жизни."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-23",
+        "text": "✅Fixed: The app crashed when you moved between dates while looking at Highest in Carbohydrates/Protein/Fat on the Progress.<br>➡️Now you can browse your days and top macros without a hitch.<br><br>🐜 The bugs tried to form a fitness club. Unfortunately, their membership has been… squashed.<br><br>*For all the latest fixes, update to the latest app version"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/iGPZDsKZoF58BABAEIebIQk_X1sdYHviEJAwUyoYyJO4L-bN8XA6yWiXuBJcVJwIEc4wHSvxWjbFU23Y7cn1sMo": "8ce1d74ede5fad08fdb38862cadde44a99967b3b2674fdae31c54df5c18b0738.jpg",
+    "https://play-lh.googleusercontent.com/ywLtSbq9g3UE5T3x7kY7EG4YUEvCGiP9G-GG7Xt2m8fcwu_ZsD4GSKwgtz5wMxGX2HhtRxzTXX4TOvTI8OILbg": "87f45393552c60239009f03ce64a5fec4ad435ef111c61807b53e6e9e6dab839.png",
+    "https://play-lh.googleusercontent.com/3N8AFh77zrmbvhhFXPse9uic9c8xKSzqDqRz5mRk4P5mc-GUYUOyHDXsat5yN1qmw8KfFjqxWe5zw4Vrappfxow": "55be6a8b59dfdfa140f51f62ce1347ca4a105a56070ca8297a711da2ac50f334.png",
+    "https://play-lh.googleusercontent.com/k5uJIahhzhvYqMCg_IXsa3F5faCD0QJ9oSqHh17Z4ajEuoWVq4XEoh0-JkhCetkWIEyH6WCaM0cIfioDamVNGNM": "c581ff1b439cbef2a90c0a39636afa5b4cb251c19062f1216d656dc76e2eaf23.png",
+    "https://play-lh.googleusercontent.com/1O20AdJQWSuNxklVpaUHtstZed21kcbB6wsoobDL6oyrsTSKmafUkoZ2Kw4GSIdFRYKXgldGZwbCDKsikzY8Mw": "cb03d052e5a7f2c60899436d53be5d50673f037ca913c75b72eec8961006578b.png",
+    "https://play-lh.googleusercontent.com/XtqqhY00XFU9igXzulUpoGjphPFocPhr6sX51tAwZMLTGDHrlNLpF3kumqQBiCSGYpVSfLSORrO0s173cUCovg": "5ce69fb279064ca1693cced9bf39dff80347d9bdb7b3be1d31692383ab6bb4ae.png",
+    "https://play-lh.googleusercontent.com/yL_3d8yqIHGxPOXGXv9nniBERhX5YO3LjvEJEOW8_Mf3xa9ksLXAFHljgFyPa7fl9f16VJRfacbMYXqbz56I4Q": "fcd1e2777000e9011a227b7d9190d3cab39026b673e054b9fbe8feaf9851aeec.png",
+    "https://play-lh.googleusercontent.com/3xD9Bkc8wSE3XBXOKtBGRDetEiyEYA3qhafEj3PmTDgQRrKxnUzW8s5-WxjDxA1sLJqbtKo0h7M2rDE9QXaKtg": "b07c46e71cf516b4a1946ffdfd5aeb32d4c726cd93188a1c728c161c81e4190a.png",
+    "https://play-lh.googleusercontent.com/i4--76jOf4HO-wjzvjsPjs8z68hjhbHXdQMjCLXup0ptlZUQUxGmFnyCMD4frQeYgyPkRigG2lUtlCaMMc7cFQ": "d41264261cf2f57ee106ebd6dc9d45660741bfb727029ca6fd091892efe12734.png",
+    "https://play-lh.googleusercontent.com/MKErO8PoElTMUTU2fsNBAfjewaHQKXmXG6jXwIF0JwMcyoAhCqrGZPSDiyd50kq1STnH4GZYLdhYNztOGgC3": "a5d90b1b8b7ab850260b22afeec1c513b998f5a30f4f9be2c55dbb05a55d5f7d.png",
+    "https://play-lh.googleusercontent.com/flVQke2Z1TqM_jB2QGgRQR7sUswDP8-MMghfMjkorN6U9D6GHOpVn47gDhJEwpSH7EN1YbRIVrXUyYXQy7IevKI": "700a4b1b731c67e1dfad242ce9c20ca82b3d5cd2418b0b2bfbe0070876bc4556.png",
+    "https://play-lh.googleusercontent.com/O1A0Eb6eP_lL4fxNKHVu7qFojqnxO3DM2ZYDl_oK9utVqNS3_qcY8vkbDXBx90zzGcq0fRgxJienjMwW5XtJWvE": "061a2db3cbaf4f247192227b7bb1c2d23c89e4fc4ba8b7dbc799abbcec08bad0.png",
+    "https://play-lh.googleusercontent.com/64D973k0Q-ma-seEstOVjydpJ48eTtZueo2U2THf_G9Foe3ynYBY4Z_bL-wy0HZWFK-qLMwZ-5MKMzb_MjXNqg": "d50c372f77a953fd8b6ebabe2d488d0a16cfc82afd01034696eba289ef1da5d1.png",
+    "https://play-lh.googleusercontent.com/qqXI11SDRWLvC9XtlfHixaKk7BPh0RPUiDMb2mrZ7opXDqGj2j7UOnG3qbdYr-psBG5NJgGx22jF1ljw8PiJuQ": "897f438b37c83b727ffa53fd3cfd15a202b576c5fb5d3626a4f984846a21acbe.png",
+    "https://play-lh.googleusercontent.com/Aa6m39JYbctCT12k8PPITyNxy6n285N8FacHkq3UfTASh6dtSDmL1Y4YloI4QFGbXZ_rPNdTdOLWdANsyifXDHs": "9e5f1c979f7639cc0ecb54278cfedcdbfe0757b5f09377d88bc6caff59bfa1bd.png",
+    "https://play-lh.googleusercontent.com/27LCK_nGZMvY-Fg2v9bWrXWMZ6D6KRZRBxd8j4ezNMN40-NtBp8QWSaFjzNmpNxDl_BY5QBPRUEji5ru0G3G": "ff10245da029eb6c50df4f61fe8d4cfb26cafa38e06022c7a3ee64906f324b6e.png",
+    "https://play-lh.googleusercontent.com/_dnA_mczz5pcmQppwl4U4EXnnmgfFy0ZMJ4EuymwX9sN2Drh_LEfPL4M6jEQ6yY5jAcnLr2QrRDwI8yMVMZS5Q": "0104d4696c5504f2eeddc741cbb214e8e17a72669a7025489e3be55026653ab8.png"
+  }
+}

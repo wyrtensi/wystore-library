@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "package": "com.funcamerastudio.videomaker",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Создатель видео с музыкой",
+      "developer": "VIDEOSHOW Video Editor & Maker & AI Chat Generator",
+      "description": "Filmigo, ИИ-конструктор видео из фото с музыкой и ИИ-видеоредактор, — мощный ИИ-редактор для создания стильных музыкальных видео и слайд-шоу. В пару шагов объедините клипы, популярные песни, анимированные стикеры, темы-шаблоны, авто-субтитры, перевод надписей и впечатляющие ИИ-эффекты и соберите тёплое видео для близкого человека.<br><br>Простое ИИ-приложение для монтажа: Filmigo превращает создание влогов и красивого контента в удовольствие. Делитесь воспоминаниями с близкими или становитесь инфлюенсером — Filmigo поможет вам блистать в Instagram, TikTok, WhatsApp, Facebook и REDnote (Xiaohongshu).<br><br>Главные возможности ИИ-видеоредактора и фоторедактора<br>【 Профессиональный монтаж 】<br>Filmigo и AI Cap Cut дают мощные инструменты: склеить, развернуть, повернуть, обрезать, разделить, дублировать клипы и смонтировать фильм. Режьте видео на части, добавляйте фото из галереи, сжимайте видео без потери качества — как профи. Приближайте кадр, ускоряйте и замедляйте видео, создавая настоящее искусство.<br><br>【 ИИ-генератор видео 】<br>Filmigo использует передовые ИИ-технологии, чтобы оживить ваши идеи. Превращайте кадры в кинематографичный, фэнтезийный или аниме-стиль с ИИ-шаблонами, повторяйте движения камеры и экшн-сцены. Создание ИИ-видео — быстро, весело и без усилий.<br><br>【 Умный ИИ-монтаж 】<br>Монтируйте легко с ИИ. Мгновенно заменяйте, добавляйте или удаляйте объекты в видео парой касаний — навыки не нужны. Чистый результат высокого качества за секунды.<br><br>【 ИИ-субтитры и перевод 】<br>Превращайте речь в субтитры с помощью ИИ, переводите надписи на разные языки одним касанием и легко показывайте двуязычные субтитры.<br><br>【 ИИ-вырезание и замена фона 】<br>Мгновенно удаляйте фон у людей и объектов с ИИ-вырезанием. Подставляйте креативные сцены — снежное Рождество, мягкий студийный свет, праздничные вечеринки или любой свой фон — одним касанием.<br><br>【 Плавные ИИ-переходы 】<br>Соединяйте клипы премиальными ИИ-переходами: они анализируют кадры и создают профессиональные бесшовные морфинг-эффекты и плавное движение в одно касание — без ручной работы!<br><br>【 ИИ-генератор музыки 】<br>Популярные треки, извлечение аудио, несколько звуковых дорожек и собственный BGM, созданный ИИ по текстовому запросу. Добавляйте озвучку или меняйте голос на робота, монстра и другие.<br><br>【 Креативный монтаж и Pro-темы 】<br>Преобразите видео изысканными темами Filmigo, эффектами переходов и трендовыми стилями — в одно касание. Настраивайте надписи стильными шрифтами, анимированным текстом и милыми стикерами (GIFs, эмодзи, анимация), чтобы видео и слайд-шоу стали ярче. VIP даёт экспорт 1080p, без рекламы и водяных знаков, плюс мозаику и бегущий текст для профессионального финала.<br><br>【 HD-экспорт и соцсети 】<br>Экспорт в 720P/1080P HD без ограничений по времени. Поддержка вертикального 9:16, квадратного 1:1 и 16:9 — идеально для TikTok, Instagram Reels, REDnote и других. Делитесь сразу: без обрезки и с плавным воспроизведением.<br><br>С Filmigo AI Video Maker рассказчиком может стать каждый. Создавайте вирусные короткие видео, стильные влоги и ИИ-шедевры без усилий. Украшайте свой мир умными субтитрами, переходами, стикерами, рисунками и магией ИИ-эффектов — всё в одном приложении.<br><br>Если у вас есть предложения или вопросы о Filmigo, напишите нам: filmigo@videoshowapps.com.<br><br>Отказ от ответственности:<br>Filmigo не связан, не аффилирован, не спонсируется и не одобрен TikTok, Instagram, Facebook, WhatsApp, YouTube, Twitter, CapCut, lemon8, REDnote и не имеет с ними официальных отношений.",
+      "shortDescription": "Создатель видео Filmigo с анимационными эффектами",
+      "versionName": "6.7.4.0",
+      "updatedDate": "2026-09-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.funcamerastudio.videomaker",
+      "changelog": "Что нового:<br>1. Улучшен экран первоначальной настройки при первом запуске<br>2. Фильтрация материалов обновлена: добавлены кнопка входа и панель фильтров, поддерживается фильтрация по соотношению сторон<br>3. Исправления в редакторе: не работало размытие фона, музыка теперь подстраивается под длительность основного клипа<br>4. Производительность и стабильность: добавлено кэширование в памяти для библиотеки клипов",
+      "icon": "images/1be59de58dabfd51fbc74d1454a005f39e31f1d2a47a03df0c9b2ab3e6425331.jpg",
+      "screenshots": [
+        "images/37b7347d84358bedf6f23eebfdb62d02eab91663563a5c51847b4f8ff2823074.png",
+        "images/b5ebcce35209581a5f2ad9ac15fe291f3c1220b549cd9207edf7ed31d11e947c.png",
+        "images/d1f2ddb1856c84d057c49261063995b1b8422e7320204cb9c4bd18377f485980.png",
+        "images/2c46ad03d55bc7e7bb3237d92e6aa23da019bbd917247d8de2fe0574700fd529.png",
+        "images/e766bf15be23e247b7a763468ac643b074c504f8ebd6af3a69c8e9d5fc8a6236.png",
+        "images/c2f1f30faaf032b726941e00d64cdd6fa5383f714554adb8a26c12656ab5f8ef.png",
+        "images/e5c0770f4a0fd77afd74e6debc82ec404da34a48b805fd42bf7a9d5ce4d21268.png",
+        "images/3c3c9150c54b8d77f7388c591643add8e0649080e8669d917dd394d92f0bec5c.png"
+      ]
+    },
+    "en_US": {
+      "title": "Filmigo: AI Video Maker",
+      "developer": "VIDEOSHOW Video Editor & Maker & AI Chat Generator",
+      "description": "Filmigo AI Video Maker of Photos with Music & AI Video Editor is a powerful AI video creation tool for making stylish music videos and slideshows. With simple steps, combine video clips, trending songs, animated stickers, themed templates, auto captions, subtitle translation, and stunning AI effects to create heartfelt, share-worthy videos for someone special.<br><br>As an easy-to-use AI Video Editing app, Filmigo makes creating personalized vlogs and stunning content a breeze. Whether you’re sharing memories with loved ones or aiming to become an influencer, Filmigo helps you shine on platforms like Instagram, TikTok, WhatsApp, Facebook, and REDnote (Xiaohongshu).<br><br>Key Features of this AI Video Maker/Photo Editor<br>【 Professional Editing Tool 】<br>Filmigo video trimmer and AI Cap Cut offer powerful tools for you to splice/reverse/rotate/trim/split/duplicate your clips and cut the movie. You can cut a video in parts, merge images from your gallery or album, compress video without losing quality like a professional video producer. Also, you can zoom in/speed up/speed down the video to make a super interesting piece of art.<br><br>【 AI Video Generator 】<br>Filmigo integrates advanced AI technology to help you bring your creative ideas to life. Easily transform your visuals into cinematic, fantasy, or anime styles using AI templates, and replicate specific camera movements and video actions. Filmigo makes AI video creation fast, fun, and effortless.<br><br>【 AI Smart Edit 】<br>Edit videos the easy way with AI. Instantly replace, add, or remove elements in your video with just a few taps—no editing skills needed. Create clean, high-quality results in seconds and bring your ideas to life faster than ever.<br><br>【 AI Subtitle & Translation 】<br>Turn speech into subtitles with AI, translate captions into multiple languages in one tap, and display bilingual subtitles with ease.<br><br>【 AI Cutout & Background Replace 】<br>Instantly remove backgrounds from people or objects with AI Cutout. Swap in creative scenes — snowy Christmas, dreamy studio lights, festive parties, or any custom backdrop — all in one tap.<br><br>【 AI Seamless Transitions 】<br>Instantly bridge your clips with high-end AI Transitions that intelligently analyze your frames to create professional, seamless morphs and fluid motion effects in one tap—no manual editing required!<br><br>【 AI Music Generator 】<br>Access trending music, extract audio, add multiple tracks, and create your own BGM with AI Music Generation from text prompts. Add voice-overs or change your voice into robot, monster, and more.<br><br>【 Creative Edit & Pro Themes 】<br>Elevate your videos with Filmigo AI Video Maker’s diverse Exquisite Themes, transition effects, and trending styles—all in one tap. Easily customize your captions with stylish fonts, animated text, and Cute Stickers (GIFs, emojis, animated stickers) to make your videos or slideshows more engaging. Our VIP privilege offers 1080p export, no ads, no watermarks, and unique tools like pixelate and scroll text for a truly professional finish.<br><br>【 HD Export & Social Sharing 】<br>Export videos in 720P/1080P HD with no time limits. Support 9:16 vertical, 1:1 square, and 16:9 formats—perfect for TikTok, Instagram Reels, REDnote, and more. Share instantly with no-crop layouts and smooth playback.<br><br>With Filmigo AI Video Maker, anyone can become a storyteller. Create viral short videos, stylish vlogs, and AI-generated masterpieces effortlessly. Beautify your world with smart subtitles, transitions, stickers, doodles, and magic AI effects — all in one app.<br><br>If you have any suggestions or questions for Filmigo, please contact us at: filmigo@videoshowapps.com.<br><br>Disclaimer:<br>Filmigo is not affiliated, associated, sponsored, endorsed by, or in any way officially connected with TikTok, Instagram, Facebook, WhatsApp, YouTube, Twitter, CapCut, lemon8, REDnote.",
+      "shortDescription": "Turn everyday moments into videos worth sharing—with music, effects, and AI.",
+      "versionName": "6.7.4.0",
+      "updatedDate": "2026-09-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.funcamerastudio.videomaker",
+      "changelog": "What's New:<br>1. Improved first-launch onboarding<br>2. Media filtering upgrade: new filter entry point and panel, with aspect ratio filtering<br>3. Editor fixes: background blur not applying, music now adapts to the main clip duration<br>4. Performance & stability: added memory cache for the clip media library",
+      "icon": "images/1be59de58dabfd51fbc74d1454a005f39e31f1d2a47a03df0c9b2ab3e6425331.jpg",
+      "screenshots": [
+        "images/9d22a0b2772811a877e21a6e30e232ec894f1fe94c66526293d4e02db7b5f221.jpg",
+        "images/c52a27d657e6e6d76b352c637b8f48b8e144092b9be701649e8862d71c12097b.jpg",
+        "images/47ff01c038093bf1d8e7ed889e56d393ba3999c2a1451c549fd05c5693bff4d6.jpg",
+        "images/aee0c581d7f70ae801f03ee9a05858d349a7ffd044abd05b4e8e3c379f404328.jpg",
+        "images/6b1cf4dd213df96be9f46fe825f16002241597d48c7a927aa0df35085e721fbf.jpg",
+        "images/9438adfdf29150ad6196503cc543046b9bc13427de9b66e4f3415b9324c25db4.jpg",
+        "images/daa14a1c0e8d69addf289240c2d308d1934d12d24b4f2e37ee7b945b8578b497.jpg",
+        "images/e8b092238aedf3e34620f7a3297b602c886a9f5e1df5d5d605be18875d706a3d.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "6.7.4.0",
+        "updatedDate": "2026-09-28",
+        "text": "Что нового:<br>1. Улучшен экран первоначальной настройки при первом запуске<br>2. Фильтрация материалов обновлена: добавлены кнопка входа и панель фильтров, поддерживается фильтрация по соотношению сторон<br>3. Исправления в редакторе: не работало размытие фона, музыка теперь подстраивается под длительность основного клипа<br>4. Производительность и стабильность: добавлено кэширование в памяти для библиотеки клипов"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "6.7.4.0",
+        "updatedDate": "2026-09-28",
+        "text": "What's New:<br>1. Improved first-launch onboarding<br>2. Media filtering upgrade: new filter entry point and panel, with aspect ratio filtering<br>3. Editor fixes: background blur not applying, music now adapts to the main clip duration<br>4. Performance & stability: added memory cache for the clip media library"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/hOjMo6wpFL7vxWqwdK-vzGqPO3U5mLNUqM2RnQITlqcjE6tCT6F3ZNNB7SG7Na9LtH7hol2BqyKFPoKm49Nr": "1be59de58dabfd51fbc74d1454a005f39e31f1d2a47a03df0c9b2ab3e6425331.jpg",
+    "https://play-lh.googleusercontent.com/Ipwl1OrWSQeYe02OUHmQcV48sZp6xapQjcekeCJvF1aQfBGixCITD2N5Fj9e8IsQjlZX3uOQwKqzdDjm04mMiQ": "37b7347d84358bedf6f23eebfdb62d02eab91663563a5c51847b4f8ff2823074.png",
+    "https://play-lh.googleusercontent.com/iM54mSQeYn37XOTloPESmNzbDIua8LjVZwEO9wUT2EGy4Th1LnjVH9qbhwcg0O5IsLuMgZCihGhiuMkfL2avpjU": "b5ebcce35209581a5f2ad9ac15fe291f3c1220b549cd9207edf7ed31d11e947c.png",
+    "https://play-lh.googleusercontent.com/3iAtUiK83YK4k_RhJfc_kIn7t4uDs-HGq_avZQAmzPAEXUJiqT243nKM5SktNrcRlVKPHLLmk78h0xl6OvbY": "d1f2ddb1856c84d057c49261063995b1b8422e7320204cb9c4bd18377f485980.png",
+    "https://play-lh.googleusercontent.com/8pVEoI_NuliEQgKaTohtwK284VSCslSNCMYjEBAmzpNM7Np51LqtCve3NMRG73EaIYN6iGxPlQVt73Ag88IO2Gc": "2c46ad03d55bc7e7bb3237d92e6aa23da019bbd917247d8de2fe0574700fd529.png",
+    "https://play-lh.googleusercontent.com/yP5DyK6RcuuIvZyPVtSglI8AzirOfWsF3pbiciX33LcFAlnq4NeeTZEIF11QvXwdt0-9TktCKTmZol6pNSDr": "e766bf15be23e247b7a763468ac643b074c504f8ebd6af3a69c8e9d5fc8a6236.png",
+    "https://play-lh.googleusercontent.com/W47GJy6XPAUQIK4snW9jjI-HSMRseCSCmYyCZ_JtfX9jp0QXvpFanb4h9AJJfLfxSEcfstbiRvkHzMrPmj__sQ": "c2f1f30faaf032b726941e00d64cdd6fa5383f714554adb8a26c12656ab5f8ef.png",
+    "https://play-lh.googleusercontent.com/5k1MYavjfIAiGsosZGnssvyVu0gtkzKk54I5Gre16dPKjSgiWbHGHBpaOqqvRk6DCUAA4yhedSLkNPEa_lnA7O4": "e5c0770f4a0fd77afd74e6debc82ec404da34a48b805fd42bf7a9d5ce4d21268.png",
+    "https://play-lh.googleusercontent.com/8VQsW0YbJTPl-sTiWWZ5W3qf_PlRS_5eMm-ttINbS1f1rU5YUeVGmdPtGoKqcQN1c13P9BHsAoo22Zzzsi2uTA": "3c3c9150c54b8d77f7388c591643add8e0649080e8669d917dd394d92f0bec5c.png",
+    "https://play-lh.googleusercontent.com/TkX1dUCw4WyXxEhTsDG0i3cSWQFdFVj7ShTCzbAODOPH9T8P5QahbXFwqybDyzJJLpI73nuS432kyVNlEQP75Fo": "9d22a0b2772811a877e21a6e30e232ec894f1fe94c66526293d4e02db7b5f221.jpg",
+    "https://play-lh.googleusercontent.com/h20PinT1bUj1wsJ7fs-i5NVFrCVQKpKfpKzxEo8TB5YBS9UbBbxmGCKwijX5x0jsXyi0MIaxzm6UMOYN9wbuKQ": "c52a27d657e6e6d76b352c637b8f48b8e144092b9be701649e8862d71c12097b.jpg",
+    "https://play-lh.googleusercontent.com/bc0TVJpndUX_KH-USM6lKPwNxwhmNmO_eXQ837MzWy7gW3bi3EoPNtPXwYSenQUUVOSHYWn4wvkl6fGLmW44Vrs": "47ff01c038093bf1d8e7ed889e56d393ba3999c2a1451c549fd05c5693bff4d6.jpg",
+    "https://play-lh.googleusercontent.com/OB8oMOVza3wS1alD2vwqbb6CoqGZUuPZXobM5lEVgVmjsrW7dbbw9XGj25tLJLYwodlHgBqmx2OBU5WJa-aT0w": "aee0c581d7f70ae801f03ee9a05858d349a7ffd044abd05b4e8e3c379f404328.jpg",
+    "https://play-lh.googleusercontent.com/ECOYrf04MJ75KV8S0j3d9EewIudCLls9z0LFzwwpSyWZFML1V94qDicLRZKGRKWnrrabvPLCmuZTmANOnjmcves": "6b1cf4dd213df96be9f46fe825f16002241597d48c7a927aa0df35085e721fbf.jpg",
+    "https://play-lh.googleusercontent.com/9ga9f6qgKopda-bV8Ja-Duby3he_OiLgRKIIN3lCSyrpXTlYepjmHW-XuHHaLrz76PcXNiEwjAGnokxGnXf8qw": "9438adfdf29150ad6196503cc543046b9bc13427de9b66e4f3415b9324c25db4.jpg",
+    "https://play-lh.googleusercontent.com/Zx50yRFbGUtO8I1rHVn5_I5bMWdYZ0qiSOrMi9BkZmGnWDtDqElHKR8rrLkHkQ4SoU08Bq0yYZMC3QoKmoka4w": "daa14a1c0e8d69addf289240c2d308d1934d12d24b4f2e37ee7b945b8578b497.jpg",
+    "https://play-lh.googleusercontent.com/GUV4j_GMs6Idld99iQgO7qO6WOZstlBc2ta5XXw-xSEcsQKOVV_CCnB0Z23wyLDItJIARdC8ccaPeTn_yN1w1w": "e8b092238aedf3e34620f7a3297b602c886a9f5e1df5d5d605be18875d706a3d.png"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "package": "ai.x.grok",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Grok",
+      "developer": "SpaceX Super Intelligence",
+      "description": "Grok — мощный ИИ-ассистент, разработанный xAI. Он создан так, чтобы быть максимально честным, полезным и любознательным: помогает получать лучшие ответы, быстрее создавать и понимать мир в реальном времени. Нужен умный диалог, глубокое исследование, помощь с кодом или качественная генерация изображений и видео — Grok с этим справится.<br><br>ИИ-ассистент<br>Спрашивайте что угодно и получайте быстрые, обоснованные ответы. Попросите Grok провести глубокое исследование в интернете, решить сложные задачи по математике, науке и программированию или разобрать документы, фото и ссылки в чате. Этот ИИ-ассистент превращает сложные темы в понятные, практичные выводы и справляется с многошаговыми задачами благодаря сильному рассуждению.<br><br>Grok Imagine — генерация изображений и видео с ИИ<br>Быстрое и мощное создание изображений и видео с помощью ИИ. Генерируйте яркие картинки по тексту, короткие видео со звуком или оживляйте фото. Изображения можно создавать даже только голосом. Редактируйте готовые картинки: удаляйте объекты, меняйте фон или применяйте художественные стили — с точным контролем и высоким качеством.<br><br>Голосовой режим Grok<br>Общайтесь с Grok естественным голосом. Говорите со своим ИИ-ассистентом и получайте почти человеческие ответы в реальном времени. Настройте стиль общения и выбирайте разные манеры разговора под свои задачи.<br><br>Актуальная информация из X<br>Получайте самые свежие ответы. Благодаря прямому доступу к X и интернету этот ИИ-ассистент держит вас в курсе новостей, трендов и обсуждений прямо сейчас. Попросите Grok выполнить расширенный поиск в X и узнайте, что люди говорят на самом деле.<br><br>Легко перенесите контекст в Grok<br>Уже пользуетесь ChatGPT, Claude, Gemini или другими ИИ-инструментами? Легко перенесите переписку и контекст в Grok и продолжайте работу, не начиная сначала.<br><br>Реальные сценарии<br>Студенты используют Grok для учёбы и понятных объяснений. Профессионалы опираются на него в исследованиях, текстах, анализе и решении задач. Авторы за секунды создают свои изображения и видео. Разработчики получают сильную помощь с кодом и технические инсайты. Всем, кому нужен быстрый, честный и творческий ИИ-ассистент, Grok будет полезен.<br><br>Для кого Grok?<br>Grok создан для любознательных людей, которым мало простых ответов. Он подойдёт студентам, специалистам, авторам, исследователям и всем, кто хочет мощный ИИ-чат вместе с продвинутыми инструментами для изображений и видео. Если вам важны стремление к истине, креативность и знания в реальном времени, Grok сделан для вас.<br><br>С Grok как личным ИИ-ассистентом разбираться в знаниях, запускать идеи и доводить работу до результата становится быстрее и интереснее. Скачайте Grok сегодня и узнайте, на что способен по-настоящему полезный ИИ.<br><br>Условия использования: https://x.ai/legal/terms-of-service<br>Политика конфиденциальности: https://x.ai/legal/privacy-policy<br>Grok by xAI",
+      "shortDescription": "Ответьте на любой вопрос и создайте яркие изображения. ИИ-ассистент от SpaceXSI",
+      "versionName": "1.2.51-release.00",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=ai.x.grok",
+      "changelog": null,
+      "icon": "images/c53cae41965132aa41d2a43a4369b46c556af751389b21b8b45d01ad550f9198.png",
+      "screenshots": [
+        "images/43461e3db3b81ef971c2a9822fa0b83e95a9add56f1065840fcc179f35a6a423.jpg",
+        "images/62afa33aeda1c7c59dbd47d6b3eded39fda1cb9ef092b7603e45b00ceb82e4e5.jpg",
+        "images/21419db4d60b095c8b69df2d619ab6fae679907843f7612a4eb7658ca8527039.jpg",
+        "images/6aa9935295b288a868cb09df2cb3a22f21e2c75d7bf17ac263cd10b5bb8c7226.jpg",
+        "images/1d77395bc5880cd837d7d2037e5016d4bf1cc4ea5f41b18e00bac6b548d4d475.png",
+        "images/f05925e80f7bb08e14bf91343b0541e2d455a8762c92cbb502c31465d4ef2fba.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Grok",
+      "developer": "SpaceX Super Intelligence",
+      "description": "Grok is a powerful AI assistant developed by SpaceXSI. Designed to be maximally truthful, useful, and curious, Grok helps you get better answers, create faster, and understand the world in real time. Whether you need intelligent conversation, advanced research, coding help, or high-quality image and video generation, Grok delivers.<br><br>AI Assistant<br>Ask anything and get fast, well-reasoned replies. Have Grok do deep research on the web, solve complex problems in math, science, and coding, or analyze documents, photos, and links in the chat. This AI assistant turns complicated topics into clear, actionable insights and can handle multi-step tasks with strong reasoning.<br><br>Grok Imagine – AI Image and Video Generation<br>Experience fast and powerful AI image and video creation. Generate striking images from text, create short videos with sound, or turn your photos into dynamic videos. You can even generate images using just your voice. Edit existing images by removing objects, changing backgrounds, or applying artistic styles — all with precise control and high quality.<br><br>Grok Voice Mode<br>Have natural voice conversations with Grok. Talk to your AI assistant and receive human-like replies in real time. Personalize how you interact and choose different conversation styles that match your needs.<br><br>Real-Time Information from X<br>Get the most up-to-date answers. With direct access to X and the web, this AI assistant keeps you informed about the latest news, trends, and conversations happening right now. Ask Grok to perform advanced searches on X and discover what people are really saying.<br><br>Easily Transfer Context to Grok<br>Already using ChatGPT, Claude, Gemini or other AI tools? Easily transfer your conversations and context to Grok so you can continue working without starting over.<br><br>Real-World Use Cases<br>Students use Grok to study and get clear explanations. Professionals rely on it for research, writing, analysis, and problem-solving. Content creators generate custom images and videos in seconds. Developers get strong coding help and technical insights. Anyone who wants a fast, truthful, and creative AI assistant can benefit from Grok.<br><br>Who Is Grok For?<br>Grok is built for curious people who want more than basic answers. It’s perfect for students, professionals, creators, researchers, and anyone looking for a powerful AI chat experience combined with advanced image, video, and agent capabilities. If you value truth-seeking, creativity, and real-time knowledge, Grok is made for you.<br><br>With Grok as your personal AI assistant, navigating knowledge, sparking creativity, and getting real work done becomes faster and more exciting. Download Grok today and experience what a truly helpful AI can do.<br><br>Terms of Service: https://x.ai/legal/terms-of-service<br>Privacy Policy: https://x.ai/legal/privacy-policy<br>Grok by SpaceXSI",
+      "shortDescription": "Answer any question & generate striking images. AI assistant by SpaceXSI",
+      "versionName": "1.2.51-release.00",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=ai.x.grok",
+      "changelog": null,
+      "icon": "images/c53cae41965132aa41d2a43a4369b46c556af751389b21b8b45d01ad550f9198.png",
+      "screenshots": [
+        "images/be0b49cd39934b32538240e054f8890d35441c01c6c298fc9be4ef78d537326d.jpg",
+        "images/c6d7cc1c21f64d70378db050fb9cb633d99aa51e4dbec49221fda2c0a8d0fe86.jpg",
+        "images/e3527deaa4e678c91da7ae23e9f112579ad5f8455b10453ba36e6b758615fabb.jpg",
+        "images/3f588fcf32f9926388e9e08d469a0c71c66d6d1a856df522d97b9795c54834d8.jpg",
+        "images/91e547cb1f062fe18a66594459086a30e998f5ddc8cf82cc71865f8ea8aedac6.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [],
+    "en_US": []
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/-VnI9BrQO0PYyZG15YE6wt68KOmZ7AXGAqGti58g25ES1XdXWDBaaWUMIewHaiROwge6ibvn_b3WalmpgWGG": "c53cae41965132aa41d2a43a4369b46c556af751389b21b8b45d01ad550f9198.png",
+    "https://play-lh.googleusercontent.com/8jsfPSpcdjNXfX6D9-_8uBh4OXSgDPXmsIN_l7AEiUmiWLbkVmc0645xVytJAFMWjytHQDePK-3VQGgFXE5Aldw": "43461e3db3b81ef971c2a9822fa0b83e95a9add56f1065840fcc179f35a6a423.jpg",
+    "https://play-lh.googleusercontent.com/7cHDMyxyb5vgtLku2zdaySZewndelyODgMRmTJr1gXSwMnBbsTjylGHDaGdnvbMdGRHDqFZy0T_ZsBezTFsfTKA": "62afa33aeda1c7c59dbd47d6b3eded39fda1cb9ef092b7603e45b00ceb82e4e5.jpg",
+    "https://play-lh.googleusercontent.com/YRWFm7ClEKxMW7w2y3xZfd1ucwhPGkFV0v-VFVYYRqbIt6rYh8tp3uwY4cORYEP7rjvvuNQw7WlmCutrnVIN": "21419db4d60b095c8b69df2d619ab6fae679907843f7612a4eb7658ca8527039.jpg",
+    "https://play-lh.googleusercontent.com/EmmiXoNTobd1Kjk74q5eh00HcXi-r6LU-J1WWiIZiF_-catx2oJ0_ThGo4N1WRRcpp3xSuy3-cIrx0M5fzbsxMM": "6aa9935295b288a868cb09df2cb3a22f21e2c75d7bf17ac263cd10b5bb8c7226.jpg",
+    "https://play-lh.googleusercontent.com/TIBgQwmBK7nF4STNYtxSFA5U5yCdA2Eu8wnElKIpnoertHdZLRPUNZPG8a2TxawG9BC8bH9KjnZNHTnBFws_Lg": "1d77395bc5880cd837d7d2037e5016d4bf1cc4ea5f41b18e00bac6b548d4d475.png",
+    "https://play-lh.googleusercontent.com/Kopwf2Ar6aRzgrL8zHwjLMyvzqIr2bdy-mxMg28S7kgynUOnEPBD7w8N9UbBvwsPSwcLIWkp7HokrsSfqPS_": "f05925e80f7bb08e14bf91343b0541e2d455a8762c92cbb502c31465d4ef2fba.jpg",
+    "https://play-lh.googleusercontent.com/6PoUDfZZWlzMBEd0Amql2OeBgwzw8eY_-fPzUeN05KJdtURUBGY1xxZTbpm_W1qNMk2bJS9G94rKy7CK_Akjeg": "be0b49cd39934b32538240e054f8890d35441c01c6c298fc9be4ef78d537326d.jpg",
+    "https://play-lh.googleusercontent.com/OZt_bSwJEK03VLIw8hvIdk__LxOQUfyhuknP2DMAed5fF1xNkKfwFFXtNpMR4KY5vrcllePdiv2CYGtsufFoEYA": "c6d7cc1c21f64d70378db050fb9cb633d99aa51e4dbec49221fda2c0a8d0fe86.jpg",
+    "https://play-lh.googleusercontent.com/maOUxjtrvopYKAENKfkdOys1kRKcYwWN37PivwCfFRvAXZzVq1dBsFIg7gL8dPturdPMgvr0B9C6yLE8_H42": "e3527deaa4e678c91da7ae23e9f112579ad5f8455b10453ba36e6b758615fabb.jpg",
+    "https://play-lh.googleusercontent.com/5zQyLNR3ZljfH1R32nc4I0DQPG9GLT2Ppg95C8TbCsADEqBHRSMSbK4ny5QKJoxzQJlb6m_bPMExpTnNO2Ew": "3f588fcf32f9926388e9e08d469a0c71c66d6d1a856df522d97b9795c54834d8.jpg",
+    "https://play-lh.googleusercontent.com/jTwdrqndN-S_fpGdfILxOHV0Tir1oZmCcorp5_big5yI7PYbSaKIpMglDGHK5iQtrEQgudfp8SrCFCiPJZHFgg": "91e547cb1f062fe18a66594459086a30e998f5ddc8cf82cc71865f8ea8aedac6.jpg"
+  }
+}

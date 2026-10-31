@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "package": "com.disney.disneyplus",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Disney+",
+      "developer": "Disney",
+      "description": "Disney+ is the streaming home of your favorite stories. With beloved movies and series from Disney, Pixar, Marvel, Star Wars, National Geographic, there's always something to explore. Stream the latest movie releases, exclusive Original series, and highly anticipated matchups all in Disney+.<br><br>Stream Originals like Marvel Studios’ Loki and fan favorites like Encanto and The Simpsons.<br><br>With a Disney+ subscription plan you will get to experience:<br>• Exclusive new Originals from Disney, Pixar, Marvel, Star Wars, and National Geographic.<br>• Access to new releases, timeless classics, and past seasons of your favorite TV shows.<br>•A live feed of ABC News and Streams that offer carefully curated, continuous programming based on seasonality or interest, from across the Disney+ library*<br>• Over 100 titles in 4K UHD and HDR.<br>• The ability to watch on multiple screens at once at no extra cost.<br>• Multiple parental control features including Profile PIN and Kid-Proof Exit. Easily adjust a profile’s Content Rating settings for a viewing experience that suits everyone<br>• IMAX Enhanced, see the full scale and scope with IMAX's expanded aspect ratio. Available with certain Marvel and Pixar titles and accessible on all devices where Disney+ is supported.<br>• A curated selection of unlocked Hulu content in the Hulu hub within the Disney+ app.**<br>• A curated selection of highly anticipated live sports events, ESPN Originals, and studio programming in the ESPN hub within the Disney+ app**<br><br>For help with Disney+, please visit: http://help.disneyplus.com<br>For our Subscriber Agreement and other policies please visit: https://disneyplus.com/legal/subscriber-agreement<br>Your California Privacy Rights: https://www.disneyplus.com/legal/your-california-privacy-rights<br>Do Not Sell My Information: https://www.disneyplus.com/legal/privacy-policy<br><br>The content available on Disney+ may vary by region. Some titles shown above may not be available in your country.<br><br>*Select Streams are currently available only with the Disney+ Premium plan. ABC News is not rated and will require a profile's Content Rating settings to be set to TV-MA. All other Streams are rated on a program-by-program basis.<br><br>**Content subject to change. U.S. residents, 18+ only. A limited selection of content from Hulu and ESPN are now available to all Disney+ subscribers. To access the full ESPN on Disney+ and Hulu on Disney+ experiences, you must bundle those services with your Disney+ subscription.",
+      "shortDescription": "Смотрите и загружайте свои любимые фильмы, телешоу и оригинальные фильмы на Disney+",
+      "versionName": "26.19.0+rc3-2026.10.20",
+      "updatedDate": "2026-10-20",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.disney.disneyplus",
+      "changelog": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better.",
+      "icon": "images/e4050d289d79d300debcf072a210482469404102a88243242766e87c9bdcde2a.png",
+      "screenshots": [
+        "images/fd60127b16a2e9d3f8ef6d8ccd29398fb2fb241ea0eebb794212416639d278fa.png",
+        "images/be0ae73055bee459d406d58c16ce0781fba57af7175f202a14cec0ef686edb64.png",
+        "images/57dca512f006df089cdbedf55cb5b385f8c7dbcf875019403565a1bb87b993c7.png",
+        "images/468975436c4c5eadd7f6c9c4456a41abfe16767b88f9f9a9b4e39b8d6b565eb6.png",
+        "images/31cba815080d4a2a6c32478657b7d330c32e49fdeb407e37cfa31a09d584a295.jpg",
+        "images/91bed2f2eb82a506869eeec3727ea8588cebeb9ac79fd26a4366a72fc18dbbf6.jpg",
+        "images/36a840d4aa3de53a70b93971e15fe693bbc991a2d59d813690bea8ff2d052d30.jpg",
+        "images/31cba815080d4a2a6c32478657b7d330c32e49fdeb407e37cfa31a09d584a295.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Disney+",
+      "developer": "Disney",
+      "description": "Disney+ is the streaming home of your favorite stories. With beloved movies and series from Disney, Pixar, Marvel, Star Wars, National Geographic, there's always something to explore. Stream the latest movie releases, exclusive Original series, and highly anticipated matchups all in Disney+.<br><br>Stream Originals like Marvel Studios’ Loki and fan favorites like Encanto and The Simpsons.<br><br>With a Disney+ subscription plan you will get to experience:<br>• Exclusive new Originals from Disney, Pixar, Marvel, Star Wars, and National Geographic.<br>• Access to new releases, timeless classics, and past seasons of your favorite TV shows.<br>•A live feed of ABC News and Streams that offer carefully curated, continuous programming based on seasonality or interest, from across the Disney+ library*<br>• Over 100 titles in 4K UHD and HDR.<br>• The ability to watch on multiple screens at once at no extra cost.<br>• Multiple parental control features including Profile PIN and Kid-Proof Exit. Easily adjust a profile’s Content Rating settings for a viewing experience that suits everyone<br>• IMAX Enhanced, see the full scale and scope with IMAX's expanded aspect ratio. Available with certain Marvel and Pixar titles and accessible on all devices where Disney+ is supported.<br>• A curated selection of unlocked Hulu content in the Hulu hub within the Disney+ app.**<br>• A curated selection of highly anticipated live sports events, ESPN Originals, and studio programming in the ESPN hub within the Disney+ app**<br><br>For help with Disney+, please visit: http://help.disneyplus.com<br>For our Subscriber Agreement and other policies please visit: https://disneyplus.com/legal/subscriber-agreement<br>Your California Privacy Rights: https://www.disneyplus.com/legal/your-california-privacy-rights<br>Do Not Sell My Information: https://www.disneyplus.com/legal/privacy-policy<br><br>The content available on Disney+ may vary by region. Some titles shown above may not be available in your country.<br><br>*Select Streams are currently available only with the Disney+ Premium plan. ABC News is not rated and will require a profile's Content Rating settings to be set to TV-MA. All other Streams are rated on a program-by-program basis.<br><br>**Content subject to change. U.S. residents, 18+ only. A limited selection of content from Hulu and ESPN are now available to all Disney+ subscribers. To access the full ESPN on Disney+ and Hulu on Disney+ experiences, you must bundle those services with your Disney+ subscription.",
+      "shortDescription": "Stream and download your favorite movies, TV shows & Originals on Disney+",
+      "versionName": "26.19.0+rc3-2026.10.20",
+      "updatedDate": "2026-10-20",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.disney.disneyplus",
+      "changelog": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better.",
+      "icon": "images/e4050d289d79d300debcf072a210482469404102a88243242766e87c9bdcde2a.png",
+      "screenshots": [
+        "images/fd60127b16a2e9d3f8ef6d8ccd29398fb2fb241ea0eebb794212416639d278fa.png",
+        "images/be0ae73055bee459d406d58c16ce0781fba57af7175f202a14cec0ef686edb64.png",
+        "images/57dca512f006df089cdbedf55cb5b385f8c7dbcf875019403565a1bb87b993c7.png",
+        "images/468975436c4c5eadd7f6c9c4456a41abfe16767b88f9f9a9b4e39b8d6b565eb6.png",
+        "images/31cba815080d4a2a6c32478657b7d330c32e49fdeb407e37cfa31a09d584a295.jpg",
+        "images/91bed2f2eb82a506869eeec3727ea8588cebeb9ac79fd26a4366a72fc18dbbf6.jpg",
+        "images/36a840d4aa3de53a70b93971e15fe693bbc991a2d59d813690bea8ff2d052d30.jpg",
+        "images/31cba815080d4a2a6c32478657b7d330c32e49fdeb407e37cfa31a09d584a295.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "26.19.0+rc3-2026.10.20",
+        "updatedDate": "2026-10-20",
+        "text": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "26.19.0+rc3-2026.10.20",
+        "updatedDate": "2026-10-20",
+        "text": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/AEX_3Bk5_SEZfR4fUcJsWiyqW_RRVcLED9AM2HMUVHAPVTZhZHfP2q3M35mRe4LtCXlb712DtkKwkZa_nJ-0": "e4050d289d79d300debcf072a210482469404102a88243242766e87c9bdcde2a.png",
+    "https://play-lh.googleusercontent.com/2m8FbKFXO8HkOf2xw-_0QVk7z4VaEj8s2ljq_cszb3PMYWY2cjl_EFh-8OxdxSBYu9o_qzTshXLmcsf1fiuztIM": "fd60127b16a2e9d3f8ef6d8ccd29398fb2fb241ea0eebb794212416639d278fa.png",
+    "https://play-lh.googleusercontent.com/hi_JX08aIgGU0HYoQ5MRrqNUVKThS3QEQ4GnCQXcTXbXV5NOGNhRFUB9-cSdJIhRhKhj1-QcCbP5YV39GaXk8g": "be0ae73055bee459d406d58c16ce0781fba57af7175f202a14cec0ef686edb64.png",
+    "https://play-lh.googleusercontent.com/gZOZz-W2qvM8Jcy2c-t_YK6pQW3Bo7_PyzQkWfyla2Uvf8Fam0GOGT3iPhP7w7Y6gqefwm7Sh4xk6WRKJZ4q": "57dca512f006df089cdbedf55cb5b385f8c7dbcf875019403565a1bb87b993c7.png",
+    "https://play-lh.googleusercontent.com/JaiKlD4YuMnDAUEovyBD19yj_WB37890INHPz2lq-KD0PyM3HzqstyrkE396YkHMLeqDn8n1Jhd9zmESZBSOkiQ": "468975436c4c5eadd7f6c9c4456a41abfe16767b88f9f9a9b4e39b8d6b565eb6.png",
+    "https://play-lh.googleusercontent.com/3Tk9LegwgQVv-i9jkgIlWQR07Ct2Dg8GlowyY5S5ArJ03P4HGw5GUVQCWr_ERqFs9nVvWJgCodvCKpnNiH52xw": "31cba815080d4a2a6c32478657b7d330c32e49fdeb407e37cfa31a09d584a295.jpg",
+    "https://play-lh.googleusercontent.com/AvpNzMXwt67tihFPCf2tR2QyhZ_fgCJEhq2Dia3jGYQjabarM-0Wg1TZg4riQu70EAwOXIW0YBE6Xm4aLOwXpg": "91bed2f2eb82a506869eeec3727ea8588cebeb9ac79fd26a4366a72fc18dbbf6.jpg",
+    "https://play-lh.googleusercontent.com/uO5QFGo1YGFZOZFRDUvE9NQPDNLluMQFmYQ-ruHDHOe2bygq8gk1bVyBj-7n5wsdgGvzCVwbJFyYyuIRslC3QA": "36a840d4aa3de53a70b93971e15fe693bbc991a2d59d813690bea8ff2d052d30.jpg"
+  }
+}

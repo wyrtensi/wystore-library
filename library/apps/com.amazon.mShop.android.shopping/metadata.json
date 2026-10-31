@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.amazon.mShop.android.shopping",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Amazon Shopping",
+      "developer": "Amazon Mobile LLC",
+      "description": "<h2><b>Product Features</b></h2><br>Amazon Shopping offers app-only benefits to help make shopping on Amazon faster and easier than shopping on your desktop.<br><br><h2><b>Never miss a delivery</b></h2><br>Get real-time tracking and delivery notifications so you know where your package is and when it arrives. <br><br><h2><b>Know exactly what you’re purchasing</b></h2><br>Full 360° product view lets you see items from every angle. “View in your room” makes sure it fits by using your phone’s camera and VR so you can see it in your space. <br><br><h2><b>We’ll notify you when items go on sale</b></h2><br>Just tap the heart icon to save items to Your Lists and we’ll alert you of price drops so you don’t miss a deal. <br><br><h2><b>Never forget your password</b></h2><br>Save time by staying securely signed in. If you prefer to sign out, use facial or fingerprint identification to sign back in. <br><br><h2><b>Connect with us when it works best for you</b></h2><br>Live chat support is open 24 hours, 7 days a week. Once you’ve started a chat, it stays that way for 24 hours so you don’t have to start your support session from the beginning. <br><br><h2><b>We’ll find that item for you</b></h2><br>Not sure of an item’s brand or where to buy it? Just tap the scan icon in the search bar, take a picture of the item or its barcode, and we’ll find it for you.<br><br><h2><b>Product Description</b></h2><br>Browse, search, view product details, read reviews, and purchase millions of products. We deliver to 100+ countries in as quickly as 3-5 days. Whether you’re buying gifts, reading reviews, tracking orders, scanning products, or just shopping, Amazon Shopping app offers more benefits than shopping on Amazon via your desktop.   <br><br><h2><b>Important Note Regarding Permissions</b></h2><br>Please note that the Amazon Shopping app requires access to the following services to operate properly:<br>* <b>Contacts:</b> Allows you to send Amazon gift cards to your contacts or invitation to install the Amazon app.<br>* <b>Camera:</b> Allows the Amazon app to access your camera on the device. You can use your camera to find products by scanning the cover or its barcode, to add gift cards and credit cards, or to add pictures in the product reviews.<br>* <b>Flashlight:</b> Allows the Amazon app to turn on the flashlight. You can use the flashlight to find products with the camera feature even in low-light or dark conditions.<br>* <b>Microphone:</b> Allows the Amazon app to access your microphone to use your voice to search and interact with your Assistant.<br>* <b>Location:</b> Allows the Amazon app to access your location to help you discover local offers and select addresses fast.<br>* <b>Account:</b> Allows you to share products on Amazon with your friends and families through Facebook or other social networks.<br>* <b>Phone:</b> Allows the Amazon app to pre-populate the Amazon Customer Service number on your phone’s keypad.<br>* <b>Storage:</b> Allows the Amazon app to store your preferences so that some features can load and run faster on the device.<br>* <b>Wi-Fi:</b> This permission is used when setting up either a Dash Button or Dash Wand using the Amazon Shopping app.<br><br>The Amazon App for Tablets is available on Google Play. Search for \"Amazon Tablet\" to install the app and begin shopping.<br><br>For customers located within the European Union, United Kingdom, Brazil, or Turkey: By using this app, you agree to Amazon’s Conditions of Use applicable for your country. Please also see the applicable Privacy Notice, Cookies Notice and Interest-Based Ads Notice for your country. Links to these terms and notices can be found in the footer of your local Amazon homepage.<br><br>For all other customers: By using this app, you agree to the applicable Amazon Conditions of Use (e.g. www.amazon.com/conditionsofuse) and Privacy Notice (e.g. www.amazon.com/privacy) for your country. Links to these terms and notices can be found in the footer of your local Amazon homepage.",
+      "shortDescription": "Просмотр, поиск и купить миллионы продуктов прямо с вашего Android устройства.",
+      "versionName": "32.19.0.100",
+      "updatedDate": "2026-10-13",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping",
+      "changelog": "Access popular pages quickly with our new shortcuts. Tap and hold the Amazon app icon to access your Orders, Daily Deals, Shopping Cart, and Search.<br>Enjoy our latest update where we have fixed some bugs and improved our app to provide you a seamless shopping experience<br>",
+      "icon": "images/83e2070daf3d74d2e801286961e2f621bf48ec512502baa9470a8108716fed65.png",
+      "screenshots": [
+        "images/fc608e993a05a4c299079fa1cec02bfa4592b01fbb135eb0b5c23c437a7337f9.png",
+        "images/c9f3f9efac2fb780c532d365cc8b77bf6ea3d66b1efd1231f806326876925e52.png",
+        "images/fcc4aefb1c8e4b28bbbac09f2ef2d47c9aa533a5998eafa772a0fd6638c5176b.jpg",
+        "images/91056ffe01daa32005eab07d46525479dc0b5fd6d495744476fa626bf1973abf.jpg",
+        "images/87c4672734acdaa8beff6cb81dad9bdff1464062469c7c4cbcb443807c36c329.jpg",
+        "images/6f76e150954e1d0ffa12b60e05696fc0bb1b0738710eee01db8bd677994ace99.jpg",
+        "images/e927e9cda4509ce5a042fbf922bc6f3abdcf4c00e739d55816e51020dee3affc.jpg",
+        "images/ce6b267d23dcabbadbf254916c74dcc6757f1f875d18d5e6c618c8bd2e204a26.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Amazon Shopping",
+      "developer": "Amazon Mobile LLC",
+      "description": "<h2><b>Product Features</b></h2><br>Amazon Shopping offers app-only benefits to help make shopping on Amazon faster and easier than shopping on your desktop.<br><br><h2><b>Never miss a delivery</b></h2><br>Get real-time tracking and delivery notifications so you know where your package is and when it arrives. <br><br><h2><b>Know exactly what you’re purchasing</b></h2><br>Full 360° product view lets you see items from every angle. “View in your room” makes sure it fits by using your phone’s camera and VR so you can see it in your space. <br><br><h2><b>We’ll notify you when items go on sale</b></h2><br>Just tap the heart icon to save items to Your Lists and we’ll alert you of price drops so you don’t miss a deal. <br><br><h2><b>Never forget your password</b></h2><br>Save time by staying securely signed in. If you prefer to sign out, use facial or fingerprint identification to sign back in. <br><br><h2><b>Connect with us when it works best for you</b></h2><br>Live chat support is open 24 hours, 7 days a week. Once you’ve started a chat, it stays that way for 24 hours so you don’t have to start your support session from the beginning. <br><br><h2><b>We’ll find that item for you</b></h2><br>Not sure of an item’s brand or where to buy it? Just tap the scan icon in the search bar, take a picture of the item or its barcode, and we’ll find it for you.<br><br><h2><b>Product Description</b></h2><br>Browse, search, view product details, read reviews, and purchase millions of products. We deliver to 100+ countries in as quickly as 3-5 days. Whether you’re buying gifts, reading reviews, tracking orders, scanning products, or just shopping, Amazon Shopping app offers more benefits than shopping on Amazon via your desktop.   <br><br><h2><b>Important Note Regarding Permissions</b></h2><br>Please note that the Amazon Shopping app requires access to the following services to operate properly:<br>* <b>Contacts:</b> Allows you to send Amazon gift cards to your contacts or invitation to install the Amazon app.<br>* <b>Camera:</b> Allows the Amazon app to access your camera on the device. You can use your camera to find products by scanning the cover or its barcode, to add gift cards and credit cards, or to add pictures in the product reviews.<br>* <b>Flashlight:</b> Allows the Amazon app to turn on the flashlight. You can use the flashlight to find products with the camera feature even in low-light or dark conditions.<br>* <b>Microphone:</b> Allows the Amazon app to access your microphone to use your voice to search and interact with your Assistant.<br>* <b>Location:</b> Allows the Amazon app to access your location to help you discover local offers and select addresses fast.<br>* <b>Account:</b> Allows you to share products on Amazon with your friends and families through Facebook or other social networks.<br>* <b>Phone:</b> Allows the Amazon app to pre-populate the Amazon Customer Service number on your phone’s keypad.<br>* <b>Storage:</b> Allows the Amazon app to store your preferences so that some features can load and run faster on the device.<br>* <b>Wi-Fi:</b> This permission is used when setting up either a Dash Button or Dash Wand using the Amazon Shopping app.<br><br>The Amazon App for Tablets is available on Google Play. Search for \"Amazon Tablet\" to install the app and begin shopping.<br><br>For customers located within the European Union, United Kingdom, Brazil, or Turkey: By using this app, you agree to Amazon’s Conditions of Use applicable for your country. Please also see the applicable Privacy Notice, Cookies Notice and Interest-Based Ads Notice for your country. Links to these terms and notices can be found in the footer of your local Amazon homepage.<br><br>For all other customers: By using this app, you agree to the applicable Amazon Conditions of Use (e.g. www.amazon.com/conditionsofuse) and Privacy Notice (e.g. www.amazon.com/privacy) for your country. Links to these terms and notices can be found in the footer of your local Amazon homepage.",
+      "shortDescription": "Browse, search & buy millions of products right from your Android device.",
+      "versionName": "32.19.0.100",
+      "updatedDate": "2026-10-13",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping",
+      "changelog": "Access popular pages quickly with our new shortcuts. Tap and hold the Amazon app icon to access your Orders, Daily Deals, Shopping Cart, and Search.<br>Enjoy our latest update where we have fixed some bugs and improved our app to provide you a seamless shopping experience<br>",
+      "icon": "images/83e2070daf3d74d2e801286961e2f621bf48ec512502baa9470a8108716fed65.png",
+      "screenshots": [
+        "images/fc608e993a05a4c299079fa1cec02bfa4592b01fbb135eb0b5c23c437a7337f9.png",
+        "images/c9f3f9efac2fb780c532d365cc8b77bf6ea3d66b1efd1231f806326876925e52.png",
+        "images/fcc4aefb1c8e4b28bbbac09f2ef2d47c9aa533a5998eafa772a0fd6638c5176b.jpg",
+        "images/91056ffe01daa32005eab07d46525479dc0b5fd6d495744476fa626bf1973abf.jpg",
+        "images/87c4672734acdaa8beff6cb81dad9bdff1464062469c7c4cbcb443807c36c329.jpg",
+        "images/6f76e150954e1d0ffa12b60e05696fc0bb1b0738710eee01db8bd677994ace99.jpg",
+        "images/e927e9cda4509ce5a042fbf922bc6f3abdcf4c00e739d55816e51020dee3affc.jpg",
+        "images/ce6b267d23dcabbadbf254916c74dcc6757f1f875d18d5e6c618c8bd2e204a26.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "32.19.0.100",
+        "updatedDate": "2026-10-13",
+        "text": "Access popular pages quickly with our new shortcuts. Tap and hold the Amazon app icon to access your Orders, Daily Deals, Shopping Cart, and Search.<br>Enjoy our latest update where we have fixed some bugs and improved our app to provide you a seamless shopping experience<br>"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "32.19.0.100",
+        "updatedDate": "2026-10-13",
+        "text": "Access popular pages quickly with our new shortcuts. Tap and hold the Amazon app icon to access your Orders, Daily Deals, Shopping Cart, and Search.<br>Enjoy our latest update where we have fixed some bugs and improved our app to provide you a seamless shopping experience<br>"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/UIYZ9hTFNg-zZUg_uzLS9YdyDpvoo1VHNFb6VlzHy5JqNMq9Uq-p2S1VPwzXCipHTFacfGKhJkyAuKL19VVlcWA": "83e2070daf3d74d2e801286961e2f621bf48ec512502baa9470a8108716fed65.png",
+    "https://play-lh.googleusercontent.com/Qzr7QBuZaWbUVqxuGZvmuweDFxYn00uLLxh9Tg6pvyc9SHQXtaUYAMff_Vs4eGX2bjcwuEodkmEU2MwXR3dx": "fc608e993a05a4c299079fa1cec02bfa4592b01fbb135eb0b5c23c437a7337f9.png",
+    "https://play-lh.googleusercontent.com/3lsDR_mYMkFWDSlL8PvfXdWwMrgcY3M635joqQhXB7PdwJpQOGEki7iaDKGdXcKSGeccRR0rW372xpnYVSWb9io": "c9f3f9efac2fb780c532d365cc8b77bf6ea3d66b1efd1231f806326876925e52.png",
+    "https://play-lh.googleusercontent.com/fZC1HVT41RaHF5e7_iubsFtW9iMBZhg8SDVSsRkyAVthLqDnLHRfobfqGpF2FFhIptE0mVwjnf1NVrGyNROp1Q": "fcc4aefb1c8e4b28bbbac09f2ef2d47c9aa533a5998eafa772a0fd6638c5176b.jpg",
+    "https://play-lh.googleusercontent.com/K4ExbmDu-k3UdQFAsOwelvQ5hs3IYaqGC105q40LceYRlnChrwzxkvCGpJlhaYlVuc1YgEn9ri-w4MjsFWdr5A": "91056ffe01daa32005eab07d46525479dc0b5fd6d495744476fa626bf1973abf.jpg",
+    "https://play-lh.googleusercontent.com/6Y4VDhYWcyNHAz0kMjhVDuxRsIIr1B7fCzVCcubBUwEtmE1JsxNI_hZ_0dNvTS52kqkOZu3EcVu2JUBRiA-MPw": "87c4672734acdaa8beff6cb81dad9bdff1464062469c7c4cbcb443807c36c329.jpg",
+    "https://play-lh.googleusercontent.com/ZVV5kAPc6vZNDMNMOthiF-YoQTBYabB_5MTVmu_FHyFvuXLp2euwpCA2Bx0l3190pwIhV6c8YeCak5-dPJgjLQ": "6f76e150954e1d0ffa12b60e05696fc0bb1b0738710eee01db8bd677994ace99.jpg",
+    "https://play-lh.googleusercontent.com/CkPxyAiDYgVPOFXUYQXyGFn8ICkjDTuVvAMUo1oNp2iMVS_CnO791ge5esi2DgPvqzG4oBrINeiJngEL1hdY": "e927e9cda4509ce5a042fbf922bc6f3abdcf4c00e739d55816e51020dee3affc.jpg",
+    "https://play-lh.googleusercontent.com/3_I4pLRYcpPziPPBY1L0zUpKfQ1iecBy8zMLH2ApmzJRIDeurxPlUpUM7-LjCiVkw0qhFEJfLhHvbHuDa6zqtg": "ce6b267d23dcabbadbf254916c74dcc6757f1f875d18d5e6c618c8bd2e204a26.jpg"
+  }
+}

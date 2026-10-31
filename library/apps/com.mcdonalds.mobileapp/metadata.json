@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "package": "com.mcdonalds.mobileapp",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "McDonald's",
+      "developer": "McDonald's Apps",
+      "description": "Добро пожаловать в новое официальное приложение McDonald's.<br><br>В данном приложении Вам предложены привлекательные специальные предложения, которые регулярно обновляются. Поэтому заходите и находите отличные предложения лично для Вас.<br><br>В рубрике новостей Вы сможете быть всегда в курсе всего, чтобы может быть интересным для Вас в ближайшем к Вам ресторане McDonald's. Все новости об акциях и развлечениях ищите именно здесь.<br><br>В рубрике питания предоставлена информация о всем нашем меню. Мы предоставляем пищевую и энергетическую информацию по всем блюдам, начиная от Биг Мака до соуса!<br><br>Используйте поиск ресторанов, чтобы найти ближайший к Вам ресторан McDonald's. Укажите в настройках режим работы, возможности ресторана, и Вам будет проложен до него путь, где бы вы ни находились.",
+      "shortDescription": "Добро пожаловать в новое официальное приложение McDonald's.",
+      "versionName": "3.52.0",
+      "updatedDate": "2026-10-30",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp",
+      "changelog": "<br>Спасибо, что используешь приложение McDonald’s!<br><br>Мы постоянно работаем над тем, чтобы сделать его быстрее и надёжнее.<br><br>В этом обновлении — исправления ошибок и улучшения производительности.",
+      "icon": "images/318232a446974da3f70fe1e91e626158c3ffbfa686461c86a57152d953f89124.png",
+      "screenshots": [
+        "images/fe926c6578d57a57827e2dafae8ff8675380d2af4eb0ebeeeb42d52e6d938aca.png",
+        "images/3741b0eb21471117343cb9d1bd425c0d57afe80ca2c7af101535cd76a226fd32.png",
+        "images/6759bdedc52fbcf259d64487d06567be55dfea51a1c1b88db8b1311c3d4f157f.png",
+        "images/392983193042f7509bd57b31da08c67dc93a6c8543236d6820fef88d5e54f6f0.png"
+      ]
+    },
+    "en_US": {
+      "title": "McDonald's",
+      "developer": "McDonald's Apps",
+      "description": "Download the McDonald's™ App for unique offers!<br><br>Features:<br><br>- Unique offers always available in the palm of your hand! Use the app to access offers, which you can directly redeem at the cashier of the restaurant with your mobile phone!<br><br>- Whatever you need to know about McDonald's™: our menu, store finder (by location), new products and new restaurants, nutritional info and even the Happy Meal™ toys of the month!<br><br>- Enjoy fun moments with games, competitions and tasty gifts! Stay tuned!",
+      "shortDescription": "Download the McDonald’s App to have all the offers in the palm of your hand!",
+      "versionName": "3.52.0",
+      "updatedDate": "2026-10-30",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp",
+      "changelog": "<br>Thanks for using the McDonald's app!<br><br>We're constantly working to bring you updates that make the app faster and more reliable.<br><br>This release contains bug fixes and performance improvements.",
+      "icon": "images/318232a446974da3f70fe1e91e626158c3ffbfa686461c86a57152d953f89124.png",
+      "screenshots": [
+        "images/fe926c6578d57a57827e2dafae8ff8675380d2af4eb0ebeeeb42d52e6d938aca.png",
+        "images/3741b0eb21471117343cb9d1bd425c0d57afe80ca2c7af101535cd76a226fd32.png",
+        "images/6759bdedc52fbcf259d64487d06567be55dfea51a1c1b88db8b1311c3d4f157f.png",
+        "images/392983193042f7509bd57b31da08c67dc93a6c8543236d6820fef88d5e54f6f0.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "3.52.0",
+        "updatedDate": "2026-10-30",
+        "text": "<br>Спасибо, что используешь приложение McDonald’s!<br><br>Мы постоянно работаем над тем, чтобы сделать его быстрее и надёжнее.<br><br>В этом обновлении — исправления ошибок и улучшения производительности."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "3.52.0",
+        "updatedDate": "2026-10-30",
+        "text": "<br>Thanks for using the McDonald's app!<br><br>We're constantly working to bring you updates that make the app faster and more reliable.<br><br>This release contains bug fixes and performance improvements."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/3h8gQNsOyBFPLotarZymUM6PJaHXLjZkn8JhaOwVDE1lDsJhlbTt5uf3o5kvj7g1B3S76FpksR12ISeGw-eJ_LQ": "318232a446974da3f70fe1e91e626158c3ffbfa686461c86a57152d953f89124.png",
+    "https://play-lh.googleusercontent.com/wzTa6NgvTzgZaNLcQDgeQ-jDx6lP6K3KblbktauRJXivyYH5HRTZwdIfnwBALkH6MXxBGHZxY6H1lrAxDEuO": "fe926c6578d57a57827e2dafae8ff8675380d2af4eb0ebeeeb42d52e6d938aca.png",
+    "https://play-lh.googleusercontent.com/sEiC1Wt0WOdy0VThAaSDFTVMAiR0DlXPwpLZnkGZHH9rM18O4eSiG11reAd8lzec-cRI_-ks1Z6ThOM7364RqQ": "3741b0eb21471117343cb9d1bd425c0d57afe80ca2c7af101535cd76a226fd32.png",
+    "https://play-lh.googleusercontent.com/yOa9b2Sm87-i0dUZAOmhBYhLE1onTUl1ocB_RAwRp940vDOz4VrpFrKOjINqrIzSMKSbmdEcEFxBcwMyxM1d": "6759bdedc52fbcf259d64487d06567be55dfea51a1c1b88db8b1311c3d4f157f.png",
+    "https://play-lh.googleusercontent.com/MGfLwe9O9e4WfuWsFAZ5DOca2Vf4ycT3ad1LpVCLaxUgALGF2fTBnyoOoX1tf_wOYmMU_OaVL8mIUO-mGEVppg": "392983193042f7509bd57b31da08c67dc93a6c8543236d6820fef88d5e54f6f0.png"
+  }
+}

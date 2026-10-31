@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "deezer.android.app",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Deezer: Music & Podcast Player",
+      "developer": "Deezer Music",
+      "description": "Deezer is more than just a music platform.<br><br>It’s a fully personalized listening experience that adapts to you. Deezer is where you can embrace your tastes, turn up the volume, and <b>Live the Music</b>.<br><br>With a Deezer Premium plan, you'll get everything you need in one app:<br><br><b>Music you love, made for you</b><br>• A massive global catalog with all the tracks you could ever want<br>• Flow, your infinite, personalized mix of favorites and discoveries<br>• Smart recommendations that perfectly match your vibe<br>• Control your music discovery with simple, transparent algorithm controls<br>• Discover curated playlists for every mood, genre, or season<br>• Explore Audiobooks*, Radios*, and our growing Podcast catalog, with personalized picks based on your listening<br><br><b>Fun and interactive features</b><br>• Deezer Club gives you the chance to win tickets to attend exclusive live events<br>• Shaker lets you mix playlists with friends and compare your tastes<br>• Music Quiz tests your music knowledge, play solo or with friends<br>• SongCatcher helps you find any song playing around you<br><br><b>Customization at your fingertips</b><br>• Coming from another music app? Quickly bring all your music to Deezer with Transfer My Music<br>• Shape your algorithm to find more of the music you love<br>• Create playlists for every mood, genre, or moment and customize the covers<br>• Reorganize your Homepage and Library to put your top picks front and center<br>• Share any song or playlist, even with people who don't use Deezer<br>• Dive deeper with on-screen Lyrics and translations<br><br><b>And of course, the essentials</b><br>• Ad-free listening<br>• Offline mode lets you download your favorite albums, playlists, and podcasts for when you're low on service<br>• Unlimited skips and on-demand listening<br>• Enjoy HiFi sound for lossless listening that's built for audiophiles<br><br><b>Choose your plan:</b><br>• Deezer Premium – One Premium account with all our features<br>• Deezer Duo – Two Premium accounts, one subscription<br>• Deezer Family – Up to 6 Premium accounts<br>• Deezer Student – Get all the benefits of Deezer Premium for half the price<br>• Deezer Free* - Full access to our catalog, with occasional ads and limited features<br><br><b>Take Deezer anywhere</b><br>Connect your music to all your favorite devices, at home and on the go:<br>• Smart speakers — Google Nest, Alexa & Sonos<br>• On your wrist — Launch the Deezer app on your Galaxy Watch, Fitbit, or any Wear OS device<br>• In your car — Stream your Flow and Flow Moods with Automotive OS, ad-free, with unlimited skips and HiFi audio<br>• On Android TV — Stream Flow, track mixes, your playlists, and Library, with synced Lyrics and HiFi audio<br>Available for Deezer Premium, Deezer Family, Deezer Duo & Deezer Student plans.<br><br>Privacy policy<br>Terms of use<br><br>*Some features and plans may not be available in all countries.",
+      "shortDescription": "Your music, your playlists, and more—offline and unlimited.",
+      "versionName": null,
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=deezer.android.app",
+      "changelog": "Мы привели наше приложение в порядок. Стало меньше ошибок, поэтому теперь ваше приложение работает как часы.",
+      "icon": "images/8b98d7f3ceacfaebd0085a05bd3c1f22ef8f44d55a7e1de01d68708288716900.png",
+      "screenshots": [
+        "images/08e29ad5ffcbdc9dafbda36b31db92b848a7cb0418edb907081405ad988fce5a.png",
+        "images/7c1ad6adbf7fa2ee348baa39cc4b4fa46183878942f76556f8a27ee304d096fd.jpg",
+        "images/c80ab309ff889b7b4d708cc9f7ee90ff6b4b47a7d5910bd8d8e102ae9ffff146.png",
+        "images/e99d27c7cdfb77e4b8d68b3d235daa311f52acfe04879791a1454df62909049b.png",
+        "images/5417259611baa7a6e1bd8df944b25ba2b5ecf7e808229fab33fd918b7555da32.png",
+        "images/b41d512ec4d69b584b1ffaf9e694cb08e94f49e03e9a722c9b2c5ad0e52c32e2.png",
+        "images/8e02f7802efc2568ba61a59a2552a78e08328ad2383f0a1a060d9abf36584841.png",
+        "images/5026659407eae1c117b0f7a048a49afbd7b2d8b171d09bec0da570822a617574.png"
+      ]
+    },
+    "en_US": {
+      "title": "Deezer: Music & Podcast Player",
+      "developer": "Deezer Music",
+      "description": "Deezer is more than just a music platform.<br><br>It’s a fully personalized listening experience that adapts to you. Deezer is where you can embrace your tastes, turn up the volume, and <b>Live the Music</b>.<br><br>With a Deezer Premium plan, you'll get everything you need in one app:<br><br><b>Music you love, made for you</b><br>• A massive global catalog with all the tracks you could ever want<br>• Flow, your infinite, personalized mix of favorites and discoveries<br>• Smart recommendations that perfectly match your vibe<br>• Control your music discovery with simple, transparent algorithm controls<br>• Discover curated playlists for every mood, genre, or season<br>• Explore Audiobooks*, Radios*, and our growing Podcast catalog, with personalized picks based on your listening<br><br><b>Fun and interactive features</b><br>• Deezer Club gives you the chance to win tickets to attend exclusive live events<br>• Shaker lets you mix playlists with friends and compare your tastes<br>• Music Quiz tests your music knowledge, play solo or with friends<br>• SongCatcher helps you find any song playing around you<br><br><b>Customization at your fingertips</b><br>• Coming from another music app? Quickly bring all your music to Deezer with Transfer My Music<br>• Shape your algorithm to find more of the music you love<br>• Create playlists for every mood, genre, or moment and customize the covers<br>• Reorganize your Homepage and Library to put your top picks front and center<br>• Share any song or playlist, even with people who don't use Deezer<br>• Dive deeper with on-screen Lyrics and translations<br><br><b>And of course, the essentials</b><br>• Ad-free listening<br>• Offline mode lets you download your favorite albums, playlists, and podcasts for when you're low on service<br>• Unlimited skips and on-demand listening<br>• Enjoy HiFi sound for lossless listening that's built for audiophiles<br><br><b>Choose your plan:</b><br>• Deezer Premium – One Premium account with all our features<br>• Deezer Duo – Two Premium accounts, one subscription<br>• Deezer Family – Up to 6 Premium accounts<br>• Deezer Student – Get all the benefits of Deezer Premium for half the price<br>• Deezer Free* - Full access to our catalog, with occasional ads and limited features<br><br><b>Take Deezer anywhere</b><br>Connect your music to all your favorite devices, at home and on the go:<br>• Smart speakers — Google Nest, Alexa & Sonos<br>• On your wrist — Launch the Deezer app on your Galaxy Watch, Fitbit, or any Wear OS device<br>• In your car — Stream your Flow and Flow Moods with Automotive OS, ad-free, with unlimited skips and HiFi audio<br>• On Android TV — Stream Flow, track mixes, your playlists, and Library, with synced Lyrics and HiFi audio<br>Available for Deezer Premium, Deezer Family, Deezer Duo & Deezer Student plans.<br><br>Privacy policy<br>Terms of use<br><br>*Some features and plans may not be available in all countries.",
+      "shortDescription": "Your music, your playlists, and more—offline and unlimited.",
+      "versionName": null,
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=deezer.android.app",
+      "changelog": "We've put our app in order. Less bugs so your app works like a charm.",
+      "icon": "images/8b98d7f3ceacfaebd0085a05bd3c1f22ef8f44d55a7e1de01d68708288716900.png",
+      "screenshots": [
+        "images/08e29ad5ffcbdc9dafbda36b31db92b848a7cb0418edb907081405ad988fce5a.png",
+        "images/7c1ad6adbf7fa2ee348baa39cc4b4fa46183878942f76556f8a27ee304d096fd.jpg",
+        "images/c80ab309ff889b7b4d708cc9f7ee90ff6b4b47a7d5910bd8d8e102ae9ffff146.png",
+        "images/e99d27c7cdfb77e4b8d68b3d235daa311f52acfe04879791a1454df62909049b.png",
+        "images/5417259611baa7a6e1bd8df944b25ba2b5ecf7e808229fab33fd918b7555da32.png",
+        "images/b41d512ec4d69b584b1ffaf9e694cb08e94f49e03e9a722c9b2c5ad0e52c32e2.png",
+        "images/8e02f7802efc2568ba61a59a2552a78e08328ad2383f0a1a060d9abf36584841.png",
+        "images/5026659407eae1c117b0f7a048a49afbd7b2d8b171d09bec0da570822a617574.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-27",
+        "text": "Мы привели наше приложение в порядок. Стало меньше ошибок, поэтому теперь ваше приложение работает как часы."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-27",
+        "text": "We've put our app in order. Less bugs so your app works like a charm."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/RFBXn4V0H8Zmi3_jViu73GTpQOmGmrvG7mdM1ynStAAYEd2aOLo5G0v9AHSUMwia1lQGI-c5oXMzZJCq0RMlJA": "8b98d7f3ceacfaebd0085a05bd3c1f22ef8f44d55a7e1de01d68708288716900.png",
+    "https://play-lh.googleusercontent.com/odgAGCVbzQyCmP2JVBHoUy66lPPzPk5xqtF3CstvMS6v1IysBFhRy2XdVRAozIUFFMU1uhz_ZE-yYFOsTUI97Q": "08e29ad5ffcbdc9dafbda36b31db92b848a7cb0418edb907081405ad988fce5a.png",
+    "https://play-lh.googleusercontent.com/RCti5s2nDFfY8wEzJeRZt1b-5u4tg7Dua5YIIUaskccF4_9PzafPxnX_nJHMbXNgG1NgfI44mvqaUB1RxFDywQ": "7c1ad6adbf7fa2ee348baa39cc4b4fa46183878942f76556f8a27ee304d096fd.jpg",
+    "https://play-lh.googleusercontent.com/5ZpBFxIGLhHfhcyIg_woSIKHSmD11siKwpiNVnLjBM9xf6cTZ25E9T0shQmsFgzj1oZ2qN-VurhXe-3sFg_NoQ": "c80ab309ff889b7b4d708cc9f7ee90ff6b4b47a7d5910bd8d8e102ae9ffff146.png",
+    "https://play-lh.googleusercontent.com/PDXI_hfUxo-YQnEzFKrkPNhwYgdgRIIZZ4S8EDEr5xsmPGhqDzxOeMBJXQVJ4ppsH0-rPfCNKXSx8a8rM3AQuA": "e99d27c7cdfb77e4b8d68b3d235daa311f52acfe04879791a1454df62909049b.png",
+    "https://play-lh.googleusercontent.com/WD371pXSf5KTJjyB9n8Xc662Pmqp1XdKvXSN0BHPII9Fny-hLveaqxT6mhd2MC8QLLY8nWWA3NF1LRzYGu0-TKQ": "5417259611baa7a6e1bd8df944b25ba2b5ecf7e808229fab33fd918b7555da32.png",
+    "https://play-lh.googleusercontent.com/ccaZBKVaE9lHnTs-G3rfhG5ZPMQ_aonRGZ1fV1TK8RJASQon_8fyPzYA57wpouZ_AvYpqaxsH_zSCJhwA5Vt": "b41d512ec4d69b584b1ffaf9e694cb08e94f49e03e9a722c9b2c5ad0e52c32e2.png",
+    "https://play-lh.googleusercontent.com/76wBYylbiXi5WQsNa_7LQe6vk37yZyG3uGrAzCw5SXpvl_aLF-_LzCElolx4a2HbVyWWSKgHeTlBFgrvZJgQLg": "8e02f7802efc2568ba61a59a2552a78e08328ad2383f0a1a060d9abf36584841.png",
+    "https://play-lh.googleusercontent.com/olw-PwqDzr2JgodJafG0z89O4ebHWCeUsVK1S3TJrpeWcDrBvabHFInLSvQMzqISDHO-MtxqAcB9O8yxeKjvOLA": "5026659407eae1c117b0f7a048a49afbd7b2d8b171d09bec0da570822a617574.png"
+  }
+}

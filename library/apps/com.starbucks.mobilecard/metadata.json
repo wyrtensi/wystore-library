@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.starbucks.mobilecard",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Starbucks",
+      "developer": "Starbucks Coffee Company",
+      "description": "Ordering ahead is just a download away. Get the Starbucks® app for an easier way to enjoy your favorites and discover Rewards in every sip as a member. <br><br>ORDER SEAMLESSLY <br>• Order in the app when you’re on your way<br>• Customize and create your perfect drink<br>• Save your favorite stores<br>• View past orders & save custom drinks <br>• Save payment methods and scan to pay in stores<br>• Tip your barista for your delicious drink<br><br>JOIN STARBUCKS® REWARDS<br>• Earn Stars to use on free food & drinks<br>• Start at Green status & level up to Gold or Reserve for exclusive benefits<br>• Enjoy a free drink on your birthday*, plus more time to redeem as you level up<br>• Try one free customization a month on Free Mod Mondays**<br>• Enjoy early access to new items<br>• Get Bonus Stars for digitally reloading your Starbucks Card (minimum $30)<br>• Explore games and offers just for you<br><br>SEND & SAVE eGIFTS <br>• Save all your Starbucks Cards in one spot<br>• Send eGifts via email, text, or messaging app<br>• Choose from unique designs for every occasion<br><br>FIND A STORE<br>• See stores near you<br>• Get directions and hours<br>• View store amenities like drive-thru & Wi-Fi <br><br>Must be a Starbucks Rewards member to enjoy exclusive member benefits and app features.<br><br>*Birthday Reward: <br>Green members: Redeemable on member’s birthday only, at participating stores.   <br>Gold members: Redeemable for 7 days starting on member’s birthday, at participating stores. <br>Reserve members: Redeemable for 30 days starting on member’s birthday, at participating stores.   <br>Free birthday drink must be standard menu size. <br>Excludes alcohol and multi-serve items.  To qualify, you must have made at least one Star-earning transaction prior to your birthday each year. <br> <br>**Mod Monday: <br>Redeemable at participating stores.  Members will receive one free customization each month, up to $2 (pre-tax) each. Not valid for use with Rewards or other offers, discounts or promotions.",
+      "shortDescription": "Заказывайте, оплачивайте и получайте вознаграждение",
+      "versionName": "6.134",
+      "updatedDate": "2026-10-23",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.starbucks.mobilecard",
+      "changelog": "We made some changes to make things run smoothly.",
+      "icon": "images/ca4d44f7868fd788da84199e6e0c57cc8ccd5fa10b16d696d575f41da4b83e4e.png",
+      "screenshots": [
+        "images/f4b6f68bf171ba3b60b8493706827e199f4a8e2b4fa9211f15d473eb2e950fc4.jpg",
+        "images/ac12120a95000994013407f4cadd0529b34ffb46233b792e29c306dbd75b6a26.jpg",
+        "images/ff65ddf3258f47c8e26c7058ebb7961b08ddea1dd529bcef767077505d368930.jpg",
+        "images/c58ad771b707e7b5d68e58a1df3ad86b1cc8ebb81213142975ddeabc87ac2050.jpg",
+        "images/6ba2d76abd82d025575519eba5a73dcacff64d0936450ad49c0689b3728e6948.jpg",
+        "images/4cdf77cf766e130fae95e8bd655c6000710e84c6897ac7d0c4855649f078474b.jpg",
+        "images/cdf285a70a9f8d8408b18d489a639a0c9e46118a499d182b67c8db3f1f2e0701.jpg",
+        "images/2d50d6eec9fddb08e4daa90a15d963bdabd4495335650fc5f6d3ecc124e66d7d.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Starbucks",
+      "developer": "Starbucks Coffee Company",
+      "description": "Ordering ahead is just a download away. Get the Starbucks® app for an easier way to enjoy your favorites and discover Rewards in every sip as a member. <br><br>ORDER SEAMLESSLY <br>• Order in the app when you’re on your way<br>• Customize and create your perfect drink<br>• Save your favorite stores<br>• View past orders & save custom drinks <br>• Save payment methods and scan to pay in stores<br>• Tip your barista for your delicious drink<br><br>JOIN STARBUCKS® REWARDS<br>• Earn Stars to use on free food & drinks<br>• Start at Green status & level up to Gold or Reserve for exclusive benefits<br>• Enjoy a free drink on your birthday*, plus more time to redeem as you level up<br>• Try one free customization a month on Free Mod Mondays**<br>• Enjoy early access to new items<br>• Get Bonus Stars for digitally reloading your Starbucks Card (minimum $30)<br>• Explore games and offers just for you<br><br>SEND & SAVE eGIFTS <br>• Save all your Starbucks Cards in one spot<br>• Send eGifts via email, text, or messaging app<br>• Choose from unique designs for every occasion<br><br>FIND A STORE<br>• See stores near you<br>• Get directions and hours<br>• View store amenities like drive-thru & Wi-Fi <br><br>Must be a Starbucks Rewards member to enjoy exclusive member benefits and app features.<br><br>*Birthday Reward: <br>Green members: Redeemable on member’s birthday only, at participating stores.   <br>Gold members: Redeemable for 7 days starting on member’s birthday, at participating stores. <br>Reserve members: Redeemable for 30 days starting on member’s birthday, at participating stores.   <br>Free birthday drink must be standard menu size. <br>Excludes alcohol and multi-serve items.  To qualify, you must have made at least one Star-earning transaction prior to your birthday each year. <br> <br>**Mod Monday: <br>Redeemable at participating stores.  Members will receive one free customization each month, up to $2 (pre-tax) each. Not valid for use with Rewards or other offers, discounts or promotions.",
+      "shortDescription": "Order, pay and get rewarded",
+      "versionName": "6.134",
+      "updatedDate": "2026-10-23",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.starbucks.mobilecard",
+      "changelog": "We made some changes to make things run smoothly.",
+      "icon": "images/ca4d44f7868fd788da84199e6e0c57cc8ccd5fa10b16d696d575f41da4b83e4e.png",
+      "screenshots": [
+        "images/f4b6f68bf171ba3b60b8493706827e199f4a8e2b4fa9211f15d473eb2e950fc4.jpg",
+        "images/ac12120a95000994013407f4cadd0529b34ffb46233b792e29c306dbd75b6a26.jpg",
+        "images/ff65ddf3258f47c8e26c7058ebb7961b08ddea1dd529bcef767077505d368930.jpg",
+        "images/c58ad771b707e7b5d68e58a1df3ad86b1cc8ebb81213142975ddeabc87ac2050.jpg",
+        "images/6ba2d76abd82d025575519eba5a73dcacff64d0936450ad49c0689b3728e6948.jpg",
+        "images/4cdf77cf766e130fae95e8bd655c6000710e84c6897ac7d0c4855649f078474b.jpg",
+        "images/cdf285a70a9f8d8408b18d489a639a0c9e46118a499d182b67c8db3f1f2e0701.jpg",
+        "images/2d50d6eec9fddb08e4daa90a15d963bdabd4495335650fc5f6d3ecc124e66d7d.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "6.134",
+        "updatedDate": "2026-10-23",
+        "text": "We made some changes to make things run smoothly."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "6.134",
+        "updatedDate": "2026-10-23",
+        "text": "We made some changes to make things run smoothly."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/JbVPz6F90kldmwCxJ74cmvJibVH5G5JRplTIVy9gRsrMMoYhHJ5JN9jviiF_99eDC1o_afn2y8GbrgigN89C9g": "ca4d44f7868fd788da84199e6e0c57cc8ccd5fa10b16d696d575f41da4b83e4e.png",
+    "https://play-lh.googleusercontent.com/tb2fbYl8x5ar0H-TwK9xwOfZ67LC-dUpPXeaOLBJj_lytBmk4B7mrTCcYyrCficZ-Nnmrxn7ELWswYYtuNb7gf8": "f4b6f68bf171ba3b60b8493706827e199f4a8e2b4fa9211f15d473eb2e950fc4.jpg",
+    "https://play-lh.googleusercontent.com/RNBg2J-KW27hMFPO-uEYzJpm_FyCc9RGsfP2zh2zD3mxRsr8geFM1Ecacyn1E7GaCABWTPC_oflNJGBVyiQl": "ac12120a95000994013407f4cadd0529b34ffb46233b792e29c306dbd75b6a26.jpg",
+    "https://play-lh.googleusercontent.com/MZLredEzQRaPD_RtyMIB5JYfDc9-ceRUsFPS8i8riOF4jpUDAgOtnVhArhOT_D9XnhB3I8yiXsU5JC4SNet6Cgc": "ff65ddf3258f47c8e26c7058ebb7961b08ddea1dd529bcef767077505d368930.jpg",
+    "https://play-lh.googleusercontent.com/i_rhysiLY4WixXJN3AuoG_JI4kwNsUWhipHrk2s6UZiMZBf5nTVHHINk8a9heTN2xvMjyJXYJEdGf5RZlxO0Cg": "c58ad771b707e7b5d68e58a1df3ad86b1cc8ebb81213142975ddeabc87ac2050.jpg",
+    "https://play-lh.googleusercontent.com/nb5o-AczDrb9OAe3S5ZpaelLltZNbZyxm1SiUtxV1ftKtTcwhhCAHlreic4LFnH0CZb7JioMGN9a_uVS4sIHICE": "6ba2d76abd82d025575519eba5a73dcacff64d0936450ad49c0689b3728e6948.jpg",
+    "https://play-lh.googleusercontent.com/Gbq-XtLANOEy35fblgb1FJeWyo6OEixRoWKAMZRdQX0t9jwW-UdnUD1Pn1ekesIqxHHl7-FJ7e9KnIeGdSp_": "4cdf77cf766e130fae95e8bd655c6000710e84c6897ac7d0c4855649f078474b.jpg",
+    "https://play-lh.googleusercontent.com/MalJqKHX4fCxSoj0fBYiMPFqjbs0J4EMB83W7HSpHCHdzQEYTQKlAvD4-PSasZBdpFAg3Kpw5SkGqHDBq9f8eA": "cdf285a70a9f8d8408b18d489a639a0c9e46118a499d182b67c8db3f1f2e0701.jpg",
+    "https://play-lh.googleusercontent.com/Q0p5oKXhgag2nK4NB48mMj7v5o7LjrePCmzZuc21EUMOHifid8hLDiAPiOO1TDXHzFUp1_tZ8ntWgA2KFO5VOQ": "2d50d6eec9fddb08e4daa90a15d963bdabd4495335650fc5f6d3ecc124e66d7d.jpg"
+  }
+}

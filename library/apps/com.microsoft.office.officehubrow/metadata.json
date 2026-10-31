@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.microsoft.office.officehubrow",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Microsoft Copilot",
+      "developer": "Microsoft Corporation",
+      "description": "The Microsoft Copilot app is the AI built for work. Copilot helps you keep your work moving, from early ideas to finished documents, presentations, and more. Whether you're creating content, managing projects, organizing your day, or finding information, Copilot helps you get more done from one place.<br><br>Copilot connects to Word, Excel, PowerPoint, Outlook, Teams, and more, bringing the files and information you use into one place. Create polished documents, presentations, and spreadsheets, summarize articles and files, draft emails, brainstorm ideas, analyze information, and get answers grounded in the work you're doing.<br><br>Whether you're preparing for an important meeting, researching a new topic, organizing your workload, or trying to understand difficult information, Copilot helps you work faster with answers and content that are grounded in the work you're doing.<br><br>Take on bigger projects with Cowork. Hand Copilot multi-step tasks and let it create finished Word documents, PowerPoint presentations, Excel spreadsheets, and completed to-dos instead of simply suggesting your next step.<br><br>Choose between leading AI models, selecting the one that's best suited for writing, research, planning, analysis, brainstorming, or creative work.<br><br>Copilot also remembers what matters, connects to the files and information you use most, and helps you pick up where you left off. Upload Word, Excel, PowerPoint, images or PDF files directly from your phone to ask questions, generate summaries, and find the information you need.<br><br>Use Copilot to:<br><br>- Explain complex concepts with clear, easy-to-understand answers<br>- Brainstorm business ideas and organize your next project<br>- Plan and prioritize your workday with personalized schedules<br>- Summarize long articles, reports, and documents in seconds<br>- Draft email and text replies with the right tone<br>- Analyze spreadsheets and compare data<br>- Find files across your Microsoft 365 content<br>- Create presentations, reports, and documents faster<br>- Talk naturally using voice or upload files to get answers<br><br>For organizations with a Microsoft 365 Copilot subscription, Work IQ gives Copilot a deep <br>understanding of your organization's work, people, and relationships, delivering more intelligent, relevant, personalized and trusted assistance. <br><br>Copilot is built on the same enterprise-grade security foundation as Microsoft 365 — your permissions, encryption, and compliance commitments already in place. Data processing and protection commitments differ by subscription; see the full security documentation for details. <br><br>Availability of Microsoft Copilot features may vary. Some capabilities require specific licenses or may be disabled by your organization's administrator. See this webpage for more information on feature availability by license: <br>https://support.microsoft.com/topic/understanding-the-different-microsoft-copilot-experiences-cfff4791-694a-4d90-9c9c-1eb3fb28e842<br><br>Please refer to Microsoft’s EULA for Terms of Service for Microsoft 365. By installing the app, you agree to these terms and conditions:<br>https://learn.microsoft.com/en-us/legal/microsoft-365/microsoft-365-copilot-mobile-license-terms",
+      "shortDescription": "Create content, explore ideas, and get answers with Copilot.",
+      "versionName": "16.0.20618.20014",
+      "updatedDate": "2026-10-26",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow",
+      "changelog": "Благодарим за использование Microsoft Copilot.\r<br>\r<br>Мы постоянно обновляем приложение: выпускаем новые полезные функции, а также повышаем его производительность и надежность.",
+      "icon": "images/40a798be0d88075c0bfb49e3576e74303d1e873ed214209a20a982eff98b6e77.png",
+      "screenshots": [
+        "images/cdeec1e8d2ff4b75e6bea723c743b5bf5f6a0cc3503bcb3602634f0f10c23c67.png",
+        "images/cd72669c3057031ec298065ee12f216262dd09325e70debc0a42aa6b9c1d3888.png",
+        "images/22d9628c2a8c512d2fe2e6118b10d4d35285ef492c1316df0c4b014106225c05.png",
+        "images/e39e67411d6e4aa937fa5637e2b4a039eaab005bf8f0ea50df10cb316f852d50.png",
+        "images/a50ae2a2defd670e25d02739f5482399d6da6cf792e30361e44cb58eb1b2be27.png",
+        "images/7f65c575e0896e974ea038e3fbaef1bf937e8d3cb7609425d434cd794c1b3577.png",
+        "images/f21c060a0c00459959fa0f9738971e597bf57c7d412e7d528a7f3b0896c2ccf2.png",
+        "images/b98984805ac61a24021f28e639724ce2beec85064224e848c133dbf9cd35385f.png"
+      ]
+    },
+    "en_US": {
+      "title": "Microsoft Copilot",
+      "developer": "Microsoft Corporation",
+      "description": "The Microsoft Copilot app is the AI built for work. Copilot helps you keep your work moving, from early ideas to finished documents, presentations, and more. Whether you're creating content, managing projects, organizing your day, or finding information, Copilot helps you get more done from one place.<br><br>Copilot connects to Word, Excel, PowerPoint, Outlook, Teams, and more, bringing the files and information you use into one place. Create polished documents, presentations, and spreadsheets, summarize articles and files, draft emails, brainstorm ideas, analyze information, and get answers grounded in the work you're doing.<br><br>Whether you're preparing for an important meeting, researching a new topic, organizing your workload, or trying to understand difficult information, Copilot helps you work faster with answers and content that are grounded in the work you're doing.<br><br>Take on bigger projects with Cowork. Hand Copilot multi-step tasks and let it create finished Word documents, PowerPoint presentations, Excel spreadsheets, and completed to-dos instead of simply suggesting your next step.<br><br>Choose between leading AI models, selecting the one that's best suited for writing, research, planning, analysis, brainstorming, or creative work.<br><br>Copilot also remembers what matters, connects to the files and information you use most, and helps you pick up where you left off. Upload Word, Excel, PowerPoint, images or PDF files directly from your phone to ask questions, generate summaries, and find the information you need.<br><br>Use Copilot to:<br><br>- Explain complex concepts with clear, easy-to-understand answers<br>- Brainstorm business ideas and organize your next project<br>- Plan and prioritize your workday with personalized schedules<br>- Summarize long articles, reports, and documents in seconds<br>- Draft email and text replies with the right tone<br>- Analyze spreadsheets and compare data<br>- Find files across your Microsoft 365 content<br>- Create presentations, reports, and documents faster<br>- Talk naturally using voice or upload files to get answers<br><br>For organizations with a Microsoft 365 Copilot subscription, Work IQ gives Copilot a deep <br>understanding of your organization's work, people, and relationships, delivering more intelligent, relevant, personalized and trusted assistance. <br><br>Copilot is built on the same enterprise-grade security foundation as Microsoft 365 — your permissions, encryption, and compliance commitments already in place. Data processing and protection commitments differ by subscription; see the full security documentation for details. <br><br>Availability of Microsoft Copilot features may vary. Some capabilities require specific licenses or may be disabled by your organization's administrator. See this webpage for more information on feature availability by license: <br>https://support.microsoft.com/topic/understanding-the-different-microsoft-copilot-experiences-cfff4791-694a-4d90-9c9c-1eb3fb28e842<br><br>Please refer to Microsoft’s EULA for Terms of Service for Microsoft 365. By installing the app, you agree to these terms and conditions:<br>https://learn.microsoft.com/en-us/legal/microsoft-365/microsoft-365-copilot-mobile-license-terms",
+      "shortDescription": "Create content, explore ideas, and get answers with Copilot.",
+      "versionName": "16.0.20618.20014",
+      "updatedDate": "2026-10-26",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow",
+      "changelog": "Thank you for using Microsoft Copilot.\r<br>\r<br>We regularly release updates to the app, which include great new features, as well as improvements for speed and reliability.",
+      "icon": "images/40a798be0d88075c0bfb49e3576e74303d1e873ed214209a20a982eff98b6e77.png",
+      "screenshots": [
+        "images/cdeec1e8d2ff4b75e6bea723c743b5bf5f6a0cc3503bcb3602634f0f10c23c67.png",
+        "images/cd72669c3057031ec298065ee12f216262dd09325e70debc0a42aa6b9c1d3888.png",
+        "images/22d9628c2a8c512d2fe2e6118b10d4d35285ef492c1316df0c4b014106225c05.png",
+        "images/e39e67411d6e4aa937fa5637e2b4a039eaab005bf8f0ea50df10cb316f852d50.png",
+        "images/a50ae2a2defd670e25d02739f5482399d6da6cf792e30361e44cb58eb1b2be27.png",
+        "images/7f65c575e0896e974ea038e3fbaef1bf937e8d3cb7609425d434cd794c1b3577.png",
+        "images/f21c060a0c00459959fa0f9738971e597bf57c7d412e7d528a7f3b0896c2ccf2.png",
+        "images/b98984805ac61a24021f28e639724ce2beec85064224e848c133dbf9cd35385f.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "16.0.20618.20014",
+        "updatedDate": "2026-10-26",
+        "text": "Благодарим за использование Microsoft Copilot.\r<br>\r<br>Мы постоянно обновляем приложение: выпускаем новые полезные функции, а также повышаем его производительность и надежность."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "16.0.20618.20014",
+        "updatedDate": "2026-10-26",
+        "text": "Thank you for using Microsoft Copilot.\r<br>\r<br>We regularly release updates to the app, which include great new features, as well as improvements for speed and reliability."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/LO0qJeIk4uKo6HJB5fkMpipB9x4BedNr0YegnCJKOxsX8SNZIoY-NC8-KL-cLQyUgmmKFyZRa0cdyaNkDsyBveg": "40a798be0d88075c0bfb49e3576e74303d1e873ed214209a20a982eff98b6e77.png",
+    "https://play-lh.googleusercontent.com/syEbZClt1Ajng8jVPwWN--7LrDD6AIlhaDNcbmrpgauKmxIxrb6bs3XvliZFPwR35gb8KSNvy4owxTij4vfa": "cdeec1e8d2ff4b75e6bea723c743b5bf5f6a0cc3503bcb3602634f0f10c23c67.png",
+    "https://play-lh.googleusercontent.com/xNPVPGfY-QUehCJMoYhqKaBli9TbTDuVnx2I8MXDbjnG8PKP37tdCA6Db14aVA6bPR-rMrja0DIyjJHvCGMJiw": "cd72669c3057031ec298065ee12f216262dd09325e70debc0a42aa6b9c1d3888.png",
+    "https://play-lh.googleusercontent.com/N47TFN5et5I-3no8ODQ5i45K1n_kaQeIReTe99hVE-OJXy0vuSGczmygmHh62usROc7SmmvedLkdIymeKiKb": "22d9628c2a8c512d2fe2e6118b10d4d35285ef492c1316df0c4b014106225c05.png",
+    "https://play-lh.googleusercontent.com/VtX4ux1xglBFebbN4vmjx57OBbPk7s_5DKC3lr8hP-v7cOe1vYoVOKU9L-XJe-jBF8Pcxj35qosRJMSX0VcC-A": "e39e67411d6e4aa937fa5637e2b4a039eaab005bf8f0ea50df10cb316f852d50.png",
+    "https://play-lh.googleusercontent.com/P9LCyXvdKi-pXNGZPNRJkXLGxwbUFlrHgDNWTbu_S0EESPozlVndmziVLW-30EVH2K_L7Lm-076Uw5KhABeJ": "a50ae2a2defd670e25d02739f5482399d6da6cf792e30361e44cb58eb1b2be27.png",
+    "https://play-lh.googleusercontent.com/JDKEj8xHYRtEHV009mw14SzcUgkFzTOoZXPGYz8d6FNnChyoO9mFQGisi9MEuVzw6hZDvna_zS0wT1wRhp514Q": "7f65c575e0896e974ea038e3fbaef1bf937e8d3cb7609425d434cd794c1b3577.png",
+    "https://play-lh.googleusercontent.com/-4PFCvoZnQ03JrWqolOszP8UGw7Ky7pCiIO7n6lKpD9x_THItOzVZOg9CSeiUoymZA1CxrdQva6z86z0ZJlC": "f21c060a0c00459959fa0f9738971e597bf57c7d412e7d528a7f3b0896c2ccf2.png",
+    "https://play-lh.googleusercontent.com/PUwIczRe7-ci2JSn9I-sMWXnRlLNqmFJqn1l5P4iNWMSRDGjze_t9X_yDMrGbVzV42lwgMssJa3i70jJKmcR0A": "b98984805ac61a24021f28e639724ce2beec85064224e848c133dbf9cd35385f.png"
+  }
+}

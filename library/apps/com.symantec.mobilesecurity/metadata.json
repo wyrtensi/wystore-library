@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.symantec.mobilesecurity",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Norton360 Antivirus & Security",
+      "developer": "NortonMobile",
+      "description": "​​Norton 360 ensures robust mobile security with antivirus features, including AI-powered malware protection, virus scanner and cleaner, and VPN for privacy online. Built-in scam protection helps keep you safe while browsing, shopping, or texting. <br><br>✔ New: Scam Protection Pro<br>AI-powered protection against sophisticated scams. Provides holistic coverage across email, web, phone calls, and SMS.<br><br> - Norton Genie - AI assistant <br> - Safe SMS: AI scam protection against spam calls<br> - Safe Web: AI helps protect you from scams when browsing online.   <br> - Safe Call: Proactively blocks scam and junk calls <br> - Safe Email: 24/7 AI scam protection for your email inbox  <br><br>✔ App Security: Real-time virus scanner & cleaner alerts you if there is malware so you can remove the app📱 <br><br>✔ Norton Genie: Can answer your cyber safety questions, helps you identify scams in messages and in YouTube videos.[3]<br><br>✔ VPN: Help protect your private information with bank-grade encryption for a more secure connection, access to the content you love - wherever you are 🌐<br><br>✔ WiFi Security: scan WiFi networks to learn if your device is connected to vulnerable network. 🚨<br><br>✔ Safe SMS: filters spam SMS text messages that may contain phishing attacks with AI protection. 🚫<br><br>✔ Safe Web: advanced AI helps protect you from scams when browsing online by checking for scams on the pages you visit. 🔐<br><br>✔ Ad Tracker Blocker: Helps block ads on different platforms for added privacy & security. 🙅<br><br>✔ App Advisor: Antivirus AI phone protection scans new and existing apps to help prevent mobile threats like malware, ransomware, and privacy leaks. 🕵️‍♂️🔍<br><br>✔ Dark Web Monitoring: We monitor the dark web and notify you if we find your personal information, security or privacy breaches.[2] 🔦<br><br><br>Subscription details 📃 <br><br>✔ Feature availability may vary based on your plan and country.<br>✔ An annual subscription is required to activate the 7-day trial (see in-app product pricing).<br>✔ Cancel the subscription from your Google Play account before the end of the trial to avoid payment.<br>✔ After the 7-day trial, your subscription will start and automatically renew annually unless canceled.<br>✔ You can manage your subscriptions and adjust automatic renewal in your Google Play settings after purchase.<br>✔ The 7-day trial applies to eligible subscription plans and may vary by offer. <br><br>Privacy Statement 📃<br><br>NortonLifeLock respects your online privacy and is dedicated to safeguarding your personal data. See http://www.nortonlifelock.com/privacy for more information.<br><br>No one can prevent all cybercrime or identity theft.<br><br>[1] Secure Norton VPN is not available in all countries. The VPN feature is no longer available for use within India as a result of governmental regulations requiring the logging and saving of user data, but you can still use your subscription when traveling outside of India.<br><br>[2] Dark Web Monitoring is not available in all countries. Monitored information varies based on country of residence or choice of plan. It defaults to monitor your email address and begins immediately. Sign in to your account to enter more information for monitoring.<br><br>[3] Currently available in early access and supports only YouTube videos in English.<br><br><br>Norton 360 uses the AccessibilityService API to collect data about websites visited and apps viewed on Google Play for internet security and app advisor functionalities.<br><br>Norton 360 offers powerful antivirus protection with malware scanning, spyware detection, a virus cleaner, and a smart VPN to keep your device safe from online threats.",
+      "shortDescription": "Try Norton 360 with AI-powered malware protection, virus scanner & fast VPN!",
+      "versionName": "26.18.0.260925980",
+      "updatedDate": "2026-10-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.symantec.mobilesecurity",
+      "changelog": "Благодарим за использование Norton 360! Мы навели порядок, чтобы сделать работу с приложением еще более удобной. Мы будем держать вас в курсе будущих обновлений.",
+      "icon": "images/b85f1f14f6324c3cb678f8526b582e38473be12c3d24d88979ac76c78f98b3f3.jpg",
+      "screenshots": [
+        "images/4ad1d5e8ae400c197308fd91ea159392d331a0889847a98d0e2a63ae38fad813.jpg",
+        "images/3a23b76abc815c31dc2bd3e3cf298e0d0ebe4672dae4618632f132521c183aec.jpg",
+        "images/38a7495815da3eda905a858070f7666a264b96e7f2578b282b79c1679dd4b20f.jpg",
+        "images/af28cf353b84e48f5d796fe3a409d835ffb7f937cec85c5a86875ee18f1f724a.jpg",
+        "images/2ea1771683c3d721437af530fe919f42292df9c1fbafe97ae8cffada49c8500a.jpg",
+        "images/2a95de737c3b6a75909c4f32b55cf5875c7983578e5c26b821fb4318c9a70121.jpg",
+        "images/6a101a75b9a30355b4fe54cf649c79032a62c4d59af43715ffad43ad4ddb3204.jpg",
+        "images/5db989888fa1dd24d5b6219c6d1f2ae3315038eda60bc9df5220dad869634738.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Norton360 Antivirus & Security",
+      "developer": "NortonMobile",
+      "description": "​​Norton 360 ensures robust mobile security with antivirus features, including AI-powered malware protection, virus scanner and cleaner, and VPN for privacy online. Built-in scam protection helps keep you safe while browsing, shopping, or texting. <br><br>✔ New: Scam Protection Pro<br>AI-powered protection against sophisticated scams. Provides holistic coverage across email, web, phone calls, and SMS.<br><br> - Norton Genie - AI assistant <br> - Safe SMS: AI scam protection against spam calls<br> - Safe Web: AI helps protect you from scams when browsing online.   <br> - Safe Call: Proactively blocks scam and junk calls <br> - Safe Email: 24/7 AI scam protection for your email inbox  <br><br>✔ App Security: Real-time virus scanner & cleaner alerts you if there is malware so you can remove the app📱 <br><br>✔ Norton Genie: Can answer your cyber safety questions, helps you identify scams in messages and in YouTube videos.[3]<br><br>✔ VPN: Help protect your private information with bank-grade encryption for a more secure connection, access to the content you love - wherever you are 🌐<br><br>✔ WiFi Security: scan WiFi networks to learn if your device is connected to vulnerable network. 🚨<br><br>✔ Safe SMS: filters spam SMS text messages that may contain phishing attacks with AI protection. 🚫<br><br>✔ Safe Web: advanced AI helps protect you from scams when browsing online by checking for scams on the pages you visit. 🔐<br><br>✔ Ad Tracker Blocker: Helps block ads on different platforms for added privacy & security. 🙅<br><br>✔ App Advisor: Antivirus AI phone protection scans new and existing apps to help prevent mobile threats like malware, ransomware, and privacy leaks. 🕵️‍♂️🔍<br><br>✔ Dark Web Monitoring: We monitor the dark web and notify you if we find your personal information, security or privacy breaches.[2] 🔦<br><br><br>Subscription details 📃 <br><br>✔ Feature availability may vary based on your plan and country.<br>✔ An annual subscription is required to activate the 7-day trial (see in-app product pricing).<br>✔ Cancel the subscription from your Google Play account before the end of the trial to avoid payment.<br>✔ After the 7-day trial, your subscription will start and automatically renew annually unless canceled.<br>✔ You can manage your subscriptions and adjust automatic renewal in your Google Play settings after purchase.<br>✔ The 7-day trial applies to eligible subscription plans and may vary by offer. <br><br>Privacy Statement 📃<br><br>NortonLifeLock respects your online privacy and is dedicated to safeguarding your personal data. See http://www.nortonlifelock.com/privacy for more information.<br><br>No one can prevent all cybercrime or identity theft.<br><br>[1] Secure Norton VPN is not available in all countries. The VPN feature is no longer available for use within India as a result of governmental regulations requiring the logging and saving of user data, but you can still use your subscription when traveling outside of India.<br><br>[2] Dark Web Monitoring is not available in all countries. Monitored information varies based on country of residence or choice of plan. It defaults to monitor your email address and begins immediately. Sign in to your account to enter more information for monitoring.<br><br>[3] Currently available in early access and supports only YouTube videos in English.<br><br><br>Norton 360 uses the AccessibilityService API to collect data about websites visited and apps viewed on Google Play for internet security and app advisor functionalities.<br><br>Norton 360 offers powerful antivirus protection with malware scanning, spyware detection, a virus cleaner, and a smart VPN to keep your device safe from online threats.",
+      "shortDescription": "Try Norton 360 with AI-powered malware protection, virus scanner & fast VPN!",
+      "versionName": "26.18.0.260925980",
+      "updatedDate": "2026-10-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.symantec.mobilesecurity",
+      "changelog": "Thanks for using Norton 360! We’ve tidied things up to give you an even smoother app experience. We’ll keep you posted whenever we release new updates.",
+      "icon": "images/b85f1f14f6324c3cb678f8526b582e38473be12c3d24d88979ac76c78f98b3f3.jpg",
+      "screenshots": [
+        "images/4ad1d5e8ae400c197308fd91ea159392d331a0889847a98d0e2a63ae38fad813.jpg",
+        "images/3a23b76abc815c31dc2bd3e3cf298e0d0ebe4672dae4618632f132521c183aec.jpg",
+        "images/38a7495815da3eda905a858070f7666a264b96e7f2578b282b79c1679dd4b20f.jpg",
+        "images/af28cf353b84e48f5d796fe3a409d835ffb7f937cec85c5a86875ee18f1f724a.jpg",
+        "images/2ea1771683c3d721437af530fe919f42292df9c1fbafe97ae8cffada49c8500a.jpg",
+        "images/2a95de737c3b6a75909c4f32b55cf5875c7983578e5c26b821fb4318c9a70121.jpg",
+        "images/6a101a75b9a30355b4fe54cf649c79032a62c4d59af43715ffad43ad4ddb3204.jpg",
+        "images/5db989888fa1dd24d5b6219c6d1f2ae3315038eda60bc9df5220dad869634738.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "26.18.0.260925980",
+        "updatedDate": "2026-10-28",
+        "text": "Благодарим за использование Norton 360! Мы навели порядок, чтобы сделать работу с приложением еще более удобной. Мы будем держать вас в курсе будущих обновлений."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "26.18.0.260925980",
+        "updatedDate": "2026-10-28",
+        "text": "Thanks for using Norton 360! We’ve tidied things up to give you an even smoother app experience. We’ll keep you posted whenever we release new updates."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/I-2JNsM9FoiGJv2TGTSVpHaDAHaxFW-zcTJ3iEFLGsmSdmFbXL3lTrt_MiIj3A16otqd0gYO7ZGH4EYq7gD-": "b85f1f14f6324c3cb678f8526b582e38473be12c3d24d88979ac76c78f98b3f3.jpg",
+    "https://play-lh.googleusercontent.com/0eB-0X4yx6ePz82J1ATPjieIFL6gL1cExZPC8ArRl3bX-iwxDOfAUDvCEoQfvl7_r4dOhwcM52pKb7cdjXZ3zA": "4ad1d5e8ae400c197308fd91ea159392d331a0889847a98d0e2a63ae38fad813.jpg",
+    "https://play-lh.googleusercontent.com/8Qhbt-FNB6GBI9WbAPQL8zxQlsA-7t4-1PliHLzqP2j8amGdjxA6bzht5hG1tR13WSGzpT2PfHR64azXKZq-aA": "3a23b76abc815c31dc2bd3e3cf298e0d0ebe4672dae4618632f132521c183aec.jpg",
+    "https://play-lh.googleusercontent.com/7p8I6MX26wgVxeSG2RgzpgJ4QtP5fNqtoSvvWCQ1s8U23dZ-KPSTyy2HPPdD45YwV5wodvxn1Y2Q5rOJdXLJRQ": "38a7495815da3eda905a858070f7666a264b96e7f2578b282b79c1679dd4b20f.jpg",
+    "https://play-lh.googleusercontent.com/QXMT17mVpPjj1U34_sxMklTdYp6mCtJ12JU_TY9sXzceVdF0JeyTOGKS1b3QCqJKaTWhu7regUXVDqaOHTrA": "af28cf353b84e48f5d796fe3a409d835ffb7f937cec85c5a86875ee18f1f724a.jpg",
+    "https://play-lh.googleusercontent.com/XmDF5DPV0rD6-jyLFBxTM7-V5ujqbAuFbH0R4EoG8TFJeUq8pV-yZ-fYmCJzDhRYErdS_NUK5waThxcTOmSFQz0": "2ea1771683c3d721437af530fe919f42292df9c1fbafe97ae8cffada49c8500a.jpg",
+    "https://play-lh.googleusercontent.com/l0oTkc_75rh2lFyAPsK_i8rDVDD9uFSOXgddJ3y0trl2E_S2wNKIkccGYvTi4lfFaqGJn6Qa5026QydRuj1Hvg": "2a95de737c3b6a75909c4f32b55cf5875c7983578e5c26b821fb4318c9a70121.jpg",
+    "https://play-lh.googleusercontent.com/8iokXrzxj-7r7hPMonEjEgcwDY3ykpeVdbXm3D3QfGmLtgGKYmei347jrVkKaOQL4aENbdQkuGxCxeuoniQaKw": "6a101a75b9a30355b4fe54cf649c79032a62c4d59af43715ffad43ad4ddb3204.jpg",
+    "https://play-lh.googleusercontent.com/8T1BxgrsiCddl_qMsmH_yPCP_ZlfBDvGs1oF-Q4__vSKx7VhOfKArAWH8U02bWfs3D41iYMSC0vOLUrrzQBHOQ": "5db989888fa1dd24d5b6219c6d1f2ae3315038eda60bc9df5220dad869634738.jpg"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "package": "com.einnovation.temu",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Temu: Покупай как миллиардер",
+      "developer": "Temu",
+      "description": "Делайте покупки на Temu и получайте эксклюзивные предложения. <br><br>Независимо от того, что вы ищете, в Temu вы найдете все, включая моду, домашний декор, поделки ручной работы, красоту и косметику, одежду, обувь и многое другое.<br><br>Загрузите Temu сегодня и наслаждайтесь невероятными предложениями каждый день.<br><br>ШИРОКИЙ ВЫБОР<br>Откройте тысячи новой продукции и магазинов.<br><br>УДОБСТВО<br>Быстрая и безопасная оплата.<br>Бесплатная доставка и бесплатный возврат в течение 90 дней.<br>*Могут действовать другие условия.<br><br>Посетите temu.com или подпишитесь на нас:<br>Instagram: https://www.instagram.com/temu<br>TikTok: https://www.tiktok.com/@temu <br>Facebook: https://www.facebook.com/shoptemu<br>Youtube: https://www.youtube.com/@temu",
+      "shortDescription": "Делайте покупки на Temu и получайте эксклюзивные предложения",
+      "versionName": "4.93.0",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.einnovation.temu",
+      "changelog": null,
+      "icon": "images/151c37762af271f7bab259c0ffbc3f88fa774fdac9ed687cd2d4f71f97fdbfe4.png",
+      "screenshots": [
+        "images/26e855851131475964eb342254cbae52e9c52ece8c750bef439661868d2e6a32.png",
+        "images/467c59760baa34f2d44732f0d1e87fb5ddeba0c76afe3001eb8268038396ce10.png",
+        "images/c6e7876f1c8f6e4fd2b26238160bcaf204673c27d8237a4c0a70d60129ed2ef6.png",
+        "images/ebb8bf2c445cf74418a3b88a01ca26bac2e68d9bfe4ec68f5c1b8b2d15b94be2.png",
+        "images/9a50cffd8462a9d08f686326ebe99e117043238ded0d5955ed1360c0ade0a6ca.png",
+        "images/97c83243d66e67ce4cfac21a0df524e66afc906432a295b8df1efdc4d6347ffc.png",
+        "images/3fd0c000d4c79a1bd9abc1515338dccfe61cd377724742448676db79723af883.png",
+        "images/b9de125a888aaf82788b043aa62c6d51f85a3e8d8edf11a211de9b546155b149.png"
+      ]
+    },
+    "en_US": {
+      "title": "Temu: Shop Like a Billionaire",
+      "developer": "Temu",
+      "description": "shop on Temu for amazing offers<br><br>No matter what you're looking for, Temu has you covered, including fashion, home decor, handmade crafts, beauty & cosmetics, clothing, shoes, and more.<br><br>Download Temu today and enjoy incredible deals daily.<br><br>WIDE SELECTION<br>Discover thousands of new products and shops.<br><br>CONVENIENCE<br>Fast and secure checkout.<br>Free shipping & returns within 90 days.<br>*Other conditions may apply<br><br>Visit temu.com or follow us on:<br>Instagram: https://www.instagram.com/temu/<br>TikTok: https://www.tiktok.com/@temu <br>Facebook: https://www.facebook.com/shoptemu<br>Youtube: https://www.youtube.com/@temu",
+      "shortDescription": "shop on Temu for amazing offers",
+      "versionName": "4.93.0",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.einnovation.temu",
+      "changelog": null,
+      "icon": "images/151c37762af271f7bab259c0ffbc3f88fa774fdac9ed687cd2d4f71f97fdbfe4.png",
+      "screenshots": [
+        "images/1b171368160fe944072684ec73381c2f52997099adc00e1ed434359df1e259ea.png",
+        "images/485c9ad9fca3683ee1d7f0d6f8e88880a70c70e5de4ad90f16a1aad0a2494231.png",
+        "images/c4c3528ddf25fa509b3b5705b4391996d6c9f22c116335b3f5ba763b17477e87.png",
+        "images/82b1e6ea54fe3b82a45508be9a15c262556b8014ce22d2970cfb228c108ff610.png",
+        "images/45993fd6bd1731f76dcdd5bd4aa008ee83c84276694df563f1b620c5d3f26b2a.png",
+        "images/922fb1ef33b0d15e4e524e5ddd983e36af29d45203e5476e6a78e3b2d3f1f35c.png",
+        "images/1623e8a42b9e2003fe4d8f3039a0a56e32171f9a84b52ddd1a8ac81a9bb207f8.png",
+        "images/3a1e0ae2852fda113aa8dc287d4850c1b1e75523493df97129b2af3e06c815df.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [],
+    "en_US": []
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/opNFHpwXUxk8zAVzQbvBgEcBPmgYt0uX-p28VKDZ8nJNFPA7_JHx3PO3ski-GW_FW7gf3jrEP4OCKxTpP7Wv_w": "151c37762af271f7bab259c0ffbc3f88fa774fdac9ed687cd2d4f71f97fdbfe4.png",
+    "https://play-lh.googleusercontent.com/joRZAnpmhJOOhev-YKHAqjjRUFaskq4oDlaBUXoXH-FbhXEfB9vmMgN18f0N76G49o52b4hxOdnk8wQw1E0USbo": "26e855851131475964eb342254cbae52e9c52ece8c750bef439661868d2e6a32.png",
+    "https://play-lh.googleusercontent.com/jS-P41qsw-isFCE6-Y-piotSAHR4U80fbtlOAJdNudkvv474ZQ9kdZAYdyRBM7YD7xjptORTKnow34yOWxOhtQ": "467c59760baa34f2d44732f0d1e87fb5ddeba0c76afe3001eb8268038396ce10.png",
+    "https://play-lh.googleusercontent.com/otb7mNAHJRL4GjNVH5ixG2HtljFS37p5FV_SliW1b_y2vEH7-TNLv9slNHGFPiGRzxTvyMn4tBIfCBKiRwnnxA": "c6e7876f1c8f6e4fd2b26238160bcaf204673c27d8237a4c0a70d60129ed2ef6.png",
+    "https://play-lh.googleusercontent.com/o_fPWC6iDfyYxxUgiqoRwp3AKAYgJnq7-t4Nu8wzboEpBakz5GR2KDIxgXBDWt_I-tWGzTXLHb0WhLQF9bqF": "ebb8bf2c445cf74418a3b88a01ca26bac2e68d9bfe4ec68f5c1b8b2d15b94be2.png",
+    "https://play-lh.googleusercontent.com/4UFe08bIVCb6ypzPIEoWhViTk1a-RbBiezeeiRlnl3c3QzJTf6w035gDnSGCzY-oa5Wn6ZVX_6K6RcxMfAEMSg": "9a50cffd8462a9d08f686326ebe99e117043238ded0d5955ed1360c0ade0a6ca.png",
+    "https://play-lh.googleusercontent.com/drYybdX-3INOLBwwYhTtEULjihtpxg5_oonFPDylnzl3rX15CEl6gcSjw3ZrlyZU2pPf91LFeQ_lC6Z-vTAktw": "97c83243d66e67ce4cfac21a0df524e66afc906432a295b8df1efdc4d6347ffc.png",
+    "https://play-lh.googleusercontent.com/twBEtwgVyVHvKF1zABY7vysOKtOmrBfdCmaGsdW7mUmeIjUE-N_h8MG_GzkLg-mUb0qXdGj4Zbp2Go4KDi5LW6M": "3fd0c000d4c79a1bd9abc1515338dccfe61cd377724742448676db79723af883.png",
+    "https://play-lh.googleusercontent.com/V5n85_DOciZ6FAV5f748PzHRcOa0nlGgRyNrpywboKwXJ517ZUiGkcL0iEa93CP-qLY5cMu6KCtIImaSnmXu": "b9de125a888aaf82788b043aa62c6d51f85a3e8d8edf11a211de9b546155b149.png",
+    "https://play-lh.googleusercontent.com/HLKYOBdLgcPJqMjlweiJA3pX27-hJY5zWGi7DhhuTdt9ExqKh2dBarXNpit8-bK8heS-SulGATHyeb2HSFwc3fs": "1b171368160fe944072684ec73381c2f52997099adc00e1ed434359df1e259ea.png",
+    "https://play-lh.googleusercontent.com/0QrAaSEtZ1GVYhobmLlemW7cgPG7M2QzfwIQaxCvPl2bStyTYTp6sZb1wuM33fBcyKs4i-FxJKMEgvPoCLkA6w": "485c9ad9fca3683ee1d7f0d6f8e88880a70c70e5de4ad90f16a1aad0a2494231.png",
+    "https://play-lh.googleusercontent.com/iP9boGP2oSvVZp_TetBFhkEW5w-Ec4ThCTpvrOFGrLkoXfToTkiriOOodi_2SvKp84TZUYzVeyl_83mYk2DU": "c4c3528ddf25fa509b3b5705b4391996d6c9f22c116335b3f5ba763b17477e87.png",
+    "https://play-lh.googleusercontent.com/mBo3hFDzEHtOphOTA6-D9Wue7jW91ixbam5ehj4UC3SYbdXrRIscpiYq0EMAcyElcWXYzUUff0oGeHFQICdgLA": "82b1e6ea54fe3b82a45508be9a15c262556b8014ce22d2970cfb228c108ff610.png",
+    "https://play-lh.googleusercontent.com/8rg2SV864f7yip1O-gtiaF-M8ZiivvyZ2LhvZfP-7r_CzRe7Xbx7F2WpfsDCn257Tthy_uIc9c3XkPPlYI8PGA": "45993fd6bd1731f76dcdd5bd4aa008ee83c84276694df563f1b620c5d3f26b2a.png",
+    "https://play-lh.googleusercontent.com/q1fDvW0r_EvDzyqjdQI2a35wra27npIKZVQ6GgRlj96sK--rEijyNk4PjHX6pg8iENHDoDjizE9M9Z7TVsoNnQ": "922fb1ef33b0d15e4e524e5ddd983e36af29d45203e5476e6a78e3b2d3f1f35c.png",
+    "https://play-lh.googleusercontent.com/sZkeinkXJXUVGQ_tXHBvFhEwZ59clFA--sCGoPnQtOkwFWffFKhGzXSDuFqCCYT3mOmtE3Tvi_cx-7zwHC1Z": "1623e8a42b9e2003fe4d8f3039a0a56e32171f9a84b52ddd1a8ac81a9bb207f8.png",
+    "https://play-lh.googleusercontent.com/llM5YsrHx6WoCTUhhhImH0ZRcxYZp9o1SN6IxT5_3SlRvh13Zm8IgB_BuslJ5w8Tb1sUP9L9odN7Ips0VjqY6AY": "3a1e0ae2852fda113aa8dc287d4850c1b1e75523493df97129b2af3e06c815df.png"
+  }
+}

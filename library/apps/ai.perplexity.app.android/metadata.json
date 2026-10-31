@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "package": "ai.perplexity.app.android",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Perplexity - Ask Anything",
+      "developer": "PerplexityAI",
+      "description": "Perplexity—Where Knowledge Begins. The answers you need—right at your finger tips.<br><br>Cut through the clutter and get straight to credible, up-to-date answers. This free app syncs across devices and leverages the power of the top AI models from OpenAI, Anthropic, Meta, and more. <br><br>Features:<br><br>· Perplexity Pro Search: Guided AI search for deeper exploration.<br><br>· Thread Follow-Up: Keep the conversation going for a deeper understanding.<br><br>· Voice: Instant, up-to-date answers whether you type or say it. <br><br>· Trust Built In: Cited sources for every answer.<br><br>· Discover: Learn new things from the community.<br><br>· Your Library: More than search history, it's a curation of your discoveries.<br><br>Download Perplexity now and continue your journey to better knowledge and understanding.",
+      "shortDescription": "Получите достоверные ответы на любой вопрос",
+      "versionName": "2.103.0",
+      "updatedDate": "2026-10-30",
+      "playUrl": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android",
+      "changelog": null,
+      "icon": "images/5bda56d5f6d22466ccb1e0c5fad7fff02ac749d1971d7dc0a0e76b8f8f709789.png",
+      "screenshots": [
+        "images/50244941d818ca6735d7f61641735d5739afe3a80ac49ee34d3a0f69ca145f53.png",
+        "images/db6214362f13f1482f05a0e8845f7f21954d057f1bf62d7612e656e292bfacc0.png",
+        "images/5cf34fddd7847d1fc34fbf430da922d355aa48e6364e20ce6a6b0699ae023e97.png",
+        "images/a9458551a18dc9c4af4a1c9d3f71d6999b3c8d47e11511c9cb23d73f96bd8146.png",
+        "images/c612cdb8bf3d9c903f7b2d36b05014aac4b91e8d56b32aa3ec53c9321eed2ab6.png",
+        "images/ba87b056cfc3b06a3d30913d15373297f928025923666b13f32c8280d655eeea.png",
+        "images/8fbc20a23c5c9051c1c528f83956239a7d3ae890618d07a2f314bd4813ea6c21.png",
+        "images/a0d50868210c14a6734dbd7ceff0052a39b71de0037b498b555dfd4923196c4b.png"
+      ]
+    },
+    "en_US": {
+      "title": "Perplexity - Ask Anything",
+      "developer": "PerplexityAI",
+      "description": "Perplexity—Where Knowledge Begins. The answers you need—right at your finger tips.<br><br>Cut through the clutter and get straight to credible, up-to-date answers. This free app syncs across devices and leverages the power of the top AI models from OpenAI, Anthropic, Meta, and more. <br><br>Features:<br><br>· Perplexity Pro Search: Guided AI search for deeper exploration.<br><br>· Thread Follow-Up: Keep the conversation going for a deeper understanding.<br><br>· Voice: Instant, up-to-date answers whether you type or say it. <br><br>· Trust Built In: Cited sources for every answer.<br><br>· Discover: Learn new things from the community.<br><br>· Your Library: More than search history, it's a curation of your discoveries.<br><br>Download Perplexity now and continue your journey to better knowledge and understanding.",
+      "shortDescription": "Get trusted answers to any question",
+      "versionName": "2.103.0",
+      "updatedDate": "2026-10-30",
+      "playUrl": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android",
+      "changelog": null,
+      "icon": "images/5bda56d5f6d22466ccb1e0c5fad7fff02ac749d1971d7dc0a0e76b8f8f709789.png",
+      "screenshots": [
+        "images/50244941d818ca6735d7f61641735d5739afe3a80ac49ee34d3a0f69ca145f53.png",
+        "images/db6214362f13f1482f05a0e8845f7f21954d057f1bf62d7612e656e292bfacc0.png",
+        "images/5cf34fddd7847d1fc34fbf430da922d355aa48e6364e20ce6a6b0699ae023e97.png",
+        "images/a9458551a18dc9c4af4a1c9d3f71d6999b3c8d47e11511c9cb23d73f96bd8146.png",
+        "images/c612cdb8bf3d9c903f7b2d36b05014aac4b91e8d56b32aa3ec53c9321eed2ab6.png",
+        "images/ba87b056cfc3b06a3d30913d15373297f928025923666b13f32c8280d655eeea.png",
+        "images/8fbc20a23c5c9051c1c528f83956239a7d3ae890618d07a2f314bd4813ea6c21.png",
+        "images/a0d50868210c14a6734dbd7ceff0052a39b71de0037b498b555dfd4923196c4b.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [],
+    "en_US": []
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/vg7sPhgWiPr0L2cK_NLLcCl0mrkEmNNv7C-aUkBdIUEa-9uSnCi5x4z_3Mw0vNYWKoSVWHfgri7THMOsOZKQuA": "5bda56d5f6d22466ccb1e0c5fad7fff02ac749d1971d7dc0a0e76b8f8f709789.png",
+    "https://play-lh.googleusercontent.com/VEWH_PXFnWpTyEVA4-MoRfel569iFTXx92xJzoCYBQUfUszXEkq730Uoz2f_nY-POG8vXyVU4uqlXVWUbxI0bQ": "50244941d818ca6735d7f61641735d5739afe3a80ac49ee34d3a0f69ca145f53.png",
+    "https://play-lh.googleusercontent.com/_gVKW9iZRcCxFpX7QMrLLrvdH4kEFjIzdQlC9lGI1qV6KdS8RmaobOMInK0dLszUarmKayZg0ANuEoqFwXDxYg": "db6214362f13f1482f05a0e8845f7f21954d057f1bf62d7612e656e292bfacc0.png",
+    "https://play-lh.googleusercontent.com/HYGcRUVUgigzXxAxKAHPoUPBEWvnleHUtCUzjD60nHJircOfOy-zgWEgeAgnM7pcY2DIw-7JdXiAcjjWVmdsaCc": "5cf34fddd7847d1fc34fbf430da922d355aa48e6364e20ce6a6b0699ae023e97.png",
+    "https://play-lh.googleusercontent.com/224Ay6zFblson7LiWAosh7Dul2cHx6fo5q89uVVYMcBRyNY8yrfS1vXC9oMQhzxOCrM5QTUSyzxqHI3cI1BWmw": "a9458551a18dc9c4af4a1c9d3f71d6999b3c8d47e11511c9cb23d73f96bd8146.png",
+    "https://play-lh.googleusercontent.com/QiSbiv2WsXxoZ4wdCc5vaUcI4PptfyXmmiivT44JW8iLL0KP-YwBjdDz6-oLD6A6vRBOCf2Lx6E8A1iiMl5JcQ": "c612cdb8bf3d9c903f7b2d36b05014aac4b91e8d56b32aa3ec53c9321eed2ab6.png",
+    "https://play-lh.googleusercontent.com/gTgxNRzS35iwDk9U9Kd8bT5Cq3F6ol1TswQKW4v4RwlVvfYCpimAfLTGTTpE7_MGc0Sea_4GmsN5r5_K3klG": "ba87b056cfc3b06a3d30913d15373297f928025923666b13f32c8280d655eeea.png",
+    "https://play-lh.googleusercontent.com/vmb5Q4PKRqMqP6_-w6R8hbdbFHPUe7X0Ydv1CYPeLvqANE74r2Jidxfy64u1P9uSsZQ7dcyG7CMqZ3y2kvAs": "8fbc20a23c5c9051c1c528f83956239a7d3ae890618d07a2f314bd4813ea6c21.png",
+    "https://play-lh.googleusercontent.com/k_POURtYG5QbWVJ6c3xUmJYBwIKNQBw3N8vbdhFeu1qkx1C7pfU-zs8NfM7-DaDg7W7SqLJtmc1Q5qY__V4mwQ": "a0d50868210c14a6734dbd7ceff0052a39b71de0037b498b555dfd4923196c4b.png"
+  }
+}

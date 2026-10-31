@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "package": "com.netflix.mediaclient",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Netflix",
+      "developer": "Netflix, Inc.",
+      "description": "Ищете фильмы и сериалы, которые смотрят и обсуждают во всем мире? Все это есть на Netflix.<br><br>Откройте для себя удостоенные наград фильмы, сериалы, прямые трансляции, подкасты и игры с мобильным приложением. Теперь вы не пропустите ни одного момента из мира Netflix ни в путешествии, ни по дороге на работу, ни в перерыве между дел.<br><br>Вот почему вам понравится Netflix: <br><br>- Удобная навигация: кнопки внизу экрана для быстрого поиска или перехода к любимому контенту. <br><br>- Новые способы выбрать, что посмотреть, в том числе — в скором будущем — лента с клипами.<br><br>- Целый мир развлечений — фильмы, сериалы, прямые трансляции, игры и подкасты — в одном месте.<br><br>- Возможность сохранять все, что вам нравится, от любимых моментов до контента в разделе «Мой список», во вкладке «Мой Netflix». <br><br>- Персонализированные рекомендации на основе ваших оценок. Мгновенные уведомления о новых релизах, эпизодах и прямых трансляциях.<br><br><br>Подписка Netflix представляет собой ежемесячную подписку, которая начинается с момента регистрации. Ее можно отменить онлайн в любой момент, в любое время суток. У нас нет долгосрочных контрактов или штрафов за отмену подписки. Мы просто хотим, чтобы вам нравилось то, что вы смотрите.<br><br><br>Обратите внимание, что Положение о конфиденциальности приложения применяется к данным, полученным с помощью приложений Netflix для iOS, iPadOS и tvOS. Дополнительные сведения о данных, которые мы собираем в других ситуациях, в том при регистрации аккаунта, можно найти в Положении о конфиденциальности Netflix (ссылка доступна ниже).<br><br>Политика конфиденциальности: www.netflix.com/privacy<br>Правила использования: www.netflix.com/terms<br><br>Номер телефона: +18667160414<br>Электронная почта: iosappstore@netflix.com",
+      "shortDescription": "Netflix — ведущий сервис для просмотра фильмов и сериалов по подписке.",
+      "versionName": null,
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient",
+      "changelog": "Чтобы вам было удобно смотреть свежие хиты и нестареющую классику, обновите приложение Netflix на телефоне и планшете.",
+      "icon": "images/e07a41e8afc91b3ff66ddd02e6b8378e786034721acfa948e43de85449c7971b.png",
+      "screenshots": [
+        "images/739f7c1718a7fbb99b8a425f6a1c55a24f2f7c8be661a01488184a30efaec4c8.jpg",
+        "images/e4a004e2b32ba30ec0a7ccd08c00d80f8750ece54a9de1e93fdb366efa0e1a4d.jpg",
+        "images/78e16bee60f97cb9e3639e0b21971cb7666ad83cf7b41c6a4b3a7b3a58274c49.jpg",
+        "images/1ce915e2af4d956d8cb1ea8030a109bb8326374515ba0151151a8b218363b0b6.jpg",
+        "images/2bb0f4c854c9f7c4d090ce8f22a1dde9fd0c4a782169762e91502828a46abd32.jpg",
+        "images/525c1029d0ee2b0bf8ffd8737764839796c3253588e7ea5cada9028e62008fee.jpg",
+        "images/1cf173717c520c3a1dbc4bdf4037acfd751eff9b0a4d6c094e9dd3aa4df81e47.jpg",
+        "images/8831ddaf028136a2b768b9458363e40c5b119c8e8fbf98e786712a9f36e67d4d.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Netflix",
+      "developer": "Netflix, Inc.",
+      "description": "Looking for the most talked about TV shows and movies from around the world? They're all on Netflix.<br><br>Discover award-winning series, movies, live events, podcasts, and games on the go - all in the mobile app. Now, you'll never miss a moment from the world of Netflix while you travel, commute, or just take a break.<br><br>What you'll love about Netflix: <br><br>- Smooth navigation with bottom shortcuts to quickly browse or jump back into your favorites. <br><br>- A new way to discover what's next, including an upcoming clips feed.<br><br>- A full world of entertainment in one place - series, movies, live events, games, and podcasts.<br><br>- Keep track of everything you love, from your favorite moments to 'My List', in the 'My Netflix' tab. <br><br>- Personalized recommendations based on your ratings. Instant notifications for new releases, episodes, and live events.<br><br><br>Netflix membership is a month-to-month subscription that begins at sign-up. You can easily cancel anytime, online, 24 hours a day. There are no long-term contracts or cancellation fees. We just want you to love what you watch.<br><br><br>Please note that the App Privacy information applies to information collected through the Netflix iOS, iPadOS, and tvOS apps. See the Netflix Privacy Statement (link below) to learn more about information we collect in other contexts, including account registration.<br><br>Privacy policy: www.netflix.com/privacy<br>Terms of use: www.netflix.com/terms<br><br>Phone Number: +18667160414<br>Email: iosappstore@netflix.com",
+      "shortDescription": "Netflix is the leading subscription service for watching TV episodes and movies.",
+      "versionName": null,
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient",
+      "changelog": "Get the best experience for enjoying recent hits and timeless classics with our latest Netflix update for your phone and tablet.",
+      "icon": "images/e07a41e8afc91b3ff66ddd02e6b8378e786034721acfa948e43de85449c7971b.png",
+      "screenshots": [
+        "images/9d6cfc1ad0a15daa760e0901cbe92fab511f62f1fe1651da83aae9595cd027a3.jpg",
+        "images/a69f7b3f1c1d362740260193bac8e8f14494d81435f2cf5846aa56fae29e5f35.jpg",
+        "images/f2f6d08888ae089c9a0b65cda9634e4b3d10aa61088d756772487b0a75ff8df3.jpg",
+        "images/019401022500e45b97cc36d89ad1c63e3262003a7f6e6df7cfa0951ee69d177c.jpg",
+        "images/dc74c1cdd8bccc90bf8bebccef43c0a09b2c420d0c18bb50b1d0b73828c33b1c.jpg",
+        "images/cf632e4488a13d727bbffbece24b1e54364227adfc94c8be6ce0109889b6a084.jpg",
+        "images/e511b568828a98c5a88446ad7ecbb58ed48543ed5cbf7d538a5a3e62e704bd8c.jpg",
+        "images/4216ae415b5b29769e23c6537b8ce21c378d9f984eb3dd2d907c443f584164e7.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-27",
+        "text": "Чтобы вам было удобно смотреть свежие хиты и нестареющую классику, обновите приложение Netflix на телефоне и планшете."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-27",
+        "text": "Get the best experience for enjoying recent hits and timeless classics with our latest Netflix update for your phone and tablet."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/fXVS45nukV1x9PYVSKHkCQK0QGCOishIvAOxIZS3sgRem8HS7l9l94_Ggj-WZPrTLePRdNYN4pp4SPAQL7oS0PU": "e07a41e8afc91b3ff66ddd02e6b8378e786034721acfa948e43de85449c7971b.png",
+    "https://play-lh.googleusercontent.com/JsSxe9vJsTnrCggfkH4vx4X4AD9Mqxt8WKCoVW7ebLegkjbD4rIDkcLfwDJH4q8SJFHw2hz6QYeIKw3_gSSg": "739f7c1718a7fbb99b8a425f6a1c55a24f2f7c8be661a01488184a30efaec4c8.jpg",
+    "https://play-lh.googleusercontent.com/dbks-iFhlwNGudXlUwpJ7-DaQZ7yRicJbdGtp3Z8F0Bg2C9Y1zStpl2f3d4vD203qta3NR4s8FOGxpqtzhzOGsY": "e4a004e2b32ba30ec0a7ccd08c00d80f8750ece54a9de1e93fdb366efa0e1a4d.jpg",
+    "https://play-lh.googleusercontent.com/LdfAS_CB3kZla6W_1DFiDHG6Eh23XLqtM4ywcmYnz2jHczCHlx9h2NjHPcnDqWQMZESOXWM4Iah_JdX4PyzRvw": "78e16bee60f97cb9e3639e0b21971cb7666ad83cf7b41c6a4b3a7b3a58274c49.jpg",
+    "https://play-lh.googleusercontent.com/lyene-Xj8Z_KltJEci7RYEN5ZRe7kMwCl_U_ahMqfEmIulByy0kRUHdVTUVRV4p_IrJBUHJv5Ae672wdjyRaSA": "1ce915e2af4d956d8cb1ea8030a109bb8326374515ba0151151a8b218363b0b6.jpg",
+    "https://play-lh.googleusercontent.com/KP9C7AJIMXojEQINsSodfraGo27QnFVFK6T9d165odGf8guTEMjxeXrqjoaYo9nTG22VnBR7lgzMPJ6ogjyhQg": "2bb0f4c854c9f7c4d090ce8f22a1dde9fd0c4a782169762e91502828a46abd32.jpg",
+    "https://play-lh.googleusercontent.com/zAIZWY5LB2kme27UyVHCb2K1Z-iP5P7NMQ8Rl7Nckwd9B1hvDVSh4HFe-OUZWmrR7fAxHjxYt5McrqiyCo9Y3Q": "525c1029d0ee2b0bf8ffd8737764839796c3253588e7ea5cada9028e62008fee.jpg",
+    "https://play-lh.googleusercontent.com/fXyKHoqewOeUOVHtd7QNddJFQ3qt3UJGoeirMnwdlnZFQ4o9sIM0dRyxFPqmajLEBdY4OaXNH99zsBXb6Ntj": "1cf173717c520c3a1dbc4bdf4037acfd751eff9b0a4d6c094e9dd3aa4df81e47.jpg",
+    "https://play-lh.googleusercontent.com/volfjbi8k2WfFPoOuaXbkOGjOsxEMNVqrFaAhZrOPT6pIC5qS6MBWXvJ69o3IwMWznSYCFuduGAgCQfnuZQuog": "8831ddaf028136a2b768b9458363e40c5b119c8e8fbf98e786712a9f36e67d4d.jpg",
+    "https://play-lh.googleusercontent.com/-6KSwjMLW7pEXNUp0gTPO7PfTxfJpN0eSQz1uOYF8d_c-eSa5iK1i6J0bHPsm050TI89-YnGYBQ_fi7u0_bYJKU": "9d6cfc1ad0a15daa760e0901cbe92fab511f62f1fe1651da83aae9595cd027a3.jpg",
+    "https://play-lh.googleusercontent.com/u6TjbASbQYE5eJgUcRcN5oWXYwiKgHQRtDUTjN5Qs3cNBAmt3I8ofXIoD7tdVjhZWD-9tRB8afvSte0Qonbg": "a69f7b3f1c1d362740260193bac8e8f14494d81435f2cf5846aa56fae29e5f35.jpg",
+    "https://play-lh.googleusercontent.com/p2uqwNRcsnm7eaLHLMdzRmrlsv5exw9OsY4y7fi2V1gZJUp5hP2UnwgCBcPw27yEJsA7lRiTtaPkoHaa_G5kTQ": "f2f6d08888ae089c9a0b65cda9634e4b3d10aa61088d756772487b0a75ff8df3.jpg",
+    "https://play-lh.googleusercontent.com/U-F3WDk21762jkxcEA_pQU6cVwIDcGHWm9cPT93jJNfgO4SwRcCbhriW62EPuxG6wMx5jssFhNX2s0y1KJTSAw": "019401022500e45b97cc36d89ad1c63e3262003a7f6e6df7cfa0951ee69d177c.jpg",
+    "https://play-lh.googleusercontent.com/xgI6x7G2BuZOn9hPbjZ_ytdF-67It4pFjYCJgHPvk3G6OTyeTOtTdNVFzJjhpCpCAYNStmusaGBy0m1dfYNk": "dc74c1cdd8bccc90bf8bebccef43c0a09b2c420d0c18bb50b1d0b73828c33b1c.jpg",
+    "https://play-lh.googleusercontent.com/Zxz9QVIVGl7lht6G436lZ72qqKofgt_p9rzqIujDpc6w40UD5rRyWRvkIaRgqSAujWbgYU3TV3cQK_IyHZaaIbk": "cf632e4488a13d727bbffbece24b1e54364227adfc94c8be6ce0109889b6a084.jpg",
+    "https://play-lh.googleusercontent.com/yFMOnrMmdU_ODZ2XuwKT2eW3CzOOK273pHOJUVTMVy1rfubDZIo5G8E7kc6b2hawwSPqFlvpuHqTxJkpIhk4-AA": "e511b568828a98c5a88446ad7ecbb58ed48543ed5cbf7d538a5a3e62e704bd8c.jpg",
+    "https://play-lh.googleusercontent.com/6wEeen4ylUeVw5izIjbKVgGBQwugIMHJ08XNYGyxB1yRk7nE5OB8JWl_prE9a7formoPB_nUwnbQ20Tk_tKV": "4216ae415b5b29769e23c6537b8ce21c378d9f984eb3dd2d907c443f584164e7.jpg"
+  }
+}

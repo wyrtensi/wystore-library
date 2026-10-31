@@ -1,6 +1,7 @@
 {
   "schema": 1,
   "package": "com.vivaldi.browser",
+  "market": "us",
   "locales": {
     "ru_RU": {
       "title": "Vivaldi - Мощный веб-браузер",

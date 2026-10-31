@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.google.earth",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Google Планета Земля",
+      "developer": "Google LLC",
+      "description": "Новая версия сервиса \"Google Планета Земля\" позволяет самостоятельно или совместно с другими пользователями создавать собственные карты из любой точки мира. Взгляните на мир с высоты благодаря спутниковым снимкам высокого разрешения, посмотрите на 3D-рельеф и здания в сотнях городов и совершите путешествие по улицам и районам, используя возможности кругового обзора в Просмотре улиц.",
+      "shortDescription": "Знакомство с планетой",
+      "versionName": null,
+      "updatedDate": "2026-10-20",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.google.earth",
+      "changelog": "Спасибо за использование сервиса \"Google Планета Земля\"! Эта версия отличается измененным интерфейсом, а также новыми функциями, позволяющими работать совместно с пользователями других устройств, создавать карты в любых условиях, а также добавлять на карты фотографии с камеры устройства.",
+      "icon": "images/57a158dfcd22a6c686caa07f0c5a8e4a1da63ceff8562ec1fb0dc8b2088091fd.png",
+      "screenshots": [
+        "images/6b303e4d8281248458bc340a73476fe746db9c6436ff876f7abccdfcb808f4b2.png",
+        "images/6c872b4cd336363d5008869ddabf5e2485ca6c90403d80c3326c8ef16a9f7a31.png",
+        "images/6f8a8cc1ff488f3549ebed6ebc8103dcd42dfb022918277c4b986ecb98d8a1c0.png",
+        "images/a0de2dcef4918c6b29d440f7ba1e7c2ff0a0e4ee63be115ec52cc767e843ee38.png",
+        "images/32e895f7da9acfd7b73d98cdbe6df92a2ff6774b769d1ab3f1fb5b44af88474c.png",
+        "images/a00c44882346698b7e99bd7a3351252e9bd40ff1a185cccd9c2bc67a5f452a17.png",
+        "images/08ae81a4c50b27b92996c5dc645ae9c81aa0f6b164dfebedc061068425dfd483.png",
+        "images/a93da03f22e8f78e4d4637053f518b85142b431abc959ac9e11d9680a930d333.png"
+      ]
+    },
+    "en_US": {
+      "title": "Google Earth",
+      "developer": "Google LLC",
+      "description": "Create and collaborate on immersive, data-driven maps from anywhere, with the new Google Earth. See the world from above with high-resolution satellite imagery, explore 3D terrain and buildings in hundreds of cities, and dive in to streets and neighborhoods with Street View's 360° perspectives.",
+      "shortDescription": "Examine the planet",
+      "versionName": null,
+      "updatedDate": "2026-10-20",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.google.earth",
+      "changelog": "Thanks for using Google Earth! This release brings a fresh new look, with new features to help you collaborate with others across devices, create maps on the go, and add photos from your camera to your maps.",
+      "icon": "images/57a158dfcd22a6c686caa07f0c5a8e4a1da63ceff8562ec1fb0dc8b2088091fd.png",
+      "screenshots": [
+        "images/6b303e4d8281248458bc340a73476fe746db9c6436ff876f7abccdfcb808f4b2.png",
+        "images/6c872b4cd336363d5008869ddabf5e2485ca6c90403d80c3326c8ef16a9f7a31.png",
+        "images/6f8a8cc1ff488f3549ebed6ebc8103dcd42dfb022918277c4b986ecb98d8a1c0.png",
+        "images/a0de2dcef4918c6b29d440f7ba1e7c2ff0a0e4ee63be115ec52cc767e843ee38.png",
+        "images/32e895f7da9acfd7b73d98cdbe6df92a2ff6774b769d1ab3f1fb5b44af88474c.png",
+        "images/a00c44882346698b7e99bd7a3351252e9bd40ff1a185cccd9c2bc67a5f452a17.png",
+        "images/08ae81a4c50b27b92996c5dc645ae9c81aa0f6b164dfebedc061068425dfd483.png",
+        "images/a93da03f22e8f78e4d4637053f518b85142b431abc959ac9e11d9680a930d333.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-20",
+        "text": "Спасибо за использование сервиса \"Google Планета Земля\"! Эта версия отличается измененным интерфейсом, а также новыми функциями, позволяющими работать совместно с пользователями других устройств, создавать карты в любых условиях, а также добавлять на карты фотографии с камеры устройства."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-20",
+        "text": "Thanks for using Google Earth! This release brings a fresh new look, with new features to help you collaborate with others across devices, create maps on the go, and add photos from your camera to your maps."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/LiMlRqQHaWo8hpN7T6U_OzJLJ0B1D3qnk1Hczd9yy7jsuGb2HacuS9bPFWSRMLNzcWrIlnySRaopDtOZFXousA": "57a158dfcd22a6c686caa07f0c5a8e4a1da63ceff8562ec1fb0dc8b2088091fd.png",
+    "https://play-lh.googleusercontent.com/kRcwvMZpVX0WIrehvFXoM6TqY9G4JwZB0_XrVE_zRtxgmYLk1iVzT8OfMzw72ylimew4utGNnsFVfPcvNXnPspg": "6b303e4d8281248458bc340a73476fe746db9c6436ff876f7abccdfcb808f4b2.png",
+    "https://play-lh.googleusercontent.com/7EXz0NXUg43piSy086wq4A_6uwCnJjWKT1DgNY2vGRM6WcEVFtKS67mIJzi5ADsFSokbJozjnhDI3zo1qYCF4w": "6c872b4cd336363d5008869ddabf5e2485ca6c90403d80c3326c8ef16a9f7a31.png",
+    "https://play-lh.googleusercontent.com/oGpg38sR6djRViHmHC6iHNgXeXC2O5vSnd7qOcmzGpk3BeEFWe1wBNd_YmK1tba8MvVU4vmcNyDKUJrv_Xe6": "6f8a8cc1ff488f3549ebed6ebc8103dcd42dfb022918277c4b986ecb98d8a1c0.png",
+    "https://play-lh.googleusercontent.com/5biFw7NTcNgiQUBmTw84qMxZevnCZEvOXRR-7rpU-Sz6WkJ20rgtD02ZqjwgmDfTuUnZecYYZp0SJR7H-63xag": "a0de2dcef4918c6b29d440f7ba1e7c2ff0a0e4ee63be115ec52cc767e843ee38.png",
+    "https://play-lh.googleusercontent.com/XaDFNyGAnUeTHutUpOzZn0K29fl88Hq1gWxBNqVaOTomXRmlsF1yQt3gzwH_Uq4jQ-ppSvvjvb9opXqd5LMjS4c": "32e895f7da9acfd7b73d98cdbe6df92a2ff6774b769d1ab3f1fb5b44af88474c.png",
+    "https://play-lh.googleusercontent.com/Zr58vChatl1BXu8IDMjFZ-_vkBSMQ5RUA6SLP4jBd2VEWO5OEmBr2fHSGKBtBBpIrQQqcTGQQjP_VzHTMCAa6Q": "a00c44882346698b7e99bd7a3351252e9bd40ff1a185cccd9c2bc67a5f452a17.png",
+    "https://play-lh.googleusercontent.com/c3UQ-Gn9SqpYThyZVBsg6DVuM512SUkSYefwHww8onyI1MIWnZfOF9tEOSvg2ECSmIeITa9Yqz9J49gc2XRj": "08ae81a4c50b27b92996c5dc645ae9c81aa0f6b164dfebedc061068425dfd483.png",
+    "https://play-lh.googleusercontent.com/Gtl7ebHvaSiQGa3C1IWvvPNfPqiSTbOI7DtcT9j1HjIqGYvBTEPiqEb26LO45K434ZtReDc8O1N3hASoWgJ2": "a93da03f22e8f78e4d4637053f518b85142b431abc959ac9e11d9680a930d333.png"
+  }
+}

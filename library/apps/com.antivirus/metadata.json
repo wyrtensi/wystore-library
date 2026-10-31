@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "package": "com.antivirus",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "AVG антивирус & Безопасность",
+      "developer": "AVG Mobile",
+      "description": "<b>Установите AVG AntiVirus FREE для Android, чтобы защитить себя от вирусов и вредоносных программ. Защитите свои личные данные с помощью функций «Блокировка приложений», «Хранилище фотографий», «Безопасность Wi-Fi», «Оповещения о взломе» и «Разрешения приложений».</b><br><br>Более <b>100 000 000</b> человек уже установили антивирусные программы AVG на мобильные устройства. Присоединяйтесь к ним сейчас и используйте дополнительные преимущества.<br>✔ Сканирование программ, игр, настроек и файлов в реальном времени<br>✔ Удаление ненужных файлов и освобождение места на диске<br>✔ Блокировка конфиденциальных приложений с помощью PIN-кода, графического ключа или сканирования отпечатка пальца<br>✔ Возможность скрывать личные фотографии в зашифрованном хранилище<br>✔ Сохранение анонимности с помощью VPN<br>✔ Сканирование сетей Wi-Fi на наличие угроз<br>✔ Обнаруживайте и блокируйте мошеннические сайты, чтобы оставаться в полной безопасности<br>✔ Проверка скорости загрузки и отправки данных сети Wi-Fi<br>✔ Получение оповещений в случае утечки ваших паролей<br>✔ Сведения о разрешениях, предоставленных установленным приложениям<br><br>AVG AntiVirus Free 2026 для Android — это эффективное средство защиты от вирусов и вредоносного ПО с возможностью блокировки приложений, сканирования сети Wi-Fi, а также хранилищем фотографий, позволяющее защитить конфиденциальность и личные данные в Интернете.<br><br><b>Функции приложения</b><br><u>Защита</u><br>✔ Сканирование приложений, игр и файлов с помощью антивируса и удаление вредоносного содержимого<br>✔ Проверка веб-сайтов на угрозы<br>✔ Сканирование сетей Wi-Fi на предмет шифрования<br>✔ Оповещения о взломе: предупреждение в случае утечки ваших паролей<br>✔ Защита от мошенников: Сканируйте веб-сайты, чтобы увидеть, какие из них настоящие, а какие поддельные<br><br><u>Конфиденциальность</u><br>✔ Защищенное паролем хранилище личных фотографий, недоступное для посторонних глаз<br>✔ Блокировка приложений с личными данными для обеспечения конфиденциальности и безопасности<br>✔ Защита VPN для конфиденциальности в Интернете<br>✔ Функция «Разрешения приложений»: сведения о разрешениях, запрашиваемых установленными приложениями<br><br><u>Производительность</u><br>✔ Удаление ненужных файлов и освобождение места в памяти<br>✔ Проверка скорости загрузки и отправки данных сети Wi-Fi<br>✔ Очистка ненужных файлов : удаление скрытых ненужных файлов, освобождение места на диске<br><br><u>Оповещения о взломе:</u><br>✔ Информация об учетных записях, которых ранее коснулись утечки данных<br>✔ Предупреждение в случае новой утечки, которая ставит ваши данные под угрозу<br>✔ Подробные сведения о каждой утечке, в том числе о том, когда она произошла<br>✔ Легкая и быстрая смена скомпрометированных паролей<br><br><u>Аналитика приложений</u><br>✔ Просмотр разрешений, запрошенных для отдельных приложений <br>✔ Анализ использования трафика<br>✔ Обнаружение возможных проблем с конфиденциальностью<br><br>Это приложение использует Accessibility Service API, чтобы защитить слабовидящих и других пользователей от фишинговых атак и вредоносных веб-сайтов с помощью функции «Веб-защита».<br><br>Устанавливая или обновляя это приложение, вы подтверждаете, что будете использовать его в соответствии с условиями, изложенными на сайте http://m.avg.com/terms.<br><br><b><u>Скачайте антивирус бесплатно!</u></b>",
+      "shortDescription": "Защита телефона, Проверка на вирусы, блокировка приложений, Кибербезопасности",
+      "versionName": "26.18.0.261002870",
+      "updatedDate": "2026-10-06",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.antivirus",
+      "changelog": null,
+      "icon": "images/b25c8b4127d74cb9e42c07e20c8d6277a315666f5351a304a8d298702ec5693f.png",
+      "screenshots": [
+        "images/c758f79546a42b234476db8fbf2c19620465afb05c7ef8deef2fbcd21dc422c0.png",
+        "images/0c4c201992aac5eb3a3e7db5d76a0f04d4babcbaedd8fa1d2d10b3248ca592dd.png",
+        "images/6c66820449b8822d1a179ffea36b595e355f21070c2daacbf5060754885c5a32.png",
+        "images/68cce144cb60b4ba97dc9fac10b31accb09a655bc3e1c74d525fa67ecf9bd8a1.png",
+        "images/2c23efde95186d588120b9d5a22f5ca102fce0152d13ba9f4c2d3e8b8725adc1.png",
+        "images/95e4dd6635ae6f239bdc33ec8c2e5fdf925c28af3ccfdd433ed427601b771043.png",
+        "images/28900f98452a4e8dbb84a49e33f285ec8f3ce6efe2a769276c1e4d84a9d724c0.png",
+        "images/4b4f40b5733aad2fa5c1caf41b4cdf91093320ea766ea993a23f920ed8cc66ba.png"
+      ]
+    },
+    "en_US": {
+      "title": "AVG AntiVirus & Security",
+      "developer": "AVG Mobile",
+      "description": "<b>Get AVG AntiVirus FREE - Mobile Security for Android to help protect you from harmful viruses and malware. Keep your personal data safe with App Lock, Photo Vault, Wi-Fi Security Scan, Hack Alerts, Malware security, and App Permissions advisor.</b><br><br>Over <b>100,000,000</b> people already installed AVG’s antivirus mobile security apps. Join them now and:<br>✔ Scan apps, games, settings, and files in real-time<br>✔ Clean unnecessary files to free up space<br>✔ Lock sensitive apps with a PIN, pattern, or fingerprint<br>✔ Hide private photos in an encrypted Vault<br>✔ Block scam calls and texts<br>✔ Stay anonymous with VPN<br>✔ Scan Wi-Fi networks for threats<br>✔ Discover and block scam sites to stay extra-safe<br>✔ Check Wi-Fi download and upload speed<br>✔ Receive alerts if your passwords have been leaked<br>✔ Get insight into the permission level of installed apps<br>✔ Powerful cybersecurity tool that can defend your Android device against a wide range of threats<br><br>With AVG AntiVirus FREE 2026 for Android you’ll receive effective virus and malware protection, app lock, Wi-Fi Scanner, and photo vault to help shield you from threats to your privacy and online identity.<br><br><b>App Features:</b><br><u>Protection:</u><br>✔ Scan apps, games, and files with our antivirus and remove malicious content<br>✔ Wi-Fi Scanner for network encryption<br>✔ Hack Alerts: Get warned if your passwords are compromised<br>✔ Smart Scan: Run an advanced scan and find vulnerabilities hidden in hard-to-find places on your phone.<br><br><u>Scam Guardian</u> <br>✔ Web Guard: Advanced tools to help keep you safe from hidden scams while browsing, banking, and shopping online. Scan and block malware-infected links, as well as Trojans, adware, and spyware (for privacy and safe web browsing, e.g. Chrome). <br><br><u>Scam Guardian Pro</u> <br>✔ Call Guard (Call Blocker): Automatically blocks scam calls and labels if the call is a potential scam, spam, or a verified business <br>✔ SMS Guard: Powerful scam protection for every text message <br>✔ Link Guard:  Scan websites to see which ones are real and fake<br><br><u>Privacy:</u><br>✔ Hide private photos in a password-protected Vault to prevent snooping<br>✔ App Lock: lock sensitive apps to protect your privacy and safety<br>✔ VPN Protection: Secure your online privacy<br>✔ App Permissions: get insight into the level of permission required by your installed apps<br><br><u>Performance:</u><br>✔ Clean unnecessary files and free up storage space<br>✔ Check Wi-Fi download and upload speed<br>✔ Junk Cleaner: Remove hidden junk, free up disk space<br><br><u>Hack Alerts:</u><br>✔ See which accounts have been compromised in past leaks<br>✔ Get warned if a new leak puts your data at risk<br>✔ Discover the details behind each leak and when they happened<br>✔ Change compromised passwords easily and quickly<br><br><u>App Insights:</u><br>✔ See permissions requested for individual apps <br>✔ See where your data is used<br>✔ Discover potential privacy issues<br><br><b>Keep your phone safe against viruses, ransomware and other malware.</b><br><br>This app uses Accessibility Service API to protect the visually impaired and other users against phishing attacks and malicious websites via Web Shield feature.<br><br>By installing or updating this app, you agree that your use of it is governed by these terms: http://m.avg.com/terms<br><br><b><u>Download Antivirus for Free Now!</u></b>",
+      "shortDescription": "Scam & Malware protection, Virus Cleaner, Hack Alerts, App Locker, Photo Vault",
+      "versionName": "26.18.0.261002870",
+      "updatedDate": "2026-10-06",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.antivirus",
+      "changelog": null,
+      "icon": "images/ebd05992004d8db0dfe139ff75ebeb530da3800cf2e2fd268bb89483dae4cc0b.png",
+      "screenshots": [
+        "images/e558ec64f487258b8d23cc787bb44dc1061abeadf8d5ce24bff80a5781c7ffa0.png",
+        "images/46e2fa494336bf6c615d1c4bec099511e78c51eeb6e2cad6a76e4706440a6535.png",
+        "images/771c319897d18e0f3d928e309a85ca3a468ab6784c6952e4e2553dc46e741f99.png",
+        "images/3847e68d8f1e917c19c6f1821b90461cdbd6064345efb7d8cff020a55148a191.png",
+        "images/994d22237e58b5816eb9b56832275d709afbbf3d120e730e9a577f64f5963c97.png",
+        "images/7c6aec3efe51c569e170be5f1d52f7892ab96db687d2c8c019efebbba1656485.png",
+        "images/a79072d8daa6b1ae53e75e04faf5744b739af6e71ef10c91f6ab17cd31892e35.png",
+        "images/d1575aef880c31c82bff3cf57b459ee0b1603868d36de968ae5f7596d579e0ef.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [],
+    "en_US": []
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/w5jWmSqx3vSd5ZVXW2Y-kjlmNBYGNNHV-czW1uQEoT9wT2Z98aK-zH3lThilxMepKidjGtpPV6USpQa1SusXCR8": "b25c8b4127d74cb9e42c07e20c8d6277a315666f5351a304a8d298702ec5693f.png",
+    "https://play-lh.googleusercontent.com/AY5Z2E1TfuLg-uRpP3nVLJROot_KcVbzJPHv3mDHE2ouEK9_gv0g8NUWMg_KR48WN2hzKm14ZcJUFvzyU1YF": "c758f79546a42b234476db8fbf2c19620465afb05c7ef8deef2fbcd21dc422c0.png",
+    "https://play-lh.googleusercontent.com/2qJb6KdOovAVIezsR_rpehj4JvFQrFJjZHUNJWbtmR4BY1PpVNeKPvLSLMiQnSyEj8UiRBfN5RqlAKF0H3v2kw": "0c4c201992aac5eb3a3e7db5d76a0f04d4babcbaedd8fa1d2d10b3248ca592dd.png",
+    "https://play-lh.googleusercontent.com/uwfuqM26QeSu9jp2QPx6kXzU1caQBI83MaTRiUL85VuNGhopfHn0kgUZqIvg935IB3XyS0mGeMbDCQXiYglF": "6c66820449b8822d1a179ffea36b595e355f21070c2daacbf5060754885c5a32.png",
+    "https://play-lh.googleusercontent.com/1F92vdQe3AGq-mCfVWPZ427XpJcRYHyYT6h_F08H4pp56_2Yo0kJIGYal2JGvtEbidl8_eBU_q6Oy6k16axF5A": "68cce144cb60b4ba97dc9fac10b31accb09a655bc3e1c74d525fa67ecf9bd8a1.png",
+    "https://play-lh.googleusercontent.com/_CqvU-u1MlCHTjHQ6tDVKi9fJwZ-LBH55nS-m9POny8SNWJITXdRhzTovalVNvxMKBK_pfguyGqza4brW0Wv": "2c23efde95186d588120b9d5a22f5ca102fce0152d13ba9f4c2d3e8b8725adc1.png",
+    "https://play-lh.googleusercontent.com/cGEqqzP-XWrLvFhBLxTDGRjfJ44tV6pt4SqqzY2MvA1uar-2A9mgE8fgyYrkzE5vBN5CcbM4LH73FyhLMupsTA": "95e4dd6635ae6f239bdc33ec8c2e5fdf925c28af3ccfdd433ed427601b771043.png",
+    "https://play-lh.googleusercontent.com/BmSogio4Z7vNqoz9TDfJxMgLxJtdqYJ98miFzGLoZFn86F7otoy1mp1-e4tdHptLoVMlrXyGvsAtRdLoJp8C": "28900f98452a4e8dbb84a49e33f285ec8f3ce6efe2a769276c1e4d84a9d724c0.png",
+    "https://play-lh.googleusercontent.com/Xb1oVpmAHzNr30Up2A2oVqDAq1Ay38cysEjMfGUeuMyxi5DslBUl-WgVHn6WhkgEXAn-8pymaJ_AtwaYU5uB": "4b4f40b5733aad2fa5c1caf41b4cdf91093320ea766ea993a23f920ed8cc66ba.png",
+    "https://play-lh.googleusercontent.com/xVgg1jnPiAs9DxalqAUaDPBjBLSlI1kXS-mn0dHHA0jxqUrvNV28miuoCTPDzBvb58nNwqFSPghcPvxv1OXAlRI": "ebd05992004d8db0dfe139ff75ebeb530da3800cf2e2fd268bb89483dae4cc0b.png",
+    "https://play-lh.googleusercontent.com/cHYMyJ7LQ-MR-1XcjHg6qRiAKVQ4DjnGvs4wlSYtNMEVZTAOsUYQC_mZh1buU5Ht7vYuAScTlho4P_QTeP36QQk": "e558ec64f487258b8d23cc787bb44dc1061abeadf8d5ce24bff80a5781c7ffa0.png",
+    "https://play-lh.googleusercontent.com/4NygZTOvSmk0AMORObP3yTZFxAxCuuWBYK4H8ChWOKPWd2rxA851et2fPmL0FaMSCcaYVyDPk6aLnYrYvBuW": "46e2fa494336bf6c615d1c4bec099511e78c51eeb6e2cad6a76e4706440a6535.png",
+    "https://play-lh.googleusercontent.com/pvJXYRzvwlsCcmnmOej4Fh1M2mBHMWAfDw2QmN_LmCb-1Whguu5_m0AeB2CKMipvlNjQS8u7I9cel7UW82Hk_w": "771c319897d18e0f3d928e309a85ca3a468ab6784c6952e4e2553dc46e741f99.png",
+    "https://play-lh.googleusercontent.com/bL5rYO-bS262nj0qdt3CWy7CaQHXIY8KcFhDEJKPD54iuYlDApL0iru5Gxi-kTLFAFnOw5WiTouiV3jGqk85_YY": "3847e68d8f1e917c19c6f1821b90461cdbd6064345efb7d8cff020a55148a191.png",
+    "https://play-lh.googleusercontent.com/QWHtHerjazgVpk6SjMxxa9jLDRZmX5Sfhd6OF7hhvJbgicxw0v7lNjAenFB5uqe58J5QzjbRrEdmWr2sKhq8o98": "994d22237e58b5816eb9b56832275d709afbbf3d120e730e9a577f64f5963c97.png",
+    "https://play-lh.googleusercontent.com/AaVA7pF-Z2ZOGXJYu2mZXipeo7aOvdai9Ze9t9kkf5ZY_UPqJNN6l4nhdYc__xl8_A8GD3rDdGHtqlvPAH9uwQ": "7c6aec3efe51c569e170be5f1d52f7892ab96db687d2c8c019efebbba1656485.png",
+    "https://play-lh.googleusercontent.com/qYepIvP5v-1EjyJJyCt5-HtOU8z91BB2UUZSpI02Drt4vC_fJopxKyGDbh4VHemQh8-jl-CdiEot1lHoOnmh0w": "a79072d8daa6b1ae53e75e04faf5744b739af6e71ef10c91f6ab17cd31892e35.png",
+    "https://play-lh.googleusercontent.com/PP_53r0qJX-bmQk3omDqHtnyH8WKGFT0SF--c1rmR0-1b8CHdiatpKDOGzj8I4CmBetN2d32-OBpOG4sHYXZ": "d1575aef880c31c82bff3cf57b459ee0b1603868d36de968ae5f7596d579e0ef.png"
+  }
+}

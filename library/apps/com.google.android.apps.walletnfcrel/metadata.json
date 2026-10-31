@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "package": "com.google.android.apps.walletnfcrel",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Google Кошелек",
+      "developer": "Google LLC",
+      "description": "Google Кошелек обеспечивает быстрый и безопасный доступ к инструментам для решения важных повседневных задач. Бесконтактная оплата везде, где поддерживается Google Pay, регистрация на авиарейсы, посещение кинотеатров и многое другое – с помощью смартфона. Где бы вы ни находились, ваши данные будут под защитой. <br><br>УДОБСТВО<br><br>Все необходимое под рукой<br>+ Открывайте инструменты для решения повседневных задач любым удобным способом. Вы можете использовать быстрые настройки, перейти в приложение Кошелек с главного экрана или обратиться к Google Ассистенту, если заняты руки.<br><br>Кошелек для банковских карт, билетов, посадочных талонов и многого другого<br>+ Покупайте билеты на поезда, ходите на концерты или получайте бонусы в любимых магазинах – с электронным кошельком это удобно.<br>+ [Только для США] Google Кошелек – отличный компаньон в путешествии. В нем можно хранить водительское удостоверение и цифровой автомобильный ключ.<br><br>Нужные решения в нужный момент<br>+ Кошелек вовремя предложит то, что вам нужно. Он пришлет посадочный талон в уведомлении в день отправления, поэтому вам не придется тратить время на поиски документов.<br><br>НАДЕЖНОСТЬ<br><br>Чеки никогда не потеряются<br>+ Легко находите сведения о транзакциях, в том числе данные о местоположении из Google Карт.<br><br>Интеграция во все сервисы Google<br>+ Синхронизируйте Кошелек с другими сервисами. Тогда Календарь и Ассистент всегда будут предоставлять актуальную информацию, например показывать уведомления о рейсе или других событиях.<br>+ Проверяйте баланс бонусных баллов и акции для постоянных клиентов в Картах, Покупках и других сервисах.<br><br>Быстрое начало работы<br>+ Удобная интеграция с возможностью импортировать банковские карты, проездные билеты, карты постоянного клиента и другие данные, сохраненные в Gmail.<br><br>Только актуальные сведения<br>+ Путешествуйте без лишних проблем благодаря информации из Google Поиска. Google Кошелек поможет узнать о неожиданной задержке рейса или об изменении выхода на посадку.<br><br>БЕЗОПАСНОСТЬ И КОНФИДЕНЦИАЛЬНОСТЬ<br><br>Надежное хранилище данных<br>+ Безопасность и конфиденциальность данных лежат в основе работы Google Кошелька.<br><br>Android: защита, на которую можно положиться<br>+ Обеспечьте безопасность данных. В ОС Android вам доступны двухэтапная аутентификация, функция Где мой телефон, а также возможность удаленно стереть сведения.<br><br>Бесконтактная оплата для защиты банковских карт<br>ALT: + При бесконтактной оплате с телефона Android сервис Google Pay не передает магазину номер вашей банковской карты, поэтому ваши платежные данные остаются в безопасности.<br><br>Данные аккаунта всегда под вашим контролем<br>+ Без труда управляйте настройками конфиденциальности и выбирайте, какой информацией делиться в разных продуктах Google.<br><br>Google Кошелек доступен на всех телефонах Android и устройствах Wear OS (Lollipop 5.0 или более поздней версии).<br>Остались вопросы? Перейдите на сайт support.google.com/wallet.",
+      "shortDescription": "Быстрый и безопасный доступ к картам и билетам",
+      "versionName": null,
+      "updatedDate": "2026-10-22",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel",
+      "changelog": "• Google Кошелек обеспечивает безопасное хранение всех нужных данных в одном месте, где бы вы ни находились.<br>• Более быстрый, надежный и легкий доступ к платежным картам, картам постоянного клиента, билетам на концерт и многому другому в вашем телефоне Android.",
+      "icon": "images/118a5d4b6385d3900a34b40eb4c3aea7e40e503d829887c2d2100c15fe6ffb66.png",
+      "screenshots": [
+        "images/50a8ac1c2b672ffe662900f4f59dded2914a840f25fae5ddc4db99498f858d88.jpg",
+        "images/139b5e28e0c8bd05b14b3f639f7d1158e2133c8f0dcb0471b9598c10a31d26b1.jpg",
+        "images/4b1de058d44b77106a9d14ad0a8df9c3ca781490f36134a1e150f07437a5b4f6.jpg",
+        "images/bd7f6c7f8d9ccdac77d4716bd9ab5c69f683f15741cd7ee675a7e4c370273a6b.jpg",
+        "images/e100f50a7443f66aa5b16e29aa3c140d8c4e6d9e5803b496d98ef0e3988d6e0e.jpg",
+        "images/721be58e6459257779aa68b738e69785f12b5b972432d71e3fbbe27d53b834ea.jpg",
+        "images/7cdcb8293c4f1d6bb5712c0f3aca00a776851f61334d6d8358c34defc704213b.jpg",
+        "images/ed244c50cca78b8911a01511dd2564f1ac879aa2a9ca2bcf95a89e0cf4232a6f.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Google Wallet",
+      "developer": "Google LLC",
+      "description": "Google Wallet is the safe, fast, and smart way to access your credit cards, debit cards, transit passes, tickets, digital IDs, and more wherever you are—on the go, online, and across Google.<br><br>Breeze through checkout on sites, in apps, or in-store wherever contactless payments or Google Pay (GPay) are accepted. <br><br>Google Wallet keeps what matters to you in one secure place with built-in, industry-leading privacy and security.<br><br>Safer than swiping your debit card or credit card<br>• When you tap to pay with your Android device, Google Pay (GPay) protects your card information by sharing a unique virtual card number with the store—not your actual card number.<br>• Tap to pay is fast and easy. Just ensure NFC is enabled in your settings, unlock your phone, hold it near the terminal, and wait for the check mark.<br><br>Easily use your loyalty benefits<br>• Keep loyalty cards and gift cards organized and accessible, so you won’t miss a chance to earn or redeem rewards.<br><br>View your receipts in one place<br>• View receipts from online and in-store transactions right in your digital wallet.<br><br>Travel with confidence<br>• Add your airline boarding pass and get real-time updates, like gate changes and departure times for your flight. <br>• Store your transit pass in Google Wallet, and pay your fare with just a tap.<br><br>Keep event passes handy<br>• Add your event, concert, and sports tickets to Wallet for easy access. Just open Wallet and show your ticket when entering the event.<br>• Google Wallet automatically updates your ticket with the latest event information, so you don’t miss a beat.<br><br>Speed through online checkout<br>• Use the GPay button or autofill in Chrome to quickly access credit cards and debit cards saved to your Google Wallet to make online purchases.<br><br>Track your online orders<br>• Link Google Wallet to Gmail to view the status and expected delivery date for your orders – all in one place. (US only)<br><br>Manage your digital IDs<br>• Get quick, reliable access to digital versions of your driver’s license, student ID, and more.<br><br>Security and privacy you can count on<br>• Google Wallet features industry-leading security built right into your Android phone, including 2-Step Verification, Find My Phone, and remote data erase. <br>• You choose the info you share between Google products, so you can better control your digital footprint.<br><br>Google Wallet is available on all Android phones (Pie 9.0+), Wear OS and Google Fitbit devices.<br>Not all features are available for supervised accounts. Learn more about Wallet for supervised accounts here: support.google.com/wallet?p=about_wallet_supervised.<br>Still have questions? Head over to support.google.com/wallet.",
+      "shortDescription": "Tap to pay with Google Pay (GPay), plus secure access to passes, IDs & tickets.",
+      "versionName": null,
+      "updatedDate": "2026-10-22",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel",
+      "changelog": "• Keep everything protected in one place, no matter where you go, with Google Wallet.<br>• Enjoy fast, simple, secure access to essentials like your payment cards, loyalty cards, digital IDs, concert tickets, transit passes and more – all from your Android phone or smartwatch.",
+      "icon": "images/118a5d4b6385d3900a34b40eb4c3aea7e40e503d829887c2d2100c15fe6ffb66.png",
+      "screenshots": [
+        "images/0c3ac02ce1caf4fdb1e8397df94a3eaf0104fab33ca99f6dd61aee2af31d4cc4.png",
+        "images/9ead3713492e57493011c5e161db5e843a2d3d95b88fb474d37db1633103c256.png",
+        "images/f4b97e8496f1d0286627b470aec6107b59598b1b727e11f92067978d10925320.png",
+        "images/1ac7217f99e542ad5e46faf4d15c3cf5c3afa3c00204f001379059056f71d8a1.png",
+        "images/13998f7a0c755dada829e3eee5c8b9042fa9e13a90ced083924b19afdab6facd.png",
+        "images/7bea3d580b66073f1c04e522b33916da75dab16e1d9cbaa9d2d72c902b1423f3.png",
+        "images/ae0f96a5691e92397792b8756d3caaa60b3df70a483d901250a93a0189f95fbc.png",
+        "images/ed244c50cca78b8911a01511dd2564f1ac879aa2a9ca2bcf95a89e0cf4232a6f.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-22",
+        "text": "• Google Кошелек обеспечивает безопасное хранение всех нужных данных в одном месте, где бы вы ни находились.<br>• Более быстрый, надежный и легкий доступ к платежным картам, картам постоянного клиента, билетам на концерт и многому другому в вашем телефоне Android."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-22",
+        "text": "• Keep everything protected in one place, no matter where you go, with Google Wallet.<br>• Enjoy fast, simple, secure access to essentials like your payment cards, loyalty cards, digital IDs, concert tickets, transit passes and more – all from your Android phone or smartwatch."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/zd5pb7c2r_TXGBPSQyNN_Kq_WzsjhEqX8sdyl0CkEAjshnbscd71SmLPh1L_xVCcckP2LOC2ZpB1n23Q8NuRvA": "118a5d4b6385d3900a34b40eb4c3aea7e40e503d829887c2d2100c15fe6ffb66.png",
+    "https://play-lh.googleusercontent.com/thrjKhmAMs41ic4oT5oTbxEMmlkG2WIeNfiuHDRVfBMxlWaVlFxb9A41uPzlJn2owIpwNh15R-h4lo16E2ZG": "50a8ac1c2b672ffe662900f4f59dded2914a840f25fae5ddc4db99498f858d88.jpg",
+    "https://play-lh.googleusercontent.com/zucEbgzOZDWluQOM56Rlv3yLHV6EhsKr91pa0WxzKfM33h4D6Wnf0NvyWmuFGs9xIilWdyfEb2QmYTnd12lC7g": "139b5e28e0c8bd05b14b3f639f7d1158e2133c8f0dcb0471b9598c10a31d26b1.jpg",
+    "https://play-lh.googleusercontent.com/5e8hDo8FxMFSapdhOLzJ2fPWOkm7M5ZzWxjad_VHHOi5gdMhfIUNF8TTqYJtq5ooQeCIimdo38Qx10lARkFbsi8": "4b1de058d44b77106a9d14ad0a8df9c3ca781490f36134a1e150f07437a5b4f6.jpg",
+    "https://play-lh.googleusercontent.com/PEsuZ6eVmXELlodERh8Y654qVXzGrgnYn6k5gpVDeOeJe81cJiAdLqDFhgVVY-gOithQpgcXq6P3gLPSLybpHfs": "bd7f6c7f8d9ccdac77d4716bd9ab5c69f683f15741cd7ee675a7e4c370273a6b.jpg",
+    "https://play-lh.googleusercontent.com/4FFGO05O42oeSqHsrBi2XOo4Ru2p-UDdQzVkSAnQieGFIcu9ASH_LRfKggAs82XLQsQWaq-wOAkwZBp44ztAxA": "e100f50a7443f66aa5b16e29aa3c140d8c4e6d9e5803b496d98ef0e3988d6e0e.jpg",
+    "https://play-lh.googleusercontent.com/gjee_GbEbqexAwh2IXF-PzM0ll_x3CVB9pRZChS8_7hmeWr4DptEG6rtqTzRMwIAYT0cY12oXzwOmY_uN1MqUQ": "721be58e6459257779aa68b738e69785f12b5b972432d71e3fbbe27d53b834ea.jpg",
+    "https://play-lh.googleusercontent.com/Q1NGdmhQwau7Z5hC_8AKLtUqyBARU9Ev3ZBCkacRh8y1a9d-G4JvOqjeCHhzq5YB0ZYi4GE-OoaoBI9Pki1J1w": "7cdcb8293c4f1d6bb5712c0f3aca00a776851f61334d6d8358c34defc704213b.jpg",
+    "https://play-lh.googleusercontent.com/J5zf7ramLDU5pwFKHGZdNJW9Mr5SqSb6WZulzwNzMekYgIpT9cYRekasUvw7-AETwQVdhGnlrtXUGAOSLxKXoA": "ed244c50cca78b8911a01511dd2564f1ac879aa2a9ca2bcf95a89e0cf4232a6f.jpg",
+    "https://play-lh.googleusercontent.com/avZAJo9VrazHCJYFn8oNzX4gekKxrpOHVrl2gAtesnhNrF65PzWNMPgYf-I8UcPdX388R2QkycausorRFT6J": "0c3ac02ce1caf4fdb1e8397df94a3eaf0104fab33ca99f6dd61aee2af31d4cc4.png",
+    "https://play-lh.googleusercontent.com/eOdhhqSJrKBNzyWFk0VX7AFnN-F3PLlVtxa7YQkp96cDlftWY30SHDnSy8JwSAsP4wWwrUpPJL2yMxkNYSD7Kw": "9ead3713492e57493011c5e161db5e843a2d3d95b88fb474d37db1633103c256.png",
+    "https://play-lh.googleusercontent.com/-IHHpG-YL3lpcjb3OS8FjIIv2IKjxouVY3nHTdIlepkJJgEgF8E6CRo5qArSqb9oRMrF3-z5yKEE9nEUT2yV": "f4b97e8496f1d0286627b470aec6107b59598b1b727e11f92067978d10925320.png",
+    "https://play-lh.googleusercontent.com/2QyHrS3YeGkPtBrEXco6MfNTVz5F3gtoD4f7xE5vSAy1QIeABzdawq1P_x_9CT6WpszgjgcTZ6d7j8xAM4sHhw": "1ac7217f99e542ad5e46faf4d15c3cf5c3afa3c00204f001379059056f71d8a1.png",
+    "https://play-lh.googleusercontent.com/rQYRoTKSBvGl6XBBHcYqLb6qEp2gQabIhRtJC0CSinZX-RcTZjXRQcj8z3XpBGI-R17iCp9oXF-EbyFURJAT5A": "13998f7a0c755dada829e3eee5c8b9042fa9e13a90ced083924b19afdab6facd.png",
+    "https://play-lh.googleusercontent.com/tZrQDWTliozYhdxTza0TxlcmTbPlnaZF4v2Mmw4AdwoTK8ymis6O1D-GgJPBaoa3Hn5o8dWlIML36luFKXL4AA": "7bea3d580b66073f1c04e522b33916da75dab16e1d9cbaa9d2d72c902b1423f3.png",
+    "https://play-lh.googleusercontent.com/QZg740yqK1HfYFxEu1OAd9Vq_RXcFk_99jAa0-_W2TDMHuFX-Ikv0zSXhwFhXWg6rHtU1jnKpAZxDnwY_A_w": "ae0f96a5691e92397792b8756d3caaa60b3df70a483d901250a93a0189f95fbc.png"
+  }
+}

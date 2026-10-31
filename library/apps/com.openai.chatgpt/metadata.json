@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "package": "com.openai.chatgpt",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "ChatGPT",
+      "developer": "OpenAI",
+      "description": "Пользуясь официальным приложением ChatGPT, вы получаете мгновенные ответы и вдохновение, где бы вы ни находились.<br><br>Это бесплатное приложение предоставляет вам новейшие улучшения моделей от OpenAI, включая доступ к GPT-4o, нашей новейшей и самой умной модели.<br><br>С ChatGPT в вашем кармане вы получите следующие функции:<br><br>· Голосовой режим — коснитесь значка «Наушники», чтобы говорить на ходу, заказать сказку на ночь для всей семьи или разрешить спор за обеденным столом.<br>· Загрузка фотографий — расшифруйте рукописный рецепт или спросите о памятнике.  <br>· Творческое вдохновение — идеи подарков на день рождения или создание индивидуальной поздравительной открытки.<br>· Индивидуальный совет — помощь в разработке индивидуального ответа или обсуждение трудной ситуации.<br>· Персонализированное обучение — объясните, что такое электричество, ребенку, любящему динозавров, или быстро ознакомьтесь с историческим событием..<br>· Профессиональный вклад — коллективное обсуждение маркетингового текста или бизнес-плана.<br>· Мгновенные ответы — получите рекомендации рецептов, если у вас есть всего несколько ингредиентов.<br><br>Присоединяйтесь к сотням миллионов пользователей и попробуйте приложение, покорившее мир. Загрузите ChatGPT сегодня.<br><br>Условия использования: https://openai.com/terms",
+      "shortDescription": "Ваш ИИ-ассистент для текстов, поиска, генерации изображений и не только",
+      "versionName": "1.2026.293",
+      "updatedDate": "2026-10-30",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+      "changelog": "Minor fixes and improvements",
+      "icon": "images/4e2fd1df4ed6e215262bdfff54c272c83176ba8bf58e0392b2123d6acb762d14.png",
+      "screenshots": [
+        "images/3c029e6b11613d73ce8febc4e2059b8de0bce8f95d163e01602ca58c6a6931bb.jpg",
+        "images/6aab5a32112d1e88231285e419713f711f1f75b710cdaf7097305c16d8ffb67f.jpg",
+        "images/681a5b9ef440a4e122a11f847128d3ed2985b1e7415af48af7589cf699470aee.jpg",
+        "images/0debbeaca90c331da2f2964dfea7de2ac111a92c21fc2e38ce7557c1c652ac70.jpg",
+        "images/007807e988b43b78694b21fe2d248444848244259b142dab6934e1931b669013.jpg",
+        "images/fc4a3c891a765a200aac1fed8e36f3aabcd05789e95d5c52bba2b5b61799f81b.jpg",
+        "images/d9bf604b4dcbba1e42869216b8fb7e2300ffff6e1d609b75763db87fc188470b.jpg",
+        "images/c2f207982853c2c5f1aeab1921e013b3938febb7447246231a927dd0949acab0.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "ChatGPT",
+      "developer": "OpenAI",
+      "description": "Introducing ChatGPT for Android: OpenAI’s latest advancements at your fingertips.<br><br>This official app is free, syncs your history across devices, and brings you the latest from OpenAI, including the new image generator.<br><br>With ChatGPT in your pocket, you’ll find:<br><br>· Image generation–Generate original images from a description, or transform existing ones with a few simple words. <br>· Advanced Voice Mode–Tap the soundwave icon to have a real-time convo on the go. Settle a dinner table debate, or practice a new language. <br>· Photo upload—Snap or upload a picture to transcribe a handwritten recipe or get info about a landmark. <br>· Creative inspiration—Find custom birthday gift ideas or create a personalized greeting card.<br>· Tailored advice—Talk through a tough situation, ask for a detailed travel itinerary, or get help crafting the perfect response. <br>· Personalized learning—Explain electricity to a dinosaur-loving kid or easily brush up yourself on a historic event.<br>· Professional input—Brainstorm marketing copy or map out a business plan.<br>· Instant answers—Get recipe suggestions when you only have a few ingredients.<br>· Screen share with Accessibility Services — In limited availability, users can choose to let ChatGPT help answer questions about screen details without requiring screenshot uploads.<br><br>Join hundreds of millions of users and try the app captivating the world. Download ChatGPT today.<br><br>Terms of service & privacy policy:<br>https://openai.com/policies/terms-of-use<br>https://openai.com/policies/privacy-policy",
+      "shortDescription": "Your AI assistant for writing, search, image generation, and more",
+      "versionName": "1.2026.293",
+      "updatedDate": "2026-10-30",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+      "changelog": "Minor fixes and improvements",
+      "icon": "images/4e2fd1df4ed6e215262bdfff54c272c83176ba8bf58e0392b2123d6acb762d14.png",
+      "screenshots": [
+        "images/a0e97cc37a443eeb315372ff2b807ace238f031ea1a41eaa26832855b070d419.jpg",
+        "images/6bfd30ca4009fe9b8c65d36caed6657e53bbb037640684b6adc5343449bce0ac.jpg",
+        "images/a431213c3771607711115f2f5774c883729d09d1790dd25f7e24d82300dd9e7b.jpg",
+        "images/ef0b197e29118aafc937fe65461acb1ef6b6f40df9eb3407347661b260fb384c.jpg",
+        "images/5e3d47b8f0ac77f1a79b4258e8e0026198ce68d0d4e940598805304bc6ba2409.jpg",
+        "images/9f5b5244c7acbaac84770bc36c962c2dd10588c7255239c6176249a7ed6cad38.jpg",
+        "images/9fe636c4049cfed2547d8b5f48fc35d0235557096fa1d1a0962672241ac94f9c.jpg",
+        "images/13adb24f55a7888fd5802d1ba52dcddee8e96935c19a935ddbb355f9dea947dc.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "1.2026.293",
+        "updatedDate": "2026-10-30",
+        "text": "Minor fixes and improvements"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "1.2026.293",
+        "updatedDate": "2026-10-30",
+        "text": "Minor fixes and improvements"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/T9J8e9oxxPd600j_KPM4KK2GHfNpUpGBdTy8lHPXBXpOUfGusRuZXj0UMgFNrP8we6LVt9V-AibEgcLootE6VK4": "4e2fd1df4ed6e215262bdfff54c272c83176ba8bf58e0392b2123d6acb762d14.png",
+    "https://play-lh.googleusercontent.com/l-_rGlCg5bMrnqdRZdfdh-eEvg7lsQVJszDrEt_NiFNA-Uxj6u3a3cHZ-uI52i6rLtHoZEgtpg6qM3WG4w9c5og": "3c029e6b11613d73ce8febc4e2059b8de0bce8f95d163e01602ca58c6a6931bb.jpg",
+    "https://play-lh.googleusercontent.com/1ZDlRgOVD_bVI-DPk_xVi4UH-jtQG_Ps7sufLUc-cnhhdXKaGZJMLvxflh78v-kPNeX80a4jj3NHJsRgu7ebtw": "6aab5a32112d1e88231285e419713f711f1f75b710cdaf7097305c16d8ffb67f.jpg",
+    "https://play-lh.googleusercontent.com/FO7NH0fGvdpYVWN8mEK3j9WVOAE-jUKGo9urGo7v0s6CwSBvod4klYCXpVnDMqxi-nf88RWPHVesQpxg46WHyQ": "681a5b9ef440a4e122a11f847128d3ed2985b1e7415af48af7589cf699470aee.jpg",
+    "https://play-lh.googleusercontent.com/9EKh_ITrwJuZYCih6aITbLcBLUy1XLM13dYqQ4HeyoV8TYugBftgxtSaZ8NJsM_E8-6REsuETjU5fF5cWgBM": "0debbeaca90c331da2f2964dfea7de2ac111a92c21fc2e38ce7557c1c652ac70.jpg",
+    "https://play-lh.googleusercontent.com/DxtCRo_mCDcb9HoPLZTlCFjfuReYAjCMzRu0WM2orbMxQvm9YlTyYaWa5-bwZmyz88G8k6KK93JtdVWlBv6A": "007807e988b43b78694b21fe2d248444848244259b142dab6934e1931b669013.jpg",
+    "https://play-lh.googleusercontent.com/wNtp5iiSivRt3zDuuMmhCCL6R4NVBeAIQg45x-3ZCY4bqveqSljSUqgHhtVoxzYetnYhrnIMzAbX8sVCKraCM0A": "fc4a3c891a765a200aac1fed8e36f3aabcd05789e95d5c52bba2b5b61799f81b.jpg",
+    "https://play-lh.googleusercontent.com/w49shptRARLbLxVdrJcuLyT_eX9j7pB9IUk106D6NtP4wiv2MNon0RLL0rTC_31BxOOQmyZGtsz9IXG0zTafXhE": "d9bf604b4dcbba1e42869216b8fb7e2300ffff6e1d609b75763db87fc188470b.jpg",
+    "https://play-lh.googleusercontent.com/NH4zDUD0QZqG0c7WaUZcCe0oZULMVsn_pPBUr_lvjZvE1RbmwjfHrqMF7i-Ry--urD3FiFSf4v0XNgWJzir_zsk": "c2f207982853c2c5f1aeab1921e013b3938febb7447246231a927dd0949acab0.jpg",
+    "https://play-lh.googleusercontent.com/29Ke3337zH310guLREGkQUo9x1h4pr3c8sZqRqqW8xmPlHI_TQK9EJWB_zzIICFk8LAMME6ewkPqtunHKTd9IQ": "a0e97cc37a443eeb315372ff2b807ace238f031ea1a41eaa26832855b070d419.jpg",
+    "https://play-lh.googleusercontent.com/DBLDNl2Ma8Ag2qqh1gfyWGipGGBG5Yl3c38RCJBjfPOS2gkFsZXFgelpfk1WOLZ8h0a6GJOLYhDXAVRQ4uFFpg": "6bfd30ca4009fe9b8c65d36caed6657e53bbb037640684b6adc5343449bce0ac.jpg",
+    "https://play-lh.googleusercontent.com/AKwy7lW8SpiNSenVsOzjFQy1LOYzIrwgjyHAzu5G1yyxzQB6RE_8uWeI-lCZM9pBlUsBisQ0f9tg89J3Pref": "a431213c3771607711115f2f5774c883729d09d1790dd25f7e24d82300dd9e7b.jpg",
+    "https://play-lh.googleusercontent.com/DeAqmSok_qgxHSzPInPisyf4XTWbg3TtvWpdLx5w4-1yjQYVfkzgel74wA4Mrxho0S6uB4S7-0xCvTGlEudbvA": "ef0b197e29118aafc937fe65461acb1ef6b6f40df9eb3407347661b260fb384c.jpg",
+    "https://play-lh.googleusercontent.com/H6xRVwOo5d7DW5pVMHKNLwa5GPCM8pE7dIbvf6ic9W8NuHJJyUze6hGAXuOPyPC2Ilbx-f8SOqLfOvqvBnL2J1o": "5e3d47b8f0ac77f1a79b4258e8e0026198ce68d0d4e940598805304bc6ba2409.jpg",
+    "https://play-lh.googleusercontent.com/3F9x7SydFD_h3jfyuLtEwMhKeUSPw20M2k9aGhaQFVPOXo2WiioL-ZKsYT7cEK9JnPijwUNH_KEjcCTTkFAlvQ": "9f5b5244c7acbaac84770bc36c962c2dd10588c7255239c6176249a7ed6cad38.jpg",
+    "https://play-lh.googleusercontent.com/I27zNEJGL_j2sxK_5QM-cS62uj2PX8FuC4vNzSiiOhDgjsB-gk0TxGoSj_bp3SwBOy28tFsDy_bPwHXZZZh0eA": "9fe636c4049cfed2547d8b5f48fc35d0235557096fa1d1a0962672241ac94f9c.jpg",
+    "https://play-lh.googleusercontent.com/QBJJr4L64zuXzlxv-ByT7agtVUTf3Y9OnsTi6XJ2XYIXzQWIUAC-aQq8xYa_UUgyEi3RAaSe9RCfVyjHDgfWkt8": "13adb24f55a7888fd5802d1ba52dcddee8e96935c19a935ddbb355f9dea947dc.jpg"
+  }
+}

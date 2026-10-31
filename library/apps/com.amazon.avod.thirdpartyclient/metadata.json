@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "package": "com.amazon.avod.thirdpartyclient",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Prime Video",
+      "developer": "Amazon Mobile LLC",
+      "description": "Смотрите фильмы, сериалы, прямые трансляции и спортивные соревнования, включая такие сериалы и фильмы Amazon MGM Studios, как «Дом у дороги», «Властелин колец: кольца власти», «Фолаут», «Ричер», «Парни», «Мысль о тебе» и многое другое. Вы можете просматривать видео, находить избранное или же смотреть фильмы и сериалы, рекомендованными именно вам.<br><br> Возможности приложения<br> • Скачивайте видео, чтобы смотреть их где угодно.<br> • Берите напрокат или покупайте новые фильмы и популярные сериалы (доступность зависит от рынка).<br> • Транслируйте контент с телефона или планшета на большой экран с помощью Chromecast или Fire TV.<br> • Создайте несколько профилей, чтобы каждый пользователь получал особенные впечатления.<br> • Загляните за кулисы фильмов и сериалов благодаря эксклюзивной функции X-Ray на базе IMDb (доступность зависит от рынка).<br><br> С нашими условиями и правилами использования можно ознакомиться на сайте amazon.com/videoterms. Amazon, логотип Amazon, Prime Video являются товарными знаками Amazon.com, Inc. или дочерних компаний.",
+      "shortDescription": "Смотрите фильмы, сериалы, прямые трансляции и спортивные соревнования",
+      "versionName": null,
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient",
+      "changelog": "Enjoy Amazon Prime Video in over 200 countries and territories around the globe! <br>Download movies and TV shows using Wi-Fi or cellular networks.",
+      "icon": "images/a1342a92272a245310904d5c6c2fe8196b032f668f345ef0fdcebded979ef97e.png",
+      "screenshots": [
+        "images/c9078dc3f7c408151b27640910be6bddff8c1a23d77cd571c9e63995f780f22c.jpg",
+        "images/c0320541c59a63e06bc9987d3c637a2869d4361466ff5b4ed2a72a2c040cf459.jpg",
+        "images/f77de83d076200229770333f4b19920e73a109e5ef14e14033cc13163c9d3e5e.jpg",
+        "images/b02fa1f8656fb96f20a462f4ec0bd9f7d61aba7bdac15723cb08a078adc9c54e.jpg",
+        "images/8c5aa30a1aeb71285ff1a82eea076b5d3b858a8d7a293072d688ee454eb3b656.jpg",
+        "images/4a3392694e395b8312919538511f7e44c1616981e3b83e504a5c795ec31f1680.jpg",
+        "images/9993f7eb2efb22d452b4f8bd5ead6a58265746c282530de54c74a1a180d42fb6.jpg",
+        "images/ada60bb87d73e94349a71f15853d12329c54446087f4ae454c5e155cb34c0f71.png"
+      ]
+    },
+    "en_US": {
+      "title": "Prime Video",
+      "developer": "Amazon Mobile LLC",
+      "description": "Watch movies, TV shows, live programming, and sports including Amazon MGM Studios-produced series and moviesRoad House, The Lord of the Rings: The Rings of Power, Fallout, Reacher, The Boys, and The Idea of You, and much more. Browse titles, search for your favorites, or enjoy movies and shows recommended just for you.<br><br>App features:<br> • Download videos to watch anywhere.<br> • Rent or buy new-release movies and popular TV shows (availability varies by marketplace).<br> • Cast from your phone or tablet to the big screen with Chromecast or FireTV.<br> • Create multiple profiles so each person gets a personalized entertainment experience.<br> • Go behind the scenes of movies and TV shows with exclusive X-Ray access, powered by IMDb.<br><br> For our Terms of Use and usage rules, go to amazon.com/videoterms. Amazon, the Amazon logo, and Prime Video are trademarks of Amazon.com, Inc. or its affiliates.",
+      "shortDescription": "Watch movies, TV shows, live programming, and sports",
+      "versionName": null,
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient",
+      "changelog": "Enjoy Amazon Prime Video in over 200 countries and territories around the globe! <br>Download movies and TV shows using Wi-Fi or cellular networks.",
+      "icon": "images/a1342a92272a245310904d5c6c2fe8196b032f668f345ef0fdcebded979ef97e.png",
+      "screenshots": [
+        "images/221865771fbdc0b8cabc6acf92e421f2795658d9900da1b33adfc7633b3261c3.jpg",
+        "images/c0320541c59a63e06bc9987d3c637a2869d4361466ff5b4ed2a72a2c040cf459.jpg",
+        "images/f77de83d076200229770333f4b19920e73a109e5ef14e14033cc13163c9d3e5e.jpg",
+        "images/b02fa1f8656fb96f20a462f4ec0bd9f7d61aba7bdac15723cb08a078adc9c54e.jpg",
+        "images/8c5aa30a1aeb71285ff1a82eea076b5d3b858a8d7a293072d688ee454eb3b656.jpg",
+        "images/4a3392694e395b8312919538511f7e44c1616981e3b83e504a5c795ec31f1680.jpg",
+        "images/48ea3a87740ac2c1b02af6c6b2ba558c5fe01c0d5ee97928f295c8146ff9aa89.jpg",
+        "images/ada60bb87d73e94349a71f15853d12329c54446087f4ae454c5e155cb34c0f71.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-27",
+        "text": "Enjoy Amazon Prime Video in over 200 countries and territories around the globe! <br>Download movies and TV shows using Wi-Fi or cellular networks."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-27",
+        "text": "Enjoy Amazon Prime Video in over 200 countries and territories around the globe! <br>Download movies and TV shows using Wi-Fi or cellular networks."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/NnoDzfxkvlsAvU8jzoPeK8aaxbcU2sEH_btwgMQ2xI88_qtrNGQuf1vlFkxSiQODyKVFZ3-s71sU1MHyV-vc9Q": "a1342a92272a245310904d5c6c2fe8196b032f668f345ef0fdcebded979ef97e.png",
+    "https://play-lh.googleusercontent.com/8DV9MwqEE3GBnkEBa8XQMzFfSbgSqzBsKxmFqLUL3Hdp9gr9QKuUAaPlCHfoEyykpYg5R033NQDxaGwiPYbG": "c9078dc3f7c408151b27640910be6bddff8c1a23d77cd571c9e63995f780f22c.jpg",
+    "https://play-lh.googleusercontent.com/vYIROhWlrAtOYCt9kOF5K6Tt8otgbQ9tj1yGkNMoRnP7CjOlHw1IKoZ1a-AHNXLC9XcM0q4kEXyMFDlh3n09Vik": "c0320541c59a63e06bc9987d3c637a2869d4361466ff5b4ed2a72a2c040cf459.jpg",
+    "https://play-lh.googleusercontent.com/P_WitdaufjfUGKs0ARfbdHB9x9rBqKJUwREqSQhRnXPrIJDHmGKMA9r1ERFak41lQJKYD6V8bjyGBITlPgB1Kw": "f77de83d076200229770333f4b19920e73a109e5ef14e14033cc13163c9d3e5e.jpg",
+    "https://play-lh.googleusercontent.com/5oEhPi68SAikZ0XQWovT9KGvQ0dZbywwIiV4UGQUj7OjTEZIzEtQyxAvkaW8RziBZsV99LHx3yfwfQ1KcwUeyA": "b02fa1f8656fb96f20a462f4ec0bd9f7d61aba7bdac15723cb08a078adc9c54e.jpg",
+    "https://play-lh.googleusercontent.com/JFTOZIDSm4OQ24WyABtdjIvNS1qlXjg7GpFj2Pkl6OgAi17i6FWsz8796RmQewbZX4ltOUyfCN-PaJaWQUnaGLY": "8c5aa30a1aeb71285ff1a82eea076b5d3b858a8d7a293072d688ee454eb3b656.jpg",
+    "https://play-lh.googleusercontent.com/e_F9XmZdUXsWfgNSJ1msIOyVgsTE_RM_Dpm76Q6O_v1MbIw0EjLK7wm-KzbIh0Yqg1SCCI6Aq4XWptfIvuyJY00": "4a3392694e395b8312919538511f7e44c1616981e3b83e504a5c795ec31f1680.jpg",
+    "https://play-lh.googleusercontent.com/a_2MuBpD6s_Umu6k0EuL4fFOuPGopUU0WrUlxK7Gi499Dr3vGNXSvluXjbw93XWWgBqayvpW6cbb_xV8j7sWTg": "9993f7eb2efb22d452b4f8bd5ead6a58265746c282530de54c74a1a180d42fb6.jpg",
+    "https://play-lh.googleusercontent.com/pUh-C3V9iN8D9mNO6aj8oJsgwRjwoDEPTDJlVLsRAla9UFRcpVGYqhebmT6y4p36qFxa5TwnL-c-_IBR38C69J8": "ada60bb87d73e94349a71f15853d12329c54446087f4ae454c5e155cb34c0f71.png",
+    "https://play-lh.googleusercontent.com/fDIUFz6VWpKtoGT2i2N4yHrPD1v8Phlfs6CsJVE8D_SEyH4clRtfVqQBfi8pDGudSe4vYHHHvPIpOvZBdBpycw": "221865771fbdc0b8cabc6acf92e421f2795658d9900da1b33adfc7633b3261c3.jpg",
+    "https://play-lh.googleusercontent.com/V3klB_KIi63BmMSaQlp1zlg7kfDwBlbbc2RI5c9XBTWjyH7xC7M_xIElMmTSyOPWzG5I4cmZlv1Dqtrnquwp_A": "48ea3a87740ac2c1b02af6c6b2ba558c5fe01c0d5ee97928f295c8146ff9aa89.jpg"
+  }
+}

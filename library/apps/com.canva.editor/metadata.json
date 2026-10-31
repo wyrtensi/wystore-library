@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "package": "com.canva.editor",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Canva: AI Photo & Video Editor",
+      "developer": "Canva",
+      "description": "<b>Canva is your free photo editor, logo maker, collage maker, and video editor in one editing app! Design digital art faster with powerful magic AI tools built-in, like the AI image generator that allows you to transform text to image in just a few minutes</b> Make stunning social media posts and reels, presentations or flyers, create logos, CVs, photo collages and video collages from customizable templates. <br><br>Edit photos & design anything with the AI art generator🖌️: Video editor, collage maker, meme maker, CV maker & logo maker – Canva is a simple & easy content creation app for anyone! 🎨 <br><br><b>Canva features: AI art generator, photo editor and video maker</b><br>• Facebook posts, Instagram layout designs, banner maker, Instagram post-maker & Instagram reels maker. <br>• Professional invitation maker, flyers & resume templates.<br>• Display data with templates, presentations & slideshow maker.<br><br><b>AI EDITING APP 📷 – free, no ads, no watermarks</b><br>• Image editor to crop, flip, & edit photos. Background eraser and blur editor. <br>• Picture editor to adjust brightness, contrast, saturation, etc.<br>• Auto Focus to sharpen photo subject & blur background.<br>• Add text to photos in the picture editor.<br>• Use the photo grid, photo filters, photo layout & photo collage maker to create digital art.<br><br><b>AI VIDEO EDITOR 🎥 – create videos in a few taps</b><br>• Produce professional videos in the video editor with 5GB of cloud storage and real time collaboration.<br>• Explore video layout & audio tracks in the video maker.<br>• Crop, resize, and flip videos & images in the video editor.<br>• Easy video editing: Make images move with one-tap animations & page transitions in the video maker.<br>• Apply effects like slow motion and reverse playback, add subtitles to a video collage, or a new background to your green screen video. <br>• Magically sync edits to music with Beat Sync, for quick video editing<br>• Automatically translate captions to over 100 languages<br>• Add your favorite music tracks via Popular music* (regional restrictions apply)<br><br><b>SOCIAL MEDIA 📱 – make and match trendy content & graphic designs</b><br>• Design for Instagram, Snapchat, Facebook, YouTube or LinkedIn.<br>• Plan posts with Scheduler [Canva Pro].<br>• Use our banner maker for thumbnails & ads.<br>• Collage maker, picture editor & video maker to create photo grids & collages.<br><br><b>FREE CONTENT LIBRARY – over 2M+ assets</b><br>• 2M+ royalty-free images & photo filters<br>• Thousands of watermark-free videos to use in the video editor<br>• 25K+ pre-licensed audio & music tracks<br>• Add text on pictures in the photo editor with 500+ fonts & effects<br>• Or create your own images with our magic Text to Image tool<br><br><b>AI MAGIC BUILT-IN ✨ – Bringing magic and ease of use to your designs</b> <br>We’ve supercharged design across the Visual Suite with incredible magical AI-powered capabilities. Including;<br>• Magic Design - Upload an image and let Canva make designs for you<br>• Magic Edit - Swap, or add anything to your existing images<br>• Translate - Automatically translate designs in 100+ languages<br>• Magic Eraser - Remove objects from any image. <br><br><b>CANVA PRO – The editing app to boost your graphic design</b><br>• Access premium templates, images, videos, logo maker, audio & graphic design elements + create stunning videos in the video editor<br>• One-click Background Remover & Magic Resize for photos and videos<br>• Brand Hub - Create logos with the logo maker, fonts, & colors<br>• Schedule posts for Instagram & Facebook<br><br><b>GRAPHIC DESIGN FOR EVERYONE 🎨</b><br>• Personal - Layout designs for Instagram templates, resumes, photo editor, photo collages, logo maker, video editor, etc.<br>• Entrepreneurs - Grow your business with our logo maker, video editor, poster maker & Magic Presentations.<br>• Students & teachers - Engage with presentations & worksheets<br>• Social Media Managers & Content Creators - Use the photo editor, logo maker, collage maker & video editor for brand visuals & mood boards",
+      "shortDescription": "Generate with a prompt. Turn your ideas into actual videos, photos, or elements.",
+      "versionName": "2.384.0",
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.canva.editor",
+      "changelog": null,
+      "icon": "images/e39c9effe0dece99936bd241d1b9dcc0f092f248bcbee71d7eb0cce47ff5b695.png",
+      "screenshots": [
+        "images/c2d04d433cf33a20b880689ae9f0819c09cd0385c6fed9f00c108fb0368ec138.png",
+        "images/74695fff4cd605b0874693b8dde977a3653fc7db56ad23c5dc95280247fdb1d5.png",
+        "images/0d25ce03f501797d3baa3973d8ae5a9423b9eaabef184845eb55be13624abf71.png",
+        "images/a41529c9fd2784884d5d95c608b4cb6628685325f5b62eb74db78a1e1c97e0d6.png",
+        "images/3bd2a7adf55aee62cc4537df73cdff028f4f2097a1c091d8b4ffa31384f1c1f7.jpg",
+        "images/67f7c88c8eeb32ba39987565344d232cdbb8eb47bfdf3325d5d7fb335e4ad698.png",
+        "images/62f1b7aca162d02ca71aa583ecfef18587f7307b0a4a4ca69e63183b6c8b7b2e.png",
+        "images/dcf0a981b1fe354d7414e274d4ce7b58805c07c7c9c8b103457fa9643900f665.png"
+      ]
+    },
+    "en_US": {
+      "title": "Canva: AI Photo & Video Editor",
+      "developer": "Canva",
+      "description": "<b>Canva is your free photo editor, logo maker, collage maker, and video editor in one editing app! Design digital art faster with powerful magic AI tools built-in, like the AI image generator that allows you to transform text to image in just a few minutes</b> Make stunning social media posts and reels, presentations or flyers, create logos, CVs, photo collages and video collages from customizable templates. <br><br>Edit photos & design anything with the AI art generator🖌️: Video editor, collage maker, meme maker, CV maker & logo maker – Canva is a simple & easy content creation app for anyone! 🎨 <br><br><b>Canva features: AI art generator, photo editor and video maker</b><br>• Facebook posts, Instagram layout designs, banner maker, Instagram post-maker & Instagram reels maker. <br>• Professional invitation maker, flyers & resume templates.<br>• Display data with templates, presentations & slideshow maker.<br><br><b>AI EDITING APP 📷 – free, no ads, no watermarks</b><br>• Image editor to crop, flip, & edit photos. Background eraser and blur editor. <br>• Picture editor to adjust brightness, contrast, saturation, etc.<br>• Auto Focus to sharpen photo subject & blur background.<br>• Add text to photos in the picture editor.<br>• Use the photo grid, photo filters, photo layout & photo collage maker to create digital art.<br><br><b>AI VIDEO EDITOR 🎥 – create videos in a few taps</b><br>• Produce professional videos in the video editor with 5GB of cloud storage and real time collaboration.<br>• Explore video layout & audio tracks in the video maker.<br>• Crop, resize, and flip videos & images in the video editor.<br>• Easy video editing: Make images move with one-tap animations & page transitions in the video maker.<br>• Apply effects like slow motion and reverse playback, add subtitles to a video collage, or a new background to your green screen video. <br>• Magically sync edits to music with Beat Sync, for quick video editing<br>• Automatically translate captions to over 100 languages<br>• Add your favorite music tracks via Popular music* (regional restrictions apply)<br><br><b>SOCIAL MEDIA 📱 – make and match trendy content & graphic designs</b><br>• Design for Instagram, Snapchat, Facebook, YouTube or LinkedIn.<br>• Plan posts with Scheduler [Canva Pro].<br>• Use our banner maker for thumbnails & ads.<br>• Collage maker, picture editor & video maker to create photo grids & collages.<br><br><b>FREE CONTENT LIBRARY – over 2M+ assets</b><br>• 2M+ royalty-free images & photo filters<br>• Thousands of watermark-free videos to use in the video editor<br>• 25K+ pre-licensed audio & music tracks<br>• Add text on pictures in the photo editor with 500+ fonts & effects<br>• Or create your own images with our magic Text to Image tool<br><br><b>AI MAGIC BUILT-IN ✨ – Bringing magic and ease of use to your designs</b> <br>We’ve supercharged design across the Visual Suite with incredible magical AI-powered capabilities. Including;<br>• Magic Design - Upload an image and let Canva make designs for you<br>• Magic Edit - Swap, or add anything to your existing images<br>• Translate - Automatically translate designs in 100+ languages<br>• Magic Eraser - Remove objects from any image. <br><br><b>CANVA PRO – The editing app to boost your graphic design</b><br>• Access premium templates, images, videos, logo maker, audio & graphic design elements + create stunning videos in the video editor<br>• One-click Background Remover & Magic Resize for photos and videos<br>• Brand Hub - Create logos with the logo maker, fonts, & colors<br>• Schedule posts for Instagram & Facebook<br><br><b>GRAPHIC DESIGN FOR EVERYONE 🎨</b><br>• Personal - Layout designs for Instagram templates, resumes, photo editor, photo collages, logo maker, video editor, etc.<br>• Entrepreneurs - Grow your business with our logo maker, video editor, poster maker & Magic Presentations.<br>• Students & teachers - Engage with presentations & worksheets<br>• Social Media Managers & Content Creators - Use the photo editor, logo maker, collage maker & video editor for brand visuals & mood boards",
+      "shortDescription": "Generate with a prompt. Turn your ideas into actual videos, photos, or elements.",
+      "versionName": "2.384.0",
+      "updatedDate": "2026-10-27",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.canva.editor",
+      "changelog": null,
+      "icon": "images/e39c9effe0dece99936bd241d1b9dcc0f092f248bcbee71d7eb0cce47ff5b695.png",
+      "screenshots": [
+        "images/c2d04d433cf33a20b880689ae9f0819c09cd0385c6fed9f00c108fb0368ec138.png",
+        "images/74695fff4cd605b0874693b8dde977a3653fc7db56ad23c5dc95280247fdb1d5.png",
+        "images/0d25ce03f501797d3baa3973d8ae5a9423b9eaabef184845eb55be13624abf71.png",
+        "images/a41529c9fd2784884d5d95c608b4cb6628685325f5b62eb74db78a1e1c97e0d6.png",
+        "images/3bd2a7adf55aee62cc4537df73cdff028f4f2097a1c091d8b4ffa31384f1c1f7.jpg",
+        "images/67f7c88c8eeb32ba39987565344d232cdbb8eb47bfdf3325d5d7fb335e4ad698.png",
+        "images/62f1b7aca162d02ca71aa583ecfef18587f7307b0a4a4ca69e63183b6c8b7b2e.png",
+        "images/dcf0a981b1fe354d7414e274d4ce7b58805c07c7c9c8b103457fa9643900f665.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [],
+    "en_US": []
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/52fzAlhKzDyZV8ttyQ_DHB-jOeLZAZEdKlgXnWL__YNMZuvsoRCshJX5mr_ArFZjK7rte4hqEJ4ucjtuKJK5": "e39c9effe0dece99936bd241d1b9dcc0f092f248bcbee71d7eb0cce47ff5b695.png",
+    "https://play-lh.googleusercontent.com/HCOw-cmDzAXUsysIZDjRTINdgDrbEClE8usizzkrGAw5KWw_k-1ua4V1icUtZTxxxiSfpxpaYCwConAq4k1L1g": "c2d04d433cf33a20b880689ae9f0819c09cd0385c6fed9f00c108fb0368ec138.png",
+    "https://play-lh.googleusercontent.com/vdiTx1cPbu14-9OWR9OthsHlZIuqE_fbqb5TJSSL1bmLWscqTA44Zh-9jFToCb8YxJo9-yhRWvF6xj9VZzsu": "74695fff4cd605b0874693b8dde977a3653fc7db56ad23c5dc95280247fdb1d5.png",
+    "https://play-lh.googleusercontent.com/F_CY0GpNgM0aUxpPx1RoJMaurBifiLgzzTezpgNS5fSsmdIx63d7kQAlzN9TdAGoeu0jVwjKRMHCYA1wAdTblg": "0d25ce03f501797d3baa3973d8ae5a9423b9eaabef184845eb55be13624abf71.png",
+    "https://play-lh.googleusercontent.com/nAITYrhgCnq3l1GCjCrrypH41rhkQ94yk1PirlRQ9u1UO-_1CQGmB3XvcwSDalP9T5e38dqxfTJon9Zjvjz8phk": "a41529c9fd2784884d5d95c608b4cb6628685325f5b62eb74db78a1e1c97e0d6.png",
+    "https://play-lh.googleusercontent.com/E5ybkRNLjuAtpEhFEdFFLeJNXkFnTNcdz7Udvl3gmO5B21Se15qnBkpBYp3Jazw_rbhdEmGWywrKZRmymmKnLg": "3bd2a7adf55aee62cc4537df73cdff028f4f2097a1c091d8b4ffa31384f1c1f7.jpg",
+    "https://play-lh.googleusercontent.com/pfNQiRkznvJ708q2x6jWzbG2lH32WPScB76oxkR8jI8qhmB7kaPnbqh-CK-UtsgRpXqe4Mf3MqsA-7kGO05kww": "67f7c88c8eeb32ba39987565344d232cdbb8eb47bfdf3325d5d7fb335e4ad698.png",
+    "https://play-lh.googleusercontent.com/CIaRzWMMB2j5URBaAIntO5-hSIc9K9N3UVX4jJeoNDYuOzJ89Yp9mqxBbs5G7r7NyHUVMsnMbFinuH7U9mzMuw": "62f1b7aca162d02ca71aa583ecfef18587f7307b0a4a4ca69e63183b6c8b7b2e.png",
+    "https://play-lh.googleusercontent.com/kOHWL2pUVs4i2_bPztEJswycehCvLAhT0Qi4S7M_X6ApLwTemHFeIlCYpgYfB25YBJD90PcU3dtwMVb-weHSaA": "dcf0a981b1fe354d7414e274d4ce7b58805c07c7c9c8b103457fa9643900f665.png"
+  }
+}

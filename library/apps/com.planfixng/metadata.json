@@ -1,6 +1,7 @@
 {
   "schema": 1,
   "package": "com.planfixng",
+  "market": "us",
   "locales": {
     "ru_RU": {
       "title": "Planfix",

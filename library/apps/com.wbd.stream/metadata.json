@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.wbd.stream",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "HBO Max: Stream TV & Movies",
+      "developer": "WarnerMedia Global Digital Services, LLC",
+      "description": "The most talked about shows and movies featuring the worlds of HBO, the DC Universe, Adult Swim, A24, and beyond.<br><br>With HBO Max you'll get:<br>• Access to thousands of TV shows and movies.<br>• Exclusive, award-winning series that everyone's talking about — like the HBO Originals The Last of Us, Succession, The White Lotus, and House of the Dragon.<br>• The latest hits from HBO, Harry Potter, DC, Warner Bros., ID, Adult Swim, A24, and more.<br>• Stream select live sports from your favorite leagues and teams. Availability varies by plan and by subscription provider.<br>• Iconic favorite TV shows like Friends, Rick and Morty, Gossip Girl, 90 Day Fiancé, Looney Tunes, and more.<br>• Family-friendly entertainment for the whole household.<br>• Fascinating documentaries and true crime series.<br><br>Features:<br>• Enjoy your favorite shows and movies at home or on the go. HBO Max is available on select TV, web browser, mobile, tablet, and gaming console devices.  <br>• Catch even more sports action with the live Multiview experience — stream up to 3 games at once during select events.<br>• Browse or search with ease across HBO, movies, series, genres, and brands.<br>• Download shows and movies you love to watch on the go with select plans. (Download limits vary by plan.)<br>• Personalized profiles for the entire household with customizable ratings, profile PIN protection, and kid-proof exit.<br>• Pick up episodes and movies where you left off across your favorite devices.<br>• Keep up with everything you love, all in one place with My Stuff.<br>• Watch on multiple devices at the same time. (Limits vary by plan.)<br>• Stream with high-quality video and surround sound on select plans.<br><br>Content and feature availability on HBO Max may vary by region. Some titles and features shown above may not be available in your country. Language availability varies by country.<br><br>You can manage or cancel your subscription by visiting Settings > Subscriptions in your HBO Max account. HBO Max is only available in certain territories.<br><br>Terms of Use: https://hbomax.com/terms-of-use",
+      "shortDescription": "Watch hit original series, films, reality, and more on HBO Max.",
+      "versionName": null,
+      "updatedDate": "2026-10-21",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.wbd.stream",
+      "changelog": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience.",
+      "icon": "images/eccb94511a3b6682c8590572bc068bda2e230b6bda5372ce4e64f513c1a273e3.png",
+      "screenshots": [
+        "images/2f4e8923acf8215104e6b9dc7f59202fa130fc6b5c12534599ad963fe365c2e8.jpg",
+        "images/37960c11943431e228166ad9f66c92fff91881ef72a4dd0a16cca87cbc71ad7f.jpg",
+        "images/7934bddb04f59c997d61b2e97f4e5b12cb89aa3cbf4d2bd5fb163701cb518650.jpg",
+        "images/607fa96820fec1fc9555616d0230793bd2b34b068dd03a667fddcb0c7fd4802b.jpg",
+        "images/fea02e8e09dffe2d2c618313075e47b9d57e892f748811d648123b0ffe97512c.jpg",
+        "images/965e616ee450cd1661d3eb75beed09a357231e90d1dfe683e43ccc5c13fed192.jpg",
+        "images/d4268b42ae00d91faf8d34e807aed2fc34c36c730d4a9161dc895212a00e6c80.jpg",
+        "images/f25d299f152ab04a8bd5262890212e4eb78c2f5f277dbf5206676172d92456ff.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "HBO Max: Stream TV & Movies",
+      "developer": "WarnerMedia Global Digital Services, LLC",
+      "description": "The most talked about shows and movies featuring the worlds of HBO, the DC Universe, Adult Swim, A24, and beyond.<br><br>With HBO Max you'll get:<br>• Access to thousands of TV shows and movies.<br>• Exclusive, award-winning series that everyone's talking about — like the HBO Originals The Last of Us, Succession, The White Lotus, and House of the Dragon.<br>• The latest hits from HBO, Harry Potter, DC, Warner Bros., ID, Adult Swim, A24, and more.<br>• Stream select live sports from your favorite leagues and teams. Availability varies by plan and by subscription provider.<br>• Iconic favorite TV shows like Friends, Rick and Morty, Gossip Girl, 90 Day Fiancé, Looney Tunes, and more.<br>• Family-friendly entertainment for the whole household.<br>• Fascinating documentaries and true crime series.<br><br>Features:<br>• Enjoy your favorite shows and movies at home or on the go. HBO Max is available on select TV, web browser, mobile, tablet, and gaming console devices.  <br>• Catch even more sports action with the live Multiview experience — stream up to 3 games at once during select events.<br>• Browse or search with ease across HBO, movies, series, genres, and brands.<br>• Download shows and movies you love to watch on the go with select plans. (Download limits vary by plan.)<br>• Personalized profiles for the entire household with customizable ratings, profile PIN protection, and kid-proof exit.<br>• Pick up episodes and movies where you left off across your favorite devices.<br>• Keep up with everything you love, all in one place with My Stuff.<br>• Watch on multiple devices at the same time. (Limits vary by plan.)<br>• Stream with high-quality video and surround sound on select plans.<br><br>Content and feature availability on HBO Max may vary by region. Some titles and features shown above may not be available in your country. Language availability varies by country.<br><br>You can manage or cancel your subscription by visiting Settings > Subscriptions in your HBO Max account. HBO Max is only available in certain territories.<br><br>Terms of Use: https://hbomax.com/terms-of-use",
+      "shortDescription": "Watch hit original series, films, reality, and more on HBO Max.",
+      "versionName": null,
+      "updatedDate": "2026-10-21",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.wbd.stream",
+      "changelog": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience.",
+      "icon": "images/eccb94511a3b6682c8590572bc068bda2e230b6bda5372ce4e64f513c1a273e3.png",
+      "screenshots": [
+        "images/2f4e8923acf8215104e6b9dc7f59202fa130fc6b5c12534599ad963fe365c2e8.jpg",
+        "images/37960c11943431e228166ad9f66c92fff91881ef72a4dd0a16cca87cbc71ad7f.jpg",
+        "images/7934bddb04f59c997d61b2e97f4e5b12cb89aa3cbf4d2bd5fb163701cb518650.jpg",
+        "images/607fa96820fec1fc9555616d0230793bd2b34b068dd03a667fddcb0c7fd4802b.jpg",
+        "images/fea02e8e09dffe2d2c618313075e47b9d57e892f748811d648123b0ffe97512c.jpg",
+        "images/965e616ee450cd1661d3eb75beed09a357231e90d1dfe683e43ccc5c13fed192.jpg",
+        "images/d4268b42ae00d91faf8d34e807aed2fc34c36c730d4a9161dc895212a00e6c80.jpg",
+        "images/f25d299f152ab04a8bd5262890212e4eb78c2f5f277dbf5206676172d92456ff.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-21",
+        "text": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-21",
+        "text": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/wKJ5hN5CmSBWXPBVYYuRENzcEVb7FB6NyibjKqPT4SB0eoZ7Fww2jq-OhUDCxEPGALrSekQaazrHLSBwVb6T4A": "eccb94511a3b6682c8590572bc068bda2e230b6bda5372ce4e64f513c1a273e3.png",
+    "https://play-lh.googleusercontent.com/HrLdJfGXnlmF_9rn_BP4dY_3qBw6IOHPX_2cAB-Im1lXeogoZRd4mCIVU9z-S1yiGaNKf95-_6YnxQDGB9Omkg": "2f4e8923acf8215104e6b9dc7f59202fa130fc6b5c12534599ad963fe365c2e8.jpg",
+    "https://play-lh.googleusercontent.com/CStp1RnRgtnWX4T0pMGKPr-7KrXrzVL4qJV3YXrve3YO4R5op2Dtx2zCU2uX6fX-E9tzrPsQKucs7bZALvdUMFI": "37960c11943431e228166ad9f66c92fff91881ef72a4dd0a16cca87cbc71ad7f.jpg",
+    "https://play-lh.googleusercontent.com/Hld7WXSgjnBFqKo7BC3l9OHVUdbM_P4rXO0aVb3Og1zzSbGiwJHhEvKfbAKc53vILI4eucYIAWd_QtjHUwUaZwE": "7934bddb04f59c997d61b2e97f4e5b12cb89aa3cbf4d2bd5fb163701cb518650.jpg",
+    "https://play-lh.googleusercontent.com/44cjJpcSkcL3wT9e9uvix1lArMldoVTVuCzvFx0kUiGJW4oNloVT-hZFda6N7QRKHlc9Or4gIpyOveioMafVTwE": "607fa96820fec1fc9555616d0230793bd2b34b068dd03a667fddcb0c7fd4802b.jpg",
+    "https://play-lh.googleusercontent.com/2csczcfbBgp4Lm2sV0vFG9KLF2a8HERI8-50PJc2mSwKxQEuAtRrynhogWud844jLeHpLSIouZg3B8Shk-0X5A": "fea02e8e09dffe2d2c618313075e47b9d57e892f748811d648123b0ffe97512c.jpg",
+    "https://play-lh.googleusercontent.com/4iA7tjFjnQWqJRK1Sl7kPKxBPh8i19kP1DPxL_h3mIb5m5hKfXgBYu-CJy2mLgc_ihVoNQVxd_HShwHN-PJ8pw": "965e616ee450cd1661d3eb75beed09a357231e90d1dfe683e43ccc5c13fed192.jpg",
+    "https://play-lh.googleusercontent.com/PiLgnxZZdY78fH6SV2miR6OpKCmqiCPy3d57XkyCZVQNSO8cnT45BHDdT0GFiTHe_6WYzwaWYzM0fx0fQcWq-w": "d4268b42ae00d91faf8d34e807aed2fc34c36c730d4a9161dc895212a00e6c80.jpg",
+    "https://play-lh.googleusercontent.com/laY0p5caJqIah8L5Th5XLPJWCF5l7pYJ1hTqOJkD_0P05FZsFhJNIheMiNRmIC_OM0ZbFIuy0ZvwIE3ALOvU4w": "f25d299f152ab04a8bd5262890212e4eb78c2f5f277dbf5206676172d92456ff.jpg"
+  }
+}

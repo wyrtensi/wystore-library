@@ -1,6 +1,7 @@
 {
   "schema": 1,
   "package": "org.mozilla.firefox",
+  "market": "us",
   "locales": {
     "ru_RU": {
       "title": "Firefox приватный браузер",

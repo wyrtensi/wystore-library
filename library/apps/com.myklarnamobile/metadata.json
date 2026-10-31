@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "package": "com.myklarnamobile",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Klarna: Smarter everyday money",
+      "developer": "Klarna Bank AB (publ)",
+      "description": "FLEXIBLE WAYS TO PAY<br>Shop anywhere in the app with flexible payment options. Choose to pay in 3 interest-free instalments, pay the full amount, in 30 days or with financing.¹<br><br>¹UK: Borrowing more than you can afford or paying late may negatively impact your financial status and ability to obtain credit. Credit subject to status. Klarna Financing has a representative APR of 21.9% (fixed).<br><br>¹Ireland: Please shop responsibly. 18+ ROI residents only. Credit subject to status. APR 0%. Missed payments may incur a fee and affect your ability to use Klarna in the future. T&Cs apply. https://www.klarna.com/ie/terms-and-conditions/. <br><br>SHOP WITH A KLARNA CARD<br>Pay with Klarna anywhere Visa is accepted. Pay now or pay later with the card. No credit impact to apply. Unlock exclusive benefits with a membership.²<br><br>²UK: Paid membership required to access Pay Later plans. Representative APR 30.5% (fixed). Borrowing more than you can afford or paying late may negatively impact your financial status and ability to obtain credit. 18+, UK residents only. Subject to status. Ts&Cs and late fees apply.<br>Paid membership required to be eligible for a Klarna Credit Card. Borrowing more than you can afford, or paying late, may make it harder to get credit. Credit subject to status. T&Cs and late fees apply. Representative APR 9.5% (variable).<br><br>²UK & Ireland: Paid membership required for a physical card. A one-time plastic card fee applies. Klarna Membership offered for a monthly fee. Cancel any time in the Klarna app. Exclusions, conditions, and limitations apply to membership benefits like Klarna Membership cashback. Klarna Membership Terms apply. Annual value amount reflects your Membership's total available benefits, such as subscriptions and discounts. Actual results will vary based on benefit usage.<br><br>UP TO 10% CASHBACK<br>Shop in the app and earn up to 10% cashback. Get cashback at hundreds of stores in the app.³ <br><br>³Klarna Cashback Rewards are awarded as points which can be redeemed for a credit to your Klarna balance and other benefits. Earn cashback on Klarna App purchases. Klarna balance account required to receive cashback. Cashback issuance depends on store approval and may be affected by cookie settings, combining offers, product exclusions, or other factors beyond our control. Limitations, terms, and conditions apply.<br>UK: https://cdn.klarna.com/1.0/shared/content/legal/terms/en-GB/cashback-update<br>Ireland: https://cdn.klarna.com/1.0/shared/content/legal/terms/en-IE/cashback<br><br>UNLOCK YOUR KLARNA BALANCE<br>Add money to your balance and pay flexibly, anywhere you shop. Get instant refunds, earn cashback at eligible stores, and convert your cashback as a credit in your balance.⁴<br><br>⁴Ireland: Account covered by the Swedish deposit guarantee scheme. Max. compensation per customer: SEK 1,150,000. National Debt Office makes compensation available within 7 business days from the date a right to compensation accrues. Read more here: https://www.riksgalden.se/en/our-operations/deposit-insurance.<br><br>KLARNA MOBILE <br>Get unlimited 5G for just £15/month.⁵ No hassle, cancel anytime.⁶<br><br>⁵UK: Klarna Mobile is provided by Gigs, and uses the Vodafone network. Klarna acts as an agent on Gigs' behalf. Klarna Mobile Subscription Terms and Gigs' End User Service Agreement apply: https://cdn.klarna.com/1.0/shared/content/legal/terms/en-GB/KlarnaMobile. Unlimited data is subject to Gigs' Acceptable Use Policy: https://gigs.com/legal/uk-end-user-terms/uk-end-user-service-agreement-appendix-1-gigs-acceptable-use-policy. <br><br>⁶UK: You may cancel your subscription at any time in the Klarna app. If you cancel, your plan will stay active until the end of your current billing cycle. The cancellation will take effect at the end of your current billing cycle, and you will not be charged for subsequent periods.<br><br>YOUR LOYALTY CARDS, ALL IN ONE PLACE<br>Access all your loyalty and reward cards right in Klarna - the new home of Stocard.<br><br>24/7 CUSTOMER SERVICE<br>Use our chat in the app for 24/7 support.",
+      "shortDescription": "Делайте покупки где угодно, управляйте платежами, получайте кэшбэк, откройте для себя карту Klarna и многое другое.",
+      "versionName": "26.43.379",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.myklarnamobile",
+      "changelog": "Shop anywhere and stay in control of your payments, all in one place. Approve purchases, track orders, and manage payments, all protected by Face ID and bank-grade security. Sign up for the card with a Klarna membership to earn maximum rewards and cashback. We've also made some minor updates and fixes.",
+      "icon": "images/4ceaef5213bad0a883a72fbd9cd71a6742d2198b28a90396bce4242d3e109e9e.png",
+      "screenshots": [
+        "images/0d6f28c6dfa4e6e9d4c35fd8eab3ac22d51833b029b293a31289a36cb2a6a333.jpg",
+        "images/cdfc6c8046781aecb8b170dfd6353e66d61854e47ca072fcfe5b0a8c36aa0649.jpg",
+        "images/0d0fa5d1559c9b2b1585e76d895d7622dd01a6faf03c09f19d8a8a11c15ffa30.jpg",
+        "images/facf650ba8e6fb522f741d51f326d328cdb5a0937f86dd29789d3e023a1187a7.jpg",
+        "images/2efd0b73bfe600d6fb26bd3937cc4ef6c81078667544bcaf83cd4b006d53f623.jpg",
+        "images/467431647df6d1eab0e3c003f3f93b15389d93ca8cef9959427f2a75c7fdb6e0.jpg",
+        "images/8a4fc1ebb324f597131cd9cd61ed8d2f92dd559586f2ccd1e486f125091c765f.jpg",
+        "images/e4f3b9fc98ff044fa3a8da8a9d25bba11f6ecaa23275a0d0ca5be4793ea6e743.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Klarna: Smarter everyday money",
+      "developer": "Klarna Bank AB (publ)",
+      "description": "FLEXIBLE WAYS TO PAY<br>Shop anywhere in the app with flexible payment options. Choose to pay in 4 interest-free payments, pay the full amount, in 30 days or over time.¹<br><br>UP TO 10% CASHBACK²<br>Shop in the app and earn up to 10% cashback at hundreds of stores. Become a member and earn even more.<br><br>ONE MEMBERSHIP. ALL THE PERKS.³<br>Become a member and get the Klarna Card where you can pay flexibly anywhere Visa is accepted. Get cashback on every purchase, travel perks, free subscriptions and more.<br><br>UNLOCK YOUR KLARNA BALANCE³<br>Add money in the Klarna app and pay flexibly, anywhere you shop. Get instant refunds, earn cashback at eligible stores, and convert your cashback into money in your balance.<br><br>SAVE WITH KLARNA⁴<br>Earn interest with our flexible savings account – free to get started and no monthly fees.<br><br>KLARNA MOBILE<br>Get reliable coverage on AT&T’s network with unlimited 5G that stays fast⁵ for just $35/month. No hassle, cancel anytime.⁶<br><br>FIND THE BEST PRICE, EVERY TIME<br>Search for any product and instantly compare prices across stores.<br><br>HASSLE-FREE RETURNS<br>Need to send something back? Report a return and we’ll pause your payments.<br><br>24/7 CUSTOMER SERVICE<br>Use our chat for 24/7 support.<br><br>¹Monthly financing through Klarna issued by WebBank. Other CA resident loans made or arranged pursuant to a California Financing Law license. NMLS #1353190.<br>²Klarna Cashback Rewards are awarded as points which can be redeemed for a credit to your Klarna balance and other benefits. Earn cashback on Klarna App purchases. Klarna balance account required to receive cashback. Cashback issuance depends on store approval and may be affected by cookie settings, combining offers, product exclusions, or other factors beyond our control. Limitations, terms, and conditions apply: https://cdn.klarna.com/1.0/shared/content/legal/terms/en-US/cashback<br>³Deposits in your balance account are held at WebBank, Member FDIC. Klarna is not an FDIC-insured bank and deposit insurance only covers the failure of WebBank. Your deposits in the balance account are eligible for pass-through deposit insurance coverage if certain conditions are satisfied. Funds may be made available to you before WebBank receives them (“early availability funds”); such early availability funds may not be FDIC insured until received by WebBank. Loans that you obtain using the Klarna Card are not insured by the FDIC and are not deposits. Account disclosures: klarna.com/us/legal/<br>Paid membership required for a physical card. A one-time plastic card fee applies. <br>Klarna Membership offered in partnership with WebBank for a monthly fee. Cancel any time in the App. Exclusions, conditions, and limitations apply to membership benefits. Klarna Membership Terms apply: klarna.com/us/legal/. See Membership Benefits Rewards Summary for terms and conditions for subscriptions based on your membership.<br>Annual value amount reflects your Membership's total available benefits, such as all waived fees, cashback, and discounts. Actual results will vary based on benefit usage.<br>⁴Annual Percentage Yield (APY) accurate as of June 1, 2026 and subject to change. Membership required to receive and maintain APY boost. Membership APY Boost only applies to balances up to $50,000. Excess balances earn the base interest rate. Fees may reduce earnings. Deposits in your savings account are held at WebBank, Member FDIC. Klarna is not an FDIC-insured bank and deposit insurance only covers the failure of WebBank. Your deposits in the savings account are eligible for pass-through deposit insurance coverage if certain conditions are satisfied. See Account disclosures for current rates: https://cdn.klarna.com/1.0/shared/content/legal/terms/en-US/klarna-savings-account-rates-and-fees<br>⁵Actual speeds vary by location, network, and device. Subject to Acceptable Use Policy. Unlocked device and no. required. Some numbers not eligible.<br>⁶Cancel up to 24 hours before renewal in the Klarna app.",
+      "shortDescription": "Manage money, grow savings, earn cashback, and discover Klarna Card.",
+      "versionName": "26.43.379",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.myklarnamobile",
+      "changelog": "Shop anywhere and stay in control of your payments, all in one place. Approve purchases, track orders, and manage payments, all protected by Face ID and bank-grade security. Sign up for the card with a Klarna membership to earn maximum rewards and cashback. We've also made some minor updates and fixes.",
+      "icon": "images/4ceaef5213bad0a883a72fbd9cd71a6742d2198b28a90396bce4242d3e109e9e.png",
+      "screenshots": [
+        "images/82896fd44f8612b22ccedf38845c19d383ac40866ad6bdcfb90e475492cd6c1c.jpg",
+        "images/a3d59669297a63ea8e8cfb6a742695d6d20b99796f27a5fd19b06cd67989ecb7.jpg",
+        "images/a5f499f5dad57f912940bbd3dbdd2953716d004564acf0e5b93391a07db28009.jpg",
+        "images/facf650ba8e6fb522f741d51f326d328cdb5a0937f86dd29789d3e023a1187a7.jpg",
+        "images/4b0851490eaf1c54a18c2388d1bb866e42633ac6035f3ee477940e05ecfec035.jpg",
+        "images/1230af8db2838614c7e791a5025ee4de7f8a98864b111e6885584e67842f3221.jpg",
+        "images/8a4fc1ebb324f597131cd9cd61ed8d2f92dd559586f2ccd1e486f125091c765f.jpg",
+        "images/7513719c30c99d345162f6446b27bcb5b85208e970b3e9b0d36bc3df1a5dc3fc.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "26.43.379",
+        "updatedDate": "2026-10-29",
+        "text": "Shop anywhere and stay in control of your payments, all in one place. Approve purchases, track orders, and manage payments, all protected by Face ID and bank-grade security. Sign up for the card with a Klarna membership to earn maximum rewards and cashback. We've also made some minor updates and fixes."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "26.43.379",
+        "updatedDate": "2026-10-29",
+        "text": "Shop anywhere and stay in control of your payments, all in one place. Approve purchases, track orders, and manage payments, all protected by Face ID and bank-grade security. Sign up for the card with a Klarna membership to earn maximum rewards and cashback. We've also made some minor updates and fixes."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/B0A7tuj9KZrPM8BwVOIf6uvAMceRFHBQQxD3PYPRUGbJGXC5j9X6Cy6A2oha_Y0seMCnDyXV0r22VrAqsGvGEg": "4ceaef5213bad0a883a72fbd9cd71a6742d2198b28a90396bce4242d3e109e9e.png",
+    "https://play-lh.googleusercontent.com/RhEqUsA1pjo3Or7MhwQClflt3dqhMsZu3N211Ce5LcIsQkRQRYqLufLKG_aTSinQCcwt9onoD3Yd6B3ZvA0D": "0d6f28c6dfa4e6e9d4c35fd8eab3ac22d51833b029b293a31289a36cb2a6a333.jpg",
+    "https://play-lh.googleusercontent.com/Amv0SluAlxg9oo7YRuvgMWiuqGsxKHE6VomOOQ6WkpzR4-TAK_htxvETWkcbiSdW2NVxE7eMevCv1a6Hqr3vtA": "cdfc6c8046781aecb8b170dfd6353e66d61854e47ca072fcfe5b0a8c36aa0649.jpg",
+    "https://play-lh.googleusercontent.com/YQmEcogJHdfJ5Pa1ffv92yXGeIekrJfyQo7VsgE0lOu41YB-ZQZI4X6wdqkbJFS-9jgqrq0esJX5bx_c_yEHAg": "0d0fa5d1559c9b2b1585e76d895d7622dd01a6faf03c09f19d8a8a11c15ffa30.jpg",
+    "https://play-lh.googleusercontent.com/WZ3ClWjpe50E6qPBJYzmmVaIw2s6sWRo57vICzk8Wd0ZJ3PARUun-7Rhl8SGET7w5u55Y8HGXF9ykuB58cqD": "facf650ba8e6fb522f741d51f326d328cdb5a0937f86dd29789d3e023a1187a7.jpg",
+    "https://play-lh.googleusercontent.com/lsTIf-gS_RfLSVhKzD-BkvAbzL0qX2rGbbgsZq65FJtKoOtRhgpiWqOYWzpiquE-uY6S5O5yRP6tg1WcgJ8fKA": "2efd0b73bfe600d6fb26bd3937cc4ef6c81078667544bcaf83cd4b006d53f623.jpg",
+    "https://play-lh.googleusercontent.com/CyfVhW87BLxGrEftJSiqLpUXtt_nT0ZOuP6xqmN_wPwZH2g5Q19pZjqh9DdivSXsHrTjEDvYAWBBupRk4o5Dmg": "467431647df6d1eab0e3c003f3f93b15389d93ca8cef9959427f2a75c7fdb6e0.jpg",
+    "https://play-lh.googleusercontent.com/c2HYKvSxyfjtUqNyBXpgxlB2ecqfsYVPRS9sGtjKseqCky64gXI-5_EAQtq2etDUhriUzOs8cl2lw1P0wI_1Og": "8a4fc1ebb324f597131cd9cd61ed8d2f92dd559586f2ccd1e486f125091c765f.jpg",
+    "https://play-lh.googleusercontent.com/sNDD3DEoBOnJlDRRaTl1W9TPzGxk8eflCgoK2mQUh93YHz_dHbPGPScZFW3BTjOwQ67A4uNmoMQXcGkTslMKxg": "e4f3b9fc98ff044fa3a8da8a9d25bba11f6ecaa23275a0d0ca5be4793ea6e743.jpg",
+    "https://play-lh.googleusercontent.com/Mil9U1kXETE_b7hwg7R5EyW2xby_aTGEEetdUBqj1K7PODG3nMUVWjyrPYOUYujBas-bm_Xez4OQstaXgPHKcg": "82896fd44f8612b22ccedf38845c19d383ac40866ad6bdcfb90e475492cd6c1c.jpg",
+    "https://play-lh.googleusercontent.com/v293LYuz5oYjM1o2oCm-eMsUf6oShef_m-MweU_wnvOjiScWhfvhDWLxNkimSFZNKkBEOKaxVzrvw4nkKASn6g": "a3d59669297a63ea8e8cfb6a742695d6d20b99796f27a5fd19b06cd67989ecb7.jpg",
+    "https://play-lh.googleusercontent.com/51cxZu4VRw4xZUUrV5Ho9-BzJ2bfYz5YHZStukJCZX3UYtAav1YOfbSbVJE-htH_k2tJLytsXTZtbyFFN-1d": "a5f499f5dad57f912940bbd3dbdd2953716d004564acf0e5b93391a07db28009.jpg",
+    "https://play-lh.googleusercontent.com/8K-u1m94VYUVNncgnsFUopbfW-_BoxPmxkbAgiUEml-dz7j4EVgb5Mp7IN3VcqezMY0dk6H6zOEtX9mtljxHIg": "4b0851490eaf1c54a18c2388d1bb866e42633ac6035f3ee477940e05ecfec035.jpg",
+    "https://play-lh.googleusercontent.com/bdoTh0HMk_Y6E9R_h37l1S4iwPnH-Tb3IyDw7UafvWwfbqEvZDFdB7zrTbrHOShr57yO8fAYUXR_09yZ6bJ4": "1230af8db2838614c7e791a5025ee4de7f8a98864b111e6885584e67842f3221.jpg",
+    "https://play-lh.googleusercontent.com/I6ZHsqrN2HqWiBRXv7ijr7SFVUcPNHwKi065L5Y-YodxokCMQ8Wi1ChvOW1lXQR3dLEwy4VE7F3OeDLra0utc_Q": "7513719c30c99d345162f6446b27bcb5b85208e970b3e9b0d36bc3df1a5dc3fc.jpg"
+  }
+}

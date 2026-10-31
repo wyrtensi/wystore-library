@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.amazon.kindle",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Amazon Kindle: Reading App",
+      "developer": "Amazon Mobile LLC",
+      "description": "READ ANYTIME, ANYWHERE<br>On the bus, on your break, in your bed—never be without something to read. The Kindle app puts millions of books, magazines, newspapers, comics, and manga at your fingertips.<br><br>FIND YOUR NEXT GREAT READ<br>- Find your next great read with Kindle. Choose from millions of Kindle books (including books with Audible narration), magazines, audiobooks, and comics. Explore new releases, Amazon Charts best sellers, and titles across genres like romance, science fiction, children’s books, self-help, religion, nonfiction, and more—and try any book with a sample in the app before you buy on Amazon.com<br><br>- Kindle Unlimited members can enjoy unlimited reading and listening, with the freedom to explore over 1 million titles, thousands of audiobooks, and current magazines.<br><br>- Thousands of books, magazines, comics, and more included with Amazon Prime. <br><br>GO BEYOND PAPER<br>Turn your phone or tablet into a book with the Kindle app—so you can read anytime, anywhere. Explore these reading features in the Kindle app:<br><br>- Read your way. Customize your text size, font type, margins, text alignment, and orientation (portrait or landscape)—and choose whether to turn pages from left to right or continuously scroll. Read comfortably day and night with adjustable brightness and background colors. Go to the Aa menu in your book to get started.<br><br>- Look up words, people, and places while you read. Breeze through words you don’t know and characters you can’t remember with the built-in dictionary, X-Ray, Wikipedia lookup, instant translations, and search within your book. Simply tap and hold a word to view its definition, or follow links to Google and Wikipedia to get more information.<br><br>- Track your reading progress. See what percent of the book you’ve read, real page numbers (for most top titles), and how much time you have left in the chapter or book based on your actual reading speed.<br><br>- Bookmark places you want to revisit, and make highlights and take notes throughout your book. Open My Notebook to see all your notes in the same place. <br><br>- Hop, skim, and jump with Page Flip. Flip between pages or get a bird’s-eye view of your book with Page Flip—don’t worry, we’ll save your place.<br><br>- Zoom in on high-definition color images in Kindle books, magazines, comics, and manga.<br><br>- Sync your books across devices. When you’re reading a book, the Kindle app will automatically sync where you left off—along with any bookmarks, highlights, or notes—so you can start reading on one device and pick up where you left off on another.<br><br>- When you can’t read, listen. Switch seamlessly from reading your Kindle book to listening to the Audible book, all within the Kindle app.<br><br>- Get notified when authors you love have new releases.<br><br>By using this app, you  agree to Amazon’s Conditions of Use (www.amazon.com/conditionsofuse)  and Privacy Notice (www.amazon.com/privacy).",
+      "shortDescription": "Читайте книги. Миллионы электронных книг. Ваша библиотека в кармане, в любое время и в любом месте.",
+      "versionName": null,
+      "updatedDate": "2026-10-22",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.kindle",
+      "changelog": "Several experience improvements and bug fixes.",
+      "icon": "images/6882972f599423717ec82661775747586c780f7659c121602dc3c1b123230ac0.png",
+      "screenshots": [
+        "images/0a722f702e2b6caaf50824eb5cc41c11cec6e23215deb23945e60ab201c73b60.jpg",
+        "images/ac067f42b6ca76a119f053d9192903d0db8e10bd03469df1c74ed887c461949e.jpg",
+        "images/e85de0b1bce63e5b7c31cc3f023d1321f2ac748639c0c9d70736b9bb8944ee6b.jpg",
+        "images/fa620fef2dffd4ef3cb527a487c21a40f3eec0d97d6d92bf6701f7b79d70a946.jpg",
+        "images/8c135285a6058dd5a0fcf59970a9269c26d0cf2eef68a699dba3bf1ee336a0a4.jpg",
+        "images/be496282e97b85f85ea236718d014471d7251229eb8cbb5dab5e8816043f3699.jpg",
+        "images/a4bde8e7e1f665339e7aef0e05cd5c11f9d573b6fefaf0716379e0cd3fc8eafc.jpg",
+        "images/f9db794522330cc6dfd5cca42d211499ccf9c83f43ef3ac79272f3e66dc235fe.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Amazon Kindle: Reading App",
+      "developer": "Amazon Mobile LLC",
+      "description": "READ ANYTIME, ANYWHERE<br>On the bus, on your break, in your bed—never be without something to read. The Kindle app puts millions of books, magazines, newspapers, comics, and manga at your fingertips.<br><br>FIND YOUR NEXT GREAT READ<br>- Find your next great read with Kindle. Choose from millions of Kindle books (including books with Audible narration), magazines, audiobooks, and comics. Explore new releases, Amazon Charts best sellers, and titles across genres like romance, science fiction, children’s books, self-help, religion, nonfiction, and more—and try any book with a sample in the app before you buy on Amazon.com<br><br>- Kindle Unlimited members can enjoy unlimited reading and listening, with the freedom to explore over 1 million titles, thousands of audiobooks, and current magazines.<br><br>- Thousands of books, magazines, comics, and more included with Amazon Prime. <br><br>GO BEYOND PAPER<br>Turn your phone or tablet into a book with the Kindle app—so you can read anytime, anywhere. Explore these reading features in the Kindle app:<br><br>- Read your way. Customize your text size, font type, margins, text alignment, and orientation (portrait or landscape)—and choose whether to turn pages from left to right or continuously scroll. Read comfortably day and night with adjustable brightness and background colors. Go to the Aa menu in your book to get started.<br><br>- Look up words, people, and places while you read. Breeze through words you don’t know and characters you can’t remember with the built-in dictionary, X-Ray, Wikipedia lookup, instant translations, and search within your book. Simply tap and hold a word to view its definition, or follow links to Google and Wikipedia to get more information.<br><br>- Track your reading progress. See what percent of the book you’ve read, real page numbers (for most top titles), and how much time you have left in the chapter or book based on your actual reading speed.<br><br>- Bookmark places you want to revisit, and make highlights and take notes throughout your book. Open My Notebook to see all your notes in the same place. <br><br>- Hop, skim, and jump with Page Flip. Flip between pages or get a bird’s-eye view of your book with Page Flip—don’t worry, we’ll save your place.<br><br>- Zoom in on high-definition color images in Kindle books, magazines, comics, and manga.<br><br>- Sync your books across devices. When you’re reading a book, the Kindle app will automatically sync where you left off—along with any bookmarks, highlights, or notes—so you can start reading on one device and pick up where you left off on another.<br><br>- When you can’t read, listen. Switch seamlessly from reading your Kindle book to listening to the Audible book, all within the Kindle app.<br><br>- Get notified when authors you love have new releases.<br><br>By using this app, you  agree to Amazon’s Conditions of Use (www.amazon.com/conditionsofuse)  and Privacy Notice (www.amazon.com/privacy).",
+      "shortDescription": "Read books. Millions of ebooks. Your library in your pocket, anytime, anywhere.",
+      "versionName": null,
+      "updatedDate": "2026-10-22",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.kindle",
+      "changelog": "Several experience improvements and bug fixes.",
+      "icon": "images/6882972f599423717ec82661775747586c780f7659c121602dc3c1b123230ac0.png",
+      "screenshots": [
+        "images/0a722f702e2b6caaf50824eb5cc41c11cec6e23215deb23945e60ab201c73b60.jpg",
+        "images/ac067f42b6ca76a119f053d9192903d0db8e10bd03469df1c74ed887c461949e.jpg",
+        "images/e85de0b1bce63e5b7c31cc3f023d1321f2ac748639c0c9d70736b9bb8944ee6b.jpg",
+        "images/fa620fef2dffd4ef3cb527a487c21a40f3eec0d97d6d92bf6701f7b79d70a946.jpg",
+        "images/8c135285a6058dd5a0fcf59970a9269c26d0cf2eef68a699dba3bf1ee336a0a4.jpg",
+        "images/be496282e97b85f85ea236718d014471d7251229eb8cbb5dab5e8816043f3699.jpg",
+        "images/a4bde8e7e1f665339e7aef0e05cd5c11f9d573b6fefaf0716379e0cd3fc8eafc.jpg",
+        "images/f9db794522330cc6dfd5cca42d211499ccf9c83f43ef3ac79272f3e66dc235fe.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-22",
+        "text": "Several experience improvements and bug fixes."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-22",
+        "text": "Several experience improvements and bug fixes."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/OMOY8Erqgf955efAZgpCJLC9yU8W8WMRgiZSUc4jf653YyV3XwTY2uFQZCY1nz8-8Lb4eZXRCmd4RoWK5q6G2A": "6882972f599423717ec82661775747586c780f7659c121602dc3c1b123230ac0.png",
+    "https://play-lh.googleusercontent.com/l0irRmADh9-JKkOMjm7_rz547NIY6OfuaHaM3IdPKPNBPKxg-YhKmoICIHxFXlBmmGjSLpoHD4_M1q0zjQZuNQ": "0a722f702e2b6caaf50824eb5cc41c11cec6e23215deb23945e60ab201c73b60.jpg",
+    "https://play-lh.googleusercontent.com/gbkld0ZFqzx4giPwBJ_G4RcvM8nzUEaOtPp46hi2R-TsPeYa2RpX8EGJ9K2VX0Z0afrrM2hkNnv7U9KsmXvMqPg": "ac067f42b6ca76a119f053d9192903d0db8e10bd03469df1c74ed887c461949e.jpg",
+    "https://play-lh.googleusercontent.com/kjU79bDruYK-SPOv5trw-zwo_sa903DKR1bnnAxMj7UHSXVCMZZCOugT3ebdlKXkTjnGkycp3_AzwotyntgF": "e85de0b1bce63e5b7c31cc3f023d1321f2ac748639c0c9d70736b9bb8944ee6b.jpg",
+    "https://play-lh.googleusercontent.com/MNMPYKtEoHXRrWcg46KgrwIuEk38nJyITtB21Ug5MdNvPa2dAZ7gr8iEe_h5xNyMAbe5wV5AIdF74Q7DaB3luw": "fa620fef2dffd4ef3cb527a487c21a40f3eec0d97d6d92bf6701f7b79d70a946.jpg",
+    "https://play-lh.googleusercontent.com/9MpZJIOwTxJ90i2olOWkvT815WgG7L3jUv9lyqF6T-YMy_2YEvQlRiae1Mf5sLsBItJj0PPGezFCO_aJZvG0SQ": "8c135285a6058dd5a0fcf59970a9269c26d0cf2eef68a699dba3bf1ee336a0a4.jpg",
+    "https://play-lh.googleusercontent.com/Us5WRnlp60BZjz5o_kXhwGJ-7IeGJk4hxFvs7CFoX5210SQJGkvRd6xY1TP5a4g9sTcRA41-uoEMnzwIKLxE": "be496282e97b85f85ea236718d014471d7251229eb8cbb5dab5e8816043f3699.jpg",
+    "https://play-lh.googleusercontent.com/tKqhgefnpF1wnPeIOuUOfABwCC4Ijo95psu4OAiIjnh5LX2dqR_1yi7CliIFGuM_CStamKeidSEEj-l5FpKhOA": "a4bde8e7e1f665339e7aef0e05cd5c11f9d573b6fefaf0716379e0cd3fc8eafc.jpg",
+    "https://play-lh.googleusercontent.com/7vz6kWqY2RgoSq5glYsfwqL4jEi05pN92nGzVIJZ5Prw99_-sNpOWAdwRho9rZ_juHsmaFxrCj8bfeeX9Jhv6w": "f9db794522330cc6dfd5cca42d211499ccf9c83f43ef3ac79272f3e66dc235fe.jpg"
+  }
+}
