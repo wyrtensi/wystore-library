@@ -16,7 +16,10 @@ from urllib.request import HTTPRedirectHandler, HTTPSHandler, Request, build_ope
 
 MAX_IMAGE_BYTES = 12 * 1024 * 1024
 MAX_SCREENSHOTS = 8
-LOCALES = {'ru_RU': ('ru', 'ru'), 'en_US': ('en', 'us')}
+# Language and Play market are independent. Mixing markets can return a stale
+# regional card or hide an app even when its translation is available.
+CATALOG_MARKET = 'us'
+LOCALES = {'ru_RU': 'ru', 'en_US': 'en'}
 IMAGE_TYPES = {'image/png': '.png', 'image/jpeg': '.jpg', 'image/webp': '.webp', 'image/gif': '.gif'}
 PACKAGE = re.compile(r'^[A-Za-z][A-Za-z0-9_]*(?:\.[A-Za-z][A-Za-z0-9_]*)+$')
 
@@ -177,8 +180,8 @@ class PlayRedirectHandler(HTTPRedirectHandler):
 def fetch_app(package, locale):
     if not PACKAGE.fullmatch(package):
         raise ValueError('Invalid package')
-    language, country = LOCALES[locale]
-    url = 'https://play.google.com/store/apps/details?' + urlencode({'id': package, 'hl': language, 'gl': country})
+    language = LOCALES[locale]
+    url = 'https://play.google.com/store/apps/details?' + urlencode({'id': package, 'hl': language, 'gl': CATALOG_MARKET})
     opener = build_opener(PlayRedirectHandler(), HTTPSHandler(context=ssl.create_default_context()))
     request = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     with opener.open(request, timeout=30) as response:
@@ -236,7 +239,7 @@ def refresh_catalog(catalog_path: Path, output_root: Path) -> dict:
                 normalized['screenshots'] = files
                 locales[locale] = normalized
                 history[locale] = update_history(history.get(locale, []), normalized)
-            record = {'schema': 1, 'package': package, 'locales': locales,
+            record = {'schema': 1, 'package': package, 'market': CATALOG_MARKET, 'locales': locales,
                       'changelogHistory': history, 'imageSources': sources}
             write_json(app_dir / 'metadata.json', record)
             card = {'package': package, 'metadataPath': 'apps/' + package + '/metadata.json',
@@ -248,7 +251,7 @@ def refresh_catalog(catalog_path: Path, output_root: Path) -> dict:
             failures.append({'package': package, 'error': str(exc)})
             if package in old_cards:
                 cards.append(old_cards[package])
-    write_json(catalog_file, {'schema': 1, 'apps': cards})
+    write_json(catalog_file, {'schema': 1, 'market': CATALOG_MARKET, 'apps': cards})
     return {'updated': successes, 'failures': failures}
 
 

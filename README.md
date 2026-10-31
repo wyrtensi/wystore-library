@@ -17,6 +17,8 @@ A companion catalog with verified original app packages.
 
 ## Explore the library
 
+[Browse all configured applications](docs/applications.md). These four cards are examples.
+
 <table>
 <tr>
 <td width="25%" align="center" valign="top">
@@ -113,8 +115,8 @@ Solid lines show existing flows. Dashed lines mark planned library integration. 
 
 | Component | Status |
 | --- | --- |
-| Metadata, artwork and release notes for four apps | Published; scheduled refresh once daily |
-| Verified APKs for four apps | Published; checked once daily; current versions only |
+| Metadata, artwork and release notes | Scheduled refresh once daily; see the [catalog](library/catalog.json) for collected apps |
+| Verified APKs | Checked once daily; see the [APK index](library/index.json) for published sets |
 | Library integration with Wy Store | Planned; no Android client changes yet |
 
 The [app catalog](library/catalog.json) and [APK index](library/index.json) are separate. The APK index points to complete verified releases and their public manifests. Descriptions, screenshots and release notes can also be browsed independently.
@@ -135,7 +137,7 @@ Metadata refresh runs daily at **02:43 UTC** and APK checks at **03:17 UTC**
 (07:43 and 08:17 in Yekaterinburg). GitHub schedules can be delayed; manual runs
 remain available.
 
-The pipeline preserves original publisher signatures and split packages. It does not merge or re-sign APKs. The initial device profile is **Android 15 / arm64-v8a / 420 dpi**; packages are selected for that profile rather than presented as universal builds.
+The pipeline preserves original publisher signatures and split packages without merging or re-signing them. A base APK and its required configuration splits must be installed together. The initial profile is **Pixel 9a, Android 15 (SDK 35), arm64-v8a, 420 dpi**. It is useful for matching devices but is not universal: an app may support a lower minimum Android version, while ARMv7 or x86 devices, older Android versions, other screen densities or languages may need different APKs. See [Android App Bundles](https://developer.android.com/guide/app-bundle) and [device compatibility](https://developer.android.com/guide/topics/manifest/uses-sdk-element). Regional service availability is separate from APK availability.
 
 ## For Wy Store and other clients
 

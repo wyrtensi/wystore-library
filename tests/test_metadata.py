@@ -1,13 +1,31 @@
 import json
+import io
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
+from urllib.parse import parse_qs, urlsplit
 
 from wystore_library import metadata
 
 
 class MetadataTests(unittest.TestCase):
+    def test_translations_use_one_catalog_market_without_changing_language(self):
+        fixture = Path(__file__).parent / 'fixtures' / 'metadata' / 'planfix-play.html'
+        queries = []
+
+        class Opener:
+            def open(self, request, timeout):
+                queries.append(parse_qs(urlsplit(request.full_url).query))
+                return io.BytesIO(fixture.read_bytes())
+
+        with patch.object(metadata, 'build_opener', return_value=Opener()):
+            metadata.fetch_app('org.example.app', 'ru_RU')
+            metadata.fetch_app('org.example.app', 'en_US')
+        self.assertEqual([query['hl'] for query in queries], [['ru'], ['en']])
+        self.assertEqual([query['gl'] for query in queries], [['us'], ['us']])
+        self.assertEqual([query['id'] for query in queries], [['org.example.app'], ['org.example.app']])
+
     def test_normalizes_missing_version_and_date(self):
         result = metadata.normalize_locale({'title': ' Name ', 'developer': ' Dev ', 'description': ' Long ', 'summary': ' Short ', 'version': None, 'updated': 0, 'recentChanges': None}, 'com.example.app')
         self.assertEqual(result['title'], 'Name')

@@ -5,18 +5,21 @@ This repository is independent of the Wy Store Android application.
 
 ## Applications
 
-| Application | Play package | Saved metadata and artwork |
-| --- | --- | --- |
-| Planfix | `com.planfixng` | [Metadata](../library/apps/com.planfixng/metadata.json) / [Images](../library/apps/com.planfixng/images) |
-| Vivaldi | `com.vivaldi.browser` | [Metadata](../library/apps/com.vivaldi.browser/metadata.json) / [Images](../library/apps/com.vivaldi.browser/images) |
-| Brave | `com.brave.browser` | [Metadata](../library/apps/com.brave.browser/metadata.json) / [Images](../library/apps/com.brave.browser/images) |
-| Firefox | `org.mozilla.firefox` | [Metadata](../library/apps/org.mozilla.firefox/metadata.json) / [Images](../library/apps/org.mozilla.firefox/images) |
+See the [complete configured application list](applications.md) for package names and official Play listings. The [catalog](../library/catalog.json) shows collected metadata; configuration alone does not imply successful collection or APK publication.
 
 Descriptions, short descriptions, publisher names, icons, up to eight screenshots
 per locale, and the current Google Play release notes are stored in Russian and
 English. Missing upstream values remain null. Release-note history accumulates
 from the first successful fetch; it is not a complete historical Play archive.
 Artwork and metadata remain attributed to the respective app publishers.
+
+Both translations use the **US Google Play market** (`gl=us`), with `hl=ru`
+or `hl=en` selecting the language independently. The existing `ru_RU` and
+`en_US` keys identify translations, not service-availability countries.
+The catalog and each successfully refreshed app record expose `market: us`.
+A Russian-language card therefore does not imply availability in Russia;
+similarly, a US listing does not establish service availability elsewhere.
+There is no silent market fallback when a listing cannot be fetched.
 
 ## Public data
 
@@ -29,9 +32,7 @@ Authenticated version checks and APK publication are separate stages. A populate
 metadata card does not imply that an APK has been downloaded or published.
 
 The initial device profile is Pixel 9a: Android SDK 35, arm64-v8a, 420 dpi.
-These are device-specific APK sets, not universal APKs. Other profiles can be
-added explicitly in [apps.json](../apps.json). Split APKs must be installed together.
-Publisher APKs are never merged, modified or re-signed.
+This profile is useful for matching devices, but its SDK version is not an app minimum: apps may support older Android versions. ARMv7 and x86 devices, older Android versions, other screen densities and languages may need different APKs. Other profiles can be added explicitly in [apps.json](../apps.json). The base APK and required configuration splits must be installed together. Publisher APKs are never merged, modified or re-signed. See Android documentation on [app bundles and configuration APKs](https://developer.android.com/guide/app-bundle) and [minimum SDK versions](https://developer.android.com/guide/topics/manifest/uses-sdk-element). Regional service availability is separate from APK download availability.
 
 ## Workflows
 

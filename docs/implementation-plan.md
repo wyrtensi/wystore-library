@@ -30,6 +30,22 @@ Python orchestration and pinned Go playfetch backend.
 - [x] Verify full publication for all four apps and an equal-version live rerun;
   update the public availability status only after successful runs.
 
+## Catalog expansion, 2026-10-31
+
+- [x] Verify official package identities for 51 requested additions; use Google
+  Wallet, international McDonald's and Starbucks US as selected by the operator.
+- [x] Probe native versions, free-install status and publisher certificates for
+  all additions without downloading APKs.
+- [x] Separate translation language from the catalog market: both languages use
+  US listings, with the market recorded publicly. First reproduce the old
+  mixed-market request behavior in a failing test, then run the complete suite.
+- [ ] Collect descriptions, icons, screenshots and changelog snapshots for all
+  55 configured apps; retain explicit failures rather than substitute metadata.
+- [ ] Review configuration, documentation and market-selection changes; verify
+  secrets are absent; push and run the existing verified APK publication.
+- [ ] Audit live catalog/index coverage and an equal-version rerun without
+  repeated APK downloads or uploads.
+
 ## Review focus
 
 Unknown version must never trigger a speculative APK download. Corrupt or
