@@ -33,25 +33,12 @@ class GitHubTests(unittest.TestCase):
         self.assertEqual(body['sha'], 'oldsha')
         self.assertEqual(body['author']['email'], 'wyrtensi@gmail.com')
         self.assertEqual(body['committer']['email'], 'wyrtensi@gmail.com')
-    def test_draft_reuses_valid_assets_and_uploads_only_missing(self):
-        from unittest.mock import Mock
-        from pathlib import Path
-        publisher = Publisher('owner/repo')
-        base = {'name':'base.apk','digest':'sha256:'+'a'*64,'size':3,'state':'uploaded','browser_download_url':'base-url'}
-        manifest = {'name':'manifest-public.json','digest':'sha256:'+'b'*64,'size':4,'state':'uploaded','browser_download_url':'manifest-url'}
-        publisher.release = Mock(side_effect=[{'draft':True,'assets':[base]}, {'draft':True,'assets':[base,manifest]}, {'draft':False,'assets':[base,manifest]}])
-        publisher._gh = Mock(return_value='')
-        expected = {'base.apk':{'sha256':'a'*64,'size':3},'manifest-public.json':{'sha256':'b'*64,'size':4}}
-        publisher.publish_release('tag', [Path('base.apk'), Path('manifest-public.json')], expected)
-        uploads = [c.args for c in publisher._gh.call_args_list if c.args[:2] == ('release', 'upload')]
-        self.assertEqual(uploads, [('release','upload','tag','manifest-public.json','--repo','owner/repo')])
     def test_draft_conflicting_assets_rejected_before_upload(self):
         from unittest.mock import Mock
-        from pathlib import Path
         publisher = Publisher('owner/repo')
-        publisher.release = Mock(return_value={'draft':True,'assets':[{'name':'base.apk','digest':'sha256:'+'b'*64,'size':3,'state':'uploaded'}]})
+        publisher.release = Mock(return_value={'id': 7, 'tag_name': 'tag', 'draft': True, 'assets': [{'name': 'base.apk', 'digest': 'sha256:' + 'b' * 64, 'size': 3, 'state': 'uploaded'}]})
         publisher._gh = Mock()
-        with self.assertRaises(RuntimeError): publisher.publish_release('tag',[Path('base.apk')],{'base.apk':{'sha256':'a'*64,'size':3}})
+        with self.assertRaises(RuntimeError): publisher.publish_release('tag', ['base.apk'], {'base.apk': {'sha256': 'a' * 64, 'size': 3}})
         publisher._gh.assert_not_called()
     def test_initial_index_creation_has_no_sha(self):
         import json, tempfile
@@ -142,13 +129,6 @@ class ReleaseCleanupTests(unittest.TestCase):
         self.publisher.prune_releases([self.entry])
         self.assertEqual(remaining, [])
 
-    def test_new_draft_uses_requested_metadata(self):
-        from unittest.mock import Mock
-        self.publisher.release = Mock(side_effect=[None, {'draft': True, 'assets': []}, {'draft': False, 'assets': []}])
-        self.publisher._gh = Mock(return_value='')
-        self.publisher.publish_release('tag', [], {}, title='Friendly', notes='Details')
-        self.publisher._gh.assert_any_call('release', 'create', 'tag', '--repo', 'owner/repo', '--draft', '--title', 'Friendly', '--notes', 'Details')
-
     def test_public_release_is_never_uploaded_over(self):
         from unittest.mock import Mock
         self.publisher.release = Mock(return_value=self.keeper)
@@ -200,14 +180,94 @@ class ReleaseLookupTests(unittest.TestCase):
                 with self.assertRaises((ValueError, RuntimeError)): self.publisher.publish_release(self.tag, [], {})
                 self.assertFalse(any(c.args[:2] == ('release', 'create') for c in self.publisher._gh.call_args_list))
 
-    def test_existing_draft_is_resumed_and_reloaded_after_upload(self):
+
+class ReleaseMutationTests(unittest.TestCase):
+    def setUp(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import Mock
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.base = Path(self.temp.name) / 'base.apk'
+        self.extra = Path(self.temp.name) / 'split file.apk'
+        self.base.write_bytes(b'abc')
+        self.extra.write_bytes(b'defg')
+        self.publisher = Publisher('owner/repo')
+        self.publisher._gh = Mock()
+        self.publisher.release = Mock()
+        self.tag = 'some-tag'
+        self.asset = {'name': 'base.apk', 'size': 3, 'digest': 'sha256:' + 'a' * 64, 'state': 'uploaded', 'browser_download_url': 'base-url'}
+        self.split = {'name': 'split file.apk', 'size': 4, 'digest': 'sha256:' + 'b' * 64, 'state': 'uploaded', 'browser_download_url': 'split-url'}
+        self.expected = {'base.apk': {'size': 3, 'sha256': 'a' * 64}, 'split file.apk': {'size': 4, 'sha256': 'b' * 64}}
+        self.draft = {'id': 42, 'tag_name': self.tag, 'draft': True, 'assets': []}
+        self.complete = {**self.draft, 'assets': [self.asset, self.split]}
+        self.published = {**self.complete, 'draft': False}
+
+    def test_created_release_is_updated_by_id_without_tag_lookup(self):
         import json
-        draft = {'tag_name': self.tag, 'draft': True, 'assets': []}
-        asset = {'name': 'base.apk', 'size': 3, 'digest': 'sha256:' + 'a' * 64, 'state': 'uploaded', 'browser_download_url': 'https://example.test/base'}
-        uploaded = {**draft, 'assets': [asset]}
-        published = {**uploaded, 'draft': False}
-        self.publisher._gh.side_effect = [None, json.dumps([[draft]]), '', None, json.dumps([[uploaded]]), '', json.dumps(published)]
-        result = self.publisher.publish_release(self.tag, ['base.apk'], {'base.apk': {'size': 3, 'sha256': 'a' * 64}})
-        self.assertEqual(result, {'base.apk': 'https://example.test/base'})
-        self.assertFalse(any(c.args[:2] == ('release', 'create') for c in self.publisher._gh.call_args_list))
-        self.publisher._gh.assert_any_call('release', 'upload', self.tag, 'base.apk', '--repo', 'owner/repo')
+        self.publisher.release.return_value = None
+        self.publisher._gh.side_effect = [json.dumps(self.draft), '{}', '{}', json.dumps(self.complete), json.dumps(self.published)]
+        result = self.publisher.publish_release(self.tag, [self.base, self.extra], self.expected, title='Friendly', notes='Details')
+        self.assertEqual(result, {'base.apk': 'base-url', 'split file.apk': 'split-url'})
+        self.publisher.release.assert_called_once_with(self.tag)
+        calls = self.publisher._gh.call_args_list
+        self.assertEqual(calls[0].args, ('api', '--method', 'POST', 'repos/owner/repo/releases', '--input', '-'))
+        self.assertEqual(json.loads(calls[0].kwargs['input_data']), {'tag_name': self.tag, 'name': 'Friendly', 'body': 'Details', 'draft': True})
+        self.assertEqual(calls[1].args, ('api', '--method', 'POST', 'https://uploads.github.com/repos/owner/repo/releases/42/assets?name=base.apk', '-H', 'Content-Type: application/octet-stream', '-H', 'Content-Length: 3', '--input', str(self.base)))
+        self.assertEqual(calls[2].args[3], 'https://uploads.github.com/repos/owner/repo/releases/42/assets?name=split%20file.apk')
+        self.assertEqual(calls[3].args, ('api', 'repos/owner/repo/releases/42'))
+        self.assertEqual(calls[4].args, ('api', '--method', 'PATCH', 'repos/owner/repo/releases/42', '--input', '-'))
+        self.assertEqual(json.loads(calls[4].kwargs['input_data']), {'draft': False})
+
+    def test_existing_draft_uploads_only_missing_asset(self):
+        import json
+        self.publisher.release.return_value = {**self.draft, 'assets': [self.asset]}
+        self.publisher._gh.side_effect = ['{}', json.dumps(self.complete), json.dumps(self.published)]
+        self.publisher.publish_release(self.tag, [self.base, self.extra], self.expected)
+        self.assertEqual(self.publisher._gh.call_count, 3)
+        self.assertEqual(self.publisher._gh.call_args_list[0].args[3], 'https://uploads.github.com/repos/owner/repo/releases/42/assets?name=split%20file.apk')
+
+    def test_bad_identity_never_mutates_existing_draft(self):
+        for ident, tag in [(None, self.tag), (True, self.tag), (0, self.tag), ('42', self.tag), (42, 'other')]:
+            with self.subTest(ident=ident, tag=tag):
+                self.publisher.release.return_value = {**self.draft, 'id': ident, 'tag_name': tag}
+                with self.assertRaises((ValueError, RuntimeError)): self.publisher.publish_release(self.tag, [self.base], self.expected)
+                self.publisher._gh.assert_not_called()
+
+    def test_bad_created_identity_never_uploads(self):
+        import json
+        for ident, tag in [(0, self.tag), (True, self.tag), (42, 'other')]:
+            with self.subTest(ident=ident, tag=tag):
+                self.publisher._gh.reset_mock()
+                self.publisher.release.return_value = None
+                self.publisher._gh.return_value = json.dumps({**self.draft, 'id': ident, 'tag_name': tag})
+                with self.assertRaises((ValueError, RuntimeError)): self.publisher.publish_release(self.tag, [self.base], self.expected)
+                self.assertEqual(self.publisher._gh.call_count, 1)
+
+    def test_incorrect_uploaded_digest_never_publishes(self):
+        import json
+        self.publisher.release.return_value = self.draft
+        bad = {**self.complete, 'assets': [{**self.asset, 'digest': 'sha256:' + 'c' * 64}, self.split]}
+        self.publisher._gh.side_effect = ['{}', '{}', json.dumps(bad)]
+        with self.assertRaises(RuntimeError): self.publisher.publish_release(self.tag, [self.base, self.extra], self.expected)
+        self.assertFalse(any(c.args[:3] == ('api', '--method', 'PATCH') for c in self.publisher._gh.call_args_list))
+
+    def test_created_release_must_be_draft(self):
+        import json
+        self.publisher.release.return_value = None
+        self.publisher._gh.return_value = json.dumps(self.published)
+        with self.assertRaises(RuntimeError): self.publisher.publish_release(self.tag, [self.base, self.extra], self.expected)
+        self.assertEqual(self.publisher._gh.call_count, 1)
+
+    def test_reload_with_wrong_identity_never_publishes(self):
+        import json
+        self.publisher.release.return_value = self.draft
+        self.publisher._gh.side_effect = ['{}', '{}', json.dumps({**self.complete, 'id': 43})]
+        with self.assertRaises(RuntimeError): self.publisher.publish_release(self.tag, [self.base, self.extra], self.expected)
+        self.assertFalse(any(c.args[:3] == ('api', '--method', 'PATCH') for c in self.publisher._gh.call_args_list))
+
+    def test_publish_response_must_identify_same_release(self):
+        import json
+        self.publisher.release.return_value = self.complete
+        self.publisher._gh.return_value = json.dumps({**self.published, 'id': 43})
+        with self.assertRaises(RuntimeError): self.publisher.publish_release(self.tag, [self.base, self.extra], self.expected)

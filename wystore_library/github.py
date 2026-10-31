@@ -3,7 +3,7 @@ import base64
 import binascii
 import json
 import re
-from urllib.parse import urlsplit
+from urllib.parse import quote, urlsplit
 import subprocess
 from pathlib import Path
 
@@ -63,19 +63,37 @@ class Publisher:
         return index
 
     def publish_release(self, tag, paths, expected, *, title=None, notes=None):
+        def check_identity(value, expected_id=None):
+            if (not isinstance(value, dict) or type(value.get('id')) is not int or value['id'] <= 0
+                    or value.get('tag_name') != tag or (expected_id is not None and value['id'] != expected_id)):
+                raise RuntimeError('Release identity is invalid')
+
         release = self.release(tag)
         if release is None:
-            self._gh('release', 'create', tag, '--repo', self.repository, '--draft', '--title', title if title is not None else tag, '--notes', notes if notes is not None else 'Verified APK set')
-            release = self.release(tag)
+            body = {'tag_name': tag, 'name': title if title is not None else tag,
+                    'body': notes if notes is not None else 'Verified APK set', 'draft': True}
+            release = json.loads(self._gh('api', '--method', 'POST', f'repos/{self.repository}/releases',
+                                          '--input', '-', input_data=json.dumps(body)))
+            check_identity(release)
+            if release.get('draft') is not True:
+                raise RuntimeError('Created release is not a draft')
         if release and release.get('draft') is True:
+            check_identity(release)
+            release_id = release['id']
             present = self._check_assets(release, expected, draft=True, allow_missing=True)
-            missing = [str(path) for path in paths if Path(path).name not in present]
+            missing = [Path(path) for path in paths if Path(path).name not in present]
+            for path in missing:
+                endpoint = (f'https://uploads.github.com/repos/{self.repository}/releases/{release_id}/assets?name='
+                            + quote(path.name, safe=''))
+                self._gh('api', '--method', 'POST', endpoint, '-H', 'Content-Type: application/octet-stream',
+                         '-H', f'Content-Length: {path.stat().st_size}', '--input', str(path))
             if missing:
-                self._gh('release', 'upload', tag, *missing, '--repo', self.repository)
-                release = self.release(tag)
+                release = json.loads(self._gh('api', f'repos/{self.repository}/releases/{release_id}'))
+                check_identity(release, release_id)
             self._check_assets(release, expected, draft=True)
-            self._gh('release', 'edit', tag, '--repo', self.repository, '--draft=false')
-            release = self.release(tag)
+            release = json.loads(self._gh('api', '--method', 'PATCH', f'repos/{self.repository}/releases/{release_id}',
+                                          '--input', '-', input_data=json.dumps({'draft': False})))
+            check_identity(release, release_id)
         self._check_assets(release, expected, draft=False)
         return {a['name']: a['browser_download_url'] for a in release['assets']}
 
