@@ -171,9 +171,10 @@ and migration details.
 
 ## Current-version retention
 
-After a successful feed switch, all retained application assets must pass
-preflight before unreferenced managed assets and obsolete managed releases are
-removed. Cleanup failures remain visible and retryable; unrelated manual releases
+After each successful application checkpoint, all retained assets of that
+application must pass preflight before its unreferenced managed assets and
+obsolete managed releases are removed. Other applications are untouched. At
+startup, cleanup of already-committed applications is retried once. Cleanup failures remain visible and retryable; unrelated manual releases
 are preserved. A stale client encountering a removed asset refreshes the feed once
 and retries only if the publication changed. `check_only` does not publish or
 clean up. The workflow concurrency group serializes library writes.

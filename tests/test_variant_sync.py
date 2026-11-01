@@ -240,3 +240,13 @@ class VariantSyncTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, 'Play unavailable'):
             run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
         self.publisher.cleanup_applications.assert_called_once()
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_each_checkpoint_cleans_only_its_application(self, verify, compatibility):
+        self.config.write_text(json.dumps({'schema': 1, 'apps': [{'package': 'org.example.app', 'profiles': ['px_9a']}, {'package': 'org.example.other', 'profiles': ['px_9a']}]}))
+        verify.return_value = self.verified
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        calls = self.publisher.cleanup_applications.call_args_list
+        self.assertEqual([[a['package'] for a in c.args[0]] for c in calls], [['org.example.app'], ['org.example.other']])
+        self.assertEqual([c.kwargs['configured_packages'] for c in calls], [{'org.example.app'}, {'org.example.other'}])

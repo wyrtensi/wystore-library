@@ -206,5 +206,5 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
             publisher.publish_index(index_path)
             index = new_index
             checkpointed = True
-            publisher.cleanup_applications(sorted(applications.values(), key=lambda a: a['package']), sorted({profile for _, profile in pairs}), configured_packages=set(configured))
+            publisher.cleanup_applications([app], sorted({profile for _, profile in pairs}), configured_packages={package})
     return changed

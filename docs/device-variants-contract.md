@@ -61,8 +61,11 @@ earlier checkpoints. Before each subsequent commit, reread the feed, require
 it to match the previous checkpoint and use its blob SHA for compare-and-swap.
 Retry outstanding cleanup against the committed feed before new Play queries.
 
-After each atomic feed commit, preflight every retained application and its full
-referenced asset set. Only then update release presentation and remove
+After each atomic feed commit, preflight the changed application and its full
+retained asset set. Cleanup is limited to that application; asset URLs are
+strictly bound to its package and release. Untouched applications are not
+rescanned or mutated after every checkpoint. The initial recovery pass still
+checks all already-committed applications. Only then update release presentation and remove
 unreferenced managed assets and obsolete managed legacy releases. Manual and
 unconfigured releases remain untouched. Partial failure preserves current
 referenced assets; cleanup failures remain visible and retryable.
