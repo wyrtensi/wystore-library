@@ -4505,6 +4505,233 @@
     {
       "artifacts": [
         {
+          "name": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034.apk",
+          "sha256": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
+          "size": 26657623,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034.apk"
+        },
+        {
+          "name": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43.apk",
+          "sha256": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43",
+          "size": 10258025,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43.apk"
+        },
+        {
+          "name": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056.apk",
+          "sha256": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056",
+          "size": 163412160,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "WeightWatchers",
+      "package": "com.weightwatchers.mobile",
+      "publication": {
+        "catalog": {
+          "name": "catalog-826e0420555f73c81b98dda1c9da7eb7d869bd8ed35d3b77add0d991f19456b4.json",
+          "sha256": "826e0420555f73c81b98dda1c9da7eb7d869bd8ed35d3b77add0d991f19456b4",
+          "size": 6257,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/catalog-826e0420555f73c81b98dda1c9da7eb7d869bd8ed35d3b77add0d991f19456b4.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-ddd519d591c667ea524193d8a476c85692755086cf9f7e1375ab7fc20808c507.json",
+          "sha256": "ddd519d591c667ea524193d8a476c85692755086cf9f7e1375ab7fc20808c507",
+          "size": 1018,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/manifest-ddd519d591c667ea524193d8a476c85692755086cf9f7e1375ab7fc20808c507.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.weightwatchers.mobile-library",
+        "tag": "com.weightwatchers.mobile-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "a3499c2936c5bcab7bb82eb807497b45b49053d30728ade8a06489bf5a659206"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "de",
+              "de-CH",
+              "de-DE",
+              "en-AU",
+              "en-CA",
+              "en-EU",
+              "en-GB",
+              "en-NZ",
+              "en-US",
+              "fr",
+              "fr-BE",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "it",
+              "nl",
+              "nl-BE",
+              "nl-NL",
+              "pt",
+              "pt-BR",
+              "sv",
+              "sv-SE"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 1773954320,
+          "version_name": "11.32.0"
+        },
+        {
+          "certificate_sha256": [
+            "a3499c2936c5bcab7bb82eb807497b45b49053d30728ade8a06489bf5a659206"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "de",
+              "de-CH",
+              "de-DE",
+              "en-AU",
+              "en-CA",
+              "en-EU",
+              "en-GB",
+              "en-NZ",
+              "en-US",
+              "fr",
+              "fr-BE",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "it",
+              "nl",
+              "nl-BE",
+              "nl-NL",
+              "pt",
+              "pt-BR",
+              "sv",
+              "sv-SE"
+            ],
+            "locale": "en_US",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 1773954320,
+          "version_name": "11.32.0"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "b9795bf3f85138ce1d884a4aabe200cf3172cb729f39e44e47df5088736cfcc3.apk",
           "sha256": "b9795bf3f85138ce1d884a4aabe200cf3172cb729f39e44e47df5088736cfcc3",
           "size": 68569153,
@@ -8023,39 +8250,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056.apk",
           "role": "base",
           "sha256": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056",
           "size": 163412160,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-px_9a-1773954320/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034.apk",
           "role": "split",
           "sha256": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
           "size": 26657623,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-px_9a-1773954320/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43.apk",
           "role": "split",
           "sha256": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43",
           "size": 10258025,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-px_9a-1773954320/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43.apk"
         }
       ],
       "certificate_sha256": [
         "a3499c2936c5bcab7bb82eb807497b45b49053d30728ade8a06489bf5a659206"
       ],
-      "manifest_sha256": "d5f251300a6b0f408ed24f0f8726816f84e798f139faee3de7bcb0aefc4ac401",
-      "manifest_size": 871,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-px_9a-1773954320/manifest-public.json",
+      "manifest_sha256": "ddd519d591c667ea524193d8a476c85692755086cf9f7e1375ab7fc20808c507",
+      "manifest_size": 1018,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/manifest-ddd519d591c667ea524193d8a476c85692755086cf9f7e1375ab7fc20808c507.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.weightwatchers.mobile/metadata.json",
       "package": "com.weightwatchers.mobile",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.weightwatchers.mobile-library",
       "version_code": 1773954320,
       "version_name": "11.32.0"
     },
@@ -8408,7 +8636,6 @@
     "com.tinder",
     "com.walmart.android",
     "com.wbd.stream",
-    "com.weightwatchers.mobile",
     "com.whatsapp",
     "com.zhiliaoapp.musically",
     "deezer.android.app",
