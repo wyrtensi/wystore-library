@@ -9914,6 +9914,189 @@
     {
       "artifacts": [
         {
+          "name": "5d29039c664e29a1c83a2950e492c01c7e5caa228c31d963612a586c70c11922.apk",
+          "sha256": "5d29039c664e29a1c83a2950e492c01c7e5caa228c31d963612a586c70c11922",
+          "size": 5570312,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-library/5d29039c664e29a1c83a2950e492c01c7e5caa228c31d963612a586c70c11922.apk"
+        },
+        {
+          "name": "df21e7ddf9efba7565b5110426f8ee9f4da41270b8006a785ff7b0d47e33cf2c.apk",
+          "sha256": "df21e7ddf9efba7565b5110426f8ee9f4da41270b8006a785ff7b0d47e33cf2c",
+          "size": 13789405,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-library/df21e7ddf9efba7565b5110426f8ee9f4da41270b8006a785ff7b0d47e33cf2c.apk"
+        },
+        {
+          "name": "ff2d4b2c836a9fdea7b19340f0bebf6248bfcbed316c9386f0686128a4203758.apk",
+          "sha256": "ff2d4b2c836a9fdea7b19340f0bebf6248bfcbed316c9386f0686128a4203758",
+          "size": 353310374,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-library/ff2d4b2c836a9fdea7b19340f0bebf6248bfcbed316c9386f0686128a4203758.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Walmart",
+      "package": "com.walmart.android",
+      "publication": {
+        "catalog": {
+          "name": "catalog-25e7ae8aa929fda00166271c8feefdc2b713174604d79c5d5998c396d8cfb559.json",
+          "sha256": "25e7ae8aa929fda00166271c8feefdc2b713174604d79c5d5998c396d8cfb559",
+          "size": 5365,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-library/catalog-25e7ae8aa929fda00166271c8feefdc2b713174604d79c5d5998c396d8cfb559.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-3d93165a31286b264e5ca8d8da4241feb648925eaea35bd0d30990658c179653.json",
+          "sha256": "3d93165a31286b264e5ca8d8da4241feb648925eaea35bd0d30990658c179653",
+          "size": 1007,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-library/manifest-3d93165a31286b264e5ca8d8da4241feb648925eaea35bd0d30990658c179653.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.walmart.android-library",
+        "tag": "com.walmart.android-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "f3cfe9b27cf77a414051734b6a07422ed8b8ed71de02e0d1e8a36994c15a17a2"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "es"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.camera.front",
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ff2d4b2c836a9fdea7b19340f0bebf6248bfcbed316c9386f0686128a4203758",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "df21e7ddf9efba7565b5110426f8ee9f4da41270b8006a785ff7b0d47e33cf2c",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "5d29039c664e29a1c83a2950e492c01c7e5caa228c31d963612a586c70c11922",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 26420013,
+          "version_name": "26.42"
+        },
+        {
+          "certificate_sha256": [
+            "f3cfe9b27cf77a414051734b6a07422ed8b8ed71de02e0d1e8a36994c15a17a2"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "es"
+            ],
+            "locale": "en_US",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.camera.front",
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ff2d4b2c836a9fdea7b19340f0bebf6248bfcbed316c9386f0686128a4203758",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "df21e7ddf9efba7565b5110426f8ee9f4da41270b8006a785ff7b0d47e33cf2c",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "5d29039c664e29a1c83a2950e492c01c7e5caa228c31d963612a586c70c11922",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 26420013,
+          "version_name": "26.42"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034.apk",
           "sha256": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
           "size": 26657623,
@@ -13584,39 +13767,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "ff2d4b2c836a9fdea7b19340f0bebf6248bfcbed316c9386f0686128a4203758.apk",
           "role": "base",
           "sha256": "ff2d4b2c836a9fdea7b19340f0bebf6248bfcbed316c9386f0686128a4203758",
           "size": 353310374,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26420013/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-library/ff2d4b2c836a9fdea7b19340f0bebf6248bfcbed316c9386f0686128a4203758.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "df21e7ddf9efba7565b5110426f8ee9f4da41270b8006a785ff7b0d47e33cf2c.apk",
           "role": "split",
           "sha256": "df21e7ddf9efba7565b5110426f8ee9f4da41270b8006a785ff7b0d47e33cf2c",
           "size": 13789405,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26420013/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-library/df21e7ddf9efba7565b5110426f8ee9f4da41270b8006a785ff7b0d47e33cf2c.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "5d29039c664e29a1c83a2950e492c01c7e5caa228c31d963612a586c70c11922.apk",
           "role": "split",
           "sha256": "5d29039c664e29a1c83a2950e492c01c7e5caa228c31d963612a586c70c11922",
           "size": 5570312,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26420013/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-library/5d29039c664e29a1c83a2950e492c01c7e5caa228c31d963612a586c70c11922.apk"
         }
       ],
       "certificate_sha256": [
         "f3cfe9b27cf77a414051734b6a07422ed8b8ed71de02e0d1e8a36994c15a17a2"
       ],
-      "manifest_sha256": "baf68f165648b27baa45d9ffac5abc15b47934f6d84ee70dfb3b0be5bc0e2220",
-      "manifest_size": 860,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26420013/manifest-public.json",
+      "manifest_sha256": "3d93165a31286b264e5ca8d8da4241feb648925eaea35bd0d30990658c179653",
+      "manifest_size": 1007,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-library/manifest-3d93165a31286b264e5ca8d8da4241feb648925eaea35bd0d30990658c179653.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.walmart.android/metadata.json",
       "package": "com.walmart.android",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.walmart.android-library",
       "version_code": 26420013,
       "version_name": "26.42"
     },
@@ -14043,7 +14227,6 @@
     "com.symantec.mobilesecurity",
     "com.thomsonreuters.reuters",
     "com.tinder",
-    "com.walmart.android",
     "com.wbd.stream",
     "com.whatsapp",
     "com.zhiliaoapp.musically",
