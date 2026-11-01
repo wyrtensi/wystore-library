@@ -386,6 +386,218 @@
     {
       "artifacts": [
         {
+          "name": "0443c19a750112dea33065d83d1ebe0d5e32f8f59d4583cc0b9ff437eecdd589.apk",
+          "sha256": "0443c19a750112dea33065d83d1ebe0d5e32f8f59d4583cc0b9ff437eecdd589",
+          "size": 441987,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/0443c19a750112dea33065d83d1ebe0d5e32f8f59d4583cc0b9ff437eecdd589.apk"
+        },
+        {
+          "name": "2ac3c7c6a382d006b89abe521acd1422c7ffbb565be70b8d9a193046b11272f8.apk",
+          "sha256": "2ac3c7c6a382d006b89abe521acd1422c7ffbb565be70b8d9a193046b11272f8",
+          "size": 843986,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/2ac3c7c6a382d006b89abe521acd1422c7ffbb565be70b8d9a193046b11272f8.apk"
+        },
+        {
+          "name": "72bcbfe9b292936b0beb0269bbd037b50f323dae1459dd2b1573def394e8ce03.apk",
+          "sha256": "72bcbfe9b292936b0beb0269bbd037b50f323dae1459dd2b1573def394e8ce03",
+          "size": 3281545,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/72bcbfe9b292936b0beb0269bbd037b50f323dae1459dd2b1573def394e8ce03.apk"
+        },
+        {
+          "name": "a811508a26e78e18dc02d8b69b6e5883360ef81b3bcc186a613817bcd10efab9.apk",
+          "sha256": "a811508a26e78e18dc02d8b69b6e5883360ef81b3bcc186a613817bcd10efab9",
+          "size": 135378,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/a811508a26e78e18dc02d8b69b6e5883360ef81b3bcc186a613817bcd10efab9.apk"
+        },
+        {
+          "name": "e2f3bdde97f5189ef2808a61d0caf3e6217d1d4decfed516ed119f944fb82a7b.apk",
+          "sha256": "e2f3bdde97f5189ef2808a61d0caf3e6217d1d4decfed516ed119f944fb82a7b",
+          "size": 55255303,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/e2f3bdde97f5189ef2808a61d0caf3e6217d1d4decfed516ed119f944fb82a7b.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Grok",
+      "package": "ai.x.grok",
+      "publication": {
+        "catalog": {
+          "name": "catalog-2b50251a21f9da75aa0df9cfce5f45c3ba1a048575965136ee9480165e113ca8.json",
+          "sha256": "2b50251a21f9da75aa0df9cfce5f45c3ba1a048575965136ee9480165e113ca8",
+          "size": 6609,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/catalog-2b50251a21f9da75aa0df9cfce5f45c3ba1a048575965136ee9480165e113ca8.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-74650ef097147b6b0661ffaf44cae6b4615fd6acc7185d26fb07bbb1de572c6c.json",
+          "sha256": "74650ef097147b6b0661ffaf44cae6b4615fd6acc7185d26fb07bbb1de572c6c",
+          "size": 1261,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/manifest-74650ef097147b6b0661ffaf44cae6b4615fd6acc7185d26fb07bbb1de572c6c.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/ai.x.grok-library",
+        "tag": "ai.x.grok-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "521bf5ce7c981faba4ebd86d23f778885537cad021bc107d8915d005e99f4a12"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e2f3bdde97f5189ef2808a61d0caf3e6217d1d4decfed516ed119f944fb82a7b",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "72bcbfe9b292936b0beb0269bbd037b50f323dae1459dd2b1573def394e8ce03",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "2ac3c7c6a382d006b89abe521acd1422c7ffbb565be70b8d9a193046b11272f8",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "0443c19a750112dea33065d83d1ebe0d5e32f8f59d4583cc0b9ff437eecdd589",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 11253200,
+          "version_name": "1.2.53-release.00"
+        },
+        {
+          "certificate_sha256": [
+            "521bf5ce7c981faba4ebd86d23f778885537cad021bc107d8915d005e99f4a12"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XA",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e2f3bdde97f5189ef2808a61d0caf3e6217d1d4decfed516ed119f944fb82a7b",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "72bcbfe9b292936b0beb0269bbd037b50f323dae1459dd2b1573def394e8ce03",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "a811508a26e78e18dc02d8b69b6e5883360ef81b3bcc186a613817bcd10efab9",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "0443c19a750112dea33065d83d1ebe0d5e32f8f59d4583cc0b9ff437eecdd589",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 11253200,
+          "version_name": "1.2.53-release.00"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7.apk",
           "sha256": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7",
           "size": 206136446,
@@ -16748,47 +16960,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "e2f3bdde97f5189ef2808a61d0caf3e6217d1d4decfed516ed119f944fb82a7b.apk",
           "role": "base",
           "sha256": "e2f3bdde97f5189ef2808a61d0caf3e6217d1d4decfed516ed119f944fb82a7b",
           "size": 55255303,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11253200/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/e2f3bdde97f5189ef2808a61d0caf3e6217d1d4decfed516ed119f944fb82a7b.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "72bcbfe9b292936b0beb0269bbd037b50f323dae1459dd2b1573def394e8ce03.apk",
           "role": "split",
           "sha256": "72bcbfe9b292936b0beb0269bbd037b50f323dae1459dd2b1573def394e8ce03",
           "size": 3281545,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11253200/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/72bcbfe9b292936b0beb0269bbd037b50f323dae1459dd2b1573def394e8ce03.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "a811508a26e78e18dc02d8b69b6e5883360ef81b3bcc186a613817bcd10efab9.apk",
           "role": "split",
           "sha256": "a811508a26e78e18dc02d8b69b6e5883360ef81b3bcc186a613817bcd10efab9",
           "size": 135378,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11253200/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/a811508a26e78e18dc02d8b69b6e5883360ef81b3bcc186a613817bcd10efab9.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "0443c19a750112dea33065d83d1ebe0d5e32f8f59d4583cc0b9ff437eecdd589.apk",
           "role": "split",
           "sha256": "0443c19a750112dea33065d83d1ebe0d5e32f8f59d4583cc0b9ff437eecdd589",
           "size": 441987,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11253200/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/0443c19a750112dea33065d83d1ebe0d5e32f8f59d4583cc0b9ff437eecdd589.apk"
         }
       ],
       "certificate_sha256": [
         "521bf5ce7c981faba4ebd86d23f778885537cad021bc107d8915d005e99f4a12"
       ],
-      "manifest_sha256": "3f302e52080e5af57afaf0feb5b6e078e362d9e030503fd2eb99edce99475193",
-      "manifest_size": 1065,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11253200/manifest-public.json",
+      "manifest_sha256": "74650ef097147b6b0661ffaf44cae6b4615fd6acc7185d26fb07bbb1de572c6c",
+      "manifest_size": 1261,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/manifest-74650ef097147b6b0661ffaf44cae6b4615fd6acc7185d26fb07bbb1de572c6c.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/ai.x.grok/metadata.json",
       "package": "ai.x.grok",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/ai.x.grok-library",
       "version_code": 11253200,
       "version_name": "1.2.53-release.00"
     },
@@ -19293,7 +19506,6 @@
     }
   ],
   "migration_pending": [
-    "ai.x.grok",
     "com.abc.abcnews",
     "com.anthropic.claude",
     "com.antivirus",
