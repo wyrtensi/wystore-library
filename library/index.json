@@ -3128,6 +3128,233 @@
     {
       "artifacts": [
         {
+          "name": "0d124b8927dbb0ce4923674058390364fa2eff88adb59de106d8d5a5340275cb.apk",
+          "sha256": "0d124b8927dbb0ce4923674058390364fa2eff88adb59de106d8d5a5340275cb",
+          "size": 153133,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-library/0d124b8927dbb0ce4923674058390364fa2eff88adb59de106d8d5a5340275cb.apk"
+        },
+        {
+          "name": "125a05706eb0e987f6fce00886931039e8fd32fdcd323db0a79f3ffec9f936dd.apk",
+          "sha256": "125a05706eb0e987f6fce00886931039e8fd32fdcd323db0a79f3ffec9f936dd",
+          "size": 349777129,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-library/125a05706eb0e987f6fce00886931039e8fd32fdcd323db0a79f3ffec9f936dd.apk"
+        },
+        {
+          "name": "802f709aab785d80e3397b9ed97a9f2bd48f2e4ce94b766f16e8ea3910ecdd52.apk",
+          "sha256": "802f709aab785d80e3397b9ed97a9f2bd48f2e4ce94b766f16e8ea3910ecdd52",
+          "size": 128786706,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-library/802f709aab785d80e3397b9ed97a9f2bd48f2e4ce94b766f16e8ea3910ecdd52.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Bilibili",
+      "package": "com.bilibili.app.in",
+      "publication": {
+        "catalog": {
+          "name": "catalog-4e3aa6afe7799825df33971390fe22e04cb39a8b0cfb16f392f9bb6940ce94b1.json",
+          "sha256": "4e3aa6afe7799825df33971390fe22e04cb39a8b0cfb16f392f9bb6940ce94b1",
+          "size": 6434,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-library/catalog-4e3aa6afe7799825df33971390fe22e04cb39a8b0cfb16f392f9bb6940ce94b1.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-ba789d376f84483200482fdce2d627e60b4f1072ba33d19cb2e989c470604482.json",
+          "sha256": "ba789d376f84483200482fdce2d627e60b4f1072ba33d19cb2e989c470604482",
+          "size": 1006,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-library/manifest-ba789d376f84483200482fdce2d627e60b4f1072ba33d19cb2e989c470604482.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.bilibili.app.in-library",
+        "tag": "com.bilibili.app.in-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "93ba270f5521139ecafe4bb638ac5b1198bc548f62d9fd8f8580a079faf5910e"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ar",
+              "en",
+              "es",
+              "id",
+              "in",
+              "ja",
+              "ms",
+              "pt",
+              "ru",
+              "th",
+              "tr",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 24,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.camera",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.landscape",
+              "android.hardware.screen.portrait",
+              "android.hardware.usb.accessory",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "125a05706eb0e987f6fce00886931039e8fd32fdcd323db0a79f3ffec9f936dd",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "802f709aab785d80e3397b9ed97a9f2bd48f2e4ce94b766f16e8ea3910ecdd52",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "0d124b8927dbb0ce4923674058390364fa2eff88adb59de106d8d5a5340275cb",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 9161100,
+          "version_name": "6.7.1"
+        },
+        {
+          "certificate_sha256": [
+            "93ba270f5521139ecafe4bb638ac5b1198bc548f62d9fd8f8580a079faf5910e"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ar",
+              "en",
+              "es",
+              "id",
+              "in",
+              "ja",
+              "ms",
+              "pt",
+              "ru",
+              "th",
+              "tr",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "en_US",
+            "min_sdk": 24,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.camera",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.landscape",
+              "android.hardware.screen.portrait",
+              "android.hardware.usb.accessory",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "125a05706eb0e987f6fce00886931039e8fd32fdcd323db0a79f3ffec9f936dd",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "802f709aab785d80e3397b9ed97a9f2bd48f2e4ce94b766f16e8ea3910ecdd52",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "0d124b8927dbb0ce4923674058390364fa2eff88adb59de106d8d5a5340275cb",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 9161100,
+          "version_name": "6.7.1"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8.apk",
           "sha256": "2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8",
           "size": 1499343,
@@ -14571,39 +14798,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "125a05706eb0e987f6fce00886931039e8fd32fdcd323db0a79f3ffec9f936dd.apk",
           "role": "base",
           "sha256": "125a05706eb0e987f6fce00886931039e8fd32fdcd323db0a79f3ffec9f936dd",
           "size": 349777129,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-px_9a-9161100/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-library/125a05706eb0e987f6fce00886931039e8fd32fdcd323db0a79f3ffec9f936dd.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "802f709aab785d80e3397b9ed97a9f2bd48f2e4ce94b766f16e8ea3910ecdd52.apk",
           "role": "split",
           "sha256": "802f709aab785d80e3397b9ed97a9f2bd48f2e4ce94b766f16e8ea3910ecdd52",
           "size": 128786706,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-px_9a-9161100/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-library/802f709aab785d80e3397b9ed97a9f2bd48f2e4ce94b766f16e8ea3910ecdd52.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "0d124b8927dbb0ce4923674058390364fa2eff88adb59de106d8d5a5340275cb.apk",
           "role": "split",
           "sha256": "0d124b8927dbb0ce4923674058390364fa2eff88adb59de106d8d5a5340275cb",
           "size": 153133,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-px_9a-9161100/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-library/0d124b8927dbb0ce4923674058390364fa2eff88adb59de106d8d5a5340275cb.apk"
         }
       ],
       "certificate_sha256": [
         "93ba270f5521139ecafe4bb638ac5b1198bc548f62d9fd8f8580a079faf5910e"
       ],
-      "manifest_sha256": "a0e853a3acf7c720fc2c713c71905aaeb5d81c547047069a7808db66be7a207f",
-      "manifest_size": 859,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-px_9a-9161100/manifest-public.json",
+      "manifest_sha256": "ba789d376f84483200482fdce2d627e60b4f1072ba33d19cb2e989c470604482",
+      "manifest_size": 1006,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bilibili.app.in-library/manifest-ba789d376f84483200482fdce2d627e60b4f1072ba33d19cb2e989c470604482.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.bilibili.app.in/metadata.json",
       "package": "com.bilibili.app.in",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.bilibili.app.in-library",
       "version_code": 9161100,
       "version_name": "6.7.1"
     },
@@ -16645,7 +16873,6 @@
     "com.antivirus",
     "com.avast.android.mobilesecurity",
     "com.badoo.mobile",
-    "com.bilibili.app.in",
     "com.bumble.app",
     "com.disney.disneyplus",
     "com.facebook.katana",
