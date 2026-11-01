@@ -3102,6 +3102,205 @@
     {
       "artifacts": [
         {
+          "name": "1e2244b6f94f1466782816475591c467c0cde27c65c59e2742903c24b9e76c1d.apk",
+          "sha256": "1e2244b6f94f1466782816475591c467c0cde27c65c59e2742903c24b9e76c1d",
+          "size": 5046851,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/1e2244b6f94f1466782816475591c467c0cde27c65c59e2742903c24b9e76c1d.apk"
+        },
+        {
+          "name": "3bffd255dcdda0ea3d6c4e95add4a33c5da5401557bbc2663d165bc413e3b8ff.apk",
+          "sha256": "3bffd255dcdda0ea3d6c4e95add4a33c5da5401557bbc2663d165bc413e3b8ff",
+          "size": 62288895,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/3bffd255dcdda0ea3d6c4e95add4a33c5da5401557bbc2663d165bc413e3b8ff.apk"
+        },
+        {
+          "name": "a1f435900bda6fd049ed0d9f8401d2d526ff62967556b87159c655d28fd950eb.apk",
+          "sha256": "a1f435900bda6fd049ed0d9f8401d2d526ff62967556b87159c655d28fd950eb",
+          "size": 602592,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/a1f435900bda6fd049ed0d9f8401d2d526ff62967556b87159c655d28fd950eb.apk"
+        },
+        {
+          "name": "ebf63e9e929cd8647fa1158e12cea7f868c0abcd02ac19c5fedfffe5fe7cab08.apk",
+          "sha256": "ebf63e9e929cd8647fa1158e12cea7f868c0abcd02ac19c5fedfffe5fe7cab08",
+          "size": 2200495,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/ebf63e9e929cd8647fa1158e12cea7f868c0abcd02ac19c5fedfffe5fe7cab08.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "MyFitnessPal",
+      "package": "com.myfitnesspal.android",
+      "publication": {
+        "catalog": {
+          "name": "catalog-44bc2630d471b3336fb2b8f19941a8fdc7f1ad725b578398c443ebff1e28bb10.json",
+          "sha256": "44bc2630d471b3336fb2b8f19941a8fdc7f1ad725b578398c443ebff1e28bb10",
+          "size": 6197,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/catalog-44bc2630d471b3336fb2b8f19941a8fdc7f1ad725b578398c443ebff1e28bb10.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-8a6864c0e27bcca237fcc46c7c320b3c2db4b51665f6959187878950daecc6f3.json",
+          "sha256": "8a6864c0e27bcca237fcc46c7c320b3c2db4b51665f6959187878950daecc6f3",
+          "size": 1009,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/manifest-8a6864c0e27bcca237fcc46c7c320b3c2db4b51665f6959187878950daecc6f3.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.myfitnesspal.android-library",
+        "tag": "com.myfitnesspal.android-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "e2f39185315095611b23f9602cef6332a89db8960ee76a45fb41eeef4975d95d"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 33,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.camera",
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "3bffd255dcdda0ea3d6c4e95add4a33c5da5401557bbc2663d165bc413e3b8ff",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1e2244b6f94f1466782816475591c467c0cde27c65c59e2742903c24b9e76c1d",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "a1f435900bda6fd049ed0d9f8401d2d526ff62967556b87159c655d28fd950eb",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "ebf63e9e929cd8647fa1158e12cea7f868c0abcd02ac19c5fedfffe5fe7cab08",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 51626,
+          "version_name": "26.43.0"
+        },
+        {
+          "certificate_sha256": [
+            "e2f39185315095611b23f9602cef6332a89db8960ee76a45fb41eeef4975d95d"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [],
+            "locale": "en_US",
+            "min_sdk": 33,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.camera",
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "3bffd255dcdda0ea3d6c4e95add4a33c5da5401557bbc2663d165bc413e3b8ff",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1e2244b6f94f1466782816475591c467c0cde27c65c59e2742903c24b9e76c1d",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "ebf63e9e929cd8647fa1158e12cea7f868c0abcd02ac19c5fedfffe5fe7cab08",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 51626,
+          "version_name": "26.43.0"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e.apk",
           "sha256": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e",
           "size": 190973,
@@ -6675,39 +6874,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "3bffd255dcdda0ea3d6c4e95add4a33c5da5401557bbc2663d165bc413e3b8ff.apk",
           "role": "base",
           "sha256": "3bffd255dcdda0ea3d6c4e95add4a33c5da5401557bbc2663d165bc413e3b8ff",
           "size": 62288895,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-px_9a-51626/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/3bffd255dcdda0ea3d6c4e95add4a33c5da5401557bbc2663d165bc413e3b8ff.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "1e2244b6f94f1466782816475591c467c0cde27c65c59e2742903c24b9e76c1d.apk",
           "role": "split",
           "sha256": "1e2244b6f94f1466782816475591c467c0cde27c65c59e2742903c24b9e76c1d",
           "size": 5046851,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-px_9a-51626/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/1e2244b6f94f1466782816475591c467c0cde27c65c59e2742903c24b9e76c1d.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "ebf63e9e929cd8647fa1158e12cea7f868c0abcd02ac19c5fedfffe5fe7cab08.apk",
           "role": "split",
           "sha256": "ebf63e9e929cd8647fa1158e12cea7f868c0abcd02ac19c5fedfffe5fe7cab08",
           "size": 2200495,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-px_9a-51626/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/ebf63e9e929cd8647fa1158e12cea7f868c0abcd02ac19c5fedfffe5fe7cab08.apk"
         }
       ],
       "certificate_sha256": [
         "e2f39185315095611b23f9602cef6332a89db8960ee76a45fb41eeef4975d95d"
       ],
-      "manifest_sha256": "d89500ec5a06e9ffd7c33804963bdb7a9293048bd5b7c7c4759a34004a1f45bf",
-      "manifest_size": 862,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-px_9a-51626/manifest-public.json",
+      "manifest_sha256": "8a6864c0e27bcca237fcc46c7c320b3c2db4b51665f6959187878950daecc6f3",
+      "manifest_size": 1009,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/manifest-8a6864c0e27bcca237fcc46c7c320b3c2db4b51665f6959187878950daecc6f3.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.myfitnesspal.android/metadata.json",
       "package": "com.myfitnesspal.android",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.myfitnesspal.android-library",
       "version_code": 51626,
       "version_name": "26.43.0"
     },
@@ -7775,7 +7975,6 @@
     "com.kwai.video",
     "com.mcdonalds.mobileapp",
     "com.microsoft.office.officehubrow",
-    "com.myfitnesspal.android",
     "com.myklarnamobile",
     "com.netflix.mediaclient",
     "com.openai.chatgpt",
