@@ -787,6 +787,373 @@
     {
       "artifacts": [
         {
+          "name": "5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d.apk",
+          "sha256": "5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d",
+          "size": 94854028,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d.apk"
+        },
+        {
+          "name": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk",
+          "sha256": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+          "size": 95710457,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk"
+        },
+        {
+          "name": "e13c869061f67dc8e35cbdb58157b2fdaddc4df534f5bacc195eb9788616d3d7.apk",
+          "sha256": "e13c869061f67dc8e35cbdb58157b2fdaddc4df534f5bacc195eb9788616d3d7",
+          "size": 187366977,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/e13c869061f67dc8e35cbdb58157b2fdaddc4df534f5bacc195eb9788616d3d7.apk"
+        },
+        {
+          "name": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371.apk",
+          "sha256": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+          "size": 188760156,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Meta AI",
+      "package": "com.facebook.stella",
+      "publication": {
+        "catalog": {
+          "name": "catalog-579806273f0f76f3fb90b091958ea15e311cc3ff04422db3dd76da54b3420425.json",
+          "sha256": "579806273f0f76f3fb90b091958ea15e311cc3ff04422db3dd76da54b3420425",
+          "size": 8826,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-579806273f0f76f3fb90b091958ea15e311cc3ff04422db3dd76da54b3420425.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664.json",
+          "sha256": "a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664",
+          "size": 828,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/manifest-a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.facebook.stella-library",
+        "tag": "com.facebook.stella-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "c56f50a826029dbd893a527103a224ca1ca2074ed79deee76fae18e1d6e6c768"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.bluetooth_le",
+              "android.hardware.camera",
+              "android.hardware.camera.autofocus",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "e13c869061f67dc8e35cbdb58157b2fdaddc4df534f5bacc195eb9788616d3d7",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 969602402,
+          "version_name": "296.2.0.26.165"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "c56f50a826029dbd893a527103a224ca1ca2074ed79deee76fae18e1d6e6c768"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.bluetooth_le",
+              "android.hardware.camera",
+              "android.hardware.camera.autofocus",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 969702176,
+          "version_name": "297.0.0.22.166"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e.apk",
           "sha256": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e",
           "size": 190973,
@@ -1898,20 +2265,20 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk",
           "role": "base",
           "sha256": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
           "size": 95710457,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-px_9a-969702176/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371.apk",
           "role": "split",
           "sha256": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
           "size": 188760156,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-px_9a-969702176/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371.apk"
         }
       ],
       "certificate_scope": {
@@ -1921,12 +2288,13 @@
       "certificate_sha256": [
         "c56f50a826029dbd893a527103a224ca1ca2074ed79deee76fae18e1d6e6c768"
       ],
-      "manifest_sha256": "47c73bbac949ce5bd50394851afe5ae93926426a46915c5cee3fe1c0c61ed411",
-      "manifest_size": 726,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-px_9a-969702176/manifest-public.json",
+      "manifest_sha256": "a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664",
+      "manifest_size": 828,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/manifest-a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.facebook.stella/metadata.json",
       "package": "com.facebook.stella",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.facebook.stella-library",
       "version_code": 969702176,
       "version_name": "297.0.0.22.166"
     },
@@ -3620,7 +3988,6 @@
     "com.disney.disneyplus",
     "com.einnovation.temu",
     "com.facebook.katana",
-    "com.facebook.stella",
     "com.fitbit.FitbitMobile",
     "com.funcamerastudio.videomaker",
     "com.google.android.apps.bard",
