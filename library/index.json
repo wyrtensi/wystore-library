@@ -2647,6 +2647,223 @@
     {
       "artifacts": [
         {
+          "name": "208b956cdd4bbcf6bd1a05ae1e4328f4748177dbfcdc2ae8926cae173e67140e.apk",
+          "sha256": "208b956cdd4bbcf6bd1a05ae1e4328f4748177dbfcdc2ae8926cae173e67140e",
+          "size": 49347624,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/208b956cdd4bbcf6bd1a05ae1e4328f4748177dbfcdc2ae8926cae173e67140e.apk"
+        },
+        {
+          "name": "49498515daeabb13b1b53519183ea2c0eff49b649b6459c7fb4cc367f953f01b.apk",
+          "sha256": "49498515daeabb13b1b53519183ea2c0eff49b649b6459c7fb4cc367f953f01b",
+          "size": 155858,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/49498515daeabb13b1b53519183ea2c0eff49b649b6459c7fb4cc367f953f01b.apk"
+        },
+        {
+          "name": "60f2c22a36c42024fa2869c7ed7e7eac8b228c43b09e9a39befc841870e61e73.apk",
+          "sha256": "60f2c22a36c42024fa2869c7ed7e7eac8b228c43b09e9a39befc841870e61e73",
+          "size": 3650164,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/60f2c22a36c42024fa2869c7ed7e7eac8b228c43b09e9a39befc841870e61e73.apk"
+        },
+        {
+          "name": "9a5c67d304e1c9389d28aa0da392794785e99fc9b5057612d3ab276882f3b562.apk",
+          "sha256": "9a5c67d304e1c9389d28aa0da392794785e99fc9b5057612d3ab276882f3b562",
+          "size": 57554,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/9a5c67d304e1c9389d28aa0da392794785e99fc9b5057612d3ab276882f3b562.apk"
+        },
+        {
+          "name": "d175deaaa31b05ec59f8e1e9e307e1ca7b255a173082ebc50629883600ca1224.apk",
+          "sha256": "d175deaaa31b05ec59f8e1e9e307e1ca7b255a173082ebc50629883600ca1224",
+          "size": 212262,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/d175deaaa31b05ec59f8e1e9e307e1ca7b255a173082ebc50629883600ca1224.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Wish",
+      "package": "com.contextlogic.wish",
+      "publication": {
+        "catalog": {
+          "name": "catalog-0037bf04777b906ba74254a9def153579bb12e291727e7a621e69e1a6b39c2dd.json",
+          "sha256": "0037bf04777b906ba74254a9def153579bb12e291727e7a621e69e1a6b39c2dd",
+          "size": 6790,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/catalog-0037bf04777b906ba74254a9def153579bb12e291727e7a621e69e1a6b39c2dd.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-5c3c3fddee29af20409d42a5044c4459c479d74bca7b25cea1ed94f81e1415b2.json",
+          "sha256": "5c3c3fddee29af20409d42a5044c4459c479d74bca7b25cea1ed94f81e1415b2",
+          "size": 1257,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/manifest-5c3c3fddee29af20409d42a5044c4459c479d74bca7b25cea1ed94f81e1415b2.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.contextlogic.wish-library",
+        "tag": "com.contextlogic.wish-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "39c5b5cca7c51792911819a719cfa249465ebead4b18628b405900b0ef14294b"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru",
+              "ru-RU",
+              "zh"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "208b956cdd4bbcf6bd1a05ae1e4328f4748177dbfcdc2ae8926cae173e67140e",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "60f2c22a36c42024fa2869c7ed7e7eac8b228c43b09e9a39befc841870e61e73",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "49498515daeabb13b1b53519183ea2c0eff49b649b6459c7fb4cc367f953f01b",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "d175deaaa31b05ec59f8e1e9e307e1ca7b255a173082ebc50629883600ca1224",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 2780,
+          "version_name": "26.7.9"
+        },
+        {
+          "certificate_sha256": [
+            "39c5b5cca7c51792911819a719cfa249465ebead4b18628b405900b0ef14294b"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "zh"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "208b956cdd4bbcf6bd1a05ae1e4328f4748177dbfcdc2ae8926cae173e67140e",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "60f2c22a36c42024fa2869c7ed7e7eac8b228c43b09e9a39befc841870e61e73",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "9a5c67d304e1c9389d28aa0da392794785e99fc9b5057612d3ab276882f3b562",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "d175deaaa31b05ec59f8e1e9e307e1ca7b255a173082ebc50629883600ca1224",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 2780,
+          "version_name": "26.7.9"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd.apk",
           "sha256": "1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd",
           "size": 5719482,
@@ -11911,47 +12128,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "208b956cdd4bbcf6bd1a05ae1e4328f4748177dbfcdc2ae8926cae173e67140e.apk",
           "role": "base",
           "sha256": "208b956cdd4bbcf6bd1a05ae1e4328f4748177dbfcdc2ae8926cae173e67140e",
           "size": 49347624,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-px_9a-2780/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/208b956cdd4bbcf6bd1a05ae1e4328f4748177dbfcdc2ae8926cae173e67140e.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "60f2c22a36c42024fa2869c7ed7e7eac8b228c43b09e9a39befc841870e61e73.apk",
           "role": "split",
           "sha256": "60f2c22a36c42024fa2869c7ed7e7eac8b228c43b09e9a39befc841870e61e73",
           "size": 3650164,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-px_9a-2780/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/60f2c22a36c42024fa2869c7ed7e7eac8b228c43b09e9a39befc841870e61e73.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "9a5c67d304e1c9389d28aa0da392794785e99fc9b5057612d3ab276882f3b562.apk",
           "role": "split",
           "sha256": "9a5c67d304e1c9389d28aa0da392794785e99fc9b5057612d3ab276882f3b562",
           "size": 57554,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-px_9a-2780/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/9a5c67d304e1c9389d28aa0da392794785e99fc9b5057612d3ab276882f3b562.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "d175deaaa31b05ec59f8e1e9e307e1ca7b255a173082ebc50629883600ca1224.apk",
           "role": "split",
           "sha256": "d175deaaa31b05ec59f8e1e9e307e1ca7b255a173082ebc50629883600ca1224",
           "size": 212262,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-px_9a-2780/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/d175deaaa31b05ec59f8e1e9e307e1ca7b255a173082ebc50629883600ca1224.apk"
         }
       ],
       "certificate_sha256": [
         "39c5b5cca7c51792911819a719cfa249465ebead4b18628b405900b0ef14294b"
       ],
-      "manifest_sha256": "3f2f2000c778c35b926df31a80f72ab4f63927d33ef38110e3a7658cd6b42f6d",
-      "manifest_size": 1061,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-px_9a-2780/manifest-public.json",
+      "manifest_sha256": "5c3c3fddee29af20409d42a5044c4459c479d74bca7b25cea1ed94f81e1415b2",
+      "manifest_size": 1257,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.contextlogic.wish-library/manifest-5c3c3fddee29af20409d42a5044c4459c479d74bca7b25cea1ed94f81e1415b2.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.contextlogic.wish/metadata.json",
       "package": "com.contextlogic.wish",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.contextlogic.wish-library",
       "version_code": 2780,
       "version_name": "26.7.9"
     },
@@ -13809,7 +14027,6 @@
     "com.badoo.mobile",
     "com.bilibili.app.in",
     "com.bumble.app",
-    "com.contextlogic.wish",
     "com.disney.disneyplus",
     "com.facebook.katana",
     "com.funcamerastudio.videomaker",
