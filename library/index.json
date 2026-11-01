@@ -2647,6 +2647,634 @@
     {
       "artifacts": [
         {
+          "name": "1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd.apk",
+          "sha256": "1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd",
+          "size": 5719482,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-library/1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd.apk"
+        },
+        {
+          "name": "8180e7c7c6dbe9459b73f43f4ec507b6571d7375360d35e3c778380bb52923bb.apk",
+          "sha256": "8180e7c7c6dbe9459b73f43f4ec507b6571d7375360d35e3c778380bb52923bb",
+          "size": 34010176,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-library/8180e7c7c6dbe9459b73f43f4ec507b6571d7375360d35e3c778380bb52923bb.apk"
+        },
+        {
+          "name": "cec0d88c5a29b69df12eb887523d627250bd31ec4df5057817452e85527e36f9.apk",
+          "sha256": "cec0d88c5a29b69df12eb887523d627250bd31ec4df5057817452e85527e36f9",
+          "size": 33399,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-library/cec0d88c5a29b69df12eb887523d627250bd31ec4df5057817452e85527e36f9.apk"
+        },
+        {
+          "name": "fa32395a11746ba56eb0ba78585bb33ff1ac9b63be13d32e614793732458c194.apk",
+          "sha256": "fa32395a11746ba56eb0ba78585bb33ff1ac9b63be13d32e614793732458c194",
+          "size": 44347476,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-library/fa32395a11746ba56eb0ba78585bb33ff1ac9b63be13d32e614793732458c194.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Temu",
+      "package": "com.einnovation.temu",
+      "publication": {
+        "catalog": {
+          "name": "catalog-4c38256249d36f830a85e1c3586e3b5761b69ab53fa2583013d7162a8c07e908.json",
+          "sha256": "4c38256249d36f830a85e1c3586e3b5761b69ab53fa2583013d7162a8c07e908",
+          "size": 14008,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-library/catalog-4c38256249d36f830a85e1c3586e3b5761b69ab53fa2583013d7162a8c07e908.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-37d1ae10d6c359c09012bdecba82f9983712ee38d9e2a60c1fe901a0043421ee.json",
+          "sha256": "37d1ae10d6c359c09012bdecba82f9983712ee38d9e2a60c1fe901a0043421ee",
+          "size": 1002,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-library/manifest-37d1ae10d6c359c09012bdecba82f9983712ee38d9e2a60c1fe901a0043421ee.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.einnovation.temu-library",
+        "tag": "com.einnovation.temu-library"
+      },
+      "unavailable": [],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "8adefece3749dcf23c3ceb3a8bbbc9a1d88091b676300588911bb58b85970baf"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ar",
+              "az",
+              "bg",
+              "bs",
+              "cnr",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "es",
+              "es-ES",
+              "et",
+              "fi",
+              "fil",
+              "fr",
+              "hr",
+              "hu",
+              "hy",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "ko",
+              "lt",
+              "lv",
+              "mk",
+              "mn",
+              "ms",
+              "mt",
+              "nb",
+              "nl",
+              "pl",
+              "pt",
+              "pt-BR",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sv",
+              "th",
+              "tr",
+              "uk",
+              "uz",
+              "vi",
+              "zh",
+              "zh-Hant",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "provided_split_types": [],
+            "required_features": [],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "fa32395a11746ba56eb0ba78585bb33ff1ac9b63be13d32e614793732458c194",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "version_code": 49300,
+          "version_name": "4.93.0"
+        },
+        {
+          "certificate_sha256": [
+            "8adefece3749dcf23c3ceb3a8bbbc9a1d88091b676300588911bb58b85970baf"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ar",
+              "az",
+              "bg",
+              "bs",
+              "cnr",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "es",
+              "es-ES",
+              "et",
+              "fi",
+              "fil",
+              "fr",
+              "hr",
+              "hu",
+              "hy",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "ko",
+              "lt",
+              "lv",
+              "mk",
+              "mn",
+              "ms",
+              "mt",
+              "nb",
+              "nl",
+              "pl",
+              "pt",
+              "pt-BR",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sv",
+              "th",
+              "tr",
+              "uk",
+              "uz",
+              "vi",
+              "zh",
+              "zh-Hant",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "provided_split_types": [],
+            "required_features": [],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "fa32395a11746ba56eb0ba78585bb33ff1ac9b63be13d32e614793732458c194",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "version_code": 49300,
+          "version_name": "4.93.0"
+        },
+        {
+          "certificate_sha256": [
+            "8adefece3749dcf23c3ceb3a8bbbc9a1d88091b676300588911bb58b85970baf"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "ar",
+              "az",
+              "bg",
+              "bs",
+              "cnr",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "es",
+              "es-ES",
+              "et",
+              "fi",
+              "fil",
+              "fr",
+              "hr",
+              "hu",
+              "hy",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "ko",
+              "lt",
+              "lv",
+              "mk",
+              "mn",
+              "ms",
+              "mt",
+              "nb",
+              "nl",
+              "pl",
+              "pt",
+              "pt-BR",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sv",
+              "th",
+              "tr",
+              "uk",
+              "uz",
+              "vi",
+              "zh",
+              "zh-Hant",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "provided_split_types": [],
+            "required_features": [],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "fa32395a11746ba56eb0ba78585bb33ff1ac9b63be13d32e614793732458c194",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "version_code": 49300,
+          "version_name": "4.93.0"
+        },
+        {
+          "certificate_sha256": [
+            "8adefece3749dcf23c3ceb3a8bbbc9a1d88091b676300588911bb58b85970baf"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "ar",
+              "az",
+              "bg",
+              "bs",
+              "cnr",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "es",
+              "es-ES",
+              "et",
+              "fi",
+              "fil",
+              "fr",
+              "hr",
+              "hu",
+              "hy",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "ko",
+              "lt",
+              "lv",
+              "mk",
+              "mn",
+              "ms",
+              "mt",
+              "nb",
+              "nl",
+              "pl",
+              "pt",
+              "pt-BR",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sv",
+              "th",
+              "tr",
+              "uk",
+              "uz",
+              "vi",
+              "zh",
+              "zh-Hant",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "provided_split_types": [],
+            "required_features": [],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "fa32395a11746ba56eb0ba78585bb33ff1ac9b63be13d32e614793732458c194",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "version_code": 49300,
+          "version_name": "4.93.0"
+        },
+        {
+          "certificate_sha256": [
+            "8adefece3749dcf23c3ceb3a8bbbc9a1d88091b676300588911bb58b85970baf"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ar",
+              "az",
+              "bg",
+              "bs",
+              "cnr",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "es",
+              "es-ES",
+              "et",
+              "fi",
+              "fil",
+              "fr",
+              "hr",
+              "hu",
+              "hy",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "ko",
+              "lt",
+              "lv",
+              "mk",
+              "mn",
+              "ms",
+              "mt",
+              "nb",
+              "nl",
+              "pl",
+              "pt",
+              "pt-BR",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sv",
+              "th",
+              "tr",
+              "uk",
+              "uz",
+              "vi",
+              "zh",
+              "zh-Hant",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "8180e7c7c6dbe9459b73f43f4ec507b6571d7375360d35e3c778380bb52923bb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "cec0d88c5a29b69df12eb887523d627250bd31ec4df5057817452e85527e36f9",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 49300,
+          "version_name": "4.93.0"
+        },
+        {
+          "certificate_sha256": [
+            "8adefece3749dcf23c3ceb3a8bbbc9a1d88091b676300588911bb58b85970baf"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ar",
+              "az",
+              "bg",
+              "bs",
+              "cnr",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "es",
+              "es-ES",
+              "et",
+              "fi",
+              "fil",
+              "fr",
+              "hr",
+              "hu",
+              "hy",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "ko",
+              "lt",
+              "lv",
+              "mk",
+              "mn",
+              "ms",
+              "mt",
+              "nb",
+              "nl",
+              "pl",
+              "pt",
+              "pt-BR",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sv",
+              "th",
+              "tr",
+              "uk",
+              "uz",
+              "vi",
+              "zh",
+              "zh-Hant",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "8180e7c7c6dbe9459b73f43f4ec507b6571d7375360d35e3c778380bb52923bb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "cec0d88c5a29b69df12eb887523d627250bd31ec4df5057817452e85527e36f9",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 49300,
+          "version_name": "4.93.0"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d.apk",
           "sha256": "5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d",
           "size": 94854028,
@@ -11377,39 +12005,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "8180e7c7c6dbe9459b73f43f4ec507b6571d7375360d35e3c778380bb52923bb.apk",
           "role": "base",
           "sha256": "8180e7c7c6dbe9459b73f43f4ec507b6571d7375360d35e3c778380bb52923bb",
           "size": 34010176,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-px_9a-49300/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-library/8180e7c7c6dbe9459b73f43f4ec507b6571d7375360d35e3c778380bb52923bb.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd.apk",
           "role": "split",
           "sha256": "1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd",
           "size": 5719482,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-px_9a-49300/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-library/1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "cec0d88c5a29b69df12eb887523d627250bd31ec4df5057817452e85527e36f9.apk",
           "role": "split",
           "sha256": "cec0d88c5a29b69df12eb887523d627250bd31ec4df5057817452e85527e36f9",
           "size": 33399,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-px_9a-49300/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-library/cec0d88c5a29b69df12eb887523d627250bd31ec4df5057817452e85527e36f9.apk"
         }
       ],
       "certificate_sha256": [
         "8adefece3749dcf23c3ceb3a8bbbc9a1d88091b676300588911bb58b85970baf"
       ],
-      "manifest_sha256": "47ec6155f5a8438b2ecd34651268c6ea03516c36ab0e0eddbe1a2c96812d4fc8",
-      "manifest_size": 855,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-px_9a-49300/manifest-public.json",
+      "manifest_sha256": "37d1ae10d6c359c09012bdecba82f9983712ee38d9e2a60c1fe901a0043421ee",
+      "manifest_size": 1002,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.einnovation.temu-library/manifest-37d1ae10d6c359c09012bdecba82f9983712ee38d9e2a60c1fe901a0043421ee.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.einnovation.temu/metadata.json",
       "package": "com.einnovation.temu",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.einnovation.temu-library",
       "version_code": 49300,
       "version_name": "4.93.0"
     },
@@ -13182,7 +13811,6 @@
     "com.bumble.app",
     "com.contextlogic.wish",
     "com.disney.disneyplus",
-    "com.einnovation.temu",
     "com.facebook.katana",
     "com.funcamerastudio.videomaker",
     "com.google.android.apps.bard",
