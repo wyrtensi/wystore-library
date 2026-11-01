@@ -1001,6 +1001,425 @@
     {
       "artifacts": [
         {
+          "name": "4fbde24ca5709705681831f98d548eedf655ceae8dc5b484cd49cd6fd8fd6a80.apk",
+          "sha256": "4fbde24ca5709705681831f98d548eedf655ceae8dc5b484cd49cd6fd8fd6a80",
+          "size": 43853032,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-library/4fbde24ca5709705681831f98d548eedf655ceae8dc5b484cd49cd6fd8fd6a80.apk"
+        },
+        {
+          "name": "588acff132566cb019dba15ab039c1a27a7786a09286400b109ae4e2df468949.apk",
+          "sha256": "588acff132566cb019dba15ab039c1a27a7786a09286400b109ae4e2df468949",
+          "size": 53037316,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-library/588acff132566cb019dba15ab039c1a27a7786a09286400b109ae4e2df468949.apk"
+        },
+        {
+          "name": "b9e0c5974f104f0118a994d9a06a3ba3f7e36aa5397842e5035ae01f59a8b59a.apk",
+          "sha256": "b9e0c5974f104f0118a994d9a06a3ba3f7e36aa5397842e5035ae01f59a8b59a",
+          "size": 964766,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-library/b9e0c5974f104f0118a994d9a06a3ba3f7e36aa5397842e5035ae01f59a8b59a.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Canva",
+      "package": "com.canva.editor",
+      "publication": {
+        "catalog": {
+          "name": "catalog-e6c060d1465222d2c2a08f58fa1aebb206555e64b797e57831acfa15aaa028e3.json",
+          "sha256": "e6c060d1465222d2c2a08f58fa1aebb206555e64b797e57831acfa15aaa028e3",
+          "size": 9473,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-library/catalog-e6c060d1465222d2c2a08f58fa1aebb206555e64b797e57831acfa15aaa028e3.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-1be8a167fcad9087b8b3606c64d64d94f4f4867ad7f4b5643943b3a9ef328271.json",
+          "sha256": "1be8a167fcad9087b8b3606c64d64d94f4f4867ad7f4b5643943b3a9ef328271",
+          "size": 1004,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-library/manifest-1be8a167fcad9087b8b3606c64d64d94f4f4867ad7f4b5643943b3a9ef328271.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.canva.editor-library",
+        "tag": "com.canva.editor-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "f364ebf2d108ce72fec20a4db7a5b0bcef4d002220075d07450285b7c7e6fb4d"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "ar",
+              "as",
+              "as-IN",
+              "az",
+              "bg",
+              "bn",
+              "ca",
+              "ca-ES",
+              "ceb",
+              "cs",
+              "cy-GB",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-GB",
+              "en-IN",
+              "es",
+              "es-419",
+              "es-MX",
+              "es-US",
+              "et",
+              "eu",
+              "eu-ES",
+              "fa",
+              "fa-IR",
+              "ff",
+              "fi",
+              "fr",
+              "fr-BE",
+              "gl",
+              "gl-ES",
+              "gu",
+              "gu-IN",
+              "ha",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "ig",
+              "in",
+              "it",
+              "iw",
+              "ja",
+              "jv",
+              "ka",
+              "ka-GE",
+              "kk",
+              "kk-KZ",
+              "km",
+              "km-KH",
+              "kn",
+              "kn-IN",
+              "ko",
+              "ku-TR",
+              "ky",
+              "ky-KG",
+              "lt",
+              "lv",
+              "mai",
+              "mg-MG",
+              "mk",
+              "ml",
+              "ml-IN",
+              "mn",
+              "mr",
+              "mr-IN",
+              "ms",
+              "my",
+              "my-MM",
+              "nb",
+              "ne",
+              "ne-NP",
+              "nl",
+              "nl-BE",
+              "om-ET",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "ro",
+              "ru",
+              "sd",
+              "si",
+              "sk",
+              "sl",
+              "sn",
+              "so-SO",
+              "sq",
+              "sr",
+              "sr-Cyrl",
+              "su",
+              "sv",
+              "sw",
+              "sw-KE",
+              "ta",
+              "ta-IN",
+              "te",
+              "te-IN",
+              "th",
+              "tl",
+              "tl-PH",
+              "tr",
+              "uk",
+              "ur",
+              "ur-PK",
+              "uz",
+              "vi",
+              "wo",
+              "xh-ZA",
+              "yo",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu",
+              "zu-ZA"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 26,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "588acff132566cb019dba15ab039c1a27a7786a09286400b109ae4e2df468949",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "4fbde24ca5709705681831f98d548eedf655ceae8dc5b484cd49cd6fd8fd6a80",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "b9e0c5974f104f0118a994d9a06a3ba3f7e36aa5397842e5035ae01f59a8b59a",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 29784255,
+          "version_name": "2.384.0"
+        },
+        {
+          "certificate_sha256": [
+            "f364ebf2d108ce72fec20a4db7a5b0bcef4d002220075d07450285b7c7e6fb4d"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "ar",
+              "as",
+              "as-IN",
+              "az",
+              "bg",
+              "bn",
+              "ca",
+              "ca-ES",
+              "ceb",
+              "cs",
+              "cy-GB",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-GB",
+              "en-IN",
+              "es",
+              "es-419",
+              "es-MX",
+              "es-US",
+              "et",
+              "eu",
+              "eu-ES",
+              "fa",
+              "fa-IR",
+              "ff",
+              "fi",
+              "fr",
+              "fr-BE",
+              "gl",
+              "gl-ES",
+              "gu",
+              "gu-IN",
+              "ha",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "ig",
+              "in",
+              "it",
+              "iw",
+              "ja",
+              "jv",
+              "ka",
+              "ka-GE",
+              "kk",
+              "kk-KZ",
+              "km",
+              "km-KH",
+              "kn",
+              "kn-IN",
+              "ko",
+              "ku-TR",
+              "ky",
+              "ky-KG",
+              "lt",
+              "lv",
+              "mai",
+              "mg-MG",
+              "mk",
+              "ml",
+              "ml-IN",
+              "mn",
+              "mr",
+              "mr-IN",
+              "ms",
+              "my",
+              "my-MM",
+              "nb",
+              "ne",
+              "ne-NP",
+              "nl",
+              "nl-BE",
+              "om-ET",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "ro",
+              "ru",
+              "sd",
+              "si",
+              "sk",
+              "sl",
+              "sn",
+              "so-SO",
+              "sq",
+              "sr",
+              "sr-Cyrl",
+              "su",
+              "sv",
+              "sw",
+              "sw-KE",
+              "ta",
+              "ta-IN",
+              "te",
+              "te-IN",
+              "th",
+              "tl",
+              "tl-PH",
+              "tr",
+              "uk",
+              "ur",
+              "ur-PK",
+              "uz",
+              "vi",
+              "wo",
+              "xh-ZA",
+              "yo",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu",
+              "zu-ZA"
+            ],
+            "locale": "en_US",
+            "min_sdk": 26,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "588acff132566cb019dba15ab039c1a27a7786a09286400b109ae4e2df468949",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "4fbde24ca5709705681831f98d548eedf655ceae8dc5b484cd49cd6fd8fd6a80",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "b9e0c5974f104f0118a994d9a06a3ba3f7e36aa5397842e5035ae01f59a8b59a",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 29784255,
+          "version_name": "2.384.0"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d.apk",
           "sha256": "5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d",
           "size": 94854028,
@@ -3834,39 +4253,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "588acff132566cb019dba15ab039c1a27a7786a09286400b109ae4e2df468949.apk",
           "role": "base",
           "sha256": "588acff132566cb019dba15ab039c1a27a7786a09286400b109ae4e2df468949",
           "size": 53037316,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-px_9a-29784255/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-library/588acff132566cb019dba15ab039c1a27a7786a09286400b109ae4e2df468949.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "4fbde24ca5709705681831f98d548eedf655ceae8dc5b484cd49cd6fd8fd6a80.apk",
           "role": "split",
           "sha256": "4fbde24ca5709705681831f98d548eedf655ceae8dc5b484cd49cd6fd8fd6a80",
           "size": 43853032,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-px_9a-29784255/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-library/4fbde24ca5709705681831f98d548eedf655ceae8dc5b484cd49cd6fd8fd6a80.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "b9e0c5974f104f0118a994d9a06a3ba3f7e36aa5397842e5035ae01f59a8b59a.apk",
           "role": "split",
           "sha256": "b9e0c5974f104f0118a994d9a06a3ba3f7e36aa5397842e5035ae01f59a8b59a",
           "size": 964766,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-px_9a-29784255/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-library/b9e0c5974f104f0118a994d9a06a3ba3f7e36aa5397842e5035ae01f59a8b59a.apk"
         }
       ],
       "certificate_sha256": [
         "f364ebf2d108ce72fec20a4db7a5b0bcef4d002220075d07450285b7c7e6fb4d"
       ],
-      "manifest_sha256": "16964a9fb4e71629c8b5ab14b7032ef8e1a85a5167afb229c2d0b5161158d561",
-      "manifest_size": 857,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-px_9a-29784255/manifest-public.json",
+      "manifest_sha256": "1be8a167fcad9087b8b3606c64d64d94f4f4867ad7f4b5643943b3a9ef328271",
+      "manifest_size": 1004,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.canva.editor-library/manifest-1be8a167fcad9087b8b3606c64d64d94f4f4867ad7f4b5643943b3a9ef328271.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.canva.editor/metadata.json",
       "package": "com.canva.editor",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.canva.editor-library",
       "version_code": 29784255,
       "version_name": "2.384.0"
     },
@@ -5760,7 +6180,6 @@
     "com.badoo.mobile",
     "com.bilibili.app.in",
     "com.bumble.app",
-    "com.canva.editor",
     "com.contextlogic.wish",
     "com.disney.disneyplus",
     "com.einnovation.temu",
