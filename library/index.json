@@ -4772,6 +4772,223 @@
     {
       "artifacts": [
         {
+          "name": "5fb2852ab9518e835b14e8fc38eac5dc9ff881fee1eca426e4d759ef41603ff9.apk",
+          "sha256": "5fb2852ab9518e835b14e8fc38eac5dc9ff881fee1eca426e4d759ef41603ff9",
+          "size": 458235,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/5fb2852ab9518e835b14e8fc38eac5dc9ff881fee1eca426e4d759ef41603ff9.apk"
+        },
+        {
+          "name": "90ebdd8b4cd2b1381dad690bad2370c153e2b52161c0c156eec6d54b8aa07f37.apk",
+          "sha256": "90ebdd8b4cd2b1381dad690bad2370c153e2b52161c0c156eec6d54b8aa07f37",
+          "size": 7574063,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/90ebdd8b4cd2b1381dad690bad2370c153e2b52161c0c156eec6d54b8aa07f37.apk"
+        },
+        {
+          "name": "a40bf0ea9ad822ac3283efbe6089fcd7491ef197b1bd5423da884aebaa7e52fc.apk",
+          "sha256": "a40bf0ea9ad822ac3283efbe6089fcd7491ef197b1bd5423da884aebaa7e52fc",
+          "size": 57554,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/a40bf0ea9ad822ac3283efbe6089fcd7491ef197b1bd5423da884aebaa7e52fc.apk"
+        },
+        {
+          "name": "cb4fb3f38ce9269757b834c119a92af6c99be615eb849ba448a2cc4373ffc409.apk",
+          "sha256": "cb4fb3f38ce9269757b834c119a92af6c99be615eb849ba448a2cc4373ffc409",
+          "size": 43646768,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/cb4fb3f38ce9269757b834c119a92af6c99be615eb849ba448a2cc4373ffc409.apk"
+        },
+        {
+          "name": "ee3bc2f806a11e34e7e83d2bb93708caee2f370cc13679607faa1c63964d2e83.apk",
+          "sha256": "ee3bc2f806a11e34e7e83d2bb93708caee2f370cc13679607faa1c63964d2e83",
+          "size": 94418,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/ee3bc2f806a11e34e7e83d2bb93708caee2f370cc13679607faa1c63964d2e83.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Disney+",
+      "package": "com.disney.disneyplus",
+      "publication": {
+        "catalog": {
+          "name": "catalog-08fa800f9b36007f1ca52dfdb7369f6256ceb1478ee2e1f25a979259d127c7ed.json",
+          "sha256": "08fa800f9b36007f1ca52dfdb7369f6256ceb1478ee2e1f25a979259d127c7ed",
+          "size": 6842,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/catalog-08fa800f9b36007f1ca52dfdb7369f6256ceb1478ee2e1f25a979259d127c7ed.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-a13afbd42d4b2cefda45df4cd950b1e966d72d1f92b857e0e16053f9316fac6e.json",
+          "sha256": "a13afbd42d4b2cefda45df4cd950b1e966d72d1f92b857e0e16053f9316fac6e",
+          "size": 1278,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/manifest-a13afbd42d4b2cefda45df4cd950b1e966d72d1f92b857e0e16053f9316fac6e.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.disney.disneyplus-library",
+        "tag": "com.disney.disneyplus-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "b4d251e979ea974d8f070feb5ab69fc4c2873f4e8add421ff63ad5f2789d63d4"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "cb4fb3f38ce9269757b834c119a92af6c99be615eb849ba448a2cc4373ffc409",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "90ebdd8b4cd2b1381dad690bad2370c153e2b52161c0c156eec6d54b8aa07f37",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "a40bf0ea9ad822ac3283efbe6089fcd7491ef197b1bd5423da884aebaa7e52fc",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "5fb2852ab9518e835b14e8fc38eac5dc9ff881fee1eca426e4d759ef41603ff9",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 179245508,
+          "version_name": "26.19.0+rc3-2026.10.20"
+        },
+        {
+          "certificate_sha256": [
+            "b4d251e979ea974d8f070feb5ab69fc4c2873f4e8add421ff63ad5f2789d63d4"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-UK",
+              "en-US",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "cb4fb3f38ce9269757b834c119a92af6c99be615eb849ba448a2cc4373ffc409",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "90ebdd8b4cd2b1381dad690bad2370c153e2b52161c0c156eec6d54b8aa07f37",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "ee3bc2f806a11e34e7e83d2bb93708caee2f370cc13679607faa1c63964d2e83",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "5fb2852ab9518e835b14e8fc38eac5dc9ff881fee1eca426e4d759ef41603ff9",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 179245508,
+          "version_name": "26.19.0+rc3-2026.10.20"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd.apk",
           "sha256": "1a785288e6444217c3b9b465e98450a9ef8bb813ccd56b044d60039d535f96fd",
           "size": 5719482,
@@ -16856,47 +17073,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "cb4fb3f38ce9269757b834c119a92af6c99be615eb849ba448a2cc4373ffc409.apk",
           "role": "base",
           "sha256": "cb4fb3f38ce9269757b834c119a92af6c99be615eb849ba448a2cc4373ffc409",
           "size": 43646768,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-px_9a-179245508/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/cb4fb3f38ce9269757b834c119a92af6c99be615eb849ba448a2cc4373ffc409.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "90ebdd8b4cd2b1381dad690bad2370c153e2b52161c0c156eec6d54b8aa07f37.apk",
           "role": "split",
           "sha256": "90ebdd8b4cd2b1381dad690bad2370c153e2b52161c0c156eec6d54b8aa07f37",
           "size": 7574063,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-px_9a-179245508/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/90ebdd8b4cd2b1381dad690bad2370c153e2b52161c0c156eec6d54b8aa07f37.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "ee3bc2f806a11e34e7e83d2bb93708caee2f370cc13679607faa1c63964d2e83.apk",
           "role": "split",
           "sha256": "ee3bc2f806a11e34e7e83d2bb93708caee2f370cc13679607faa1c63964d2e83",
           "size": 94418,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-px_9a-179245508/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/ee3bc2f806a11e34e7e83d2bb93708caee2f370cc13679607faa1c63964d2e83.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "5fb2852ab9518e835b14e8fc38eac5dc9ff881fee1eca426e4d759ef41603ff9.apk",
           "role": "split",
           "sha256": "5fb2852ab9518e835b14e8fc38eac5dc9ff881fee1eca426e4d759ef41603ff9",
           "size": 458235,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-px_9a-179245508/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/5fb2852ab9518e835b14e8fc38eac5dc9ff881fee1eca426e4d759ef41603ff9.apk"
         }
       ],
       "certificate_sha256": [
         "b4d251e979ea974d8f070feb5ab69fc4c2873f4e8add421ff63ad5f2789d63d4"
       ],
-      "manifest_sha256": "40aabf744dcc786ce29400b9e8462efe4edcc17bc6a4793b86e7332d48904ff1",
-      "manifest_size": 1082,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-px_9a-179245508/manifest-public.json",
+      "manifest_sha256": "a13afbd42d4b2cefda45df4cd950b1e966d72d1f92b857e0e16053f9316fac6e",
+      "manifest_size": 1278,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.disney.disneyplus-library/manifest-a13afbd42d4b2cefda45df4cd950b1e966d72d1f92b857e0e16053f9316fac6e.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.disney.disneyplus/metadata.json",
       "package": "com.disney.disneyplus",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.disney.disneyplus-library",
       "version_code": 179245508,
       "version_name": "26.19.0+rc3-2026.10.20"
     },
@@ -18711,7 +18929,6 @@
     "com.avast.android.mobilesecurity",
     "com.badoo.mobile",
     "com.bumble.app",
-    "com.disney.disneyplus",
     "com.facebook.katana",
     "com.google.android.apps.bard",
     "com.instagram.android",
