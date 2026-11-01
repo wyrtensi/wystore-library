@@ -10904,6 +10904,222 @@
     {
       "artifacts": [
         {
+          "name": "320599898956dc411783cdb40d4b4a851330b02c51ef7e4daf135f15d80d601d.apk",
+          "sha256": "320599898956dc411783cdb40d4b4a851330b02c51ef7e4daf135f15d80d601d",
+          "size": 78841182,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/320599898956dc411783cdb40d4b4a851330b02c51ef7e4daf135f15d80d601d.apk"
+        },
+        {
+          "name": "8f84ade84c0e2438412a3f026162d93d975ebfc0bf6a67c65b22e9c64f0455e4.apk",
+          "sha256": "8f84ade84c0e2438412a3f026162d93d975ebfc0bf6a67c65b22e9c64f0455e4",
+          "size": 172242,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/8f84ade84c0e2438412a3f026162d93d975ebfc0bf6a67c65b22e9c64f0455e4.apk"
+        },
+        {
+          "name": "cbe206ea364255455b1ce98da53356443071c52c6913676970cb95779a8bd0a8.apk",
+          "sha256": "cbe206ea364255455b1ce98da53356443071c52c6913676970cb95779a8bd0a8",
+          "size": 71436495,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/cbe206ea364255455b1ce98da53356443071c52c6913676970cb95779a8bd0a8.apk"
+        },
+        {
+          "name": "e013e0096d9fcf73900909dba85851598c9661acb20a3f992780babe4a2849e7.apk",
+          "sha256": "e013e0096d9fcf73900909dba85851598c9661acb20a3f992780babe4a2849e7",
+          "size": 3242624,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/e013e0096d9fcf73900909dba85851598c9661acb20a3f992780babe4a2849e7.apk"
+        },
+        {
+          "name": "f59ff6cb2ec23fd806a9fbc9d66b8e76810b9906dead8149b1a5151f4e328a31.apk",
+          "sha256": "f59ff6cb2ec23fd806a9fbc9d66b8e76810b9906dead8149b1a5151f4e328a31",
+          "size": 151762,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/f59ff6cb2ec23fd806a9fbc9d66b8e76810b9906dead8149b1a5151f4e328a31.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Simply Guitar",
+      "package": "com.joytunes.simplyguitar",
+      "publication": {
+        "catalog": {
+          "name": "catalog-a9ad52f7109fdbe3a0d23d867ed09e3e6156e3ba87cd9d35fa8843710c4a12c8.json",
+          "sha256": "a9ad52f7109fdbe3a0d23d867ed09e3e6156e3ba87cd9d35fa8843710c4a12c8",
+          "size": 6803,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/catalog-a9ad52f7109fdbe3a0d23d867ed09e3e6156e3ba87cd9d35fa8843710c4a12c8.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-ecdcdb98819f6242f39b574c200dfa56f3049420e1eac4337ca67e8607931067.json",
+          "sha256": "ecdcdb98819f6242f39b574c200dfa56f3049420e1eac4337ca67e8607931067",
+          "size": 1263,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/manifest-ecdcdb98819f6242f39b574c200dfa56f3049420e1eac4337ca67e8607931067.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.joytunes.simplyguitar-library",
+        "tag": "com.joytunes.simplyguitar-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "c82853b6dbe1efe0ec989408a363cc8dfd7c91c7a760a7b54be40a639e30bc4a"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "cbe206ea364255455b1ce98da53356443071c52c6913676970cb95779a8bd0a8",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "320599898956dc411783cdb40d4b4a851330b02c51ef7e4daf135f15d80d601d",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "8f84ade84c0e2438412a3f026162d93d975ebfc0bf6a67c65b22e9c64f0455e4",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "e013e0096d9fcf73900909dba85851598c9661acb20a3f992780babe4a2849e7",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 462,
+          "version_name": "9.7.48"
+        },
+        {
+          "certificate_sha256": [
+            "c82853b6dbe1efe0ec989408a363cc8dfd7c91c7a760a7b54be40a639e30bc4a"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-SG",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "cbe206ea364255455b1ce98da53356443071c52c6913676970cb95779a8bd0a8",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "320599898956dc411783cdb40d4b4a851330b02c51ef7e4daf135f15d80d601d",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "f59ff6cb2ec23fd806a9fbc9d66b8e76810b9906dead8149b1a5151f4e328a31",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "e013e0096d9fcf73900909dba85851598c9661acb20a3f992780babe4a2849e7",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 462,
+          "version_name": "9.7.48"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "13f5a020b76a38e79123eedd394aa8cf520a5619d6fe5f9d0b9664a3001a5db8.apk",
           "sha256": "13f5a020b76a38e79123eedd394aa8cf520a5619d6fe5f9d0b9664a3001a5db8",
           "size": 197017,
@@ -22377,47 +22593,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "cbe206ea364255455b1ce98da53356443071c52c6913676970cb95779a8bd0a8.apk",
           "role": "base",
           "sha256": "cbe206ea364255455b1ce98da53356443071c52c6913676970cb95779a8bd0a8",
           "size": 71436495,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-px_9a-462/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/cbe206ea364255455b1ce98da53356443071c52c6913676970cb95779a8bd0a8.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "320599898956dc411783cdb40d4b4a851330b02c51ef7e4daf135f15d80d601d.apk",
           "role": "split",
           "sha256": "320599898956dc411783cdb40d4b4a851330b02c51ef7e4daf135f15d80d601d",
           "size": 78841182,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-px_9a-462/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/320599898956dc411783cdb40d4b4a851330b02c51ef7e4daf135f15d80d601d.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "f59ff6cb2ec23fd806a9fbc9d66b8e76810b9906dead8149b1a5151f4e328a31.apk",
           "role": "split",
           "sha256": "f59ff6cb2ec23fd806a9fbc9d66b8e76810b9906dead8149b1a5151f4e328a31",
           "size": 151762,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-px_9a-462/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/f59ff6cb2ec23fd806a9fbc9d66b8e76810b9906dead8149b1a5151f4e328a31.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "e013e0096d9fcf73900909dba85851598c9661acb20a3f992780babe4a2849e7.apk",
           "role": "split",
           "sha256": "e013e0096d9fcf73900909dba85851598c9661acb20a3f992780babe4a2849e7",
           "size": 3242624,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-px_9a-462/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/e013e0096d9fcf73900909dba85851598c9661acb20a3f992780babe4a2849e7.apk"
         }
       ],
       "certificate_sha256": [
         "c82853b6dbe1efe0ec989408a363cc8dfd7c91c7a760a7b54be40a639e30bc4a"
       ],
-      "manifest_sha256": "5a3f74d41044395651c295e24aa0ec355c8f029fc94005e868a77d792c093ba7",
-      "manifest_size": 1067,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-px_9a-462/manifest-public.json",
+      "manifest_sha256": "ecdcdb98819f6242f39b574c200dfa56f3049420e1eac4337ca67e8607931067",
+      "manifest_size": 1263,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.joytunes.simplyguitar-library/manifest-ecdcdb98819f6242f39b574c200dfa56f3049420e1eac4337ca67e8607931067.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.joytunes.simplyguitar/metadata.json",
       "package": "com.joytunes.simplyguitar",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.joytunes.simplyguitar-library",
       "version_code": 462,
       "version_name": "9.7.48"
     },
@@ -23763,7 +23980,6 @@
   "migration_pending": [
     "com.facebook.katana",
     "com.instagram.android",
-    "com.joytunes.simplyguitar",
     "com.whatsapp",
     "com.zhiliaoapp.musically"
   ],
