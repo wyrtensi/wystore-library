@@ -787,6 +787,220 @@
     {
       "artifacts": [
         {
+          "name": "2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8.apk",
+          "sha256": "2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8",
+          "size": 1499343,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8.apk"
+        },
+        {
+          "name": "51406e83532e521f0bdc18410b8901f6191ca7398a94f65017dc34e9f667b906.apk",
+          "sha256": "51406e83532e521f0bdc18410b8901f6191ca7398a94f65017dc34e9f667b906",
+          "size": 1049112,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/51406e83532e521f0bdc18410b8901f6191ca7398a94f65017dc34e9f667b906.apk"
+        },
+        {
+          "name": "a6b2bd501265916e18fcdb34882f0d689550b1142454e37f5281380a6f4b949c.apk",
+          "sha256": "a6b2bd501265916e18fcdb34882f0d689550b1142454e37f5281380a6f4b949c",
+          "size": 256900527,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/a6b2bd501265916e18fcdb34882f0d689550b1142454e37f5281380a6f4b949c.apk"
+        },
+        {
+          "name": "a909b25ba25fe60829806d6927dfd3d52c60d3ae66349148ab6ae6ad9a890d5b.apk",
+          "sha256": "a909b25ba25fe60829806d6927dfd3d52c60d3ae66349148ab6ae6ad9a890d5b",
+          "size": 10682633,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/a909b25ba25fe60829806d6927dfd3d52c60d3ae66349148ab6ae6ad9a890d5b.apk"
+        },
+        {
+          "name": "bf2ce187b5e25316f5d18b013653fbb9d8d6c5f9a49bf0e33c2dfee05de483da.apk",
+          "sha256": "bf2ce187b5e25316f5d18b013653fbb9d8d6c5f9a49bf0e33c2dfee05de483da",
+          "size": 373544,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/bf2ce187b5e25316f5d18b013653fbb9d8d6c5f9a49bf0e33c2dfee05de483da.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Brave",
+      "package": "com.brave.browser",
+      "publication": {
+        "catalog": {
+          "name": "catalog-a5ee01d7dd93b3878d0522c6b153df67deb5dd2692873236a1e749a18cb05368.json",
+          "sha256": "a5ee01d7dd93b3878d0522c6b153df67deb5dd2692873236a1e749a18cb05368",
+          "size": 6698,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/catalog-a5ee01d7dd93b3878d0522c6b153df67deb5dd2692873236a1e749a18cb05368.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-ff571d180dcce9f1c137d3a8d5e0a74fceb8c591125d8c98eab7c7caa8cebae7.json",
+          "sha256": "ff571d180dcce9f1c137d3a8d5e0a74fceb8c591125d8c98eab7c7caa8cebae7",
+          "size": 1249,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/manifest-ff571d180dcce9f1c137d3a8d5e0a74fceb8c591125d8c98eab7c7caa8cebae7.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.brave.browser-library",
+        "tag": "com.brave.browser-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "uses_splits": [
+              "chrome"
+            ]
+          },
+          "files": [
+            {
+              "artifact": "a6b2bd501265916e18fcdb34882f0d689550b1142454e37f5281380a6f4b949c",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "a909b25ba25fe60829806d6927dfd3d52c60d3ae66349148ab6ae6ad9a890d5b",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            },
+            {
+              "artifact": "51406e83532e521f0bdc18410b8901f6191ca7398a94f65017dc34e9f667b906",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8",
+              "original_name": "split_on_demand.apk",
+              "role": "split",
+              "split": "on_demand"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 429806004,
+          "version_name": "1.98.60"
+        },
+        {
+          "certificate_sha256": [
+            "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "en-GB",
+              "en-US"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "uses_splits": [
+              "chrome"
+            ]
+          },
+          "files": [
+            {
+              "artifact": "a6b2bd501265916e18fcdb34882f0d689550b1142454e37f5281380a6f4b949c",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "a909b25ba25fe60829806d6927dfd3d52c60d3ae66349148ab6ae6ad9a890d5b",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            },
+            {
+              "artifact": "bf2ce187b5e25316f5d18b013653fbb9d8d6c5f9a49bf0e33c2dfee05de483da",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8",
+              "original_name": "split_on_demand.apk",
+              "role": "split",
+              "split": "on_demand"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 429806004,
+          "version_name": "1.98.60"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d.apk",
           "sha256": "5a456bf24d2c61b079fac677a474703b7bb8b1610baeb4e0e810ae53fa68878d",
           "size": 94854028,
@@ -2287,47 +2501,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "a6b2bd501265916e18fcdb34882f0d689550b1142454e37f5281380a6f4b949c.apk",
           "role": "base",
           "sha256": "a6b2bd501265916e18fcdb34882f0d689550b1142454e37f5281380a6f4b949c",
           "size": 256900527,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-px_9a-429806004/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/a6b2bd501265916e18fcdb34882f0d689550b1142454e37f5281380a6f4b949c.apk"
         },
         {
-          "name": "split_chrome.apk",
+          "name": "a909b25ba25fe60829806d6927dfd3d52c60d3ae66349148ab6ae6ad9a890d5b.apk",
           "role": "split",
           "sha256": "a909b25ba25fe60829806d6927dfd3d52c60d3ae66349148ab6ae6ad9a890d5b",
           "size": 10682633,
           "split": "chrome",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-px_9a-429806004/split_chrome.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/a909b25ba25fe60829806d6927dfd3d52c60d3ae66349148ab6ae6ad9a890d5b.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "bf2ce187b5e25316f5d18b013653fbb9d8d6c5f9a49bf0e33c2dfee05de483da.apk",
           "role": "split",
           "sha256": "bf2ce187b5e25316f5d18b013653fbb9d8d6c5f9a49bf0e33c2dfee05de483da",
           "size": 373544,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-px_9a-429806004/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/bf2ce187b5e25316f5d18b013653fbb9d8d6c5f9a49bf0e33c2dfee05de483da.apk"
         },
         {
-          "name": "split_on_demand.apk",
+          "name": "2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8.apk",
           "role": "split",
           "sha256": "2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8",
           "size": 1499343,
           "split": "on_demand",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-px_9a-429806004/split_on_demand.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/2e1e1d37967da61bc18b28fc55c90ac21fd0744c2bbcab916c2a53bd95e218f8.apk"
         }
       ],
       "certificate_sha256": [
         "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
       ],
-      "manifest_sha256": "949ecbf7a3ef245f416add11371d70691370ae2d8e2d81260145292882bca042",
-      "manifest_size": 1039,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-px_9a-429806004/manifest-public.json",
+      "manifest_sha256": "ff571d180dcce9f1c137d3a8d5e0a74fceb8c591125d8c98eab7c7caa8cebae7",
+      "manifest_size": 1249,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/manifest-ff571d180dcce9f1c137d3a8d5e0a74fceb8c591125d8c98eab7c7caa8cebae7.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.brave.browser/metadata.json",
       "package": "com.brave.browser",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.brave.browser-library",
       "version_code": 429806004,
       "version_name": "1.98.60"
     },
@@ -4305,7 +4520,6 @@
     "com.avast.android.mobilesecurity",
     "com.badoo.mobile",
     "com.bilibili.app.in",
-    "com.brave.browser",
     "com.bumble.app",
     "com.canva.editor",
     "com.contextlogic.wish",
