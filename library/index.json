@@ -19602,6 +19602,357 @@
     {
       "artifacts": [
         {
+          "name": "8ee0725131ed55fa57c88b0d3b9129c736c7904b19c706833ebe6f052b5ec47a.apk",
+          "sha256": "8ee0725131ed55fa57c88b0d3b9129c736c7904b19c706833ebe6f052b5ec47a",
+          "size": 2497657,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/8ee0725131ed55fa57c88b0d3b9129c736c7904b19c706833ebe6f052b5ec47a.apk"
+        },
+        {
+          "name": "b9e742818fcd8753319f5a2175cfa484647b0da497afbac9183353e5bc0472c2.apk",
+          "sha256": "b9e742818fcd8753319f5a2175cfa484647b0da497afbac9183353e5bc0472c2",
+          "size": 25001,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/b9e742818fcd8753319f5a2175cfa484647b0da497afbac9183353e5bc0472c2.apk"
+        },
+        {
+          "name": "dc7a77a24c7cba95d3f2236ce2356a0bbe3052cf818ce2e4161e88c0f2f493dc.apk",
+          "sha256": "dc7a77a24c7cba95d3f2236ce2356a0bbe3052cf818ce2e4161e88c0f2f493dc",
+          "size": 14561855,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/dc7a77a24c7cba95d3f2236ce2356a0bbe3052cf818ce2e4161e88c0f2f493dc.apk"
+        },
+        {
+          "name": "fca36ff7286d8be75bc68230cfb8d356b654e51c01d9b58690eca77412e01385.apk",
+          "sha256": "fca36ff7286d8be75bc68230cfb8d356b654e51c01d9b58690eca77412e01385",
+          "size": 141664385,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/fca36ff7286d8be75bc68230cfb8d356b654e51c01d9b58690eca77412e01385.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "WhatsApp",
+      "package": "com.whatsapp",
+      "publication": {
+        "catalog": {
+          "name": "catalog-26a7fe0e1b9c3344c98a2ab3ca7d5d32d5f821a2b5f8d9725abb66462e258066.json",
+          "sha256": "26a7fe0e1b9c3344c98a2ab3ca7d5d32d5f821a2b5f8d9725abb66462e258066",
+          "size": 8741,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/catalog-26a7fe0e1b9c3344c98a2ab3ca7d5d32d5f821a2b5f8d9725abb66462e258066.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-56a5c2d6b1fc8998abebada798fcfad2c2254fd97da3e28a7e5f6ba397b53063.json",
+          "sha256": "56a5c2d6b1fc8998abebada798fcfad2c2254fd97da3e28a7e5f6ba397b53063",
+          "size": 1329,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/manifest-56a5c2d6b1fc8998abebada798fcfad2c2254fd97da3e28a7e5f6ba397b53063.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.whatsapp-library",
+        "tag": "com.whatsapp-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "az",
+              "bg",
+              "bn",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-IN",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "ga",
+              "gu",
+              "ha",
+              "hi",
+              "hr",
+              "hu",
+              "in",
+              "it",
+              "iw",
+              "ja",
+              "kk",
+              "kn",
+              "ko",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mr",
+              "ms",
+              "nb",
+              "nl",
+              "om",
+              "pa",
+              "pa-IN",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density",
+              "i18n_en__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "fca36ff7286d8be75bc68230cfb8d356b654e51c01d9b58690eca77412e01385",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "dc7a77a24c7cba95d3f2236ce2356a0bbe3052cf818ce2e4161e88c0f2f493dc",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "8ee0725131ed55fa57c88b0d3b9129c736c7904b19c706833ebe6f052b5ec47a",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            },
+            {
+              "artifact": "b9e742818fcd8753319f5a2175cfa484647b0da497afbac9183353e5bc0472c2",
+              "original_name": "split_i18n_en.apk",
+              "role": "split",
+              "split": "i18n_en"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 264207400,
+          "version_name": "2.26.42.74"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "az",
+              "bg",
+              "bn",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-IN",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "ga",
+              "gu",
+              "ha",
+              "hi",
+              "hr",
+              "hu",
+              "in",
+              "it",
+              "iw",
+              "ja",
+              "kk",
+              "kn",
+              "ko",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mr",
+              "ms",
+              "nb",
+              "nl",
+              "om",
+              "pa",
+              "pa-IN",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density",
+              "i18n_en__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "fca36ff7286d8be75bc68230cfb8d356b654e51c01d9b58690eca77412e01385",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "dc7a77a24c7cba95d3f2236ce2356a0bbe3052cf818ce2e4161e88c0f2f493dc",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "8ee0725131ed55fa57c88b0d3b9129c736c7904b19c706833ebe6f052b5ec47a",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            },
+            {
+              "artifact": "b9e742818fcd8753319f5a2175cfa484647b0da497afbac9183353e5bc0472c2",
+              "original_name": "split_i18n_en.apk",
+              "role": "split",
+              "split": "i18n_en"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 264207400,
+          "version_name": "2.26.42.74"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "3391d9c4a7094e8960f9ac4e80e44f945ef6a55ce3a7531bae4dd776cdaf40db.apk",
           "sha256": "3391d9c4a7094e8960f9ac4e80e44f945ef6a55ce3a7531bae4dd776cdaf40db",
           "size": 464634560,
@@ -25680,36 +26031,36 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "fca36ff7286d8be75bc68230cfb8d356b654e51c01d9b58690eca77412e01385.apk",
           "role": "base",
           "sha256": "fca36ff7286d8be75bc68230cfb8d356b654e51c01d9b58690eca77412e01385",
           "size": 141664385,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-px_9a-264207400/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/fca36ff7286d8be75bc68230cfb8d356b654e51c01d9b58690eca77412e01385.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "dc7a77a24c7cba95d3f2236ce2356a0bbe3052cf818ce2e4161e88c0f2f493dc.apk",
           "role": "split",
           "sha256": "dc7a77a24c7cba95d3f2236ce2356a0bbe3052cf818ce2e4161e88c0f2f493dc",
           "size": 14561855,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-px_9a-264207400/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/dc7a77a24c7cba95d3f2236ce2356a0bbe3052cf818ce2e4161e88c0f2f493dc.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "8ee0725131ed55fa57c88b0d3b9129c736c7904b19c706833ebe6f052b5ec47a.apk",
           "role": "split",
           "sha256": "8ee0725131ed55fa57c88b0d3b9129c736c7904b19c706833ebe6f052b5ec47a",
           "size": 2497657,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-px_9a-264207400/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/8ee0725131ed55fa57c88b0d3b9129c736c7904b19c706833ebe6f052b5ec47a.apk"
         },
         {
-          "name": "split_i18n_en.apk",
+          "name": "b9e742818fcd8753319f5a2175cfa484647b0da497afbac9183353e5bc0472c2.apk",
           "role": "split",
           "sha256": "b9e742818fcd8753319f5a2175cfa484647b0da497afbac9183353e5bc0472c2",
           "size": 25001,
           "split": "i18n_en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-px_9a-264207400/split_i18n_en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/b9e742818fcd8753319f5a2175cfa484647b0da497afbac9183353e5bc0472c2.apk"
         }
       ],
       "certificate_scope": {
@@ -25719,12 +26070,13 @@
       "certificate_sha256": [
         "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
       ],
-      "manifest_sha256": "91690d97add618f25c79174792a49f7cc67deba1c21008b9a96d0d553ed6a07e",
-      "manifest_size": 1131,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-px_9a-264207400/manifest-public.json",
+      "manifest_sha256": "56a5c2d6b1fc8998abebada798fcfad2c2254fd97da3e28a7e5f6ba397b53063",
+      "manifest_size": 1329,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/manifest-56a5c2d6b1fc8998abebada798fcfad2c2254fd97da3e28a7e5f6ba397b53063.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.whatsapp/metadata.json",
       "package": "com.whatsapp",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.whatsapp-library",
       "version_code": 264207400,
       "version_name": "2.26.42.74"
     },
@@ -25989,9 +26341,7 @@
       "version_name": "159.0"
     }
   ],
-  "migration_pending": [
-    "com.whatsapp"
-  ],
+  "migration_pending": [],
   "schema": 1,
   "variant_schema": 1
 }
