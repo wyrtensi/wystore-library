@@ -3,6 +3,389 @@
     {
       "artifacts": [
         {
+          "name": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3.apk",
+          "sha256": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
+          "size": 63706380,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3.apk"
+        },
+        {
+          "name": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b.apk",
+          "sha256": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+          "size": 82686,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b.apk"
+        },
+        {
+          "name": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1.apk",
+          "sha256": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+          "size": 95515731,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Perplexity",
+      "package": "ai.perplexity.app.android",
+      "publication": {
+        "catalog": {
+          "name": "catalog-b5690beaf9411aa71374b0879993b53e339d1ff1a13169f6ff14b7418639d012.json",
+          "sha256": "b5690beaf9411aa71374b0879993b53e339d1ff1a13169f6ff14b7418639d012",
+          "size": 8781,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/catalog-b5690beaf9411aa71374b0879993b53e339d1ff1a13169f6ff14b7418639d012.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-552ebb15a747a4ffdf0edf89a6145447512f6242e588fa5aaddffe839e515721.json",
+          "sha256": "552ebb15a747a4ffdf0edf89a6145447512f6242e588fa5aaddffe839e515721",
+          "size": 1010,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/manifest-552ebb15a747a4ffdf0edf89a6145447512f6242e588fa5aaddffe839e515721.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/ai.perplexity.app.android-library",
+        "tag": "ai.perplexity.app.android-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "b5c7a5c959b1626fb0e77bc5b72e8c394ab5c2671702a8ddf10b9bdbb0bf6d18"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "az-Latn",
+              "be",
+              "bg",
+              "bn",
+              "bn-IN",
+              "bs",
+              "bs-Latn",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fil",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "is-IS",
+              "it",
+              "iw",
+              "ja",
+              "jv",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mn-Cyrl",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "nn",
+              "no",
+              "or",
+              "pa",
+              "pa-Guru",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Cyrl",
+              "sr-Cyrl-ME",
+              "sr-Latn",
+              "sr-Latn-ME",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "uz-Latn",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 260673,
+          "version_name": "2.103.0"
+        },
+        {
+          "certificate_sha256": [
+            "b5c7a5c959b1626fb0e77bc5b72e8c394ab5c2671702a8ddf10b9bdbb0bf6d18"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "az-Latn",
+              "be",
+              "bg",
+              "bn",
+              "bn-IN",
+              "bs",
+              "bs-Latn",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fil",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "is-IS",
+              "it",
+              "iw",
+              "ja",
+              "jv",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mn-Cyrl",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "nn",
+              "no",
+              "or",
+              "pa",
+              "pa-Guru",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Cyrl",
+              "sr-Cyrl-ME",
+              "sr-Latn",
+              "sr-Latn-ME",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "uz-Latn",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 260673,
+          "version_name": "2.103.0"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7.apk",
           "sha256": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7",
           "size": 206136446,
@@ -16337,39 +16720,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1.apk",
           "role": "base",
           "sha256": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
           "size": 95515731,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-px_9a-260673/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3.apk",
           "role": "split",
           "sha256": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
           "size": 63706380,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-px_9a-260673/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b.apk",
           "role": "split",
           "sha256": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
           "size": 82686,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-px_9a-260673/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b.apk"
         }
       ],
       "certificate_sha256": [
         "b5c7a5c959b1626fb0e77bc5b72e8c394ab5c2671702a8ddf10b9bdbb0bf6d18"
       ],
-      "manifest_sha256": "882b705ce6cee50ae748e42326332f6509ce2d4f2b3e77705e8992be64fb3867",
-      "manifest_size": 863,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-px_9a-260673/manifest-public.json",
+      "manifest_sha256": "552ebb15a747a4ffdf0edf89a6145447512f6242e588fa5aaddffe839e515721",
+      "manifest_size": 1010,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/manifest-552ebb15a747a4ffdf0edf89a6145447512f6242e588fa5aaddffe839e515721.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/ai.perplexity.app.android/metadata.json",
       "package": "ai.perplexity.app.android",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/ai.perplexity.app.android-library",
       "version_code": 260673,
       "version_name": "2.103.0"
     },
@@ -18921,7 +19305,6 @@
     }
   ],
   "migration_pending": [
-    "ai.perplexity.app.android",
     "ai.x.grok",
     "com.abc.abcnews",
     "com.anthropic.claude",
