@@ -13602,6 +13602,220 @@
     {
       "artifacts": [
         {
+          "name": "40c4caed8ecbd53fafdac42bb75c9c29c4a29400bfb33ae24904d8874bf71524.apk",
+          "sha256": "40c4caed8ecbd53fafdac42bb75c9c29c4a29400bfb33ae24904d8874bf71524",
+          "size": 151762,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/40c4caed8ecbd53fafdac42bb75c9c29c4a29400bfb33ae24904d8874bf71524.apk"
+        },
+        {
+          "name": "510f951b68af1fb8526c2f30318de169a304a2ccc23035560445531b61de156f.apk",
+          "sha256": "510f951b68af1fb8526c2f30318de169a304a2ccc23035560445531b61de156f",
+          "size": 155858,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/510f951b68af1fb8526c2f30318de169a304a2ccc23035560445531b61de156f.apk"
+        },
+        {
+          "name": "5ee6e6c0b391cf0e1f1db93f1285b0fd095d5ad3f139f2ae28105b6b31e24ef8.apk",
+          "sha256": "5ee6e6c0b391cf0e1f1db93f1285b0fd095d5ad3f139f2ae28105b6b31e24ef8",
+          "size": 1917330,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/5ee6e6c0b391cf0e1f1db93f1285b0fd095d5ad3f139f2ae28105b6b31e24ef8.apk"
+        },
+        {
+          "name": "86ab3d0421e63ecccc57b4866193f98a6ab4467e8cf1277a2e8ad28117707318.apk",
+          "sha256": "86ab3d0421e63ecccc57b4866193f98a6ab4467e8cf1277a2e8ad28117707318",
+          "size": 85976831,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/86ab3d0421e63ecccc57b4866193f98a6ab4467e8cf1277a2e8ad28117707318.apk"
+        },
+        {
+          "name": "8c04b9f02bb11a323e3f1825daae951bfe3a40af38fbf0e3ddb7f0e724fee8a3.apk",
+          "sha256": "8c04b9f02bb11a323e3f1825daae951bfe3a40af38fbf0e3ddb7f0e724fee8a3",
+          "size": 317273,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/8c04b9f02bb11a323e3f1825daae951bfe3a40af38fbf0e3ddb7f0e724fee8a3.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "HBO Max",
+      "package": "com.wbd.stream",
+      "publication": {
+        "catalog": {
+          "name": "catalog-092d23e549146ae956385763489729554f59b1c9e67f73e108a90fc916b93349.json",
+          "sha256": "092d23e549146ae956385763489729554f59b1c9e67f73e108a90fc916b93349",
+          "size": 6666,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/catalog-092d23e549146ae956385763489729554f59b1c9e67f73e108a90fc916b93349.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-75b37cc8a0dabdc7f2eebe707929977132fbb64384f2cc70dc2894adada5dc93.json",
+          "sha256": "75b37cc8a0dabdc7f2eebe707929977132fbb64384f2cc70dc2894adada5dc93",
+          "size": 1261,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/manifest-75b37cc8a0dabdc7f2eebe707929977132fbb64384f2cc70dc2894adada5dc93.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.wbd.stream-library",
+        "tag": "com.wbd.stream-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "619cbb027b715560b843d15a5599f900485af1cd4294097811a77609bc8273a8"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "86ab3d0421e63ecccc57b4866193f98a6ab4467e8cf1277a2e8ad28117707318",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "5ee6e6c0b391cf0e1f1db93f1285b0fd095d5ad3f139f2ae28105b6b31e24ef8",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "40c4caed8ecbd53fafdac42bb75c9c29c4a29400bfb33ae24904d8874bf71524",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "8c04b9f02bb11a323e3f1825daae951bfe3a40af38fbf0e3ddb7f0e724fee8a3",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 1800025444,
+          "version_name": "7.14.0.530"
+        },
+        {
+          "certificate_sha256": [
+            "619cbb027b715560b843d15a5599f900485af1cd4294097811a77609bc8273a8"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-XA",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "86ab3d0421e63ecccc57b4866193f98a6ab4467e8cf1277a2e8ad28117707318",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "5ee6e6c0b391cf0e1f1db93f1285b0fd095d5ad3f139f2ae28105b6b31e24ef8",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "510f951b68af1fb8526c2f30318de169a304a2ccc23035560445531b61de156f",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "8c04b9f02bb11a323e3f1825daae951bfe3a40af38fbf0e3ddb7f0e724fee8a3",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 1800025444,
+          "version_name": "7.14.0.530"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034.apk",
           "sha256": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
           "size": 26657623,
@@ -17526,47 +17740,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "86ab3d0421e63ecccc57b4866193f98a6ab4467e8cf1277a2e8ad28117707318.apk",
           "role": "base",
           "sha256": "86ab3d0421e63ecccc57b4866193f98a6ab4467e8cf1277a2e8ad28117707318",
           "size": 85976831,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-px_9a-1800025444/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/86ab3d0421e63ecccc57b4866193f98a6ab4467e8cf1277a2e8ad28117707318.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "5ee6e6c0b391cf0e1f1db93f1285b0fd095d5ad3f139f2ae28105b6b31e24ef8.apk",
           "role": "split",
           "sha256": "5ee6e6c0b391cf0e1f1db93f1285b0fd095d5ad3f139f2ae28105b6b31e24ef8",
           "size": 1917330,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-px_9a-1800025444/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/5ee6e6c0b391cf0e1f1db93f1285b0fd095d5ad3f139f2ae28105b6b31e24ef8.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "510f951b68af1fb8526c2f30318de169a304a2ccc23035560445531b61de156f.apk",
           "role": "split",
           "sha256": "510f951b68af1fb8526c2f30318de169a304a2ccc23035560445531b61de156f",
           "size": 155858,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-px_9a-1800025444/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/510f951b68af1fb8526c2f30318de169a304a2ccc23035560445531b61de156f.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "8c04b9f02bb11a323e3f1825daae951bfe3a40af38fbf0e3ddb7f0e724fee8a3.apk",
           "role": "split",
           "sha256": "8c04b9f02bb11a323e3f1825daae951bfe3a40af38fbf0e3ddb7f0e724fee8a3",
           "size": 317273,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-px_9a-1800025444/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/8c04b9f02bb11a323e3f1825daae951bfe3a40af38fbf0e3ddb7f0e724fee8a3.apk"
         }
       ],
       "certificate_sha256": [
         "619cbb027b715560b843d15a5599f900485af1cd4294097811a77609bc8273a8"
       ],
-      "manifest_sha256": "59b75e8b08becf4af5f4f34ceda3d4b6299963c6440d14aa4f8c4a5ca6477897",
-      "manifest_size": 1065,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-px_9a-1800025444/manifest-public.json",
+      "manifest_sha256": "75b37cc8a0dabdc7f2eebe707929977132fbb64384f2cc70dc2894adada5dc93",
+      "manifest_size": 1261,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.wbd.stream-library/manifest-75b37cc8a0dabdc7f2eebe707929977132fbb64384f2cc70dc2894adada5dc93.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.wbd.stream/metadata.json",
       "package": "com.wbd.stream",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.wbd.stream-library",
       "version_code": 1800025444,
       "version_name": "7.14.0.530"
     },
@@ -17941,7 +18156,6 @@
     "com.symantec.mobilesecurity",
     "com.thomsonreuters.reuters",
     "com.tinder",
-    "com.wbd.stream",
     "com.whatsapp",
     "com.zhiliaoapp.musically",
     "jp.gocro.smartnews.android",
