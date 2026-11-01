@@ -44,47 +44,47 @@
         {
           "name": "base.apk",
           "role": "base",
-          "sha256": "ce6fd3f0b99835288562e6595f5e6b9e8ab4b5078f5d75b760bef3e1446dc003",
-          "size": 54287632,
+          "sha256": "e2f3bdde97f5189ef2808a61d0caf3e6217d1d4decfed516ed119f944fb82a7b",
+          "size": 55255303,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11251200/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11253200/base.apk"
         },
         {
           "name": "split_config.arm64_v8a.apk",
           "role": "split",
-          "sha256": "99130225ca98aa596fe0f7e552cf8d64e3b6c2b052bbf4b5059af9396e5a586b",
+          "sha256": "72bcbfe9b292936b0beb0269bbd037b50f323dae1459dd2b1573def394e8ce03",
           "size": 3281545,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11251200/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11253200/split_config.arm64_v8a.apk"
         },
         {
           "name": "split_config.en.apk",
           "role": "split",
-          "sha256": "3bf8a63f1846018d6bfe4793b62ea13b1a51ee26a520277bcbb787cac194814f",
-          "size": 131282,
+          "sha256": "a811508a26e78e18dc02d8b69b6e5883360ef81b3bcc186a613817bcd10efab9",
+          "size": 135378,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11251200/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11253200/split_config.en.apk"
         },
         {
           "name": "split_config.xxhdpi.apk",
           "role": "split",
-          "sha256": "12c17f3823421daf9614635084104da0b2508127a8a8ef5b3dd920618ec71394",
-          "size": 442077,
+          "sha256": "0443c19a750112dea33065d83d1ebe0d5e32f8f59d4583cc0b9ff437eecdd589",
+          "size": 441987,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11251200/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11253200/split_config.xxhdpi.apk"
         }
       ],
       "certificate_sha256": [
         "521bf5ce7c981faba4ebd86d23f778885537cad021bc107d8915d005e99f4a12"
       ],
-      "manifest_sha256": "57ecc082dd9927014d4932593a1b72370883692dd4d1b1fc48f4dc59c39b1465",
+      "manifest_sha256": "3f302e52080e5af57afaf0feb5b6e078e362d9e030503fd2eb99edce99475193",
       "manifest_size": 1065,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11251200/manifest-public.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-px_9a-11253200/manifest-public.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/ai.x.grok/metadata.json",
       "package": "ai.x.grok",
       "profile": "px_9a",
-      "version_code": 11251200,
-      "version_name": "1.2.51-release.00"
+      "version_code": 11253200,
+      "version_name": "1.2.53-release.00"
     },
     {
       "assets": [
@@ -340,39 +340,39 @@
         {
           "name": "base.apk",
           "role": "base",
-          "sha256": "7bf11cba89b59fed329fc32b840482d4e0bfad1d78712d89dd3abfc3adcb14d1",
-          "size": 57489530,
+          "sha256": "e92e117a64eaa75075885ddd03cf345ba11b9a209399c093a4a56a4dd1071fb8",
+          "size": 57985382,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26102920/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26103019/base.apk"
         },
         {
           "name": "split_config.arm64_v8a.apk",
           "role": "split",
-          "sha256": "84181466e84d83d25a6aa396a600f260e01b2c2039d28fc55a6df05dbdd253fd",
+          "sha256": "c29ab5edc1d47622627e86079fef7a8e4b9ce4cab093294edf72d4df5d9f7617",
           "size": 6095781,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26102920/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26103019/split_config.arm64_v8a.apk"
         },
         {
           "name": "split_config.xxhdpi.apk",
           "role": "split",
-          "sha256": "bc6cebd7cc3aedf77af624195b7efc31932c4950d79132d47c6993d555d47a05",
+          "sha256": "34760040ce6d360ea0a53d504fcc3107e05c221d60559fb163644ddb9b9cfa6d",
           "size": 61632,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26102920/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26103019/split_config.xxhdpi.apk"
         }
       ],
       "certificate_sha256": [
         "305a1e8a432e5ec0c612b2465359c3b88e3c95d6253599ac6088562b818b64a0"
       ],
-      "manifest_sha256": "1c6d5372620d9287682ee55eccdb66d69a05f89a2fffd2d80b6ab4c48eba0108",
+      "manifest_sha256": "f3f2b68f89207eec87c0970f76a50538405a1f785af8614d3f4079416a20c6c8",
       "manifest_size": 863,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26102920/manifest-public.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26103019/manifest-public.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.anthropic.claude/metadata.json",
       "package": "com.anthropic.claude",
       "profile": "px_9a",
-      "version_code": 26102920,
-      "version_name": "1.261029.20"
+      "version_code": 26103019,
+      "version_name": "1.261030.19"
     },
     {
       "assets": [
@@ -817,6 +817,41 @@
         {
           "name": "base.apk",
           "role": "base",
+          "sha256": "8f58c6184a1f5f991bd3e97ec50769bcdde625731f4a83ab082dea597339bfed",
+          "size": 222670841,
+          "split": "",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-px_9a-476015611/base.apk"
+        },
+        {
+          "name": "split_config.xxhdpi.apk",
+          "role": "split",
+          "sha256": "f2c44754fc4ae918afcbcc2a41974c3cb4b30666ad328e3222548f56e8774fe8",
+          "size": 6041148,
+          "split": "config.xxhdpi",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-px_9a-476015611/split_config.xxhdpi.apk"
+        }
+      ],
+      "certificate_scope": {
+        "mode": "android-sdk",
+        "sdk": 35
+      },
+      "certificate_sha256": [
+        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+      ],
+      "manifest_sha256": "748aa6e53ab469edd57d87c137922684cf40cfb11ecbbaaae6300d6a14d9ac75",
+      "manifest_size": 718,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-px_9a-476015611/manifest-public.json",
+      "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.facebook.katana/metadata.json",
+      "package": "com.facebook.katana",
+      "profile": "px_9a",
+      "version_code": 476015611,
+      "version_name": "585.0.0.47.54"
+    },
+    {
+      "assets": [
+        {
+          "name": "base.apk",
+          "role": "base",
           "sha256": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
           "size": 95710457,
           "split": "",
@@ -1120,6 +1155,41 @@
       "profile": "px_9a",
       "version_code": 253431126,
       "version_name": "10.123.75.00"
+    },
+    {
+      "assets": [
+        {
+          "name": "base.apk",
+          "role": "base",
+          "sha256": "2c5c3e1cd7ee0278a5c511110a8dab301a7d6a37975efd7d8dcef04375e40a4a",
+          "size": 253427156,
+          "split": "",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-px_9a-385914557/base.apk"
+        },
+        {
+          "name": "split_config.xxhdpi.apk",
+          "role": "split",
+          "sha256": "edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79",
+          "size": 6950877,
+          "split": "config.xxhdpi",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-px_9a-385914557/split_config.xxhdpi.apk"
+        }
+      ],
+      "certificate_scope": {
+        "mode": "android-sdk",
+        "sdk": 35
+      },
+      "certificate_sha256": [
+        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014"
+      ],
+      "manifest_sha256": "6fa6bb390e76bc7dd1156afcd95d9fe6353892f7b51e51073a8a87f8b0b445b6",
+      "manifest_size": 720,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-px_9a-385914557/manifest-public.json",
+      "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.instagram.android/metadata.json",
+      "package": "com.instagram.android",
+      "profile": "px_9a",
+      "version_code": 385914557,
+      "version_name": "453.0.0.57.79"
     },
     {
       "assets": [
@@ -2053,39 +2123,39 @@
         {
           "name": "base.apk",
           "role": "base",
-          "sha256": "04e7d9e6a13a0b16d29ba4187eba22dfd1a628678ce37f1264538e7c4cfbc60c",
-          "size": 352323452,
+          "sha256": "ff2d4b2c836a9fdea7b19340f0bebf6248bfcbed316c9386f0686128a4203758",
+          "size": 353310374,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26410222/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26420013/base.apk"
         },
         {
           "name": "split_config.arm64_v8a.apk",
           "role": "split",
-          "sha256": "5da6ff63f52bb7cbbc7e20eb3e16920a27e277d040ddbba79ccf879a2a82dbae",
+          "sha256": "df21e7ddf9efba7565b5110426f8ee9f4da41270b8006a785ff7b0d47e33cf2c",
           "size": 13789405,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26410222/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26420013/split_config.arm64_v8a.apk"
         },
         {
           "name": "split_config.xxhdpi.apk",
           "role": "split",
-          "sha256": "aa4257145eee78684a33f3a833cd57032cbf5309b910534c1ca045c52141f38f",
+          "sha256": "5d29039c664e29a1c83a2950e492c01c7e5caa228c31d963612a586c70c11922",
           "size": 5570312,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26410222/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26420013/split_config.xxhdpi.apk"
         }
       ],
       "certificate_sha256": [
         "f3cfe9b27cf77a414051734b6a07422ed8b8ed71de02e0d1e8a36994c15a17a2"
       ],
-      "manifest_sha256": "dfb8cfad344ab4e86a5a0411dc2de75882bd9938183c9960a816f68d96ec5e4d",
-      "manifest_size": 862,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26410222/manifest-public.json",
+      "manifest_sha256": "baf68f165648b27baa45d9ffac5abc15b47934f6d84ee70dfb3b0be5bc0e2220",
+      "manifest_size": 860,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.walmart.android-px_9a-26420013/manifest-public.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.walmart.android/metadata.json",
       "package": "com.walmart.android",
       "profile": "px_9a",
-      "version_code": 26410222,
-      "version_name": "26.41.2"
+      "version_code": 26420013,
+      "version_name": "26.42"
     },
     {
       "assets": [
@@ -2172,6 +2242,144 @@
       "profile": "px_9a",
       "version_code": 1773954320,
       "version_name": "11.32.0"
+    },
+    {
+      "assets": [
+        {
+          "name": "base.apk",
+          "role": "base",
+          "sha256": "fca36ff7286d8be75bc68230cfb8d356b654e51c01d9b58690eca77412e01385",
+          "size": 141664385,
+          "split": "",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-px_9a-264207400/base.apk"
+        },
+        {
+          "name": "split_config.arm64_v8a.apk",
+          "role": "split",
+          "sha256": "dc7a77a24c7cba95d3f2236ce2356a0bbe3052cf818ce2e4161e88c0f2f493dc",
+          "size": 14561855,
+          "split": "config.arm64_v8a",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-px_9a-264207400/split_config.arm64_v8a.apk"
+        },
+        {
+          "name": "split_config.xxhdpi.apk",
+          "role": "split",
+          "sha256": "8ee0725131ed55fa57c88b0d3b9129c736c7904b19c706833ebe6f052b5ec47a",
+          "size": 2497657,
+          "split": "config.xxhdpi",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-px_9a-264207400/split_config.xxhdpi.apk"
+        },
+        {
+          "name": "split_i18n_en.apk",
+          "role": "split",
+          "sha256": "b9e742818fcd8753319f5a2175cfa484647b0da497afbac9183353e5bc0472c2",
+          "size": 25001,
+          "split": "i18n_en",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-px_9a-264207400/split_i18n_en.apk"
+        }
+      ],
+      "certificate_scope": {
+        "mode": "android-sdk",
+        "sdk": 35
+      },
+      "certificate_sha256": [
+        "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
+      ],
+      "manifest_sha256": "91690d97add618f25c79174792a49f7cc67deba1c21008b9a96d0d553ed6a07e",
+      "manifest_size": 1131,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-px_9a-264207400/manifest-public.json",
+      "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.whatsapp/metadata.json",
+      "package": "com.whatsapp",
+      "profile": "px_9a",
+      "version_code": 264207400,
+      "version_name": "2.26.42.74"
+    },
+    {
+      "assets": [
+        {
+          "name": "base.apk",
+          "role": "base",
+          "sha256": "ce90cee6440560e80f85abea9f704964aa86c56eee1974d61b60cac0fbceabfb",
+          "size": 159752024,
+          "split": "",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-px_9a-2024706030/base.apk"
+        },
+        {
+          "name": "split_config.arm64_v8a.apk",
+          "role": "split",
+          "sha256": "a447140a99f0a3c7cda2a695110dcedc8e3c48342ac5f14d34162ce1422ac5fd",
+          "size": 53415056,
+          "split": "config.arm64_v8a",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-px_9a-2024706030/split_config.arm64_v8a.apk"
+        },
+        {
+          "name": "split_config.en.apk",
+          "role": "split",
+          "sha256": "a1d3f20ea47ffa159c8087f4cdf499fc5f97e6eefeb7f19d5a5cc9803da82bda",
+          "size": 521390,
+          "split": "config.en",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-px_9a-2024706030/split_config.en.apk"
+        },
+        {
+          "name": "split_config.xxhdpi.apk",
+          "role": "split",
+          "sha256": "cf1b10a9f2c81d4519e49f909d217e85fb0c96c44048d23e9a937b41c65c4683",
+          "size": 309148,
+          "split": "config.xxhdpi",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-px_9a-2024706030/split_config.xxhdpi.apk"
+        },
+        {
+          "name": "split_df_a_dex.apk",
+          "role": "split",
+          "sha256": "61aabe325b8a4b0ddac9bfff7dcb8ab55b6b4487a1afd9593997cc630fb4816b",
+          "size": 242444290,
+          "split": "df_a_dex",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-px_9a-2024706030/split_df_a_dex.apk"
+        },
+        {
+          "name": "split_df_location.apk",
+          "role": "split",
+          "sha256": "9795e203a6aa812dfe9cc64131f14958e71818e82a8a58c873ed9e78f9e65308",
+          "size": 12637,
+          "split": "df_location",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-px_9a-2024706030/split_df_location.apk"
+        },
+        {
+          "name": "split_df_location.config.arm64_v8a.apk",
+          "role": "split",
+          "sha256": "dcf712e04d63fd29779374c55613f0da8c2ae28c053e55786e5f98c0ef8f52de",
+          "size": 115191,
+          "split": "df_location.config.arm64_v8a",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-px_9a-2024706030/split_df_location.config.arm64_v8a.apk"
+        },
+        {
+          "name": "split_df_pns_biz.apk",
+          "role": "split",
+          "sha256": "6f285ad3f86d2fdaee3f4b01bf1dbd888d4b5950f08588a6344d4d966f42f0de",
+          "size": 12637,
+          "split": "df_pns_biz",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-px_9a-2024706030/split_df_pns_biz.apk"
+        },
+        {
+          "name": "split_df_pns_biz.config.arm64_v8a.apk",
+          "role": "split",
+          "sha256": "96d16df0fcbf700021c5952a8cc7565f72fc4ab5b478e63e3a6d73ab09b5a1dd",
+          "size": 16813,
+          "split": "df_pns_biz.config.arm64_v8a",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-px_9a-2024706030/split_df_pns_biz.config.arm64_v8a.apk"
+        }
+      ],
+      "certificate_sha256": [
+        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+      ],
+      "manifest_sha256": "2ba14c8dcdc65f2e82868596a17acdd7b149737044e8783c6323a90da07123af",
+      "manifest_size": 2181,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-px_9a-2024706030/manifest-public.json",
+      "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.zhiliaoapp.musically/metadata.json",
+      "package": "com.zhiliaoapp.musically",
+      "profile": "px_9a",
+      "version_code": 2024706030,
+      "version_name": "47.6.3"
     },
     {
       "assets": [
