@@ -10980,6 +10980,214 @@
     {
       "artifacts": [
         {
+          "name": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99.apk",
+          "sha256": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99",
+          "size": 682709,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99.apk"
+        },
+        {
+          "name": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457.apk",
+          "sha256": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457",
+          "size": 3101382,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457.apk"
+        },
+        {
+          "name": "ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b.apk",
+          "sha256": "ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b",
+          "size": 635090,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b.apk"
+        },
+        {
+          "name": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070.apk",
+          "sha256": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070",
+          "size": 49442554,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070.apk"
+        },
+        {
+          "name": "dac4bbcc45770f841b61c5ebe1efed97f08766c9944d1ec521affe05466a2608.apk",
+          "sha256": "dac4bbcc45770f841b61c5ebe1efed97f08766c9944d1ec521affe05466a2608",
+          "size": 684242,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/dac4bbcc45770f841b61c5ebe1efed97f08766c9944d1ec521affe05466a2608.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Deezer",
+      "package": "deezer.android.app",
+      "publication": {
+        "catalog": {
+          "name": "catalog-14666bba2caea40863bda8d19a8071dbf72b6da3d8814525e42d5503684fa422.json",
+          "sha256": "14666bba2caea40863bda8d19a8071dbf72b6da3d8814525e42d5503684fa422",
+          "size": 6554,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/catalog-14666bba2caea40863bda8d19a8071dbf72b6da3d8814525e42d5503684fa422.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-310b683b8ae518d2e56d7b6b0a2953f13a8aeb8dd2d8325900eb4a7a3e07490e.json",
+          "sha256": "310b683b8ae518d2e56d7b6b0a2953f13a8aeb8dd2d8325900eb4a7a3e07490e",
+          "size": 1260,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/manifest-310b683b8ae518d2e56d7b6b0a2953f13a8aeb8dd2d8325900eb4a7a3e07490e.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/deezer.android.app-library",
+        "tag": "deezer.android.app-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "dac4bbcc45770f841b61c5ebe1efed97f08766c9944d1ec521affe05466a2608",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 9002504,
+          "version_name": "9.0.25.4"
+        },
+        {
+          "certificate_sha256": [
+            "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "en",
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 9002504,
+          "version_name": "9.0.25.4"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "b9795bf3f85138ce1d884a4aabe200cf3172cb729f39e44e47df5088736cfcc3.apk",
           "sha256": "b9795bf3f85138ce1d884a4aabe200cf3172cb729f39e44e47df5088736cfcc3",
           "size": 68569153,
@@ -14689,47 +14897,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070.apk",
           "role": "base",
           "sha256": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070",
           "size": 49442554,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-px_9a-9002504/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457.apk",
           "role": "split",
           "sha256": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457",
           "size": 3101382,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-px_9a-9002504/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b.apk",
           "role": "split",
           "sha256": "ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b",
           "size": 635090,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-px_9a-9002504/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99.apk",
           "role": "split",
           "sha256": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99",
           "size": 682709,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-px_9a-9002504/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99.apk"
         }
       ],
       "certificate_sha256": [
         "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
       ],
-      "manifest_sha256": "e11d94923374de5ede52e6ff8a0ecc269ca0812c5e7135e6d0153d65c4ef0e82",
-      "manifest_size": 1064,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-px_9a-9002504/manifest-public.json",
+      "manifest_sha256": "310b683b8ae518d2e56d7b6b0a2953f13a8aeb8dd2d8325900eb4a7a3e07490e",
+      "manifest_size": 1260,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/manifest-310b683b8ae518d2e56d7b6b0a2953f13a8aeb8dd2d8325900eb4a7a3e07490e.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/deezer.android.app/metadata.json",
       "package": "deezer.android.app",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/deezer.android.app-library",
       "version_code": 9002504,
       "version_name": "9.0.25.4"
     },
@@ -14886,7 +15095,6 @@
     "com.wbd.stream",
     "com.whatsapp",
     "com.zhiliaoapp.musically",
-    "deezer.android.app",
     "jp.gocro.smartnews.android",
     "jp.naver.line.android"
   ],
