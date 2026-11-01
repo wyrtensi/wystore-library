@@ -2751,6 +2751,357 @@
     {
       "artifacts": [
         {
+          "name": "0b782c0a62e9e48f53772ff8e9e3270fd8748bab93944e09a61cea82ad7a29f9.apk",
+          "sha256": "0b782c0a62e9e48f53772ff8e9e3270fd8748bab93944e09a61cea82ad7a29f9",
+          "size": 8400370,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/0b782c0a62e9e48f53772ff8e9e3270fd8748bab93944e09a61cea82ad7a29f9.apk"
+        },
+        {
+          "name": "27e27b5111b566272dd592f38360e10352e0eadea198eec35d76d1aae77438c6.apk",
+          "sha256": "27e27b5111b566272dd592f38360e10352e0eadea198eec35d76d1aae77438c6",
+          "size": 1638610,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/27e27b5111b566272dd592f38360e10352e0eadea198eec35d76d1aae77438c6.apk"
+        },
+        {
+          "name": "2e2696b054db0d5d9354e8febd72ac6139169ca408b45f824a09d41a5c4d62f9.apk",
+          "sha256": "2e2696b054db0d5d9354e8febd72ac6139169ca408b45f824a09d41a5c4d62f9",
+          "size": 3744794,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/2e2696b054db0d5d9354e8febd72ac6139169ca408b45f824a09d41a5c4d62f9.apk"
+        },
+        {
+          "name": "c6c1fe6d9b75c36d3aeabb40deda94ff611c0322709649a6a1d44319f4e153cd.apk",
+          "sha256": "c6c1fe6d9b75c36d3aeabb40deda94ff611c0322709649a6a1d44319f4e153cd",
+          "size": 97643249,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/c6c1fe6d9b75c36d3aeabb40deda94ff611c0322709649a6a1d44319f4e153cd.apk"
+        },
+        {
+          "name": "f5292531d82b2ce0b3238bdc6a629ffdc5e39fce7bc04b3585a28d35f7b60bbf.apk",
+          "sha256": "f5292531d82b2ce0b3238bdc6a629ffdc5e39fce7bc04b3585a28d35f7b60bbf",
+          "size": 119784890,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/f5292531d82b2ce0b3238bdc6a629ffdc5e39fce7bc04b3585a28d35f7b60bbf.apk"
+        },
+        {
+          "name": "fcae776e90ecca262cbd45a55811bc3b58ca12a3627d90799c394909e23f4ab8.apk",
+          "sha256": "fcae776e90ecca262cbd45a55811bc3b58ca12a3627d90799c394909e23f4ab8",
+          "size": 20897,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/fcae776e90ecca262cbd45a55811bc3b58ca12a3627d90799c394909e23f4ab8.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "LinkedIn",
+      "package": "com.linkedin.android",
+      "publication": {
+        "catalog": {
+          "name": "catalog-123d29f16922fb2319e7a9d1b91fa8c98e7cb1fceb5e39623c2c6debb252712d.json",
+          "sha256": "123d29f16922fb2319e7a9d1b91fa8c98e7cb1fceb5e39623c2c6debb252712d",
+          "size": 9749,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/catalog-123d29f16922fb2319e7a9d1b91fa8c98e7cb1fceb5e39623c2c6debb252712d.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-3f6443b576153905b388092e55132e1603a9a575013362ba0b62aaf31d3fac34.json",
+          "sha256": "3f6443b576153905b388092e55132e1603a9a575013362ba0b62aaf31d3fac34",
+          "size": 1261,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/manifest-3f6443b576153905b388092e55132e1603a9a575013362ba0b62aaf31d3fac34.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.linkedin.android-library",
+        "tag": "com.linkedin.android-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "3b6a403ca91d56ab854517720203176640816d3f923f92cca16138f5cc3d0727"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ar",
+              "bn",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en",
+              "es",
+              "fa",
+              "fi",
+              "fr",
+              "hi",
+              "hu",
+              "in",
+              "it",
+              "iw",
+              "ja",
+              "ko",
+              "mr",
+              "ms",
+              "nb",
+              "nl",
+              "pa",
+              "pl",
+              "pt",
+              "ro",
+              "ru",
+              "sv",
+              "te",
+              "th",
+              "tr",
+              "uk",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-TW"
+            ],
+            "locale": "en_US",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "f5292531d82b2ce0b3238bdc6a629ffdc5e39fce7bc04b3585a28d35f7b60bbf",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "version_code": 217500,
+          "version_name": "4.1.1267"
+        },
+        {
+          "certificate_sha256": [
+            "3b6a403ca91d56ab854517720203176640816d3f923f92cca16138f5cc3d0727"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ar",
+              "bn",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en",
+              "es",
+              "fa",
+              "fi",
+              "fr",
+              "hi",
+              "hu",
+              "in",
+              "it",
+              "iw",
+              "ja",
+              "ko",
+              "mr",
+              "ms",
+              "nb",
+              "nl",
+              "pa",
+              "pl",
+              "pt",
+              "ro",
+              "ru",
+              "sv",
+              "te",
+              "th",
+              "tr",
+              "uk",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-TW"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "f5292531d82b2ce0b3238bdc6a629ffdc5e39fce7bc04b3585a28d35f7b60bbf",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "version_code": 217500,
+          "version_name": "4.1.1267"
+        },
+        {
+          "certificate_sha256": [
+            "3b6a403ca91d56ab854517720203176640816d3f923f92cca16138f5cc3d0727"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "c6c1fe6d9b75c36d3aeabb40deda94ff611c0322709649a6a1d44319f4e153cd",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "2e2696b054db0d5d9354e8febd72ac6139169ca408b45f824a09d41a5c4d62f9",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "27e27b5111b566272dd592f38360e10352e0eadea198eec35d76d1aae77438c6",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "0b782c0a62e9e48f53772ff8e9e3270fd8748bab93944e09a61cea82ad7a29f9",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 217500,
+          "version_name": "4.1.1267"
+        },
+        {
+          "certificate_sha256": [
+            "3b6a403ca91d56ab854517720203176640816d3f923f92cca16138f5cc3d0727"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "en"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "c6c1fe6d9b75c36d3aeabb40deda94ff611c0322709649a6a1d44319f4e153cd",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "2e2696b054db0d5d9354e8febd72ac6139169ca408b45f824a09d41a5c4d62f9",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "fcae776e90ecca262cbd45a55811bc3b58ca12a3627d90799c394909e23f4ab8",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "0b782c0a62e9e48f53772ff8e9e3270fd8748bab93944e09a61cea82ad7a29f9",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 217500,
+          "version_name": "4.1.1267"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e.apk",
           "sha256": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e",
           "size": 190973,
@@ -6198,47 +6549,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "c6c1fe6d9b75c36d3aeabb40deda94ff611c0322709649a6a1d44319f4e153cd.apk",
           "role": "base",
           "sha256": "c6c1fe6d9b75c36d3aeabb40deda94ff611c0322709649a6a1d44319f4e153cd",
           "size": 97643249,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-px_9a-217500/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/c6c1fe6d9b75c36d3aeabb40deda94ff611c0322709649a6a1d44319f4e153cd.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "2e2696b054db0d5d9354e8febd72ac6139169ca408b45f824a09d41a5c4d62f9.apk",
           "role": "split",
           "sha256": "2e2696b054db0d5d9354e8febd72ac6139169ca408b45f824a09d41a5c4d62f9",
           "size": 3744794,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-px_9a-217500/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/2e2696b054db0d5d9354e8febd72ac6139169ca408b45f824a09d41a5c4d62f9.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "fcae776e90ecca262cbd45a55811bc3b58ca12a3627d90799c394909e23f4ab8.apk",
           "role": "split",
           "sha256": "fcae776e90ecca262cbd45a55811bc3b58ca12a3627d90799c394909e23f4ab8",
           "size": 20897,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-px_9a-217500/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/fcae776e90ecca262cbd45a55811bc3b58ca12a3627d90799c394909e23f4ab8.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "0b782c0a62e9e48f53772ff8e9e3270fd8748bab93944e09a61cea82ad7a29f9.apk",
           "role": "split",
           "sha256": "0b782c0a62e9e48f53772ff8e9e3270fd8748bab93944e09a61cea82ad7a29f9",
           "size": 8400370,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-px_9a-217500/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/0b782c0a62e9e48f53772ff8e9e3270fd8748bab93944e09a61cea82ad7a29f9.apk"
         }
       ],
       "certificate_sha256": [
         "3b6a403ca91d56ab854517720203176640816d3f923f92cca16138f5cc3d0727"
       ],
-      "manifest_sha256": "284c33f6cc7f465be8877dd59f499a9a9de657d9aebc4a664ed63dc190dd6882",
-      "manifest_size": 1065,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-px_9a-217500/manifest-public.json",
+      "manifest_sha256": "3f6443b576153905b388092e55132e1603a9a575013362ba0b62aaf31d3fac34",
+      "manifest_size": 1261,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.linkedin.android-library/manifest-3f6443b576153905b388092e55132e1603a9a575013362ba0b62aaf31d3fac34.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.linkedin.android/metadata.json",
       "package": "com.linkedin.android",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.linkedin.android-library",
       "version_code": 217500,
       "version_name": "4.1.1267"
     },
@@ -7421,7 +7773,6 @@
     "com.joytunes.simplyguitar",
     "com.joytunes.simplypiano",
     "com.kwai.video",
-    "com.linkedin.android",
     "com.mcdonalds.mobileapp",
     "com.microsoft.office.officehubrow",
     "com.myfitnesspal.android",
