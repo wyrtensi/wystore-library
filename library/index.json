@@ -2006,6 +2006,783 @@
     {
       "artifacts": [
         {
+          "name": "237c3e2ed08f49307df81407937102375684091ea605f5db61926bb6037c5602.apk",
+          "sha256": "237c3e2ed08f49307df81407937102375684091ea605f5db61926bb6037c5602",
+          "size": 417979,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/237c3e2ed08f49307df81407937102375684091ea605f5db61926bb6037c5602.apk"
+        },
+        {
+          "name": "3f03f1fc9460a5224fb21c4d1ebe014c6e0d8c3f70f08144c38fbb9e3ceb20ae.apk",
+          "sha256": "3f03f1fc9460a5224fb21c4d1ebe014c6e0d8c3f70f08144c38fbb9e3ceb20ae",
+          "size": 14226379,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/3f03f1fc9460a5224fb21c4d1ebe014c6e0d8c3f70f08144c38fbb9e3ceb20ae.apk"
+        },
+        {
+          "name": "57be5e84bb8111ce0b4f5ccee32a951f45aa9be994d25077c863543ef5f756b0.apk",
+          "sha256": "57be5e84bb8111ce0b4f5ccee32a951f45aa9be994d25077c863543ef5f756b0",
+          "size": 63581920,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/57be5e84bb8111ce0b4f5ccee32a951f45aa9be994d25077c863543ef5f756b0.apk"
+        },
+        {
+          "name": "92f1fa3bff9d929fcb5c1701df6e3ae87b36bcf7a1ac1122a7b0c554ad6fd69c.apk",
+          "sha256": "92f1fa3bff9d929fcb5c1701df6e3ae87b36bcf7a1ac1122a7b0c554ad6fd69c",
+          "size": 1762636,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/92f1fa3bff9d929fcb5c1701df6e3ae87b36bcf7a1ac1122a7b0c554ad6fd69c.apk"
+        },
+        {
+          "name": "d4faee2c72f48f4ef3ce690358688bec36e74438be4a055f07f82f2793143146.apk",
+          "sha256": "d4faee2c72f48f4ef3ce690358688bec36e74438be4a055f07f82f2793143146",
+          "size": 87441839,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/d4faee2c72f48f4ef3ce690358688bec36e74438be4a055f07f82f2793143146.apk"
+        },
+        {
+          "name": "d7a05a53ceff001260af7417c7f3831eb4f8abdae9111735ef2324ae91c8be37.apk",
+          "sha256": "d7a05a53ceff001260af7417c7f3831eb4f8abdae9111735ef2324ae91c8be37",
+          "size": 2038105,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/d7a05a53ceff001260af7417c7f3831eb4f8abdae9111735ef2324ae91c8be37.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Google Home",
+      "package": "com.google.android.apps.chromecast.app",
+      "publication": {
+        "catalog": {
+          "name": "catalog-4c76fbfc3504b41bb18989a5158ad49a96a4f35a3b00819cfd9bfeb5781a60a4.json",
+          "sha256": "4c76fbfc3504b41bb18989a5158ad49a96a4f35a3b00819cfd9bfeb5781a60a4",
+          "size": 18275,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/catalog-4c76fbfc3504b41bb18989a5158ad49a96a4f35a3b00819cfd9bfeb5781a60a4.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-efcfa7163ff9f63e6be7ff7033b2eac7900dc75a0c67bd163a611ac19d178be4.json",
+          "sha256": "efcfa7163ff9f63e6be7ff7033b2eac7900dc75a0c67bd163a611ac19d178be4",
+          "size": 1355,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/manifest-efcfa7163ff9f63e6be7ff7033b2eac7900dc75a0c67bd163a611ac19d178be4.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.google.android.apps.chromecast.app-library",
+        "tag": "com.google.android.apps.chromecast.app-library"
+      },
+      "unavailable": [],
+      "variants": [
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 29
+          },
+          "certificate_sha256": [
+            "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "ar-XB",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "cy",
+              "da",
+              "de",
+              "de-CH",
+              "el",
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fil",
+              "fr",
+              "fr-CA",
+              "ga",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "id",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "no",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 26,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "d4faee2c72f48f4ef3ce690358688bec36e74438be4a055f07f82f2793143146",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "version_code": 30400119,
+          "version_name": "3.4.1.5"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 29
+          },
+          "certificate_sha256": [
+            "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "ar-XB",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "cy",
+              "da",
+              "de",
+              "de-CH",
+              "el",
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fil",
+              "fr",
+              "fr-CA",
+              "ga",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "id",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "no",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 26,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "d4faee2c72f48f4ef3ce690358688bec36e74438be4a055f07f82f2793143146",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "version_code": 30400119,
+          "version_name": "3.4.1.5"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 26
+          },
+          "certificate_sha256": [
+            "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "ar-XB",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "cy",
+              "da",
+              "de",
+              "de-CH",
+              "el",
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fil",
+              "fr",
+              "fr-CA",
+              "ga",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "id",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "no",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 26,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "d4faee2c72f48f4ef3ce690358688bec36e74438be4a055f07f82f2793143146",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "version_code": 30400119,
+          "version_name": "3.4.1.5"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 26
+          },
+          "certificate_sha256": [
+            "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "ar-XB",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "cy",
+              "da",
+              "de",
+              "de-CH",
+              "el",
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fil",
+              "fr",
+              "fr-CA",
+              "ga",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "id",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "no",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 26,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "d4faee2c72f48f4ef3ce690358688bec36e74438be4a055f07f82f2793143146",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "version_code": 30400119,
+          "version_name": "3.4.1.5"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "57be5e84bb8111ce0b4f5ccee32a951f45aa9be994d25077c863543ef5f756b0",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "3f03f1fc9460a5224fb21c4d1ebe014c6e0d8c3f70f08144c38fbb9e3ceb20ae",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "92f1fa3bff9d929fcb5c1701df6e3ae87b36bcf7a1ac1122a7b0c554ad6fd69c",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "237c3e2ed08f49307df81407937102375684091ea605f5db61926bb6037c5602",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 30588145,
+          "version_name": "4.35.25.1"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-SG",
+              "en-XC",
+              "en-ZA"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "57be5e84bb8111ce0b4f5ccee32a951f45aa9be994d25077c863543ef5f756b0",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "3f03f1fc9460a5224fb21c4d1ebe014c6e0d8c3f70f08144c38fbb9e3ceb20ae",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "d7a05a53ceff001260af7417c7f3831eb4f8abdae9111735ef2324ae91c8be37",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "237c3e2ed08f49307df81407937102375684091ea605f5db61926bb6037c5602",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 30588145,
+          "version_name": "4.35.25.1"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "2062e125774100db9704fe0e9eab1fc2fc780d9035c95931e055d3422b582322.apk",
           "sha256": "2062e125774100db9704fe0e9eab1fc2fc780d9035c95931e055d3422b582322",
           "size": 11169321,
@@ -8788,36 +9565,36 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "57be5e84bb8111ce0b4f5ccee32a951f45aa9be994d25077c863543ef5f756b0.apk",
           "role": "base",
           "sha256": "57be5e84bb8111ce0b4f5ccee32a951f45aa9be994d25077c863543ef5f756b0",
           "size": 63581920,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-px_9a-30588145/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/57be5e84bb8111ce0b4f5ccee32a951f45aa9be994d25077c863543ef5f756b0.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "3f03f1fc9460a5224fb21c4d1ebe014c6e0d8c3f70f08144c38fbb9e3ceb20ae.apk",
           "role": "split",
           "sha256": "3f03f1fc9460a5224fb21c4d1ebe014c6e0d8c3f70f08144c38fbb9e3ceb20ae",
           "size": 14226379,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-px_9a-30588145/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/3f03f1fc9460a5224fb21c4d1ebe014c6e0d8c3f70f08144c38fbb9e3ceb20ae.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "d7a05a53ceff001260af7417c7f3831eb4f8abdae9111735ef2324ae91c8be37.apk",
           "role": "split",
           "sha256": "d7a05a53ceff001260af7417c7f3831eb4f8abdae9111735ef2324ae91c8be37",
           "size": 2038105,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-px_9a-30588145/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/d7a05a53ceff001260af7417c7f3831eb4f8abdae9111735ef2324ae91c8be37.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "237c3e2ed08f49307df81407937102375684091ea605f5db61926bb6037c5602.apk",
           "role": "split",
           "sha256": "237c3e2ed08f49307df81407937102375684091ea605f5db61926bb6037c5602",
           "size": 417979,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-px_9a-30588145/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/237c3e2ed08f49307df81407937102375684091ea605f5db61926bb6037c5602.apk"
         }
       ],
       "certificate_scope": {
@@ -8827,12 +9604,13 @@
       "certificate_sha256": [
         "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6"
       ],
-      "manifest_sha256": "caea3406bcece9f8c0aa05f41446e2da0a49dcc3c079d2cbe3ad1d7cfa77fc3b",
-      "manifest_size": 1159,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-px_9a-30588145/manifest-public.json",
+      "manifest_sha256": "efcfa7163ff9f63e6be7ff7033b2eac7900dc75a0c67bd163a611ac19d178be4",
+      "manifest_size": 1355,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/manifest-efcfa7163ff9f63e6be7ff7033b2eac7900dc75a0c67bd163a611ac19d178be4.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.google.android.apps.chromecast.app/metadata.json",
       "package": "com.google.android.apps.chromecast.app",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.google.android.apps.chromecast.app-library",
       "version_code": 30588145,
       "version_name": "4.35.25.1"
     },
@@ -10340,7 +11118,6 @@
     "com.facebook.katana",
     "com.funcamerastudio.videomaker",
     "com.google.android.apps.bard",
-    "com.google.android.apps.chromecast.app",
     "com.google.android.apps.walletnfcrel",
     "com.instagram.android",
     "com.joytunes.simplyguitar",
