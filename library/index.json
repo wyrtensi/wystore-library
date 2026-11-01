@@ -6959,6 +6959,198 @@
     {
       "artifacts": [
         {
+          "name": "12269bfc09967616df82ce47e7363e447ed7aaa6d1b87b5549f2626505245b34.apk",
+          "sha256": "12269bfc09967616df82ce47e7363e447ed7aaa6d1b87b5549f2626505245b34",
+          "size": 127415216,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/12269bfc09967616df82ce47e7363e447ed7aaa6d1b87b5549f2626505245b34.apk"
+        },
+        {
+          "name": "322546c59ddbb5b48c121ce4884c463f1f250111168a7693df4799233080d3fa.apk",
+          "sha256": "322546c59ddbb5b48c121ce4884c463f1f250111168a7693df4799233080d3fa",
+          "size": 45266,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/322546c59ddbb5b48c121ce4884c463f1f250111168a7693df4799233080d3fa.apk"
+        },
+        {
+          "name": "507bbb90d6877b14ef23b5368bda09dedc9724b60f0ba0690464834baaaaf1e4.apk",
+          "sha256": "507bbb90d6877b14ef23b5368bda09dedc9724b60f0ba0690464834baaaaf1e4",
+          "size": 4864981,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/507bbb90d6877b14ef23b5368bda09dedc9724b60f0ba0690464834baaaaf1e4.apk"
+        },
+        {
+          "name": "7b5be212097cf983de195a9fe17ea2ae5e6c0313b99e62c7c7426ede930c1328.apk",
+          "sha256": "7b5be212097cf983de195a9fe17ea2ae5e6c0313b99e62c7c7426ede930c1328",
+          "size": 12515312,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/7b5be212097cf983de195a9fe17ea2ae5e6c0313b99e62c7c7426ede930c1328.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Cash App",
+      "package": "com.squareup.cash",
+      "publication": {
+        "catalog": {
+          "name": "catalog-2d035343ab4c8e1a1f30bff85e2422054eaba939246aac3bd5b65659f2e58ab7.json",
+          "sha256": "2d035343ab4c8e1a1f30bff85e2422054eaba939246aac3bd5b65659f2e58ab7",
+          "size": 5862,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/catalog-2d035343ab4c8e1a1f30bff85e2422054eaba939246aac3bd5b65659f2e58ab7.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-48fd02841d05310059c4e60196adb3074fdb57e1fb7844866aa36e4e5dadbf3d.json",
+          "sha256": "48fd02841d05310059c4e60196adb3074fdb57e1fb7844866aa36e4e5dadbf3d",
+          "size": 1259,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/manifest-48fd02841d05310059c4e60196adb3074fdb57e1fb7844866aa36e4e5dadbf3d.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.squareup.cash-library",
+        "tag": "com.squareup.cash-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "21a7467596c168650fd7b631b65422eb563e1d21aff22dde7389ba0d5d738748"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "12269bfc09967616df82ce47e7363e447ed7aaa6d1b87b5549f2626505245b34",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7b5be212097cf983de195a9fe17ea2ae5e6c0313b99e62c7c7426ede930c1328",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "507bbb90d6877b14ef23b5368bda09dedc9724b60f0ba0690464834baaaaf1e4",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 5750006,
+          "version_name": "5.75.0"
+        },
+        {
+          "certificate_sha256": [
+            "21a7467596c168650fd7b631b65422eb563e1d21aff22dde7389ba0d5d738748"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en",
+              "en-US"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "12269bfc09967616df82ce47e7363e447ed7aaa6d1b87b5549f2626505245b34",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7b5be212097cf983de195a9fe17ea2ae5e6c0313b99e62c7c7426ede930c1328",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "322546c59ddbb5b48c121ce4884c463f1f250111168a7693df4799233080d3fa",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "507bbb90d6877b14ef23b5368bda09dedc9724b60f0ba0690464834baaaaf1e4",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 5750006,
+          "version_name": "5.75.0"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "b3fd2da224baafe546472d5c0fff9480488a85ee76485783c3bf684ca2ba7547.apk",
           "sha256": "b3fd2da224baafe546472d5c0fff9480488a85ee76485783c3bf684ca2ba7547",
           "size": 82499810,
@@ -11540,47 +11732,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "12269bfc09967616df82ce47e7363e447ed7aaa6d1b87b5549f2626505245b34.apk",
           "role": "base",
           "sha256": "12269bfc09967616df82ce47e7363e447ed7aaa6d1b87b5549f2626505245b34",
           "size": 127415216,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-px_9a-5750006/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/12269bfc09967616df82ce47e7363e447ed7aaa6d1b87b5549f2626505245b34.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "7b5be212097cf983de195a9fe17ea2ae5e6c0313b99e62c7c7426ede930c1328.apk",
           "role": "split",
           "sha256": "7b5be212097cf983de195a9fe17ea2ae5e6c0313b99e62c7c7426ede930c1328",
           "size": 12515312,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-px_9a-5750006/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/7b5be212097cf983de195a9fe17ea2ae5e6c0313b99e62c7c7426ede930c1328.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "322546c59ddbb5b48c121ce4884c463f1f250111168a7693df4799233080d3fa.apk",
           "role": "split",
           "sha256": "322546c59ddbb5b48c121ce4884c463f1f250111168a7693df4799233080d3fa",
           "size": 45266,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-px_9a-5750006/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/322546c59ddbb5b48c121ce4884c463f1f250111168a7693df4799233080d3fa.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "507bbb90d6877b14ef23b5368bda09dedc9724b60f0ba0690464834baaaaf1e4.apk",
           "role": "split",
           "sha256": "507bbb90d6877b14ef23b5368bda09dedc9724b60f0ba0690464834baaaaf1e4",
           "size": 4864981,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-px_9a-5750006/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/507bbb90d6877b14ef23b5368bda09dedc9724b60f0ba0690464834baaaaf1e4.apk"
         }
       ],
       "certificate_sha256": [
         "21a7467596c168650fd7b631b65422eb563e1d21aff22dde7389ba0d5d738748"
       ],
-      "manifest_sha256": "c6cdf998821b548fbcf0f62aa2fe60b7e7e486a20d9627f7b7b6061361e30781",
-      "manifest_size": 1063,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-px_9a-5750006/manifest-public.json",
+      "manifest_sha256": "48fd02841d05310059c4e60196adb3074fdb57e1fb7844866aa36e4e5dadbf3d",
+      "manifest_size": 1259,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.squareup.cash-library/manifest-48fd02841d05310059c4e60196adb3074fdb57e1fb7844866aa36e4e5dadbf3d.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.squareup.cash/metadata.json",
       "package": "com.squareup.cash",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.squareup.cash-library",
       "version_code": 5750006,
       "version_name": "5.75.0"
     },
@@ -12292,7 +12485,6 @@
     "com.openai.chatgpt",
     "com.particlenews.newsbreak",
     "com.spotify.music",
-    "com.squareup.cash",
     "com.symantec.mobilesecurity",
     "com.thomsonreuters.reuters",
     "com.tinder",
