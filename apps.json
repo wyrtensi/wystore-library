@@ -440,6 +440,38 @@
       ],
       "name": "Simply Guitar",
       "category": "Music education"
+    },
+    {
+      "package": "com.zhiliaoapp.musically",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "TikTok",
+      "category": "Social"
+    },
+    {
+      "package": "com.instagram.android",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Instagram",
+      "category": "Social"
+    },
+    {
+      "package": "com.facebook.katana",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Facebook",
+      "category": "Social"
+    },
+    {
+      "package": "com.whatsapp",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "WhatsApp",
+      "category": "Messaging"
     }
   ]
 }

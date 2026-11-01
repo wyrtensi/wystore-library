@@ -1,6 +1,6 @@
 # Configured applications
 
-This list describes the 55 packages configured in [apps.json](../apps.json). Configuration does not guarantee metadata or APK publication. Consult the [catalog](../library/catalog.json) for collected metadata and the [APK index](../library/index.json) for current published sets.
+This list describes the 59 packages configured in [apps.json](../apps.json). Configuration does not guarantee metadata or APK publication. Consult the [catalog](../library/catalog.json) for collected metadata and the [APK index](../library/index.json) for current published sets.
 
 | Application | Package | Official listing |
 | --- | --- | --- |
@@ -59,6 +59,10 @@ This list describes the 55 packages configured in [apps.json](../apps.json). Con
 | Norton 360 | `com.symantec.mobilesecurity` | [Google Play](https://play.google.com/store/apps/details?id=com.symantec.mobilesecurity) |
 | Simply Piano | `com.joytunes.simplypiano` | [Google Play](https://play.google.com/store/apps/details?id=com.joytunes.simplypiano) |
 | Simply Guitar | `com.joytunes.simplyguitar` | [Google Play](https://play.google.com/store/apps/details?id=com.joytunes.simplyguitar) |
+| TikTok | `com.zhiliaoapp.musically` | [Google Play](https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically) |
+| Instagram | `com.instagram.android` | [Google Play](https://play.google.com/store/apps/details?id=com.instagram.android) |
+| Facebook | `com.facebook.katana` | [Google Play](https://play.google.com/store/apps/details?id=com.facebook.katana) |
+| WhatsApp | `com.whatsapp` | [Google Play](https://play.google.com/store/apps/details?id=com.whatsapp) |
 
 ## Regional and product distinctions
 
