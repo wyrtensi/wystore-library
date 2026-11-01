@@ -7443,6 +7443,383 @@
     {
       "artifacts": [
         {
+          "name": "1920a64cc4a2b4edb802f241689190b9ce6808e9659d1311514660bd1a805667.apk",
+          "sha256": "1920a64cc4a2b4edb802f241689190b9ce6808e9659d1311514660bd1a805667",
+          "size": 6041148,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-library/1920a64cc4a2b4edb802f241689190b9ce6808e9659d1311514660bd1a805667.apk"
+        },
+        {
+          "name": "74d44a3733ab1eab368901372902ab1993aefcf685d3228ccfbacb6c2ee48627.apk",
+          "sha256": "74d44a3733ab1eab368901372902ab1993aefcf685d3228ccfbacb6c2ee48627",
+          "size": 223457273,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-library/74d44a3733ab1eab368901372902ab1993aefcf685d3228ccfbacb6c2ee48627.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Facebook",
+      "package": "com.facebook.katana",
+      "publication": {
+        "catalog": {
+          "name": "catalog-7edd121c01cc4121a1a3f048d42b77bb7b63ece9b58ed6a9cb3be7b9bc69a124.json",
+          "sha256": "7edd121c01cc4121a1a3f048d42b77bb7b63ece9b58ed6a9cb3be7b9bc69a124",
+          "size": 8151,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-library/catalog-7edd121c01cc4121a1a3f048d42b77bb7b63ece9b58ed6a9cb3be7b9bc69a124.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-e720156c1dec6b821a13dff9ee9eeba271123b8e86bd5e995f2f38e71075779c.json",
+          "sha256": "e720156c1dec6b821a13dff9ee9eeba271123b8e86bd5e995f2f38e71075779c",
+          "size": 823,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-library/manifest-e720156c1dec6b821a13dff9ee9eeba271123b8e86bd5e995f2f38e71075779c.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.facebook.katana-library",
+        "tag": "com.facebook.katana-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "ar-XB",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cb",
+              "cs",
+              "cx",
+              "da",
+              "de",
+              "el",
+              "en",
+              "en-GB",
+              "en-XA",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fb",
+              "fb-LL",
+              "fb-LS",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gn",
+              "gu",
+              "ha",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "jv",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ku",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mg",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "om",
+              "or",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "qz",
+              "ro",
+              "ru",
+              "rw",
+              "si",
+              "sk",
+              "sl",
+              "sn",
+              "so",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "tg",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "wo",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 30,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.screen.landscape",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "74d44a3733ab1eab368901372902ab1993aefcf685d3228ccfbacb6c2ee48627",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1920a64cc4a2b4edb802f241689190b9ce6808e9659d1311514660bd1a805667",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 476015655,
+          "version_name": "585.0.0.47.54"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "ar-XB",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cb",
+              "cs",
+              "cx",
+              "da",
+              "de",
+              "el",
+              "en",
+              "en-GB",
+              "en-XA",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fb",
+              "fb-LL",
+              "fb-LS",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gn",
+              "gu",
+              "ha",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "jv",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ku",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mg",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "om",
+              "or",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "qz",
+              "ro",
+              "ru",
+              "rw",
+              "si",
+              "sk",
+              "sl",
+              "sn",
+              "so",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "tg",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "wo",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 30,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.screen.landscape",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "74d44a3733ab1eab368901372902ab1993aefcf685d3228ccfbacb6c2ee48627",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1920a64cc4a2b4edb802f241689190b9ce6808e9659d1311514660bd1a805667",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 476015655,
+          "version_name": "585.0.0.47.54"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk",
           "sha256": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
           "size": 95710457,
@@ -23839,20 +24216,20 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "74d44a3733ab1eab368901372902ab1993aefcf685d3228ccfbacb6c2ee48627.apk",
           "role": "base",
-          "sha256": "8f58c6184a1f5f991bd3e97ec50769bcdde625731f4a83ab082dea597339bfed",
-          "size": 222670841,
+          "sha256": "74d44a3733ab1eab368901372902ab1993aefcf685d3228ccfbacb6c2ee48627",
+          "size": 223457273,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-px_9a-476015611/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-library/74d44a3733ab1eab368901372902ab1993aefcf685d3228ccfbacb6c2ee48627.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "1920a64cc4a2b4edb802f241689190b9ce6808e9659d1311514660bd1a805667.apk",
           "role": "split",
-          "sha256": "f2c44754fc4ae918afcbcc2a41974c3cb4b30666ad328e3222548f56e8774fe8",
+          "sha256": "1920a64cc4a2b4edb802f241689190b9ce6808e9659d1311514660bd1a805667",
           "size": 6041148,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-px_9a-476015611/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-library/1920a64cc4a2b4edb802f241689190b9ce6808e9659d1311514660bd1a805667.apk"
         }
       ],
       "certificate_scope": {
@@ -23862,13 +24239,14 @@
       "certificate_sha256": [
         "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
       ],
-      "manifest_sha256": "748aa6e53ab469edd57d87c137922684cf40cfb11ecbbaaae6300d6a14d9ac75",
-      "manifest_size": 718,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-px_9a-476015611/manifest-public.json",
+      "manifest_sha256": "e720156c1dec6b821a13dff9ee9eeba271123b8e86bd5e995f2f38e71075779c",
+      "manifest_size": 823,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.katana-library/manifest-e720156c1dec6b821a13dff9ee9eeba271123b8e86bd5e995f2f38e71075779c.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.facebook.katana/metadata.json",
       "package": "com.facebook.katana",
       "profile": "px_9a",
-      "version_code": 476015611,
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.facebook.katana-library",
+      "version_code": 476015655,
       "version_name": "585.0.0.47.54"
     },
     {
@@ -25612,7 +25990,6 @@
     }
   ],
   "migration_pending": [
-    "com.facebook.katana",
     "com.whatsapp"
   ],
   "schema": 1,
