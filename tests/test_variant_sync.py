@@ -162,3 +162,27 @@ class VariantSyncTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'default'):
             run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
         self.publisher.publish_index.assert_not_called()
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_releases_each_profile_and_application_staging_before_next_download(self, verify, compatibility):
+        self.config.write_text(json.dumps({'schema': 1, 'apps': [{'package': 'org.example.app', 'profiles': ['px_9a']}, {'package': 'org.example.other', 'profiles': ['px_9a']}]}))
+        verify.return_value = self.verified
+        profile_folders, first_app_files = [], []
+        def pull(package, profile, version, folder):
+            self.assertTrue(all(not previous.exists() for previous in profile_folders))
+            if package == 'org.example.other' and profile == 'px_9a':
+                self.assertTrue(first_app_files)
+                self.assertTrue(all(not path.exists() for path in first_app_files))
+            profile_folders.append(folder)
+            (folder / 'base.apk').write_bytes(b'abc')
+            return {'device': {k: self.profiles[profile][k] for k in ('sdk', 'abis', 'density', 'locale')}}
+        self.client.pull.side_effect = pull
+        def publish(package, paths, expected, **kwargs):
+            self.assertTrue(all(path.is_file() for path in paths))
+            if package == 'org.example.app':
+                first_app_files.extend(paths)
+            return {name: f'https://github.com/owner/repo/releases/download/{package}-library/{name}' for name in expected}
+        self.publisher.publish_application.side_effect = publish
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.assertEqual(self.events, ['index', 'cleanup'])

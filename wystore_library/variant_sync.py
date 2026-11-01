@@ -133,6 +133,7 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
                     unavailable[profile_id] = {'id': profile_id, 'version_code': version, 'profile_fingerprint': fingerprints[profile_id], 'reason': error.reason}
                     if error.minimum_sdk is not None:
                         unavailable[profile_id]['minimum_sdk'] = error.minimum_sdk
+                    shutil.rmtree(folder)
                     continue
                 version_name = info.get('version_name')
                 if version_name is not None and not isinstance(version_name, str):
@@ -152,6 +153,7 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
                             shutil.copyfile(folder / record['name'], path)
                         new_paths[digest] = path
                     files.append({'artifact': digest, 'original_name': record['name'], 'role': record['role'], 'split': record['split']})
+                shutil.rmtree(folder)
                 variant = {'id': profile_id, 'profile_fingerprint': fingerprints[profile_id], 'version_code': version, 'version_name': version_name or '', 'certificate_sha256': verified['certificate_sha256'], 'compatibility': compatibility, 'files': files}
                 if 'certificate_scope' in verified:
                     variant['certificate_scope'] = verified['certificate_scope']
@@ -183,6 +185,8 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
             actual = publisher.publish_application(package, paths, expected, title=app['name'], notes='Choose one compatible variant from the library index.')
             if actual != {a['name']: a['url'] for a in app['artifacts'] + [catalog_desc, manifest_desc]}:
                 raise RuntimeError('Published asset URLs differ from the expected stable URLs')
+            for path in [*new_paths.values(), catalog_path, manifest_path]:
+                path.unlink()
             applications[package] = app
             for key in [key for key in entries if key[0] == package]:
                 del entries[key]
