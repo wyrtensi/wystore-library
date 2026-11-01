@@ -6559,6 +6559,207 @@
     {
       "artifacts": [
         {
+          "name": "8104d383aab911f0eb0e0791bfc8859b478998b06bcca04e112904d1c11c4838.apk",
+          "sha256": "8104d383aab911f0eb0e0791bfc8859b478998b06bcca04e112904d1c11c4838",
+          "size": 69842,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/8104d383aab911f0eb0e0791bfc8859b478998b06bcca04e112904d1c11c4838.apk"
+        },
+        {
+          "name": "9534e081b4529ca21a77a7c6547d6a840b2ac611fbd47089338af9104df7549b.apk",
+          "sha256": "9534e081b4529ca21a77a7c6547d6a840b2ac611fbd47089338af9104df7549b",
+          "size": 52388331,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/9534e081b4529ca21a77a7c6547d6a840b2ac611fbd47089338af9104df7549b.apk"
+        },
+        {
+          "name": "ae66a40567e3e63954fee7770431a5ce68ced1455dcae198fa891488ac2e7125.apk",
+          "sha256": "ae66a40567e3e63954fee7770431a5ce68ced1455dcae198fa891488ac2e7125",
+          "size": 99763946,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/ae66a40567e3e63954fee7770431a5ce68ced1455dcae198fa891488ac2e7125.apk"
+        },
+        {
+          "name": "bb320e356c940244bf4baaf02d7e2a7c704658765b83ad7dc68f67bc4bc87c2b.apk",
+          "sha256": "bb320e356c940244bf4baaf02d7e2a7c704658765b83ad7dc68f67bc4bc87c2b",
+          "size": 1280255,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/bb320e356c940244bf4baaf02d7e2a7c704658765b83ad7dc68f67bc4bc87c2b.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Klarna",
+      "package": "com.myklarnamobile",
+      "publication": {
+        "catalog": {
+          "name": "catalog-1ccb2f9d995c0d7198b7ad1e2776a8224439f346c2038998e86282933438934e.json",
+          "sha256": "1ccb2f9d995c0d7198b7ad1e2776a8224439f346c2038998e86282933438934e",
+          "size": 6153,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/catalog-1ccb2f9d995c0d7198b7ad1e2776a8224439f346c2038998e86282933438934e.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-da1d114aaf7eeb73186b6e423b68f89f407f6b50d1ef9ed7431ebe2fcb2163d3.json",
+          "sha256": "da1d114aaf7eeb73186b6e423b68f89f407f6b50d1ef9ed7431ebe2fcb2163d3",
+          "size": 1261,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/manifest-da1d114aaf7eeb73186b6e423b68f89f407f6b50d1ef9ed7431ebe2fcb2163d3.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.myklarnamobile-library",
+        "tag": "com.myklarnamobile-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "b1e37ab5c13df80512d367e750976f96e2ffa2e6e26226da379f0698d58934ea"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ae66a40567e3e63954fee7770431a5ce68ced1455dcae198fa891488ac2e7125",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "9534e081b4529ca21a77a7c6547d6a840b2ac611fbd47089338af9104df7549b",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "bb320e356c940244bf4baaf02d7e2a7c704658765b83ad7dc68f67bc4bc87c2b",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 920485,
+          "version_name": "26.43.379"
+        },
+        {
+          "certificate_sha256": [
+            "b1e37ab5c13df80512d367e750976f96e2ffa2e6e26226da379f0698d58934ea"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ae66a40567e3e63954fee7770431a5ce68ced1455dcae198fa891488ac2e7125",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "9534e081b4529ca21a77a7c6547d6a840b2ac611fbd47089338af9104df7549b",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "8104d383aab911f0eb0e0791bfc8859b478998b06bcca04e112904d1c11c4838",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "bb320e356c940244bf4baaf02d7e2a7c704658765b83ad7dc68f67bc4bc87c2b",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 920485,
+          "version_name": "26.43.379"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e.apk",
           "sha256": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e",
           "size": 190973,
@@ -11421,47 +11622,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "ae66a40567e3e63954fee7770431a5ce68ced1455dcae198fa891488ac2e7125.apk",
           "role": "base",
           "sha256": "ae66a40567e3e63954fee7770431a5ce68ced1455dcae198fa891488ac2e7125",
           "size": 99763946,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-px_9a-920485/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/ae66a40567e3e63954fee7770431a5ce68ced1455dcae198fa891488ac2e7125.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "9534e081b4529ca21a77a7c6547d6a840b2ac611fbd47089338af9104df7549b.apk",
           "role": "split",
           "sha256": "9534e081b4529ca21a77a7c6547d6a840b2ac611fbd47089338af9104df7549b",
           "size": 52388331,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-px_9a-920485/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/9534e081b4529ca21a77a7c6547d6a840b2ac611fbd47089338af9104df7549b.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "8104d383aab911f0eb0e0791bfc8859b478998b06bcca04e112904d1c11c4838.apk",
           "role": "split",
           "sha256": "8104d383aab911f0eb0e0791bfc8859b478998b06bcca04e112904d1c11c4838",
           "size": 69842,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-px_9a-920485/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/8104d383aab911f0eb0e0791bfc8859b478998b06bcca04e112904d1c11c4838.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "bb320e356c940244bf4baaf02d7e2a7c704658765b83ad7dc68f67bc4bc87c2b.apk",
           "role": "split",
           "sha256": "bb320e356c940244bf4baaf02d7e2a7c704658765b83ad7dc68f67bc4bc87c2b",
           "size": 1280255,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-px_9a-920485/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/bb320e356c940244bf4baaf02d7e2a7c704658765b83ad7dc68f67bc4bc87c2b.apk"
         }
       ],
       "certificate_sha256": [
         "b1e37ab5c13df80512d367e750976f96e2ffa2e6e26226da379f0698d58934ea"
       ],
-      "manifest_sha256": "1d1e099f384dbbb179f8d70844b196824d1d492bd2507596df23396005685d8a",
-      "manifest_size": 1065,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-px_9a-920485/manifest-public.json",
+      "manifest_sha256": "da1d114aaf7eeb73186b6e423b68f89f407f6b50d1ef9ed7431ebe2fcb2163d3",
+      "manifest_size": 1261,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myklarnamobile-library/manifest-da1d114aaf7eeb73186b6e423b68f89f407f6b50d1ef9ed7431ebe2fcb2163d3.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.myklarnamobile/metadata.json",
       "package": "com.myklarnamobile",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.myklarnamobile-library",
       "version_code": 920485,
       "version_name": "26.43.379"
     },
@@ -12480,7 +12682,6 @@
     "com.joytunes.simplypiano",
     "com.kwai.video",
     "com.microsoft.office.officehubrow",
-    "com.myklarnamobile",
     "com.netflix.mediaclient",
     "com.openai.chatgpt",
     "com.particlenews.newsbreak",
