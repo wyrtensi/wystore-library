@@ -15351,6 +15351,220 @@
     {
       "artifacts": [
         {
+          "name": "6de724c540987623486a4f631ffa39d52061077928e930a3ed5214a73a1fe633.apk",
+          "sha256": "6de724c540987623486a4f631ffa39d52061077928e930a3ed5214a73a1fe633",
+          "size": 150968,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/6de724c540987623486a4f631ffa39d52061077928e930a3ed5214a73a1fe633.apk"
+        },
+        {
+          "name": "7cbd1cf87a7198601a99e390ad95a1a42db7f6424edbba6a5fed385de5e902e1.apk",
+          "sha256": "7cbd1cf87a7198601a99e390ad95a1a42db7f6424edbba6a5fed385de5e902e1",
+          "size": 16189357,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/7cbd1cf87a7198601a99e390ad95a1a42db7f6424edbba6a5fed385de5e902e1.apk"
+        },
+        {
+          "name": "7cd389867b9718e74648228c7faabf484f3812edef3d9a56d5a590c64fc69cb5.apk",
+          "sha256": "7cd389867b9718e74648228c7faabf484f3812edef3d9a56d5a590c64fc69cb5",
+          "size": 98713,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/7cd389867b9718e74648228c7faabf484f3812edef3d9a56d5a590c64fc69cb5.apk"
+        },
+        {
+          "name": "cc1ac50a34d48204cd8e9812c7d97dd4ad833119a896e6e14fe16e1de8be78bd.apk",
+          "sha256": "cc1ac50a34d48204cd8e9812c7d97dd4ad833119a896e6e14fe16e1de8be78bd",
+          "size": 49561,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/cc1ac50a34d48204cd8e9812c7d97dd4ad833119a896e6e14fe16e1de8be78bd.apk"
+        },
+        {
+          "name": "f9476e554478048399ea67d3d4e95fb5aff32e5790ef1253790a97026a48f5ca.apk",
+          "sha256": "f9476e554478048399ea67d3d4e95fb5aff32e5790ef1253790a97026a48f5ca",
+          "size": 74909769,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/f9476e554478048399ea67d3d4e95fb5aff32e5790ef1253790a97026a48f5ca.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Reuters",
+      "package": "com.thomsonreuters.reuters",
+      "publication": {
+        "catalog": {
+          "name": "catalog-9c2eb2f51d842da3ba79ba031b9786479f38ffedbbe14675bc2245ec41145d11.json",
+          "sha256": "9c2eb2f51d842da3ba79ba031b9786479f38ffedbbe14675bc2245ec41145d11",
+          "size": 6718,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/catalog-9c2eb2f51d842da3ba79ba031b9786479f38ffedbbe14675bc2245ec41145d11.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-cd4aa4e30da9e22bd8a76102bd0e38c8b3f40631be8ee6fd66f4d5a8e3f2d4f5.json",
+          "sha256": "cd4aa4e30da9e22bd8a76102bd0e38c8b3f40631be8ee6fd66f4d5a8e3f2d4f5",
+          "size": 1269,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/manifest-cd4aa4e30da9e22bd8a76102bd0e38c8b3f40631be8ee6fd66f4d5a8e3f2d4f5.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.thomsonreuters.reuters-library",
+        "tag": "com.thomsonreuters.reuters-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "ea8ac7f9f238ad63dc9e3dbb291667ca97405a9b1ba908ae0bad7d703dfe7601"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "f9476e554478048399ea67d3d4e95fb5aff32e5790ef1253790a97026a48f5ca",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7cbd1cf87a7198601a99e390ad95a1a42db7f6424edbba6a5fed385de5e902e1",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "cc1ac50a34d48204cd8e9812c7d97dd4ad833119a896e6e14fe16e1de8be78bd",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "6de724c540987623486a4f631ffa39d52061077928e930a3ed5214a73a1fe633",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 1793207159,
+          "version_name": "7.50.1"
+        },
+        {
+          "certificate_sha256": [
+            "ea8ac7f9f238ad63dc9e3dbb291667ca97405a9b1ba908ae0bad7d703dfe7601"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-XA",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "f9476e554478048399ea67d3d4e95fb5aff32e5790ef1253790a97026a48f5ca",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7cbd1cf87a7198601a99e390ad95a1a42db7f6424edbba6a5fed385de5e902e1",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "7cd389867b9718e74648228c7faabf484f3812edef3d9a56d5a590c64fc69cb5",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "6de724c540987623486a4f631ffa39d52061077928e930a3ed5214a73a1fe633",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 1793207159,
+          "version_name": "7.50.1"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "33068abe7c5ace24d72859a644b58997b423dec8ea5e399cf8395528544adbc8.apk",
           "sha256": "33068abe7c5ace24d72859a644b58997b423dec8ea5e399cf8395528544adbc8",
           "size": 8200459,
@@ -19837,47 +20051,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "f9476e554478048399ea67d3d4e95fb5aff32e5790ef1253790a97026a48f5ca.apk",
           "role": "base",
           "sha256": "f9476e554478048399ea67d3d4e95fb5aff32e5790ef1253790a97026a48f5ca",
           "size": 74909769,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-px_9a-1793207159/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/f9476e554478048399ea67d3d4e95fb5aff32e5790ef1253790a97026a48f5ca.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "7cbd1cf87a7198601a99e390ad95a1a42db7f6424edbba6a5fed385de5e902e1.apk",
           "role": "split",
           "sha256": "7cbd1cf87a7198601a99e390ad95a1a42db7f6424edbba6a5fed385de5e902e1",
           "size": 16189357,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-px_9a-1793207159/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/7cbd1cf87a7198601a99e390ad95a1a42db7f6424edbba6a5fed385de5e902e1.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "7cd389867b9718e74648228c7faabf484f3812edef3d9a56d5a590c64fc69cb5.apk",
           "role": "split",
           "sha256": "7cd389867b9718e74648228c7faabf484f3812edef3d9a56d5a590c64fc69cb5",
           "size": 98713,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-px_9a-1793207159/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/7cd389867b9718e74648228c7faabf484f3812edef3d9a56d5a590c64fc69cb5.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "6de724c540987623486a4f631ffa39d52061077928e930a3ed5214a73a1fe633.apk",
           "role": "split",
           "sha256": "6de724c540987623486a4f631ffa39d52061077928e930a3ed5214a73a1fe633",
           "size": 150968,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-px_9a-1793207159/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/6de724c540987623486a4f631ffa39d52061077928e930a3ed5214a73a1fe633.apk"
         }
       ],
       "certificate_sha256": [
         "ea8ac7f9f238ad63dc9e3dbb291667ca97405a9b1ba908ae0bad7d703dfe7601"
       ],
-      "manifest_sha256": "48b1d67a387ef22040568301c3e711753cd07af1893e390df04c9ad274666a6a",
-      "manifest_size": 1073,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-px_9a-1793207159/manifest-public.json",
+      "manifest_sha256": "cd4aa4e30da9e22bd8a76102bd0e38c8b3f40631be8ee6fd66f4d5a8e3f2d4f5",
+      "manifest_size": 1269,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.thomsonreuters.reuters-library/manifest-cd4aa4e30da9e22bd8a76102bd0e38c8b3f40631be8ee6fd66f4d5a8e3f2d4f5.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.thomsonreuters.reuters/metadata.json",
       "package": "com.thomsonreuters.reuters",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.thomsonreuters.reuters-library",
       "version_code": 1793207159,
       "version_name": "7.50.1"
     },
@@ -20409,7 +20624,6 @@
     "com.joytunes.simplypiano",
     "com.particlenews.newsbreak",
     "com.symantec.mobilesecurity",
-    "com.thomsonreuters.reuters",
     "com.tinder",
     "com.whatsapp",
     "com.zhiliaoapp.musically",
