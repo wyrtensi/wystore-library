@@ -10201,6 +10201,768 @@
     {
       "artifacts": [
         {
+          "name": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f.apk",
+          "sha256": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+          "size": 27698503,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f.apk"
+        },
+        {
+          "name": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955.apk",
+          "sha256": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955",
+          "size": 823705,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955.apk"
+        },
+        {
+          "name": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3.apk",
+          "sha256": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+          "size": 31276678,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3.apk"
+        },
+        {
+          "name": "7fc88fd0c9bca2478d114c032fe555370610a622d85a8b07e05b22fd9a06343b.apk",
+          "sha256": "7fc88fd0c9bca2478d114c032fe555370610a622d85a8b07e05b22fd9a06343b",
+          "size": 65848291,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/7fc88fd0c9bca2478d114c032fe555370610a622d85a8b07e05b22fd9a06343b.apk"
+        },
+        {
+          "name": "ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e.apk",
+          "sha256": "ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e",
+          "size": 651733,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e.apk"
+        },
+        {
+          "name": "f818f7d61f969964ece7a80c53166870079db815a69bbbb5a43cdfe5a251a1e6.apk",
+          "sha256": "f818f7d61f969964ece7a80c53166870079db815a69bbbb5a43cdfe5a251a1e6",
+          "size": 60684426,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/f818f7d61f969964ece7a80c53166870079db815a69bbbb5a43cdfe5a251a1e6.apk"
+        },
+        {
+          "name": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84.apk",
+          "sha256": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+          "size": 1287489,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Netflix",
+      "package": "com.netflix.mediaclient",
+      "publication": {
+        "catalog": {
+          "name": "catalog-86b1df69ce1e719ab6c5431c1a0dd30259feebffddcc6b57113b4b8792f71d6d.json",
+          "sha256": "86b1df69ce1e719ab6c5431c1a0dd30259feebffddcc6b57113b4b8792f71d6d",
+          "size": 17905,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/catalog-86b1df69ce1e719ab6c5431c1a0dd30259feebffddcc6b57113b4b8792f71d6d.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-23527316e5b1a07a1fb2f657b6d44c30232a5dbda12490c4e8af97aebb95e715.json",
+          "sha256": "23527316e5b1a07a1fb2f657b6d44c30232a5dbda12490c4e8af97aebb95e715",
+          "size": 1349,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/manifest-23527316e5b1a07a1fb2f657b6d44c30232a5dbda12490c4e8af97aebb95e715.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.netflix.mediaclient-library",
+        "tag": "com.netflix.mediaclient-library"
+      },
+      "unavailable": [],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "363863596ea99241eb71b1a985553aa604de3ea3c5f0c546742390e682164e6b"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-NZ",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-AD",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "id",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-MO",
+              "zh-SG",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 21,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "7fc88fd0c9bca2478d114c032fe555370610a622d85a8b07e05b22fd9a06343b",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "version_code": 35594,
+          "version_name": "7.120.6 build 63 35594"
+        },
+        {
+          "certificate_sha256": [
+            "363863596ea99241eb71b1a985553aa604de3ea3c5f0c546742390e682164e6b"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-NZ",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-AD",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "id",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-MO",
+              "zh-SG",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 21,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "7fc88fd0c9bca2478d114c032fe555370610a622d85a8b07e05b22fd9a06343b",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "version_code": 35594,
+          "version_name": "7.120.6 build 63 35594"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 26
+          },
+          "certificate_sha256": [
+            "363863596ea99241eb71b1a985553aa604de3ea3c5f0c546742390e682164e6b"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": null,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-NZ",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-AD",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fil",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "id",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-MO",
+              "zh-SG",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 24,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "f818f7d61f969964ece7a80c53166870079db815a69bbbb5a43cdfe5a251a1e6",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "version_code": 52400,
+          "version_name": "8.143.5 build 19 52400"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 26
+          },
+          "certificate_sha256": [
+            "363863596ea99241eb71b1a985553aa604de3ea3c5f0c546742390e682164e6b"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": null,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-NZ",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-AD",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fil",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "id",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-MO",
+              "zh-SG",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 24,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "f818f7d61f969964ece7a80c53166870079db815a69bbbb5a43cdfe5a251a1e6",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "version_code": 52400,
+          "version_name": "8.143.5 build 19 52400"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "86e17577ebe94bd64ff61590651863fb5a2d125f405fcbbf76ba0fe483a31d91"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 74684,
+          "version_name": "9.89.0 build 14 74684"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "86e17577ebe94bd64ff61590651863fb5a2d125f405fcbbf76ba0fe483a31d91"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-NZ",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 74684,
+          "version_name": "9.89.0 build 14 74684"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e.apk",
           "sha256": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e",
           "size": 190973,
@@ -16165,36 +16927,36 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3.apk",
           "role": "base",
           "sha256": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
           "size": 31276678,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-px_9a-74684/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f.apk",
           "role": "split",
           "sha256": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
           "size": 27698503,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-px_9a-74684/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955.apk",
           "role": "split",
           "sha256": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955",
           "size": 823705,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-px_9a-74684/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84.apk",
           "role": "split",
           "sha256": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
           "size": 1287489,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-px_9a-74684/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84.apk"
         }
       ],
       "certificate_scope": {
@@ -16204,12 +16966,13 @@
       "certificate_sha256": [
         "86e17577ebe94bd64ff61590651863fb5a2d125f405fcbbf76ba0fe483a31d91"
       ],
-      "manifest_sha256": "70ffa6903e1b5a060058dee50aa83224a8594c44f869b1945a76457920db91a3",
-      "manifest_size": 1153,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-px_9a-74684/manifest-public.json",
+      "manifest_sha256": "23527316e5b1a07a1fb2f657b6d44c30232a5dbda12490c4e8af97aebb95e715",
+      "manifest_size": 1349,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/manifest-23527316e5b1a07a1fb2f657b6d44c30232a5dbda12490c4e8af97aebb95e715.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.netflix.mediaclient/metadata.json",
       "package": "com.netflix.mediaclient",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.netflix.mediaclient-library",
       "version_code": 74684,
       "version_name": "9.89.0 build 14 74684"
     },
@@ -17173,7 +17936,6 @@
     "com.joytunes.simplyguitar",
     "com.joytunes.simplypiano",
     "com.microsoft.office.officehubrow",
-    "com.netflix.mediaclient",
     "com.openai.chatgpt",
     "com.particlenews.newsbreak",
     "com.symantec.mobilesecurity",
