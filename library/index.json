@@ -3501,6 +3501,451 @@
     {
       "artifacts": [
         {
+          "name": "4ba6abb1994e11d46e1a4c79ba7a0d92c4b1f1f05bdaf4d7f0815754b93cd281.apk",
+          "sha256": "4ba6abb1994e11d46e1a4c79ba7a0d92c4b1f1f05bdaf4d7f0815754b93cd281",
+          "size": 333159,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/4ba6abb1994e11d46e1a4c79ba7a0d92c4b1f1f05bdaf4d7f0815754b93cd281.apk"
+        },
+        {
+          "name": "755e09239e17a3066d9321ed61c3927ca9625d7133aff860da0c68050686f185.apk",
+          "sha256": "755e09239e17a3066d9321ed61c3927ca9625d7133aff860da0c68050686f185",
+          "size": 1663566,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/755e09239e17a3066d9321ed61c3927ca9625d7133aff860da0c68050686f185.apk"
+        },
+        {
+          "name": "b4e0d29cb2f4b015f0865f15be03f3c6dbbe1230c22ba46edb2b28b1e60745fe.apk",
+          "sha256": "b4e0d29cb2f4b015f0865f15be03f3c6dbbe1230c22ba46edb2b28b1e60745fe",
+          "size": 43678363,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/b4e0d29cb2f4b015f0865f15be03f3c6dbbe1230c22ba46edb2b28b1e60745fe.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Google Wallet",
+      "package": "com.google.android.apps.walletnfcrel",
+      "publication": {
+        "catalog": {
+          "name": "catalog-584d7677e217e5389a0ca371c82fd5e814de7cea58a5240610373fea447b7224.json",
+          "sha256": "584d7677e217e5389a0ca371c82fd5e814de7cea58a5240610373fea447b7224",
+          "size": 10102,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/catalog-584d7677e217e5389a0ca371c82fd5e814de7cea58a5240610373fea447b7224.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-fd5bcd68c18048a6e67a78220d9d05fae462442524fe429806411f163e2bfba9.json",
+          "sha256": "fd5bcd68c18048a6e67a78220d9d05fae462442524fe429806411f163e2bfba9",
+          "size": 1104,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/manifest-fd5bcd68c18048a6e67a78220d9d05fae462442524fe429806411f163e2bfba9.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.google.android.apps.walletnfcrel-library",
+        "tag": "com.google.android.apps.walletnfcrel-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "2c32196df9d1d0031f375c674b7222a61be454e7a2d4681162b6af58fe002039"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "az-AZ",
+              "be",
+              "be-BY",
+              "bg",
+              "bn",
+              "bn-BD",
+              "bs",
+              "bs-BA",
+              "ca",
+              "cs",
+              "cy",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-SG",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-US",
+              "et",
+              "et-EE",
+              "eu",
+              "eu-ES",
+              "fa",
+              "fi",
+              "fil",
+              "fr",
+              "fr-CA",
+              "ga",
+              "gl",
+              "gl-ES",
+              "gu",
+              "gu-IN",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "hy-AM",
+              "id",
+              "in",
+              "is",
+              "is-IS",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "ka-GE",
+              "kk",
+              "kk-KZ",
+              "km",
+              "km-KH",
+              "kn",
+              "kn-IN",
+              "ko",
+              "ky",
+              "ky-KG",
+              "lo",
+              "lo-LA",
+              "lt",
+              "lv",
+              "mk",
+              "mk-MK",
+              "ml",
+              "ml-IN",
+              "mn",
+              "mn-MN",
+              "mr",
+              "mr-IN",
+              "ms",
+              "ms-MY",
+              "my",
+              "my-MM",
+              "nb",
+              "ne",
+              "ne-NP",
+              "nl",
+              "no",
+              "or",
+              "pa",
+              "pa-IN",
+              "pl",
+              "ps",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "si-LK",
+              "sk",
+              "sl",
+              "sq",
+              "sq-AL",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "ta-IN",
+              "te",
+              "te-IN",
+              "th",
+              "tk",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "ur-PK",
+              "uz",
+              "uz-UZ",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.camera",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.wifi",
+              "android.software.device_admin"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "b4e0d29cb2f4b015f0865f15be03f3c6dbbe1230c22ba46edb2b28b1e60745fe",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "755e09239e17a3066d9321ed61c3927ca9625d7133aff860da0c68050686f185",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "4ba6abb1994e11d46e1a4c79ba7a0d92c4b1f1f05bdaf4d7f0815754b93cd281",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 933985015,
+          "version_name": "26.42.1003171897"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "2c32196df9d1d0031f375c674b7222a61be454e7a2d4681162b6af58fe002039"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "az-AZ",
+              "be",
+              "be-BY",
+              "bg",
+              "bn",
+              "bn-BD",
+              "bs",
+              "bs-BA",
+              "ca",
+              "cs",
+              "cy",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-SG",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-US",
+              "et",
+              "et-EE",
+              "eu",
+              "eu-ES",
+              "fa",
+              "fi",
+              "fil",
+              "fr",
+              "fr-CA",
+              "ga",
+              "gl",
+              "gl-ES",
+              "gu",
+              "gu-IN",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "hy-AM",
+              "id",
+              "in",
+              "is",
+              "is-IS",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "ka-GE",
+              "kk",
+              "kk-KZ",
+              "km",
+              "km-KH",
+              "kn",
+              "kn-IN",
+              "ko",
+              "ky",
+              "ky-KG",
+              "lo",
+              "lo-LA",
+              "lt",
+              "lv",
+              "mk",
+              "mk-MK",
+              "ml",
+              "ml-IN",
+              "mn",
+              "mn-MN",
+              "mr",
+              "mr-IN",
+              "ms",
+              "ms-MY",
+              "my",
+              "my-MM",
+              "nb",
+              "ne",
+              "ne-NP",
+              "nl",
+              "no",
+              "or",
+              "pa",
+              "pa-IN",
+              "pl",
+              "ps",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "si-LK",
+              "sk",
+              "sl",
+              "sq",
+              "sq-AL",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "ta-IN",
+              "te",
+              "te-IN",
+              "th",
+              "tk",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "ur-PK",
+              "uz",
+              "uz-UZ",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.camera",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.wifi",
+              "android.software.device_admin"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "b4e0d29cb2f4b015f0865f15be03f3c6dbbe1230c22ba46edb2b28b1e60745fe",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "755e09239e17a3066d9321ed61c3927ca9625d7133aff860da0c68050686f185",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "4ba6abb1994e11d46e1a4c79ba7a0d92c4b1f1f05bdaf4d7f0815754b93cd281",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 933985015,
+          "version_name": "26.42.1003171897"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "2062e125774100db9704fe0e9eab1fc2fc780d9035c95931e055d3422b582322.apk",
           "sha256": "2062e125774100db9704fe0e9eab1fc2fc780d9035c95931e055d3422b582322",
           "size": 11169321,
@@ -10337,28 +10782,28 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "b4e0d29cb2f4b015f0865f15be03f3c6dbbe1230c22ba46edb2b28b1e60745fe.apk",
           "role": "base",
           "sha256": "b4e0d29cb2f4b015f0865f15be03f3c6dbbe1230c22ba46edb2b28b1e60745fe",
           "size": 43678363,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-px_9a-933985015/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/b4e0d29cb2f4b015f0865f15be03f3c6dbbe1230c22ba46edb2b28b1e60745fe.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "755e09239e17a3066d9321ed61c3927ca9625d7133aff860da0c68050686f185.apk",
           "role": "split",
           "sha256": "755e09239e17a3066d9321ed61c3927ca9625d7133aff860da0c68050686f185",
           "size": 1663566,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-px_9a-933985015/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/755e09239e17a3066d9321ed61c3927ca9625d7133aff860da0c68050686f185.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "4ba6abb1994e11d46e1a4c79ba7a0d92c4b1f1f05bdaf4d7f0815754b93cd281.apk",
           "role": "split",
           "sha256": "4ba6abb1994e11d46e1a4c79ba7a0d92c4b1f1f05bdaf4d7f0815754b93cd281",
           "size": 333159,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-px_9a-933985015/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/4ba6abb1994e11d46e1a4c79ba7a0d92c4b1f1f05bdaf4d7f0815754b93cd281.apk"
         }
       ],
       "certificate_scope": {
@@ -10368,12 +10813,13 @@
       "certificate_sha256": [
         "2c32196df9d1d0031f375c674b7222a61be454e7a2d4681162b6af58fe002039"
       ],
-      "manifest_sha256": "95ab896c5f7c9b8c1de5a54cc6aa36ab472b6f71f1dd9e2544cfb2f0fab12788",
-      "manifest_size": 957,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-px_9a-933985015/manifest-public.json",
+      "manifest_sha256": "fd5bcd68c18048a6e67a78220d9d05fae462442524fe429806411f163e2bfba9",
+      "manifest_size": 1104,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/manifest-fd5bcd68c18048a6e67a78220d9d05fae462442524fe429806411f163e2bfba9.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.google.android.apps.walletnfcrel/metadata.json",
       "package": "com.google.android.apps.walletnfcrel",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.google.android.apps.walletnfcrel-library",
       "version_code": 933985015,
       "version_name": "26.42.1003171897"
     },
@@ -11836,7 +12282,6 @@
     "com.facebook.katana",
     "com.funcamerastudio.videomaker",
     "com.google.android.apps.bard",
-    "com.google.android.apps.walletnfcrel",
     "com.instagram.android",
     "com.joytunes.simplyguitar",
     "com.joytunes.simplypiano",
