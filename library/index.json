@@ -484,6 +484,243 @@
     {
       "artifacts": [
         {
+          "name": "289946c964d127183da0f3008353fd4a07d2858e141713c862c034e93d14fd33.apk",
+          "sha256": "289946c964d127183da0f3008353fd4a07d2858e141713c862c034e93d14fd33",
+          "size": 1028869,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/289946c964d127183da0f3008353fd4a07d2858e141713c862c034e93d14fd33.apk"
+        },
+        {
+          "name": "36b4cc5fe3218176c3b8cc56113dd484471223a6ec35a37a587ca809ebd91ab6.apk",
+          "sha256": "36b4cc5fe3218176c3b8cc56113dd484471223a6ec35a37a587ca809ebd91ab6",
+          "size": 3495952,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/36b4cc5fe3218176c3b8cc56113dd484471223a6ec35a37a587ca809ebd91ab6.apk"
+        },
+        {
+          "name": "37b57e2837fd51ffe955c5f5210f670a3af356718662689ab5e6c95e19720073.apk",
+          "sha256": "37b57e2837fd51ffe955c5f5210f670a3af356718662689ab5e6c95e19720073",
+          "size": 35545082,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/37b57e2837fd51ffe955c5f5210f670a3af356718662689ab5e6c95e19720073.apk"
+        },
+        {
+          "name": "5c6ad75b029d84acbcc93a5c90bd672f7404770b85df57350ebbaed2bd4c3070.apk",
+          "sha256": "5c6ad75b029d84acbcc93a5c90bd672f7404770b85df57350ebbaed2bd4c3070",
+          "size": 274004560,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/5c6ad75b029d84acbcc93a5c90bd672f7404770b85df57350ebbaed2bd4c3070.apk"
+        },
+        {
+          "name": "8d4d1135e164a3a591d1eb63d9b9cf21f76f2cdfa501e201f852263465b628c2.apk",
+          "sha256": "8d4d1135e164a3a591d1eb63d9b9cf21f76f2cdfa501e201f852263465b628c2",
+          "size": 2810265,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/8d4d1135e164a3a591d1eb63d9b9cf21f76f2cdfa501e201f852263465b628c2.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Amazon Flex",
+      "package": "com.amazon.flex.rabbit",
+      "publication": {
+        "catalog": {
+          "name": "catalog-d894958021eb7c32d89e34793ca01e4fc6f84c66f1fd202bd43c3ad4259ce143.json",
+          "sha256": "d894958021eb7c32d89e34793ca01e4fc6f84c66f1fd202bd43c3ad4259ce143",
+          "size": 7540,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/catalog-d894958021eb7c32d89e34793ca01e4fc6f84c66f1fd202bd43c3ad4259ce143.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-96b025d6c86b086cc95f105e456707c4aa48d2f12d315ff63bd4b35f1e61a598.json",
+          "sha256": "96b025d6c86b086cc95f105e456707c4aa48d2f12d315ff63bd4b35f1e61a598",
+          "size": 1273,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/manifest-96b025d6c86b086cc95f105e456707c4aa48d2f12d315ff63bd4b35f1e61a598.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.amazon.flex.rabbit-library",
+        "tag": "com.amazon.flex.rabbit-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "838dd1f04429f0613cf0661798ad3c6fb29ca7b4f0d1b17a3682489354f7f6f8"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 33,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.camera",
+              "android.hardware.camera.any",
+              "android.hardware.camera.autofocus",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.landscape",
+              "android.hardware.screen.portrait",
+              "android.hardware.telephony",
+              "android.hardware.touchscreen"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "5c6ad75b029d84acbcc93a5c90bd672f7404770b85df57350ebbaed2bd4c3070",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "37b57e2837fd51ffe955c5f5210f670a3af356718662689ab5e6c95e19720073",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "289946c964d127183da0f3008353fd4a07d2858e141713c862c034e93d14fd33",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "36b4cc5fe3218176c3b8cc56113dd484471223a6ec35a37a587ca809ebd91ab6",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 315225428,
+          "version_name": "3.144.6.6.0"
+        },
+        {
+          "certificate_sha256": [
+            "838dd1f04429f0613cf0661798ad3c6fb29ca7b4f0d1b17a3682489354f7f6f8"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-AE",
+              "en-AU",
+              "en-CA",
+              "en-EG",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-JP",
+              "en-NZ",
+              "en-SA",
+              "en-SG",
+              "en-US",
+              "en-XC",
+              "en-ZA"
+            ],
+            "locale": "en_US",
+            "min_sdk": 33,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.camera",
+              "android.hardware.camera.any",
+              "android.hardware.camera.autofocus",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.landscape",
+              "android.hardware.screen.portrait",
+              "android.hardware.telephony",
+              "android.hardware.touchscreen"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "5c6ad75b029d84acbcc93a5c90bd672f7404770b85df57350ebbaed2bd4c3070",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "37b57e2837fd51ffe955c5f5210f670a3af356718662689ab5e6c95e19720073",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "8d4d1135e164a3a591d1eb63d9b9cf21f76f2cdfa501e201f852263465b628c2",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "36b4cc5fe3218176c3b8cc56113dd484471223a6ec35a37a587ca809ebd91ab6",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 315225428,
+          "version_name": "3.144.6.6.0"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "999c7d8ad8124811792d2a3e31ce446e8445b4d95c5e6766eb875afeee1be7ca.apk",
           "sha256": "999c7d8ad8124811792d2a3e31ce446e8445b4d95c5e6766eb875afeee1be7ca",
           "size": 68432195,
@@ -9202,47 +9439,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "5c6ad75b029d84acbcc93a5c90bd672f7404770b85df57350ebbaed2bd4c3070.apk",
           "role": "base",
           "sha256": "5c6ad75b029d84acbcc93a5c90bd672f7404770b85df57350ebbaed2bd4c3070",
           "size": 274004560,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-px_9a-315225428/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/5c6ad75b029d84acbcc93a5c90bd672f7404770b85df57350ebbaed2bd4c3070.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "37b57e2837fd51ffe955c5f5210f670a3af356718662689ab5e6c95e19720073.apk",
           "role": "split",
           "sha256": "37b57e2837fd51ffe955c5f5210f670a3af356718662689ab5e6c95e19720073",
           "size": 35545082,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-px_9a-315225428/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/37b57e2837fd51ffe955c5f5210f670a3af356718662689ab5e6c95e19720073.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "8d4d1135e164a3a591d1eb63d9b9cf21f76f2cdfa501e201f852263465b628c2.apk",
           "role": "split",
           "sha256": "8d4d1135e164a3a591d1eb63d9b9cf21f76f2cdfa501e201f852263465b628c2",
           "size": 2810265,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-px_9a-315225428/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/8d4d1135e164a3a591d1eb63d9b9cf21f76f2cdfa501e201f852263465b628c2.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "36b4cc5fe3218176c3b8cc56113dd484471223a6ec35a37a587ca809ebd91ab6.apk",
           "role": "split",
           "sha256": "36b4cc5fe3218176c3b8cc56113dd484471223a6ec35a37a587ca809ebd91ab6",
           "size": 3495952,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-px_9a-315225428/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/36b4cc5fe3218176c3b8cc56113dd484471223a6ec35a37a587ca809ebd91ab6.apk"
         }
       ],
       "certificate_sha256": [
         "838dd1f04429f0613cf0661798ad3c6fb29ca7b4f0d1b17a3682489354f7f6f8"
       ],
-      "manifest_sha256": "1727f7245d2dd9f3ebf473f79b0f71b3b5e2723c461cea5e6303c49bb34846db",
-      "manifest_size": 1077,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-px_9a-315225428/manifest-public.json",
+      "manifest_sha256": "96b025d6c86b086cc95f105e456707c4aa48d2f12d315ff63bd4b35f1e61a598",
+      "manifest_size": 1273,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.flex.rabbit-library/manifest-96b025d6c86b086cc95f105e456707c4aa48d2f12d315ff63bd4b35f1e61a598.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.amazon.flex.rabbit/metadata.json",
       "package": "com.amazon.flex.rabbit",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.amazon.flex.rabbit-library",
       "version_code": 315225428,
       "version_name": "3.144.6.6.0"
     },
@@ -11584,7 +11822,6 @@
     "ai.x.grok",
     "com.abc.abcnews",
     "com.amazon.avod.thirdpartyclient",
-    "com.amazon.flex.rabbit",
     "com.amazon.mShop.android.shopping",
     "com.amazon.mp3",
     "com.anthropic.claude",
