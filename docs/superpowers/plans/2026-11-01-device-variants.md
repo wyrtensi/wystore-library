@@ -23,13 +23,15 @@ complete while migration or verification remains outstanding.
 
 ## Verification evidence
 
-The local suite completed with 154 tests, OK. Actionlint reported no errors.
+The local suite completed with 155 tests, OK. Actionlint reported no errors.
 Kindle installed and launched on API 35 (ARM64) and API 30 (ARMv7) using the
 emulator native bridge. API 26 was unavailable. Planfix installed on API 35,
 but its React Native loader searched for x86_64 libraries under translation
 and failed to launch; behavior on actual ARM hardware remains unverified.
 
-A two-application migration pilot is in progress. The first attempt exposed
-GitHub temporary draft download URLs; draft URLs are now checked separately
-from the mandatory stable URLs after publication. The live index was preserved.
-Full migration and a production no-download rerun remain required.
+The live two-application migration pilot succeeded: Planfix has two variants
+and four unique APKs; Kindle has six variants and three unique APKs. A remote
+audit verified both releases, four manifest assets, all eight variants, the
+59 preserved default entries and 57 explicitly pending migrations. No old
+managed release remains for either migrated application. Full migration and
+a production no-download rerun remain required.

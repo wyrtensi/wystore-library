@@ -207,3 +207,12 @@ class AppPublisherTests(unittest.TestCase):
                 with self.assertRaises((ValueError, RuntimeError)):
                     self.pub.publish_application(PACKAGE, [], {NAME: {'sha256': SHA, 'size': 3}}, title='Name', notes='Notes')
                 self.pub._gh.assert_not_called()
+
+    def test_cleanup_avoids_unchanged_release_writes(self):
+        app = application()
+        state = keeper(app)
+        state.update(name=app['name'], body=self.pub._presentation(app, {SHA}))
+        self.pub.release.return_value = state
+        self.pub._gh.side_effect = ['[]']
+        self.pub.cleanup_applications([app], ['px_9a'])
+        self.assertEqual(len(self.pub._gh.call_args_list), 1)

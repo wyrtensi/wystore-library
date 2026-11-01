@@ -171,6 +171,8 @@ class AppPublisher(Publisher):
                 obsolete.append(tag)
         managed = [keeper for keeper in keepers if keeper[0]['tag_name'] in {package + '-library' for package in packages}]
         for release, expected, actual, name, body in managed:
+            if release.get('name') == name and release.get('body') == body:
+                continue
             self._gh('api', '--method', 'PATCH', f"repos/{self.repository}/releases/{release['id']}", '--input', '-', input_data=json.dumps({'name': name, 'body': body}))
         for release, expected, actual, name, body in managed:
             for asset_name, item in actual.items():
