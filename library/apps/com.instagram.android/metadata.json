@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "package": "com.instagram.android",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Instagram",
+      "developer": "Instagram",
+      "description": "Крепкая дружба складывается из множества моментов. Поделитесь своими в Instagram.<br>— от Meta<br><br>Общайтесь с друзьями, находите поклонников и узнавайте о событиях в жизни других людей. Изучайте интересные вам темы, делитесь ежедневными новостями и важными моментами из жизни.<br><br>Рассказывайте о своих увлечениях и планах на будущее.<br>— Узнавайте новости друзей в реальном времени с помощью историй и заметок, которые исчезают через 24 часа.<br>— Создавайте групповые чаты, чтобы делиться повседневными моментами с близкими друзьями.<br>— Показывайте в ленте воспоминания из недавних мероприятий или поездок.<br>— Превратите свою жизнь в фильм, а также просматривайте короткие развлекательные видео Reels в Instagram.<br>— Настройте свои публикации с помощью эксклюзивных шаблонов, музыки, стикеров и фильтров.<br><br>Находите больше интересного контента.<br>— Смотрите видео своих любимых авторов и находите новый контент, соответствующий вашим интересам.<br>— Вдохновляйтесь фото и видео из новых аккаунтов в разделе \"Интересное\".<br>— Открывайте для себя новые бренды и компании малого бизнеса, и покупайте товары, подчеркивающие ваш стиль.<br><br>Некоторые функции Instagram могут быть недоступны в вашей стране или регионе.<br><br>Условия и правила: https://help.instagram.com/581066165581870<br><br>Политика конфиденциальности в отношении данных о здоровье потребителя: https://privacycenter.instagram.com/policies/health",
+      "shortDescription": "Создавайте и делитесь фотографиями, историями и роликами с друзьями",
+      "versionName": null,
+      "updatedDate": "2026-10-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.instagram.android",
+      "changelog": null,
+      "icon": "images/9061a0ab3d22c72ff59756bb7b49da075692256ccb6fba5263b09c54b75b10f0.png",
+      "screenshots": [
+        "images/28680ffd6b2a9be86fedbbb59f84147ed8e68fcb3d4abc814bdde473400f70e0.jpg",
+        "images/a13c152567dae1887c80768c1f9929447bef0b181136d112966689b59982c7dd.jpg",
+        "images/7f6fdf06bdcbba6a1f0513f945695821cb6b86f6a2b5859c991b9d8705a7cd6d.jpg",
+        "images/694fafb6173bf7316e69a923095b0655bda5f27bd6941c5eb11c46b7c1e964e2.jpg",
+        "images/50fad40c8b1637be4f35a43be2efd7dca449fe02e8a9fb3e56dece47fd78a5ee.jpg",
+        "images/6c3d34f89b077b2142bd809cb8f58ca1d0ebf25f14bc3ef4bff62d36b754214c.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Instagram",
+      "developer": "Instagram",
+      "description": "Little moments lead to big friendships. Share yours on Instagram. <br>—From Meta<br><br>Connect with friends, find other fans, and see what people around you are up to and into. Explore your interests and post what's going on, from your daily moments to life's highlights.<br><br>Share what you’re up to and into on Insta®.<br>- Keep up with friends on the fly with Stories and Notes that disappear after 24 hours.<br>- Start group chats and share unfiltered moments with your Close Friends.<br>- Share memories from recent events or trips in Feed.<br>- Turn your life into a movie and discover short, entertaining videos on Instagram with Reels.<br>- Customize your posts with exclusive templates, music, stickers and filters.<br><br>Dive into your interests.<br>- Watch videos from your favorite Creators and discover new content that’s personalized to your interests.<br>- Get inspired by photos and videos from new accounts in Explore.<br>- Discover brands and small businesses, and shop products that are relevant to your personal style.<br><br>Some Instagram features may not be available in your country or region.<br><br>Terms and Policies - https://help.instagram.com/581066165581870<br><br>Consumer Health Privacy Policy: https://privacycenter.instagram.com/policies/health<br><br>Learn how we're working to help keep our communities safe across Meta technologies at the Instagram Safety Center: https://about.instagram.com/safety",
+      "shortDescription": "Create & share photos, stories, & reels with friends you love",
+      "versionName": null,
+      "updatedDate": "2026-10-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.instagram.android",
+      "changelog": null,
+      "icon": "images/9061a0ab3d22c72ff59756bb7b49da075692256ccb6fba5263b09c54b75b10f0.png",
+      "screenshots": [
+        "images/84f1f0f257cb8d837d177b6d25d9d7bf69b2d698a744366cdbce19a2622ec7f0.png",
+        "images/5bff71cbfe7c7f30ff70b32144924559ecf5dfb6371eda56370e78357e2e72db.png",
+        "images/f50f2ca25fa0f50e1a4eddde6ed8f04b2be335f4afc34ad56b15055cc3830a8f.png",
+        "images/3f5ce1c4a50982062896fef00a1f845682e5496c5bd64139c0c59d4e365a6f92.png",
+        "images/54dfec49b96342905f7f610db3c5a1514e759ec3448c1c3f5d8c8e31be38078d.png",
+        "images/fc56c8e806c21cd65a0b92634fb3028538ee7b5853c15249188a101933bae1ca.png",
+        "images/d7b8553ca4779edf05eddcf701f0e7ceb3b3a217ab010671261d0c50b0af759a.png",
+        "images/882a0c06f0a030b40d9ab59871c5494a776660cdca2fc6c61d6ceb1f0549ce8a.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [],
+    "en_US": []
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/yHi59jmO_lVamcyJ1i3rM1_E8bAiAspShnGjjURq05ipQQSUksO3QVEsXTegRSqul038-4YNA7O644XAcx251Q": "9061a0ab3d22c72ff59756bb7b49da075692256ccb6fba5263b09c54b75b10f0.png",
+    "https://play-lh.googleusercontent.com/J_0GgLsEcGSWk7z4aVShFQxqGbsYM9A_E8hUXAuYkZ4z_xOIyNM4UzmeZw5yTl475pNP1g3beCWz3CL7OWw0Ew0": "28680ffd6b2a9be86fedbbb59f84147ed8e68fcb3d4abc814bdde473400f70e0.jpg",
+    "https://play-lh.googleusercontent.com/9V2aRgkvDo6CkimMpftwLF3zGZ9CDbQDTz43CKF1LV87lxUVQ4j8P2n9Sn-mUrPiWzURHfR6zVSXcoxrLArKZg": "a13c152567dae1887c80768c1f9929447bef0b181136d112966689b59982c7dd.jpg",
+    "https://play-lh.googleusercontent.com/Uf1eBhK5GW85wNQ_1NQUsDAGecpxfdyjHbhYGrwgiBeSfenk_e0AjkeZn7QDF907hcLGRjWMWm21sQRegox6nXU": "7f6fdf06bdcbba6a1f0513f945695821cb6b86f6a2b5859c991b9d8705a7cd6d.jpg",
+    "https://play-lh.googleusercontent.com/4x-M2vnbrIXBsQ4-5UKV7mE0ZybMqJ0H-ZlcuDSBKqJh4jzNFyO1CH3Ct7GhY6F5PNth2qXJ5npTDhCiQko-": "694fafb6173bf7316e69a923095b0655bda5f27bd6941c5eb11c46b7c1e964e2.jpg",
+    "https://play-lh.googleusercontent.com/7cj7ugN0agyRxGGCX_3UxnHAImja169ubvrhtjf7Qo2xlFa-XnAYBB5GhHefGW-QuqllzRumnSRFy-VdhxSBKg": "50fad40c8b1637be4f35a43be2efd7dca449fe02e8a9fb3e56dece47fd78a5ee.jpg",
+    "https://play-lh.googleusercontent.com/JUFiyvMbzV6CuHFs2fa0jGN7rUwoBXJ4zDf212UHSfwbBa7vMCcjX3eVV6VdQhn6sddWECuZEnrZOvdgasuM": "6c3d34f89b077b2142bd809cb8f58ca1d0ebf25f14bc3ef4bff62d36b754214c.jpg",
+    "https://play-lh.googleusercontent.com/KWZZ4eVExx8xdzsZrw5O5Lmyz8amgpAyzm9R_Fs5StBLQrxpoO7hZsrbXU170fuP9dXOagS9vNflXbit6Aro": "84f1f0f257cb8d837d177b6d25d9d7bf69b2d698a744366cdbce19a2622ec7f0.png",
+    "https://play-lh.googleusercontent.com/k1GxM2K3E1-j7zVi2cXP6sxoLDNPJYIkpI_VmQYeZkV2KYqvRMvUt21In8GkmwvIxpwwRfC4Kk3575eVR7YK": "5bff71cbfe7c7f30ff70b32144924559ecf5dfb6371eda56370e78357e2e72db.png",
+    "https://play-lh.googleusercontent.com/pk8xOq-n8fb43aWkEOfDcXbxVPd5S8fqq_Q33mpGvg6_Ltw7V0f0_r5GxX2zLaETyEy4EoDim77c04gNl4dL": "f50f2ca25fa0f50e1a4eddde6ed8f04b2be335f4afc34ad56b15055cc3830a8f.png",
+    "https://play-lh.googleusercontent.com/iFuJpIUpCLFjytdKp_hGoTNMD4Fqicb0aG2LlB9WQ1-LExP4oWEmf4augIbESDCASTUDNURi8C5xTH-XWW0_m-s": "3f5ce1c4a50982062896fef00a1f845682e5496c5bd64139c0c59d4e365a6f92.png",
+    "https://play-lh.googleusercontent.com/gG08FD3cFDBLfidlon3KlbLPDYc_6357YkFa_jc57GMBMqOGr0lWUfBJ-5tFl7Eo17FvK1tMWftynS5APc7gWw": "54dfec49b96342905f7f610db3c5a1514e759ec3448c1c3f5d8c8e31be38078d.png",
+    "https://play-lh.googleusercontent.com/OG4KlJTq0GCkjjd-h2xBBImgRLD2GGurDWS8cSLmJqaaNt_1HLVk5ZBxDyl2HNjpGfY4YgnerDypk3N68_qpiQ": "fc56c8e806c21cd65a0b92634fb3028538ee7b5853c15249188a101933bae1ca.png",
+    "https://play-lh.googleusercontent.com/dM0H2UuInqt1i3Ca8sDqh1Z94aEQ0eg3TYr3cMLDObW8X2RI4cGedkPmAc8QrXUqoTl1mL34q1dsNTIDA1B4H-M": "d7b8553ca4779edf05eddcf701f0e7ceb3b3a217ab010671261d0c50b0af759a.png",
+    "https://play-lh.googleusercontent.com/tR-pzxAgfd_vrzvg-XIi4YdHhH7w0X39vg79Cw7O1FXJ1WkpikmzP_OWLA1YBBSRbZT-NN78H2St5oNLgsHy-g": "882a0c06f0a030b40d9ab59871c5494a776660cdca2fc6c61d6ceb1f0549ce8a.png"
+  }
+}

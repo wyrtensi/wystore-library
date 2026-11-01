@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.zhiliaoapp.musically",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "TikTok - Videos, Shop & LIVE",
+      "developer": "TikTok Pte. Ltd.",
+      "description": "TikTok is the global discovery platform for videos, streaming on LIVE, shopping, and more. Our mission is to inspire creativity and bring joy. Over a billion people come to TikTok to share what they love, learn new things, and find ideas that make everyday life more interesting.<br><br>Your experience on TikTok is built around what you're into, not who you know. Just watch, like, and scroll to discover videos, creators, and communities you did not know you were looking for. From quick recipes to game highlights, fashion tips to music and trending sounds, your For You feed reflects you and changes based on what inspires you.<br><br>Creating is simple. Capture from your phone and turn everyday moments into something special with easy editing tools, effects, sounds, and music. Use a large library of sounds and music for free in your videos, plus filters and creative tools that help your content stand out. On TikTok, anyone can create, and ideas that inspire, pick up momentum.<br><br>TikTok is also where discovery becomes part of your everyday life. Find creators to follow, new ideas to try, and products you will love from small businesses and brands around the world. TikTok offers more than 50 preset safety and privacy features, from private accounts and content filters to screen time tools and Family Pairing, so you can choose an experience that works for you. TikTok provides extra support for teens and families on the app, letting you set time and content preferences that feel right for your family. <br><br>■ Personalized discovery<br>A For You feed that learns what you enjoy. Discover videos, creators, LIVE streams, shopping, and communities based on what you watch, like, and share.<br>■ Entertainment, learning, and everything in between<br>Comedy, gaming, DIY, beauty, sports, music, lifestyle, education, and more. Find content that makes you laugh, think, and try something new.<br>■ Simple, powerful creation tools<br>Record in clips, pause and resume, trim and merge, add text and stickers, and fine tune your video without leaving the app.<br>■ Sounds, music, and effects<br>Use our free library of sounds and music in your videos, plus filters, effects, and creative tools that help you express yourself and make your videos stand out.<br>■ A global community of creators<br>Follow your favorite creators and discover new voices every day. Share your own story or support the people who inspire you.<br>■ Discover and shop with TikTok Shop<br>Explore trending products, exclusive deals, and seamless shopping experiences inspired by creators and brands you love, all in one place. Shop directly from videos, LIVE, and the Shop tab, track your orders, and enjoy a safe, secure shopping and transaction process.<br>■ Go LIVE and connect in real time<br>Start a LIVE to chat with your community, share moments as they happen, and unlock special features and benefits where available.<br>■ Tools to shape your experience<br>Use more than 50 safety and privacy features, from private accounts and content filters to screen time tools, Family Pairing, and other controls, to choose how TikTok works for you and your family.<br><br>Ready to see what you discover next? Download TikTok to start watching, creating, and exploring your world in a new way.<br>Learn more about our safety tools, resources, and policies at the TikTok Safety Center:<br>https://www.tiktok.com/safety/en<br>Terms of Service:<br>https://www.tiktok.com/legal/terms-of-service<br>Privacy Policy:<br>https://www.tiktok.com/legal/privacy-policy<br>Feedback?<br>Contact us at https://www.tiktok.com/legal/report/feedback or tweet us @tiktok_us",
+      "shortDescription": "Join your friends and discover videos you love, only on TikTok",
+      "versionName": null,
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
+      "changelog": "Быстро находите и отмечайте друзей в комментариях.",
+      "icon": "images/f1460d10ef1929d8494b8e049aa045ab8b913f193a39fcf6a25e1c5afdfb0d5d.png",
+      "screenshots": [
+        "images/c32a671235597df5a6cc2c94da0d6538e9ef6de49f081409dfe8359e10e643e0.jpg",
+        "images/4be1758983c610c7e21e2347e7ba7e47c55a24e7b3cff8788bfcd94a9f849d0b.png",
+        "images/7df4dcd072e0241610f12830d87f5bff24416b3b5868c4cd37ebfdfac043e393.png",
+        "images/ba8c96245d37b0cddb260525acc868b7a3df1cd6d23894413089d5a6bb015eff.png",
+        "images/86c6582a50fd555c38a5a3e83b36aded0f366c1fb015850702c41f777463cef9.png",
+        "images/82ebcee0f67b1bbf65918ef3e02f2c854835c3a8306fa71b8661e4f63c87112a.png",
+        "images/a41ac6a49636525422a7d44c64a94f356a913a1b8276675702e090a0d9ed8448.png",
+        "images/4a7800a37d30b5eccc958a6dfdab8b7a01f8ae28da632b86180bd26a5501db8a.png"
+      ]
+    },
+    "en_US": {
+      "title": "TikTok - Videos, Shop & LIVE",
+      "developer": "TikTok Pte. Ltd.",
+      "description": "TikTok is the global discovery platform for videos, streaming on LIVE, shopping, and more. Our mission is to inspire creativity and bring joy. Over a billion people come to TikTok to share what they love, learn new things, and find ideas that make everyday life more interesting.<br><br>Your experience on TikTok is built around what you're into, not who you know. Just watch, like, and scroll to discover videos, creators, and communities you did not know you were looking for. From quick recipes to game highlights, fashion tips to music and trending sounds, your For You feed reflects you and changes based on what inspires you.<br><br>Creating is simple. Capture from your phone and turn everyday moments into something special with easy editing tools, effects, sounds, and music. Use a large library of sounds and music for free in your videos, plus filters and creative tools that help your content stand out. On TikTok, anyone can create, and ideas that inspire, pick up momentum.<br><br>TikTok is also where discovery becomes part of your everyday life. Find creators to follow, new ideas to try, and products you will love from small businesses and brands around the world. TikTok offers more than 50 preset safety and privacy features, from private accounts and content filters to screen time tools and Family Pairing, so you can choose an experience that works for you. TikTok provides extra support for teens and families on the app, letting you set time and content preferences that feel right for your family. <br><br>■ Personalized discovery<br>A For You feed that learns what you enjoy. Discover videos, creators, LIVE streams, shopping, and communities based on what you watch, like, and share.<br>■ Entertainment, learning, and everything in between<br>Comedy, gaming, DIY, beauty, sports, music, lifestyle, education, and more. Find content that makes you laugh, think, and try something new.<br>■ Simple, powerful creation tools<br>Record in clips, pause and resume, trim and merge, add text and stickers, and fine tune your video without leaving the app.<br>■ Sounds, music, and effects<br>Use our free library of sounds and music in your videos, plus filters, effects, and creative tools that help you express yourself and make your videos stand out.<br>■ A global community of creators<br>Follow your favorite creators and discover new voices every day. Share your own story or support the people who inspire you.<br>■ Discover and shop with TikTok Shop<br>Explore trending products, exclusive deals, and seamless shopping experiences inspired by creators and brands you love, all in one place. Shop directly from videos, LIVE, and the Shop tab, track your orders, and enjoy a safe, secure shopping and transaction process.<br>■ Go LIVE and connect in real time<br>Start a LIVE to chat with your community, share moments as they happen, and unlock special features and benefits where available.<br>■ Tools to shape your experience<br>Use more than 50 safety and privacy features, from private accounts and content filters to screen time tools, Family Pairing, and other controls, to choose how TikTok works for you and your family.<br><br>Ready to see what you discover next? Download TikTok to start watching, creating, and exploring your world in a new way.<br>Learn more about our safety tools, resources, and policies at the TikTok Safety Center:<br>https://www.tiktok.com/safety/en<br>Terms of Service:<br>https://www.tiktok.com/legal/terms-of-service<br>Privacy Policy:<br>https://www.tiktok.com/legal/privacy-policy<br>Feedback?<br>Contact us at https://www.tiktok.com/legal/report/feedback or tweet us @tiktok_us",
+      "shortDescription": "Join your friends and discover videos you love, only on TikTok",
+      "versionName": null,
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
+      "changelog": "Quickly find and tag your friends in comments.",
+      "icon": "images/f1460d10ef1929d8494b8e049aa045ab8b913f193a39fcf6a25e1c5afdfb0d5d.png",
+      "screenshots": [
+        "images/c32a671235597df5a6cc2c94da0d6538e9ef6de49f081409dfe8359e10e643e0.jpg",
+        "images/4be1758983c610c7e21e2347e7ba7e47c55a24e7b3cff8788bfcd94a9f849d0b.png",
+        "images/7df4dcd072e0241610f12830d87f5bff24416b3b5868c4cd37ebfdfac043e393.png",
+        "images/ba8c96245d37b0cddb260525acc868b7a3df1cd6d23894413089d5a6bb015eff.png",
+        "images/86c6582a50fd555c38a5a3e83b36aded0f366c1fb015850702c41f777463cef9.png",
+        "images/82ebcee0f67b1bbf65918ef3e02f2c854835c3a8306fa71b8661e4f63c87112a.png",
+        "images/a41ac6a49636525422a7d44c64a94f356a913a1b8276675702e090a0d9ed8448.png",
+        "images/4a7800a37d30b5eccc958a6dfdab8b7a01f8ae28da632b86180bd26a5501db8a.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-29",
+        "text": "Быстро находите и отмечайте друзей в комментариях."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-29",
+        "text": "Quickly find and tag your friends in comments."
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/2o7iuqPe-0msP3DvNhzoOgNo4eZ6GkL_RtGVeKyBn5UBQAW5cw-GW5V3wDOHB1yTQuqWzrFLFOv2u4_5ea1uhg": "f1460d10ef1929d8494b8e049aa045ab8b913f193a39fcf6a25e1c5afdfb0d5d.png",
+    "https://play-lh.googleusercontent.com/9v0w669e6Yp53S_eQCs4qCovs2vR2st2ylM7muzmczczjaToRgsPXZ3fJS69_39KihIR2L0SMMHdodDIfQ10xg": "c32a671235597df5a6cc2c94da0d6538e9ef6de49f081409dfe8359e10e643e0.jpg",
+    "https://play-lh.googleusercontent.com/4v-FYgiDGCUPmCCx2u0P-LoPAhYpE6dc8ZJjX5FgobWHozwH0eBKhC1TdL29bv4VqlcdgS-AigHUB8_Vv14ovQ": "4be1758983c610c7e21e2347e7ba7e47c55a24e7b3cff8788bfcd94a9f849d0b.png",
+    "https://play-lh.googleusercontent.com/z8HOnNh5VBN6GFsAHpuzNTn9IKxKZDAMTiLf_xiCC2OgQ9JnHnR1azNDPmhV-lqPsisfEXh8zZdzgClbfJYWgA": "7df4dcd072e0241610f12830d87f5bff24416b3b5868c4cd37ebfdfac043e393.png",
+    "https://play-lh.googleusercontent.com/nTmO2fbHeOYDkMN9SlYXdfaKquXaj3SdDwY9Jy7iACiud3IbzOPxRCvAHUQzIfikhM64KIGMI4zcA9FyR8JglA": "ba8c96245d37b0cddb260525acc868b7a3df1cd6d23894413089d5a6bb015eff.png",
+    "https://play-lh.googleusercontent.com/B1z66zw9V8vrfjPwOwkMRAyAOEPM3gE3735VmoXH2CBQnn49o-RuBVM4HJLy8pjbnUmqdXl2kabZr0OtjYWW": "86c6582a50fd555c38a5a3e83b36aded0f366c1fb015850702c41f777463cef9.png",
+    "https://play-lh.googleusercontent.com/4DR_ev0wrunGf1QZvPdDiWFAM-Oh3yufIFerUhP4eVV4HONzOF6yR-sJyH30Nb-H51lgAFLfObRctQ1c8vptMw": "82ebcee0f67b1bbf65918ef3e02f2c854835c3a8306fa71b8661e4f63c87112a.png",
+    "https://play-lh.googleusercontent.com/0p_5RZnO4QOV_WKpWSwzCsH26kUxgFVVLSlty2ZR2ucJVkhdsf14d9jT2A2kmfsCP36rsDbeJAeGhY6If_X9_A": "a41ac6a49636525422a7d44c64a94f356a913a1b8276675702e090a0d9ed8448.png",
+    "https://play-lh.googleusercontent.com/TEhhNI2jRmzVWjIS4C4cxPgmQ9fdaLwQy48KMPBQ-D_BIInKkxxEj9uJ_b8ggxwaLjtJfBH-6UJupDiVKvxE": "4a7800a37d30b5eccc958a6dfdab8b7a01f8ae28da632b86180bd26a5501db8a.png"
+  }
+}

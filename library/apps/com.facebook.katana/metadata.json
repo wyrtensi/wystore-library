@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "package": "com.facebook.katana",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Facebook",
+      "developer": "Meta Platforms, Inc.",
+      "description": "Живое общение с интересными людьми. На Facebook всегда есть с кем поделиться находками из местного секонд-хенда, забавными видео Reels, которые не все поймут, или смешными картинками от ИИ. Именно здесь легче всего находить единомышленников.<br><br>Интересное всегда рядом. <br>* Задавайте Meta AI вопросы на актуальные для вас темы и получайте мгновенные результаты — более интерактивные, чем просто текст.<br>* Находите в Marketplace выгодные предложения и редкие товары для своего хобби.<br>* Персонализируйте Ленту, чтобы видеть больше интересного и меньше ненужного контента.<br>* Смотрите Reels и другие видео — как забавные, так и полезные.<br><br>Взаимодействуйте с людьми и сообществами.<br>* Присоединяйтесь к группам, чтобы узнавать что-то новое от людей с реальным опытом.<br>* Включите публикацию в Instagram для экономии времени.<br>* Делитесь в личных сообщениях популярными трендами в видео Reels или публикациями, которые поймет только лучшая подруга.<br><br>Выражайте себя.<br>* С помощью генеративного ИИ можно радовать друзей уникальными изображениями и легко писать тексты к публикациям.<br>* Настройте профиль, чтобы вашу информацию и публикации видели только те, кому вы хотите их показывать.<br>* Без труда создавайте видео Reels с помощью инструментов редактирования и трендовых шаблонов.<br>* Делитесь в историях моментами своей жизни<br>* Общайтесь с друзьями в голосовых и видеозвонках<br><br>Условия и правила: https://www.facebook.com/policies_center",
+      "shortDescription": "Следите за тем, что любите",
+      "versionName": null,
+      "updatedDate": "2026-10-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.facebook.katana",
+      "changelog": null,
+      "icon": "images/732a151d7754325188bcd70b56475b6c88deccf2fd40c5d4982f00081539ad0c.png",
+      "screenshots": [
+        "images/4663ab358505452c50f08732cf7cbf8fc6e585b7b8708ebfbd792b6f65e68677.png",
+        "images/1db2b1e7d6c363b455a9621d828d4c603dcab5b75e4f80b44c34b744cd77b8ba.png",
+        "images/309a956a825949ff11aa54af53354b26135e933363b49fc276b5fde1b0a46acf.png",
+        "images/f00f219ad50ea30b7e3fdafe77f39ab1c7de9d18467bc1c2b550c3a58f7c85ef.png",
+        "images/30c96d6aaf2b8eb6ef4c3a00832632df2769ec433fa229b9e51805cd726eb415.png",
+        "images/ed72e986dcfe613f253aad78b4669e73dea9b82e332b340e060d41bf949973ba.png",
+        "images/a16e2d6a7be7fb53a2879b39b410667f5901b931b2fb788de580ad49376ce223.png",
+        "images/30a622291dbe5471d77c208e6aa24de72ebcee8ca006fb4b799a0e897111c84f.png"
+      ]
+    },
+    "en_US": {
+      "title": "Facebook",
+      "developer": "Meta Platforms, Inc.",
+      "description": "Where real people propel your curiosity. Whether you’re thrifting gear, showing reels to that group who gets it, or sharing laughs over fun images reimagined by AI, Facebook helps you make things happen like no other social network.<br><br>Explore and expand your interests: <br>* Shop Marketplace for hidden gems and take your hobbies to the next level<br>* Personalize your Feed to see more of what you like, less of what you don’t<br>* Ask Meta AI for information and get answers instantly<br>* Drive into reels that reflect the things you're interested in<br>* Search Facebook on any topic and get more interactive results<br><br>Connect with people and communities:<br>* Join groups to learn tips from real people who’ve been there, done that<br>* Get inspired by creators, or catch up with Friends<br>* Add new Friends to your world, but also decide how closely to keep up with them<br>* Privately message relatable posts that only your BFF will get or that reels trend everyone’s talking about<br>* Catch up with your friends through video and voice calls<br><br>Share your world:<br>* Use generative AI to create custom stickers and images to delight friends<br>* Customize your profile to choose how you show up and who sees your posts<br>* Effortlessly create reels from trending templates, or showcase your creativity with a full suite of editing tools<br>* Capture moments on the fly with stories<br><br>Some features may not be available in your country or region. <br><br>Terms & Policies: https://www.facebook.com/policies_center<br>Privacy Policy: https://www.facebook.com/privacy<br><br>Learn how we're working to help keep our communities safe across Meta technologies at the Meta Safety Center: https://about.meta.com/actions/safety",
+      "shortDescription": "A little connection can go a long way",
+      "versionName": null,
+      "updatedDate": "2026-10-28",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.facebook.katana",
+      "changelog": null,
+      "icon": "images/732a151d7754325188bcd70b56475b6c88deccf2fd40c5d4982f00081539ad0c.png",
+      "screenshots": [
+        "images/5895e081291066025447860d029abae8b5e04187299b653a2a6558f9b3c14b9b.png",
+        "images/cb5718182ce43f65ad4131766e3fbfc99e95d82a84b85cc600284ad91d73d29e.png",
+        "images/ce6e56c37741ff77f509c90b61e6cf301d428ec778371c251008423fd8cb6056.png",
+        "images/6161824429a5fe1c5c01bc6dd9c1e96f9c6f5753c2850f29cb83d95471e5f1b9.png",
+        "images/d9d469df4af875738ed90358a34d9a1fcade6a36502a922f18f9ec2e935111e7.png",
+        "images/e3d4f5360f8b2b15fdda9b67f1220089d7a99c421e44c7337e15e7428bd5460a.png",
+        "images/8d0fb308aea33c534e12c7a87112414b920d0961998ef63b3da9ec5378956c77.png",
+        "images/ac767044c70f37033e33dd2834b8bc2fe8661ec6b5e7b75dc74170f9fd8042b4.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [],
+    "en_US": []
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/12KEJDhgk6oyE1VgmfCuFzFrQripZ_endElbvEhU1rZawQgV3RI-v3II8fDslI1sdC_WKBkmtxS3jxuIihk33Q": "732a151d7754325188bcd70b56475b6c88deccf2fd40c5d4982f00081539ad0c.png",
+    "https://play-lh.googleusercontent.com/3H7wdpSX7ipLsCk_X_OvlmJ3FvBDQNVjuBhKHmKKWpDThS63sjmAu34Gx6vt8w5q86sYMRicdkpiQiNiU8-39w": "4663ab358505452c50f08732cf7cbf8fc6e585b7b8708ebfbd792b6f65e68677.png",
+    "https://play-lh.googleusercontent.com/ilWUr9x_JcqFczNoY-Z6rOEtS26TlKMQH2f9i0qLURpwk2Y8GbUNFj4anA3Lwz6qr0PCrxq3Kur7LJEjIiiPYg": "1db2b1e7d6c363b455a9621d828d4c603dcab5b75e4f80b44c34b744cd77b8ba.png",
+    "https://play-lh.googleusercontent.com/bptiXUxXFg3fKOaqXYqxJso5L-YstrO209h21zqQSN4B4Hrmn0E9bA8_9rpjdF2BDBRulkPFaNKe99Ag_BSMiA": "309a956a825949ff11aa54af53354b26135e933363b49fc276b5fde1b0a46acf.png",
+    "https://play-lh.googleusercontent.com/qXWLh14mhYx1MmFzrjrQyQHtkxpnvhD19i2StyYPSiswH6iJ6SWPUsT-La1hPUh2Yu8hjGTrGQt7Kjah8KRLKg": "f00f219ad50ea30b7e3fdafe77f39ab1c7de9d18467bc1c2b550c3a58f7c85ef.png",
+    "https://play-lh.googleusercontent.com/6igQQflj0tEBCi5K4pfTrJgvWSUZof5Y9Gty7fk8MMFr8_MyKVMoxbNk3Vl59sNjZD_9s8G-HmUwUpko1utCkw": "30c96d6aaf2b8eb6ef4c3a00832632df2769ec433fa229b9e51805cd726eb415.png",
+    "https://play-lh.googleusercontent.com/nvyAAgUvTITce0FTpcZV1lPXxgLn9xhFbon3ldpkGpYEq854Q0CV1DTr5zA1LHwE0yhmPSaDFI6w2WymOTdjQdY": "ed72e986dcfe613f253aad78b4669e73dea9b82e332b340e060d41bf949973ba.png",
+    "https://play-lh.googleusercontent.com/n5JpaBv5KTioRliS7xgG45iulKT5HA7u5hnwErbfsCK_Dl5S6LgV8KgUppAAV3Oco23aXCq5-utBUYCsnaQe8Q": "a16e2d6a7be7fb53a2879b39b410667f5901b931b2fb788de580ad49376ce223.png",
+    "https://play-lh.googleusercontent.com/F_NQmSVBHTxbmlA-EpIJUezNWXP05dVai6DwJhLugoH1Gme4xRHVzkR6R1pR6LEfOuUR7gVHbOY1a-B13BN5LQ": "30a622291dbe5471d77c208e6aa24de72ebcee8ca006fb4b799a0e897111c84f.png",
+    "https://play-lh.googleusercontent.com/vXrzP6eB8AD4ZH72KamMby0LLyoH__e55eS8mP3mbW5rzWfhR8Hw-QpBlYijzsK_ySMLmNvBGUchng63LRcBIg": "5895e081291066025447860d029abae8b5e04187299b653a2a6558f9b3c14b9b.png",
+    "https://play-lh.googleusercontent.com/ASJ4gOUd1yTuoDsl8PvL1-0zsxGSxNmN1RZhWUlMjjoBO7TQ0XSlVnl1WYxrwrT3rbZAE045IzHmFoFtaOfG": "cb5718182ce43f65ad4131766e3fbfc99e95d82a84b85cc600284ad91d73d29e.png",
+    "https://play-lh.googleusercontent.com/KRNy53boBl0XQAHAKunAk0CIiHZ82jDU6vTTfmB9VoM5dQ_wKrYXTLzEuxCmxzv24kDb67JobEEGeaP1bls6XlQ": "ce6e56c37741ff77f509c90b61e6cf301d428ec778371c251008423fd8cb6056.png",
+    "https://play-lh.googleusercontent.com/dCe-y63kGGlcsZUAHP95Iu4DZ3hB_sZuY1EqMUMv20BrWM-YNnglL7fspml3YOGxARgSrYGbl2tH4VBjYDjtvg": "6161824429a5fe1c5c01bc6dd9c1e96f9c6f5753c2850f29cb83d95471e5f1b9.png",
+    "https://play-lh.googleusercontent.com/a_cHJaWmdMo-EeVmhFv8rOHz8-XxXJe89o2Te9t748zBdAp6ARlYB_BxrmigRw69hj1nlMX_zt79ZrZSjIOY73E": "d9d469df4af875738ed90358a34d9a1fcade6a36502a922f18f9ec2e935111e7.png",
+    "https://play-lh.googleusercontent.com/pwAD0GBhlrG_xEkHICxkdhGSePHejvYare_yHsbgVxEFtXdKu4LemzG6RPQ7pOpq5vvJ5gJK5LSeNQyVGciNnw": "e3d4f5360f8b2b15fdda9b67f1220089d7a99c421e44c7337e15e7428bd5460a.png",
+    "https://play-lh.googleusercontent.com/eHBKC9bqCc1BDmRloJEzeThgGEs-7QdysCcfYUsQ7fEpRXaB77iX69KBvrhjYC0xext2qiFn3fFjT3tL82N3KMA": "8d0fb308aea33c534e12c7a87112414b920d0961998ef63b3da9ec5378956c77.png",
+    "https://play-lh.googleusercontent.com/3eKZYV5JKU-9jqIIszm1rSd9QeplyUD7HvUs-bQcs93Y7pCADWy4RSV0LNY-QQk7el1-M3nEeL6iX_hYD7Q1": "ac767044c70f37033e33dd2834b8bc2fe8661ec6b5e7b75dc74170f9fd8042b4.png"
+  }
+}

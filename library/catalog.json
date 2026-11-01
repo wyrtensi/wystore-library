@@ -386,6 +386,34 @@
       "title": "Simply Guitar -Играй на Гитаре",
       "developer": "Simply Ltd",
       "icon": "apps/com.joytunes.simplyguitar/images/36f9e3fccf7ddcbdd9fd078a06d058cef6253aa7b4d6df05496200645682b982.png"
+    },
+    {
+      "package": "com.zhiliaoapp.musically",
+      "metadataPath": "apps/com.zhiliaoapp.musically/metadata.json",
+      "title": "TikTok - Videos, Shop & LIVE",
+      "developer": "TikTok Pte. Ltd.",
+      "icon": "apps/com.zhiliaoapp.musically/images/f1460d10ef1929d8494b8e049aa045ab8b913f193a39fcf6a25e1c5afdfb0d5d.png"
+    },
+    {
+      "package": "com.instagram.android",
+      "metadataPath": "apps/com.instagram.android/metadata.json",
+      "title": "Instagram",
+      "developer": "Instagram",
+      "icon": "apps/com.instagram.android/images/9061a0ab3d22c72ff59756bb7b49da075692256ccb6fba5263b09c54b75b10f0.png"
+    },
+    {
+      "package": "com.facebook.katana",
+      "metadataPath": "apps/com.facebook.katana/metadata.json",
+      "title": "Facebook",
+      "developer": "Meta Platforms, Inc.",
+      "icon": "apps/com.facebook.katana/images/732a151d7754325188bcd70b56475b6c88deccf2fd40c5d4982f00081539ad0c.png"
+    },
+    {
+      "package": "com.whatsapp",
+      "metadataPath": "apps/com.whatsapp/metadata.json",
+      "title": "WhatsApp Messenger",
+      "developer": "WhatsApp LLC",
+      "icon": "apps/com.whatsapp/images/b29a53a5ca9e2e6516a21210d43e7489cba6dad0cfba2df98e976affafd2e391.png"
     }
   ]
 }
