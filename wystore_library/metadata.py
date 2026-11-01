@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode, urlsplit
 from urllib.request import HTTPRedirectHandler, HTTPSHandler, Request, build_opener
+from .catalog import foreign_category
 
 MAX_IMAGE_BYTES = 12 * 1024 * 1024
 MAX_SCREENSHOTS = 8
@@ -206,6 +207,7 @@ def refresh_catalog(catalog_path: Path, output_root: Path) -> dict:
     if (len(packages) != len(config['apps']) or len(packages) != len(set(packages))
             or any(not isinstance(p, str) or not PACKAGE.fullmatch(p) for p in packages)):
         raise ValueError('Invalid or duplicate package in app configuration')
+    membership = {entry['package']: foreign_category(entry) for entry in config['apps']}
     output_root = Path(output_root)
     catalog_file = output_root / 'catalog.json'
     old_catalog = read_json(catalog_file, {'apps': []})
@@ -244,13 +246,16 @@ def refresh_catalog(catalog_path: Path, output_root: Path) -> dict:
             write_json(app_dir / 'metadata.json', record)
             card = {'package': package, 'metadataPath': 'apps/' + package + '/metadata.json',
                     'title': locales['ru_RU']['title'], 'developer': locales['ru_RU']['developer'],
-                    'icon': ('apps/' + package + '/' + locales['ru_RU']['icon']) if locales['ru_RU']['icon'] else None}
+                    'icon': ('apps/' + package + '/' + locales['ru_RU']['icon']) if locales['ru_RU']['icon'] else None,
+                    'foreign_category': membership[package],
+                    'locales': {locale: {'title': data['title'], 'shortDescription': data['shortDescription']}
+                                for locale, data in locales.items()}}
             cards.append(card)
             successes.append(package)
         except Exception as exc:
             failures.append({'package': package, 'error': str(exc)})
             if package in old_cards:
-                cards.append(old_cards[package])
+                cards.append({**old_cards[package], 'foreign_category': membership[package]})
     write_json(catalog_file, {'schema': 1, 'market': CATALOG_MARKET, 'apps': cards})
     return {'updated': successes, 'failures': failures}
 

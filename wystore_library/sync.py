@@ -8,6 +8,7 @@ from pathlib import Path
 from .github import Publisher
 from .presentation import release_presentation
 from .verification import verify_manifest
+from .catalog import foreign_category
 
 PACKAGE = re.compile(r'[A-Za-z][A-Za-z0-9_]*(?:\.[A-Za-z][A-Za-z0-9_]*)+')
 PROFILE = re.compile(r'[A-Za-z0-9_]+')
@@ -20,6 +21,7 @@ def read_config(path):
         raise ValueError('Invalid allowlist')
     pairs = []
     for app in config['apps']:
+        foreign_category(app)
         package, profiles = app.get('package'), app.get('profiles')
         if not isinstance(package, str) or not PACKAGE.fullmatch(package) or not isinstance(profiles, list) or not profiles:
             raise ValueError('Invalid allowlist entry')

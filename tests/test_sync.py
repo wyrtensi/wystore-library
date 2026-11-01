@@ -3,9 +3,19 @@ from unittest.mock import Mock, patch
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import json
-from wystore_library.sync import run
+from wystore_library.sync import run, read_config
 
 class SyncTests(unittest.TestCase):
+    def test_invalid_foreign_membership_rejects_apk_configuration(self):
+        for invalid in (None, 0, 'false'):
+            with self.subTest(invalid=invalid), TemporaryDirectory() as tmp:
+                config = Path(tmp) / 'apps.json'
+                config.write_text(json.dumps({'schema': 1, 'apps': [{
+                    'package': 'org.example.app', 'profiles': ['px_9a'],
+                    'foreign_category': invalid}]}))
+                with self.assertRaisesRegex(ValueError, 'foreign_category'):
+                    read_config(config)
+
     def setUp(self):
         self.tmp = TemporaryDirectory(); self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name)

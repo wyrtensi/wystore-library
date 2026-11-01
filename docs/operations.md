@@ -13,6 +13,14 @@ English. Missing upstream values remain null. Release-note history accumulates
 from the first successful fetch; it is not a complete historical Play archive.
 Artwork and metadata remain attributed to the respective app publishers.
 
+Each `apps.json` entry may set `"foreign_category": false` to exclude it from
+Wy Store's Foreign category. The default is `true`. This editorial flag changes
+only category membership: the app remains in search, details and APK updates.
+Only boolean values are accepted. A failed metadata refresh keeps cached artwork
+while applying the current editorial flag. Discovery cards publish the resolved
+`foreign_category` and compact `locales` title/summary fields for local search;
+existing top-level discovery fields remain available to older consumers.
+
 Both translations use the **US Google Play market** (`gl=us`), with `hl=ru`
 or `hl=en` selecting the language independently. The existing `ru_RU` and
 `en_US` keys identify translations, not service-availability countries.

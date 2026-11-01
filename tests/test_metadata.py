@@ -10,6 +10,56 @@ from wystore_library import metadata
 
 
 class MetadataTests(unittest.TestCase):
+    def test_foreign_membership_defaults_and_localized_search_cards(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config = root / 'apps.json'
+            config.write_text(json.dumps({'apps': [
+                {'package': 'com.example.default'},
+                {'package': 'com.example.included', 'foreign_category': True},
+                {'package': 'com.example.excluded', 'foreign_category': False},
+            ]}), encoding='utf-8')
+            def fetch(package, locale):
+                return {'title': 'Russian' if locale == 'ru_RU' else 'English',
+                        'developer': 'Publisher', 'summary': 'Search summary'}
+            with patch.object(metadata, 'fetch_app', side_effect=fetch):
+                result = metadata.refresh_catalog(config, root / 'library')
+            self.assertEqual(result['failures'], [])
+            cards = json.loads((root / 'library/catalog.json').read_text())['apps']
+            self.assertEqual([card['foreign_category'] for card in cards], [True, True, False])
+            self.assertEqual(cards[0]['locales']['en_US'],
+                             {'title': 'English', 'shortDescription': 'Search summary'})
+            self.assertEqual(cards[0]['locales']['ru_RU']['title'], 'Russian')
+
+    def test_foreign_membership_is_not_undone_by_metadata_failure(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config = root / 'apps.json'
+            config.write_text(json.dumps({'apps': [
+                {'package': 'com.example.app', 'foreign_category': False}]}))
+            output = root / 'library'
+            output.mkdir()
+            (output / 'catalog.json').write_text(json.dumps({'apps': [
+                {'package': 'com.example.app', 'title': 'Cached',
+                 'icon': 'apps/com.example.app/images/cached.png', 'foreign_category': True}]}))
+            with patch.object(metadata, 'fetch_app', side_effect=RuntimeError('offline')):
+                result = metadata.refresh_catalog(config, output)
+            card = json.loads((output / 'catalog.json').read_text())['apps'][0]
+            self.assertFalse(card['foreign_category'])
+            self.assertEqual(card['icon'], 'apps/com.example.app/images/cached.png')
+            self.assertEqual(result['failures'], [{'package': 'com.example.app', 'error': 'offline'}])
+
+    def test_invalid_foreign_membership_is_rejected_before_refresh(self):
+        for invalid in (None, 0, 1, 'false', [], {}):
+            with self.subTest(invalid=invalid), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                config = root / 'apps.json'
+                config.write_text(json.dumps({'apps': [
+                    {'package': 'com.example.app', 'foreign_category': invalid}]}))
+                with patch.object(metadata, 'fetch_app', return_value={'title': 'Name', 'developer': 'Publisher'}), \
+                        self.assertRaisesRegex(ValueError, 'foreign_category'):
+                    metadata.refresh_catalog(config, root / 'library')
+
     def test_translations_use_one_catalog_market_without_changing_language(self):
         fixture = Path(__file__).parent / 'fixtures' / 'metadata' / 'planfix-play.html'
         queries = []
@@ -77,7 +127,7 @@ class MetadataTests(unittest.TestCase):
                 result = metadata.refresh_catalog(config, output)
             self.assertEqual(result['failures'][0]['package'], 'com.example.bad')
             cards = json.loads((output / 'catalog.json').read_text(encoding='utf-8'))['apps']
-            self.assertEqual(cards[0], old_card)
+            self.assertEqual(cards[0], {**old_card, 'foreign_category': True})
             self.assertEqual(cards[1]['package'], 'com.example.good')
 
 
