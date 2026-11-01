@@ -10904,6 +10904,635 @@
     {
       "artifacts": [
         {
+          "name": "0b5868aed1215abdd95e04bf6bc6b397e71a3355b7dcc32ae9372d5ace471372.apk",
+          "sha256": "0b5868aed1215abdd95e04bf6bc6b397e71a3355b7dcc32ae9372d5ace471372",
+          "size": 53969578,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/0b5868aed1215abdd95e04bf6bc6b397e71a3355b7dcc32ae9372d5ace471372.apk"
+        },
+        {
+          "name": "2c5c3e1cd7ee0278a5c511110a8dab301a7d6a37975efd7d8dcef04375e40a4a.apk",
+          "sha256": "2c5c3e1cd7ee0278a5c511110a8dab301a7d6a37975efd7d8dcef04375e40a4a",
+          "size": 253427156,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/2c5c3e1cd7ee0278a5c511110a8dab301a7d6a37975efd7d8dcef04375e40a4a.apk"
+        },
+        {
+          "name": "94a250ef59743e8714851849508fe18d8edbfe243bfd82e712aa5b82fa0dfdaa.apk",
+          "sha256": "94a250ef59743e8714851849508fe18d8edbfe243bfd82e712aa5b82fa0dfdaa",
+          "size": 6950877,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/94a250ef59743e8714851849508fe18d8edbfe243bfd82e712aa5b82fa0dfdaa.apk"
+        },
+        {
+          "name": "dca0dbbc80433f5e9f2d3bb5878a3d4456f520b7859f57d05f878a63a0b6e6a2.apk",
+          "sha256": "dca0dbbc80433f5e9f2d3bb5878a3d4456f520b7859f57d05f878a63a0b6e6a2",
+          "size": 253058575,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/dca0dbbc80433f5e9f2d3bb5878a3d4456f520b7859f57d05f878a63a0b6e6a2.apk"
+        },
+        {
+          "name": "edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79.apk",
+          "sha256": "edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79",
+          "size": 6950877,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Instagram",
+      "package": "com.instagram.android",
+      "publication": {
+        "catalog": {
+          "name": "catalog-51055849a8844854ce339051c580c05b20f7c62189dfbb32cc3e583657da17fb.json",
+          "sha256": "51055849a8844854ce339051c580c05b20f7c62189dfbb32cc3e583657da17fb",
+          "size": 13555,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/catalog-51055849a8844854ce339051c580c05b20f7c62189dfbb32cc3e583657da17fb.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-82297cc0d96d686980ba37d3995617ae8c2cb0a8535f89c4ae2c0c6f2d69424e.json",
+          "sha256": "82297cc0d96d686980ba37d3995617ae8c2cb0a8535f89c4ae2c0c6f2d69424e",
+          "size": 825,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/manifest-82297cc0d96d686980ba37d3995617ae8c2cb0a8535f89c4ae2c0c6f2d69424e.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.instagram.android-library",
+        "tag": "com.instagram.android-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cb",
+              "cs",
+              "cx",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "es",
+              "es-ES",
+              "et",
+              "fa",
+              "fb",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gn",
+              "gu",
+              "ha",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "jv",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ku",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mg",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "pt-PT",
+              "qz",
+              "ro",
+              "ru",
+              "rw",
+              "si",
+              "sk",
+              "sl",
+              "sn",
+              "so",
+              "sq",
+              "sr",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "tg",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "wo",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "en_US",
+            "min_sdk": 21,
+            "native_abis": [
+              "armeabi-v7a"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "0b5868aed1215abdd95e04bf6bc6b397e71a3355b7dcc32ae9372d5ace471372",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "version_code": 367809538,
+          "version_name": "278.0.0.22.117"
+        },
+        {
+          "certificate_sha256": [
+            "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cb",
+              "cs",
+              "cx",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "es",
+              "es-ES",
+              "et",
+              "fa",
+              "fb",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gn",
+              "gu",
+              "ha",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "jv",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ku",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mg",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "pt-PT",
+              "qz",
+              "ro",
+              "ru",
+              "rw",
+              "si",
+              "sk",
+              "sl",
+              "sn",
+              "so",
+              "sq",
+              "sr",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "tg",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "wo",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 21,
+            "native_abis": [
+              "armeabi-v7a"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "0b5868aed1215abdd95e04bf6bc6b397e71a3355b7dcc32ae9372d5ace471372",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "version_code": 367809538,
+          "version_name": "278.0.0.22.117"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "ar-XB",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cb",
+              "cs",
+              "cx",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "en-XA",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fb",
+              "fb-LS",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gn",
+              "gu",
+              "ha",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "jv",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ku",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mg",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "om",
+              "or",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "qz",
+              "ro",
+              "ru",
+              "rw",
+              "si",
+              "sk",
+              "sl",
+              "sn",
+              "so",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "tg",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "wo",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "dca0dbbc80433f5e9f2d3bb5878a3d4456f520b7859f57d05f878a63a0b6e6a2",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "94a250ef59743e8714851849508fe18d8edbfe243bfd82e712aa5b82fa0dfdaa",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 385914511,
+          "version_name": "453.0.0.57.79"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 35
+          },
+          "certificate_sha256": [
+            "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "ar-XB",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cb",
+              "cs",
+              "cx",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "en-XA",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fb",
+              "fb-LS",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gn",
+              "gu",
+              "ha",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "jv",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ku",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mg",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "om",
+              "or",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "qz",
+              "ro",
+              "ru",
+              "rw",
+              "si",
+              "sk",
+              "sl",
+              "sn",
+              "so",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "tg",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "wo",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch"
+            ],
+            "required_split_types": [
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "2c5c3e1cd7ee0278a5c511110a8dab301a7d6a37975efd7d8dcef04375e40a4a",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 385914557,
+          "version_name": "453.0.0.57.79"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "320599898956dc411783cdb40d4b4a851330b02c51ef7e4daf135f15d80d601d.apk",
           "sha256": "320599898956dc411783cdb40d4b4a851330b02c51ef7e4daf135f15d80d601d",
           "size": 78841182,
@@ -23561,20 +24190,20 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "2c5c3e1cd7ee0278a5c511110a8dab301a7d6a37975efd7d8dcef04375e40a4a.apk",
           "role": "base",
           "sha256": "2c5c3e1cd7ee0278a5c511110a8dab301a7d6a37975efd7d8dcef04375e40a4a",
           "size": 253427156,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-px_9a-385914557/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/2c5c3e1cd7ee0278a5c511110a8dab301a7d6a37975efd7d8dcef04375e40a4a.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79.apk",
           "role": "split",
           "sha256": "edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79",
           "size": 6950877,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-px_9a-385914557/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79.apk"
         }
       ],
       "certificate_scope": {
@@ -23584,12 +24213,13 @@
       "certificate_sha256": [
         "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014"
       ],
-      "manifest_sha256": "6fa6bb390e76bc7dd1156afcd95d9fe6353892f7b51e51073a8a87f8b0b445b6",
-      "manifest_size": 720,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-px_9a-385914557/manifest-public.json",
+      "manifest_sha256": "82297cc0d96d686980ba37d3995617ae8c2cb0a8535f89c4ae2c0c6f2d69424e",
+      "manifest_size": 825,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/manifest-82297cc0d96d686980ba37d3995617ae8c2cb0a8535f89c4ae2c0c6f2d69424e.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.instagram.android/metadata.json",
       "package": "com.instagram.android",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.instagram.android-library",
       "version_code": 385914557,
       "version_name": "453.0.0.57.79"
     },
@@ -24983,7 +25613,6 @@
   ],
   "migration_pending": [
     "com.facebook.katana",
-    "com.instagram.android",
     "com.whatsapp"
   ],
   "schema": 1,
