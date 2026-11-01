@@ -1,0 +1,63 @@
+diff --git a/cmd/playfetch/main.go b/cmd/playfetch/main.go
+index 92b109c..d60c3d1 100644
+--- a/cmd/playfetch/main.go
++++ b/cmd/playfetch/main.go
+@@ -788,6 +788,17 @@ func resolve(ctx context.Context, c *commonFlags, client *play.Client, pkg strin
+ 	return info, del, nil
+ }
+ 
++// deliveryAppInfo keeps the manifest's version tied to the requested delivery.
++// Details can advance independently and cannot name an older delivered version.
++func deliveryAppInfo(info *play.AppInfo, versionCode int32) *play.AppInfo {
++	delivered := *info
++	if delivered.VersionCode != versionCode {
++		delivered.VersionCode = versionCode
++		delivered.VersionName = ""
++	}
++	return &delivered
++}
++
+ func cmdPull(ctx context.Context, args []string) error {
+ 	c := newCommonFlags("pull")
+ 	out := c.fs.String("out", "", "exact output directory (overrides -out-root)")
+@@ -878,7 +889,7 @@ func cmdPull(ctx context.Context, args []string) error {
+ 			Account:   client.Session.Email,
+ 		},
+ 		Device: client.Device.Summary(),
+-		App:    info,
++		App:    deliveryAppInfo(info, del.VersionCode),
+ 		Files:  records,
+ 	}
+ 
+diff --git a/cmd/playfetch/delivery_app_info_test.go b/cmd/playfetch/delivery_app_info_test.go
+new file mode 100644
+index 0000000..72a875c
+--- /dev/null
++++ b/cmd/playfetch/delivery_app_info_test.go
+@@ -0,0 +1,26 @@
++package main
++
++import (
++	"testing"
++
++	"github.com/Exmeaning/playfetch/internal/play"
++)
++
++func TestDeliveryAppInfoUsesDeliveredVersionWithoutMutatingDetails(t *testing.T) {
++	original := &play.AppInfo{Package: "org.example.app", VersionCode: 100, VersionName: "current", Free: true}
++	got := deliveryAppInfo(original, 101)
++	if got.VersionCode != 101 || got.VersionName != "" || got.Package != original.Package || !got.Free {
++		t.Fatalf("incorrect delivered metadata: %+v", got)
++	}
++	if original.VersionCode != 100 || original.VersionName != "current" {
++		t.Fatalf("details mutated: %+v", original)
++	}
++}
++
++func TestDeliveryAppInfoPreservesNameForMatchingVersion(t *testing.T) {
++	original := &play.AppInfo{Package: "org.example.app", VersionCode: 100, VersionName: "current"}
++	got := deliveryAppInfo(original, 100)
++	if got.VersionCode != 100 || got.VersionName != "current" || got == original {
++		t.Fatalf("incorrect delivered metadata: %+v", got)
++	}
++}

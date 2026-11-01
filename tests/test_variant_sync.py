@@ -20,6 +20,7 @@ class VariantSyncTests(unittest.TestCase):
         self.profiles = load_profiles('delivery-profiles.json')
         self.client, self.publisher = Mock(), Mock()
         self.publisher.read_index.return_value = {'schema': 1, 'entries': []}
+        self.publisher.read_index.side_effect = lambda: copy.deepcopy(self.committed or self.publisher.read_index.return_value)
         self.client.info.side_effect = lambda package, profile: {'app': {'package': package, 'version_code': 2, 'version_name': '2', 'free': True}, 'device': {k: self.profiles[profile][k] for k in ('sdk', 'abis', 'density', 'locale')}}
         def pull(package, profile, version, folder):
             (folder / 'base.apk').write_bytes(b'abc')
@@ -79,15 +80,23 @@ class VariantSyncTests(unittest.TestCase):
         self.assertFalse(run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles))
         self.client.pull.assert_not_called(); self.publisher.publish_index.assert_not_called()
 
-    def test_legacy_default_newer_than_play_blocks_migration(self):
-        self.publisher.read_index.return_value['entries'] = [{'package': 'org.example.app', 'profile': 'px_9a', 'version_code': 3, 'certificate_sha256': ['c' * 64]}]
-        with self.assertRaisesRegex(ValueError, 'older'):
-            run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
-        self.client.pull.assert_not_called(); self.publisher.publish_index.assert_not_called()
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_legacy_default_newer_than_play_requests_and_verifies_published_version(self, verify, compatibility):
+        old = {'package': 'org.example.app', 'profile': 'px_9a', 'version_code': 3, 'version_name': '3.0', 'certificate_sha256': ['c' * 64]}
+        self.publisher.read_index.return_value['entries'] = [old]
+        verify.side_effect = lambda manifest, folder, package, version, certs, **kwargs: {**self.verified, 'version_code': version}
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        default_pull = next(c for c in self.client.pull.call_args_list if c.args[1] == 'px_9a')
+        self.assertEqual(default_pull.args[2], 3)
+        self.assertEqual(verify.call_args_list[0].args[3:5], (3, ['c' * 64]))
+        default = next(v for v in self.committed['applications'][0]['variants'] if v['id'] == 'px_9a')
+        self.assertEqual((default['version_code'], default['version_name']), (3, '3.0'))
+        self.assertEqual(self.committed['entries'][0]['version_code'], 3)
 
     @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
     @patch('wystore_library.variant_sync.verify_manifest')
-    def test_later_application_failure_keeps_original_index(self, verify, compatibility):
+    def test_later_application_failure_preserves_checkpointed_application(self, verify, compatibility):
         self.config.write_text(json.dumps({'schema': 1, 'apps': [{'package': 'org.example.app', 'profiles': ['px_9a']}, {'package': 'org.example.other', 'profiles': ['px_9a']}]}))
         verify.return_value = self.verified
         original_info = self.client.info.side_effect
@@ -98,7 +107,10 @@ class VariantSyncTests(unittest.TestCase):
         self.client.info.side_effect = info
         with self.assertRaisesRegex(RuntimeError, 'Play unavailable'):
             run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
-        self.publisher.publish_index.assert_not_called(); self.publisher.cleanup_applications.assert_not_called()
+        self.publisher.publish_index.assert_called_once()
+        self.publisher.cleanup_applications.assert_called_once()
+        self.assertEqual(self.committed['applications'][0]['package'], 'org.example.app')
+        self.assertEqual(self.committed['migration_pending'], ['org.example.other'])
 
     @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
     @patch('wystore_library.variant_sync.verify_manifest')
@@ -185,4 +197,46 @@ class VariantSyncTests(unittest.TestCase):
             return {name: f'https://github.com/owner/repo/releases/download/{package}-library/{name}' for name in expected}
         self.publisher.publish_application.side_effect = publish
         run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
-        self.assertEqual(self.events, ['index', 'cleanup'])
+        self.assertEqual(self.events, ['index', 'cleanup', 'index', 'cleanup'])
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_concurrent_index_change_refuses_second_checkpoint(self, verify, compatibility):
+        self.config.write_text(json.dumps({'schema': 1, 'apps': [{'package': 'org.example.app', 'profiles': ['px_9a']}, {'package': 'org.example.other', 'profiles': ['px_9a']}]}))
+        verify.return_value = self.verified
+        original = self.publisher.read_index.side_effect
+        reads = []
+        def read_index():
+            value = original()
+            if reads:
+                value['external_change'] = True
+            reads.append(True)
+            return value
+        self.publisher.read_index.side_effect = read_index
+        with self.assertRaisesRegex(RuntimeError, 'changed during synchronization'):
+            run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.publisher.publish_index.assert_called_once()
+        self.assertEqual(len(self.committed['applications']), 1)
+        self.assertEqual(self.committed['migration_pending'], ['org.example.other'])
+
+    def test_unavailable_pinned_delivery_keeps_previous_index_and_release(self):
+        old = {'package': 'org.example.app', 'profile': 'px_9a', 'version_code': 3, 'version_name': '3.0', 'certificate_sha256': ['c' * 64]}
+        self.publisher.read_index.return_value['entries'] = [old]
+        self.client.pull.side_effect = RuntimeError('Pinned delivery unavailable')
+        with self.assertRaisesRegex(RuntimeError, 'Pinned delivery unavailable'):
+            run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.assertEqual(self.client.pull.call_args.args[2], 3)
+        self.publisher.publish_index.assert_not_called()
+        self.publisher.cleanup_applications.assert_not_called()
+        self.assertEqual(self.publisher.read_index.return_value['entries'], [old])
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_cleanup_retry_precedes_later_application_failure(self, verify, compatibility):
+        verify.return_value = self.verified
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.publisher.cleanup_applications.reset_mock()
+        self.client.info.side_effect = RuntimeError('Play unavailable')
+        with self.assertRaisesRegex(RuntimeError, 'Play unavailable'):
+            run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.publisher.cleanup_applications.assert_called_once()

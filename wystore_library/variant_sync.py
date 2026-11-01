@@ -1,4 +1,4 @@
-"""Stage coherent device variants before atomically switching the library feed."""
+"""Commit complete application variants without losing verified migration progress."""
 import copy
 import hashlib
 import json
@@ -74,6 +74,9 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
     output = Path(output)
     output.mkdir(parents=True, exist_ok=True)
     changed = False
+    checkpointed = False
+    if applications and not check_only:
+        publisher.cleanup_applications(sorted(applications.values(), key=lambda a: a['package']), sorted({profile for _, profile in pairs}), configured_packages=set(configured))
     with tempfile.TemporaryDirectory(prefix='sync-', dir=output) as temp:
         root = Path(temp)
         for package in selected:
@@ -92,6 +95,11 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
                 if not isinstance(info, dict) or info.get('package') != package or type(info.get('version_code')) is not int or info['version_code'] < 0 or info.get('free') is not True:
                     raise ValueError('Play returned an unknown, paid or invalid version')
                 version = info['version_code']
+                version_name = info.get('version_name')
+                if legacy and profile_id == 'px_9a' and version < legacy['version_code']:
+                    print(f'{package} {profile_id}: preserving published version {legacy["version_code"]} (Play offers {version})', flush=True)
+                    version = legacy['version_code']
+                    version_name = legacy.get('version_name')
                 previous = old_variants.get(profile_id)
                 if version == 0:
                     if info.get('version_name') != '':
@@ -103,8 +111,6 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
                         unavailable[profile_id] = record
                         dirty = True
                     continue
-                if legacy and profile_id == 'px_9a' and version < legacy['version_code']:
-                    raise ValueError(f'{package}: Play default version is older than the published legacy version')
                 if unavailable.get(profile_id, {}).get('reason') == 'play_unavailable':
                     unavailable.pop(profile_id)
                     dirty = True
@@ -135,7 +141,6 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
                         unavailable[profile_id]['minimum_sdk'] = error.minimum_sdk
                     shutil.rmtree(folder)
                     continue
-                version_name = info.get('version_name')
                 if version_name is not None and not isinstance(version_name, str):
                     raise ValueError('Invalid Play version name')
                 files = []
@@ -192,13 +197,14 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
                 del entries[key]
             entries[(package, 'px_9a')] = _projection(app, repository)
             changed = True
-        if check_only:
-            return changed
-        if changed:
             new_index = copy.deepcopy(index)
             new_index.update({'schema': 1, 'variant_schema': 1, 'delivery_profiles': list(profiles.values()), 'applications': sorted(applications.values(), key=lambda a: a['package']), 'entries': sorted(entries.values(), key=lambda e: (e['package'], e['profile'])), 'migration_pending': sorted(set(configured) - set(applications))})
             index_path = root / 'index.json'
             index_path.write_bytes(_json_bytes(new_index))
+            if checkpointed and publisher.read_index() != index:
+                raise RuntimeError('Library index changed during synchronization; refusing to overwrite it')
             publisher.publish_index(index_path)
-        publisher.cleanup_applications(sorted(applications.values(), key=lambda a: a['package']), sorted({profile for _, profile in pairs}), configured_packages=set(configured))
+            index = new_index
+            checkpointed = True
+            publisher.cleanup_applications(sorted(applications.values(), key=lambda a: a['package']), sorted({profile for _, profile in pairs}), configured_packages=set(configured))
     return changed

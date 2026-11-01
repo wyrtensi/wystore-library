@@ -55,7 +55,13 @@ size are reused without download or upload. A digest absence or mismatch fails.
 Never overwrite an existing named asset. Add `catalog-<sha256>.json` and
 `manifest-<sha256>.json` as immutable manifest assets.
 
-After an atomic feed commit, preflight every retained application and its full
+Commit the complete feed after each fully prepared application, preserving
+all pending legacy entries. A failure in a later application must not discard
+earlier checkpoints. Before each subsequent commit, reread the feed, require
+it to match the previous checkpoint and use its blob SHA for compare-and-swap.
+Retry outstanding cleanup against the committed feed before new Play queries.
+
+After each atomic feed commit, preflight every retained application and its full
 referenced asset set. Only then update release presentation and remove
 unreferenced managed assets and obsolete managed legacy releases. Manual and
 unconfigured releases remain untouched. Partial failure preserves current
@@ -80,3 +86,10 @@ variants reuse their previously committed verified artifact records, checked
 against actual release digests. Version and profile configuration checks occur
 before every download. Keep a legacy default if a migration cannot preserve
 its published version; never silently downgrade it.
+
+When initial migration encounters a lower version in Play details, request the
+exact published legacy default version. The backend manifest must describe
+the delivery version rather than unrelated current details. All independent
+APK and delivery checks remain mandatory, including previous signer continuity.
+Use the previous default's version name for that pinned version. If redelivery
+fails, leave its legacy entry and release intact and report the failure.

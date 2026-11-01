@@ -123,8 +123,14 @@ workflow code or a compromised dependency.
 
 ## Verification and publication
 
-The synchronization reads native `versionCode` first. Equal, older, unknown and
-paid versions do not trigger APK downloads. Display versions from web metadata
+The synchronization reads native `versionCode` first. For already migrated,
+unchanged profiles, equal or older versions do not trigger APK downloads;
+unknown or paid responses are rejected. Initial migration and changed sampling
+profiles require independent delivery verification even at the same version.
+If Play currently offers an older default during initial migration, the library
+requests the exact already-published default version and verifies it without
+lowering the published version. An unavailable pinned delivery fails visibly
+and preserves the previous publication. Display versions from web metadata
 are never used for this decision.
 
 Before publishing, every base/split APK is checked against Google delivery hashes,
@@ -153,7 +159,11 @@ Each migrated application uses one stable `<package>-library` release. Verified
 APK bytes are immutable assets named by their SHA-256 hash; identical artifacts
 can be shared between independently verified variants. Catalog and compatibility
 manifests are also content-addressed. Assets are uploaded and checked before the
-feed is switched atomically. The root feed remains schema 1 and projects each
+complete feed is switched atomically after each fully verified application.
+Each checkpoint preserves all other applications, including pending legacy
+entries. A later failure retains earlier checkpoints; retries resume from them.
+Subsequent writes reread and compare the index and use GitHub's blob SHA to
+reject concurrent changes. The root feed remains schema 1 and projects each
 migrated application's default variant into `entries` for existing clients;
 untouched legacy entries remain available during migration. See the
 [device variants contract](device-variants-contract.md) for the canonical feed
@@ -180,14 +190,17 @@ APK synchronization additionally requires `gh`, Android build-tools (`aapt2` and
 `apksigner`) and the pinned [playfetch](https://github.com/Exmeaning/playfetch)
 commit `8bf14e52133d9609ad91ff830252414716d79017` in PATH. GitHub Actions builds
 that commit from source with
-[`patches/playfetch-certificate-sets.patch`](../patches/playfetch-certificate-sets.patch).
-The patch includes regression tests and adds SHA-256 signing-certificate hashes
+[`patches/playfetch-certificate-sets.patch`](../patches/playfetch-certificate-sets.patch)
+and [`patches/playfetch-pinned-version.patch`](../patches/playfetch-pinned-version.patch).
+The latter keeps manifest version metadata tied to the delivery request while
+APK verification independently checks the actual package version. The certificate
+patch includes regression tests and adds SHA-256 signing-certificate hashes
 from Google's `AppDetails.certificateSet` field alongside the legacy certificate
 list. Package, delivery-hash, APK-signature, split and signer-continuity checks
 remain mandatory. Both verification and synchronization apply the same patch
 and run the backend tests before building.
 
-For local backend builds, apply that patch to the pinned source before running
+For local backend builds, apply both patches to the pinned source before running
 `go test ./...` and `go build ./cmd/playfetch`.
 The backend and its compatibility patch are GPL-3.0-or-later, with license text in
 [`patches/LICENSE`](../patches/LICENSE). The backend is not bundled into the
