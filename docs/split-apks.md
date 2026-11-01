@@ -34,6 +34,19 @@ packages and does not merge or re-sign them.
 
 ## Primary references
 
+The four additions published on 2026-11-01 also arrived as sets for this profile:
+
+| Application | Delivered APK files | Additional delivered parts |
+| --- | ---: | --- |
+| TikTok 47.6.3 | 9 | ABI, language, density and feature modules |
+| Instagram 453.0.0.57.79 | 2 | Density configuration |
+| Facebook 585.0.0.47.54 | 2 | Density configuration |
+| WhatsApp 2.26.42.74 | 4 | ABI, density and English resources |
+
+These counts describe the verified delivery, not a claim that every optional
+module is essential at launch. Base-only installation of these four packages
+was not tested; removing delivered parts is not enabled.
+
 - [Android App Bundle format](https://developer.android.com/guide/app-bundle/app-bundle-format): base, configuration and feature APKs.
 - [About App Bundles](https://developer.android.com/guide/app-bundle): incomplete sideloaded split installations.
 - [bundletool](https://developer.android.com/tools/bundletool): device-specific APK sets and the distinct universal mode.
