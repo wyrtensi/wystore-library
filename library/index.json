@@ -12802,6 +12802,227 @@
     {
       "artifacts": [
         {
+          "name": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c.apk",
+          "sha256": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c",
+          "size": 21353609,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c.apk"
+        },
+        {
+          "name": "47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585.apk",
+          "sha256": "47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585",
+          "size": 991442,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585.apk"
+        },
+        {
+          "name": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1.apk",
+          "sha256": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1",
+          "size": 88246,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1.apk"
+        },
+        {
+          "name": "6b99b825ff86a8acf390592dbcbaac0800fbaed38e0a1d59ee338a0364ed51b8.apk",
+          "sha256": "6b99b825ff86a8acf390592dbcbaac0800fbaed38e0a1d59ee338a0364ed51b8",
+          "size": 930002,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/6b99b825ff86a8acf390592dbcbaac0800fbaed38e0a1d59ee338a0364ed51b8.apk"
+        },
+        {
+          "name": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630.apk",
+          "sha256": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630",
+          "size": 90386979,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "ChatGPT",
+      "package": "com.openai.chatgpt",
+      "publication": {
+        "catalog": {
+          "name": "catalog-a92e71c272cb00daaea9302d615d46149f6835519224578a2a4be61fb61badf0.json",
+          "sha256": "a92e71c272cb00daaea9302d615d46149f6835519224578a2a4be61fb61badf0",
+          "size": 6946,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/catalog-a92e71c272cb00daaea9302d615d46149f6835519224578a2a4be61fb61badf0.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-5094e2b03d6f105177c41acf09bd4cacae8bb7f602d646a2b4889a943f4d915e.json",
+          "sha256": "5094e2b03d6f105177c41acf09bd4cacae8bb7f602d646a2b4889a943f4d915e",
+          "size": 1262,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/manifest-5094e2b03d6f105177c41acf09bd4cacae8bb7f602d646a2b4889a943f4d915e.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.openai.chatgpt-library",
+        "tag": "com.openai.chatgpt-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "6b99b825ff86a8acf390592dbcbaac0800fbaed38e0a1d59ee338a0364ed51b8",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 2629319,
+          "version_name": "1.2026.293"
+        },
+        {
+          "certificate_sha256": [
+            "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-SG",
+              "en-XA",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 2629319,
+          "version_name": "1.2026.293"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e.apk",
           "sha256": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e",
           "size": 190973,
@@ -19038,47 +19259,48 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630.apk",
           "role": "base",
           "sha256": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630",
           "size": 90386979,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-px_9a-2629319/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c.apk",
           "role": "split",
           "sha256": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c",
           "size": 21353609,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-px_9a-2629319/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c.apk"
         },
         {
-          "name": "split_config.en.apk",
+          "name": "47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585.apk",
           "role": "split",
           "sha256": "47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585",
           "size": 991442,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-px_9a-2629319/split_config.en.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1.apk",
           "role": "split",
           "sha256": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1",
           "size": 88246,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-px_9a-2629319/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1.apk"
         }
       ],
       "certificate_sha256": [
         "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
       ],
-      "manifest_sha256": "8f1df636a36c8583b26a95a6eb1ca60679ee805f224c18e7fe40acea606c9934",
-      "manifest_size": 1066,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-px_9a-2629319/manifest-public.json",
+      "manifest_sha256": "5094e2b03d6f105177c41acf09bd4cacae8bb7f602d646a2b4889a943f4d915e",
+      "manifest_size": 1262,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/manifest-5094e2b03d6f105177c41acf09bd4cacae8bb7f602d646a2b4889a943f4d915e.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.openai.chatgpt/metadata.json",
       "package": "com.openai.chatgpt",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.openai.chatgpt-library",
       "version_code": 2629319,
       "version_name": "1.2026.293"
     },
@@ -19990,7 +20212,6 @@
     "com.instagram.android",
     "com.joytunes.simplyguitar",
     "com.joytunes.simplypiano",
-    "com.openai.chatgpt",
     "com.particlenews.newsbreak",
     "com.symantec.mobilesecurity",
     "com.thomsonreuters.reuters",
