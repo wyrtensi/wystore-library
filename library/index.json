@@ -17098,6 +17098,381 @@
     {
       "artifacts": [
         {
+          "name": "39e2df0385c002e0b1faf55fb2e1a7a077084c0a4baa7d5d723363aef095118b.apk",
+          "sha256": "39e2df0385c002e0b1faf55fb2e1a7a077084c0a4baa7d5d723363aef095118b",
+          "size": 4545659,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-library/39e2df0385c002e0b1faf55fb2e1a7a077084c0a4baa7d5d723363aef095118b.apk"
+        },
+        {
+          "name": "b76328a590f75ee34b0ae9e0d5651797484699e6e630d38f02c2686b50e64357.apk",
+          "sha256": "b76328a590f75ee34b0ae9e0d5651797484699e6e630d38f02c2686b50e64357",
+          "size": 1287075,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-library/b76328a590f75ee34b0ae9e0d5651797484699e6e630d38f02c2686b50e64357.apk"
+        },
+        {
+          "name": "bf330b68b3f238e6c6291b6f9ae049f615b354c3c8f82fec12f62fdbe9ba2c21.apk",
+          "sha256": "bf330b68b3f238e6c6291b6f9ae049f615b354c3c8f82fec12f62fdbe9ba2c21",
+          "size": 60919406,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-library/bf330b68b3f238e6c6291b6f9ae049f615b354c3c8f82fec12f62fdbe9ba2c21.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "SmartNews",
+      "package": "jp.gocro.smartnews.android",
+      "publication": {
+        "catalog": {
+          "name": "catalog-3e5d7af0fc5c3a0da848a284a4c796cf4028512cd9930ec17a62950c552c308b.json",
+          "sha256": "3e5d7af0fc5c3a0da848a284a4c796cf4028512cd9930ec17a62950c552c308b",
+          "size": 8725,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-library/catalog-3e5d7af0fc5c3a0da848a284a4c796cf4028512cd9930ec17a62950c552c308b.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-5b64357cdfaf56bb3cf07f97d903e5fb9377e983e9bbdd4abcde785d9cc04f60.json",
+          "sha256": "5b64357cdfaf56bb3cf07f97d903e5fb9377e983e9bbdd4abcde785d9cc04f60",
+          "size": 1011,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-library/manifest-5b64357cdfaf56bb3cf07f97d903e5fb9377e983e9bbdd4abcde785d9cc04f60.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/jp.gocro.smartnews.android-library",
+        "tag": "jp.gocro.smartnews.android-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "867abbf06837d164a35e376c2e16f08381346e7f916b029ac53a45c36d744883"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "id",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "tw",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-Hans",
+              "zh-Hant",
+              "zh-SG",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bf330b68b3f238e6c6291b6f9ae049f615b354c3c8f82fec12f62fdbe9ba2c21",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "b76328a590f75ee34b0ae9e0d5651797484699e6e630d38f02c2686b50e64357",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "39e2df0385c002e0b1faf55fb2e1a7a077084c0a4baa7d5d723363aef095118b",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 1150,
+          "version_name": "26.10.41"
+        },
+        {
+          "certificate_sha256": [
+            "867abbf06837d164a35e376c2e16f08381346e7f916b029ac53a45c36d744883"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-419",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "id",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "tw",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-Hans",
+              "zh-Hant",
+              "zh-SG",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bf330b68b3f238e6c6291b6f9ae049f615b354c3c8f82fec12f62fdbe9ba2c21",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "b76328a590f75ee34b0ae9e0d5651797484699e6e630d38f02c2686b50e64357",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "39e2df0385c002e0b1faf55fb2e1a7a077084c0a4baa7d5d723363aef095118b",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 1150,
+          "version_name": "26.10.41"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "b9795bf3f85138ce1d884a4aabe200cf3172cb729f39e44e47df5088736cfcc3.apk",
           "sha256": "b9795bf3f85138ce1d884a4aabe200cf3172cb729f39e44e47df5088736cfcc3",
           "size": 68569153,
@@ -20872,39 +21247,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "bf330b68b3f238e6c6291b6f9ae049f615b354c3c8f82fec12f62fdbe9ba2c21.apk",
           "role": "base",
           "sha256": "bf330b68b3f238e6c6291b6f9ae049f615b354c3c8f82fec12f62fdbe9ba2c21",
           "size": 60919406,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-px_9a-1150/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-library/bf330b68b3f238e6c6291b6f9ae049f615b354c3c8f82fec12f62fdbe9ba2c21.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "b76328a590f75ee34b0ae9e0d5651797484699e6e630d38f02c2686b50e64357.apk",
           "role": "split",
           "sha256": "b76328a590f75ee34b0ae9e0d5651797484699e6e630d38f02c2686b50e64357",
           "size": 1287075,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-px_9a-1150/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-library/b76328a590f75ee34b0ae9e0d5651797484699e6e630d38f02c2686b50e64357.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "39e2df0385c002e0b1faf55fb2e1a7a077084c0a4baa7d5d723363aef095118b.apk",
           "role": "split",
           "sha256": "39e2df0385c002e0b1faf55fb2e1a7a077084c0a4baa7d5d723363aef095118b",
           "size": 4545659,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-px_9a-1150/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-library/39e2df0385c002e0b1faf55fb2e1a7a077084c0a4baa7d5d723363aef095118b.apk"
         }
       ],
       "certificate_sha256": [
         "867abbf06837d164a35e376c2e16f08381346e7f916b029ac53a45c36d744883"
       ],
-      "manifest_sha256": "102511eb301d77eb2a9b982474a54cebf9bf809f8b8c29e52dfd3d52f32c730b",
-      "manifest_size": 864,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-px_9a-1150/manifest-public.json",
+      "manifest_sha256": "5b64357cdfaf56bb3cf07f97d903e5fb9377e983e9bbdd4abcde785d9cc04f60",
+      "manifest_size": 1011,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/jp.gocro.smartnews.android-library/manifest-5b64357cdfaf56bb3cf07f97d903e5fb9377e983e9bbdd4abcde785d9cc04f60.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/jp.gocro.smartnews.android/metadata.json",
       "package": "jp.gocro.smartnews.android",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/jp.gocro.smartnews.android-library",
       "version_code": 1150,
       "version_name": "26.10.41"
     },
@@ -21005,7 +21381,6 @@
     "com.tinder",
     "com.whatsapp",
     "com.zhiliaoapp.musically",
-    "jp.gocro.smartnews.android",
     "jp.naver.line.android"
   ],
   "schema": 1,
