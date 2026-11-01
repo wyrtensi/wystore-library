@@ -26,7 +26,9 @@ and inspected with Android `aapt2 dump xmltree`:
 
 Neither package was installed or launched during this inspection. Absence of
 one particular manifest flag in another APK would not prove it works alone.
-The feed's `assets` array remains the authoritative complete delivered set.
+A variant's `files` list identifies its complete independently verified delivery;
+the legacy default `entries[].assets` projection remains available for older clients.
+See the [device variants contract](device-variants-contract.md).
 
 A publisher-supplied universal APK is a different artifact. Creating one from
 splits generally requires rebuilding and signing; the library preserves original
@@ -50,3 +52,11 @@ was not tested; removing delivered parts is not enabled.
 - [Android App Bundle format](https://developer.android.com/guide/app-bundle/app-bundle-format): base, configuration and feature APKs.
 - [About App Bundles](https://developer.android.com/guide/app-bundle): incomplete sideloaded split installations.
 - [bundletool](https://developer.android.com/tools/bundletool): device-specific APK sets and the distinct universal mode.
+
+## Sampling profiles
+
+The registry defines six samples: ARM64 SDK 35 at 420 dpi, ARM64 SDK 29 at
+420 dpi, and ARMv7 SDK 26 at 320 dpi, each requested in English and Russian.
+These samples do not establish universal device coverage, and a requested locale
+does not prove that translated resources were delivered. A migrated app uses one
+stable release with immutable SHA-256-addressed assets shared where bytes match.

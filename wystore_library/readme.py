@@ -48,6 +48,23 @@ def render_readme(template, config, index, catalog, repository):
                 or type(code) is not int or code <= 0 or (name is not None and not isinstance(name, str)) or (package, profile) in entries):
             raise ValueError('Invalid index entry')
         entries[package, profile] = entry
+    canonical = {}
+    applications = index.get('applications', [])
+    if not isinstance(applications, list):
+        raise ValueError('Invalid canonical applications')
+    for application in applications:
+        if not isinstance(application, dict):
+            raise ValueError('Invalid canonical application')
+        package, variants = application.get('package'), application.get('variants')
+        if not isinstance(package, str) or not PACKAGE.fullmatch(package) or package in canonical or not isinstance(variants, list) or not variants:
+            raise ValueError('Invalid canonical application')
+        text(application.get('name'))
+        identifiers = set()
+        for variant in variants:
+            if not isinstance(variant, dict) or not isinstance(variant.get('id'), str) or not PROFILE.fullmatch(variant['id']) or variant['id'] in identifiers:
+                raise ValueError('Invalid canonical variant')
+            identifiers.add(variant['id'])
+        canonical[package] = len(identifiers)
     cards = {}
     for card in catalog['apps']:
         if not isinstance(card, dict) or not isinstance(card.get('package'), str) or not PACKAGE.fullmatch(card['package']) or card['package'] in cards:
@@ -67,7 +84,7 @@ def render_readme(template, config, index, catalog, repository):
         category = app.get('category', 'Other')
         text(name); text(category)
         apps.append((name, category, package, profiles))
-    rows = ['| Application | Collection | Current version | Google Play |', '| --- | --- | --- | --- |']
+    rows = ['| Application | Collection | Current version | Device variants | Google Play |', '| --- | --- | --- | --- | --- |']
     published = 0
     for name, category, package, profiles in sorted(apps, key=lambda a: (a[0].casefold(), a[2])):
         metadata, icon = cards.get(package, (None, None))
@@ -81,14 +98,28 @@ def render_readme(template, config, index, catalog, repository):
             if entry is None:
                 versions.append(prefix + 'Pending')
                 continue
-            published += 1
             code = entry['version_code']
             value = entry.get('version_name') or str(code)
             value = value[:57] + '...' if len(value) > 60 else value
-            url = f'https://github.com/{repository}/releases/tag/{package}-{profile}-{code}'
+            url = entry.get('release_url')
+            if url is None:
+                url = f'https://github.com/{repository}/releases/tag/{package}-{profile}-{code}'
+            elif url != f'https://github.com/{repository}/releases/tag/{package}-library':
+                raise ValueError('Invalid release URL')
             versions.append(prefix + f'[{text(value)}]({url})')
-        rows.append(f'| {label} | {text(category)} | {"<br>".join(versions)} | [Google Play](https://play.google.com/store/apps/details?id={package}) |')
-    body = f'\n\n**{len(apps)} applications · {published} current APK sets · daily checks**\n\n' + '\n'.join(rows) + '\n\n'
+        has_entry = any((package, profile) in entries for profile in profiles)
+        if has_entry and package in canonical:
+            count = canonical[package]
+            published += count
+            variant_label = 'variant' if count == 1 else 'variants'
+            variants_cell = f'[{count} {variant_label}](https://github.com/{repository}/releases/tag/{package}-library)'
+        elif has_entry:
+            published += 1
+            variants_cell = 'Default profile'
+        else:
+            variants_cell = 'Pending'
+        rows.append(f'| {label} | {text(category)} | {"<br>".join(versions)} | {variants_cell} | [Google Play](https://play.google.com/store/apps/details?id={package}) |')
+    body = f'\n\n**{len(apps)} applications · {published} verified device variants · daily checks**\n\n' + '\n'.join(rows) + '\n\n'
     return template[:template.index(START) + len(START)] + body + template[template.index(END):]
 
 

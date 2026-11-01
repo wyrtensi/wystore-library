@@ -1,0 +1,8 @@
+[
+  {"id":"px_9a","base":"px_9a","sdk":35,"abis":["arm64-v8a"],"density":420,"locale":"en_US"},
+  {"id":"modern_arm64_ru","base":"px_9a","sdk":35,"abis":["arm64-v8a"],"density":420,"locale":"ru_RU"},
+  {"id":"legacy_arm64_en","base":"op_3","sdk":29,"abis":["arm64-v8a"],"density":420,"locale":"en_US"},
+  {"id":"legacy_arm64_ru","base":"op_3","sdk":29,"abis":["arm64-v8a"],"density":420,"locale":"ru_RU"},
+  {"id":"legacy_armv7_en","base":"op_3","sdk":26,"abis":["armeabi-v7a"],"density":320,"locale":"en_US"},
+  {"id":"legacy_armv7_ru","base":"op_3","sdk":26,"abis":["armeabi-v7a"],"density":320,"locale":"ru_RU"}
+]

@@ -8,6 +8,8 @@ import re
 import subprocess
 import tempfile
 
+from .profiles import load_profiles, validate_profile
+
 
 class PlayError(RuntimeError):
     """An actionable backend failure without secret-bearing upstream output."""
@@ -35,7 +37,14 @@ def safe_failure_reason(diagnostic: str) -> str:
 
 
 class PlayClient:
-    def __init__(self, binary: str | list[str] = "playfetch"):
+    def __init__(self, binary: str | list[str] = "playfetch", profiles=None):
+        self._profiles = load_profiles(Path(__file__).resolve().parent.parent / "delivery-profiles.json") if profiles is None else profiles
+        if not isinstance(self._profiles, dict) or not self._profiles:
+            raise ValueError("Invalid device profiles")
+        for key, profile in self._profiles.items():
+            validate_profile(profile)
+            if key != profile["id"]:
+                raise ValueError("Device profile identifier mismatch")
         email = os.environ.get("GOOGLE_EMAIL", "").strip()
         token = os.environ.get("GOOGLE_AAS_TOKEN", "").strip()
         if not email or not token:
@@ -71,8 +80,13 @@ class PlayClient:
             raise PlayError("Invalid package name.")
         if not re.fullmatch(r"[A-Za-z0-9_]+", profile):
             raise PlayError("Invalid built-in device profile.")
+        if profile not in self._profiles:
+            raise PlayError("Unknown device profile.")
+        definition = self._profiles[profile]
         session = str(Path(self._temporary.name) / f"session-{profile}.json")
-        command = self._binary + [operation, package, "-account", "default", "-profile", profile, "-session", session] + extra
+        command = self._binary + [operation, package, "-account", "default", "-profile", definition["base"], "-session", session,
+                                  "-sdk", str(definition["sdk"]), "-abi", ",".join(definition["abis"]),
+                                  "-dpi", str(definition["density"]), "-locale", definition["locale"]] + extra
         try:
             result = subprocess.run(command, env=self._environment, capture_output=True, text=True, timeout=1800)
         except subprocess.TimeoutExpired:

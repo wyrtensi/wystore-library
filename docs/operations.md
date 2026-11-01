@@ -24,8 +24,8 @@ There is no silent market fallback when a listing cannot be fetched.
 ## Public data
 
 - [Application catalog](../library/catalog.json): card metadata and artwork paths.
-- [APK index](../library/index.json): latest complete verified set per package/profile.
-- [Versioned APK releases](https://github.com/wyrtensi/wystore-library/releases).
+- [APK index](../library/index.json): current verified variants and the schema-1 default projection.
+- [APK releases](https://github.com/wyrtensi/wystore-library/releases).
 
 Wy Store's single-request update endpoint and field contract are documented in
 the [client feed guide](client-feed.md). Clients compare numeric version codes
@@ -35,14 +35,23 @@ The APK index references complete verified releases and their public manifests.
 Authenticated version checks and APK publication are separate stages. A populated
 metadata card does not imply that an APK has been downloaded or published.
 
-The initial device profile is Pixel 9a: Android SDK 35, arm64-v8a, 420 dpi.
-This profile is useful for matching devices, but its SDK version is not an app minimum: apps may support older Android versions. ARMv7 and x86 devices, older Android versions, other screen densities and languages may need different APKs. Other profiles can be added explicitly in [apps.json](../apps.json). The base APK and required configuration splits must be installed together. Publisher APKs are never merged, modified or re-signed. See Android documentation on [app bundles and configuration APKs](https://developer.android.com/guide/app-bundle) and [minimum SDK versions](https://developer.android.com/guide/topics/manifest/uses-sdk-element). Regional service availability is separate from APK download availability.
+The variant pipeline samples six profiles: ARM64 SDK 35 at 420 dpi, ARM64
+SDK 29 at 420 dpi, and ARMv7 SDK 26 at 320 dpi, each requested in English and
+Russian. Pixel 9a (`px_9a`) remains the default English SDK 35 profile. These
+samples do not guarantee universal device coverage or the availability of any
+particular translated resources. Both older samples use the conservative `op_3`
+hardware-feature cohort, which does not represent every device of the same SDK
+and ABI. The base APK and all delivered required splits
+must be installed together; publisher APKs are never merged or re-signed.
+Regional service availability remains separate from APK delivery availability.
+See the [device variants contract](device-variants-contract.md).
 
 ## Workflows
 
 - **Refresh Play metadata**: daily at 02:43 UTC and manually; no Google credentials.
 - **Sync Google Play APKs**: daily at 03:17 UTC and manually. Its manual `check_only`
-  option reads native versions without downloading APKs.
+  option reads native versions without downloading APKs. Its optional `packages`
+  input limits a manual run to comma-separated configured package names.
 - **Verify library tooling**: Python tests and the pinned upstream backend build.
   Pull-request checks never receive Google account secrets.
 - **Refresh README catalog**: after successful trusted main-branch APK sync or
@@ -140,35 +149,24 @@ Unsupported expansion files are rejected rather than silently
 omitted. Account information and temporary Google CDN URLs are excluded from
 public manifests.
 
-Complete versioned APK sets are published as GitHub release assets. A failed draft
-can resume only when its existing files match the verified expected set. Published
-files are never overwritten. The index is updated afterwards through GitHub's
-Contents API with the previous SHA, so failed or conflicting writes retain the
-old index. A later package failure may leave a complete release not yet referenced
-by the index; the next run can recover it.
+Each migrated application uses one stable `<package>-library` release. Verified
+APK bytes are immutable assets named by their SHA-256 hash; identical artifacts
+can be shared between independently verified variants. Catalog and compatibility
+manifests are also content-addressed. Assets are uploaded and checked before the
+feed is switched atomically. The root feed remains schema 1 and projects each
+migrated application's default variant into `entries` for existing clients;
+untouched legacy entries remain available during migration. See the
+[device variants contract](device-variants-contract.md) for the canonical feed
+and migration details.
 
 ## Current-version retention
 
-One versioned release is kept for each configured app and device profile. Titles
-contain the app name, display version and device model; release notes include
-the Google Play source, installation instructions, APK hashes and signer hashes.
-The index also records `manifest_size` and `manifest_sha256` so the complete
-current release can be checked before cleanup.
-
-Cleanup starts after synchronization and any atomic index write succeed. Every
-retained release must match the index by tag, uploaded asset names, sizes,
-SHA-256 digests and URLs before any deletion occurs. Every other numeric version
-tag belonging to configured package/profile pairs is removed with its assets,
-including unindexed releases left by interrupted runs. The successfully
-published index is authoritative even if Play withdraws a newer rollout.
-Unrelated and manual tags are preserved. Missing verification data stops cleanup
-without deleting anything.
-
-Cleanup errors fail the job. A subsequent run with equal versions skips APK
-downloads and uploads, then retries cleanup. `check_only` does not publish or
-delete releases. The shared workflow concurrency group serializes all library
-writes; expected index SHAs prevent stale writes from overwriting a newer index.
-Release-note history remains available in application metadata.
+After a successful feed switch, all retained application assets must pass
+preflight before unreferenced managed assets and obsolete managed releases are
+removed. Cleanup failures remain visible and retryable; unrelated manual releases
+are preserved. A stale client encountering a removed asset refreshes the feed once
+and retries only if the publication changed. `check_only` does not publish or
+clean up. The workflow concurrency group serializes library writes.
 
 ## Development
 

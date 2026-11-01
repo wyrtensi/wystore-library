@@ -1,7 +1,9 @@
-# Device variants: proposed library contract
+# Device variants: design history
 
-Status: design proposal, not implemented. The current published feed remains
-schema 1 and the current delivery profile remains Pixel 9a.
+This document records the original proposal. The approved implementation and
+migration contract is [device-variants-contract.md](device-variants-contract.md).
+The published feed remains schema 1, with a default Pixel 9a projection for
+existing clients and canonical variants added during migration.
 
 ## Coverage target
 
@@ -18,10 +20,10 @@ Each application release contains verified installation variants and shared
 files. Deduplicate only byte-identical artifacts by SHA-256. Different base
 APKs and versions stay separate. A release represents a publication of the
 variant catalog, rather than pretending all variants share one version code.
-Replace the previous application release only after the new complete catalog
-and its files are verified and the update feed is switched.
+Keep one stable `<package>-library` release and publish immutable SHA-256-addressed
+assets before switching the feed to the new complete catalog.
 
-The proposed schema 2 feed keeps one endpoint and groups records by package:
+The approved feed keeps root schema 1, adds `variant_schema: 1`, and groups canonical records by package:
 
 - `package`: stable application identity.
 - `variants`: independently verified installation sets, each with its actual
@@ -37,13 +39,13 @@ never combine base or feature splits from different versions or delivery sets.
 Density scaling can be allowed where Android supports it; ABI incompatibility
 cannot be repaired by scaling. The installer receives one complete coherent set.
 
-## Evidence required before implementation
+## Deployment evidence
 
 Probe representative applications under all candidate classes: a standalone
 APK, an ABI-split app, an app with required configuration splits, and Copilot's
 feature/asset splits. Record actual SDK/ABI requirements, delivery differences,
 shared file hashes and availability failures. Install complete selected sets
-on matching disposable emulators. Choose the final defaults from those results.
+on matching disposable emulators. Record any unavailable environment or variant without assuming broader coverage.
 
 Schema migration must preserve the existing schema 1 consumer contract until
 Wy Store supports variant selection. Adding multiple profiles to the present

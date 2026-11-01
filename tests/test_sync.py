@@ -153,3 +153,28 @@ class SyncTests(unittest.TestCase):
         self.publisher.publish_index.side_effect = capture
         run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher)
         self.assertEqual(captured['entries'][0]['version_name'], '2.1')
+
+class CliRoutingTests(unittest.TestCase):
+    def test_variant_arguments_route_to_variant_runner(self):
+        import sys
+        from unittest.mock import patch, MagicMock
+        from wystore_library.sync import main
+        profiles = {'px_9a': {'id': 'px_9a'}}
+        client = MagicMock()
+        publisher = MagicMock()
+        with patch.object(sys, 'argv', ['sync','--config','apps.json','--repository','owner/repo','--output','out','--variants-config','profiles.json','--packages','org.example.one,org.example.two','--check-only']), \
+             patch('wystore_library.play.PlayClient') as play, \
+             patch('wystore_library.profiles.load_profiles', return_value=profiles), \
+             patch('wystore_library.app_publisher.AppPublisher', return_value=publisher), \
+             patch('wystore_library.variant_sync.run') as run:
+            play.return_value.__enter__.return_value = client
+            main()
+        play.assert_called_once_with(profiles=profiles)
+        run.assert_called_once_with('apps.json', 'owner/repo', 'out', client, publisher, profiles, check_only=True, packages=['org.example.one','org.example.two'])
+
+    def test_packages_requires_variants(self):
+        import sys
+        from unittest.mock import patch
+        from wystore_library.sync import main
+        with patch.object(sys, 'argv', ['sync','--config','apps.json','--repository','owner/repo','--output','out','--packages','org.example.one']):
+            with self.assertRaises(SystemExit): main()

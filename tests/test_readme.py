@@ -19,6 +19,15 @@ class ReadmeTests(unittest.TestCase):
         self.assertNotIn('org.example.app-px_9a-41', result)
         self.assertIn('2.0', result)
         self.assertIn('width="32"', result)
+    def test_current_release_url_is_used_and_restricted_to_repository(self):
+        self.index['entries'][0]['release_url'] = 'https://github.com/owner/repo/releases/tag/org.example.app-library'
+        result = render_readme(self.template, self.config, self.index, self.catalog, 'owner/repo')
+        self.assertIn('(https://github.com/owner/repo/releases/tag/org.example.app-library)', result)
+        for url in ('https://evil.test/', 'https://github.com/owner/repo/releases/tag/x)bad', 'https://github.com/other/repo/releases/tag/x'):
+            self.index['entries'][0]['release_url'] = url
+            with self.subTest(url=url), self.assertRaises(ValueError):
+                render_readme(self.template, self.config, self.index, self.catalog, 'owner/repo')
+
     def test_pending_and_multiple_profiles(self):
         self.config['apps'][0]['profiles'].append('other')
         result = render_readme(self.template, self.config, self.index, self.catalog, 'owner/repo')
@@ -82,3 +91,25 @@ class ReadmeTests(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             update_readme(publisher, self.config, self.index, self.catalog)
         self.assertEqual(publisher._gh.call_count, 2)
+
+    def test_counts_variants_for_migrated_apps_and_defaults_for_legacy(self):
+        self.config['apps'].append({'package': 'org.example.legacy', 'name': 'Legacy', 'profiles': ['px_9a']})
+        self.index['entries'].append({'package': 'org.example.legacy', 'profile': 'px_9a', 'version_code': 1, 'version_name': '1'})
+        self.index['applications'] = [{'package': 'org.example.app', 'name': 'Example', 'variants': [{'id': 'px_9a'}, {'id': 'arm64_ru'}, {'id': 'armv7_en'}, {'id': 'armv7_ru'}]}]
+        result = render_readme(self.template, self.config, self.index, self.catalog, 'owner/repo')
+        self.assertIn('2 applications · 5 verified device variants · daily checks', result)
+        self.assertIn('[4 variants](https://github.com/owner/repo/releases/tag/org.example.app-library)', result)
+        self.assertIn('Default profile', result)
+        self.assertEqual(result.count('[Example](library/apps/org.example.app/metadata.json)'), 1)
+
+    def test_rejects_invalid_canonical_apps_and_duplicate_variants(self):
+        for apps in ([{'package': 'org.example.app', 'name': 'Example', 'variants': [{'id': 'px_9a'}, {'id': 'px_9a'}]}], [{'package': 'org.example.app', 'name': '', 'variants': [{'id': 'px_9a'}]}], [{'package': 'org.example.app', 'name': 'Example', 'variants': []}], [{'package': 'org.example.app', 'name': 'Example', 'variants': [{'id': 'bad|id'}]}]):
+            self.index['applications'] = apps
+            with self.subTest(apps=apps), self.assertRaises(ValueError):
+                render_readme(self.template, self.config, self.index, self.catalog, 'owner/repo')
+
+    def test_empty_canonical_list_supports_legacy_index(self):
+        self.index['applications'] = []
+        result = render_readme(self.template, self.config, self.index, self.catalog, 'owner/repo')
+        self.assertIn('1 verified device variants', result)
+        self.assertIn('Default profile', result)

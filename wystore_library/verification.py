@@ -8,6 +8,8 @@ import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 
+from .compatibility import ProfileIncompatible
+
 
 def digest(value, size):
     if not isinstance(value, str):
@@ -98,6 +100,10 @@ def inspect_apk_details(path, sdk=None, verification_min_sdk=None):
                 if sdk is None or item['limits'] is None or item['limits'][0] <= sdk <= item['limits'][1]}
     sha256 = {pair[0] for pair in selected}
     sha1 = {pair[1] for pair in selected}
+    if (not malformed and complete and len({pair[0] for pair in all_pairs}) == len({pair[1] for pair in all_pairs})
+            and field('name') and field('versionCode').isdigit() and sdk is not None
+            and verification_min_sdk is None and not field('split') and minimum > sdk):
+        raise ProfileIncompatible("min_sdk", minimum_sdk=minimum)
     if malformed or not selected or len(sha256) != len(sha1) or not field('versionCode').isdigit():
         # Tool versions can change labels. Report their structure, never raw
         # certificate values or other output that may contain private data.
@@ -152,6 +158,7 @@ def verify_manifest(manifest, directory, package, version, previous, sdk=None):
     names, splits, certs, scope = set(), set(), None, None
     public_files = []
     base_minimum = None
+    incompatibility = None
     for record in ordered:
         if not isinstance(record, dict) or not isinstance(record.get('local'), dict):
             raise ValueError('Invalid downloaded file record')
@@ -176,11 +183,21 @@ def verify_manifest(manifest, directory, package, version, previous, sdk=None):
         # Resource splits can omit uses-sdk. Their standalone default of API 1
         # would incorrectly demand a JAR signature even when the verified base
         # supports only newer Android. Keep the application's full SDK range.
-        inspection = inspect_apk_details(path, sdk, verification_min_sdk=base_minimum)
+        try:
+            inspection = inspect_apk_details(path, None if incompatibility else sdk, verification_min_sdk=base_minimum)
+        except ProfileIncompatible as error:
+            if role != 'base' or error.reason != 'min_sdk':
+                raise
+            # No signer may cover an unsupported SDK. Authenticate the entire
+            # delivery using all verified signer ranges before reporting it.
+            inspection = inspect_apk_details(path, None, verification_min_sdk=base_minimum)
+            if inspection.min_sdk != error.minimum_sdk:
+                raise ValueError('Inconsistent minimum Android SDK metadata')
+            incompatibility = error
         if role == 'base':
             base_minimum = inspection.min_sdk
-            if sdk is not None and base_minimum > sdk:
-                raise ValueError('Application minimum Android SDK exceeds device profile')
+            if sdk is not None and base_minimum > sdk and incompatibility is None:
+                incompatibility = ProfileIncompatible('min_sdk', minimum_sdk=base_minimum)
         actual_package, actual_version, split = inspection.package, inspection.version_code, inspection.split
         signing256 = inspection.certificate_sha256
         if inspection.certificate_scope:
@@ -198,6 +215,8 @@ def verify_manifest(manifest, directory, package, version, previous, sdk=None):
         raise ValueError('APK set must contain one base')
     if previous is not None and set(previous) != certs:
         raise ValueError('Publisher signing certificate changed; manual review required')
+    if incompatibility is not None:
+        raise incompatibility
     order = {record['name']: position for position, record in enumerate(records)}
     public_files.sort(key=lambda record: order[record['name']])
     result = {'package': package, 'version_code': version, 'certificate_sha256': sorted(certs), 'files': public_files}

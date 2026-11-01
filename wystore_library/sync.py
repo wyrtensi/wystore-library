@@ -109,11 +109,25 @@ def main():
     parser.add_argument('--repository', required=True)
     parser.add_argument('--output', required=True)
     parser.add_argument('--check-only', action='store_true')
+    parser.add_argument('--variants-config')
+    parser.add_argument('--packages', help='Comma-separated configured packages (variant mode only)')
     args = parser.parse_args()
+    if args.packages is not None and not args.variants_config:
+        parser.error('--packages requires --variants-config')
     from .play import PlayClient
     try:
-        with PlayClient() as client:
-            run(args.config, args.repository, args.output, client, Publisher(args.repository), args.check_only)
+        if args.variants_config:
+            from .profiles import load_profiles
+            from .app_publisher import AppPublisher
+            from .variant_sync import run as run_variants
+            profiles = load_profiles(args.variants_config)
+            packages = args.packages.split(',') if args.packages is not None else None
+            with PlayClient(profiles=profiles) as client:
+                run_variants(args.config, args.repository, args.output, client, AppPublisher(args.repository), profiles,
+                             check_only=args.check_only, packages=packages)
+        else:
+            with PlayClient() as client:
+                run(args.config, args.repository, args.output, client, Publisher(args.repository), args.check_only)
     except (RuntimeError, ValueError) as error:
         raise SystemExit(str(error)) from None
     except OSError:

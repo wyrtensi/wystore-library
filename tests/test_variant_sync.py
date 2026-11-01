@@ -1,0 +1,164 @@
+import copy
+import hashlib
+import json
+import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import Mock, patch
+
+from wystore_library.variant_sync import run
+from wystore_library.profiles import load_profiles
+
+
+class VariantSyncTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        self.config = self.root / 'apps.json'
+        self.config.write_text(json.dumps({'schema': 1, 'apps': [{'package': 'org.example.app', 'name': 'Example', 'profiles': ['px_9a']}]}))
+        self.profiles = load_profiles('delivery-profiles.json')
+        self.client, self.publisher = Mock(), Mock()
+        self.publisher.read_index.return_value = {'schema': 1, 'entries': []}
+        self.client.info.side_effect = lambda package, profile: {'app': {'package': package, 'version_code': 2, 'version_name': '2', 'free': True}, 'device': {k: self.profiles[profile][k] for k in ('sdk', 'abis', 'density', 'locale')}}
+        def pull(package, profile, version, folder):
+            (folder / 'base.apk').write_bytes(b'abc')
+            return {'device': self.client.info(package, profile)['device']}
+        self.client.pull.side_effect = pull
+        self.publisher.publish_application.side_effect = lambda package, paths, expected, **kw: {name: f'https://github.com/owner/repo/releases/download/{package}-library/{name}' for name in expected}
+        self.committed = {}
+        self.events = []
+        self.publisher.publish_index.side_effect = lambda path: (self.committed.update(json.loads(path.read_text(encoding='utf-8'))), self.events.append('index'))
+        self.publisher.cleanup_applications.side_effect = lambda apps, profiles, **kwargs: self.events.append('cleanup')
+        self.verified = {'package': 'org.example.app', 'version_code': 2, 'certificate_sha256': ['c' * 64], 'files': [{'name': 'base.apk', 'size': 3, 'sha256': hashlib.sha256(b'abc').hexdigest(), 'role': 'base', 'split': ''}]}
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_migrates_six_variants_deduplicates_and_commits_before_cleanup(self, verify, compatibility):
+        verify.return_value = self.verified
+        self.assertTrue(run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles))
+        app = self.committed['applications'][0]
+        self.assertEqual(len(app['variants']), 6)
+        self.assertEqual(len(app['artifacts']), 1)
+        self.assertEqual(len(self.committed['entries']), 1)
+        self.assertEqual(self.committed['entries'][0]['assets'][0]['name'], self.verified['files'][0]['sha256'] + '.apk')
+        self.assertEqual(self.events, ['index', 'cleanup'])
+        self.assertEqual(self.client.pull.call_count, 6)
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_noop_retries_cleanup_without_pulls_or_index_write(self, verify, compatibility):
+        verify.return_value = self.verified
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.publisher.read_index.return_value = copy.deepcopy(self.committed)
+        self.client.pull.reset_mock(); self.publisher.publish_index.reset_mock(); self.publisher.publish_application.reset_mock(); self.publisher.cleanup_applications.reset_mock()
+        self.assertFalse(run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles))
+        self.client.pull.assert_not_called(); self.publisher.publish_index.assert_not_called(); self.publisher.publish_application.assert_not_called()
+        self.publisher.cleanup_applications.assert_called_once()
+
+    @patch('wystore_library.variant_sync.verify_manifest', side_effect=ValueError('signature failure'))
+    def test_verification_failure_does_not_commit_or_clean(self, verify):
+        with self.assertRaisesRegex(ValueError, 'signature failure'):
+            run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.publisher.publish_index.assert_not_called(); self.publisher.cleanup_applications.assert_not_called()
+
+    @patch('wystore_library.variant_sync.collect_compatibility')
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_incompatible_profile_recorded_and_not_downloaded_again(self, verify, compatibility):
+        from wystore_library.compatibility import ProfileIncompatible
+        verify.return_value = self.verified
+        def compatible(folder, verified, profile, device):
+            if profile['id'] == 'legacy_armv7_en':
+                raise ProfileIncompatible('abi')
+            return {'min_sdk': 26}
+        compatibility.side_effect = compatible
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.assertEqual(self.committed['applications'][0]['unavailable'][0]['id'], 'legacy_armv7_en')
+        self.publisher.read_index.return_value = copy.deepcopy(self.committed)
+        self.client.pull.reset_mock(); self.publisher.publish_index.reset_mock()
+        self.assertFalse(run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles))
+        self.client.pull.assert_not_called(); self.publisher.publish_index.assert_not_called()
+
+    def test_legacy_default_newer_than_play_blocks_migration(self):
+        self.publisher.read_index.return_value['entries'] = [{'package': 'org.example.app', 'profile': 'px_9a', 'version_code': 3, 'certificate_sha256': ['c' * 64]}]
+        with self.assertRaisesRegex(ValueError, 'older'):
+            run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.client.pull.assert_not_called(); self.publisher.publish_index.assert_not_called()
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_later_application_failure_keeps_original_index(self, verify, compatibility):
+        self.config.write_text(json.dumps({'schema': 1, 'apps': [{'package': 'org.example.app', 'profiles': ['px_9a']}, {'package': 'org.example.other', 'profiles': ['px_9a']}]}))
+        verify.return_value = self.verified
+        original_info = self.client.info.side_effect
+        def info(package, profile):
+            if package == 'org.example.other':
+                raise RuntimeError('Play unavailable')
+            return original_info(package, profile)
+        self.client.info.side_effect = info
+        with self.assertRaisesRegex(RuntimeError, 'Play unavailable'):
+            run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.publisher.publish_index.assert_not_called(); self.publisher.cleanup_applications.assert_not_called()
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_partial_migration_keeps_legacy_entries_and_pending_packages(self, verify, compatibility):
+        self.config.write_text(json.dumps({'schema': 1, 'apps': [{'package': 'org.example.app', 'profiles': ['px_9a']}, {'package': 'org.example.other', 'profiles': ['px_9a']}]}))
+        old = {'package': 'org.example.other', 'profile': 'px_9a', 'version_code': 1, 'certificate_sha256': ['d' * 64]}
+        self.publisher.read_index.return_value['entries'] = [old]
+        verify.return_value = self.verified
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles, packages=['org.example.app'])
+        self.assertIn(old, self.committed['entries'])
+        self.assertEqual(self.committed['migration_pending'], ['org.example.other'])
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_updated_profile_checks_prior_signer_and_reuses_other_variants(self, verify, compatibility):
+        verify.return_value = self.verified
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.publisher.read_index.return_value = copy.deepcopy(self.committed)
+        self.committed.clear(); self.client.pull.reset_mock(); verify.reset_mock()
+        changed_profiles = copy.deepcopy(self.profiles)
+        changed_profiles['legacy_armv7_en']['density'] = 321
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, changed_profiles)
+        self.assertEqual(self.client.pull.call_count, 1)
+        self.assertEqual(self.client.pull.call_args.args[1], 'legacy_armv7_en')
+        self.assertEqual(verify.call_args.args[4], ['c' * 64])
+        self.assertEqual(len(self.committed['applications'][0]['artifacts']), 1)
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_play_rollback_preserves_newer_canonical_variants(self, verify, compatibility):
+        verify.return_value = self.verified
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.publisher.read_index.return_value = copy.deepcopy(self.committed)
+        self.client.info.side_effect = lambda package, profile: {'app': {'package': package, 'version_code': 1, 'version_name': '1', 'free': True}}
+        self.client.pull.reset_mock(); self.publisher.publish_index.reset_mock()
+        self.assertFalse(run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles))
+        self.client.pull.assert_not_called(); self.publisher.publish_index.assert_not_called()
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_unavailable_play_profile_is_recorded_without_pull(self, verify, compatibility):
+        verify.return_value = self.verified
+        original = self.client.info.side_effect
+        def info(package, profile):
+            if profile == 'legacy_armv7_en':
+                return {'app': {'package': package, 'version_code': 0, 'version_name': '', 'free': True}}
+            return original(package, profile)
+        self.client.info.side_effect = info
+        run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        unavailable = self.committed['applications'][0]['unavailable'][0]
+        self.assertEqual((unavailable['id'], unavailable['version_code'], unavailable['reason']), ('legacy_armv7_en', 0, 'play_unavailable'))
+        self.assertFalse(any(call.args[1] == 'legacy_armv7_en' for call in self.client.pull.call_args_list))
+        self.publisher.read_index.return_value = copy.deepcopy(self.committed)
+        self.client.pull.reset_mock(); self.publisher.publish_index.reset_mock()
+        self.assertFalse(run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles))
+        self.client.pull.assert_not_called(); self.publisher.publish_index.assert_not_called()
+
+    def test_missing_default_play_version_stops_migration(self):
+        self.client.info.return_value = {'app': {'package': 'org.example.app', 'version_code': 0, 'version_name': '', 'free': True}}
+        self.client.info.side_effect = None
+        with self.assertRaisesRegex(ValueError, 'default'):
+            run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.publisher.publish_index.assert_not_called()

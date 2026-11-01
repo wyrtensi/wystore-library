@@ -56,6 +56,17 @@ class PlayClientTests(unittest.TestCase):
                         self.assertEqual(credentials.stat().st_mode & 0o777, 0o600)
                 self.assertFalse(credentials.exists())
 
+    def test_profiles_use_builtin_and_isolated_sessions_with_overrides(self):
+        from wystore_library.play import PlayClient
+        from subprocess import CompletedProcess
+        with patch.dict(os.environ, {"GOOGLE_EMAIL": "account@example.test", "GOOGLE_AAS_TOKEN": "private-token"}):
+            with PlayClient() as client, patch('wystore_library.play.subprocess.run', return_value=CompletedProcess([], 0, '{"app":{}}', '')) as run:
+                client.info('org.example.app', 'legacy_armv7_ru')
+                args = run.call_args.args[0]
+                for flag, expected in [('-profile','op_3'), ('-sdk','26'), ('-abi','armeabi-v7a'), ('-dpi','320'), ('-locale','ru_RU')]:
+                    self.assertEqual(args[args.index(flag)+1], expected)
+                self.assertTrue(args[args.index('-session')+1].endswith('session-legacy_armv7_ru.json'))
+
     def test_backend_error_cannot_publish_raw_diagnostics(self):
         from wystore_library.play import PlayClient, PlayError
 

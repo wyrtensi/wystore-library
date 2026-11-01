@@ -9,6 +9,10 @@ on:
         description: Check authenticated versions without downloading APKs
         type: boolean
         default: false
+      packages:
+        description: Optional comma-separated configured package names
+        type: string
+        required: false
 
 permissions:
   contents: write
@@ -21,7 +25,7 @@ jobs:
   sync:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -78,7 +82,9 @@ jobs:
           GOOGLE_AAS_TOKEN: ${{ secrets.GOOGLE_AAS_TOKEN }}
           GH_TOKEN: ${{ github.token }}
           CHECK_ONLY: ${{ inputs.check_only }}
+          PACKAGES: ${{ inputs.packages }}
         run: |
           args=()
           if [ "$CHECK_ONLY" = "true" ]; then args+=(--check-only); fi
-          python -m wystore_library.sync --config apps.json --repository "$GITHUB_REPOSITORY" --output "$RUNNER_TEMP/apks" "${args[@]}"
+          if [ -n "$PACKAGES" ]; then args+=(--packages "$PACKAGES"); fi
+          python -m wystore_library.sync --config apps.json --variants-config delivery-profiles.json --repository "$GITHUB_REPOSITORY" --output "$RUNNER_TEMP/apks" "${args[@]}"
