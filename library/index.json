@@ -4290,6 +4290,201 @@
     {
       "artifacts": [
         {
+          "name": "34760040ce6d360ea0a53d504fcc3107e05c221d60559fb163644ddb9b9cfa6d.apk",
+          "sha256": "34760040ce6d360ea0a53d504fcc3107e05c221d60559fb163644ddb9b9cfa6d",
+          "size": 61632,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-library/34760040ce6d360ea0a53d504fcc3107e05c221d60559fb163644ddb9b9cfa6d.apk"
+        },
+        {
+          "name": "c29ab5edc1d47622627e86079fef7a8e4b9ce4cab093294edf72d4df5d9f7617.apk",
+          "sha256": "c29ab5edc1d47622627e86079fef7a8e4b9ce4cab093294edf72d4df5d9f7617",
+          "size": 6095781,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-library/c29ab5edc1d47622627e86079fef7a8e4b9ce4cab093294edf72d4df5d9f7617.apk"
+        },
+        {
+          "name": "ca65032049bbe7e7773b7d5dd2749a38d3bfb18dcc666732b9dda4b5b0a1198e.apk",
+          "sha256": "ca65032049bbe7e7773b7d5dd2749a38d3bfb18dcc666732b9dda4b5b0a1198e",
+          "size": 585938,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-library/ca65032049bbe7e7773b7d5dd2749a38d3bfb18dcc666732b9dda4b5b0a1198e.apk"
+        },
+        {
+          "name": "e92e117a64eaa75075885ddd03cf345ba11b9a209399c093a4a56a4dd1071fb8.apk",
+          "sha256": "e92e117a64eaa75075885ddd03cf345ba11b9a209399c093a4a56a4dd1071fb8",
+          "size": 57985382,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-library/e92e117a64eaa75075885ddd03cf345ba11b9a209399c093a4a56a4dd1071fb8.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Claude",
+      "package": "com.anthropic.claude",
+      "publication": {
+        "catalog": {
+          "name": "catalog-6381d49c84f771fc167139e06ff758f441b5667f3c8e03925ca8d9e6664aedaf.json",
+          "sha256": "6381d49c84f771fc167139e06ff758f441b5667f3c8e03925ca8d9e6664aedaf",
+          "size": 6025,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-library/catalog-6381d49c84f771fc167139e06ff758f441b5667f3c8e03925ca8d9e6664aedaf.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-df1e21c738484876a82daddc1b8dc60564f643b1fba04a141a96d0df2efbde4a.json",
+          "sha256": "df1e21c738484876a82daddc1b8dc60564f643b1fba04a141a96d0df2efbde4a",
+          "size": 1010,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-library/manifest-df1e21c738484876a82daddc1b8dc60564f643b1fba04a141a96d0df2efbde4a.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.anthropic.claude-library",
+        "tag": "com.anthropic.claude-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "305a1e8a432e5ec0c612b2465359c3b88e3c95d6253599ac6088562b818b64a0"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e92e117a64eaa75075885ddd03cf345ba11b9a209399c093a4a56a4dd1071fb8",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "c29ab5edc1d47622627e86079fef7a8e4b9ce4cab093294edf72d4df5d9f7617",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "ca65032049bbe7e7773b7d5dd2749a38d3bfb18dcc666732b9dda4b5b0a1198e",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "34760040ce6d360ea0a53d504fcc3107e05c221d60559fb163644ddb9b9cfa6d",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 26103019,
+          "version_name": "1.261030.19"
+        },
+        {
+          "certificate_sha256": [
+            "305a1e8a432e5ec0c612b2465359c3b88e3c95d6253599ac6088562b818b64a0"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e92e117a64eaa75075885ddd03cf345ba11b9a209399c093a4a56a4dd1071fb8",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "c29ab5edc1d47622627e86079fef7a8e4b9ce4cab093294edf72d4df5d9f7617",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "34760040ce6d360ea0a53d504fcc3107e05c221d60559fb163644ddb9b9cfa6d",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 26103019,
+          "version_name": "1.261030.19"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "0d124b8927dbb0ce4923674058390364fa2eff88adb59de106d8d5a5340275cb.apk",
           "sha256": "0d124b8927dbb0ce4923674058390364fa2eff88adb59de106d8d5a5340275cb",
           "size": 153133,
@@ -17956,39 +18151,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "e92e117a64eaa75075885ddd03cf345ba11b9a209399c093a4a56a4dd1071fb8.apk",
           "role": "base",
           "sha256": "e92e117a64eaa75075885ddd03cf345ba11b9a209399c093a4a56a4dd1071fb8",
           "size": 57985382,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26103019/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-library/e92e117a64eaa75075885ddd03cf345ba11b9a209399c093a4a56a4dd1071fb8.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "c29ab5edc1d47622627e86079fef7a8e4b9ce4cab093294edf72d4df5d9f7617.apk",
           "role": "split",
           "sha256": "c29ab5edc1d47622627e86079fef7a8e4b9ce4cab093294edf72d4df5d9f7617",
           "size": 6095781,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26103019/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-library/c29ab5edc1d47622627e86079fef7a8e4b9ce4cab093294edf72d4df5d9f7617.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "34760040ce6d360ea0a53d504fcc3107e05c221d60559fb163644ddb9b9cfa6d.apk",
           "role": "split",
           "sha256": "34760040ce6d360ea0a53d504fcc3107e05c221d60559fb163644ddb9b9cfa6d",
           "size": 61632,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26103019/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-library/34760040ce6d360ea0a53d504fcc3107e05c221d60559fb163644ddb9b9cfa6d.apk"
         }
       ],
       "certificate_sha256": [
         "305a1e8a432e5ec0c612b2465359c3b88e3c95d6253599ac6088562b818b64a0"
       ],
-      "manifest_sha256": "f3f2b68f89207eec87c0970f76a50538405a1f785af8614d3f4079416a20c6c8",
-      "manifest_size": 863,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-px_9a-26103019/manifest-public.json",
+      "manifest_sha256": "df1e21c738484876a82daddc1b8dc60564f643b1fba04a141a96d0df2efbde4a",
+      "manifest_size": 1010,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.anthropic.claude-library/manifest-df1e21c738484876a82daddc1b8dc60564f643b1fba04a141a96d0df2efbde4a.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.anthropic.claude/metadata.json",
       "package": "com.anthropic.claude",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.anthropic.claude-library",
       "version_code": 26103019,
       "version_name": "1.261030.19"
     },
@@ -20203,7 +20399,6 @@
   ],
   "migration_pending": [
     "com.abc.abcnews",
-    "com.anthropic.claude",
     "com.antivirus",
     "com.avast.android.mobilesecurity",
     "com.badoo.mobile",
