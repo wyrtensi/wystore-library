@@ -13401,6 +13401,201 @@
     {
       "artifacts": [
         {
+          "name": "32b8127d515d9e54c474bfad716721da6331cdb7a829b19c1f1e294dfa9da1db.apk",
+          "sha256": "32b8127d515d9e54c474bfad716721da6331cdb7a829b19c1f1e294dfa9da1db",
+          "size": 104388947,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-library/32b8127d515d9e54c474bfad716721da6331cdb7a829b19c1f1e294dfa9da1db.apk"
+        },
+        {
+          "name": "49fa62f5dee0416be639663e111cf0792538bd5d1cab7837a93606dd4ecd88dd.apk",
+          "sha256": "49fa62f5dee0416be639663e111cf0792538bd5d1cab7837a93606dd4ecd88dd",
+          "size": 391998,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-library/49fa62f5dee0416be639663e111cf0792538bd5d1cab7837a93606dd4ecd88dd.apk"
+        },
+        {
+          "name": "dfd61c0004a31fce4f5e3ba04f3576ddcefea9c42a7972a78f9958346cbc0692.apk",
+          "sha256": "dfd61c0004a31fce4f5e3ba04f3576ddcefea9c42a7972a78f9958346cbc0692",
+          "size": 19470170,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-library/dfd61c0004a31fce4f5e3ba04f3576ddcefea9c42a7972a78f9958346cbc0692.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "NewsBreak",
+      "package": "com.particlenews.newsbreak",
+      "publication": {
+        "catalog": {
+          "name": "catalog-eb8437b97f388a472d92893b0268699edfa6f1f88e5c19cff303255571a73fcd.json",
+          "sha256": "eb8437b97f388a472d92893b0268699edfa6f1f88e5c19cff303255571a73fcd",
+          "size": 5828,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-library/catalog-eb8437b97f388a472d92893b0268699edfa6f1f88e5c19cff303255571a73fcd.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-fefcdbd6071a7ad4d9968dd97dc60417fd7d7171be5fe6a10fcfc66720a85f32.json",
+          "sha256": "fefcdbd6071a7ad4d9968dd97dc60417fd7d7171be5fe6a10fcfc66720a85f32",
+          "size": 1015,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-library/manifest-fefcdbd6071a7ad4d9968dd97dc60417fd7d7171be5fe6a10fcfc66720a85f32.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.particlenews.newsbreak-library",
+        "tag": "com.particlenews.newsbreak-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "80fc7e5afec3477a7a5679090506ae4a0926bfc0249df321dd5a3a731093808c"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "es",
+              "es-US"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 26,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.camera",
+              "android.hardware.camera.any",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "32b8127d515d9e54c474bfad716721da6331cdb7a829b19c1f1e294dfa9da1db",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "dfd61c0004a31fce4f5e3ba04f3576ddcefea9c42a7972a78f9958346cbc0692",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "49fa62f5dee0416be639663e111cf0792538bd5d1cab7837a93606dd4ecd88dd",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 26440028,
+          "version_name": "26.44.0"
+        },
+        {
+          "certificate_sha256": [
+            "80fc7e5afec3477a7a5679090506ae4a0926bfc0249df321dd5a3a731093808c"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "es",
+              "es-US"
+            ],
+            "locale": "en_US",
+            "min_sdk": 26,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.camera",
+              "android.hardware.camera.any",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "32b8127d515d9e54c474bfad716721da6331cdb7a829b19c1f1e294dfa9da1db",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "dfd61c0004a31fce4f5e3ba04f3576ddcefea9c42a7972a78f9958346cbc0692",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "49fa62f5dee0416be639663e111cf0792538bd5d1cab7837a93606dd4ecd88dd",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 26440028,
+          "version_name": "26.44.0"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e.apk",
           "sha256": "00d7d7c7dcf36abd07b773e024c004800966aced98e9c290f02acc7ae178c70e",
           "size": 190973,
@@ -19901,39 +20096,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "32b8127d515d9e54c474bfad716721da6331cdb7a829b19c1f1e294dfa9da1db.apk",
           "role": "base",
           "sha256": "32b8127d515d9e54c474bfad716721da6331cdb7a829b19c1f1e294dfa9da1db",
           "size": 104388947,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-px_9a-26440028/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-library/32b8127d515d9e54c474bfad716721da6331cdb7a829b19c1f1e294dfa9da1db.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "dfd61c0004a31fce4f5e3ba04f3576ddcefea9c42a7972a78f9958346cbc0692.apk",
           "role": "split",
           "sha256": "dfd61c0004a31fce4f5e3ba04f3576ddcefea9c42a7972a78f9958346cbc0692",
           "size": 19470170,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-px_9a-26440028/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-library/dfd61c0004a31fce4f5e3ba04f3576ddcefea9c42a7972a78f9958346cbc0692.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "49fa62f5dee0416be639663e111cf0792538bd5d1cab7837a93606dd4ecd88dd.apk",
           "role": "split",
           "sha256": "49fa62f5dee0416be639663e111cf0792538bd5d1cab7837a93606dd4ecd88dd",
           "size": 391998,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-px_9a-26440028/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-library/49fa62f5dee0416be639663e111cf0792538bd5d1cab7837a93606dd4ecd88dd.apk"
         }
       ],
       "certificate_sha256": [
         "80fc7e5afec3477a7a5679090506ae4a0926bfc0249df321dd5a3a731093808c"
       ],
-      "manifest_sha256": "c318438478ce3533d266ffe7dfccdd37ec365be252633959b06ca34d9ac6bb7f",
-      "manifest_size": 868,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-px_9a-26440028/manifest-public.json",
+      "manifest_sha256": "fefcdbd6071a7ad4d9968dd97dc60417fd7d7171be5fe6a10fcfc66720a85f32",
+      "manifest_size": 1015,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.particlenews.newsbreak-library/manifest-fefcdbd6071a7ad4d9968dd97dc60417fd7d7171be5fe6a10fcfc66720a85f32.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.particlenews.newsbreak/metadata.json",
       "package": "com.particlenews.newsbreak",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.particlenews.newsbreak-library",
       "version_code": 26440028,
       "version_name": "26.44.0"
     },
@@ -20805,7 +21001,6 @@
     "com.instagram.android",
     "com.joytunes.simplyguitar",
     "com.joytunes.simplypiano",
-    "com.particlenews.newsbreak",
     "com.symantec.mobilesecurity",
     "com.tinder",
     "com.whatsapp",
