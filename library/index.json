@@ -598,6 +598,189 @@
     {
       "artifacts": [
         {
+          "name": "32a2cccd9c8965fc0d022bfdcfa481e9529c30c588dc20c2c4cff2ee7f2e3456.apk",
+          "sha256": "32a2cccd9c8965fc0d022bfdcfa481e9529c30c588dc20c2c4cff2ee7f2e3456",
+          "size": 24158914,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-library/32a2cccd9c8965fc0d022bfdcfa481e9529c30c588dc20c2c4cff2ee7f2e3456.apk"
+        },
+        {
+          "name": "98e915aac14eaea79469f3f0c534783921fcaece51cd6dcc8ff65d8adfc040fd.apk",
+          "sha256": "98e915aac14eaea79469f3f0c534783921fcaece51cd6dcc8ff65d8adfc040fd",
+          "size": 2218927,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-library/98e915aac14eaea79469f3f0c534783921fcaece51cd6dcc8ff65d8adfc040fd.apk"
+        },
+        {
+          "name": "c47ff7fe84ed5adf86af74500fef4cb4dfbd374207825b4fc7e758d79ff1e001.apk",
+          "sha256": "c47ff7fe84ed5adf86af74500fef4cb4dfbd374207825b4fc7e758d79ff1e001",
+          "size": 59253617,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-library/c47ff7fe84ed5adf86af74500fef4cb4dfbd374207825b4fc7e758d79ff1e001.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "ABC News",
+      "package": "com.abc.abcnews",
+      "publication": {
+        "catalog": {
+          "name": "catalog-5c8fb861281fbe419e8d3d39dce22c05037b7ede3688935b544a087a2424d413.json",
+          "sha256": "5c8fb861281fbe419e8d3d39dce22c05037b7ede3688935b544a087a2424d413",
+          "size": 5457,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-library/catalog-5c8fb861281fbe419e8d3d39dce22c05037b7ede3688935b544a087a2424d413.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-d2351a3d6a6c1aeed1e75f6b0623aaa8dd97c02f01c99f4ae29e7896e361b61e.json",
+          "sha256": "d2351a3d6a6c1aeed1e75f6b0623aaa8dd97c02f01c99f4ae29e7896e361b61e",
+          "size": 1003,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-library/manifest-d2351a3d6a6c1aeed1e75f6b0623aaa8dd97c02f01c99f4ae29e7896e361b61e.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.abc.abcnews-library",
+        "tag": "com.abc.abcnews-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "84ffa7412f76777e76a22f5b51874e012bd81607110c1b2bda3e6008c4bc75be"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "c47ff7fe84ed5adf86af74500fef4cb4dfbd374207825b4fc7e758d79ff1e001",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "32a2cccd9c8965fc0d022bfdcfa481e9529c30c588dc20c2c4cff2ee7f2e3456",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "98e915aac14eaea79469f3f0c534783921fcaece51cd6dcc8ff65d8adfc040fd",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 53500722,
+          "version_name": "8.98.2"
+        },
+        {
+          "certificate_sha256": [
+            "84ffa7412f76777e76a22f5b51874e012bd81607110c1b2bda3e6008c4bc75be"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "c47ff7fe84ed5adf86af74500fef4cb4dfbd374207825b4fc7e758d79ff1e001",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "32a2cccd9c8965fc0d022bfdcfa481e9529c30c588dc20c2c4cff2ee7f2e3456",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "98e915aac14eaea79469f3f0c534783921fcaece51cd6dcc8ff65d8adfc040fd",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 53500722,
+          "version_name": "8.98.2"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7.apk",
           "sha256": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7",
           "size": 206136446,
@@ -18110,39 +18293,40 @@
     {
       "assets": [
         {
-          "name": "base.apk",
+          "name": "c47ff7fe84ed5adf86af74500fef4cb4dfbd374207825b4fc7e758d79ff1e001.apk",
           "role": "base",
           "sha256": "c47ff7fe84ed5adf86af74500fef4cb4dfbd374207825b4fc7e758d79ff1e001",
           "size": 59253617,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-px_9a-53500722/base.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-library/c47ff7fe84ed5adf86af74500fef4cb4dfbd374207825b4fc7e758d79ff1e001.apk"
         },
         {
-          "name": "split_config.arm64_v8a.apk",
+          "name": "32a2cccd9c8965fc0d022bfdcfa481e9529c30c588dc20c2c4cff2ee7f2e3456.apk",
           "role": "split",
           "sha256": "32a2cccd9c8965fc0d022bfdcfa481e9529c30c588dc20c2c4cff2ee7f2e3456",
           "size": 24158914,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-px_9a-53500722/split_config.arm64_v8a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-library/32a2cccd9c8965fc0d022bfdcfa481e9529c30c588dc20c2c4cff2ee7f2e3456.apk"
         },
         {
-          "name": "split_config.xxhdpi.apk",
+          "name": "98e915aac14eaea79469f3f0c534783921fcaece51cd6dcc8ff65d8adfc040fd.apk",
           "role": "split",
           "sha256": "98e915aac14eaea79469f3f0c534783921fcaece51cd6dcc8ff65d8adfc040fd",
           "size": 2218927,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-px_9a-53500722/split_config.xxhdpi.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-library/98e915aac14eaea79469f3f0c534783921fcaece51cd6dcc8ff65d8adfc040fd.apk"
         }
       ],
       "certificate_sha256": [
         "84ffa7412f76777e76a22f5b51874e012bd81607110c1b2bda3e6008c4bc75be"
       ],
-      "manifest_sha256": "97a31cef28a7bd8d278057cae9dc25dfb76087668f8d0ad0bf73c8d8ccfb3863",
-      "manifest_size": 856,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-px_9a-53500722/manifest-public.json",
+      "manifest_sha256": "d2351a3d6a6c1aeed1e75f6b0623aaa8dd97c02f01c99f4ae29e7896e361b61e",
+      "manifest_size": 1003,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.abc.abcnews-library/manifest-d2351a3d6a6c1aeed1e75f6b0623aaa8dd97c02f01c99f4ae29e7896e361b61e.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.abc.abcnews/metadata.json",
       "package": "com.abc.abcnews",
       "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.abc.abcnews-library",
       "version_code": 53500722,
       "version_name": "8.98.2"
     },
@@ -20613,7 +20797,6 @@
     }
   ],
   "migration_pending": [
-    "com.abc.abcnews",
     "com.antivirus",
     "com.avast.android.mobilesecurity",
     "com.badoo.mobile",
