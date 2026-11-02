@@ -2,7 +2,9 @@
 
 The operator requested a new public `wyrtensi/wystore-library` repository.
 The original library-only phase kept the Wy Store Android project unchanged.
-Client integration is a separate change in the main application repository.
+Client integration is available in Wy Store 0.6.0 and newer; its implementation
+lives in the main application repository. The library remains independently
+published and provides the catalog, shared update index and complete APK sets.
 
 The library follows an explicit allowlist in `apps.json`. It began with Planfix,
 Vivaldi, Brave and Firefox, and now includes additional configured applications.

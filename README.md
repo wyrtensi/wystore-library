@@ -7,6 +7,11 @@
 App descriptions, screenshots and release notes from Google Play.<br>
 A companion catalog with verified original app packages.
 
+**Available in [Wy Store 0.6.0 and newer](https://github.com/wyrtensi/wystore/releases/tag/v0.6.0).**
+Install selected apps unavailable in the Russian Google Play catalog without
+signing in to Google. The library is a built-in Wy Store source alongside
+RuStore and GitHub; app service availability remains subject to publisher rules.
+
 [![Checks](https://github.com/wyrtensi/wystore-library/actions/workflows/verify.yml/badge.svg)](https://github.com/wyrtensi/wystore-library/actions/workflows/verify.yml)
 [![APKs](https://github.com/wyrtensi/wystore-library/actions/workflows/sync.yml/badge.svg)](https://github.com/wyrtensi/wystore-library/actions/workflows/sync.yml)
 [![Metadata](https://github.com/wyrtensi/wystore-library/actions/workflows/metadata.yml/badge.svg)](https://github.com/wyrtensi/wystore-library/actions/workflows/metadata.yml)
@@ -144,7 +149,7 @@ Screenshots and icons come from the app publishers on Google Play. Full image se
 
 ## Where the apps come from
 
-This library uses **Google Play** as its source. Scheduled GitHub Actions collect metadata and publish verified original app packages. Connecting the library to the Wy Store client is the next stage.
+This library uses **Google Play** as its source. Scheduled GitHub Actions collect metadata and publish verified original app packages. Wy Store reads the catalog for discovery, checks the shared index for updates, and downloads complete compatible APK sets from the application's release.
 
 ```mermaid
 flowchart TB
@@ -154,20 +159,29 @@ flowchart TB
     subgraph Library["Wy Store Library · GitHub"]
         Metadata --> Catalog["Catalog and artwork<br/>library/"]
         Verify --> Releases["Current verified APK sets<br/>GitHub Releases"]
+        Releases --> Index["Versions and device variants<br/>library/index.json"]
     end
-    Catalog -.->|"Planned integration"| WyStore["Wy Store<br/>Install and update apps"]
-    Releases -.-> WyStore
+    Catalog -->|"Search and app details"| WyStore["Wy Store 0.6.0+<br/>Install and update apps"]
+    Index -->|"Update checks and variant selection"| WyStore
+    Releases -->|"Complete APK downloads"| WyStore
     RuStore["RuStore"] --> WyStore
     GitHub["App publishers on GitHub"] --> WyStore
     classDef source fill:#242b34,stroke:#66788f,color:#f0f3f7
     classDef ready fill:#23352e,stroke:#688e7a,color:#eef6f1
     classDef store fill:#433026,stroke:#d88e6c,color:#fff0e7
     class Play,RuStore,GitHub,Publisher source
-    class Metadata,Catalog,Verify,Releases ready
+    class Metadata,Catalog,Verify,Releases,Index ready
     class WyStore store
 ```
 
-Solid lines show existing flows. Dashed lines mark planned library integration. Wy Store already supports RuStore and GitHub directly.
+All arrows show implemented flows. The library is a dedicated Wy Store source;
+ordinary GitHub repositories keep their existing release-based behavior.
+
+### Using the library in Wy Store
+
+- Enable the Wy Store source in app source settings, then use the **Wy Store** search filter or the **Foreign apps** category directly after GitHub on Home.
+- Where the same package exists in several sources, its app card offers source selection. Compatible signatures allow updates; an incompatible signature requires an explicitly confirmed reinstall that can remove local app data.
+- Wy Store checks native version codes before downloading and selects a complete APK set for the device's Android version, architecture and other compatibility requirements. One index checks the whole library without parsing every release page.
 
 ### Current availability
 
@@ -175,7 +189,7 @@ Solid lines show existing flows. Dashed lines mark planned library integration. 
 | --- | --- |
 | Metadata, artwork and release notes | Scheduled refresh once daily; see the [catalog](library/catalog.json) for collected apps |
 | Verified APKs | Checked once daily; see the [APK index](library/index.json) for published sets |
-| Library integration with Wy Store | In development for a future Wy Store release |
+| Library integration with Wy Store | Available since [0.6.0](https://github.com/wyrtensi/wystore/releases/tag/v0.6.0): discovery, source selection, compatible APK installation and updates |
 
 The [app catalog](library/catalog.json) and [APK index](library/index.json) are separate. The APK index points to complete verified releases and their public manifests. Descriptions, screenshots and release notes can also be browsed independently.
 

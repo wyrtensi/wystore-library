@@ -1,7 +1,7 @@
 # Client installation and service checks
 
-These observations were recorded on 2026-11-02 using an unreleased Wy Store
-client build. The applications were downloaded and installed through the
+These observations were recorded on 2026-11-02 using a pre-release build of the
+library integration now available in Wy Store 0.6.0. The applications were downloaded and installed through the
 library source, preserving the publisher's APK signatures and complete split
 sets. Android recorded Wy Store as installer and update owner.
 

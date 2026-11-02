@@ -108,5 +108,6 @@ withdraws a rollout; a client already on a higher version still does not
 downgrade because version comparison skips equal and older codes.
 
 README version links are rendered from this same feed after successful APK
-sync or metadata collection. Android Wy Store integration is being developed
-separately; this library repository does not publish the Android client.
+sync or metadata collection. Wy Store 0.6.0 and newer consume this feed through
+the dedicated library source, independently of the ordinary GitHub source.
+The Android client is published by the main Wy Store repository, not this library.
