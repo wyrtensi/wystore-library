@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/library-banner.png" alt="Wy Store Library: Google Play to GitHub Actions to the library, with Wy Store integration planned" width="760">
+<img src="assets/library-banner.png" alt="Wy Store Library: Google Play to GitHub Actions to the library index and Wy Store, with device-specific APK sets" width="760">
 
 **An application library for [Wy Store](https://github.com/wyrtensi/wystore).**
 
@@ -203,7 +203,7 @@ requirements remain separate from APK delivery. See
 [split APKs](docs/split-apks.md) and
 [Android device compatibility](https://developer.android.com/guide/topics/manifest/uses-sdk-element).
 See [client validation](docs/client-validation.md) for the separate installation
-and service results recorded for ChatGPT and Grok.
+and service results recorded for ChatGPT, Grok and Planfix.
 
 ## For Wy Store and other clients
 
@@ -226,6 +226,9 @@ Built as a companion source for Wy Store. Visit the main application: **[wyrtens
 <summary><strong>Development and maintenance</strong></summary>
 
 Setup, authentication, publication formats and schedule limitations are documented in the [operations guide](docs/operations.md).
+
+The [banner source](assets/library-banner.html) keeps the delivery flow editable.
+Its bundled Manrope font is covered by the [SIL Open Font License](assets/fonts/OFL.txt).
 
 Library clients receive app data only. Source credentials stay in GitHub Secrets and are excluded from public metadata and manifests.
 
