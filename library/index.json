@@ -10177,6 +10177,231 @@
     {
       "artifacts": [
         {
+          "name": "015b1d919ab430c4bde67f815aca4cfe539a4995383c8d1e68a423792e70a0c7.apk",
+          "sha256": "015b1d919ab430c4bde67f815aca4cfe539a4995383c8d1e68a423792e70a0c7",
+          "size": 103119753,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/015b1d919ab430c4bde67f815aca4cfe539a4995383c8d1e68a423792e70a0c7.apk"
+        },
+        {
+          "name": "50184f68c844b850cc2c781b6f5bf5c1bc672b44404d8caa6415f1c0734c4701.apk",
+          "sha256": "50184f68c844b850cc2c781b6f5bf5c1bc672b44404d8caa6415f1c0734c4701",
+          "size": 531692,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/50184f68c844b850cc2c781b6f5bf5c1bc672b44404d8caa6415f1c0734c4701.apk"
+        },
+        {
+          "name": "59e9923dd4eead9a11619b3ae4d1adaab5773a47ab7d2d8c8b2edc596828dbde.apk",
+          "sha256": "59e9923dd4eead9a11619b3ae4d1adaab5773a47ab7d2d8c8b2edc596828dbde",
+          "size": 135577,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/59e9923dd4eead9a11619b3ae4d1adaab5773a47ab7d2d8c8b2edc596828dbde.apk"
+        },
+        {
+          "name": "600c56ece0cb44b1c7e5da0ca083d4df1b22cae1897aa227d44fa257887afa36.apk",
+          "sha256": "600c56ece0cb44b1c7e5da0ca083d4df1b22cae1897aa227d44fa257887afa36",
+          "size": 98713,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/600c56ece0cb44b1c7e5da0ca083d4df1b22cae1897aa227d44fa257887afa36.apk"
+        },
+        {
+          "name": "a31e0a78d04e5a6b167c3fd85922f536678e064b1048a914f27eb9afb8d7045e.apk",
+          "sha256": "a31e0a78d04e5a6b167c3fd85922f536678e064b1048a914f27eb9afb8d7045e",
+          "size": 122248455,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/a31e0a78d04e5a6b167c3fd85922f536678e064b1048a914f27eb9afb8d7045e.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "myChevrolet",
+      "package": "com.gm.chevrolet.nomad.ownership",
+      "publication": {
+        "catalog": {
+          "name": "catalog-f9ad3b41d6ea1668b1d506a74386ce40a3491a69241ffa30c4cea77907727403.json",
+          "sha256": "f9ad3b41d6ea1668b1d506a74386ce40a3491a69241ffa30c4cea77907727403",
+          "size": 7257,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/catalog-f9ad3b41d6ea1668b1d506a74386ce40a3491a69241ffa30c4cea77907727403.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-eb5e25f8e245bf74ded177109491909caf03cb2accb18a70da6eef2ab9c5f095.json",
+          "sha256": "eb5e25f8e245bf74ded177109491909caf03cb2accb18a70da6eef2ab9c5f095",
+          "size": 1272,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/manifest-eb5e25f8e245bf74ded177109491909caf03cb2accb18a70da6eef2ab9c5f095.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.gm.chevrolet.nomad.ownership-library",
+        "tag": "com.gm.chevrolet.nomad.ownership-library"
+      },
+      "unavailable": [
+        {
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "a7df0f1c97c703e586161ff1d992e6585728915d7e4b60f352343affee70bfc3"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.camera.any",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "a31e0a78d04e5a6b167c3fd85922f536678e064b1048a914f27eb9afb8d7045e",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "015b1d919ab430c4bde67f815aca4cfe539a4995383c8d1e68a423792e70a0c7",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "600c56ece0cb44b1c7e5da0ca083d4df1b22cae1897aa227d44fa257887afa36",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "50184f68c844b850cc2c781b6f5bf5c1bc672b44404d8caa6415f1c0734c4701",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 8164,
+          "version_name": "8.20.0"
+        },
+        {
+          "certificate_sha256": [
+            "a7df0f1c97c703e586161ff1d992e6585728915d7e4b60f352343affee70bfc3"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-SG",
+              "en-US",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.camera.any",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "a31e0a78d04e5a6b167c3fd85922f536678e064b1048a914f27eb9afb8d7045e",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "015b1d919ab430c4bde67f815aca4cfe539a4995383c8d1e68a423792e70a0c7",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "59e9923dd4eead9a11619b3ae4d1adaab5773a47ab7d2d8c8b2edc596828dbde",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "50184f68c844b850cc2c781b6f5bf5c1bc672b44404d8caa6415f1c0734c4701",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 8164,
+          "version_name": "8.20.0"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "4590f6e71443ffe8a0372f8c9e4e648976befae47a60fb3dfc5999083c4d444e.apk",
           "sha256": "4590f6e71443ffe8a0372f8c9e4e648976befae47a60fb3dfc5999083c4d444e",
           "size": 59616,
@@ -26142,6 +26367,54 @@
     {
       "assets": [
         {
+          "name": "a31e0a78d04e5a6b167c3fd85922f536678e064b1048a914f27eb9afb8d7045e.apk",
+          "role": "base",
+          "sha256": "a31e0a78d04e5a6b167c3fd85922f536678e064b1048a914f27eb9afb8d7045e",
+          "size": 122248455,
+          "split": "",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/a31e0a78d04e5a6b167c3fd85922f536678e064b1048a914f27eb9afb8d7045e.apk"
+        },
+        {
+          "name": "015b1d919ab430c4bde67f815aca4cfe539a4995383c8d1e68a423792e70a0c7.apk",
+          "role": "split",
+          "sha256": "015b1d919ab430c4bde67f815aca4cfe539a4995383c8d1e68a423792e70a0c7",
+          "size": 103119753,
+          "split": "config.arm64_v8a",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/015b1d919ab430c4bde67f815aca4cfe539a4995383c8d1e68a423792e70a0c7.apk"
+        },
+        {
+          "name": "59e9923dd4eead9a11619b3ae4d1adaab5773a47ab7d2d8c8b2edc596828dbde.apk",
+          "role": "split",
+          "sha256": "59e9923dd4eead9a11619b3ae4d1adaab5773a47ab7d2d8c8b2edc596828dbde",
+          "size": 135577,
+          "split": "config.en",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/59e9923dd4eead9a11619b3ae4d1adaab5773a47ab7d2d8c8b2edc596828dbde.apk"
+        },
+        {
+          "name": "50184f68c844b850cc2c781b6f5bf5c1bc672b44404d8caa6415f1c0734c4701.apk",
+          "role": "split",
+          "sha256": "50184f68c844b850cc2c781b6f5bf5c1bc672b44404d8caa6415f1c0734c4701",
+          "size": 531692,
+          "split": "config.xxhdpi",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/50184f68c844b850cc2c781b6f5bf5c1bc672b44404d8caa6415f1c0734c4701.apk"
+        }
+      ],
+      "certificate_sha256": [
+        "a7df0f1c97c703e586161ff1d992e6585728915d7e4b60f352343affee70bfc3"
+      ],
+      "manifest_sha256": "eb5e25f8e245bf74ded177109491909caf03cb2accb18a70da6eef2ab9c5f095",
+      "manifest_size": 1272,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.gm.chevrolet.nomad.ownership-library/manifest-eb5e25f8e245bf74ded177109491909caf03cb2accb18a70da6eef2ab9c5f095.json",
+      "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.gm.chevrolet.nomad.ownership/metadata.json",
+      "package": "com.gm.chevrolet.nomad.ownership",
+      "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.gm.chevrolet.nomad.ownership-library",
+      "version_code": 8164,
+      "version_name": "8.20.0"
+    },
+    {
+      "assets": [
+        {
           "name": "af62293b20afe73748ff23eb7de7836f3322b62881291ac88434629cdf58afbe.apk",
           "role": "base",
           "sha256": "af62293b20afe73748ff23eb7de7836f3322b62881291ac88434629cdf58afbe",
@@ -27752,9 +28025,7 @@
       "version_name": "159.0"
     }
   ],
-  "migration_pending": [
-    "com.gm.chevrolet.nomad.ownership"
-  ],
+  "migration_pending": [],
   "schema": 1,
   "variant_schema": 1
 }
