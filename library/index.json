@@ -11287,18 +11287,6 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/2c5c3e1cd7ee0278a5c511110a8dab301a7d6a37975efd7d8dcef04375e40a4a.apk"
         },
         {
-          "name": "94a250ef59743e8714851849508fe18d8edbfe243bfd82e712aa5b82fa0dfdaa.apk",
-          "sha256": "94a250ef59743e8714851849508fe18d8edbfe243bfd82e712aa5b82fa0dfdaa",
-          "size": 6950877,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/94a250ef59743e8714851849508fe18d8edbfe243bfd82e712aa5b82fa0dfdaa.apk"
-        },
-        {
-          "name": "dca0dbbc80433f5e9f2d3bb5878a3d4456f520b7859f57d05f878a63a0b6e6a2.apk",
-          "sha256": "dca0dbbc80433f5e9f2d3bb5878a3d4456f520b7859f57d05f878a63a0b6e6a2",
-          "size": 253058575,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/dca0dbbc80433f5e9f2d3bb5878a3d4456f520b7859f57d05f878a63a0b6e6a2.apk"
-        },
-        {
           "name": "edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79.apk",
           "sha256": "edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79",
           "size": 6950877,
@@ -11310,10 +11298,10 @@
       "package": "com.instagram.android",
       "publication": {
         "catalog": {
-          "name": "catalog-51055849a8844854ce339051c580c05b20f7c62189dfbb32cc3e583657da17fb.json",
-          "sha256": "51055849a8844854ce339051c580c05b20f7c62189dfbb32cc3e583657da17fb",
-          "size": 13555,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/catalog-51055849a8844854ce339051c580c05b20f7c62189dfbb32cc3e583657da17fb.json"
+          "name": "catalog-aba9402c10d0ce4ed0bdeecaf916d27f4f02fe6dbdb2384d6ace4bce2d489b06.json",
+          "sha256": "aba9402c10d0ce4ed0bdeecaf916d27f4f02fe6dbdb2384d6ace4bce2d489b06",
+          "size": 12789,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/catalog-aba9402c10d0ce4ed0bdeecaf916d27f4f02fe6dbdb2384d6ace4bce2d489b06.json"
         },
         "compat_manifest": {
           "name": "manifest-82297cc0d96d686980ba37d3995617ae8c2cb0a8535f89c4ae2c0c6f2d69424e.json",
@@ -11730,13 +11718,13 @@
           },
           "files": [
             {
-              "artifact": "dca0dbbc80433f5e9f2d3bb5878a3d4456f520b7859f57d05f878a63a0b6e6a2",
+              "artifact": "2c5c3e1cd7ee0278a5c511110a8dab301a7d6a37975efd7d8dcef04375e40a4a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "94a250ef59743e8714851849508fe18d8edbfe243bfd82e712aa5b82fa0dfdaa",
+              "artifact": "edca2201b866a25728abbedece64bb0916b41466794ea4d53c89ca4bea766b79",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -11744,7 +11732,7 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 385914511,
+          "version_code": 385914557,
           "version_name": "453.0.0.57.79"
         },
         {
