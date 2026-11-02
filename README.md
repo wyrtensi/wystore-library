@@ -202,6 +202,8 @@ sampled. Regional availability, login, licensing and Google Play services
 requirements remain separate from APK delivery. See
 [split APKs](docs/split-apks.md) and
 [Android device compatibility](https://developer.android.com/guide/topics/manifest/uses-sdk-element).
+See [client validation](docs/client-validation.md) for the separate installation
+and service results recorded for ChatGPT and Grok.
 
 ## For Wy Store and other clients
 
