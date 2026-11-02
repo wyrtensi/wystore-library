@@ -598,6 +598,536 @@
     {
       "artifacts": [
         {
+          "name": "cb9623aced891978dd107a272eb01901384cb11c56328f5c260b12230d025afb.apk",
+          "sha256": "cb9623aced891978dd107a272eb01901384cb11c56328f5c260b12230d025afb",
+          "size": 31703104,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/cn.xender-library/cb9623aced891978dd107a272eb01901384cb11c56328f5c260b12230d025afb.apk"
+        },
+        {
+          "name": "e205201d0593e5c370d3b1b659e98289eb8370b02a6c11f953120fd4381cb962.apk",
+          "sha256": "e205201d0593e5c370d3b1b659e98289eb8370b02a6c11f953120fd4381cb962",
+          "size": 31703348,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/cn.xender-library/e205201d0593e5c370d3b1b659e98289eb8370b02a6c11f953120fd4381cb962.apk"
+        }
+      ],
+      "default_variant": "px_9a",
+      "name": "Xender",
+      "package": "cn.xender",
+      "publication": {
+        "catalog": {
+          "name": "catalog-8a76875487a0095fec681fbb61a63b8637c60ed028e12986e8d68dc49ad4d1a2.json",
+          "sha256": "8a76875487a0095fec681fbb61a63b8637c60ed028e12986e8d68dc49ad4d1a2",
+          "size": 11275,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/cn.xender-library/catalog-8a76875487a0095fec681fbb61a63b8637c60ed028e12986e8d68dc49ad4d1a2.json"
+        },
+        "compat_manifest": {
+          "name": "manifest-77b1091e2c425d07861988ecdc899d3f5d030824f6ae12c33007f98de9f88e15.json",
+          "sha256": "77b1091e2c425d07861988ecdc899d3f5d030824f6ae12c33007f98de9f88e15",
+          "size": 478,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/cn.xender-library/manifest-77b1091e2c425d07861988ecdc899d3f5d030824f6ae12c33007f98de9f88e15.json"
+        },
+        "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/cn.xender-library",
+        "tag": "cn.xender-library"
+      },
+      "unavailable": [],
+      "variants": [
+        {
+          "certificate_sha256": [
+            "2dc51edb11905e74e712c123b42ce8ad6f623687d912eb051f14116646ef9ab3"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "am",
+              "ar",
+              "bg",
+              "bn",
+              "cs",
+              "de",
+              "el",
+              "en",
+              "es",
+              "fa",
+              "fil",
+              "fr",
+              "gu",
+              "ha",
+              "hi",
+              "hu",
+              "ig",
+              "in",
+              "it",
+              "ja",
+              "ko",
+              "ml",
+              "mr",
+              "ms",
+              "my",
+              "nl",
+              "om",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "ro",
+              "sd",
+              "sv",
+              "sw",
+              "th",
+              "tr",
+              "uk",
+              "ur",
+              "vi",
+              "yo",
+              "zh",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "cb9623aced891978dd107a272eb01901384cb11c56328f5c260b12230d025afb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_arm64_en",
+          "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
+          "version_code": 1000310,
+          "version_name": "19.0.0.prime"
+        },
+        {
+          "certificate_sha256": [
+            "2dc51edb11905e74e712c123b42ce8ad6f623687d912eb051f14116646ef9ab3"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "am",
+              "ar",
+              "bg",
+              "bn",
+              "cs",
+              "de",
+              "el",
+              "en",
+              "es",
+              "fa",
+              "fil",
+              "fr",
+              "gu",
+              "ha",
+              "hi",
+              "hu",
+              "ig",
+              "in",
+              "it",
+              "ja",
+              "ko",
+              "ml",
+              "mr",
+              "ms",
+              "my",
+              "nl",
+              "om",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "ro",
+              "sd",
+              "sv",
+              "sw",
+              "th",
+              "tr",
+              "uk",
+              "ur",
+              "vi",
+              "yo",
+              "zh",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "cb9623aced891978dd107a272eb01901384cb11c56328f5c260b12230d025afb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_arm64_ru",
+          "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
+          "version_code": 1000310,
+          "version_name": "19.0.0.prime"
+        },
+        {
+          "certificate_sha256": [
+            "2dc51edb11905e74e712c123b42ce8ad6f623687d912eb051f14116646ef9ab3"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "am",
+              "ar",
+              "bg",
+              "bn",
+              "cs",
+              "de",
+              "el",
+              "en",
+              "es",
+              "fa",
+              "fil",
+              "fr",
+              "gu",
+              "ha",
+              "hi",
+              "hu",
+              "ig",
+              "in",
+              "it",
+              "ja",
+              "ko",
+              "ml",
+              "mr",
+              "ms",
+              "my",
+              "nl",
+              "om",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "ro",
+              "sd",
+              "sv",
+              "sw",
+              "th",
+              "tr",
+              "uk",
+              "ur",
+              "vi",
+              "yo",
+              "zh",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "cb9623aced891978dd107a272eb01901384cb11c56328f5c260b12230d025afb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_armv7_en",
+          "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
+          "version_code": 1000310,
+          "version_name": "19.0.0.prime"
+        },
+        {
+          "certificate_sha256": [
+            "2dc51edb11905e74e712c123b42ce8ad6f623687d912eb051f14116646ef9ab3"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "am",
+              "ar",
+              "bg",
+              "bn",
+              "cs",
+              "de",
+              "el",
+              "en",
+              "es",
+              "fa",
+              "fil",
+              "fr",
+              "gu",
+              "ha",
+              "hi",
+              "hu",
+              "ig",
+              "in",
+              "it",
+              "ja",
+              "ko",
+              "ml",
+              "mr",
+              "ms",
+              "my",
+              "nl",
+              "om",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "ro",
+              "sd",
+              "sv",
+              "sw",
+              "th",
+              "tr",
+              "uk",
+              "ur",
+              "vi",
+              "yo",
+              "zh",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "cb9623aced891978dd107a272eb01901384cb11c56328f5c260b12230d025afb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "legacy_armv7_ru",
+          "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
+          "version_code": 1000310,
+          "version_name": "19.0.0.prime"
+        },
+        {
+          "certificate_sha256": [
+            "2dc51edb11905e74e712c123b42ce8ad6f623687d912eb051f14116646ef9ab3"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "am",
+              "ar",
+              "bg",
+              "bn",
+              "cs",
+              "de",
+              "el",
+              "en",
+              "es",
+              "fa",
+              "fil",
+              "fr",
+              "gu",
+              "ha",
+              "hi",
+              "hu",
+              "ig",
+              "in",
+              "it",
+              "ja",
+              "ko",
+              "ml",
+              "mr",
+              "ms",
+              "my",
+              "nl",
+              "om",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "ro",
+              "sd",
+              "sv",
+              "sw",
+              "th",
+              "tr",
+              "uk",
+              "ur",
+              "vi",
+              "yo",
+              "zh",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e205201d0593e5c370d3b1b659e98289eb8370b02a6c11f953120fd4381cb962",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 1000310,
+          "version_name": "19.0.0.prime"
+        },
+        {
+          "certificate_sha256": [
+            "2dc51edb11905e74e712c123b42ce8ad6f623687d912eb051f14116646ef9ab3"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "am",
+              "ar",
+              "bg",
+              "bn",
+              "cs",
+              "de",
+              "el",
+              "en",
+              "es",
+              "fa",
+              "fil",
+              "fr",
+              "gu",
+              "ha",
+              "hi",
+              "hu",
+              "ig",
+              "in",
+              "it",
+              "ja",
+              "ko",
+              "ml",
+              "mr",
+              "ms",
+              "my",
+              "nl",
+              "om",
+              "pa",
+              "pl",
+              "ps",
+              "pt",
+              "ro",
+              "sd",
+              "sv",
+              "sw",
+              "th",
+              "tr",
+              "uk",
+              "ur",
+              "vi",
+              "yo",
+              "zh",
+              "zh-HK",
+              "zh-TW"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "provided_split_types": [],
+            "required_features": [],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e205201d0593e5c370d3b1b659e98289eb8370b02a6c11f953120fd4381cb962",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "px_9a",
+          "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
+          "version_code": 1000310,
+          "version_name": "19.0.0.prime"
+        }
+      ]
+    },
+    {
+      "artifacts": [
+        {
           "name": "32a2cccd9c8965fc0d022bfdcfa481e9529c30c588dc20c2c4cff2ee7f2e3456.apk",
           "sha256": "32a2cccd9c8965fc0d022bfdcfa481e9529c30c588dc20c2c4cff2ee7f2e3456",
           "size": 24158914,
@@ -24616,6 +25146,30 @@
     {
       "assets": [
         {
+          "name": "e205201d0593e5c370d3b1b659e98289eb8370b02a6c11f953120fd4381cb962.apk",
+          "role": "base",
+          "sha256": "e205201d0593e5c370d3b1b659e98289eb8370b02a6c11f953120fd4381cb962",
+          "size": 31703348,
+          "split": "",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/cn.xender-library/e205201d0593e5c370d3b1b659e98289eb8370b02a6c11f953120fd4381cb962.apk"
+        }
+      ],
+      "certificate_sha256": [
+        "2dc51edb11905e74e712c123b42ce8ad6f623687d912eb051f14116646ef9ab3"
+      ],
+      "manifest_sha256": "77b1091e2c425d07861988ecdc899d3f5d030824f6ae12c33007f98de9f88e15",
+      "manifest_size": 478,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/cn.xender-library/manifest-77b1091e2c425d07861988ecdc899d3f5d030824f6ae12c33007f98de9f88e15.json",
+      "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/cn.xender/metadata.json",
+      "package": "cn.xender",
+      "profile": "px_9a",
+      "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/cn.xender-library",
+      "version_code": 1000310,
+      "version_name": "19.0.0.prime"
+    },
+    {
+      "assets": [
+        {
           "name": "c47ff7fe84ed5adf86af74500fef4cb4dfbd374207825b4fc7e758d79ff1e001.apk",
           "role": "base",
           "sha256": "c47ff7fe84ed5adf86af74500fef4cb4dfbd374207825b4fc7e758d79ff1e001",
@@ -27199,7 +27753,6 @@
     }
   ],
   "migration_pending": [
-    "cn.xender",
     "com.gm.chevrolet.nomad.ownership"
   ],
   "schema": 1,
