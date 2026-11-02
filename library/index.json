@@ -18012,34 +18012,34 @@
     {
       "artifacts": [
         {
-          "name": "291e98d003cf154f7b1d6661dcffa7dcbda3359bbb3e64fb41897396b72898c1.apk",
-          "sha256": "291e98d003cf154f7b1d6661dcffa7dcbda3359bbb3e64fb41897396b72898c1",
-          "size": 2863726,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/291e98d003cf154f7b1d6661dcffa7dcbda3359bbb3e64fb41897396b72898c1.apk"
+          "name": "138c79176c2f44aa6b237c000ab620be282b706106fba314595a575083edf146.apk",
+          "sha256": "138c79176c2f44aa6b237c000ab620be282b706106fba314595a575083edf146",
+          "size": 84324557,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/138c79176c2f44aa6b237c000ab620be282b706106fba314595a575083edf146.apk"
         },
         {
-          "name": "5e7daa5904ef5edd116ec073082c4cbca8392d743bfc1c67165ad213c5fc1152.apk",
-          "sha256": "5e7daa5904ef5edd116ec073082c4cbca8392d743bfc1c67165ad213c5fc1152",
-          "size": 987545,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/5e7daa5904ef5edd116ec073082c4cbca8392d743bfc1c67165ad213c5fc1152.apk"
+          "name": "4d1e7bcdbae56e52e23404c6bc05d622154cd7abb2902640fddfa9196725e705.apk",
+          "sha256": "4d1e7bcdbae56e52e23404c6bc05d622154cd7abb2902640fddfa9196725e705",
+          "size": 2777511,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/4d1e7bcdbae56e52e23404c6bc05d622154cd7abb2902640fddfa9196725e705.apk"
         },
         {
-          "name": "8054930eaf73bef461ce34c8911b0bb90097bafb60b4fb57b54a280609532f0f.apk",
-          "sha256": "8054930eaf73bef461ce34c8911b0bb90097bafb60b4fb57b54a280609532f0f",
-          "size": 14189761,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/8054930eaf73bef461ce34c8911b0bb90097bafb60b4fb57b54a280609532f0f.apk"
+          "name": "54258e3fd94fa4c6c29206b254641ef62e08185e8e95eb315809c461fe29cd36.apk",
+          "sha256": "54258e3fd94fa4c6c29206b254641ef62e08185e8e95eb315809c461fe29cd36",
+          "size": 37074,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/54258e3fd94fa4c6c29206b254641ef62e08185e8e95eb315809c461fe29cd36.apk"
         },
         {
-          "name": "9cbd161a1822bdcd9af8b00f2eae338a888ab8e927811a62d53fd5263ba99ae9.apk",
-          "sha256": "9cbd161a1822bdcd9af8b00f2eae338a888ab8e927811a62d53fd5263ba99ae9",
-          "size": 109346728,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/9cbd161a1822bdcd9af8b00f2eae338a888ab8e927811a62d53fd5263ba99ae9.apk"
+          "name": "754cd0a6870e3b253771465be05a7d360fa0cb0a335811b95e83e7e73b01574f.apk",
+          "sha256": "754cd0a6870e3b253771465be05a7d360fa0cb0a335811b95e83e7e73b01574f",
+          "size": 1028306,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/754cd0a6870e3b253771465be05a7d360fa0cb0a335811b95e83e7e73b01574f.apk"
         },
         {
-          "name": "df37bb7ea4cfb4b97bb56e92dada551c3d82edf4587ff3d459a79d72b8936b5d.apk",
-          "sha256": "df37bb7ea4cfb4b97bb56e92dada551c3d82edf4587ff3d459a79d72b8936b5d",
-          "size": 61849,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/df37bb7ea4cfb4b97bb56e92dada551c3d82edf4587ff3d459a79d72b8936b5d.apk"
+          "name": "be8f1fd9de625dcacea8e7b780eb4cf30b18fe54d27524b79199a2dea09e0985.apk",
+          "sha256": "be8f1fd9de625dcacea8e7b780eb4cf30b18fe54d27524b79199a2dea09e0985",
+          "size": 14193658,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/be8f1fd9de625dcacea8e7b780eb4cf30b18fe54d27524b79199a2dea09e0985.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -18047,16 +18047,16 @@
       "package": "com.symantec.mobilesecurity",
       "publication": {
         "catalog": {
-          "name": "catalog-9e71ac2c7a08fee43238a8b8f4ffe4dd0795b7559b49bd776253625642df0eee.json",
-          "sha256": "9e71ac2c7a08fee43238a8b8f4ffe4dd0795b7559b49bd776253625642df0eee",
-          "size": 6699,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/catalog-9e71ac2c7a08fee43238a8b8f4ffe4dd0795b7559b49bd776253625642df0eee.json"
+          "name": "catalog-3567edcb68695cc2d762d14b0c6f7aa0f5351a1b24a13d9902afb7ca265a6869.json",
+          "sha256": "3567edcb68695cc2d762d14b0c6f7aa0f5351a1b24a13d9902afb7ca265a6869",
+          "size": 6934,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/catalog-3567edcb68695cc2d762d14b0c6f7aa0f5351a1b24a13d9902afb7ca265a6869.json"
         },
         "compat_manifest": {
-          "name": "manifest-92f59a53c43aedc2a68d16675c19bfb0ecba207ec9caff18cc86a8d902828210.json",
-          "sha256": "92f59a53c43aedc2a68d16675c19bfb0ecba207ec9caff18cc86a8d902828210",
-          "size": 1282,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/manifest-92f59a53c43aedc2a68d16675c19bfb0ecba207ec9caff18cc86a8d902828210.json"
+          "name": "manifest-7d7843a9decf63ce76471d920c890053aa9a59d7983a321fb7c494c296fad540.json",
+          "sha256": "7d7843a9decf63ce76471d920c890053aa9a59d7983a321fb7c494c296fad540",
+          "size": 1281,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/manifest-7d7843a9decf63ce76471d920c890053aa9a59d7983a321fb7c494c296fad540.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.symantec.mobilesecurity-library",
         "tag": "com.symantec.mobilesecurity-library"
@@ -18099,10 +18099,11 @@
             "density": 420,
             "gl_es_version": 131072,
             "languages": [
+              "en",
               "ru"
             ],
             "locale": "ru_RU",
-            "min_sdk": 29,
+            "min_sdk": 32,
             "native_abis": [
               "arm64-v8a"
             ],
@@ -18123,25 +18124,31 @@
           },
           "files": [
             {
-              "artifact": "9cbd161a1822bdcd9af8b00f2eae338a888ab8e927811a62d53fd5263ba99ae9",
+              "artifact": "138c79176c2f44aa6b237c000ab620be282b706106fba314595a575083edf146",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "8054930eaf73bef461ce34c8911b0bb90097bafb60b4fb57b54a280609532f0f",
+              "artifact": "be8f1fd9de625dcacea8e7b780eb4cf30b18fe54d27524b79199a2dea09e0985",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "5e7daa5904ef5edd116ec073082c4cbca8392d743bfc1c67165ad213c5fc1152",
+              "artifact": "54258e3fd94fa4c6c29206b254641ef62e08185e8e95eb315809c461fe29cd36",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "754cd0a6870e3b253771465be05a7d360fa0cb0a335811b95e83e7e73b01574f",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "291e98d003cf154f7b1d6661dcffa7dcbda3359bbb3e64fb41897396b72898c1",
+              "artifact": "4d1e7bcdbae56e52e23404c6bc05d622154cd7abb2902640fddfa9196725e705",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -18149,8 +18156,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 260925980,
-          "version_name": "26.18.0.260925980"
+          "version_code": 261027323,
+          "version_name": "26.20.0.261027323"
         },
         {
           "certificate_sha256": [
@@ -18166,7 +18173,7 @@
               "en"
             ],
             "locale": "en_US",
-            "min_sdk": 29,
+            "min_sdk": 32,
             "native_abis": [
               "arm64-v8a"
             ],
@@ -18187,25 +18194,25 @@
           },
           "files": [
             {
-              "artifact": "9cbd161a1822bdcd9af8b00f2eae338a888ab8e927811a62d53fd5263ba99ae9",
+              "artifact": "138c79176c2f44aa6b237c000ab620be282b706106fba314595a575083edf146",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "8054930eaf73bef461ce34c8911b0bb90097bafb60b4fb57b54a280609532f0f",
+              "artifact": "be8f1fd9de625dcacea8e7b780eb4cf30b18fe54d27524b79199a2dea09e0985",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "df37bb7ea4cfb4b97bb56e92dada551c3d82edf4587ff3d459a79d72b8936b5d",
+              "artifact": "54258e3fd94fa4c6c29206b254641ef62e08185e8e95eb315809c461fe29cd36",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "291e98d003cf154f7b1d6661dcffa7dcbda3359bbb3e64fb41897396b72898c1",
+              "artifact": "4d1e7bcdbae56e52e23404c6bc05d622154cd7abb2902640fddfa9196725e705",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -18213,8 +18220,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 260925980,
-          "version_name": "26.18.0.260925980"
+          "version_code": 261027323,
+          "version_name": "26.20.0.261027323"
         }
       ]
     },
@@ -25721,50 +25728,50 @@
     {
       "assets": [
         {
-          "name": "9cbd161a1822bdcd9af8b00f2eae338a888ab8e927811a62d53fd5263ba99ae9.apk",
+          "name": "138c79176c2f44aa6b237c000ab620be282b706106fba314595a575083edf146.apk",
           "role": "base",
-          "sha256": "9cbd161a1822bdcd9af8b00f2eae338a888ab8e927811a62d53fd5263ba99ae9",
-          "size": 109346728,
+          "sha256": "138c79176c2f44aa6b237c000ab620be282b706106fba314595a575083edf146",
+          "size": 84324557,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/9cbd161a1822bdcd9af8b00f2eae338a888ab8e927811a62d53fd5263ba99ae9.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/138c79176c2f44aa6b237c000ab620be282b706106fba314595a575083edf146.apk"
         },
         {
-          "name": "8054930eaf73bef461ce34c8911b0bb90097bafb60b4fb57b54a280609532f0f.apk",
+          "name": "be8f1fd9de625dcacea8e7b780eb4cf30b18fe54d27524b79199a2dea09e0985.apk",
           "role": "split",
-          "sha256": "8054930eaf73bef461ce34c8911b0bb90097bafb60b4fb57b54a280609532f0f",
-          "size": 14189761,
+          "sha256": "be8f1fd9de625dcacea8e7b780eb4cf30b18fe54d27524b79199a2dea09e0985",
+          "size": 14193658,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/8054930eaf73bef461ce34c8911b0bb90097bafb60b4fb57b54a280609532f0f.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/be8f1fd9de625dcacea8e7b780eb4cf30b18fe54d27524b79199a2dea09e0985.apk"
         },
         {
-          "name": "df37bb7ea4cfb4b97bb56e92dada551c3d82edf4587ff3d459a79d72b8936b5d.apk",
+          "name": "54258e3fd94fa4c6c29206b254641ef62e08185e8e95eb315809c461fe29cd36.apk",
           "role": "split",
-          "sha256": "df37bb7ea4cfb4b97bb56e92dada551c3d82edf4587ff3d459a79d72b8936b5d",
-          "size": 61849,
+          "sha256": "54258e3fd94fa4c6c29206b254641ef62e08185e8e95eb315809c461fe29cd36",
+          "size": 37074,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/df37bb7ea4cfb4b97bb56e92dada551c3d82edf4587ff3d459a79d72b8936b5d.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/54258e3fd94fa4c6c29206b254641ef62e08185e8e95eb315809c461fe29cd36.apk"
         },
         {
-          "name": "291e98d003cf154f7b1d6661dcffa7dcbda3359bbb3e64fb41897396b72898c1.apk",
+          "name": "4d1e7bcdbae56e52e23404c6bc05d622154cd7abb2902640fddfa9196725e705.apk",
           "role": "split",
-          "sha256": "291e98d003cf154f7b1d6661dcffa7dcbda3359bbb3e64fb41897396b72898c1",
-          "size": 2863726,
+          "sha256": "4d1e7bcdbae56e52e23404c6bc05d622154cd7abb2902640fddfa9196725e705",
+          "size": 2777511,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/291e98d003cf154f7b1d6661dcffa7dcbda3359bbb3e64fb41897396b72898c1.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/4d1e7bcdbae56e52e23404c6bc05d622154cd7abb2902640fddfa9196725e705.apk"
         }
       ],
       "certificate_sha256": [
         "d6829a71ba85b25291188a5d87fa8219a2b5d0662c5e11c1872234a817d8345c"
       ],
-      "manifest_sha256": "92f59a53c43aedc2a68d16675c19bfb0ecba207ec9caff18cc86a8d902828210",
-      "manifest_size": 1282,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/manifest-92f59a53c43aedc2a68d16675c19bfb0ecba207ec9caff18cc86a8d902828210.json",
+      "manifest_sha256": "7d7843a9decf63ce76471d920c890053aa9a59d7983a321fb7c494c296fad540",
+      "manifest_size": 1281,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.symantec.mobilesecurity-library/manifest-7d7843a9decf63ce76471d920c890053aa9a59d7983a321fb7c494c296fad540.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.symantec.mobilesecurity/metadata.json",
       "package": "com.symantec.mobilesecurity",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.symantec.mobilesecurity-library",
-      "version_code": 260925980,
-      "version_name": "26.18.0.260925980"
+      "version_code": 261027323,
+      "version_name": "26.20.0.261027323"
     },
     {
       "assets": [
