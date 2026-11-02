@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.amazon.storm.lightning.client.aosp",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Amazon Fire TV",
+      "developer": "Amazon Mobile LLC",
+      "description": "Your entertainment sidekick wherever you go.<br><br>The Fire TV mobile app puts the Fire TV experience at your fingertips—whether you're on the couch or on the move.<br><br>Discover & personalize your entertainment anywhere: Browse titles and get personalized recommendations. Search for movies, TV shows, and more across all your services. Build and fine-tune your watchlist in the moment.<br><br>Easy control & setup: Launch it all on your big screen with seamless control. Enjoy fast text entry using your mobile keyboard. Set up new Fire TV devices quickly and easily.<br><br>Compatibility: Requires an Amazon account and connection to the same Wi-Fi network as your Fire TV to launch content to your TV. <br><br>Some features require a compatible Fire TV.<br><br>By using this app, you agree to Amazon's Conditions of Use (www.amazon.com/conditionsofuse) and Privacy Notice (www.amazon.com/privacy).",
+      "shortDescription": "Простая навигация, клавиатура, плюс голосовой поиск для тушения телевизора.",
+      "versionName": null,
+      "updatedDate": "2026-10-14",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.storm.lightning.client.aosp",
+      "changelog": "• A redesigned remote with both directional pad and touchpad controls<br>• New remote settings: swipe across several tiles at once, and choose classic or natural scrolling<br>• Helpful tips that point out features you may have missed<br>• Bug fixes and performance improvements",
+      "icon": "images/83845f516202a023c5c2cd8f899b9101badc764c9b2a2c148e909419ee008e43.png",
+      "screenshots": [
+        "images/4786ddb2fbf31b8d81c63dad72690e39647607c5fbda884649bb82e4e3323fc8.jpg",
+        "images/a4068c3ba732e25913ecfd7e091a2c26800c7272b879ccf073cff9e0ccf81274.jpg",
+        "images/438a2d3186242aede1e1c17d1461b1e9fecc97833853ae7d4312d8eb7adfa5d6.jpg",
+        "images/54e7a31f7758df1eb77084357e1e9fdb8c6b02f63a03ea15411e5b0bd1ca165d.jpg",
+        "images/f0f309260d531b466083670bbfdded4b8b1eedeaa66b2a0b8cb3b7693d043d5b.jpg",
+        "images/bcc9d7d5409cd4f006dc86f2faf5d620766f63674277ce361c6bc4f72f3869f0.jpg",
+        "images/b14b29032ed799d0a68ceb6d82a1e61e3189b4217eaf5c76938687b17918476f.jpg",
+        "images/88b910f5bcdad61120c4cafb23ff6955aa6cdfcee8e20646e8f72637445ef8cd.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "Amazon Fire TV",
+      "developer": "Amazon Mobile LLC",
+      "description": "Your entertainment sidekick wherever you go.<br><br>The Fire TV mobile app puts the Fire TV experience at your fingertips—whether you're on the couch or on the move.<br><br>Discover & personalize your entertainment anywhere: Browse titles and get personalized recommendations. Search for movies, TV shows, and more across all your services. Build and fine-tune your watchlist in the moment.<br><br>Easy control & setup: Launch it all on your big screen with seamless control. Enjoy fast text entry using your mobile keyboard. Set up new Fire TV devices quickly and easily.<br><br>Compatibility: Requires an Amazon account and connection to the same Wi-Fi network as your Fire TV to launch content to your TV. <br><br>Some features require a compatible Fire TV.<br><br>By using this app, you agree to Amazon's Conditions of Use (www.amazon.com/conditionsofuse) and Privacy Notice (www.amazon.com/privacy).",
+      "shortDescription": "Simple navigation, a keyboard, plus voice search for Fire TV.",
+      "versionName": null,
+      "updatedDate": "2026-10-14",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.storm.lightning.client.aosp",
+      "changelog": "• A redesigned remote with both directional pad and touchpad controls<br>• New remote settings: swipe across several tiles at once, and choose classic or natural scrolling<br>• Helpful tips that point out features you may have missed<br>• Bug fixes and performance improvements",
+      "icon": "images/83845f516202a023c5c2cd8f899b9101badc764c9b2a2c148e909419ee008e43.png",
+      "screenshots": [
+        "images/4786ddb2fbf31b8d81c63dad72690e39647607c5fbda884649bb82e4e3323fc8.jpg",
+        "images/a4068c3ba732e25913ecfd7e091a2c26800c7272b879ccf073cff9e0ccf81274.jpg",
+        "images/438a2d3186242aede1e1c17d1461b1e9fecc97833853ae7d4312d8eb7adfa5d6.jpg",
+        "images/54e7a31f7758df1eb77084357e1e9fdb8c6b02f63a03ea15411e5b0bd1ca165d.jpg",
+        "images/f0f309260d531b466083670bbfdded4b8b1eedeaa66b2a0b8cb3b7693d043d5b.jpg",
+        "images/bcc9d7d5409cd4f006dc86f2faf5d620766f63674277ce361c6bc4f72f3869f0.jpg",
+        "images/b14b29032ed799d0a68ceb6d82a1e61e3189b4217eaf5c76938687b17918476f.jpg",
+        "images/88b910f5bcdad61120c4cafb23ff6955aa6cdfcee8e20646e8f72637445ef8cd.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-14",
+        "text": "• A redesigned remote with both directional pad and touchpad controls<br>• New remote settings: swipe across several tiles at once, and choose classic or natural scrolling<br>• Helpful tips that point out features you may have missed<br>• Bug fixes and performance improvements"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": null,
+        "updatedDate": "2026-10-14",
+        "text": "• A redesigned remote with both directional pad and touchpad controls<br>• New remote settings: swipe across several tiles at once, and choose classic or natural scrolling<br>• Helpful tips that point out features you may have missed<br>• Bug fixes and performance improvements"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/3P5QLoGrQYcAQKvrFBYWqBu01k2ghQCxSYUxiSljSOhU9I3MyTGHg6g--8pWQoRhdY_dewB09Z6ci7WO-DBY-4w": "83845f516202a023c5c2cd8f899b9101badc764c9b2a2c148e909419ee008e43.png",
+    "https://play-lh.googleusercontent.com/C7UAr-EmP1PEvMevKy96royH4WckTtx78gxgglOCGNcr6R5wml6n4TU4wk30OmyiCuWjojAKbImy3v5UkCnuww": "4786ddb2fbf31b8d81c63dad72690e39647607c5fbda884649bb82e4e3323fc8.jpg",
+    "https://play-lh.googleusercontent.com/ff0hcik-QkGELR4WXmcVHh9lUgz7Er2lUaMM6SwBFlDmW6lyKmXzm_aI5UJUYKMIxW1lxvYg4r_-3JQJWr47fTg": "a4068c3ba732e25913ecfd7e091a2c26800c7272b879ccf073cff9e0ccf81274.jpg",
+    "https://play-lh.googleusercontent.com/svSkGROghcFRZ7s87xhwEJf9N8SzXdO_bT3CZoj5HRldzq944Lw6ZHl8cA6v8SBD-eJ1Kwa1c_1jF_ckktRU0A": "438a2d3186242aede1e1c17d1461b1e9fecc97833853ae7d4312d8eb7adfa5d6.jpg",
+    "https://play-lh.googleusercontent.com/v1gsQ7xNRJ4Wh8E2ChTahNIrlJPq2d8LSA7FReABOjRNZxy2FFn8mJcsr6YZIXVHm1qEymvV2LcNiJvRHcJUJA": "54e7a31f7758df1eb77084357e1e9fdb8c6b02f63a03ea15411e5b0bd1ca165d.jpg",
+    "https://play-lh.googleusercontent.com/tSaODZDAqLIyer9OjfUdPBmZWBUIk_cGIIZIfbgpX3ljCuV8XAcct0XesqJitb4gezApA_xJNDGWVENBu7rJPg": "f0f309260d531b466083670bbfdded4b8b1eedeaa66b2a0b8cb3b7693d043d5b.jpg",
+    "https://play-lh.googleusercontent.com/v2_B1Grl-AafnRqpcQJTdD3GFkEF9YK_46NePaqgaICZE-OQiSQHF_oGrDkj3K4V2P-y8qjtCe5eq2fOrg3z": "bcc9d7d5409cd4f006dc86f2faf5d620766f63674277ce361c6bc4f72f3869f0.jpg",
+    "https://play-lh.googleusercontent.com/sLDWETQEB6tRTZ64CadnJQRlZ5Rw4y02BQAbl5BIKwXq_eEimB2Cv_gGNWWOrPDj9tj0WmlGGZBDyH8vwTYusQ": "b14b29032ed799d0a68ceb6d82a1e61e3189b4217eaf5c76938687b17918476f.jpg",
+    "https://play-lh.googleusercontent.com/GgV20CGYW686oXoJbFcv2wv5zY1iAvnRO-4K0hyr1DRP01k99L0nA5WImUyLXPVJ6Py4ybD8LAJgMuuzdO40GA": "88b910f5bcdad61120c4cafb23ff6955aa6cdfcee8e20646e8f72637445ef8cd.jpg"
+  }
+}

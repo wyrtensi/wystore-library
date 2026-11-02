@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "package": "com.deepl.mobiletranslator",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "DeepL Переводчик",
+      "developer": "DeepL SE",
+      "description": "– Перевод с помощью камеры: сделайте снимок, чтобы получить мгновенный перевод текста<br>– Перевод текста с изображений: загрузите фотографию, чтобы перевести текст<br>– Диктовка: переводите свою речь в реальном времени<br>– Озвучивание текста: слушайте, как переведенный вами текст произносится вслух<br>– Перевод файлов: переводите тексты из файлов<br>– Быстрое распознавание: перевод начинается после ввода всего нескольких символов<br>– Альтернативные варианты перевода: просматривайте дополнительные варианты перевода слов и коротких фраз<br>– Избранное: сохраняйте слова и фразы, чтобы они всегда были у вас под рукой<br>– История: с легкостью просматривайте, редактируйте и повторно используйте переводы<br>– Транслитерация: смотрите переводы с нелатинских языков, например японского или арабского, на латинском алфавите<br>– Глоссарий: переводите ключевые слова и фразы, определенные вами или вашей организацией (доступно с платным планом)<br>– Форма обращения: выбирайте степень формальности (доступно с платным планом)<br>– Рукописный ввод: вводите текст от руки вместо набора на клавиатуре (доступно на iPad)<br>– DeepL Write: используйте функцию ИИ-редактора, который исправляет ошибки и помогает писать убедительные тексты<br><br><br>Поддержка функций зависит от языка. Пока доступны: азербайджанский, аймара, албанский, английский (американский)*, английский (британский)*, арабский, арагонский, армянский, ассамский, африкаанс, ачехский, баскский, башкирский, белорусский, бенгальский, бирманский, болгарский, боснийский, бретонский, бходжпури, валлийский, венгерский, волоф, вьетнамский, гаитянский креольский, галисийский, греческий, грузинский, гуарани, гуджарати, дари, датский, иврит, игбо, индонезийский, ирландский, исландский, испанский*, испанский (латиноамериканский), итальянский*, казахский, кантонский, капампанганский, каталанский, кечуа, киргизский, китайский (традиционный)*, китайский (упрощенный)*, конкани, корейский*, коса, курдский (курманджи), курдский (сорани), латинский, латышский, лингала, литовский, ломбардский, люксембургский, майтхили, македонский, малагасийский, малайский, мальтийский, маори, маратхи, монгольский, немецкий*, непальский, нидерландский, норвежский (букмол), окситанский, пангасинанский, персидский, польский, португальский*, португальский (бразильский)*, пушту, румынский, русский, санскрит, себуанский, сербский, сицилийский, словацкий, словенский, суахили, сунданский, тагальский, таджикский, тамильский, татарский, телугу, тсвана, тсонга, турецкий, туркменский, узбекский, украинский, урду, финский, французский*, хауса, хинди, хорватский, чешский, шведский, эсперанто, эстонский, яванский, японский*<br>* Также доступны для DeepL Write <br><br>Скачайте бесплатно и получите доступ к основным функциям!<br>– Больше возможностей для перевода с учетной записью DeepL<br>– Вход в командную учетную запись через SSO<br>– Чтобы получить доступ ко всем функциям, может понадобиться платный план DeepL<br><br>Установите DeepL для Android, чтобы легко преодолевать языковые барьеры, где бы вы ни находились, как миллионы наших пользователей.<br><br><br>Условия использования: https://www.deepl.com/ru/app-terms<br><br>Политика конфиденциальности: https://www.deepl.com/ru/privacy  <br><br>Служба поддержки DeepL: https://www.deepl.com/ru/support",
+      "shortDescription": "Переводите более чем на 100 языков с помощью самого точного ИИ-переводчика",
+      "versionName": "26.43",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.deepl.mobiletranslator",
+      "changelog": "Мы продолжаем работать над улучшением приложения. На этот раз больших изменений нет, но мы:<br><br>- исправили несколько ошибок;<br>- сделали приложение более удобным в использовании;<br>- продолжили подготовку ко внедрению будущих обновлений.",
+      "icon": "images/95f700c7309e9dc214673e0814db05f7c7fc14ecb76920fc3aae991f8950d793.png",
+      "screenshots": [
+        "images/adf12532cba2af26c13a4ca325e09c7c65db11af377bf3b490bb2f0ccb556f3f.jpg",
+        "images/37c2a56c6a88d5ec1093b2eb82d7a3614177b964ae97783144c517084f57d27c.jpg",
+        "images/fa0517c968e3afc3ecabb50e943695b9dd0939d603b973c2bd5fad5085efea4d.jpg",
+        "images/5c410ad2eee417605e4fab6d01455c5b6e4b5d7dae23d05ed7fa1c6467e267dd.jpg",
+        "images/911c1b3a71826f3c3aca2bf1e2cce4ffec639d63c3f75e27af1a4adecb772763.jpg",
+        "images/70276bcd58eca5ae9a5572682a6448f4f5d24fd4060868ca43f886ef8abf5a87.jpg",
+        "images/24fd3bc5f88a7abd9b478f60f0fae44c8204196a89290a9b080ff0cae47fad11.jpg",
+        "images/92e250e4b9547350bc065ea19d888be1e74cd227bc4b59a7a6dbc643d253589d.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "DeepL Translate",
+      "developer": "DeepL SE",
+      "description": "- Camera translation: take a picture with your camera to get instant text translation<br>- Photo translation: upload a photo to translate the text<br>- Dictation: translate what you speak out loud<br>- Text to speech: hear your translated text read out loud<br>- File translation: translate text from files<br>- Quick detection: translations begin as you type<br>- Alternative translations: explore different options for single words and short phrases<br>- Favorites: save words and phrases for future reference<br>- History: easily find, edit, and reuse past translations<br>- Transliteration: read translations of non-Latin languages, such as Japanese or Russian, in the Latin alphabet<br>- Glossary: translate key words and phrases as defined by you or your organization (available with a paid plan)<br>- Tone: choose a formal or informal tone (available with a paid plan)<br>- Handwriting: draw text characters instead of typing (available on iPad)<br>- DeepL Write: get intelligent writing suggestions to help you create clear, error-free, and impactful texts with ease<br><br><br>Feature support varies by language. Currently available: Acehnese, Afrikaans, Albanian, Arabic, Aragonese, Armenian, Assamese, Aymara, Azerbaijani, Bashkir, Basque, Belarusian, Bengali, Bhojpuri, Bosnian, Breton, Bulgarian, Burmese, Cantonese, Catalan, Cebuano, Chinese (simplified)*, Chinese (traditional)*, Croatian, Czech, Danish, Dari, Dutch, English (American)*, English (British)*, Esperanto, Estonian, Finnish, French*, Galician, Georgian, German*, Greek, Guarani, Gujarati, Haitian Creole, Hausa, Hebrew, Hindi, Hungarian, Icelandic, Igbo, Indonesian, Irish, Italian*, Japanese*, Javanese, Kapampangan, Kazakh, Konkani, Korean*, Kurdish (Kurmanji), Kurdish (Sorani), Kyrgyz, Latin, Latvian, Lingala, Lithuanian, Lombard, Luxembourgish, Macedonian, Malagasy, Malay, Maithili, Maltese, Maori, Marathi, Mongolian, Nepali, Norwegian (bokmål), Occitan, Pangasinan, Pashto, Persian, Polish, Portuguese*, Portuguese (Brazilian)*, Quechua, Romanian, Russian, Sanskrit, Serbian, Sicilian, Slovak, Slovenian, Spanish*, Spanish (Latin American), Sundanese, Swahili, Swedish, Tagalog, Tajik, Tamil, Tatar, Telugu, Tsonga, Tswana, Turkish, Turkmen, Ukrainian, Urdu, Uzbek, Vietnamese, Welsh, Wolof, Xhosa<br>*Also available for DeepL Write <br><br>Free to download - access core features without cost!<br>- Enjoy more translation features with a DeepL account<br>- Log in to your organization's team account via SSO<br>- To unlock all features, you may need a DeepL paid plan<br><br>Like millions of others every day, get DeepL for Android to communicate effortlessly across language barriers—wherever you are.<br><br><br>︎Terms & Conditions: https://www.deepl.com/app-terms<br><br>Privacy Policy: https://www.deepl.com/privacy.html  <br><br>DeepL Support: https://www.deepl.com/support",
+      "shortDescription": "Translate into 100+ languages with the world’s most accurate AI translator.",
+      "versionName": "26.43",
+      "updatedDate": "2026-10-29",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.deepl.mobiletranslator",
+      "changelog": "No big news this time, but that’s only because we’ve been working hard on improving your experience: <br><br>- Fixed several bugs<br>- Enhanced the usability <br>- Planned and designed further for the future of translation",
+      "icon": "images/95f700c7309e9dc214673e0814db05f7c7fc14ecb76920fc3aae991f8950d793.png",
+      "screenshots": [
+        "images/426fbb1f21d0ccd9ee45365e3a55a0358bc4b8b26cc063650c07ef7d8c59890d.jpg",
+        "images/6fde16d3f9837c12879b7bbefa44a4c0f6023d4476ba8ea2a1454a3c3b54f958.jpg",
+        "images/1319f8cb25a0afff088f5c4747c006c7bcd055bf12bb0aaed01dc6a75f9245e5.jpg",
+        "images/fbc8003fe34c011fb223e4ba016d5244278f633ae2b97d209930050177766721.jpg",
+        "images/e5868cb1dbf29c020130cf550703a2ba185e403cf7bb6238f5e59f439aa8089a.jpg",
+        "images/4885176751ff9c97adaae745cc9e1d793b1fa22cb74e7396912457077eaa68f8.jpg",
+        "images/bc4438f988747bc428bb4889e73c9564a270b629614fa06af0fa91384593443e.jpg",
+        "images/741bffd2576cfcef14c8c39ab33e0ff14fc115d291c744930efa52e44d267b7a.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "26.43",
+        "updatedDate": "2026-10-29",
+        "text": "Мы продолжаем работать над улучшением приложения. На этот раз больших изменений нет, но мы:<br><br>- исправили несколько ошибок;<br>- сделали приложение более удобным в использовании;<br>- продолжили подготовку ко внедрению будущих обновлений."
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "26.43",
+        "updatedDate": "2026-10-29",
+        "text": "No big news this time, but that’s only because we’ve been working hard on improving your experience: <br><br>- Fixed several bugs<br>- Enhanced the usability <br>- Planned and designed further for the future of translation"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/ZDpFUCFasEhQPdTToEnUj-RhLpMoPg4ZZTzb2TELmtzg8w0452YQaoVb32W2KsnXO1ITbBgBoRSE1NqjnV-yuQ": "95f700c7309e9dc214673e0814db05f7c7fc14ecb76920fc3aae991f8950d793.png",
+    "https://play-lh.googleusercontent.com/ATvcLEjYuzmfmmtHdEiUBv9S7wp1a8-Uu7JBBx7TmH-lziAd0Me9ZgzsreJQ7oPJF4X-O0ms4BM2uj3KIy8xcko": "adf12532cba2af26c13a4ca325e09c7c65db11af377bf3b490bb2f0ccb556f3f.jpg",
+    "https://play-lh.googleusercontent.com/8KE9nsxnzb2VTrUODh3yMn1jqGXHhOYXKBT4bPx43A5veEEWt0Iu4iz_iJ2T3KuVSPtaLh-g1U3mAODWTjpgtw": "37c2a56c6a88d5ec1093b2eb82d7a3614177b964ae97783144c517084f57d27c.jpg",
+    "https://play-lh.googleusercontent.com/4nebhzzKGn-Y5FP4OObcV0x1ImtHW-4ZdQPHnt6-S29uBU0aCFCZ9acyfwvL6MH10sx8U-hqBeGYsdCPIJvbdA": "fa0517c968e3afc3ecabb50e943695b9dd0939d603b973c2bd5fad5085efea4d.jpg",
+    "https://play-lh.googleusercontent.com/sssojB-nJPH1x1jw_QYmg_XBSJKZMqX_XbUbn096COr9UF2o8hANd74359kM8tUdxvnpNh6oZek24o6nfJzT": "5c410ad2eee417605e4fab6d01455c5b6e4b5d7dae23d05ed7fa1c6467e267dd.jpg",
+    "https://play-lh.googleusercontent.com/wwCTdMgEVSW7fcVARepvRjqNxPVMcq57AVIhFeND5bJ8Fd6zAwR_Usb6cFXtLSzaGTaD62VHBCcUtwzhmglkIg": "911c1b3a71826f3c3aca2bf1e2cce4ffec639d63c3f75e27af1a4adecb772763.jpg",
+    "https://play-lh.googleusercontent.com/t4EOmEEqHpn9TMVa2Z2EpYJs9w_lde-e5IZMz6S-kJ7H5CTqUyyowmA3EgiItMN9iZJrlHtpffDdBevPCV5z": "70276bcd58eca5ae9a5572682a6448f4f5d24fd4060868ca43f886ef8abf5a87.jpg",
+    "https://play-lh.googleusercontent.com/V3REgdRWMnmf0AAgqstbyIvNXzhL7VMqzMpddVdrqpjWGJzWdjZsWN3U-szEqDT-Xwzwi8Fe96k7ywDqxvgh": "24fd3bc5f88a7abd9b478f60f0fae44c8204196a89290a9b080ff0cae47fad11.jpg",
+    "https://play-lh.googleusercontent.com/o8s92QXOCX9npg69gfh7H-LedApg0vphNeRIldN_MbcZMsCEfmIGFooQiKSHQtPEfjpR149K9-hXaz8lJZ8HoA": "92e250e4b9547350bc065ea19d888be1e74cd227bc4b59a7a6dbc643d253589d.jpg",
+    "https://play-lh.googleusercontent.com/SI0El5i5pkRKyTXtkaoTVGwPPs_bVuTnaBtYaoywQoLFtzIhSl_MCXSf0oWTHj6aByeyN2Dy5UHMIONKc2lF5Q": "426fbb1f21d0ccd9ee45365e3a55a0358bc4b8b26cc063650c07ef7d8c59890d.jpg",
+    "https://play-lh.googleusercontent.com/NuO3Il6jfd-7-X5BNFAD7zh9t6y4Zw00Mb9o5Tn5VaalGiN5oente16BUNfrypFXNPceKd1Zkvisnq1uDlLw": "6fde16d3f9837c12879b7bbefa44a4c0f6023d4476ba8ea2a1454a3c3b54f958.jpg",
+    "https://play-lh.googleusercontent.com/yFVe8S21OYZYr2O7VvWB2SK1zqf-ONY3wpq0MGiKJIluL_ijcGhed8kL-okVXRTWdMrUYDRDdmCA4JRJJorc": "1319f8cb25a0afff088f5c4747c006c7bcd055bf12bb0aaed01dc6a75f9245e5.jpg",
+    "https://play-lh.googleusercontent.com/EEO7KPPtF7-Rxm0a2SuMYKC_cmWhCZ8lDMZWwWgVjtD88eOf1gs4G_6YjfNrer6CQIhH_tnrFJcZU1uVGumvAg": "fbc8003fe34c011fb223e4ba016d5244278f633ae2b97d209930050177766721.jpg",
+    "https://play-lh.googleusercontent.com/mUj66fSrTqH6_cIiYQk4_sJA_I6vapPXJa_BDRDX5KPrkQC18akCKZoB1HyIzwRFbSCDEww-r5gSa_sUuSaK": "e5868cb1dbf29c020130cf550703a2ba185e403cf7bb6238f5e59f439aa8089a.jpg",
+    "https://play-lh.googleusercontent.com/3jYsn-sXXX4VRt4jDgOwn5rHtQvWygbEHCdHdYeZM8aDm_sKZ8PQnwAEOPjDhqJLn6myKgP4eLVx7MUUUayfIKA": "4885176751ff9c97adaae745cc9e1d793b1fa22cb74e7396912457077eaa68f8.jpg",
+    "https://play-lh.googleusercontent.com/AFyhmyj2nqte1QntbitCrN8aZoRh4RJlq87UIL_Ma5PKhqeZlzuK9SXfnaGrbFqpVXip633JmbuwnCISRbtXeQ": "bc4438f988747bc428bb4889e73c9564a270b629614fa06af0fa91384593443e.jpg",
+    "https://play-lh.googleusercontent.com/MW4TLClvHBhfkmy4UHCJb1qSV90jJ5bDU2evUyY51ClL1YAC5q1tHrb6GqcU1aQGdg4O_VauwmCHLRGYMAhMaw": "741bffd2576cfcef14c8c39ab33e0ff14fc115d291c744930efa52e44d267b7a.jpg"
+  }
+}

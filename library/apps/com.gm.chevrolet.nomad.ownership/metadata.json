@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "package": "com.gm.chevrolet.nomad.ownership",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "myChevrolet",
+      "developer": "General Motors (GM)",
+      "description": "Stay connected to your Chevrolet from the palm of your hand with the myChevrolet app. Use your phone to locate your vehicle from anywhere, check its health, manage charging, prepare your cabin before you leave, and get help when you need it. <br>Download the app that is always with you to make every drive easier. <br><br>With the myChevrolet app, you can:<br>•\tRemotely start, lock, and unlock your vehicle.<br>•\tCheck fuel level, tire pressure, oil life, and more.<br>•\tSet your preferred cabin temperature.<br>•\tView charging status and locate charging stations.<br>•\tPlan trips and navigate with maps. <br>•\tRequest help with Roadside Assistance.<br>•\tSchedule service, find your dealership, and more.<br><br>Disclosures: <br>Mobile app functionality is available on select devices and requires data connection. Services availability, features and functionality vary by vehicle, device and the plan you are enrolled in. Roadside service availability and providers vary by country. Map coverage, features and functionality varies by country. See onstar.com for details and limitations.",
+      "shortDescription": "Владение автомобилем упрощено. Загрузите приложение myChevrolet® сегодня.",
+      "versionName": "8.20.0",
+      "updatedDate": "2026-10-14",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.gm.chevrolet.nomad.ownership",
+      "changelog": "See our commitment to enhancing your ownership experience through updates and software refinements below because Better Never Stops.<br><br>- Minor fixes and improvements<br>",
+      "icon": "images/ec40a6725e404556e320110136fc7d6a042fc0f0eb73cff94b76a3b4c2c9163a.png",
+      "screenshots": [
+        "images/da1642e1059aa4180ceb4510a236e4694e77a79654f4653701921b7d2016c1aa.jpg",
+        "images/f76bd2ac4e63d6b7484cdd70c847459afa2c2751403797db38549be3614f28d2.jpg",
+        "images/acaf92b69e03b637669a55ddc538d5b988f57ce5b01020da699663703497c23b.jpg",
+        "images/ddf636de2835cf2fa61303b101b6423ccde08d182be73e87d039a09bc1936ea9.jpg",
+        "images/2672c5faba7545b36b449164938e8bad1d440b505c6674976c6dd67860bf903f.jpg",
+        "images/b0c0dbd0844995d952fe2e2dbec4ac744240982f56bdc27d031f966ae5fb8f41.jpg",
+        "images/7889dc903e3439fb8b073544403344a95396ea7e44532e8c3f25cace66c23db6.jpg",
+        "images/192c4837bf00c90e0e7140ce8f89c115e3bac063e42976624a53bd8f81059d7c.jpg"
+      ]
+    },
+    "en_US": {
+      "title": "myChevrolet",
+      "developer": "General Motors (GM)",
+      "description": "Stay connected to your Chevrolet from the palm of your hand with the myChevrolet app. Use your phone to locate your vehicle from anywhere, check its health, manage charging, prepare your cabin before you leave, and get help when you need it. <br>Download the app that is always with you to make every drive easier. <br><br>With the myChevrolet app, you can:<br>•\tRemotely start, lock, and unlock your vehicle.<br>•\tCheck fuel level, tire pressure, oil life, and more.<br>•\tSet your preferred cabin temperature.<br>•\tView charging status and locate charging stations.<br>•\tPlan trips and navigate with maps. <br>•\tRequest help with Roadside Assistance.<br>•\tSchedule service, find your dealership, and more.<br><br>Disclosures: <br>Mobile app functionality is available on select devices and requires data connection. Services availability, features and functionality vary by vehicle, device and the plan you are enrolled in. Roadside service availability and providers vary by country. Map coverage, features and functionality varies by country. See onstar.com for details and limitations.",
+      "shortDescription": "Vehicle ownership simplified. Get the myChevrolet® app today.",
+      "versionName": "8.20.0",
+      "updatedDate": "2026-10-14",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.gm.chevrolet.nomad.ownership",
+      "changelog": "See our commitment to enhancing your ownership experience through updates and software refinements below because Better Never Stops.<br><br>- Minor fixes and improvements<br>",
+      "icon": "images/ec40a6725e404556e320110136fc7d6a042fc0f0eb73cff94b76a3b4c2c9163a.png",
+      "screenshots": [
+        "images/da1642e1059aa4180ceb4510a236e4694e77a79654f4653701921b7d2016c1aa.jpg",
+        "images/f76bd2ac4e63d6b7484cdd70c847459afa2c2751403797db38549be3614f28d2.jpg",
+        "images/acaf92b69e03b637669a55ddc538d5b988f57ce5b01020da699663703497c23b.jpg",
+        "images/ddf636de2835cf2fa61303b101b6423ccde08d182be73e87d039a09bc1936ea9.jpg",
+        "images/2672c5faba7545b36b449164938e8bad1d440b505c6674976c6dd67860bf903f.jpg",
+        "images/b0c0dbd0844995d952fe2e2dbec4ac744240982f56bdc27d031f966ae5fb8f41.jpg",
+        "images/7889dc903e3439fb8b073544403344a95396ea7e44532e8c3f25cace66c23db6.jpg",
+        "images/192c4837bf00c90e0e7140ce8f89c115e3bac063e42976624a53bd8f81059d7c.jpg"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "8.20.0",
+        "updatedDate": "2026-10-14",
+        "text": "See our commitment to enhancing your ownership experience through updates and software refinements below because Better Never Stops.<br><br>- Minor fixes and improvements<br>"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "8.20.0",
+        "updatedDate": "2026-10-14",
+        "text": "See our commitment to enhancing your ownership experience through updates and software refinements below because Better Never Stops.<br><br>- Minor fixes and improvements<br>"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/zjifpmtG5npu1-uLUqPDrXZQc908y8LD4zQp4V_8Xv41c3YYdz33d7lZqGTeAUjzkCRDjBtqjsnx1Xkk606rMw": "ec40a6725e404556e320110136fc7d6a042fc0f0eb73cff94b76a3b4c2c9163a.png",
+    "https://play-lh.googleusercontent.com/bGV1oOWMZ_2HVqz56Lh4Df3I2Ec1xGn48OpOeZNxQaU-oVWNbcmV5hkA3VW2emWXw_sI8-D8Po7dKtYjCI9yPA": "da1642e1059aa4180ceb4510a236e4694e77a79654f4653701921b7d2016c1aa.jpg",
+    "https://play-lh.googleusercontent.com/LmS3hrMFXLUKnc13X74ofYc09VO-XSBSzi9k8fxg4j4B1tgYAcdGK-0SiWW3ZONtsfTrK4KKLyY1IZbaYDnvQQ": "f76bd2ac4e63d6b7484cdd70c847459afa2c2751403797db38549be3614f28d2.jpg",
+    "https://play-lh.googleusercontent.com/LjEPNwzS8Jbsg47m_kzZJO7Er5lUfOuPHH2r8vVhDgWE36Z5A4bgo-ZNUsioTaoo51IINpbk0pc_Sb6FJqqG": "acaf92b69e03b637669a55ddc538d5b988f57ce5b01020da699663703497c23b.jpg",
+    "https://play-lh.googleusercontent.com/nrCAFcA2mAUXz23RW-6YGH5QxrR3F3dQBAlzX20QQzDu_Yaavh9C1sICREN77Grq4KvJJuCGwBctlR_gPjM20g": "ddf636de2835cf2fa61303b101b6423ccde08d182be73e87d039a09bc1936ea9.jpg",
+    "https://play-lh.googleusercontent.com/Ht7w3JKsc2i4zMBHxi8SLYF6E7osyNMXlu1v0iw9xJ_9ZrflpSO03bnd5g7Jk64k6ISfCJzV-6VkUcWBolKG": "2672c5faba7545b36b449164938e8bad1d440b505c6674976c6dd67860bf903f.jpg",
+    "https://play-lh.googleusercontent.com/Cs20LWpvMwnnThYtvNd5ak0qRC_qyNj2MQAjLzmdW1fMh28K0_g7IK1RNRwkqRHFBG_Vg5UyZdgZFdKonJEJ": "b0c0dbd0844995d952fe2e2dbec4ac744240982f56bdc27d031f966ae5fb8f41.jpg",
+    "https://play-lh.googleusercontent.com/WwY0o75c94CJuiuJBCC_zs60nON-HRp4GMXwrE9UHMkdHw7X8JhqJjMvxngAEeNhQTHo9VhEKPA-l7bdHHKmTg": "7889dc903e3439fb8b073544403344a95396ea7e44532e8c3f25cace66c23db6.jpg",
+    "https://play-lh.googleusercontent.com/AYPx_d7QXDfy3FdXh_oIcGdGoGCJCH3ZScxyHti-bxGYW--piwjZN5AQ7-KeNE4LU8zMK0CET9xpH0MnT1re": "192c4837bf00c90e0e7140ce8f89c115e3bac063e42976624a53bd8f81059d7c.jpg"
+  }
+}

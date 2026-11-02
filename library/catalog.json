@@ -414,6 +414,78 @@
       "title": "WhatsApp Messenger",
       "developer": "WhatsApp LLC",
       "icon": "apps/com.whatsapp/images/b29a53a5ca9e2e6516a21210d43e7489cba6dad0cfba2df98e976affafd2e391.png"
+    },
+    {
+      "package": "com.deepl.mobiletranslator",
+      "metadataPath": "apps/com.deepl.mobiletranslator/metadata.json",
+      "title": "DeepL Переводчик",
+      "developer": "DeepL SE",
+      "icon": "apps/com.deepl.mobiletranslator/images/95f700c7309e9dc214673e0814db05f7c7fc14ecb76920fc3aae991f8950d793.png",
+      "foreign_category": true,
+      "locales": {
+        "ru_RU": {
+          "title": "DeepL Переводчик",
+          "shortDescription": "Переводите более чем на 100 языков с помощью самого точного ИИ-переводчика"
+        },
+        "en_US": {
+          "title": "DeepL Translate",
+          "shortDescription": "Translate into 100+ languages with the world’s most accurate AI translator."
+        }
+      }
+    },
+    {
+      "package": "com.amazon.storm.lightning.client.aosp",
+      "metadataPath": "apps/com.amazon.storm.lightning.client.aosp/metadata.json",
+      "title": "Amazon Fire TV",
+      "developer": "Amazon Mobile LLC",
+      "icon": "apps/com.amazon.storm.lightning.client.aosp/images/83845f516202a023c5c2cd8f899b9101badc764c9b2a2c148e909419ee008e43.png",
+      "foreign_category": true,
+      "locales": {
+        "ru_RU": {
+          "title": "Amazon Fire TV",
+          "shortDescription": "Простая навигация, клавиатура, плюс голосовой поиск для тушения телевизора."
+        },
+        "en_US": {
+          "title": "Amazon Fire TV",
+          "shortDescription": "Simple navigation, a keyboard, plus voice search for Fire TV."
+        }
+      }
+    },
+    {
+      "package": "cn.xender",
+      "metadataPath": "apps/cn.xender/metadata.json",
+      "title": "Xender - Quick Share, Transfer",
+      "developer": "Xender File Sharing Team",
+      "icon": "apps/cn.xender/images/925b07ea6cbc8583fc6a008ef18580f25bc7521552bb65f9e1dea26df5d9babd.png",
+      "foreign_category": true,
+      "locales": {
+        "ru_RU": {
+          "title": "Xender - Quick Share, Transfer",
+          "shortDescription": "Быстрый обмен! Делитесь видео, улучшенный AirDrop, кроссплатформенность, подключение ПК и Mac."
+        },
+        "en_US": {
+          "title": "Xender - Quick Share, Transfer",
+          "shortDescription": "Quick Share! Share Video, Better AirDrop, Cross-platform, Connect PC and Mac"
+        }
+      }
+    },
+    {
+      "package": "com.gm.chevrolet.nomad.ownership",
+      "metadataPath": "apps/com.gm.chevrolet.nomad.ownership/metadata.json",
+      "title": "myChevrolet",
+      "developer": "General Motors (GM)",
+      "icon": "apps/com.gm.chevrolet.nomad.ownership/images/ec40a6725e404556e320110136fc7d6a042fc0f0eb73cff94b76a3b4c2c9163a.png",
+      "foreign_category": true,
+      "locales": {
+        "ru_RU": {
+          "title": "myChevrolet",
+          "shortDescription": "Владение автомобилем упрощено. Загрузите приложение myChevrolet® сегодня."
+        },
+        "en_US": {
+          "title": "myChevrolet",
+          "shortDescription": "Vehicle ownership simplified. Get the myChevrolet® app today."
+        }
+      }
     }
   ]
 }

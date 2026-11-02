@@ -1,6 +1,6 @@
 # Configured applications
 
-This list describes the 59 packages configured in [apps.json](../apps.json). Configuration does not guarantee metadata or APK publication. Consult the [catalog](../library/catalog.json) for collected metadata and the [APK index](../library/index.json) for current published sets.
+This list describes the 63 packages configured in [apps.json](../apps.json). Configuration does not guarantee metadata or APK publication. Consult the [catalog](../library/catalog.json) for collected metadata and the [APK index](../library/index.json) for current published sets.
 
 | Application | Package | Official listing |
 | --- | --- | --- |
@@ -63,6 +63,11 @@ This list describes the 59 packages configured in [apps.json](../apps.json). Con
 | Instagram | `com.instagram.android` | [Google Play](https://play.google.com/store/apps/details?id=com.instagram.android) |
 | Facebook | `com.facebook.katana` | [Google Play](https://play.google.com/store/apps/details?id=com.facebook.katana) |
 | WhatsApp | `com.whatsapp` | [Google Play](https://play.google.com/store/apps/details?id=com.whatsapp) |
+
+| DeepL Translate | `com.deepl.mobiletranslator` | [Google Play](https://play.google.com/store/apps/details?id=com.deepl.mobiletranslator) |
+| Amazon Fire TV | `com.amazon.storm.lightning.client.aosp` | [Google Play](https://play.google.com/store/apps/details?id=com.amazon.storm.lightning.client.aosp) |
+| Xender | `cn.xender` | [Google Play](https://play.google.com/store/apps/details?id=cn.xender) |
+| myChevrolet | `com.gm.chevrolet.nomad.ownership` | [Google Play](https://play.google.com/store/apps/details?id=com.gm.chevrolet.nomad.ownership) |
 
 ## Regional and product distinctions
 

@@ -472,6 +472,38 @@
       ],
       "name": "WhatsApp",
       "category": "Messaging"
+    },
+    {
+      "package": "com.deepl.mobiletranslator",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "DeepL Translate",
+      "category": "Productivity"
+    },
+    {
+      "package": "com.amazon.storm.lightning.client.aosp",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Amazon Fire TV",
+      "category": "Entertainment"
+    },
+    {
+      "package": "cn.xender",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Xender",
+      "category": "Tools"
+    },
+    {
+      "package": "com.gm.chevrolet.nomad.ownership",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "myChevrolet",
+      "category": "Auto & vehicles"
     }
   ]
 }
