@@ -29,6 +29,17 @@ The library does not bypass those checks or modify the publisher's application.
 For Planfix, `extractNativeLibs=false` means the native library is loaded directly
 from the APK. The crash points to a possible React Native/ARM-translation
 compatibility issue on this x86_64 emulator, rather than a missing library split.
-This is not a confirmed root cause. Launch on a physical ARM64 device remains
-unverified; a successful installation alone must not be reported as a successful
-Planfix runtime check.
+This is not a confirmed root cause.
+
+## Planfix on physical ARM64
+
+A subsequent check on 2026-11-02 used a physical ARM64 phone running Android 16.
+Planfix `0.74.2` / `1228` was installed through Wy Store with three APK files.
+ADB package metadata confirmed `arm64-v8a`, with Wy Store recorded as both
+installer and update owner. The device owner reported that Planfix works.
+
+The installation metadata was checked directly; successful runtime was reported
+by the device owner rather than independently exercised by the agent. Account
+sign-in and individual service functions were not tested by the agent. This
+result distinguishes the physical-device outcome from the emulator crash; it
+does not establish the emulator's precise failure mechanism.
