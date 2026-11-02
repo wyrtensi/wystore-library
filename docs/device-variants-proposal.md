@@ -2,8 +2,9 @@
 
 This document records the original proposal. The approved implementation and
 migration contract is [device-variants-contract.md](device-variants-contract.md).
-The published feed remains schema 1, with a default Pixel 9a projection for
-existing clients and canonical variants added during migration.
+The implemented feed retains root schema 1 and its default modern ARM64
+projection for existing clients, alongside canonical per-application variants.
+The historical `px_9a` identifier is retained for compatibility.
 
 ## Coverage target
 

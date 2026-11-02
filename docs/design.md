@@ -1,11 +1,15 @@
 # Wy Store Library
 
 The operator requested a new public `wyrtensi/wystore-library` repository.
-The existing Wy Store Android project must remain unchanged.
+The original library-only phase kept the Wy Store Android project unchanged.
+Client integration is a separate change in the main application repository.
 
-The library follows an explicit allowlist in `apps.json`: Planfix, Vivaldi,
-Brave, and Firefox, initially using the pinned Pixel 9a profile. Other profiles
-may be added explicitly; a downloaded set is never described as universal.
+The library follows an explicit allowlist in `apps.json`. It began with Planfix,
+Vivaldi, Brave and Firefox, and now includes additional configured applications.
+Its current delivery samples cover modern ARM64, older ARM64 and older 32-bit
+ARM, each in English and Russian. A downloaded set is never described as
+universal. The [device variants contract](device-variants-contract.md) supersedes
+the initial single-profile design.
 
 Two independent scheduled jobs maintain the library:
 
@@ -42,16 +46,19 @@ own, but cannot provide versionCode or installable artifacts.
 
 ## Daily releases and retention
 
-The operator chose one current release per app and device profile. Metadata
-refresh and authenticated APK checks run once daily. Releases use readable app
-names, versions and device models, with installation instructions and verified
-checksums. Equal or older upstream versions do not trigger downloads or uploads.
+The operator chose one current stable release per application, containing all
+of its currently verified variants. Metadata refresh and authenticated APK
+checks run once daily. Releases use readable app names, installation guidance
+and verified checksums; clients use the canonical index for variant selection
+and numeric version comparisons. Unchanged variants do not trigger downloads
+or uploads unless their sampling configuration changed.
 
-After all new sets are verified and the index is committed, verify every retained
-release against index asset and manifest digests before deleting any strictly
-older managed release and its tag. The next equal-version run retries interrupted
-cleanup without repeating publication. Unknown tags and newer releases awaiting
-recovery stay intact. Keep the shared write concurrency group and index SHA guard.
+After each complete application publication and index checkpoint, verify that
+application's retained assets and manifests before cleanup. Remove its
+unreferenced managed assets and obsolete managed releases and tags. The next
+run retries interrupted cleanup without repeating unchanged publication. Manual
+and unconfigured releases stay intact. Keep the shared write concurrency group
+and index SHA guard. The initial recovery pass checks all committed applications.
 
 Alternatives considered: one combined daily release would mix app lifecycles;
 retaining all historical APKs would use storage contrary to the operator's choice.

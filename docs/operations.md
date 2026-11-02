@@ -45,7 +45,9 @@ metadata card does not imply that an APK has been downloaded or published.
 
 The variant pipeline samples six profiles: ARM64 SDK 35 at 420 dpi, ARM64
 SDK 29 at 420 dpi, and ARMv7 SDK 26 at 320 dpi, each requested in English and
-Russian. Pixel 9a (`px_9a`) remains the default English SDK 35 profile. These
+Russian. The stable `px_9a` identifier remains the default English modern ARM64
+sample for compatibility with older clients; it does not restrict installation
+to that phone model. These
 samples do not guarantee universal device coverage or the availability of any
 particular translated resources. Both older samples use the conservative `op_3`
 hardware-feature cohort, which does not represent every device of the same SDK

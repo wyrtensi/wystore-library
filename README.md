@@ -18,9 +18,23 @@ A companion catalog with verified original app packages.
 
 ## Explore the library
 
-Current delivery profile: **Pixel 9a · Android 15 · arm64-v8a · 420 dpi**.
+**Multiple device variants, one current release per application.**
 Click a version to open that application's current APK set. App names lead to
 saved descriptions, artwork and release notes.
+
+The library samples three device classes, each in English and Russian:
+
+| Device class | Sampling Android version | Architecture | Sampling density |
+| --- | --- | --- | --- |
+| Modern ARM64 | Android 15 (SDK 35) | `arm64-v8a` | 420 dpi |
+| Older ARM64 | Android 10 (SDK 29) | `arm64-v8a` | 420 dpi |
+| Older 32-bit ARM | Android 8 (SDK 26) | `armeabi-v7a` | 320 dpi |
+
+These are delivery samples, not phone-model restrictions. A client selects a
+complete compatible set using its verified Android, ABI, language, density,
+feature and split requirements. Available variants differ by application;
+the library does not cover every Android device. See the
+[device variants contract](docs/device-variants-contract.md).
 
 <!-- APP_CATALOG:START -->
 
@@ -157,7 +171,7 @@ Solid lines show existing flows. Dashed lines mark planned library integration. 
 | --- | --- |
 | Metadata, artwork and release notes | Scheduled refresh once daily; see the [catalog](library/catalog.json) for collected apps |
 | Verified APKs | Checked once daily; see the [APK index](library/index.json) for published sets |
-| Library integration with Wy Store | Planned; no Android client changes yet |
+| Library integration with Wy Store | In development for a future Wy Store release |
 
 The [app catalog](library/catalog.json) and [APK index](library/index.json) are separate. The APK index points to complete verified releases and their public manifests. Descriptions, screenshots and release notes can also be browsed independently.
 
@@ -165,19 +179,29 @@ The [app catalog](library/catalog.json) and [APK index](library/index.json) are 
 
 1. **Check the version first.** The pipeline reads `versionCode` before downloading. Equal and older versions are skipped.
 2. **Verify the package set.** Every base and split APK is checked for hashes, package name, version and signing certificate. Signing-key changes require review.
-3. **Publish complete versions.** Verified files go into a versioned release before the index is updated. Published assets are never overwritten.
+3. **Publish complete variants.** Verified files go into the application's stable release before the index is updated. Published assets are never overwritten.
 
-Each app and device profile has its own release with an app name, version,
-installation instructions and verified checksums. Only a newer `versionCode`
-starts a download and publication. After the new release and index are checked,
-other managed releases and their tags are removed, leaving one current release per app and profile. If cleanup is interrupted,
-the next run resumes cleanup without downloading or uploading that version again.
+Each app has one stable `<package>-library` release containing its current
+verified variants and shared APK files. Variants can have different version
+codes. Unchanged variants reuse their verified files; changing the sampling
+configuration requires fresh verification even when the version is unchanged.
+After publishing complete sets and committing the index, cleanup removes
+unreferenced assets and obsolete managed releases. If cleanup is interrupted,
+the next run resumes it without downloading or uploading unchanged sets again.
 
 Metadata refresh runs daily at **02:43 UTC** and APK checks at **03:17 UTC**
 (07:43 and 08:17 in Yekaterinburg). GitHub schedules can be delayed; manual runs
 remain available.
 
-The pipeline preserves original publisher signatures and split packages without merging or re-signing them. A base APK and its required configuration splits must be installed together. The initial profile is **Pixel 9a, Android 15 (SDK 35), arm64-v8a, 420 dpi**. It is useful for matching devices but is not universal: an app may support a lower minimum Android version, while ARMv7 or x86 devices, older Android versions, other screen densities or languages may need different APKs. See [Android App Bundles](https://developer.android.com/guide/app-bundle) and [device compatibility](https://developer.android.com/guide/topics/manifest/uses-sdk-element). Regional service availability is separate from APK availability.
+The pipeline preserves original publisher signatures and split packages without
+merging or re-signing them. Install the base APK and every split listed in one
+selected variant together; do not mix variants or assume the base APK works
+alone. Sampling Android versions are not minimum-version promises: use the
+verified requirements of the actual delivered set. x86 variants are not currently
+sampled. Regional availability, login, licensing and Google Play services
+requirements remain separate from APK delivery. See
+[split APKs](docs/split-apks.md) and
+[Android device compatibility](https://developer.android.com/guide/topics/manifest/uses-sdk-element).
 
 ## For Wy Store and other clients
 

@@ -13,8 +13,9 @@ splits optional or guarantee that a sideloaded app will download them itself.
 
 The initial 55-app index contained four standalone sets (Kindle, Prime Video,
 international McDonald's and Starbucks US) and 51 sets with splits. This is an
-observation for the Pixel 9a delivery profile, not a universal promise for other
-devices or future versions.
+historical observation for the initial modern ARM64 delivery sample (`px_9a`),
+not a universal promise for other devices or future versions. The current
+pipeline samples multiple device classes as described below.
 
 Two published base APKs were downloaded, checked against their indexed SHA-256
 and inspected with Android `aapt2 dump xmltree`:
