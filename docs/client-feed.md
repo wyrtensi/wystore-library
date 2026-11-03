@@ -111,3 +111,14 @@ README version links are rendered from this same feed after successful APK
 sync or metadata collection. Wy Store 0.6.0 and newer consume this feed through
 the dedicated library source, independently of the ordinary GitHub source.
 The Android client is published by the main Wy Store repository, not this library.
+
+
+## Application categories and editorial shelves
+
+A `library/catalog.json` card may contain `categories`, a list of stable category
+identifiers such as `browsers`, `health`, `maps` or `ai`. These describe the app
+and are localized by the Android client for both search rows and app details.
+The optional `foreign_category` flag controls only membership in the library
+shelf; it must never replace the app category. The shelf is named `Wy Store`
+in every client language except Russian, where it is `Зарубежные`.
+Older cards without `categories` remain valid and display no invented category.

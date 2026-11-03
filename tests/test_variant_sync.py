@@ -35,16 +35,16 @@ class VariantSyncTests(unittest.TestCase):
 
     @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
     @patch('wystore_library.variant_sync.verify_manifest')
-    def test_migrates_six_variants_deduplicates_and_commits_before_cleanup(self, verify, compatibility):
+    def test_migrates_all_profiles_deduplicates_and_commits_before_cleanup(self, verify, compatibility):
         verify.return_value = self.verified
         self.assertTrue(run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles))
         app = self.committed['applications'][0]
-        self.assertEqual(len(app['variants']), 6)
+        self.assertEqual({v['id'] for v in app['variants']}, set(self.profiles))
         self.assertEqual(len(app['artifacts']), 1)
         self.assertEqual(len(self.committed['entries']), 1)
         self.assertEqual(self.committed['entries'][0]['assets'][0]['name'], self.verified['files'][0]['sha256'] + '.apk')
         self.assertEqual(self.events, ['index', 'cleanup'])
-        self.assertEqual(self.client.pull.call_count, 6)
+        self.assertEqual(self.client.pull.call_count, len(self.profiles))
 
     @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
     @patch('wystore_library.variant_sync.verify_manifest')

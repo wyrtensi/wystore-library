@@ -5,7 +5,7 @@ from wystore_library.profiles import load_profiles, profile_fingerprint
 class ProfilesTests(unittest.TestCase):
     def test_registry_and_fingerprint(self):
         profiles = load_profiles(Path('delivery-profiles.json'))
-        self.assertEqual(len(profiles), 6)
+        self.assertEqual(len({profile_fingerprint(p) for p in profiles.values()}), len(profiles))
         self.assertEqual(profiles['legacy_armv7_ru']['abis'], ['armeabi-v7a'])
         self.assertEqual(profiles['legacy_arm64_en']['base'], 'op_3')
         self.assertEqual(profiles['legacy_arm64_ru']['base'], 'op_3')

@@ -22,10 +22,35 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  plan:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      matrix: ${{ steps.batches.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Plan bounded application batches
+        id: batches
+        env:
+          PACKAGES: ${{ inputs.packages }}
+        run: |
+          echo "matrix=$(python -m wystore_library.sync_batches --packages "$PACKAGES")" >> "$GITHUB_OUTPUT"
+
   sync:
+    needs: plan
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 180
+    strategy:
+      fail-fast: true
+      max-parallel: 1
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -84,7 +109,7 @@ jobs:
           GOOGLE_AAS_TOKEN: ${{ secrets.GOOGLE_AAS_TOKEN }}
           GH_TOKEN: ${{ github.token }}
           CHECK_ONLY: ${{ inputs.check_only }}
-          PACKAGES: ${{ inputs.packages }}
+          PACKAGES: ${{ matrix.packages }}
         run: |
           args=()
           if [ "$CHECK_ONLY" = "true" ]; then args+=(--check-only); fi

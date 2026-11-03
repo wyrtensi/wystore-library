@@ -27,13 +27,15 @@ RuStore and GitHub; app service availability remains subject to publisher rules.
 Click a version to open that application's current APK set. App names lead to
 saved descriptions, artwork and release notes.
 
-The library samples three device classes, each in English and Russian:
+The registry requests 18 delivery samples across these architectures, each in
+English and Russian. The table below describes requested coverage; an app gains
+a variant only after synchronization downloads and verifies its complete APK set:
 
 | Device class | Sampling Android version | Architecture | Sampling density |
 | --- | --- | --- | --- |
-| Modern ARM64 | Android 15 (SDK 35) | `arm64-v8a` | 420 dpi |
-| Older ARM64 | Android 10 (SDK 29) | `arm64-v8a` | 420 dpi |
-| Older 32-bit ARM | Android 8 (SDK 26) | `armeabi-v7a` | 320 dpi |
+| ARM64 | Android 9, 10, 12, 13, 15, 16 (SDK 28/29/31/33/35/36) | `arm64-v8a` | 320 / 420 dpi |
+| 32-bit ARM | Android 8, 12 (SDK 26/31) | `armeabi-v7a` | 320 dpi |
+| x86-64 | Android 13 (SDK 33) | `x86_64` | 320 dpi |
 
 These are delivery samples, not phone-model restrictions. A client selects a
 complete compatible set using its verified Android, ABI, language, density,
@@ -179,7 +181,7 @@ ordinary GitHub repositories keep their existing release-based behavior.
 
 ### Using the library in Wy Store
 
-- Enable the Wy Store source in app source settings, then use the **Wy Store** search filter or the **Foreign apps** category directly after GitHub on Home.
+- Enable the Wy Store source in app source settings, then use the **Wy Store** search filter or the **Wy Store** category (**Зарубежные** in Russian) directly after GitHub on Home.
 - Where the same package exists in several sources, its app card offers source selection. Compatible signatures allow updates; an incompatible signature requires an explicitly confirmed reinstall that can remove local app data.
 - Wy Store checks native version codes before downloading and selects a complete APK set for the device's Android version, architecture and other compatibility requirements. One index checks the whole library without parsing every release page.
 
