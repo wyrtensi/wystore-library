@@ -26330,6 +26330,12 @@
     {
       "artifacts": [
         {
+          "name": "28118ca082ece0eca50819dadbc6958895418ef1ad0db9ccfa3083518308a1b1.apk",
+          "sha256": "28118ca082ece0eca50819dadbc6958895418ef1ad0db9ccfa3083518308a1b1",
+          "size": 343649403,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/28118ca082ece0eca50819dadbc6958895418ef1ad0db9ccfa3083518308a1b1.apk"
+        },
+        {
           "name": "33068abe7c5ace24d72859a644b58997b423dec8ea5e399cf8395528544adbc8.apk",
           "sha256": "33068abe7c5ace24d72859a644b58997b423dec8ea5e399cf8395528544adbc8",
           "size": 8200459,
@@ -26340,6 +26346,24 @@
           "sha256": "5d0b2fbd800ce7a5ebe6d372095a0f4f0d39d8dabfedf2d77b1efc8f6db9f9e2",
           "size": 342690939,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/5d0b2fbd800ce7a5ebe6d372095a0f4f0d39d8dabfedf2d77b1efc8f6db9f9e2.apk"
+        },
+        {
+          "name": "90f8ebc1a7ffb3b7d9898770258d4f6f3978e41767c920d38f555567d3cebdef.apk",
+          "sha256": "90f8ebc1a7ffb3b7d9898770258d4f6f3978e41767c920d38f555567d3cebdef",
+          "size": 8200459,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/90f8ebc1a7ffb3b7d9898770258d4f6f3978e41767c920d38f555567d3cebdef.apk"
+        },
+        {
+          "name": "bc40011cb6cbf92e2876762667e5f37554651040413404a3f4e424b3ad1ca220.apk",
+          "sha256": "bc40011cb6cbf92e2876762667e5f37554651040413404a3f4e424b3ad1ca220",
+          "size": 8200459,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/bc40011cb6cbf92e2876762667e5f37554651040413404a3f4e424b3ad1ca220.apk"
+        },
+        {
+          "name": "d4ea8e3183a45ef3b7df6077d6327d9a87ae454811bf43a68d9ea7aed944f443.apk",
+          "sha256": "d4ea8e3183a45ef3b7df6077d6327d9a87ae454811bf43a68d9ea7aed944f443",
+          "size": 350403622,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/d4ea8e3183a45ef3b7df6077d6327d9a87ae454811bf43a68d9ea7aed944f443.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -26347,10 +26371,10 @@
       "package": "com.vivaldi.browser",
       "publication": {
         "catalog": {
-          "name": "catalog-1532c7eaa05383b24f956d6cd24a99c0cf4758c8d91dc2500535dd1bba1c3809.json",
-          "sha256": "1532c7eaa05383b24f956d6cd24a99c0cf4758c8d91dc2500535dd1bba1c3809",
-          "size": 7066,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/catalog-1532c7eaa05383b24f956d6cd24a99c0cf4758c8d91dc2500535dd1bba1c3809.json"
+          "name": "catalog-d063775bb1c46dda83977394d187f1cfead21b43d25a0b0b6fea67b1ab6cb41d.json",
+          "sha256": "d063775bb1c46dda83977394d187f1cfead21b43d25a0b0b6fea67b1ab6cb41d",
+          "size": 30842,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/catalog-d063775bb1c46dda83977394d187f1cfead21b43d25a0b0b6fea67b1ab6cb41d.json"
         },
         "compat_manifest": {
           "name": "manifest-25e29a87af4568362c529132312001295adf3c149151758b31ecb3c7459e3ed1.json",
@@ -26362,6 +26386,30 @@
         "tag": "com.vivaldi.browser-library"
       },
       "unavailable": [
+        {
+          "id": "android12_armv7_en",
+          "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android12_armv7_ru",
+          "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_en",
+          "profile_fingerprint": "be05300b1a1a01b7e63da9d8df1e2a5c558be09f3dee7b831bf4b63aae2344d2",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_ru",
+          "profile_fingerprint": "dd34bd49045a6d0eb1f4351ab95578fcb34ec50f82213af3ee6a03de1fe039e0",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
         {
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
@@ -26388,6 +26436,1046 @@
         }
       ],
       "variants": [
+        {
+          "certificate_sha256": [
+            "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "en-US",
+              "es",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "chrome__module"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "28118ca082ece0eca50819dadbc6958895418ef1ad0db9ccfa3083518308a1b1",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "bc40011cb6cbf92e2876762667e5f37554651040413404a3f4e424b3ad1ca220",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            }
+          ],
+          "id": "android12_arm64_en",
+          "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
+          "version_code": 541470201,
+          "version_name": "8.2.4147.201"
+        },
+        {
+          "certificate_sha256": [
+            "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "en-US",
+              "es",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "chrome__module"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "28118ca082ece0eca50819dadbc6958895418ef1ad0db9ccfa3083518308a1b1",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "bc40011cb6cbf92e2876762667e5f37554651040413404a3f4e424b3ad1ca220",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            }
+          ],
+          "id": "android12_arm64_ru",
+          "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
+          "version_code": 541470201,
+          "version_name": "8.2.4147.201"
+        },
+        {
+          "certificate_sha256": [
+            "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "en-US",
+              "es",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "chrome__module"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "5d0b2fbd800ce7a5ebe6d372095a0f4f0d39d8dabfedf2d77b1efc8f6db9f9e2",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "33068abe7c5ace24d72859a644b58997b423dec8ea5e399cf8395528544adbc8",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            }
+          ],
+          "id": "android13_arm64_en",
+          "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
+          "version_code": 541470201,
+          "version_name": "8.2.4147.201"
+        },
+        {
+          "certificate_sha256": [
+            "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "en-US",
+              "es",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "chrome__module"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "5d0b2fbd800ce7a5ebe6d372095a0f4f0d39d8dabfedf2d77b1efc8f6db9f9e2",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "33068abe7c5ace24d72859a644b58997b423dec8ea5e399cf8395528544adbc8",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            }
+          ],
+          "id": "android13_arm64_ru",
+          "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
+          "version_code": 541470201,
+          "version_name": "8.2.4147.201"
+        },
+        {
+          "certificate_sha256": [
+            "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
+          ],
+          "compatibility": {
+            "abis": [
+              "x86_64"
+            ],
+            "density": 320,
+            "gl_es_version": 196608,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "en-US",
+              "es",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "x86_64"
+            ],
+            "provided_split_types": [
+              "chrome__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "chrome__module"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "d4ea8e3183a45ef3b7df6077d6327d9a87ae454811bf43a68d9ea7aed944f443",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "90f8ebc1a7ffb3b7d9898770258d4f6f3978e41767c920d38f555567d3cebdef",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            }
+          ],
+          "id": "android13_x86_64_en",
+          "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
+          "version_code": 741470201,
+          "version_name": "8.2.4147.201"
+        },
+        {
+          "certificate_sha256": [
+            "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
+          ],
+          "compatibility": {
+            "abis": [
+              "x86_64"
+            ],
+            "density": 320,
+            "gl_es_version": 196608,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "en-US",
+              "es",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "x86_64"
+            ],
+            "provided_split_types": [
+              "chrome__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "chrome__module"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "d4ea8e3183a45ef3b7df6077d6327d9a87ae454811bf43a68d9ea7aed944f443",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "90f8ebc1a7ffb3b7d9898770258d4f6f3978e41767c920d38f555567d3cebdef",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            }
+          ],
+          "id": "android13_x86_64_ru",
+          "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
+          "version_code": 741470201,
+          "version_name": "8.2.4147.201"
+        },
+        {
+          "certificate_sha256": [
+            "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "en-US",
+              "es",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "chrome__module"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "5d0b2fbd800ce7a5ebe6d372095a0f4f0d39d8dabfedf2d77b1efc8f6db9f9e2",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "33068abe7c5ace24d72859a644b58997b423dec8ea5e399cf8395528544adbc8",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            }
+          ],
+          "id": "android16_arm64_en",
+          "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
+          "version_code": 541470201,
+          "version_name": "8.2.4147.201"
+        },
+        {
+          "certificate_sha256": [
+            "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-GB",
+              "en-US",
+              "es",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "chrome__module"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "5d0b2fbd800ce7a5ebe6d372095a0f4f0d39d8dabfedf2d77b1efc8f6db9f9e2",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "33068abe7c5ace24d72859a644b58997b423dec8ea5e399cf8395528544adbc8",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            }
+          ],
+          "id": "android16_arm64_ru",
+          "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
+          "version_code": 541470201,
+          "version_name": "8.2.4147.201"
+        },
         {
           "certificate_sha256": [
             "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
