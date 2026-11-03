@@ -38497,6 +38497,30 @@
     {
       "artifacts": [
         {
+          "name": "0e9ce4cd971b6622f661214850993ebbb322c81121fc308fb9aacb8cc954414b.apk",
+          "sha256": "0e9ce4cd971b6622f661214850993ebbb322c81121fc308fb9aacb8cc954414b",
+          "size": 735957,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/0e9ce4cd971b6622f661214850993ebbb322c81121fc308fb9aacb8cc954414b.apk"
+        },
+        {
+          "name": "1ee0a320f5d8bc94e9fb3575dcbc7d3c88b64e00cee9f3c1065f366c04793393.apk",
+          "sha256": "1ee0a320f5d8bc94e9fb3575dcbc7d3c88b64e00cee9f3c1065f366c04793393",
+          "size": 3101382,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/1ee0a320f5d8bc94e9fb3575dcbc7d3c88b64e00cee9f3c1065f366c04793393.apk"
+        },
+        {
+          "name": "306d31e4b8a0e8c2d196ab56de5f6fa86e35ec748d191aae048d76c93c20ed42.apk",
+          "sha256": "306d31e4b8a0e8c2d196ab56de5f6fa86e35ec748d191aae048d76c93c20ed42",
+          "size": 569665,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/306d31e4b8a0e8c2d196ab56de5f6fa86e35ec748d191aae048d76c93c20ed42.apk"
+        },
+        {
+          "name": "3da05b3c71dc58b0dea3ae281fd0820fe4af82ebbdb6bc45ec7b951c70526745.apk",
+          "sha256": "3da05b3c71dc58b0dea3ae281fd0820fe4af82ebbdb6bc45ec7b951c70526745",
+          "size": 635090,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/3da05b3c71dc58b0dea3ae281fd0820fe4af82ebbdb6bc45ec7b951c70526745.apk"
+        },
+        {
           "name": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99.apk",
           "sha256": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99",
           "size": 682709,
@@ -38507,6 +38531,12 @@
           "sha256": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457",
           "size": 3101382,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457.apk"
+        },
+        {
+          "name": "91dbc3adb6dd861802d9952adb6c1499b6d5df657111a4f8a77605602738ec26.apk",
+          "sha256": "91dbc3adb6dd861802d9952adb6c1499b6d5df657111a4f8a77605602738ec26",
+          "size": 3113649,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/91dbc3adb6dd861802d9952adb6c1499b6d5df657111a4f8a77605602738ec26.apk"
         },
         {
           "name": "ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b.apk",
@@ -38525,6 +38555,18 @@
           "sha256": "dac4bbcc45770f841b61c5ebe1efed97f08766c9944d1ec521affe05466a2608",
           "size": 684242,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/dac4bbcc45770f841b61c5ebe1efed97f08766c9944d1ec521affe05466a2608.apk"
+        },
+        {
+          "name": "f04d8c7284520a56604d609d5f9faa1d27f5733d983f3272090c9ecc0b8baafc.apk",
+          "sha256": "f04d8c7284520a56604d609d5f9faa1d27f5733d983f3272090c9ecc0b8baafc",
+          "size": 684242,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/f04d8c7284520a56604d609d5f9faa1d27f5733d983f3272090c9ecc0b8baafc.apk"
+        },
+        {
+          "name": "ffc7e443b33050776ebfbd11c302c8ec94ded7f9f7e106eb3cc9d4b69a86ba72.apk",
+          "sha256": "ffc7e443b33050776ebfbd11c302c8ec94ded7f9f7e106eb3cc9d4b69a86ba72",
+          "size": 50011898,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/ffc7e443b33050776ebfbd11c302c8ec94ded7f9f7e106eb3cc9d4b69a86ba72.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -38532,10 +38574,10 @@
       "package": "deezer.android.app",
       "publication": {
         "catalog": {
-          "name": "catalog-14666bba2caea40863bda8d19a8071dbf72b6da3d8814525e42d5503684fa422.json",
-          "sha256": "14666bba2caea40863bda8d19a8071dbf72b6da3d8814525e42d5503684fa422",
-          "size": 6554,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/catalog-14666bba2caea40863bda8d19a8071dbf72b6da3d8814525e42d5503684fa422.json"
+          "name": "catalog-38a87e0343b0289fa92cace9bad875e0c51a3346ae7d2fa0880c2749f9c359dc.json",
+          "sha256": "38a87e0343b0289fa92cace9bad875e0c51a3346ae7d2fa0880c2749f9c359dc",
+          "size": 24876,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/deezer.android.app-library/catalog-38a87e0343b0289fa92cace9bad875e0c51a3346ae7d2fa0880c2749f9c359dc.json"
         },
         "compat_manifest": {
           "name": "manifest-310b683b8ae518d2e56d7b6b0a2953f13a8aeb8dd2d8325900eb4a7a3e07490e.json",
@@ -38547,6 +38589,30 @@
         "tag": "deezer.android.app-library"
       },
       "unavailable": [
+        {
+          "id": "android12_armv7_en",
+          "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android12_armv7_ru",
+          "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_en",
+          "profile_fingerprint": "be05300b1a1a01b7e63da9d8df1e2a5c558be09f3dee7b831bf4b63aae2344d2",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_ru",
+          "profile_fingerprint": "dd34bd49045a6d0eb1f4351ab95578fcb34ec50f82213af3ee6a03de1fe039e0",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
         {
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
@@ -38573,6 +38639,514 @@
         }
       ],
       "variants": [
+        {
+          "certificate_sha256": [
+            "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "en",
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ffc7e443b33050776ebfbd11c302c8ec94ded7f9f7e106eb3cc9d4b69a86ba72",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1ee0a320f5d8bc94e9fb3575dcbc7d3c88b64e00cee9f3c1065f366c04793393",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "3da05b3c71dc58b0dea3ae281fd0820fe4af82ebbdb6bc45ec7b951c70526745",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "0e9ce4cd971b6622f661214850993ebbb322c81121fc308fb9aacb8cc954414b",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android12_arm64_en",
+          "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
+          "version_code": 9002504,
+          "version_name": "9.0.25.4"
+        },
+        {
+          "certificate_sha256": [
+            "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ffc7e443b33050776ebfbd11c302c8ec94ded7f9f7e106eb3cc9d4b69a86ba72",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1ee0a320f5d8bc94e9fb3575dcbc7d3c88b64e00cee9f3c1065f366c04793393",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "f04d8c7284520a56604d609d5f9faa1d27f5733d983f3272090c9ecc0b8baafc",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "0e9ce4cd971b6622f661214850993ebbb322c81121fc308fb9aacb8cc954414b",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android12_arm64_ru",
+          "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
+          "version_code": 9002504,
+          "version_name": "9.0.25.4"
+        },
+        {
+          "certificate_sha256": [
+            "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "en",
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android13_arm64_en",
+          "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
+          "version_code": 9002504,
+          "version_name": "9.0.25.4"
+        },
+        {
+          "certificate_sha256": [
+            "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "dac4bbcc45770f841b61c5ebe1efed97f08766c9944d1ec521affe05466a2608",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android13_arm64_ru",
+          "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
+          "version_code": 9002504,
+          "version_name": "9.0.25.4"
+        },
+        {
+          "certificate_sha256": [
+            "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
+          ],
+          "compatibility": {
+            "abis": [
+              "x86_64"
+            ],
+            "density": 320,
+            "gl_es_version": null,
+            "languages": [
+              "en",
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "x86_64"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "91dbc3adb6dd861802d9952adb6c1499b6d5df657111a4f8a77605602738ec26",
+              "original_name": "split_config.x86_64.apk",
+              "role": "split",
+              "split": "config.x86_64"
+            },
+            {
+              "artifact": "306d31e4b8a0e8c2d196ab56de5f6fa86e35ec748d191aae048d76c93c20ed42",
+              "original_name": "split_config.xhdpi.apk",
+              "role": "split",
+              "split": "config.xhdpi"
+            }
+          ],
+          "id": "android13_x86_64_en",
+          "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
+          "version_code": 9002504,
+          "version_name": "9.0.25.4"
+        },
+        {
+          "certificate_sha256": [
+            "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
+          ],
+          "compatibility": {
+            "abis": [
+              "x86_64"
+            ],
+            "density": 320,
+            "gl_es_version": null,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "x86_64"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "dac4bbcc45770f841b61c5ebe1efed97f08766c9944d1ec521affe05466a2608",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "91dbc3adb6dd861802d9952adb6c1499b6d5df657111a4f8a77605602738ec26",
+              "original_name": "split_config.x86_64.apk",
+              "role": "split",
+              "split": "config.x86_64"
+            },
+            {
+              "artifact": "306d31e4b8a0e8c2d196ab56de5f6fa86e35ec748d191aae048d76c93c20ed42",
+              "original_name": "split_config.xhdpi.apk",
+              "role": "split",
+              "split": "config.xhdpi"
+            }
+          ],
+          "id": "android13_x86_64_ru",
+          "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
+          "version_code": 9002504,
+          "version_name": "9.0.25.4"
+        },
+        {
+          "certificate_sha256": [
+            "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "en",
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "ab0de3f21b15e479950ba99d45fbae8f3dac6e8a949364d865d5b8210b92295b",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android16_arm64_en",
+          "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
+          "version_code": 9002504,
+          "version_name": "9.0.25.4"
+        },
+        {
+          "certificate_sha256": [
+            "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": null,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bf61040a845b1220c1d3fb747461102f8b84af6b6e01553896eac8e6ce600070",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7ad4563bdf35928bd30046ec7360936ecacdbf713f139d0d03493148e5ef2457",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "dac4bbcc45770f841b61c5ebe1efed97f08766c9944d1ec521affe05466a2608",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "4448ff3f201731013dd2c0d27b75a943443e61ed31a60544be9938ddd7679c99",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android16_arm64_ru",
+          "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
+          "version_code": 9002504,
+          "version_name": "9.0.25.4"
+        },
         {
           "certificate_sha256": [
             "51a891a6c5d17b4e36a6f46bab675c1cae786a5af06f51d0105dab7ec6a94516"
