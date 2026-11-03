@@ -11,7 +11,7 @@
       "versionName": "2.384.0",
       "updatedDate": "2026-10-27",
       "playUrl": "https://play.google.com/store/apps/details?id=com.canva.editor",
-      "changelog": null,
+      "changelog": "Мы разрабатываем и тестируем функции, которые вам нужны больше всего.  Тем временем мы не хотим оставлять вас без недельных обновлений, так что встречайте свежие исправления и улучшения. <br><br>Как мы можем помочь? Делитесь вопросами или отзывами: canva.com/help. <br><br>Удачных дизайнов!",
       "icon": "images/e39c9effe0dece99936bd241d1b9dcc0f092f248bcbee71d7eb0cce47ff5b695.png",
       "screenshots": [
         "images/c2d04d433cf33a20b880689ae9f0819c09cd0385c6fed9f00c108fb0368ec138.png",
@@ -32,7 +32,7 @@
       "versionName": "2.384.0",
       "updatedDate": "2026-10-27",
       "playUrl": "https://play.google.com/store/apps/details?id=com.canva.editor",
-      "changelog": null,
+      "changelog": "We’re working on bigger and better features. Meanwhile, we freshened up the app with new content and minor bug fixes. <br><br>Got a question in mind? Let us know at canva.com/help<br><br>Happy designing!",
       "icon": "images/e39c9effe0dece99936bd241d1b9dcc0f092f248bcbee71d7eb0cce47ff5b695.png",
       "screenshots": [
         "images/c2d04d433cf33a20b880689ae9f0819c09cd0385c6fed9f00c108fb0368ec138.png",
@@ -47,8 +47,20 @@
     }
   },
   "changelogHistory": {
-    "ru_RU": [],
-    "en_US": []
+    "ru_RU": [
+      {
+        "versionName": "2.384.0",
+        "updatedDate": "2026-10-27",
+        "text": "Мы разрабатываем и тестируем функции, которые вам нужны больше всего.  Тем временем мы не хотим оставлять вас без недельных обновлений, так что встречайте свежие исправления и улучшения. <br><br>Как мы можем помочь? Делитесь вопросами или отзывами: canva.com/help. <br><br>Удачных дизайнов!"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "2.384.0",
+        "updatedDate": "2026-10-27",
+        "text": "We’re working on bigger and better features. Meanwhile, we freshened up the app with new content and minor bug fixes. <br><br>Got a question in mind? Let us know at canva.com/help<br><br>Happy designing!"
+      }
+    ]
   },
   "imageSources": {
     "https://play-lh.googleusercontent.com/52fzAlhKzDyZV8ttyQ_DHB-jOeLZAZEdKlgXnWL__YNMZuvsoRCshJX5mr_ArFZjK7rte4hqEJ4ucjtuKJK5": "e39c9effe0dece99936bd241d1b9dcc0f092f248bcbee71d7eb0cce47ff5b695.png",

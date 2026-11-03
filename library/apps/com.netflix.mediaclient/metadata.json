@@ -9,7 +9,7 @@
       "description": "Ищете фильмы и сериалы, которые смотрят и обсуждают во всем мире? Все это есть на Netflix.<br><br>Откройте для себя удостоенные наград фильмы, сериалы, прямые трансляции, подкасты и игры с мобильным приложением. Теперь вы не пропустите ни одного момента из мира Netflix ни в путешествии, ни по дороге на работу, ни в перерыве между дел.<br><br>Вот почему вам понравится Netflix: <br><br>- Удобная навигация: кнопки внизу экрана для быстрого поиска или перехода к любимому контенту. <br><br>- Новые способы выбрать, что посмотреть, в том числе — в скором будущем — лента с клипами.<br><br>- Целый мир развлечений — фильмы, сериалы, прямые трансляции, игры и подкасты — в одном месте.<br><br>- Возможность сохранять все, что вам нравится, от любимых моментов до контента в разделе «Мой список», во вкладке «Мой Netflix». <br><br>- Персонализированные рекомендации на основе ваших оценок. Мгновенные уведомления о новых релизах, эпизодах и прямых трансляциях.<br><br><br>Подписка Netflix представляет собой ежемесячную подписку, которая начинается с момента регистрации. Ее можно отменить онлайн в любой момент, в любое время суток. У нас нет долгосрочных контрактов или штрафов за отмену подписки. Мы просто хотим, чтобы вам нравилось то, что вы смотрите.<br><br><br>Обратите внимание, что Положение о конфиденциальности приложения применяется к данным, полученным с помощью приложений Netflix для iOS, iPadOS и tvOS. Дополнительные сведения о данных, которые мы собираем в других ситуациях, в том при регистрации аккаунта, можно найти в Положении о конфиденциальности Netflix (ссылка доступна ниже).<br><br>Политика конфиденциальности: www.netflix.com/privacy<br>Правила использования: www.netflix.com/terms<br><br>Номер телефона: +18667160414<br>Электронная почта: iosappstore@netflix.com",
       "shortDescription": "Netflix — ведущий сервис для просмотра фильмов и сериалов по подписке.",
       "versionName": null,
-      "updatedDate": "2026-10-27",
+      "updatedDate": "2026-11-03",
       "playUrl": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient",
       "changelog": "Чтобы вам было удобно смотреть свежие хиты и нестареющую классику, обновите приложение Netflix на телефоне и планшете.",
       "icon": "images/e07a41e8afc91b3ff66ddd02e6b8378e786034721acfa948e43de85449c7971b.png",
@@ -30,7 +30,7 @@
       "description": "Looking for the most talked about TV shows and movies from around the world? They're all on Netflix.<br><br>Discover award-winning series, movies, live events, podcasts, and games on the go - all in the mobile app. Now, you'll never miss a moment from the world of Netflix while you travel, commute, or just take a break.<br><br>What you'll love about Netflix: <br><br>- Smooth navigation with bottom shortcuts to quickly browse or jump back into your favorites. <br><br>- A new way to discover what's next, including an upcoming clips feed.<br><br>- A full world of entertainment in one place - series, movies, live events, games, and podcasts.<br><br>- Keep track of everything you love, from your favorite moments to 'My List', in the 'My Netflix' tab. <br><br>- Personalized recommendations based on your ratings. Instant notifications for new releases, episodes, and live events.<br><br><br>Netflix membership is a month-to-month subscription that begins at sign-up. You can easily cancel anytime, online, 24 hours a day. There are no long-term contracts or cancellation fees. We just want you to love what you watch.<br><br><br>Please note that the App Privacy information applies to information collected through the Netflix iOS, iPadOS, and tvOS apps. See the Netflix Privacy Statement (link below) to learn more about information we collect in other contexts, including account registration.<br><br>Privacy policy: www.netflix.com/privacy<br>Terms of use: www.netflix.com/terms<br><br>Phone Number: +18667160414<br>Email: iosappstore@netflix.com",
       "shortDescription": "Netflix is the leading subscription service for watching TV episodes and movies.",
       "versionName": null,
-      "updatedDate": "2026-10-27",
+      "updatedDate": "2026-11-03",
       "playUrl": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient",
       "changelog": "Get the best experience for enjoying recent hits and timeless classics with our latest Netflix update for your phone and tablet.",
       "icon": "images/e07a41e8afc91b3ff66ddd02e6b8378e786034721acfa948e43de85449c7971b.png",
@@ -52,12 +52,22 @@
         "versionName": null,
         "updatedDate": "2026-10-27",
         "text": "Чтобы вам было удобно смотреть свежие хиты и нестареющую классику, обновите приложение Netflix на телефоне и планшете."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-03",
+        "text": "Чтобы вам было удобно смотреть свежие хиты и нестареющую классику, обновите приложение Netflix на телефоне и планшете."
       }
     ],
     "en_US": [
       {
         "versionName": null,
         "updatedDate": "2026-10-27",
+        "text": "Get the best experience for enjoying recent hits and timeless classics with our latest Netflix update for your phone and tablet."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-03",
         "text": "Get the best experience for enjoying recent hits and timeless classics with our latest Netflix update for your phone and tablet."
       }
     ]
