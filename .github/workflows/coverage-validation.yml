@@ -63,11 +63,11 @@ jobs:
           test -x "$tools/aapt2"
           echo "$tools" >> "$GITHUB_PATH"
       - name: Read current published certificates after acquiring the library lock
+        working-directory: library
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh api "repos/$GITHUB_REPOSITORY/contents/library/index.json?ref=main" --jq .content > "$RUNNER_TEMP/index.base64"
-          base64 --decode "$RUNNER_TEMP/index.base64" > "$RUNNER_TEMP/current-index.json"
+          python -c "import json, os; from pathlib import Path; from wystore_library.github import Publisher; Path(os.environ['RUNNER_TEMP'], 'current-index.json').write_text(json.dumps(Publisher(os.environ['GITHUB_REPOSITORY']).read_index()), encoding='utf-8')"
       - name: Validate all profiles in this batch
         working-directory: library
         env:

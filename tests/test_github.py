@@ -4,6 +4,31 @@ from subprocess import CompletedProcess
 from wystore_library.github import Publisher
 
 class GitHubTests(unittest.TestCase):
+    def test_large_index_reads_the_exact_blob_and_keeps_its_update_sha(self):
+        import json
+        from unittest.mock import Mock
+        publisher = Publisher('owner/repo')
+        index = {'schema': 1, 'entries': [], 'padding': 'x' * 1_048_577}
+        publisher._gh = Mock(side_effect=[
+            json.dumps({'sha': 'large-index-sha', 'encoding': 'none', 'content': '', 'size': 1_048_900}),
+            json.dumps(index),
+        ])
+        self.assertEqual(publisher.read_index(), index)
+        self.assertEqual(publisher.index_sha, 'large-index-sha')
+        self.assertTrue(publisher.index_read)
+        publisher._gh.assert_called_with('api', 'repos/owner/repo/git/blobs/large-index-sha',
+                                         '-H', 'Accept: application/vnd.github.raw+json')
+
+    def test_malformed_large_index_is_rejected_without_advancing_read_state(self):
+        import json
+        from unittest.mock import Mock
+        publisher = Publisher('owner/repo')
+        publisher._gh = Mock(side_effect=[json.dumps({'sha': 'large-sha', 'encoding': 'none'}), '{broken'])
+        with self.assertRaises(ValueError):
+            publisher.read_index()
+        self.assertFalse(publisher.index_read)
+        self.assertIsNone(publisher.index_sha)
+
     @patch('wystore_library.github.subprocess.run')
     def test_command_failure_does_not_expose_output(self, run):
         run.return_value = CompletedProcess([], 1, '', 'secret token')

@@ -14,7 +14,7 @@ class Publisher:
         self.index_read = False
 
     def _gh(self, *args, allow_not_found=False, input_data=None):
-        result = subprocess.run(['gh', *args], input=input_data, capture_output=True, text=True, check=False)
+        result = subprocess.run(['gh', *args], input=input_data, capture_output=True, text=True, encoding='utf-8', check=False)
         if result.returncode:
             if allow_not_found and ('HTTP 404' in result.stderr):
                 return None
@@ -42,37 +42,46 @@ class Publisher:
             raise ValueError('Multiple releases match the same tag')
         return matches[0] if matches else None
 
-    def read_index(self):
-        raw = self._gh('api', f'repos/{self.repository}/contents/library/index.json?ref=main', allow_not_found=True)
+    def _read_file(self, path, *, allow_not_found=False):
+        raw = self._gh('api', f'repos/{self.repository}/contents/{path}?ref=main', allow_not_found=allow_not_found)
         if raw is None:
+            return None
+        try:
+            response = json.loads(raw)
+            if not isinstance(response, dict) or not isinstance(response.get('sha'), str) or not response['sha']:
+                raise ValueError('Invalid file response')
+            if response.get('encoding') == 'base64':
+                content = base64.b64decode(''.join(response['content'].split()), validate=True).decode('utf-8')
+            elif response.get('encoding') == 'none':
+                # Contents omits payloads above 1 MB. Read the immutable blob,
+                # retaining the same SHA for the later optimistic index write.
+                content = self._gh('api', f"repos/{self.repository}/git/blobs/{quote(response['sha'], safe='')}",
+                                   '-H', 'Accept: application/vnd.github.raw+json')
+            else:
+                raise ValueError('Unsupported file encoding')
+            return content, response['sha']
+        except (KeyError, TypeError, ValueError, UnicodeError, binascii.Error):
+            raise ValueError('Invalid published file') from None
+
+    def read_index(self):
+        record = self._read_file('library/index.json', allow_not_found=True)
+        if record is None:
             self.index_sha = None
             self.index_read = True
             return {'schema': 1, 'entries': []}
+        content, sha = record
         try:
-            response = json.loads(raw)
-            if response.get('encoding') != 'base64' or not isinstance(response.get('sha'), str) or not response['sha']:
-                raise ValueError('Invalid index response')
-            content = base64.b64decode(''.join(response['content'].split()), validate=True)
-            index = json.loads(content.decode('utf-8'))
+            index = json.loads(content)
             if not isinstance(index, dict) or index.get('schema') != 1 or not isinstance(index.get('entries'), list):
                 raise ValueError('Invalid published index')
-        except (KeyError, TypeError, ValueError, UnicodeError, binascii.Error):
+        except (TypeError, ValueError):
             raise ValueError('Invalid published index') from None
-        self.index_sha = response['sha']
+        self.index_sha = sha
         self.index_read = True
         return index
 
     def read_readme(self):
-        raw = self._gh('api', f'repos/{self.repository}/contents/README.md?ref=main')
-        try:
-            response = json.loads(raw)
-            sha = response['sha']
-            if response.get('encoding') != 'base64' or not isinstance(sha, str) or not sha:
-                raise ValueError('Invalid README response')
-            content = base64.b64decode(''.join(response['content'].split()), validate=True).decode('utf-8')
-        except (KeyError, TypeError, ValueError, UnicodeError, binascii.Error):
-            raise ValueError('Invalid README response') from None
-        return content, sha
+        return self._read_file('README.md')
 
     def write_readme(self, content, sha):
         if not isinstance(content, str) or not isinstance(sha, str) or not sha:
