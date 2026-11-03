@@ -24623,10 +24623,22 @@
     {
       "artifacts": [
         {
+          "name": "8985aaabdc8cbed1d73991ab82295d01a0ca282ea4efcb4927de896c300116ff.apk",
+          "sha256": "8985aaabdc8cbed1d73991ab82295d01a0ca282ea4efcb4927de896c300116ff",
+          "size": 188760156,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/8985aaabdc8cbed1d73991ab82295d01a0ca282ea4efcb4927de896c300116ff.apk"
+        },
+        {
           "name": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk",
           "sha256": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
           "size": 95710457,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk"
+        },
+        {
+          "name": "e8bf73e2ff18e0e2225411a0f80c50303b94d3df74c27f2abe7767f3e7a63bef.apk",
+          "sha256": "e8bf73e2ff18e0e2225411a0f80c50303b94d3df74c27f2abe7767f3e7a63bef",
+          "size": 95710457,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/e8bf73e2ff18e0e2225411a0f80c50303b94d3df74c27f2abe7767f3e7a63bef.apk"
         },
         {
           "name": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371.apk",
@@ -24640,10 +24652,10 @@
       "package": "com.facebook.stella",
       "publication": {
         "catalog": {
-          "name": "catalog-08c1bf40dada97ca86221684da2c3fb55fa1cc1387ec797a33fbaf02aa7078fb.json",
-          "sha256": "08c1bf40dada97ca86221684da2c3fb55fa1cc1387ec797a33fbaf02aa7078fb",
-          "size": 8063,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-08c1bf40dada97ca86221684da2c3fb55fa1cc1387ec797a33fbaf02aa7078fb.json"
+          "name": "catalog-bd35ae00816c42a411d74972e3ff0a1b1b224c7b599f6acc90894771ccc60e4c.json",
+          "sha256": "bd35ae00816c42a411d74972e3ff0a1b1b224c7b599f6acc90894771ccc60e4c",
+          "size": 29124,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-bd35ae00816c42a411d74972e3ff0a1b1b224c7b599f6acc90894771ccc60e4c.json"
         },
         "compat_manifest": {
           "name": "manifest-a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664.json",
@@ -24655,6 +24667,42 @@
         "tag": "com.facebook.stella-library"
       },
       "unavailable": [
+        {
+          "id": "android12_armv7_en",
+          "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android12_armv7_ru",
+          "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android13_x86_64_en",
+          "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android13_x86_64_ru",
+          "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_en",
+          "profile_fingerprint": "be05300b1a1a01b7e63da9d8df1e2a5c558be09f3dee7b831bf4b63aae2344d2",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_ru",
+          "profile_fingerprint": "dd34bd49045a6d0eb1f4351ab95578fcb34ec50f82213af3ee6a03de1fe039e0",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
         {
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
@@ -24681,6 +24729,882 @@
         }
       ],
       "variants": [
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 31
+          },
+          "certificate_sha256": [
+            "81b04887e8eb8a209f2e5e4042adcf696bf751e99abdbda132b66167fdca9431"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.bluetooth_le",
+              "android.hardware.camera",
+              "android.hardware.camera.autofocus",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            }
+          ],
+          "id": "android12_arm64_en",
+          "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
+          "version_code": 969702176,
+          "version_name": "297.0.0.22.166"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 31
+          },
+          "certificate_sha256": [
+            "81b04887e8eb8a209f2e5e4042adcf696bf751e99abdbda132b66167fdca9431"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.bluetooth_le",
+              "android.hardware.camera",
+              "android.hardware.camera.autofocus",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e8bf73e2ff18e0e2225411a0f80c50303b94d3df74c27f2abe7767f3e7a63bef",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "8985aaabdc8cbed1d73991ab82295d01a0ca282ea4efcb4927de896c300116ff",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            }
+          ],
+          "id": "android12_arm64_ru",
+          "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
+          "version_code": 969702175,
+          "version_name": "297.0.0.22.166"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 33
+          },
+          "certificate_sha256": [
+            "c56f50a826029dbd893a527103a224ca1ca2074ed79deee76fae18e1d6e6c768"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.bluetooth_le",
+              "android.hardware.camera",
+              "android.hardware.camera.autofocus",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e8bf73e2ff18e0e2225411a0f80c50303b94d3df74c27f2abe7767f3e7a63bef",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "8985aaabdc8cbed1d73991ab82295d01a0ca282ea4efcb4927de896c300116ff",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            }
+          ],
+          "id": "android13_arm64_en",
+          "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
+          "version_code": 969702175,
+          "version_name": "297.0.0.22.166"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 33
+          },
+          "certificate_sha256": [
+            "c56f50a826029dbd893a527103a224ca1ca2074ed79deee76fae18e1d6e6c768"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.bluetooth_le",
+              "android.hardware.camera",
+              "android.hardware.camera.autofocus",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            }
+          ],
+          "id": "android13_arm64_ru",
+          "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
+          "version_code": 969702176,
+          "version_name": "297.0.0.22.166"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 36
+          },
+          "certificate_sha256": [
+            "c56f50a826029dbd893a527103a224ca1ca2074ed79deee76fae18e1d6e6c768"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "en_US",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.bluetooth_le",
+              "android.hardware.camera",
+              "android.hardware.camera.autofocus",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            }
+          ],
+          "id": "android16_arm64_en",
+          "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
+          "version_code": 969702176,
+          "version_name": "297.0.0.22.166"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 36
+          },
+          "certificate_sha256": [
+            "c56f50a826029dbd893a527103a224ca1ca2074ed79deee76fae18e1d6e6c768"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "am",
+              "ar",
+              "as",
+              "az",
+              "be",
+              "bg",
+              "bn",
+              "bs",
+              "ca",
+              "cs",
+              "da",
+              "de",
+              "el",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-XC",
+              "es",
+              "es-ES",
+              "es-US",
+              "et",
+              "eu",
+              "fa",
+              "fi",
+              "fr",
+              "fr-CA",
+              "gl",
+              "gu",
+              "he",
+              "hi",
+              "hr",
+              "hu",
+              "hy",
+              "in",
+              "is",
+              "it",
+              "iw",
+              "ja",
+              "ka",
+              "kk",
+              "km",
+              "kn",
+              "ko",
+              "ky",
+              "lo",
+              "lt",
+              "lv",
+              "mk",
+              "ml",
+              "mn",
+              "mr",
+              "ms",
+              "my",
+              "nb",
+              "ne",
+              "nl",
+              "or",
+              "pa",
+              "pl",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ru",
+              "si",
+              "sk",
+              "sl",
+              "sq",
+              "sr",
+              "sr-Latn",
+              "sv",
+              "sw",
+              "ta",
+              "te",
+              "th",
+              "tl",
+              "tr",
+              "uk",
+              "ur",
+              "uz",
+              "vi",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.bluetooth_le",
+              "android.hardware.camera",
+              "android.hardware.camera.autofocus",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            }
+          ],
+          "id": "android16_arm64_ru",
+          "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
+          "version_code": 969702176,
+          "version_name": "297.0.0.22.166"
+        },
         {
           "certificate_scope": {
             "mode": "android-sdk",
