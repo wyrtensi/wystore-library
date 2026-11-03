@@ -19955,34 +19955,76 @@
     {
       "artifacts": [
         {
-          "name": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c.apk",
-          "sha256": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c",
-          "size": 21353609,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c.apk"
+          "name": "1234ec7248418b5386e72841232eec104cc3e7bb4fdfa2bcece3212720375931.apk",
+          "sha256": "1234ec7248418b5386e72841232eec104cc3e7bb4fdfa2bcece3212720375931",
+          "size": 94792532,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/1234ec7248418b5386e72841232eec104cc3e7bb4fdfa2bcece3212720375931.apk"
         },
         {
-          "name": "47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585.apk",
-          "sha256": "47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585",
-          "size": 991442,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585.apk"
+          "name": "250df724e89963d006ccf262926a2c980f74bd1187f8bd48e5cd516dd1ef79be.apk",
+          "sha256": "250df724e89963d006ccf262926a2c980f74bd1187f8bd48e5cd516dd1ef79be",
+          "size": 21386377,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/250df724e89963d006ccf262926a2c980f74bd1187f8bd48e5cd516dd1ef79be.apk"
         },
         {
-          "name": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1.apk",
-          "sha256": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1",
-          "size": 88246,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1.apk"
+          "name": "2648e8a6aba7f4158c2e772c31049f7048862998298a583070dea4c2b222e15d.apk",
+          "sha256": "2648e8a6aba7f4158c2e772c31049f7048862998298a583070dea4c2b222e15d",
+          "size": 1003730,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/2648e8a6aba7f4158c2e772c31049f7048862998298a583070dea4c2b222e15d.apk"
         },
         {
-          "name": "6b99b825ff86a8acf390592dbcbaac0800fbaed38e0a1d59ee338a0364ed51b8.apk",
-          "sha256": "6b99b825ff86a8acf390592dbcbaac0800fbaed38e0a1d59ee338a0364ed51b8",
-          "size": 930002,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/6b99b825ff86a8acf390592dbcbaac0800fbaed38e0a1d59ee338a0364ed51b8.apk"
+          "name": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148.apk",
+          "sha256": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148",
+          "size": 94559060,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148.apk"
         },
         {
-          "name": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630.apk",
-          "sha256": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630",
-          "size": 90386979,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630.apk"
+          "name": "4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e.apk",
+          "sha256": "4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e",
+          "size": 346840,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e.apk"
+        },
+        {
+          "name": "541e656f692b89028c141f7135bc045943e3dce2bf75c0ff838097c80e2549af.apk",
+          "sha256": "541e656f692b89028c141f7135bc045943e3dce2bf75c0ff838097c80e2549af",
+          "size": 309920,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/541e656f692b89028c141f7135bc045943e3dce2bf75c0ff838097c80e2549af.apk"
+        },
+        {
+          "name": "67987b03dc552c16cdd7bbf0da3cf6822ed19336ee1b062040eab598dba4c20a.apk",
+          "sha256": "67987b03dc552c16cdd7bbf0da3cf6822ed19336ee1b062040eab598dba4c20a",
+          "size": 979154,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/67987b03dc552c16cdd7bbf0da3cf6822ed19336ee1b062040eab598dba4c20a.apk"
+        },
+        {
+          "name": "bfd6f2b9e9e3eb182513b8cabcb85e7c9f563107ec0174b1dd5e3198cd5b0d92.apk",
+          "sha256": "bfd6f2b9e9e3eb182513b8cabcb85e7c9f563107ec0174b1dd5e3198cd5b0d92",
+          "size": 1245394,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/bfd6f2b9e9e3eb182513b8cabcb85e7c9f563107ec0174b1dd5e3198cd5b0d92.apk"
+        },
+        {
+          "name": "cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f.apk",
+          "sha256": "cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f",
+          "size": 21386377,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f.apk"
+        },
+        {
+          "name": "f556302640b9ea57ebef628c4c729ee3cb94edb3f60ca370cecd9bbd5cc8d112.apk",
+          "sha256": "f556302640b9ea57ebef628c4c729ee3cb94edb3f60ca370cecd9bbd5cc8d112",
+          "size": 23549029,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/f556302640b9ea57ebef628c4c729ee3cb94edb3f60ca370cecd9bbd5cc8d112.apk"
+        },
+        {
+          "name": "f64b356f1592fae949b6c0b21e708d742fcc254a23d5f02e901404b25b73e1ea.apk",
+          "sha256": "f64b356f1592fae949b6c0b21e708d742fcc254a23d5f02e901404b25b73e1ea",
+          "size": 946386,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/f64b356f1592fae949b6c0b21e708d742fcc254a23d5f02e901404b25b73e1ea.apk"
+        },
+        {
+          "name": "f6be8f366c0a4fb22c9b067de81d03c23e3aa4611bcae7b647560e551c03f1c4.apk",
+          "sha256": "f6be8f366c0a4fb22c9b067de81d03c23e3aa4611bcae7b647560e551c03f1c4",
+          "size": 363224,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/f6be8f366c0a4fb22c9b067de81d03c23e3aa4611bcae7b647560e551c03f1c4.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -19990,21 +20032,45 @@
       "package": "com.openai.chatgpt",
       "publication": {
         "catalog": {
-          "name": "catalog-a92e71c272cb00daaea9302d615d46149f6835519224578a2a4be61fb61badf0.json",
-          "sha256": "a92e71c272cb00daaea9302d615d46149f6835519224578a2a4be61fb61badf0",
-          "size": 6946,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/catalog-a92e71c272cb00daaea9302d615d46149f6835519224578a2a4be61fb61badf0.json"
+          "name": "catalog-58a5bb264fe6ed9333da1e45ffc2d543b5ea31e7d128421d18d50ed84816c8c2.json",
+          "sha256": "58a5bb264fe6ed9333da1e45ffc2d543b5ea31e7d128421d18d50ed84816c8c2",
+          "size": 26837,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/catalog-58a5bb264fe6ed9333da1e45ffc2d543b5ea31e7d128421d18d50ed84816c8c2.json"
         },
         "compat_manifest": {
-          "name": "manifest-5094e2b03d6f105177c41acf09bd4cacae8bb7f602d646a2b4889a943f4d915e.json",
-          "sha256": "5094e2b03d6f105177c41acf09bd4cacae8bb7f602d646a2b4889a943f4d915e",
-          "size": 1262,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/manifest-5094e2b03d6f105177c41acf09bd4cacae8bb7f602d646a2b4889a943f4d915e.json"
+          "name": "manifest-6d5564648c7de9eba317351f17ace28d97a844be621452e51a6deec7dc7975b0.json",
+          "sha256": "6d5564648c7de9eba317351f17ace28d97a844be621452e51a6deec7dc7975b0",
+          "size": 1264,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/manifest-6d5564648c7de9eba317351f17ace28d97a844be621452e51a6deec7dc7975b0.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.openai.chatgpt-library",
         "tag": "com.openai.chatgpt-library"
       },
       "unavailable": [
+        {
+          "id": "android12_armv7_en",
+          "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android12_armv7_ru",
+          "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_en",
+          "profile_fingerprint": "be05300b1a1a01b7e63da9d8df1e2a5c558be09f3dee7b831bf4b63aae2344d2",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_ru",
+          "profile_fingerprint": "dd34bd49045a6d0eb1f4351ab95578fcb34ec50f82213af3ee6a03de1fe039e0",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
         {
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
@@ -20042,11 +20108,17 @@
             "density": 420,
             "gl_es_version": 196608,
             "languages": [
-              "ru",
-              "ru-RU"
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-SG",
+              "en-XA",
+              "en-XC"
             ],
-            "locale": "ru_RU",
-            "min_sdk": 32,
+            "locale": "en_US",
+            "min_sdk": 29,
             "native_abis": [
               "arm64-v8a"
             ],
@@ -20069,34 +20141,101 @@
           },
           "files": [
             {
-              "artifact": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630",
+              "artifact": "1234ec7248418b5386e72841232eec104cc3e7bb4fdfa2bcece3212720375931",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c",
+              "artifact": "250df724e89963d006ccf262926a2c980f74bd1187f8bd48e5cd516dd1ef79be",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "6b99b825ff86a8acf390592dbcbaac0800fbaed38e0a1d59ee338a0364ed51b8",
-              "original_name": "split_config.ru.apk",
+              "artifact": "bfd6f2b9e9e3eb182513b8cabcb85e7c9f563107ec0174b1dd5e3198cd5b0d92",
+              "original_name": "split_config.en.apk",
               "role": "split",
-              "split": "config.ru"
+              "split": "config.en"
             },
             {
-              "artifact": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1",
+              "artifact": "f6be8f366c0a4fb22c9b067de81d03c23e3aa4611bcae7b647560e551c03f1c4",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             }
           ],
-          "id": "modern_arm64_ru",
-          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 2629319,
-          "version_name": "1.2026.293"
+          "id": "android12_arm64_en",
+          "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
+          "version_code": 2630015,
+          "version_name": "1.2026.300"
+        },
+        {
+          "certificate_sha256": [
+            "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "1234ec7248418b5386e72841232eec104cc3e7bb4fdfa2bcece3212720375931",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "250df724e89963d006ccf262926a2c980f74bd1187f8bd48e5cd516dd1ef79be",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "67987b03dc552c16cdd7bbf0da3cf6822ed19336ee1b062040eab598dba4c20a",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "f6be8f366c0a4fb22c9b067de81d03c23e3aa4611bcae7b647560e551c03f1c4",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android12_arm64_ru",
+          "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
+          "version_code": 2630015,
+          "version_name": "1.2026.300"
         },
         {
           "certificate_sha256": [
@@ -20142,25 +20281,512 @@
           },
           "files": [
             {
-              "artifact": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630",
+              "artifact": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c",
+              "artifact": "cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585",
+              "artifact": "2648e8a6aba7f4158c2e772c31049f7048862998298a583070dea4c2b222e15d",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1",
+              "artifact": "4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android13_arm64_en",
+          "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
+          "version_code": 2630015,
+          "version_name": "1.2026.300"
+        },
+        {
+          "certificate_sha256": [
+            "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "f64b356f1592fae949b6c0b21e708d742fcc254a23d5f02e901404b25b73e1ea",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android13_arm64_ru",
+          "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
+          "version_code": 2630015,
+          "version_name": "1.2026.300"
+        },
+        {
+          "certificate_sha256": [
+            "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
+          ],
+          "compatibility": {
+            "abis": [
+              "x86_64"
+            ],
+            "density": 320,
+            "gl_es_version": 196608,
+            "languages": [
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-SG",
+              "en-XA",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "x86_64"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "2648e8a6aba7f4158c2e772c31049f7048862998298a583070dea4c2b222e15d",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "f556302640b9ea57ebef628c4c729ee3cb94edb3f60ca370cecd9bbd5cc8d112",
+              "original_name": "split_config.x86_64.apk",
+              "role": "split",
+              "split": "config.x86_64"
+            },
+            {
+              "artifact": "541e656f692b89028c141f7135bc045943e3dce2bf75c0ff838097c80e2549af",
+              "original_name": "split_config.xhdpi.apk",
+              "role": "split",
+              "split": "config.xhdpi"
+            }
+          ],
+          "id": "android13_x86_64_en",
+          "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
+          "version_code": 2630015,
+          "version_name": "1.2026.300"
+        },
+        {
+          "certificate_sha256": [
+            "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
+          ],
+          "compatibility": {
+            "abis": [
+              "x86_64"
+            ],
+            "density": 320,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "x86_64"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "f64b356f1592fae949b6c0b21e708d742fcc254a23d5f02e901404b25b73e1ea",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "f556302640b9ea57ebef628c4c729ee3cb94edb3f60ca370cecd9bbd5cc8d112",
+              "original_name": "split_config.x86_64.apk",
+              "role": "split",
+              "split": "config.x86_64"
+            },
+            {
+              "artifact": "541e656f692b89028c141f7135bc045943e3dce2bf75c0ff838097c80e2549af",
+              "original_name": "split_config.xhdpi.apk",
+              "role": "split",
+              "split": "config.xhdpi"
+            }
+          ],
+          "id": "android13_x86_64_ru",
+          "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
+          "version_code": 2630015,
+          "version_name": "1.2026.300"
+        },
+        {
+          "certificate_sha256": [
+            "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-SG",
+              "en-XA",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "2648e8a6aba7f4158c2e772c31049f7048862998298a583070dea4c2b222e15d",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android16_arm64_en",
+          "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
+          "version_code": 2630015,
+          "version_name": "1.2026.300"
+        },
+        {
+          "certificate_sha256": [
+            "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "f64b356f1592fae949b6c0b21e708d742fcc254a23d5f02e901404b25b73e1ea",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android16_arm64_ru",
+          "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
+          "version_code": 2630015,
+          "version_name": "1.2026.300"
+        },
+        {
+          "certificate_sha256": [
+            "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "f64b356f1592fae949b6c0b21e708d742fcc254a23d5f02e901404b25b73e1ea",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "modern_arm64_ru",
+          "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
+          "version_code": 2630015,
+          "version_name": "1.2026.300"
+        },
+        {
+          "certificate_sha256": [
+            "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "en",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN",
+              "en-SG",
+              "en-XA",
+              "en-XC"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait",
+              "android.hardware.wifi"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "2648e8a6aba7f4158c2e772c31049f7048862998298a583070dea4c2b222e15d",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -20168,8 +20794,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 2629319,
-          "version_name": "1.2026.293"
+          "version_code": 2630015,
+          "version_name": "1.2026.300"
         }
       ]
     },
@@ -31762,50 +32388,50 @@
     {
       "assets": [
         {
-          "name": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630.apk",
+          "name": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148.apk",
           "role": "base",
-          "sha256": "c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630",
-          "size": 90386979,
+          "sha256": "38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148",
+          "size": 94559060,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/c4a6ffdde56ee170ef0e7c1152ce7a98bc2d789bb1f30816def470dd3c421630.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/38b17d766429d2ac7aa396f7ae2ec87182b1f581777dbb8f2089f6581458b148.apk"
         },
         {
-          "name": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c.apk",
+          "name": "cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f.apk",
           "role": "split",
-          "sha256": "01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c",
-          "size": 21353609,
+          "sha256": "cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f",
+          "size": 21386377,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/01939f07e968ebac1f46149944212c3f9d730cc8745ef4d9184f4af938290c0c.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/cb284aafa3b6068b6127c932588de2672da753e9c60905ef227b28fe943c9d9f.apk"
         },
         {
-          "name": "47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585.apk",
+          "name": "2648e8a6aba7f4158c2e772c31049f7048862998298a583070dea4c2b222e15d.apk",
           "role": "split",
-          "sha256": "47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585",
-          "size": 991442,
+          "sha256": "2648e8a6aba7f4158c2e772c31049f7048862998298a583070dea4c2b222e15d",
+          "size": 1003730,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/47344ac44ee96ed685bc28faf25d53b2c881b4bd8c3b998d8648da57736d7585.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/2648e8a6aba7f4158c2e772c31049f7048862998298a583070dea4c2b222e15d.apk"
         },
         {
-          "name": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1.apk",
+          "name": "4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e.apk",
           "role": "split",
-          "sha256": "623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1",
-          "size": 88246,
+          "sha256": "4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e",
+          "size": 346840,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/623d3e9c542b1a0937448a22a77d1c05598f5841a9bcd04ad793ec9e21ccedd1.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/4d861ef027d3d150a005cea1996cca27801eccd84efc8f38312033c0941d291e.apk"
         }
       ],
       "certificate_sha256": [
         "b24f4bfbb3cf293f938703b9d87027c1102cc36dc4fa206910e08927db40473c"
       ],
-      "manifest_sha256": "5094e2b03d6f105177c41acf09bd4cacae8bb7f602d646a2b4889a943f4d915e",
-      "manifest_size": 1262,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/manifest-5094e2b03d6f105177c41acf09bd4cacae8bb7f602d646a2b4889a943f4d915e.json",
+      "manifest_sha256": "6d5564648c7de9eba317351f17ace28d97a844be621452e51a6deec7dc7975b0",
+      "manifest_size": 1264,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.openai.chatgpt-library/manifest-6d5564648c7de9eba317351f17ace28d97a844be621452e51a6deec7dc7975b0.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.openai.chatgpt/metadata.json",
       "package": "com.openai.chatgpt",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.openai.chatgpt-library",
-      "version_code": 2629319,
-      "version_name": "1.2026.293"
+      "version_code": 2630015,
+      "version_name": "1.2026.300"
     },
     {
       "assets": [
