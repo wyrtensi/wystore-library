@@ -18302,10 +18302,22 @@
     {
       "artifacts": [
         {
+          "name": "0c1250a073b0bfa6c0ced67acc9891f3fb8a0a541876d13e35a0ec448689bd9b.apk",
+          "sha256": "0c1250a073b0bfa6c0ced67acc9891f3fb8a0a541876d13e35a0ec448689bd9b",
+          "size": 297035,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/0c1250a073b0bfa6c0ced67acc9891f3fb8a0a541876d13e35a0ec448689bd9b.apk"
+        },
+        {
           "name": "20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb.apk",
           "sha256": "20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb",
           "size": 4965245,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb.apk"
+        },
+        {
+          "name": "264390fe852ab4c271278ad99ab140e69f01888a4a9a368ffd327b1fd8fa5a90.apk",
+          "sha256": "264390fe852ab4c271278ad99ab140e69f01888a4a9a368ffd327b1fd8fa5a90",
+          "size": 1360082,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/264390fe852ab4c271278ad99ab140e69f01888a4a9a368ffd327b1fd8fa5a90.apk"
         },
         {
           "name": "297bdc336bd381ae75fc1f5a57e0832c54465448c564021381a7b2ef8413a45c.apk",
@@ -18326,10 +18338,40 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/79fd650c51797725ed576d57b67b2e2a4e6be747f7f095b484ebf50a4668dc15.apk"
         },
         {
+          "name": "7b644cf1acff895032f8a7db2630c98fddc5109fb80ea759cdc08a7f95c94daa.apk",
+          "sha256": "7b644cf1acff895032f8a7db2630c98fddc5109fb80ea759cdc08a7f95c94daa",
+          "size": 4965245,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/7b644cf1acff895032f8a7db2630c98fddc5109fb80ea759cdc08a7f95c94daa.apk"
+        },
+        {
+          "name": "9342ff9c3de8122f9ef68e71e4129b49aadd0f1ddef338edb791468c2ada2bbc.apk",
+          "sha256": "9342ff9c3de8122f9ef68e71e4129b49aadd0f1ddef338edb791468c2ada2bbc",
+          "size": 1822930,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/9342ff9c3de8122f9ef68e71e4129b49aadd0f1ddef338edb791468c2ada2bbc.apk"
+        },
+        {
           "name": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240.apk",
           "sha256": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
           "size": 64088222,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240.apk"
+        },
+        {
+          "name": "c3ae85c5a5252e49f159a47ea8d4a1ef9a213551d03ddc89b468d99eb67404a9.apk",
+          "sha256": "c3ae85c5a5252e49f159a47ea8d4a1ef9a213551d03ddc89b468d99eb67404a9",
+          "size": 65009822,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/c3ae85c5a5252e49f159a47ea8d4a1ef9a213551d03ddc89b468d99eb67404a9.apk"
+        },
+        {
+          "name": "dc2a7ce0969e73c3e182dfc96253a83827a8a0001a49feea5ed98c3d93ea8017.apk",
+          "sha256": "dc2a7ce0969e73c3e182dfc96253a83827a8a0001a49feea5ed98c3d93ea8017",
+          "size": 5489506,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/dc2a7ce0969e73c3e182dfc96253a83827a8a0001a49feea5ed98c3d93ea8017.apk"
+        },
+        {
+          "name": "e97254fd633594b192f1cdf316060c1bc68aa4454aed6955594aa81b78ecb6e6.apk",
+          "sha256": "e97254fd633594b192f1cdf316060c1bc68aa4454aed6955594aa81b78ecb6e6",
+          "size": 476918,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/e97254fd633594b192f1cdf316060c1bc68aa4454aed6955594aa81b78ecb6e6.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -18337,10 +18379,10 @@
       "package": "com.fitbit.FitbitMobile",
       "publication": {
         "catalog": {
-          "name": "catalog-93370ecbf3765c49490fbb436718f7db11dc84ca4020a380c76125ab5ebe948a.json",
-          "sha256": "93370ecbf3765c49490fbb436718f7db11dc84ca4020a380c76125ab5ebe948a",
-          "size": 7032,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/catalog-93370ecbf3765c49490fbb436718f7db11dc84ca4020a380c76125ab5ebe948a.json"
+          "name": "catalog-ebfb83fcdd84abc9a2702b8056746c885cf21214df0a9d0aad0fe3319e815074.json",
+          "sha256": "ebfb83fcdd84abc9a2702b8056746c885cf21214df0a9d0aad0fe3319e815074",
+          "size": 27175,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/catalog-ebfb83fcdd84abc9a2702b8056746c885cf21214df0a9d0aad0fe3319e815074.json"
         },
         "compat_manifest": {
           "name": "manifest-72b203a5add92e76b5ed04f89628ce60897821ff50984c1f735266ba9c69778e.json",
@@ -18352,6 +18394,30 @@
         "tag": "com.fitbit.FitbitMobile-library"
       },
       "unavailable": [
+        {
+          "id": "android12_armv7_en",
+          "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android12_armv7_ru",
+          "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_en",
+          "profile_fingerprint": "be05300b1a1a01b7e63da9d8df1e2a5c558be09f3dee7b831bf4b63aae2344d2",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_ru",
+          "profile_fingerprint": "dd34bd49045a6d0eb1f4351ab95578fcb34ec50f82213af3ee6a03de1fe039e0",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
         {
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
@@ -18378,6 +18444,558 @@
         }
       ],
       "variants": [
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 31
+          },
+          "certificate_sha256": [
+            "fa6a198803aac1939fed6bab9295e5184c00966bf912f8c5faff26576cc770ff"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 30,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "c3ae85c5a5252e49f159a47ea8d4a1ef9a213551d03ddc89b468d99eb67404a9",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7b644cf1acff895032f8a7db2630c98fddc5109fb80ea759cdc08a7f95c94daa",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "264390fe852ab4c271278ad99ab140e69f01888a4a9a368ffd327b1fd8fa5a90",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "e97254fd633594b192f1cdf316060c1bc68aa4454aed6955594aa81b78ecb6e6",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android12_arm64_en",
+          "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
+          "version_code": 1104134730,
+          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 31
+          },
+          "certificate_sha256": [
+            "fa6a198803aac1939fed6bab9295e5184c00966bf912f8c5faff26576cc770ff"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 30,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "c3ae85c5a5252e49f159a47ea8d4a1ef9a213551d03ddc89b468d99eb67404a9",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "7b644cf1acff895032f8a7db2630c98fddc5109fb80ea759cdc08a7f95c94daa",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "9342ff9c3de8122f9ef68e71e4129b49aadd0f1ddef338edb791468c2ada2bbc",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "e97254fd633594b192f1cdf316060c1bc68aa4454aed6955594aa81b78ecb6e6",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android12_arm64_ru",
+          "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
+          "version_code": 1104134730,
+          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 33
+          },
+          "certificate_sha256": [
+            "2cc914da5a849426c1b591e12f0a8adb042fa2feade3a4762845ce6bfadcf313"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "297bdc336bd381ae75fc1f5a57e0832c54465448c564021381a7b2ef8413a45c",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "3bf162cfaa3e561092c84237ca161fe99984cf53c0835640ff567ccfd434a82e",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android13_arm64_en",
+          "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
+          "version_code": 1104134730,
+          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 33
+          },
+          "certificate_sha256": [
+            "2cc914da5a849426c1b591e12f0a8adb042fa2feade3a4762845ce6bfadcf313"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "79fd650c51797725ed576d57b67b2e2a4e6be747f7f095b484ebf50a4668dc15",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "3bf162cfaa3e561092c84237ca161fe99984cf53c0835640ff567ccfd434a82e",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android13_arm64_ru",
+          "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
+          "version_code": 1104134730,
+          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 33
+          },
+          "certificate_sha256": [
+            "2cc914da5a849426c1b591e12f0a8adb042fa2feade3a4762845ce6bfadcf313"
+          ],
+          "compatibility": {
+            "abis": [
+              "x86_64"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "x86_64"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "297bdc336bd381ae75fc1f5a57e0832c54465448c564021381a7b2ef8413a45c",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "dc2a7ce0969e73c3e182dfc96253a83827a8a0001a49feea5ed98c3d93ea8017",
+              "original_name": "split_config.x86_64.apk",
+              "role": "split",
+              "split": "config.x86_64"
+            },
+            {
+              "artifact": "0c1250a073b0bfa6c0ced67acc9891f3fb8a0a541876d13e35a0ec448689bd9b",
+              "original_name": "split_config.xhdpi.apk",
+              "role": "split",
+              "split": "config.xhdpi"
+            }
+          ],
+          "id": "android13_x86_64_en",
+          "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
+          "version_code": 1104134730,
+          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 33
+          },
+          "certificate_sha256": [
+            "2cc914da5a849426c1b591e12f0a8adb042fa2feade3a4762845ce6bfadcf313"
+          ],
+          "compatibility": {
+            "abis": [
+              "x86_64"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "x86_64"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "79fd650c51797725ed576d57b67b2e2a4e6be747f7f095b484ebf50a4668dc15",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "dc2a7ce0969e73c3e182dfc96253a83827a8a0001a49feea5ed98c3d93ea8017",
+              "original_name": "split_config.x86_64.apk",
+              "role": "split",
+              "split": "config.x86_64"
+            },
+            {
+              "artifact": "0c1250a073b0bfa6c0ced67acc9891f3fb8a0a541876d13e35a0ec448689bd9b",
+              "original_name": "split_config.xhdpi.apk",
+              "role": "split",
+              "split": "config.xhdpi"
+            }
+          ],
+          "id": "android13_x86_64_ru",
+          "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
+          "version_code": 1104134730,
+          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 36
+          },
+          "certificate_sha256": [
+            "2cc914da5a849426c1b591e12f0a8adb042fa2feade3a4762845ce6bfadcf313"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "297bdc336bd381ae75fc1f5a57e0832c54465448c564021381a7b2ef8413a45c",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "3bf162cfaa3e561092c84237ca161fe99984cf53c0835640ff567ccfd434a82e",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android16_arm64_en",
+          "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
+          "version_code": 1104134730,
+          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+        },
+        {
+          "certificate_scope": {
+            "mode": "android-sdk",
+            "sdk": 36
+          },
+          "certificate_sha256": [
+            "2cc914da5a849426c1b591e12f0a8adb042fa2feade3a4762845ce6bfadcf313"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.microphone",
+              "android.hardware.screen.portrait",
+              "android.software.companion_device_setup"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "79fd650c51797725ed576d57b67b2e2a4e6be747f7f095b484ebf50a4668dc15",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "3bf162cfaa3e561092c84237ca161fe99984cf53c0835640ff567ccfd434a82e",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android16_arm64_ru",
+          "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
+          "version_code": 1104134730,
+          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+        },
         {
           "certificate_scope": {
             "mode": "android-sdk",
