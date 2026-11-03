@@ -73016,10 +73016,10 @@
       "package": "com.zhiliaoapp.musically",
       "publication": {
         "catalog": {
-          "name": "catalog-68827bf82b6d385e5193dff9ecc951fd570570948d36583b04efac56b285b3b6.json",
-          "sha256": "68827bf82b6d385e5193dff9ecc951fd570570948d36583b04efac56b285b3b6",
-          "size": 25027,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/catalog-68827bf82b6d385e5193dff9ecc951fd570570948d36583b04efac56b285b3b6.json"
+          "name": "catalog-1b7d780b719f709b6df7d54d295cafece8ad95295f3861785cd1545405f27abf.json",
+          "sha256": "1b7d780b719f709b6df7d54d295cafece8ad95295f3861785cd1545405f27abf",
+          "size": 59283,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/catalog-1b7d780b719f709b6df7d54d295cafece8ad95295f3861785cd1545405f27abf.json"
         },
         "compat_manifest": {
           "name": "manifest-d7e99cbb1ed109296280e9d6ff696fbea5bcd487b655f9cd2ef46119b419b59a.json",
@@ -73030,8 +73030,1338 @@
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.zhiliaoapp.musically-library",
         "tag": "com.zhiliaoapp.musically-library"
       },
-      "unavailable": [],
+      "unavailable": [
+        {
+          "id": "android13_x86_64_en",
+          "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android13_x86_64_ru",
+          "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
+          "reason": "play_unavailable",
+          "version_code": 0
+        }
+      ],
       "variants": [
+        {
+          "certificate_sha256": [
+            "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density",
+              "df_a_dex__module",
+              "df_location__abi",
+              "df_location__module",
+              "df_pns_biz__abi",
+              "df_pns_biz__module"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density",
+              "df_location__abi",
+              "df_pns_biz__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ce90cee6440560e80f85abea9f704964aa86c56eee1974d61b60cac0fbceabfb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "a447140a99f0a3c7cda2a695110dcedc8e3c48342ac5f14d34162ce1422ac5fd",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "a1d3f20ea47ffa159c8087f4cdf499fc5f97e6eefeb7f19d5a5cc9803da82bda",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "cf1b10a9f2c81d4519e49f909d217e85fb0c96c44048d23e9a937b41c65c4683",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            },
+            {
+              "artifact": "61aabe325b8a4b0ddac9bfff7dcb8ab55b6b4487a1afd9593997cc630fb4816b",
+              "original_name": "split_df_a_dex.apk",
+              "role": "split",
+              "split": "df_a_dex"
+            },
+            {
+              "artifact": "9795e203a6aa812dfe9cc64131f14958e71818e82a8a58c873ed9e78f9e65308",
+              "original_name": "split_df_location.apk",
+              "role": "split",
+              "split": "df_location"
+            },
+            {
+              "artifact": "dcf712e04d63fd29779374c55613f0da8c2ae28c053e55786e5f98c0ef8f52de",
+              "original_name": "split_df_location.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_location.config.arm64_v8a"
+            },
+            {
+              "artifact": "6f285ad3f86d2fdaee3f4b01bf1dbd888d4b5950f08588a6344d4d966f42f0de",
+              "original_name": "split_df_pns_biz.apk",
+              "role": "split",
+              "split": "df_pns_biz"
+            },
+            {
+              "artifact": "96d16df0fcbf700021c5952a8cc7565f72fc4ab5b478e63e3a6d73ab09b5a1dd",
+              "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_pns_biz.config.arm64_v8a"
+            }
+          ],
+          "id": "android12_arm64_en",
+          "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
+          "version_code": 2024706030,
+          "version_name": "47.6.3"
+        },
+        {
+          "certificate_sha256": [
+            "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density",
+              "df_a_dex__module",
+              "df_location__abi",
+              "df_location__module",
+              "df_pns_biz__abi",
+              "df_pns_biz__module"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density",
+              "df_location__abi",
+              "df_pns_biz__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ce90cee6440560e80f85abea9f704964aa86c56eee1974d61b60cac0fbceabfb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "a447140a99f0a3c7cda2a695110dcedc8e3c48342ac5f14d34162ce1422ac5fd",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "8cbffa6c10b665a9cc0c8ab5a23322ad06eb5547d2b461e613e2f875e64c198d",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "cf1b10a9f2c81d4519e49f909d217e85fb0c96c44048d23e9a937b41c65c4683",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            },
+            {
+              "artifact": "61aabe325b8a4b0ddac9bfff7dcb8ab55b6b4487a1afd9593997cc630fb4816b",
+              "original_name": "split_df_a_dex.apk",
+              "role": "split",
+              "split": "df_a_dex"
+            },
+            {
+              "artifact": "9795e203a6aa812dfe9cc64131f14958e71818e82a8a58c873ed9e78f9e65308",
+              "original_name": "split_df_location.apk",
+              "role": "split",
+              "split": "df_location"
+            },
+            {
+              "artifact": "dcf712e04d63fd29779374c55613f0da8c2ae28c053e55786e5f98c0ef8f52de",
+              "original_name": "split_df_location.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_location.config.arm64_v8a"
+            },
+            {
+              "artifact": "6f285ad3f86d2fdaee3f4b01bf1dbd888d4b5950f08588a6344d4d966f42f0de",
+              "original_name": "split_df_pns_biz.apk",
+              "role": "split",
+              "split": "df_pns_biz"
+            },
+            {
+              "artifact": "96d16df0fcbf700021c5952a8cc7565f72fc4ab5b478e63e3a6d73ab09b5a1dd",
+              "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_pns_biz.config.arm64_v8a"
+            }
+          ],
+          "id": "android12_arm64_ru",
+          "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
+          "version_code": 2024706030,
+          "version_name": "47.6.3"
+        },
+        {
+          "certificate_sha256": [
+            "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "af-ZA",
+              "ar",
+              "ar-EG",
+              "ar-SA",
+              "az",
+              "bg",
+              "bn",
+              "bn-IN",
+              "ca",
+              "ceb-PH",
+              "cs",
+              "cs-CZ",
+              "da",
+              "de",
+              "de-AT",
+              "de-CH",
+              "de-DE",
+              "el",
+              "el-GR",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-SG",
+              "en-XC",
+              "en-ZA",
+              "es",
+              "es-419",
+              "es-AR",
+              "es-BO",
+              "es-CL",
+              "es-CO",
+              "es-CR",
+              "es-DO",
+              "es-EC",
+              "es-ES",
+              "es-GT",
+              "es-HN",
+              "es-MX",
+              "es-NI",
+              "es-PA",
+              "es-PE",
+              "es-PR",
+              "es-PY",
+              "es-SV",
+              "es-US",
+              "es-UY",
+              "es-VE",
+              "et",
+              "fa",
+              "fa-IR",
+              "fi",
+              "fi-FI",
+              "fil",
+              "fil-PH",
+              "fr",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "ga",
+              "gu",
+              "gu-IN",
+              "hi",
+              "hi-IN",
+              "hr",
+              "hu",
+              "hu-HU",
+              "id",
+              "in",
+              "in-ID",
+              "is",
+              "it",
+              "it-IT",
+              "iw",
+              "ja",
+              "ja-JP",
+              "jv-ID",
+              "kk",
+              "km",
+              "km-KH",
+              "kn",
+              "kn-IN",
+              "ko",
+              "ko-KR",
+              "lt",
+              "lv",
+              "ml",
+              "ml-IN",
+              "mr",
+              "mr-IN",
+              "ms",
+              "ms-MY",
+              "my",
+              "my-MM",
+              "nb",
+              "nl",
+              "nl-NL",
+              "or",
+              "or-IN",
+              "pa",
+              "pa-IN",
+              "pl",
+              "pl-PL",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ro-RO",
+              "ru",
+              "ru-RU",
+              "sk",
+              "sl",
+              "sq",
+              "sv",
+              "sv-SE",
+              "sw",
+              "ta",
+              "ta-IN",
+              "te",
+              "te-IN",
+              "th",
+              "th-TH",
+              "tr",
+              "tr-TR",
+              "uk",
+              "uk-UA",
+              "ur",
+              "uz",
+              "vi",
+              "vi-VN",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu",
+              "zu-ZA"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.location"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "3391d9c4a7094e8960f9ac4e80e44f945ef6a55ce3a7531bae4dd776cdaf40db",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "android12_armv7_en",
+          "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
+          "version_code": 2024706030,
+          "version_name": "47.6.3"
+        },
+        {
+          "certificate_sha256": [
+            "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+          ],
+          "compatibility": {
+            "abis": [
+              "armeabi-v7a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "af-ZA",
+              "ar",
+              "ar-EG",
+              "ar-SA",
+              "az",
+              "bg",
+              "bn",
+              "bn-IN",
+              "ca",
+              "ceb-PH",
+              "cs",
+              "cs-CZ",
+              "da",
+              "de",
+              "de-AT",
+              "de-CH",
+              "de-DE",
+              "el",
+              "el-GR",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-SG",
+              "en-XC",
+              "en-ZA",
+              "es",
+              "es-419",
+              "es-AR",
+              "es-BO",
+              "es-CL",
+              "es-CO",
+              "es-CR",
+              "es-DO",
+              "es-EC",
+              "es-ES",
+              "es-GT",
+              "es-HN",
+              "es-MX",
+              "es-NI",
+              "es-PA",
+              "es-PE",
+              "es-PR",
+              "es-PY",
+              "es-SV",
+              "es-US",
+              "es-UY",
+              "es-VE",
+              "et",
+              "fa",
+              "fa-IR",
+              "fi",
+              "fi-FI",
+              "fil",
+              "fil-PH",
+              "fr",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "ga",
+              "gu",
+              "gu-IN",
+              "hi",
+              "hi-IN",
+              "hr",
+              "hu",
+              "hu-HU",
+              "id",
+              "in",
+              "in-ID",
+              "is",
+              "it",
+              "it-IT",
+              "iw",
+              "ja",
+              "ja-JP",
+              "jv-ID",
+              "kk",
+              "km",
+              "km-KH",
+              "kn",
+              "kn-IN",
+              "ko",
+              "ko-KR",
+              "lt",
+              "lv",
+              "ml",
+              "ml-IN",
+              "mr",
+              "mr-IN",
+              "ms",
+              "ms-MY",
+              "my",
+              "my-MM",
+              "nb",
+              "nl",
+              "nl-NL",
+              "or",
+              "or-IN",
+              "pa",
+              "pa-IN",
+              "pl",
+              "pl-PL",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ro-RO",
+              "ru",
+              "ru-RU",
+              "sk",
+              "sl",
+              "sq",
+              "sv",
+              "sv-SE",
+              "sw",
+              "ta",
+              "ta-IN",
+              "te",
+              "te-IN",
+              "th",
+              "th-TH",
+              "tr",
+              "tr-TR",
+              "uk",
+              "uk-UA",
+              "ur",
+              "uz",
+              "vi",
+              "vi-VN",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu",
+              "zu-ZA"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.location"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "3391d9c4a7094e8960f9ac4e80e44f945ef6a55ce3a7531bae4dd776cdaf40db",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "android12_armv7_ru",
+          "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
+          "version_code": 2024706030,
+          "version_name": "47.6.3"
+        },
+        {
+          "certificate_sha256": [
+            "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density",
+              "df_a_dex__module",
+              "df_location__abi",
+              "df_location__module",
+              "df_pns_biz__abi",
+              "df_pns_biz__module"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density",
+              "df_location__abi",
+              "df_pns_biz__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ce90cee6440560e80f85abea9f704964aa86c56eee1974d61b60cac0fbceabfb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "a447140a99f0a3c7cda2a695110dcedc8e3c48342ac5f14d34162ce1422ac5fd",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "a1d3f20ea47ffa159c8087f4cdf499fc5f97e6eefeb7f19d5a5cc9803da82bda",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "cf1b10a9f2c81d4519e49f909d217e85fb0c96c44048d23e9a937b41c65c4683",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            },
+            {
+              "artifact": "61aabe325b8a4b0ddac9bfff7dcb8ab55b6b4487a1afd9593997cc630fb4816b",
+              "original_name": "split_df_a_dex.apk",
+              "role": "split",
+              "split": "df_a_dex"
+            },
+            {
+              "artifact": "9795e203a6aa812dfe9cc64131f14958e71818e82a8a58c873ed9e78f9e65308",
+              "original_name": "split_df_location.apk",
+              "role": "split",
+              "split": "df_location"
+            },
+            {
+              "artifact": "dcf712e04d63fd29779374c55613f0da8c2ae28c053e55786e5f98c0ef8f52de",
+              "original_name": "split_df_location.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_location.config.arm64_v8a"
+            },
+            {
+              "artifact": "6f285ad3f86d2fdaee3f4b01bf1dbd888d4b5950f08588a6344d4d966f42f0de",
+              "original_name": "split_df_pns_biz.apk",
+              "role": "split",
+              "split": "df_pns_biz"
+            },
+            {
+              "artifact": "96d16df0fcbf700021c5952a8cc7565f72fc4ab5b478e63e3a6d73ab09b5a1dd",
+              "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_pns_biz.config.arm64_v8a"
+            }
+          ],
+          "id": "android13_arm64_en",
+          "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
+          "version_code": 2024706030,
+          "version_name": "47.6.3"
+        },
+        {
+          "certificate_sha256": [
+            "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density",
+              "df_a_dex__module",
+              "df_location__abi",
+              "df_location__module",
+              "df_pns_biz__abi",
+              "df_pns_biz__module"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density",
+              "df_location__abi",
+              "df_pns_biz__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ce90cee6440560e80f85abea9f704964aa86c56eee1974d61b60cac0fbceabfb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "a447140a99f0a3c7cda2a695110dcedc8e3c48342ac5f14d34162ce1422ac5fd",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "8cbffa6c10b665a9cc0c8ab5a23322ad06eb5547d2b461e613e2f875e64c198d",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "cf1b10a9f2c81d4519e49f909d217e85fb0c96c44048d23e9a937b41c65c4683",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            },
+            {
+              "artifact": "61aabe325b8a4b0ddac9bfff7dcb8ab55b6b4487a1afd9593997cc630fb4816b",
+              "original_name": "split_df_a_dex.apk",
+              "role": "split",
+              "split": "df_a_dex"
+            },
+            {
+              "artifact": "9795e203a6aa812dfe9cc64131f14958e71818e82a8a58c873ed9e78f9e65308",
+              "original_name": "split_df_location.apk",
+              "role": "split",
+              "split": "df_location"
+            },
+            {
+              "artifact": "dcf712e04d63fd29779374c55613f0da8c2ae28c053e55786e5f98c0ef8f52de",
+              "original_name": "split_df_location.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_location.config.arm64_v8a"
+            },
+            {
+              "artifact": "6f285ad3f86d2fdaee3f4b01bf1dbd888d4b5950f08588a6344d4d966f42f0de",
+              "original_name": "split_df_pns_biz.apk",
+              "role": "split",
+              "split": "df_pns_biz"
+            },
+            {
+              "artifact": "96d16df0fcbf700021c5952a8cc7565f72fc4ab5b478e63e3a6d73ab09b5a1dd",
+              "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_pns_biz.config.arm64_v8a"
+            }
+          ],
+          "id": "android13_arm64_ru",
+          "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
+          "version_code": 2024706030,
+          "version_name": "47.6.3"
+        },
+        {
+          "certificate_sha256": [
+            "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "en-GB"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density",
+              "df_a_dex__module",
+              "df_location__abi",
+              "df_location__module",
+              "df_pns_biz__abi",
+              "df_pns_biz__module"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density",
+              "df_location__abi",
+              "df_pns_biz__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ce90cee6440560e80f85abea9f704964aa86c56eee1974d61b60cac0fbceabfb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "a447140a99f0a3c7cda2a695110dcedc8e3c48342ac5f14d34162ce1422ac5fd",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "a1d3f20ea47ffa159c8087f4cdf499fc5f97e6eefeb7f19d5a5cc9803da82bda",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "cf1b10a9f2c81d4519e49f909d217e85fb0c96c44048d23e9a937b41c65c4683",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            },
+            {
+              "artifact": "61aabe325b8a4b0ddac9bfff7dcb8ab55b6b4487a1afd9593997cc630fb4816b",
+              "original_name": "split_df_a_dex.apk",
+              "role": "split",
+              "split": "df_a_dex"
+            },
+            {
+              "artifact": "9795e203a6aa812dfe9cc64131f14958e71818e82a8a58c873ed9e78f9e65308",
+              "original_name": "split_df_location.apk",
+              "role": "split",
+              "split": "df_location"
+            },
+            {
+              "artifact": "dcf712e04d63fd29779374c55613f0da8c2ae28c053e55786e5f98c0ef8f52de",
+              "original_name": "split_df_location.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_location.config.arm64_v8a"
+            },
+            {
+              "artifact": "6f285ad3f86d2fdaee3f4b01bf1dbd888d4b5950f08588a6344d4d966f42f0de",
+              "original_name": "split_df_pns_biz.apk",
+              "role": "split",
+              "split": "df_pns_biz"
+            },
+            {
+              "artifact": "96d16df0fcbf700021c5952a8cc7565f72fc4ab5b478e63e3a6d73ab09b5a1dd",
+              "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_pns_biz.config.arm64_v8a"
+            }
+          ],
+          "id": "android16_arm64_en",
+          "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
+          "version_code": 2024706030,
+          "version_name": "47.6.3"
+        },
+        {
+          "certificate_sha256": [
+            "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "ru",
+              "ru-RU"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density",
+              "df_a_dex__module",
+              "df_location__abi",
+              "df_location__module",
+              "df_pns_biz__abi",
+              "df_pns_biz__module"
+            ],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density",
+              "df_location__abi",
+              "df_pns_biz__abi"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "ce90cee6440560e80f85abea9f704964aa86c56eee1974d61b60cac0fbceabfb",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "a447140a99f0a3c7cda2a695110dcedc8e3c48342ac5f14d34162ce1422ac5fd",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "8cbffa6c10b665a9cc0c8ab5a23322ad06eb5547d2b461e613e2f875e64c198d",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "cf1b10a9f2c81d4519e49f909d217e85fb0c96c44048d23e9a937b41c65c4683",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            },
+            {
+              "artifact": "61aabe325b8a4b0ddac9bfff7dcb8ab55b6b4487a1afd9593997cc630fb4816b",
+              "original_name": "split_df_a_dex.apk",
+              "role": "split",
+              "split": "df_a_dex"
+            },
+            {
+              "artifact": "9795e203a6aa812dfe9cc64131f14958e71818e82a8a58c873ed9e78f9e65308",
+              "original_name": "split_df_location.apk",
+              "role": "split",
+              "split": "df_location"
+            },
+            {
+              "artifact": "dcf712e04d63fd29779374c55613f0da8c2ae28c053e55786e5f98c0ef8f52de",
+              "original_name": "split_df_location.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_location.config.arm64_v8a"
+            },
+            {
+              "artifact": "6f285ad3f86d2fdaee3f4b01bf1dbd888d4b5950f08588a6344d4d966f42f0de",
+              "original_name": "split_df_pns_biz.apk",
+              "role": "split",
+              "split": "df_pns_biz"
+            },
+            {
+              "artifact": "96d16df0fcbf700021c5952a8cc7565f72fc4ab5b478e63e3a6d73ab09b5a1dd",
+              "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_pns_biz.config.arm64_v8a"
+            }
+          ],
+          "id": "android16_arm64_ru",
+          "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
+          "version_code": 2024706030,
+          "version_name": "47.6.3"
+        },
+        {
+          "certificate_sha256": [
+            "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "af-ZA",
+              "ar",
+              "ar-EG",
+              "ar-SA",
+              "az",
+              "bg",
+              "bn",
+              "bn-IN",
+              "ca",
+              "ceb-PH",
+              "cs",
+              "cs-CZ",
+              "da",
+              "de",
+              "de-AT",
+              "de-CH",
+              "de-DE",
+              "el",
+              "el-GR",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-SG",
+              "en-XC",
+              "en-ZA",
+              "es",
+              "es-419",
+              "es-AR",
+              "es-BO",
+              "es-CL",
+              "es-CO",
+              "es-CR",
+              "es-DO",
+              "es-EC",
+              "es-ES",
+              "es-GT",
+              "es-HN",
+              "es-MX",
+              "es-NI",
+              "es-PA",
+              "es-PE",
+              "es-PR",
+              "es-PY",
+              "es-SV",
+              "es-US",
+              "es-UY",
+              "es-VE",
+              "et",
+              "fa",
+              "fa-IR",
+              "fi",
+              "fi-FI",
+              "fil",
+              "fil-PH",
+              "fr",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "ga",
+              "gu",
+              "gu-IN",
+              "hi",
+              "hi-IN",
+              "hr",
+              "hu",
+              "hu-HU",
+              "id",
+              "in",
+              "in-ID",
+              "is",
+              "it",
+              "it-IT",
+              "iw",
+              "ja",
+              "ja-JP",
+              "jv-ID",
+              "kk",
+              "km",
+              "km-KH",
+              "kn",
+              "kn-IN",
+              "ko",
+              "ko-KR",
+              "lt",
+              "lv",
+              "ml",
+              "ml-IN",
+              "mr",
+              "mr-IN",
+              "ms",
+              "ms-MY",
+              "my",
+              "my-MM",
+              "nb",
+              "nl",
+              "nl-NL",
+              "or",
+              "or-IN",
+              "pa",
+              "pa-IN",
+              "pl",
+              "pl-PL",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ro-RO",
+              "ru",
+              "ru-RU",
+              "sk",
+              "sl",
+              "sq",
+              "sv",
+              "sv-SE",
+              "sw",
+              "ta",
+              "ta-IN",
+              "te",
+              "te-IN",
+              "th",
+              "th-TH",
+              "tr",
+              "tr-TR",
+              "uk",
+              "uk-UA",
+              "ur",
+              "uz",
+              "vi",
+              "vi-VN",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu",
+              "zu-ZA"
+            ],
+            "locale": "en_US",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.location"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "3391d9c4a7094e8960f9ac4e80e44f945ef6a55ce3a7531bae4dd776cdaf40db",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "android9_arm64_en",
+          "profile_fingerprint": "be05300b1a1a01b7e63da9d8df1e2a5c558be09f3dee7b831bf4b63aae2344d2",
+          "version_code": 2024706030,
+          "version_name": "47.6.3"
+        },
+        {
+          "certificate_sha256": [
+            "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 320,
+            "gl_es_version": 131072,
+            "languages": [
+              "af",
+              "af-ZA",
+              "ar",
+              "ar-EG",
+              "ar-SA",
+              "az",
+              "bg",
+              "bn",
+              "bn-IN",
+              "ca",
+              "ceb-PH",
+              "cs",
+              "cs-CZ",
+              "da",
+              "de",
+              "de-AT",
+              "de-CH",
+              "de-DE",
+              "el",
+              "el-GR",
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IE",
+              "en-IN",
+              "en-SG",
+              "en-XC",
+              "en-ZA",
+              "es",
+              "es-419",
+              "es-AR",
+              "es-BO",
+              "es-CL",
+              "es-CO",
+              "es-CR",
+              "es-DO",
+              "es-EC",
+              "es-ES",
+              "es-GT",
+              "es-HN",
+              "es-MX",
+              "es-NI",
+              "es-PA",
+              "es-PE",
+              "es-PR",
+              "es-PY",
+              "es-SV",
+              "es-US",
+              "es-UY",
+              "es-VE",
+              "et",
+              "fa",
+              "fa-IR",
+              "fi",
+              "fi-FI",
+              "fil",
+              "fil-PH",
+              "fr",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "ga",
+              "gu",
+              "gu-IN",
+              "hi",
+              "hi-IN",
+              "hr",
+              "hu",
+              "hu-HU",
+              "id",
+              "in",
+              "in-ID",
+              "is",
+              "it",
+              "it-IT",
+              "iw",
+              "ja",
+              "ja-JP",
+              "jv-ID",
+              "kk",
+              "km",
+              "km-KH",
+              "kn",
+              "kn-IN",
+              "ko",
+              "ko-KR",
+              "lt",
+              "lv",
+              "ml",
+              "ml-IN",
+              "mr",
+              "mr-IN",
+              "ms",
+              "ms-MY",
+              "my",
+              "my-MM",
+              "nb",
+              "nl",
+              "nl-NL",
+              "or",
+              "or-IN",
+              "pa",
+              "pa-IN",
+              "pl",
+              "pl-PL",
+              "pt",
+              "pt-BR",
+              "pt-PT",
+              "ro",
+              "ro-RO",
+              "ru",
+              "ru-RU",
+              "sk",
+              "sl",
+              "sq",
+              "sv",
+              "sv-SE",
+              "sw",
+              "ta",
+              "ta-IN",
+              "te",
+              "te-IN",
+              "th",
+              "th-TH",
+              "tr",
+              "tr-TR",
+              "uk",
+              "uk-UA",
+              "ur",
+              "uz",
+              "vi",
+              "vi-VN",
+              "zh",
+              "zh-CN",
+              "zh-HK",
+              "zh-TW",
+              "zu",
+              "zu-ZA"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 23,
+            "native_abis": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "provided_split_types": [],
+            "required_features": [
+              "android.hardware.bluetooth",
+              "android.hardware.location"
+            ],
+            "required_split_types": [],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "3391d9c4a7094e8960f9ac4e80e44f945ef6a55ce3a7531bae4dd776cdaf40db",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            }
+          ],
+          "id": "android9_arm64_ru",
+          "profile_fingerprint": "dd34bd49045a6d0eb1f4351ab95578fcb34ec50f82213af3ee6a03de1fe039e0",
+          "version_code": 2024706030,
+          "version_name": "47.6.3"
+        },
         {
           "certificate_sha256": [
             "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
