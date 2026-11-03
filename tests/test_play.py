@@ -81,6 +81,82 @@ class PlayClientTests(unittest.TestCase):
                     self.assertNotIn("secret-cookie", str(error.exception))
                     self.assertIn("7", str(error.exception))
 
+    def test_transient_metadata_failure_is_retried_with_bounded_backoff(self):
+        from subprocess import CompletedProcess
+        from wystore_library.play import PlayClient
+
+        failures = [CompletedProcess([], 1, "", "play details: HTTP 504: private-token")] * 2
+        success = CompletedProcess([], 0, '{"app":{"version_code":42}}', "")
+        with patch.dict(os.environ, {"GOOGLE_EMAIL": "account@example.test", "GOOGLE_AAS_TOKEN": "private-token"}):
+            with PlayClient() as client, patch("wystore_library.play.subprocess.run", side_effect=failures + [success]) as run, patch("time.sleep") as sleep:
+                self.assertEqual(client.info("org.example.app", "px_9a")["app"]["version_code"], 42)
+                self.assertEqual(run.call_count, 3)
+                self.assertEqual([call.args[0] for call in sleep.call_args_list], [1, 2])
+
+    def test_each_supported_transient_status_is_retried(self):
+        from subprocess import CompletedProcess
+        from wystore_library.play import PlayClient
+
+        for code in (429, 500, 502, 503, 504):
+            with self.subTest(code=code), patch.dict(os.environ, {"GOOGLE_EMAIL": "account@example.test", "GOOGLE_AAS_TOKEN": "private-token"}):
+                results = [CompletedProcess([], 1, "", f"play details: HTTP {code}"), CompletedProcess([], 0, '{"app":{}}', "")]
+                with PlayClient() as client, patch("wystore_library.play.subprocess.run", side_effect=results) as run, patch("time.sleep"):
+                    self.assertEqual(client.info("org.example.app", "px_9a"), {"app": {}})
+                    self.assertEqual(run.call_count, 2)
+
+    def test_timeout_and_invalid_metadata_are_not_retried(self):
+        from subprocess import CompletedProcess, TimeoutExpired
+        from wystore_library.play import PlayClient, PlayError
+
+        for result in (TimeoutExpired("backend", 1800), CompletedProcess([], 0, '{"app":null}', "")):
+            with self.subTest(result=result), patch.dict(os.environ, {"GOOGLE_EMAIL": "account@example.test", "GOOGLE_AAS_TOKEN": "private-token"}):
+                with PlayClient() as client, patch("wystore_library.play.subprocess.run") as run, patch("time.sleep") as sleep:
+                    if isinstance(result, Exception):
+                        run.side_effect = result
+                    else:
+                        run.return_value = result
+                    with self.assertRaises(PlayError):
+                        client.info("org.example.app", "px_9a")
+                    self.assertEqual(run.call_count, 1)
+                    sleep.assert_not_called()
+
+    def test_transient_metadata_exhaustion_reports_safe_attempt_count(self):
+        from subprocess import CompletedProcess
+        from wystore_library.play import PlayClient, PlayError
+
+        failure = CompletedProcess([], 1, "", "play details: HTTP 504: private-token")
+        with patch.dict(os.environ, {"GOOGLE_EMAIL": "account@example.test", "GOOGLE_AAS_TOKEN": "private-token"}):
+            with PlayClient() as client, patch("wystore_library.play.subprocess.run", return_value=failure) as run, patch("time.sleep"):
+                with self.assertRaises(PlayError) as error:
+                    client.info("org.example.app", "px_9a")
+                self.assertEqual(run.call_count, 3)
+                self.assertIn("3 attempts", str(error.exception))
+                self.assertIn("HTTP 504", str(error.exception))
+                self.assertNotIn("private-token", str(error.exception))
+
+    def test_permanent_and_unknown_failures_are_not_retried(self):
+        from subprocess import CompletedProcess
+        from wystore_library.play import PlayClient, PlayError
+
+        for diagnostic in ("play details: HTTP 401", "play details: HTTP 403", "play details: HTTP 404", "google auth rejected the AAS token: BadAuthentication", "unknown HTTP 504"):
+            with self.subTest(diagnostic=diagnostic), patch.dict(os.environ, {"GOOGLE_EMAIL": "account@example.test", "GOOGLE_AAS_TOKEN": "private-token"}):
+                with PlayClient() as client, patch("wystore_library.play.subprocess.run", return_value=CompletedProcess([], 1, "", diagnostic)) as run, patch("time.sleep") as sleep:
+                    with self.assertRaises(PlayError):
+                        client.info("org.example.app", "px_9a")
+                    self.assertEqual(run.call_count, 1)
+                    sleep.assert_not_called()
+
+    def test_pull_does_not_retry_a_transient_failure(self):
+        from subprocess import CompletedProcess
+        from wystore_library.play import PlayClient, PlayError
+
+        with tempfile.TemporaryDirectory() as directory, patch.dict(os.environ, {"GOOGLE_EMAIL": "account@example.test", "GOOGLE_AAS_TOKEN": "private-token"}):
+            with PlayClient() as client, patch("wystore_library.play.subprocess.run", return_value=CompletedProcess([], 1, "", "play delivery: HTTP 504")) as run, patch("time.sleep") as sleep:
+                with self.assertRaises(PlayError):
+                    client.pull("org.example.app", "px_9a", 42, Path(directory))
+                self.assertEqual(run.call_count, 1)
+                sleep.assert_not_called()
+
     def test_pull_reads_manifest_without_printing_download_output(self):
         from wystore_library.play import PlayClient
 

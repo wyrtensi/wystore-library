@@ -143,6 +143,11 @@ lowering the published version. An unavailable pinned delivery fails visibly
 and preserves the previous publication. Display versions from web metadata
 are never used for this decision.
 
+Metadata requests retry recognized Google Play HTTP 429, 500, 502, 503 and 504
+failures up to three attempts, with one- and two-second delays. Exhaustion reports
+the attempt count and a sanitized reason. Authentication failures, other errors,
+timeouts and APK downloads are not retried by this policy.
+
 Before publishing, every base/split APK is checked against Google delivery hashes,
 its package/version and its cryptographic signature using Android `aapt2` and
 `apksigner`. The library trusts authenticated Google Play delivery and does not

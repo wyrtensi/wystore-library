@@ -7,6 +7,7 @@ from pathlib import Path
 import re
 import subprocess
 import tempfile
+import time
 
 from .profiles import load_profiles, validate_profile
 
@@ -87,18 +88,27 @@ class PlayClient:
         command = self._binary + [operation, package, "-account", "default", "-profile", definition["base"], "-session", session,
                                   "-sdk", str(definition["sdk"]), "-abi", ",".join(definition["abis"]),
                                   "-dpi", str(definition["density"]), "-locale", definition["locale"]] + extra
-        try:
-            result = subprocess.run(command, env=self._environment, capture_output=True, text=True, timeout=1800)
-        except subprocess.TimeoutExpired:
-            raise PlayError(f"Google Play {operation} timed out.") from None
-        except OSError:
-            raise PlayError("playfetch could not be started; install the pinned backend.") from None
-        if result.returncode:
+        for attempt in range(1, 4):
+            try:
+                result = subprocess.run(command, env=self._environment, capture_output=True, text=True, timeout=1800)
+            except subprocess.TimeoutExpired:
+                raise PlayError(f"Google Play {operation} timed out.") from None
+            except OSError:
+                raise PlayError("playfetch could not be started; install the pinned backend.") from None
+            if not result.returncode:
+                return result.stdout
             # Upstream errors may contain account identifiers, credentials,
             # cookies or download URLs. Never forward them to public CI logs.
             reason = safe_failure_reason(result.stderr)
-            raise PlayError(f"Google Play {operation} failed (exit {result.returncode}): {reason}.")
-        return result.stdout
+            transient = re.fullmatch(
+                r"Google (?:checkin|details|uploadDeviceConfig|delivery|purchase|toc) returned HTTP (?:429|500|502|503|504)",
+                reason,
+            )
+            if operation != "info" or not transient:
+                raise PlayError(f"Google Play {operation} failed (exit {result.returncode}): {reason}.")
+            if attempt == 3:
+                raise PlayError(f"Google Play {operation} failed after {attempt} attempts (exit {result.returncode}): {reason}.")
+            time.sleep(2 ** (attempt - 1))
 
     def info(self, package: str, profile: str) -> dict:
         output = self._run("info", package, profile, ["-json"])
