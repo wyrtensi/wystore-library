@@ -11795,10 +11795,40 @@
     {
       "artifacts": [
         {
+          "name": "17e23dcfef8fdb85d69344ac83ff6646a317b776b8bad40bda7928ab44a5a604.apk",
+          "sha256": "17e23dcfef8fdb85d69344ac83ff6646a317b776b8bad40bda7928ab44a5a604",
+          "size": 1049112,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/17e23dcfef8fdb85d69344ac83ff6646a317b776b8bad40bda7928ab44a5a604.apk"
+        },
+        {
+          "name": "2db8c940c1bc7c9527fd3142627c99e2913069353a7680c131cab81d8dc9979f.apk",
+          "sha256": "2db8c940c1bc7c9527fd3142627c99e2913069353a7680c131cab81d8dc9979f",
+          "size": 257600943,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/2db8c940c1bc7c9527fd3142627c99e2913069353a7680c131cab81d8dc9979f.apk"
+        },
+        {
           "name": "4063486d7cefbb592e18f840479b004ef65eafdaad90b1da9af76fd4746823d3.apk",
           "sha256": "4063486d7cefbb592e18f840479b004ef65eafdaad90b1da9af76fd4746823d3",
           "size": 1499343,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/4063486d7cefbb592e18f840479b004ef65eafdaad90b1da9af76fd4746823d3.apk"
+        },
+        {
+          "name": "421918f3a27c4d3690c64525505aff90d5a34811dc7a98e14e12ac7ca86c33cf.apk",
+          "sha256": "421918f3a27c4d3690c64525505aff90d5a34811dc7a98e14e12ac7ca86c33cf",
+          "size": 426792,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/421918f3a27c4d3690c64525505aff90d5a34811dc7a98e14e12ac7ca86c33cf.apk"
+        },
+        {
+          "name": "52fe4ccb6033126b9e5e3867d54ab3d5ee74e6803ec03ba6ac501f071e769cdb.apk",
+          "sha256": "52fe4ccb6033126b9e5e3867d54ab3d5ee74e6803ec03ba6ac501f071e769cdb",
+          "size": 373544,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/52fe4ccb6033126b9e5e3867d54ab3d5ee74e6803ec03ba6ac501f071e769cdb.apk"
+        },
+        {
+          "name": "5d9c1b6870c2f97f3216d650ee8ead1aa56983b4e514e5498c3ebef6f687d7bd.apk",
+          "sha256": "5d9c1b6870c2f97f3216d650ee8ead1aa56983b4e514e5498c3ebef6f687d7bd",
+          "size": 1049112,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/5d9c1b6870c2f97f3216d650ee8ead1aa56983b4e514e5498c3ebef6f687d7bd.apk"
         },
         {
           "name": "62e10ce53e7350fe868c398f0b020c55ec3508d60df35d80ba8c86cdf868a426.apk",
@@ -11811,6 +11841,36 @@
           "sha256": "72aa5dc856de19751d096820a4e1df45d491b5b1112e13737ffba0780a8b9e51",
           "size": 10682633,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/72aa5dc856de19751d096820a4e1df45d491b5b1112e13737ffba0780a8b9e51.apk"
+        },
+        {
+          "name": "740c81585b9ec05887940b310fc17e78f02be3297e13a2c8c3c83d48c913ad78.apk",
+          "sha256": "740c81585b9ec05887940b310fc17e78f02be3297e13a2c8c3c83d48c913ad78",
+          "size": 296119623,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/740c81585b9ec05887940b310fc17e78f02be3297e13a2c8c3c83d48c913ad78.apk"
+        },
+        {
+          "name": "86f5fbc6f6a4f44fb8c338048fe7bc567f99b7089865c71c4a7b8db08625680d.apk",
+          "sha256": "86f5fbc6f6a4f44fb8c338048fe7bc567f99b7089865c71c4a7b8db08625680d",
+          "size": 10682633,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/86f5fbc6f6a4f44fb8c338048fe7bc567f99b7089865c71c4a7b8db08625680d.apk"
+        },
+        {
+          "name": "9412cbbf2a1b904b0697b5464586855d3c15596f989741146fefbd82e6fb927a.apk",
+          "sha256": "9412cbbf2a1b904b0697b5464586855d3c15596f989741146fefbd82e6fb927a",
+          "size": 1499343,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/9412cbbf2a1b904b0697b5464586855d3c15596f989741146fefbd82e6fb927a.apk"
+        },
+        {
+          "name": "ac73b742d8b4864476c33d3ecf6c97c6407725c26f53469187380b2ae2d07f9b.apk",
+          "sha256": "ac73b742d8b4864476c33d3ecf6c97c6407725c26f53469187380b2ae2d07f9b",
+          "size": 10678537,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/ac73b742d8b4864476c33d3ecf6c97c6407725c26f53469187380b2ae2d07f9b.apk"
+        },
+        {
+          "name": "ba1414faab1b9533fd2e7a34c3e424f099cb028573f612d89d22280a506d63d2.apk",
+          "sha256": "ba1414faab1b9533fd2e7a34c3e424f099cb028573f612d89d22280a506d63d2",
+          "size": 1499343,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/ba1414faab1b9533fd2e7a34c3e424f099cb028573f612d89d22280a506d63d2.apk"
         },
         {
           "name": "ce6dcb3ad7f8cec2d497380d7a476580b14b16198859c5c366de08e42a04f896.apk",
@@ -11830,10 +11890,10 @@
       "package": "com.brave.browser",
       "publication": {
         "catalog": {
-          "name": "catalog-0ed1d685fe435ed394d54bb76187b4b125c5f0f9ba5066bb0b960c0e97db8dfc.json",
-          "sha256": "0ed1d685fe435ed394d54bb76187b4b125c5f0f9ba5066bb0b960c0e97db8dfc",
-          "size": 6698,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/catalog-0ed1d685fe435ed394d54bb76187b4b125c5f0f9ba5066bb0b960c0e97db8dfc.json"
+          "name": "catalog-c94ae85a151e80331ec02a6101985a3b685dfe9443a4a5df2965f6a66c9000db.json",
+          "sha256": "c94ae85a151e80331ec02a6101985a3b685dfe9443a4a5df2965f6a66c9000db",
+          "size": 26664,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.brave.browser-library/catalog-c94ae85a151e80331ec02a6101985a3b685dfe9443a4a5df2965f6a66c9000db.json"
         },
         "compat_manifest": {
           "name": "manifest-15dbab8f35589266509195008fa5a3a29038be236bf709bda6d38fe7d8c824e6.json",
@@ -11845,6 +11905,30 @@
         "tag": "com.brave.browser-library"
       },
       "unavailable": [
+        {
+          "id": "android12_armv7_en",
+          "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android12_armv7_ru",
+          "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_en",
+          "profile_fingerprint": "be05300b1a1a01b7e63da9d8df1e2a5c558be09f3dee7b831bf4b63aae2344d2",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_ru",
+          "profile_fingerprint": "dd34bd49045a6d0eb1f4351ab95578fcb34ec50f82213af3ee6a03de1fe039e0",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
         {
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
@@ -11871,6 +11955,536 @@
         }
       ],
       "variants": [
+        {
+          "certificate_sha256": [
+            "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "en-GB",
+              "en-US"
+            ],
+            "locale": "en_US",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "uses_splits": [
+              "chrome"
+            ]
+          },
+          "files": [
+            {
+              "artifact": "2db8c940c1bc7c9527fd3142627c99e2913069353a7680c131cab81d8dc9979f",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "86f5fbc6f6a4f44fb8c338048fe7bc567f99b7089865c71c4a7b8db08625680d",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            },
+            {
+              "artifact": "421918f3a27c4d3690c64525505aff90d5a34811dc7a98e14e12ac7ca86c33cf",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "9412cbbf2a1b904b0697b5464586855d3c15596f989741146fefbd82e6fb927a",
+              "original_name": "split_on_demand.apk",
+              "role": "split",
+              "split": "on_demand"
+            }
+          ],
+          "id": "android12_arm64_en",
+          "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
+          "version_code": 429806304,
+          "version_name": "1.98.63"
+        },
+        {
+          "certificate_sha256": [
+            "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 29,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "uses_splits": [
+              "chrome"
+            ]
+          },
+          "files": [
+            {
+              "artifact": "2db8c940c1bc7c9527fd3142627c99e2913069353a7680c131cab81d8dc9979f",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "86f5fbc6f6a4f44fb8c338048fe7bc567f99b7089865c71c4a7b8db08625680d",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            },
+            {
+              "artifact": "5d9c1b6870c2f97f3216d650ee8ead1aa56983b4e514e5498c3ebef6f687d7bd",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "9412cbbf2a1b904b0697b5464586855d3c15596f989741146fefbd82e6fb927a",
+              "original_name": "split_on_demand.apk",
+              "role": "split",
+              "split": "on_demand"
+            }
+          ],
+          "id": "android12_arm64_ru",
+          "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
+          "version_code": 429806304,
+          "version_name": "1.98.63"
+        },
+        {
+          "certificate_sha256": [
+            "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "en-GB",
+              "en-US"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "uses_splits": [
+              "chrome"
+            ]
+          },
+          "files": [
+            {
+              "artifact": "e907bdc56f2682e8a92edeef6013c2e9d118444c3c4c6fa80b587b3dca4ce12f",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "72aa5dc856de19751d096820a4e1df45d491b5b1112e13737ffba0780a8b9e51",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            },
+            {
+              "artifact": "62e10ce53e7350fe868c398f0b020c55ec3508d60df35d80ba8c86cdf868a426",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "4063486d7cefbb592e18f840479b004ef65eafdaad90b1da9af76fd4746823d3",
+              "original_name": "split_on_demand.apk",
+              "role": "split",
+              "split": "on_demand"
+            }
+          ],
+          "id": "android13_arm64_en",
+          "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
+          "version_code": 429806304,
+          "version_name": "1.98.63"
+        },
+        {
+          "certificate_sha256": [
+            "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "uses_splits": [
+              "chrome"
+            ]
+          },
+          "files": [
+            {
+              "artifact": "e907bdc56f2682e8a92edeef6013c2e9d118444c3c4c6fa80b587b3dca4ce12f",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "72aa5dc856de19751d096820a4e1df45d491b5b1112e13737ffba0780a8b9e51",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            },
+            {
+              "artifact": "ce6dcb3ad7f8cec2d497380d7a476580b14b16198859c5c366de08e42a04f896",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "4063486d7cefbb592e18f840479b004ef65eafdaad90b1da9af76fd4746823d3",
+              "original_name": "split_on_demand.apk",
+              "role": "split",
+              "split": "on_demand"
+            }
+          ],
+          "id": "android13_arm64_ru",
+          "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
+          "version_code": 429806304,
+          "version_name": "1.98.63"
+        },
+        {
+          "certificate_sha256": [
+            "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+          ],
+          "compatibility": {
+            "abis": [
+              "x86_64"
+            ],
+            "density": 320,
+            "gl_es_version": 196608,
+            "languages": [
+              "en-GB",
+              "en-US"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "x86_64"
+            ],
+            "provided_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "uses_splits": [
+              "chrome"
+            ]
+          },
+          "files": [
+            {
+              "artifact": "740c81585b9ec05887940b310fc17e78f02be3297e13a2c8c3c83d48c913ad78",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "ac73b742d8b4864476c33d3ecf6c97c6407725c26f53469187380b2ae2d07f9b",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            },
+            {
+              "artifact": "52fe4ccb6033126b9e5e3867d54ab3d5ee74e6803ec03ba6ac501f071e769cdb",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "ba1414faab1b9533fd2e7a34c3e424f099cb028573f612d89d22280a506d63d2",
+              "original_name": "split_on_demand.apk",
+              "role": "split",
+              "split": "on_demand"
+            }
+          ],
+          "id": "android13_x86_64_en",
+          "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
+          "version_code": 429806308,
+          "version_name": "1.98.63"
+        },
+        {
+          "certificate_sha256": [
+            "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+          ],
+          "compatibility": {
+            "abis": [
+              "x86_64"
+            ],
+            "density": 320,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "x86_64"
+            ],
+            "provided_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location"
+            ],
+            "required_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "uses_splits": [
+              "chrome"
+            ]
+          },
+          "files": [
+            {
+              "artifact": "740c81585b9ec05887940b310fc17e78f02be3297e13a2c8c3c83d48c913ad78",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "ac73b742d8b4864476c33d3ecf6c97c6407725c26f53469187380b2ae2d07f9b",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            },
+            {
+              "artifact": "17e23dcfef8fdb85d69344ac83ff6646a317b776b8bad40bda7928ab44a5a604",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "ba1414faab1b9533fd2e7a34c3e424f099cb028573f612d89d22280a506d63d2",
+              "original_name": "split_on_demand.apk",
+              "role": "split",
+              "split": "on_demand"
+            }
+          ],
+          "id": "android13_x86_64_ru",
+          "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
+          "version_code": 429806308,
+          "version_name": "1.98.63"
+        },
+        {
+          "certificate_sha256": [
+            "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "en-GB",
+              "en-US"
+            ],
+            "locale": "en_US",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "uses_splits": [
+              "chrome"
+            ]
+          },
+          "files": [
+            {
+              "artifact": "e907bdc56f2682e8a92edeef6013c2e9d118444c3c4c6fa80b587b3dca4ce12f",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "72aa5dc856de19751d096820a4e1df45d491b5b1112e13737ffba0780a8b9e51",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            },
+            {
+              "artifact": "62e10ce53e7350fe868c398f0b020c55ec3508d60df35d80ba8c86cdf868a426",
+              "original_name": "split_config.en.apk",
+              "role": "split",
+              "split": "config.en"
+            },
+            {
+              "artifact": "4063486d7cefbb592e18f840479b004ef65eafdaad90b1da9af76fd4746823d3",
+              "original_name": "split_on_demand.apk",
+              "role": "split",
+              "split": "on_demand"
+            }
+          ],
+          "id": "android16_arm64_en",
+          "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
+          "version_code": 429806304,
+          "version_name": "1.98.63"
+        },
+        {
+          "certificate_sha256": [
+            "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 196608,
+            "languages": [
+              "ru"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 32,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.landscape"
+            ],
+            "required_split_types": [
+              "chrome__module",
+              "on_demand__module"
+            ],
+            "uses_splits": [
+              "chrome"
+            ]
+          },
+          "files": [
+            {
+              "artifact": "e907bdc56f2682e8a92edeef6013c2e9d118444c3c4c6fa80b587b3dca4ce12f",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "72aa5dc856de19751d096820a4e1df45d491b5b1112e13737ffba0780a8b9e51",
+              "original_name": "split_chrome.apk",
+              "role": "split",
+              "split": "chrome"
+            },
+            {
+              "artifact": "ce6dcb3ad7f8cec2d497380d7a476580b14b16198859c5c366de08e42a04f896",
+              "original_name": "split_config.ru.apk",
+              "role": "split",
+              "split": "config.ru"
+            },
+            {
+              "artifact": "4063486d7cefbb592e18f840479b004ef65eafdaad90b1da9af76fd4746823d3",
+              "original_name": "split_on_demand.apk",
+              "role": "split",
+              "split": "on_demand"
+            }
+          ],
+          "id": "android16_arm64_ru",
+          "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
+          "version_code": 429806304,
+          "version_name": "1.98.63"
+        },
         {
           "certificate_sha256": [
             "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
