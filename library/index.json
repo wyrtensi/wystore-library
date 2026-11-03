@@ -46553,10 +46553,10 @@
       "package": "com.weightwatchers.mobile",
       "publication": {
         "catalog": {
-          "name": "catalog-826e0420555f73c81b98dda1c9da7eb7d869bd8ed35d3b77add0d991f19456b4.json",
-          "sha256": "826e0420555f73c81b98dda1c9da7eb7d869bd8ed35d3b77add0d991f19456b4",
-          "size": 6257,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/catalog-826e0420555f73c81b98dda1c9da7eb7d869bd8ed35d3b77add0d991f19456b4.json"
+          "name": "catalog-76123127315b80fb21c43b2cccbb323381675220eb87be0f313034429a23349a.json",
+          "sha256": "76123127315b80fb21c43b2cccbb323381675220eb87be0f313034429a23349a",
+          "size": 19901,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.weightwatchers.mobile-library/catalog-76123127315b80fb21c43b2cccbb323381675220eb87be0f313034429a23349a.json"
         },
         "compat_manifest": {
           "name": "manifest-ddd519d591c667ea524193d8a476c85692755086cf9f7e1375ab7fc20808c507.json",
@@ -46568,6 +46568,42 @@
         "tag": "com.weightwatchers.mobile-library"
       },
       "unavailable": [
+        {
+          "id": "android12_armv7_en",
+          "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android12_armv7_ru",
+          "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android13_x86_64_en",
+          "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android13_x86_64_ru",
+          "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_en",
+          "profile_fingerprint": "be05300b1a1a01b7e63da9d8df1e2a5c558be09f3dee7b831bf4b63aae2344d2",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
+        {
+          "id": "android9_arm64_ru",
+          "profile_fingerprint": "dd34bd49045a6d0eb1f4351ab95578fcb34ec50f82213af3ee6a03de1fe039e0",
+          "reason": "play_unavailable",
+          "version_code": 0
+        },
         {
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
@@ -46594,6 +46630,480 @@
         }
       ],
       "variants": [
+        {
+          "certificate_sha256": [
+            "a3499c2936c5bcab7bb82eb807497b45b49053d30728ade8a06489bf5a659206"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "de",
+              "de-CH",
+              "de-DE",
+              "en-AU",
+              "en-CA",
+              "en-EU",
+              "en-GB",
+              "en-NZ",
+              "en-US",
+              "fr",
+              "fr-BE",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "it",
+              "nl",
+              "nl-BE",
+              "nl-NL",
+              "pt",
+              "pt-BR",
+              "sv",
+              "sv-SE"
+            ],
+            "locale": "en_US",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android12_arm64_en",
+          "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
+          "version_code": 1773954320,
+          "version_name": "11.32.0"
+        },
+        {
+          "certificate_sha256": [
+            "a3499c2936c5bcab7bb82eb807497b45b49053d30728ade8a06489bf5a659206"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "de",
+              "de-CH",
+              "de-DE",
+              "en-AU",
+              "en-CA",
+              "en-EU",
+              "en-GB",
+              "en-NZ",
+              "en-US",
+              "fr",
+              "fr-BE",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "it",
+              "nl",
+              "nl-BE",
+              "nl-NL",
+              "pt",
+              "pt-BR",
+              "sv",
+              "sv-SE"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android12_arm64_ru",
+          "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
+          "version_code": 1773954320,
+          "version_name": "11.32.0"
+        },
+        {
+          "certificate_sha256": [
+            "a3499c2936c5bcab7bb82eb807497b45b49053d30728ade8a06489bf5a659206"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "de",
+              "de-CH",
+              "de-DE",
+              "en-AU",
+              "en-CA",
+              "en-EU",
+              "en-GB",
+              "en-NZ",
+              "en-US",
+              "fr",
+              "fr-BE",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "it",
+              "nl",
+              "nl-BE",
+              "nl-NL",
+              "pt",
+              "pt-BR",
+              "sv",
+              "sv-SE"
+            ],
+            "locale": "en_US",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android13_arm64_en",
+          "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
+          "version_code": 1773954320,
+          "version_name": "11.32.0"
+        },
+        {
+          "certificate_sha256": [
+            "a3499c2936c5bcab7bb82eb807497b45b49053d30728ade8a06489bf5a659206"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "de",
+              "de-CH",
+              "de-DE",
+              "en-AU",
+              "en-CA",
+              "en-EU",
+              "en-GB",
+              "en-NZ",
+              "en-US",
+              "fr",
+              "fr-BE",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "it",
+              "nl",
+              "nl-BE",
+              "nl-NL",
+              "pt",
+              "pt-BR",
+              "sv",
+              "sv-SE"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android13_arm64_ru",
+          "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
+          "version_code": 1773954320,
+          "version_name": "11.32.0"
+        },
+        {
+          "certificate_sha256": [
+            "a3499c2936c5bcab7bb82eb807497b45b49053d30728ade8a06489bf5a659206"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "de",
+              "de-CH",
+              "de-DE",
+              "en-AU",
+              "en-CA",
+              "en-EU",
+              "en-GB",
+              "en-NZ",
+              "en-US",
+              "fr",
+              "fr-BE",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "it",
+              "nl",
+              "nl-BE",
+              "nl-NL",
+              "pt",
+              "pt-BR",
+              "sv",
+              "sv-SE"
+            ],
+            "locale": "en_US",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android16_arm64_en",
+          "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
+          "version_code": 1773954320,
+          "version_name": "11.32.0"
+        },
+        {
+          "certificate_sha256": [
+            "a3499c2936c5bcab7bb82eb807497b45b49053d30728ade8a06489bf5a659206"
+          ],
+          "compatibility": {
+            "abis": [
+              "arm64-v8a"
+            ],
+            "density": 420,
+            "gl_es_version": 131072,
+            "languages": [
+              "de",
+              "de-CH",
+              "de-DE",
+              "en-AU",
+              "en-CA",
+              "en-EU",
+              "en-GB",
+              "en-NZ",
+              "en-US",
+              "fr",
+              "fr-BE",
+              "fr-CA",
+              "fr-CH",
+              "fr-FR",
+              "it",
+              "nl",
+              "nl-BE",
+              "nl-NL",
+              "pt",
+              "pt-BR",
+              "sv",
+              "sv-SE"
+            ],
+            "locale": "ru_RU",
+            "min_sdk": 28,
+            "native_abis": [
+              "arm64-v8a"
+            ],
+            "provided_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "required_features": [
+              "android.hardware.faketouch",
+              "android.hardware.location",
+              "android.hardware.screen.portrait"
+            ],
+            "required_split_types": [
+              "base__abi",
+              "base__density"
+            ],
+            "uses_splits": []
+          },
+          "files": [
+            {
+              "artifact": "e3a7419b703494e942e1613494ac6b7c531d00bda7cdc0c0760259c6bf3b2056",
+              "original_name": "base.apk",
+              "role": "base",
+              "split": ""
+            },
+            {
+              "artifact": "1a547d0eec5336f0015e68d681301912a6150f7e49c302a3eab7bacabcc86034",
+              "original_name": "split_config.arm64_v8a.apk",
+              "role": "split",
+              "split": "config.arm64_v8a"
+            },
+            {
+              "artifact": "4c056bcf3a5039bcd8ae24746fcd21409a26ff0bde7430dfd4befd3a21302c43",
+              "original_name": "split_config.xxhdpi.apk",
+              "role": "split",
+              "split": "config.xxhdpi"
+            }
+          ],
+          "id": "android16_arm64_ru",
+          "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
+          "version_code": 1773954320,
+          "version_name": "11.32.0"
+        },
         {
           "certificate_sha256": [
             "a3499c2936c5bcab7bb82eb807497b45b49053d30728ade8a06489bf5a659206"
