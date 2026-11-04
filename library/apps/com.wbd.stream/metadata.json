@@ -9,7 +9,7 @@
       "description": "The most talked about shows and movies featuring the worlds of HBO, the DC Universe, Adult Swim, A24, and beyond.<br><br>With HBO Max you'll get:<br>• Access to thousands of TV shows and movies.<br>• Exclusive, award-winning series that everyone's talking about — like the HBO Originals The Last of Us, Succession, The White Lotus, and House of the Dragon.<br>• The latest hits from HBO, Harry Potter, DC, Warner Bros., ID, Adult Swim, A24, and more.<br>• Stream select live sports from your favorite leagues and teams. Availability varies by plan and by subscription provider.<br>• Iconic favorite TV shows like Friends, Rick and Morty, Gossip Girl, 90 Day Fiancé, Looney Tunes, and more.<br>• Family-friendly entertainment for the whole household.<br>• Fascinating documentaries and true crime series.<br><br>Features:<br>• Enjoy your favorite shows and movies at home or on the go. HBO Max is available on select TV, web browser, mobile, tablet, and gaming console devices.  <br>• Catch even more sports action with the live Multiview experience — stream up to 3 games at once during select events.<br>• Browse or search with ease across HBO, movies, series, genres, and brands.<br>• Download shows and movies you love to watch on the go with select plans. (Download limits vary by plan.)<br>• Personalized profiles for the entire household with customizable ratings, profile PIN protection, and kid-proof exit.<br>• Pick up episodes and movies where you left off across your favorite devices.<br>• Keep up with everything you love, all in one place with My Stuff.<br>• Watch on multiple devices at the same time. (Limits vary by plan.)<br>• Stream with high-quality video and surround sound on select plans.<br><br>Content and feature availability on HBO Max may vary by region. Some titles and features shown above may not be available in your country. Language availability varies by country.<br><br>You can manage or cancel your subscription by visiting Settings > Subscriptions in your HBO Max account. HBO Max is only available in certain territories.<br><br>Terms of Use: https://hbomax.com/terms-of-use",
       "shortDescription": "Watch hit original series, films, reality, and more on HBO Max.",
       "versionName": null,
-      "updatedDate": "2026-10-21",
+      "updatedDate": "2026-11-02",
       "playUrl": "https://play.google.com/store/apps/details?id=com.wbd.stream",
       "changelog": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience.",
       "icon": "images/eccb94511a3b6682c8590572bc068bda2e230b6bda5372ce4e64f513c1a273e3.png",
@@ -30,7 +30,7 @@
       "description": "The most talked about shows and movies featuring the worlds of HBO, the DC Universe, Adult Swim, A24, and beyond.<br><br>With HBO Max you'll get:<br>• Access to thousands of TV shows and movies.<br>• Exclusive, award-winning series that everyone's talking about — like the HBO Originals The Last of Us, Succession, The White Lotus, and House of the Dragon.<br>• The latest hits from HBO, Harry Potter, DC, Warner Bros., ID, Adult Swim, A24, and more.<br>• Stream select live sports from your favorite leagues and teams. Availability varies by plan and by subscription provider.<br>• Iconic favorite TV shows like Friends, Rick and Morty, Gossip Girl, 90 Day Fiancé, Looney Tunes, and more.<br>• Family-friendly entertainment for the whole household.<br>• Fascinating documentaries and true crime series.<br><br>Features:<br>• Enjoy your favorite shows and movies at home or on the go. HBO Max is available on select TV, web browser, mobile, tablet, and gaming console devices.  <br>• Catch even more sports action with the live Multiview experience — stream up to 3 games at once during select events.<br>• Browse or search with ease across HBO, movies, series, genres, and brands.<br>• Download shows and movies you love to watch on the go with select plans. (Download limits vary by plan.)<br>• Personalized profiles for the entire household with customizable ratings, profile PIN protection, and kid-proof exit.<br>• Pick up episodes and movies where you left off across your favorite devices.<br>• Keep up with everything you love, all in one place with My Stuff.<br>• Watch on multiple devices at the same time. (Limits vary by plan.)<br>• Stream with high-quality video and surround sound on select plans.<br><br>Content and feature availability on HBO Max may vary by region. Some titles and features shown above may not be available in your country. Language availability varies by country.<br><br>You can manage or cancel your subscription by visiting Settings > Subscriptions in your HBO Max account. HBO Max is only available in certain territories.<br><br>Terms of Use: https://hbomax.com/terms-of-use",
       "shortDescription": "Watch hit original series, films, reality, and more on HBO Max.",
       "versionName": null,
-      "updatedDate": "2026-10-21",
+      "updatedDate": "2026-11-02",
       "playUrl": "https://play.google.com/store/apps/details?id=com.wbd.stream",
       "changelog": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience.",
       "icon": "images/eccb94511a3b6682c8590572bc068bda2e230b6bda5372ce4e64f513c1a273e3.png",
@@ -52,12 +52,22 @@
         "versionName": null,
         "updatedDate": "2026-10-21",
         "text": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-02",
+        "text": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience."
       }
     ],
     "en_US": [
       {
         "versionName": null,
         "updatedDate": "2026-10-21",
+        "text": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-02",
         "text": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience."
       }
     ]

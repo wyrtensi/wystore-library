@@ -8,7 +8,7 @@
       "developer": "Amazon Mobile LLC",
       "description": "Use the Amazon Alexa App to set up your Alexa-enabled devices, listen to music, create shopping lists, get news updates, and much more. The more you use Alexa, the more she adapts to your voice, vocabulary, and personal preferences.<br><br>DISCOVER MORE<br>• Get more out of your Echo device through personalized feature recommendations from Alexa<br>• Discover and enable recommended Alexa skills<br>• Pick up where you left off directly from the home feed with lists, shopping, or recently played Music and Books<br><br>MANAGE YOUR DEVICES<br>• Set up your Alexa-enabled devices, control or check status of your compatible smart lights, locks and thermostats at home or on the go<br>• Create routines to automate your smart home devices<br><br>MUSIC & BOOKS<br>• Connect to music services like Amazon Music, Pandora, Spotify, TuneIn, and iHeartRadio. Choose a song or playlist and listen on your Alexa-enabled devices<br>• Create speaker groups to play music across your compatible Echo devices for multi-room music<br><br>ORGANIZE YOUR DAY<br>• View and edit shopping and to-do lists on the go, get weather and news updates, manage timers and alarms, and more<br><br>STAY CONNECTED<br>• Use Drop In from your app to connect instantly with your compatible Echo devices, like a two-way intercom <br>• Call or message supported Alexa-enabled devices, at no additional cost",
       "shortDescription": "ВСЕГДА ГОТОВ, связи, а БЫСТРО. Просто спросите.",
-      "versionName": "2.2.724579.0",
+      "versionName": "2.2.729050.0",
       "updatedDate": "2026-10-29",
       "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.dee.app",
       "changelog": "Our new design has made it easier to access your favorite features and devices. The Home page offers quick access to smart home controls, Echo management, and numerous Alexa features. The Devices page offers customizable views to manage your devices.",
@@ -29,7 +29,7 @@
       "developer": "Amazon Mobile LLC",
       "description": "Use the Amazon Alexa App to set up your Alexa-enabled devices, listen to music, create shopping lists, get news updates, and much more. The more you use Alexa, the more she adapts to your voice, vocabulary, and personal preferences.<br><br>DISCOVER MORE<br>• Get more out of your Echo device through personalized feature recommendations from Alexa<br>• Discover and enable recommended Alexa skills<br>• Pick up where you left off directly from the home feed with lists, shopping, or recently played Music and Books<br><br>MANAGE YOUR DEVICES<br>• Set up your Alexa-enabled devices, control or check status of your compatible smart lights, locks and thermostats at home or on the go<br>• Create routines to automate your smart home devices<br><br>MUSIC & BOOKS<br>• Connect to music services like Amazon Music, Pandora, Spotify, TuneIn, and iHeartRadio. Choose a song or playlist and listen on your Alexa-enabled devices<br>• Create speaker groups to play music across your compatible Echo devices for multi-room music<br><br>ORGANIZE YOUR DAY<br>• View and edit shopping and to-do lists on the go, get weather and news updates, manage timers and alarms, and more<br><br>STAY CONNECTED<br>• Use Drop In from your app to connect instantly with your compatible Echo devices, like a two-way intercom <br>• Call or message supported Alexa-enabled devices, at no additional cost",
       "shortDescription": "ALWAYS READY, CONNECTED, AND FAST. Just ask.",
-      "versionName": "2.2.724579.0",
+      "versionName": "2.2.729050.0",
       "updatedDate": "2026-10-29",
       "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.dee.app",
       "changelog": "Our new design has made it easier to access your favorite features and devices. The Home page offers quick access to smart home controls, Echo management, and numerous Alexa features. The Devices page offers customizable views to manage your devices.",
@@ -57,6 +57,11 @@
         "versionName": "2.2.724579.0",
         "updatedDate": "2026-10-29",
         "text": "Our new design has made it easier to access your favorite features and devices. The Home page offers quick access to smart home controls, Echo management, and numerous Alexa features. The Devices page offers customizable views to manage your devices."
+      },
+      {
+        "versionName": "2.2.729050.0",
+        "updatedDate": "2026-10-29",
+        "text": "Our new design has made it easier to access your favorite features and devices. The Home page offers quick access to smart home controls, Echo management, and numerous Alexa features. The Devices page offers customizable views to manage your devices."
       }
     ],
     "en_US": [
@@ -67,6 +72,11 @@
       },
       {
         "versionName": "2.2.724579.0",
+        "updatedDate": "2026-10-29",
+        "text": "Our new design has made it easier to access your favorite features and devices. The Home page offers quick access to smart home controls, Echo management, and numerous Alexa features. The Devices page offers customizable views to manage your devices."
+      },
+      {
+        "versionName": "2.2.729050.0",
         "updatedDate": "2026-10-29",
         "text": "Our new design has made it easier to access your favorite features and devices. The Home page offers quick access to smart home controls, Echo management, and numerous Alexa features. The Devices page offers customizable views to manage your devices."
       }

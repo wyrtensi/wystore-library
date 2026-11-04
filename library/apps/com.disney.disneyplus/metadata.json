@@ -9,7 +9,7 @@
       "description": "Disney+ is the streaming home of your favorite stories. With beloved movies and series from Disney, Pixar, Marvel, Star Wars, National Geographic, there's always something to explore. Stream the latest movie releases, exclusive Original series, and highly anticipated matchups all in Disney+.<br><br>Stream Originals like Marvel Studios’ Loki and fan favorites like Encanto and The Simpsons.<br><br>With a Disney+ subscription plan you will get to experience:<br>• Exclusive new Originals from Disney, Pixar, Marvel, Star Wars, and National Geographic.<br>• Access to new releases, timeless classics, and past seasons of your favorite TV shows.<br>•A live feed of ABC News and Streams that offer carefully curated, continuous programming based on seasonality or interest, from across the Disney+ library*<br>• Over 100 titles in 4K UHD and HDR.<br>• The ability to watch on multiple screens at once at no extra cost.<br>• Multiple parental control features including Profile PIN and Kid-Proof Exit. Easily adjust a profile’s Content Rating settings for a viewing experience that suits everyone<br>• IMAX Enhanced, see the full scale and scope with IMAX's expanded aspect ratio. Available with certain Marvel and Pixar titles and accessible on all devices where Disney+ is supported.<br>• A curated selection of unlocked Hulu content in the Hulu hub within the Disney+ app.**<br>• A curated selection of highly anticipated live sports events, ESPN Originals, and studio programming in the ESPN hub within the Disney+ app**<br><br>For help with Disney+, please visit: http://help.disneyplus.com<br>For our Subscriber Agreement and other policies please visit: https://disneyplus.com/legal/subscriber-agreement<br>Your California Privacy Rights: https://www.disneyplus.com/legal/your-california-privacy-rights<br>Do Not Sell My Information: https://www.disneyplus.com/legal/privacy-policy<br><br>The content available on Disney+ may vary by region. Some titles shown above may not be available in your country.<br><br>*Select Streams are currently available only with the Disney+ Premium plan. ABC News is not rated and will require a profile's Content Rating settings to be set to TV-MA. All other Streams are rated on a program-by-program basis.<br><br>**Content subject to change. U.S. residents, 18+ only. A limited selection of content from Hulu and ESPN are now available to all Disney+ subscribers. To access the full ESPN on Disney+ and Hulu on Disney+ experiences, you must bundle those services with your Disney+ subscription.",
       "shortDescription": "Смотрите и загружайте свои любимые фильмы, телешоу и оригинальные фильмы на Disney+",
       "versionName": "26.19.0+rc3-2026.10.20",
-      "updatedDate": "2026-10-20",
+      "updatedDate": "2026-11-03",
       "playUrl": "https://play.google.com/store/apps/details?id=com.disney.disneyplus",
       "changelog": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better.",
       "icon": "images/e4050d289d79d300debcf072a210482469404102a88243242766e87c9bdcde2a.png",
@@ -30,7 +30,7 @@
       "description": "Disney+ is the streaming home of your favorite stories. With beloved movies and series from Disney, Pixar, Marvel, Star Wars, National Geographic, there's always something to explore. Stream the latest movie releases, exclusive Original series, and highly anticipated matchups all in Disney+.<br><br>Stream Originals like Marvel Studios’ Loki and fan favorites like Encanto and The Simpsons.<br><br>With a Disney+ subscription plan you will get to experience:<br>• Exclusive new Originals from Disney, Pixar, Marvel, Star Wars, and National Geographic.<br>• Access to new releases, timeless classics, and past seasons of your favorite TV shows.<br>•A live feed of ABC News and Streams that offer carefully curated, continuous programming based on seasonality or interest, from across the Disney+ library*<br>• Over 100 titles in 4K UHD and HDR.<br>• The ability to watch on multiple screens at once at no extra cost.<br>• Multiple parental control features including Profile PIN and Kid-Proof Exit. Easily adjust a profile’s Content Rating settings for a viewing experience that suits everyone<br>• IMAX Enhanced, see the full scale and scope with IMAX's expanded aspect ratio. Available with certain Marvel and Pixar titles and accessible on all devices where Disney+ is supported.<br>• A curated selection of unlocked Hulu content in the Hulu hub within the Disney+ app.**<br>• A curated selection of highly anticipated live sports events, ESPN Originals, and studio programming in the ESPN hub within the Disney+ app**<br><br>For help with Disney+, please visit: http://help.disneyplus.com<br>For our Subscriber Agreement and other policies please visit: https://disneyplus.com/legal/subscriber-agreement<br>Your California Privacy Rights: https://www.disneyplus.com/legal/your-california-privacy-rights<br>Do Not Sell My Information: https://www.disneyplus.com/legal/privacy-policy<br><br>The content available on Disney+ may vary by region. Some titles shown above may not be available in your country.<br><br>*Select Streams are currently available only with the Disney+ Premium plan. ABC News is not rated and will require a profile's Content Rating settings to be set to TV-MA. All other Streams are rated on a program-by-program basis.<br><br>**Content subject to change. U.S. residents, 18+ only. A limited selection of content from Hulu and ESPN are now available to all Disney+ subscribers. To access the full ESPN on Disney+ and Hulu on Disney+ experiences, you must bundle those services with your Disney+ subscription.",
       "shortDescription": "Stream and download your favorite movies, TV shows & Originals on Disney+",
       "versionName": "26.19.0+rc3-2026.10.20",
-      "updatedDate": "2026-10-20",
+      "updatedDate": "2026-11-03",
       "playUrl": "https://play.google.com/store/apps/details?id=com.disney.disneyplus",
       "changelog": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better.",
       "icon": "images/e4050d289d79d300debcf072a210482469404102a88243242766e87c9bdcde2a.png",
@@ -52,12 +52,22 @@
         "versionName": "26.19.0+rc3-2026.10.20",
         "updatedDate": "2026-10-20",
         "text": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better."
+      },
+      {
+        "versionName": "26.19.0+rc3-2026.10.20",
+        "updatedDate": "2026-11-03",
+        "text": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better."
       }
     ],
     "en_US": [
       {
         "versionName": "26.19.0+rc3-2026.10.20",
         "updatedDate": "2026-10-20",
+        "text": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better."
+      },
+      {
+        "versionName": "26.19.0+rc3-2026.10.20",
+        "updatedDate": "2026-11-03",
         "text": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better."
       }
     ]

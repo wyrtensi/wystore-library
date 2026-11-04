@@ -8,7 +8,7 @@
       "developer": "LinkedIn",
       "description": "Приложение LinkedIn позволяет легче устанавливать контакты с людьми и делать то, что актуально в вашем профессиональном мире. Создайте и развивайте свою сеть профессиональных контактов, оставайтесь в курсе последних новостей бизнеса и отрасли и найдите работу своей мечты.<br><br>Всё это начинается с вашего профиля в LinkedIn. Ваш профиль — нечто большее, чем обычное профессиональное резюме. Он демонстрирует миру, кем вы являетесь и чего достигли в своей карьере. Но это всего лишь начало. С помощью приложения LinkedIn вы можете:<br>•\tВыполнять поиск людей, вакансий, компаний и групп<br>•\tПолучать обновления от людей, издателей и компаний, которые могут способствовать вашему профессиональному успеху<br>•\tРассказать о себе с помощью профессионального профиля и создать собственный профессиональный имидж<br>•\tОбновить и улучшить свой профиль, где бы вы ни находились, прямо в приложении<br>•\tРасширить сеть профессиональных контактов и оставаться на связи<br>•\tСвязаться с другими участниками и просмотреть их профессиональные профили<br>•\tДелиться статьями с целью упрочить свою репутацию в качестве эксперта<br>•\tОтслеживать компании для получения объявлений о вакансиях, деловых обновлений и предложений установить контакт с людьми, которых вы можете знать<br>•\tПовысить статус учётной записи LinkedIn до уровня «Премиум» прямо в приложении",
       "shortDescription": "Устанавливайте контакты. Находите новые возможности.",
-      "versionName": "4.1.1267",
+      "versionName": "4.1.1269",
       "updatedDate": "2026-11-02",
       "playUrl": "https://play.google.com/store/apps/details?id=com.linkedin.android",
       "changelog": "Благодарим за использование LinkedIn! Мы постоянно обновляем наше приложение, чтобы исправить ошибки, повысить производительность и добавить новые функциональные возможности, что помогает вам устанавливать контакт со специалистами в вашей отрасли и развивать свою карьеру.",
@@ -27,7 +27,7 @@
       "developer": "LinkedIn",
       "description": "Welcome to LinkedIn – The Professional Network That Works for You<br><br>Build your career, grow your network, and unlock opportunities with LinkedIn, your trusted platform for meaningful professional connections.<br><br>Explore Key Features:<br><br>Seamless Job Search<br>- Effortlessly find roles that align with your skills and interests using LinkedIn’s AI-powered tools.<br>- Set personalized job alerts to stay ahead of potential opportunities.<br>- Quick Apply: Use your LinkedIn profile or resume to apply for jobs in just a few clicks.<br><br>Engage With Business News & Insights<br>- Stay updated on industry trends and company news to make informed career decisions.<br>- Access content shared by industry leaders, explore collaborative articles, and join engaging conversations within your community.<br><br>Professional Networking That Matters<br>- Build meaningful connections with colleagues, peers, and industry experts.<br>- Engage with a community of professionals who share your interests and goals.<br>- Enhanced Visibility: Members who share posts and updates twice a week enjoy up to 5x more profile views, boosting their professional reach.<br><br>Strengthen Your Professional Brand<br>- Showcase your skills, achievements, and projects to underscore your expertise.<br>- Verification Badges: Add a verification badge to signal authenticity and build trust—verified members see 60% more profile views on average.<br><br>Join a Trusted and Secure Community<br>- Grow and engage in a secure platform backed by LinkedIn’s verification features. Verified profiles, workplace credentials, and educational backgrounds create a trusted environment for connections and opportunities.<br>- Collaborate with like-minded professionals in a space designed to foster meaningful and productive relationships.<br><br>Why Premium?<br><br>Boost your LinkedIn experience with Premium tools and insights:<br>- See who views your profile.<br>- Access exclusive content, learning courses, and salary data.<br>- Network confidently with InMail messages.<br><br>We ask for a few permissions when you use this app. Here’s why: http://linkd.in/1l0S8Y<br><br>LinkedIn members have the option to verify their identity by securely uploading a government ID and/or taking a live selfie using certain trusted partners. For more information about the data collected by our trusted partners through this process and the periods for which it will be retained, see: https://www.linkedin.com/help/linkedin/answer/a1359065<br><br>LinkedIn empowers millions of professionals worldwide to grow, connect, and succeed. With nearly 16,000 connections made every minute, your next opportunity starts here. Upgrade to Premium and make the most of LinkedIn today.<br><br>We ask for a few permissions when you use this app. Here’s why: http://linkd.in/1l0S8Y<br><br>LinkedIn members have the option to verify their identity by securely uploading a government ID and/or taking a live selfie using certain trusted partners. <br><br>For more information about the data collected by our trusted partners through this process and the periods for which it will be retained, see: https://www.linkedin.com/help/linkedin/answer/a1359065",
       "shortDescription": "Find Jobs, Insights and News",
-      "versionName": "4.1.1267",
+      "versionName": "4.1.1269",
       "updatedDate": "2026-11-02",
       "playUrl": "https://play.google.com/store/apps/details?id=com.linkedin.android",
       "changelog": "Thanks for using LinkedIn! We regularly update our app to fix bugs, improve performance and add new features to help you connect with your professional network and advance your career.",
@@ -53,6 +53,11 @@
         "versionName": "4.1.1267",
         "updatedDate": "2026-11-02",
         "text": "Благодарим за использование LinkedIn! Мы постоянно обновляем наше приложение, чтобы исправить ошибки, повысить производительность и добавить новые функциональные возможности, что помогает вам устанавливать контакт со специалистами в вашей отрасли и развивать свою карьеру."
+      },
+      {
+        "versionName": "4.1.1269",
+        "updatedDate": "2026-11-02",
+        "text": "Благодарим за использование LinkedIn! Мы постоянно обновляем наше приложение, чтобы исправить ошибки, повысить производительность и добавить новые функциональные возможности, что помогает вам устанавливать контакт со специалистами в вашей отрасли и развивать свою карьеру."
       }
     ],
     "en_US": [
@@ -63,6 +68,11 @@
       },
       {
         "versionName": "4.1.1267",
+        "updatedDate": "2026-11-02",
+        "text": "Thanks for using LinkedIn! We regularly update our app to fix bugs, improve performance and add new features to help you connect with your professional network and advance your career."
+      },
+      {
+        "versionName": "4.1.1269",
         "updatedDate": "2026-11-02",
         "text": "Thanks for using LinkedIn! We regularly update our app to fix bugs, improve performance and add new features to help you connect with your professional network and advance your career."
       }
