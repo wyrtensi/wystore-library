@@ -34,6 +34,17 @@ class GitHubTests(unittest.TestCase):
         run.return_value = CompletedProcess([], 1, '', 'secret token')
         with self.assertRaises(RuntimeError) as error: Publisher('owner/repo')._gh('release', 'view', 'x')
         self.assertNotIn('secret', str(error.exception))
+
+    @patch('wystore_library.github.subprocess.run')
+    def test_api_failure_reports_method_and_http_status_without_response_details(self, run):
+        run.return_value = CompletedProcess([], 1, '', 'private URL and token (HTTP 403)')
+        with self.assertRaises(RuntimeError) as error:
+            Publisher('owner/repo')._gh('api', '--method', 'PATCH', 'private-url')
+        message = str(error.exception)
+        self.assertIn('PATCH', message)
+        self.assertIn('HTTP 403', message)
+        self.assertNotIn('private', message)
+        self.assertNotIn('token', message)
     def test_release_assets_require_exact_digest_and_complete_state(self):
         expected = {'base.apk': {'sha256': 'a'*64, 'size': 3}}
         good = {'draft': False, 'assets': [{'name': 'base.apk', 'digest': 'sha256:' + 'a'*64, 'size': 3, 'state': 'uploaded'}]}

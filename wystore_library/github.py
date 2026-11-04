@@ -18,6 +18,15 @@ class Publisher:
         if result.returncode:
             if allow_not_found and ('HTTP 404' in result.stderr):
                 return None
+            if args and args[0] == 'api':
+                method = 'GET'
+                if '--method' in args:
+                    position = args.index('--method')
+                    candidate = args[position + 1] if position + 1 < len(args) else ''
+                    method = candidate if candidate in ('GET', 'POST', 'PUT', 'PATCH', 'DELETE') else 'unknown'
+                match = re.search(r'\(HTTP ([1-5][0-9]{2})\)', result.stderr)
+                status = f'HTTP {match.group(1)}' if match else 'HTTP status unavailable'
+                raise RuntimeError(f'GitHub API {method} failed: {status}')
             raise RuntimeError('GitHub operation failed: gh ' + ' '.join(args[:2]))
         return result.stdout
 
