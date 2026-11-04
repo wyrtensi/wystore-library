@@ -55333,22 +55333,22 @@
     {
       "artifacts": [
         {
-          "name": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f.apk",
-          "sha256": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
-          "size": 27698503,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f.apk"
+          "name": "2447f2b3396ee49dc8f8cfdc7f43dfded25205c777f4680cf9242efae26864e1.apk",
+          "sha256": "2447f2b3396ee49dc8f8cfdc7f43dfded25205c777f4680cf9242efae26864e1",
+          "size": 655829,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/2447f2b3396ee49dc8f8cfdc7f43dfded25205c777f4680cf9242efae26864e1.apk"
         },
         {
-          "name": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955.apk",
-          "sha256": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955",
-          "size": 823705,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955.apk"
+          "name": "4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23.apk",
+          "sha256": "4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23",
+          "size": 831897,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23.apk"
         },
         {
-          "name": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3.apk",
-          "sha256": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
-          "size": 31276678,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3.apk"
+          "name": "5240be24621da37b6692ea1c74f386e0d021c48be0ffc8050a4bf4e6afabdea3.apk",
+          "sha256": "5240be24621da37b6692ea1c74f386e0d021c48be0ffc8050a4bf4e6afabdea3",
+          "size": 33072419,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/5240be24621da37b6692ea1c74f386e0d021c48be0ffc8050a4bf4e6afabdea3.apk"
         },
         {
           "name": "7fc88fd0c9bca2478d114c032fe555370610a622d85a8b07e05b22fd9a06343b.apk",
@@ -55357,22 +55357,22 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/7fc88fd0c9bca2478d114c032fe555370610a622d85a8b07e05b22fd9a06343b.apk"
         },
         {
-          "name": "9199fbad54c382227383e8263c2f46ddcea8cafe1709a15abc943fe3fd24bdaf.apk",
-          "sha256": "9199fbad54c382227383e8263c2f46ddcea8cafe1709a15abc943fe3fd24bdaf",
-          "size": 32843043,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/9199fbad54c382227383e8263c2f46ddcea8cafe1709a15abc943fe3fd24bdaf.apk"
+          "name": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626.apk",
+          "sha256": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626",
+          "size": 27698503,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626.apk"
         },
         {
-          "name": "9424b0219115e3893f0678764b470a5d0ca6f0d0668434beda196245db4daf67.apk",
-          "sha256": "9424b0219115e3893f0678764b470a5d0ca6f0d0668434beda196245db4daf67",
+          "name": "b6163c116b9acbad9dbbb001bfc9ad1375f703109d5fe4b7389a4684f506d8dd.apk",
+          "sha256": "b6163c116b9acbad9dbbb001bfc9ad1375f703109d5fe4b7389a4684f506d8dd",
           "size": 1049982,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/9424b0219115e3893f0678764b470a5d0ca6f0d0668434beda196245db4daf67.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/b6163c116b9acbad9dbbb001bfc9ad1375f703109d5fe4b7389a4684f506d8dd.apk"
         },
         {
-          "name": "ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e.apk",
-          "sha256": "ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e",
-          "size": 651733,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e.apk"
+          "name": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e.apk",
+          "sha256": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
+          "size": 32077513,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e.apk"
         },
         {
           "name": "f818f7d61f969964ece7a80c53166870079db815a69bbbb5a43cdfe5a251a1e6.apk",
@@ -55381,10 +55381,10 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/f818f7d61f969964ece7a80c53166870079db815a69bbbb5a43cdfe5a251a1e6.apk"
         },
         {
-          "name": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84.apk",
-          "sha256": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+          "name": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b.apk",
+          "sha256": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b",
           "size": 1287489,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -55392,16 +55392,16 @@
       "package": "com.netflix.mediaclient",
       "publication": {
         "catalog": {
-          "name": "catalog-c47a0f997f19918e227fb2e47f14bf5ba46d816558b41522d2da3fcbf571e351.json",
-          "sha256": "c47a0f997f19918e227fb2e47f14bf5ba46d816558b41522d2da3fcbf571e351",
+          "name": "catalog-b9aae1b5c3d2cc6b2baf2dbe48edb9c8f2c07971bcb951a403d7800107d7cb98.json",
+          "sha256": "b9aae1b5c3d2cc6b2baf2dbe48edb9c8f2c07971bcb951a403d7800107d7cb98",
           "size": 40630,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/catalog-c47a0f997f19918e227fb2e47f14bf5ba46d816558b41522d2da3fcbf571e351.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/catalog-b9aae1b5c3d2cc6b2baf2dbe48edb9c8f2c07971bcb951a403d7800107d7cb98.json"
         },
         "compat_manifest": {
-          "name": "manifest-23527316e5b1a07a1fb2f657b6d44c30232a5dbda12490c4e8af97aebb95e715.json",
-          "sha256": "23527316e5b1a07a1fb2f657b6d44c30232a5dbda12490c4e8af97aebb95e715",
+          "name": "manifest-edec7cec30262256dfffa7a436bd9bc05f893453edcb5e850e279241f91953c9.json",
+          "sha256": "edec7cec30262256dfffa7a436bd9bc05f893453edcb5e850e279241f91953c9",
           "size": 1349,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/manifest-23527316e5b1a07a1fb2f657b6d44c30232a5dbda12490c4e8af97aebb95e715.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/manifest-edec7cec30262256dfffa7a436bd9bc05f893453edcb5e850e279241f91953c9.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.netflix.mediaclient-library",
         "tag": "com.netflix.mediaclient-library"
@@ -55465,25 +55465,25 @@
           },
           "files": [
             {
-              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "artifact": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+              "artifact": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955",
+              "artifact": "4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+              "artifact": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -55491,8 +55491,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 74684,
-          "version_name": "9.89.0 build 14 74684"
+          "version_code": 74736,
+          "version_name": "9.90.1 build 12 74736"
         },
         {
           "certificate_scope": {
@@ -55532,25 +55532,25 @@
           },
           "files": [
             {
-              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "artifact": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+              "artifact": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e",
+              "artifact": "2447f2b3396ee49dc8f8cfdc7f43dfded25205c777f4680cf9242efae26864e1",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+              "artifact": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -55558,8 +55558,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 74684,
-          "version_name": "9.89.0 build 14 74684"
+          "version_code": 74736,
+          "version_name": "9.90.1 build 12 74736"
         },
         {
           "certificate_scope": {
@@ -55605,25 +55605,25 @@
           },
           "files": [
             {
-              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "artifact": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+              "artifact": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955",
+              "artifact": "4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+              "artifact": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -55631,8 +55631,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 74684,
-          "version_name": "9.89.0 build 14 74684"
+          "version_code": 74736,
+          "version_name": "9.90.1 build 12 74736"
         },
         {
           "certificate_scope": {
@@ -55672,25 +55672,25 @@
           },
           "files": [
             {
-              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "artifact": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+              "artifact": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e",
+              "artifact": "2447f2b3396ee49dc8f8cfdc7f43dfded25205c777f4680cf9242efae26864e1",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+              "artifact": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -55698,8 +55698,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 74684,
-          "version_name": "9.89.0 build 14 74684"
+          "version_code": 74736,
+          "version_name": "9.90.1 build 12 74736"
         },
         {
           "certificate_scope": {
@@ -55745,25 +55745,25 @@
           },
           "files": [
             {
-              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "artifact": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955",
+              "artifact": "4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "9199fbad54c382227383e8263c2f46ddcea8cafe1709a15abc943fe3fd24bdaf",
+              "artifact": "5240be24621da37b6692ea1c74f386e0d021c48be0ffc8050a4bf4e6afabdea3",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "9424b0219115e3893f0678764b470a5d0ca6f0d0668434beda196245db4daf67",
+              "artifact": "b6163c116b9acbad9dbbb001bfc9ad1375f703109d5fe4b7389a4684f506d8dd",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -55771,8 +55771,8 @@
           ],
           "id": "android13_x86_64_en",
           "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
-          "version_code": 74684,
-          "version_name": "9.89.0 build 14 74684"
+          "version_code": 74736,
+          "version_name": "9.90.1 build 12 74736"
         },
         {
           "certificate_scope": {
@@ -55812,25 +55812,25 @@
           },
           "files": [
             {
-              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "artifact": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e",
+              "artifact": "2447f2b3396ee49dc8f8cfdc7f43dfded25205c777f4680cf9242efae26864e1",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "9199fbad54c382227383e8263c2f46ddcea8cafe1709a15abc943fe3fd24bdaf",
+              "artifact": "5240be24621da37b6692ea1c74f386e0d021c48be0ffc8050a4bf4e6afabdea3",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "9424b0219115e3893f0678764b470a5d0ca6f0d0668434beda196245db4daf67",
+              "artifact": "b6163c116b9acbad9dbbb001bfc9ad1375f703109d5fe4b7389a4684f506d8dd",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -55838,8 +55838,8 @@
           ],
           "id": "android13_x86_64_ru",
           "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
-          "version_code": 74684,
-          "version_name": "9.89.0 build 14 74684"
+          "version_code": 74736,
+          "version_name": "9.90.1 build 12 74736"
         },
         {
           "certificate_scope": {
@@ -55885,25 +55885,25 @@
           },
           "files": [
             {
-              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "artifact": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+              "artifact": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955",
+              "artifact": "4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+              "artifact": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -55911,8 +55911,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 74684,
-          "version_name": "9.89.0 build 14 74684"
+          "version_code": 74736,
+          "version_name": "9.90.1 build 12 74736"
         },
         {
           "certificate_scope": {
@@ -55952,25 +55952,25 @@
           },
           "files": [
             {
-              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "artifact": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+              "artifact": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e",
+              "artifact": "2447f2b3396ee49dc8f8cfdc7f43dfded25205c777f4680cf9242efae26864e1",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+              "artifact": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -55978,8 +55978,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 74684,
-          "version_name": "9.89.0 build 14 74684"
+          "version_code": 74736,
+          "version_name": "9.90.1 build 12 74736"
         },
         {
           "certificate_sha256": [
@@ -56845,25 +56845,25 @@
           },
           "files": [
             {
-              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "artifact": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+              "artifact": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "ad75ac9d208f2be94fbf106297cef97282144630266b38c3ec72b42918808c8e",
+              "artifact": "2447f2b3396ee49dc8f8cfdc7f43dfded25205c777f4680cf9242efae26864e1",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+              "artifact": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -56871,8 +56871,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 74684,
-          "version_name": "9.89.0 build 14 74684"
+          "version_code": 74736,
+          "version_name": "9.90.1 build 12 74736"
         },
         {
           "certificate_scope": {
@@ -56918,25 +56918,25 @@
           },
           "files": [
             {
-              "artifact": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
+              "artifact": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+              "artifact": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955",
+              "artifact": "4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+              "artifact": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -56944,8 +56944,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 74684,
-          "version_name": "9.89.0 build 14 74684"
+          "version_code": 74736,
+          "version_name": "9.90.1 build 12 74736"
         }
       ]
     },
@@ -85658,36 +85658,36 @@
     {
       "assets": [
         {
-          "name": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3.apk",
+          "name": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e.apk",
           "role": "base",
-          "sha256": "77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3",
-          "size": 31276678,
+          "sha256": "b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e",
+          "size": 32077513,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/77b78c729042eaccf031f948e534d905acfef9fc1eb895ed0ebbd59091bacda3.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/b6c13a3bc687695377134b2a9c3d3f92e9b272f601aa4bfd30fc3c477b62ac1e.apk"
         },
         {
-          "name": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f.apk",
+          "name": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626.apk",
           "role": "split",
-          "sha256": "0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f",
+          "sha256": "a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626",
           "size": 27698503,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/0a3e6d1b6f6c7a34d8fba9ead0617f7c4a50d08083701c79cb757a4baebf218f.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/a8e6fc3df8f7888826126e85eb9ae9747d8533eea626f86f18c1d72233877626.apk"
         },
         {
-          "name": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955.apk",
+          "name": "4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23.apk",
           "role": "split",
-          "sha256": "3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955",
-          "size": 823705,
+          "sha256": "4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23",
+          "size": 831897,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/3703f8e049a7f63aa1f0d92ebe138edbf038e2fefba9c5042a9995856231f955.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/4180eab28246999c26241d0a2bbf36f8fa00923a88dedf18f3ac3f14d1540b23.apk"
         },
         {
-          "name": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84.apk",
+          "name": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b.apk",
           "role": "split",
-          "sha256": "fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84",
+          "sha256": "fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b",
           "size": 1287489,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/fdabcd4d378fa1ceb1c4c7286c569fe347468f7a568ee2c9996f730cdd6e4b84.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/fbe16fa17f1d1870ffc78e13941c64c5cf8cc88ba399d2a31f44a4881360ff9b.apk"
         }
       ],
       "certificate_scope": {
@@ -85697,15 +85697,15 @@
       "certificate_sha256": [
         "86e17577ebe94bd64ff61590651863fb5a2d125f405fcbbf76ba0fe483a31d91"
       ],
-      "manifest_sha256": "23527316e5b1a07a1fb2f657b6d44c30232a5dbda12490c4e8af97aebb95e715",
+      "manifest_sha256": "edec7cec30262256dfffa7a436bd9bc05f893453edcb5e850e279241f91953c9",
       "manifest_size": 1349,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/manifest-23527316e5b1a07a1fb2f657b6d44c30232a5dbda12490c4e8af97aebb95e715.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.netflix.mediaclient-library/manifest-edec7cec30262256dfffa7a436bd9bc05f893453edcb5e850e279241f91953c9.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.netflix.mediaclient/metadata.json",
       "package": "com.netflix.mediaclient",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.netflix.mediaclient-library",
-      "version_code": 74684,
-      "version_name": "9.89.0 build 14 74684"
+      "version_code": 74736,
+      "version_name": "9.90.1 build 12 74736"
     },
     {
       "assets": [
