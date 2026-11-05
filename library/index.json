@@ -53290,76 +53290,76 @@
     {
       "artifacts": [
         {
-          "name": "05f6873ad158b933cb5b664a828c6e2a4f64460a0ea7c99158c5e09fde163f81.apk",
-          "sha256": "05f6873ad158b933cb5b664a828c6e2a4f64460a0ea7c99158c5e09fde163f81",
-          "size": 671954,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/05f6873ad158b933cb5b664a828c6e2a4f64460a0ea7c99158c5e09fde163f81.apk"
+          "name": "29065632c9254f20340ad89b7052909ec2c24907b3a7ba587238222b3c146ebe.apk",
+          "sha256": "29065632c9254f20340ad89b7052909ec2c24907b3a7ba587238222b3c146ebe",
+          "size": 696530,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/29065632c9254f20340ad89b7052909ec2c24907b3a7ba587238222b3c146ebe.apk"
         },
         {
-          "name": "2756f6c9aa90880be9b4327014ee89c7c8c11269eeb8860bdd5a801fa77470cd.apk",
-          "sha256": "2756f6c9aa90880be9b4327014ee89c7c8c11269eeb8860bdd5a801fa77470cd",
+          "name": "30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c.apk",
+          "sha256": "30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c",
+          "size": 322032728,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c.apk"
+        },
+        {
+          "name": "5dce939ada63ff9ad40e15439bbfa477f9d8eab495cab93310c1fb7266fe0ea1.apk",
+          "sha256": "5dce939ada63ff9ad40e15439bbfa477f9d8eab495cab93310c1fb7266fe0ea1",
+          "size": 696530,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/5dce939ada63ff9ad40e15439bbfa477f9d8eab495cab93310c1fb7266fe0ea1.apk"
+        },
+        {
+          "name": "7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90.apk",
+          "sha256": "7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90",
           "size": 2654434,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/2756f6c9aa90880be9b4327014ee89c7c8c11269eeb8860bdd5a801fa77470cd.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90.apk"
         },
         {
-          "name": "2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e.apk",
-          "sha256": "2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e",
+          "name": "8c40fcf98bb35c86f0c5c9f0f4a5ce5bab3dd4f5ff477c4f7999275fe2150ad0.apk",
+          "sha256": "8c40fcf98bb35c86f0c5c9f0f4a5ce5bab3dd4f5ff477c4f7999275fe2150ad0",
           "size": 2654434,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/8c40fcf98bb35c86f0c5c9f0f4a5ce5bab3dd4f5ff477c4f7999275fe2150ad0.apk"
         },
         {
-          "name": "593998e1dfda0d1cf50f888bd36593203c8f4007892dfada31602afc563732f6.apk",
-          "sha256": "593998e1dfda0d1cf50f888bd36593203c8f4007892dfada31602afc563732f6",
-          "size": 811218,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/593998e1dfda0d1cf50f888bd36593203c8f4007892dfada31602afc563732f6.apk"
+          "name": "a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62.apk",
+          "sha256": "a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62",
+          "size": 2401352,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62.apk"
         },
         {
-          "name": "6d97ca31d8f8933bb3c058739d26ce49e24d8da2c0486be42f7a54dc8e86f34a.apk",
-          "sha256": "6d97ca31d8f8933bb3c058739d26ce49e24d8da2c0486be42f7a54dc8e86f34a",
-          "size": 312788376,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/6d97ca31d8f8933bb3c058739d26ce49e24d8da2c0486be42f7a54dc8e86f34a.apk"
+          "name": "b1823ba8fcfa2d00b855a42bf45e552311733950e10abf63fc811ff70390213e.apk",
+          "sha256": "b1823ba8fcfa2d00b855a42bf45e552311733950e10abf63fc811ff70390213e",
+          "size": 831698,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/b1823ba8fcfa2d00b855a42bf45e552311733950e10abf63fc811ff70390213e.apk"
         },
         {
-          "name": "86c63a4508836ea563e33b966a3dac755b4bc1fc09f15e771d18d0824313898d.apk",
-          "sha256": "86c63a4508836ea563e33b966a3dac755b4bc1fc09f15e771d18d0824313898d",
-          "size": 811218,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/86c63a4508836ea563e33b966a3dac755b4bc1fc09f15e771d18d0824313898d.apk"
-        },
-        {
-          "name": "a2957c6357e8478621fc994c484e0c4f8a4861b6f9ffda08656a2aa5a77a2740.apk",
-          "sha256": "a2957c6357e8478621fc994c484e0c4f8a4861b6f9ffda08656a2aa5a77a2740",
-          "size": 671954,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/a2957c6357e8478621fc994c484e0c4f8a4861b6f9ffda08656a2aa5a77a2740.apk"
-        },
-        {
-          "name": "cfd0bd62379b395c583896b10adeeff5e528ec27b2cff757f4e8ea4af0d00fb3.apk",
-          "sha256": "cfd0bd62379b395c583896b10adeeff5e528ec27b2cff757f4e8ea4af0d00fb3",
-          "size": 2085507,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/cfd0bd62379b395c583896b10adeeff5e528ec27b2cff757f4e8ea4af0d00fb3.apk"
-        },
-        {
-          "name": "d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b.apk",
-          "sha256": "d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b",
-          "size": 2396954,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b.apk"
-        },
-        {
-          "name": "d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d.apk",
-          "sha256": "d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d",
-          "size": 312014400,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d.apk"
-        },
-        {
-          "name": "e875da15f1eef63dafc3780aeb612e81dff5f6cbc5ef9fecc7952f98e3a6877f.apk",
-          "sha256": "e875da15f1eef63dafc3780aeb612e81dff5f6cbc5ef9fecc7952f98e3a6877f",
+          "name": "b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86.apk",
+          "sha256": "b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86",
           "size": 16534,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/e875da15f1eef63dafc3780aeb612e81dff5f6cbc5ef9fecc7952f98e3a6877f.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86.apk"
         },
         {
-          "name": "e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c.apk",
-          "sha256": "e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c",
+          "name": "cee6dfb720f8e776b9a44e1d49a293b4b41b19823e4ccce69057a1e56327edee.apk",
+          "sha256": "cee6dfb720f8e776b9a44e1d49a293b4b41b19823e4ccce69057a1e56327edee",
+          "size": 2089905,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/cee6dfb720f8e776b9a44e1d49a293b4b41b19823e4ccce69057a1e56327edee.apk"
+        },
+        {
+          "name": "db85ca7227da4bdb8ad1b3955a1bc1f22fa37f83ecdf8d8cebaf77a9ccd43bcc.apk",
+          "sha256": "db85ca7227da4bdb8ad1b3955a1bc1f22fa37f83ecdf8d8cebaf77a9ccd43bcc",
+          "size": 323249069,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/db85ca7227da4bdb8ad1b3955a1bc1f22fa37f83ecdf8d8cebaf77a9ccd43bcc.apk"
+        },
+        {
+          "name": "dd8cea5b723f24d2d754d3b32cfe72077fe0a45cbd4a831ac17192e3ad32b444.apk",
+          "sha256": "dd8cea5b723f24d2d754d3b32cfe72077fe0a45cbd4a831ac17192e3ad32b444",
+          "size": 831698,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/dd8cea5b723f24d2d754d3b32cfe72077fe0a45cbd4a831ac17192e3ad32b444.apk"
+        },
+        {
+          "name": "e67611ffc59dadecbf291b83eb12b90c7ab64d7a8d704389b357878739246716.apk",
+          "sha256": "e67611ffc59dadecbf291b83eb12b90c7ab64d7a8d704389b357878739246716",
           "size": 16534,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/e67611ffc59dadecbf291b83eb12b90c7ab64d7a8d704389b357878739246716.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -53367,16 +53367,16 @@
       "package": "com.microsoft.office.officehubrow",
       "publication": {
         "catalog": {
-          "name": "catalog-bcd7269842dfcda3ea3e6e2f6a452ceab99057f4aef474ea0be9bbcbabf9bb0f.json",
-          "sha256": "bcd7269842dfcda3ea3e6e2f6a452ceab99057f4aef474ea0be9bbcbabf9bb0f",
+          "name": "catalog-2265077fc95306b9317d310760f0a3d2841c21330a4c8d458ae9f5cbeebafda3.json",
+          "sha256": "2265077fc95306b9317d310760f0a3d2841c21330a4c8d458ae9f5cbeebafda3",
           "size": 23942,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/catalog-bcd7269842dfcda3ea3e6e2f6a452ceab99057f4aef474ea0be9bbcbabf9bb0f.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/catalog-2265077fc95306b9317d310760f0a3d2841c21330a4c8d458ae9f5cbeebafda3.json"
         },
         "compat_manifest": {
-          "name": "manifest-b10c8a41d27065020d45cc277a88b3ca86d9cabf5d18843aee3cb0c5bf115bc8.json",
-          "sha256": "b10c8a41d27065020d45cc277a88b3ca86d9cabf5d18843aee3cb0c5bf115bc8",
+          "name": "manifest-81a72491283feae73540d15479b80f88bcdd158e0c5179765f93eca2bb9b967f.json",
+          "sha256": "81a72491283feae73540d15479b80f88bcdd158e0c5179765f93eca2bb9b967f",
           "size": 1541,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/manifest-b10c8a41d27065020d45cc277a88b3ca86d9cabf5d18843aee3cb0c5bf115bc8.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/manifest-81a72491283feae73540d15479b80f88bcdd158e0c5179765f93eca2bb9b967f.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.microsoft.office.officehubrow-library",
         "tag": "com.microsoft.office.officehubrow-library"
@@ -53479,31 +53479,31 @@
           },
           "files": [
             {
-              "artifact": "d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d",
+              "artifact": "30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a2957c6357e8478621fc994c484e0c4f8a4861b6f9ffda08656a2aa5a77a2740",
+              "artifact": "5dce939ada63ff9ad40e15439bbfa477f9d8eab495cab93310c1fb7266fe0ea1",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b",
+              "artifact": "a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c",
+              "artifact": "b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86",
               "original_name": "split_lenssampledoc.apk",
               "role": "split",
               "split": "lenssampledoc"
             },
             {
-              "artifact": "2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e",
+              "artifact": "7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90",
               "original_name": "split_mainassetpack.apk",
               "role": "split",
               "split": "mainassetpack"
@@ -53511,8 +53511,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 45495031,
-          "version_name": "16.0.20618.20014"
+          "version_code": 45497803,
+          "version_name": "16.0.20625.20022"
         },
         {
           "certificate_sha256": [
@@ -53548,31 +53548,31 @@
           },
           "files": [
             {
-              "artifact": "d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d",
+              "artifact": "30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "86c63a4508836ea563e33b966a3dac755b4bc1fc09f15e771d18d0824313898d",
+              "artifact": "b1823ba8fcfa2d00b855a42bf45e552311733950e10abf63fc811ff70390213e",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b",
+              "artifact": "a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c",
+              "artifact": "b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86",
               "original_name": "split_lenssampledoc.apk",
               "role": "split",
               "split": "lenssampledoc"
             },
             {
-              "artifact": "2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e",
+              "artifact": "7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90",
               "original_name": "split_mainassetpack.apk",
               "role": "split",
               "split": "mainassetpack"
@@ -53580,8 +53580,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 45495031,
-          "version_name": "16.0.20618.20014"
+          "version_code": 45497803,
+          "version_name": "16.0.20625.20022"
         },
         {
           "certificate_sha256": [
@@ -53618,31 +53618,31 @@
           },
           "files": [
             {
-              "artifact": "6d97ca31d8f8933bb3c058739d26ce49e24d8da2c0486be42f7a54dc8e86f34a",
+              "artifact": "db85ca7227da4bdb8ad1b3955a1bc1f22fa37f83ecdf8d8cebaf77a9ccd43bcc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "05f6873ad158b933cb5b664a828c6e2a4f64460a0ea7c99158c5e09fde163f81",
+              "artifact": "29065632c9254f20340ad89b7052909ec2c24907b3a7ba587238222b3c146ebe",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "cfd0bd62379b395c583896b10adeeff5e528ec27b2cff757f4e8ea4af0d00fb3",
+              "artifact": "cee6dfb720f8e776b9a44e1d49a293b4b41b19823e4ccce69057a1e56327edee",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
             },
             {
-              "artifact": "e875da15f1eef63dafc3780aeb612e81dff5f6cbc5ef9fecc7952f98e3a6877f",
+              "artifact": "e67611ffc59dadecbf291b83eb12b90c7ab64d7a8d704389b357878739246716",
               "original_name": "split_lenssampledoc.apk",
               "role": "split",
               "split": "lenssampledoc"
             },
             {
-              "artifact": "2756f6c9aa90880be9b4327014ee89c7c8c11269eeb8860bdd5a801fa77470cd",
+              "artifact": "8c40fcf98bb35c86f0c5c9f0f4a5ce5bab3dd4f5ff477c4f7999275fe2150ad0",
               "original_name": "split_mainassetpack.apk",
               "role": "split",
               "split": "mainassetpack"
@@ -53650,8 +53650,8 @@
           ],
           "id": "android13_x86_64_en",
           "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
-          "version_code": 45495032,
-          "version_name": "16.0.20618.20014"
+          "version_code": 45497804,
+          "version_name": "16.0.20625.20022"
         },
         {
           "certificate_sha256": [
@@ -53687,31 +53687,31 @@
           },
           "files": [
             {
-              "artifact": "6d97ca31d8f8933bb3c058739d26ce49e24d8da2c0486be42f7a54dc8e86f34a",
+              "artifact": "db85ca7227da4bdb8ad1b3955a1bc1f22fa37f83ecdf8d8cebaf77a9ccd43bcc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "593998e1dfda0d1cf50f888bd36593203c8f4007892dfada31602afc563732f6",
+              "artifact": "dd8cea5b723f24d2d754d3b32cfe72077fe0a45cbd4a831ac17192e3ad32b444",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "cfd0bd62379b395c583896b10adeeff5e528ec27b2cff757f4e8ea4af0d00fb3",
+              "artifact": "cee6dfb720f8e776b9a44e1d49a293b4b41b19823e4ccce69057a1e56327edee",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
             },
             {
-              "artifact": "e875da15f1eef63dafc3780aeb612e81dff5f6cbc5ef9fecc7952f98e3a6877f",
+              "artifact": "e67611ffc59dadecbf291b83eb12b90c7ab64d7a8d704389b357878739246716",
               "original_name": "split_lenssampledoc.apk",
               "role": "split",
               "split": "lenssampledoc"
             },
             {
-              "artifact": "2756f6c9aa90880be9b4327014ee89c7c8c11269eeb8860bdd5a801fa77470cd",
+              "artifact": "8c40fcf98bb35c86f0c5c9f0f4a5ce5bab3dd4f5ff477c4f7999275fe2150ad0",
               "original_name": "split_mainassetpack.apk",
               "role": "split",
               "split": "mainassetpack"
@@ -53719,8 +53719,8 @@
           ],
           "id": "android13_x86_64_ru",
           "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
-          "version_code": 45495032,
-          "version_name": "16.0.20618.20014"
+          "version_code": 45497804,
+          "version_name": "16.0.20625.20022"
         },
         {
           "certificate_sha256": [
@@ -53757,31 +53757,31 @@
           },
           "files": [
             {
-              "artifact": "d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d",
+              "artifact": "30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a2957c6357e8478621fc994c484e0c4f8a4861b6f9ffda08656a2aa5a77a2740",
+              "artifact": "5dce939ada63ff9ad40e15439bbfa477f9d8eab495cab93310c1fb7266fe0ea1",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b",
+              "artifact": "a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c",
+              "artifact": "b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86",
               "original_name": "split_lenssampledoc.apk",
               "role": "split",
               "split": "lenssampledoc"
             },
             {
-              "artifact": "2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e",
+              "artifact": "7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90",
               "original_name": "split_mainassetpack.apk",
               "role": "split",
               "split": "mainassetpack"
@@ -53789,8 +53789,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 45495031,
-          "version_name": "16.0.20618.20014"
+          "version_code": 45497803,
+          "version_name": "16.0.20625.20022"
         },
         {
           "certificate_sha256": [
@@ -53826,31 +53826,31 @@
           },
           "files": [
             {
-              "artifact": "d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d",
+              "artifact": "30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "86c63a4508836ea563e33b966a3dac755b4bc1fc09f15e771d18d0824313898d",
+              "artifact": "b1823ba8fcfa2d00b855a42bf45e552311733950e10abf63fc811ff70390213e",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b",
+              "artifact": "a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c",
+              "artifact": "b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86",
               "original_name": "split_lenssampledoc.apk",
               "role": "split",
               "split": "lenssampledoc"
             },
             {
-              "artifact": "2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e",
+              "artifact": "7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90",
               "original_name": "split_mainassetpack.apk",
               "role": "split",
               "split": "mainassetpack"
@@ -53858,8 +53858,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 45495031,
-          "version_name": "16.0.20618.20014"
+          "version_code": 45497803,
+          "version_name": "16.0.20625.20022"
         },
         {
           "certificate_sha256": [
@@ -53895,31 +53895,31 @@
           },
           "files": [
             {
-              "artifact": "d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d",
+              "artifact": "30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "86c63a4508836ea563e33b966a3dac755b4bc1fc09f15e771d18d0824313898d",
+              "artifact": "b1823ba8fcfa2d00b855a42bf45e552311733950e10abf63fc811ff70390213e",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b",
+              "artifact": "a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c",
+              "artifact": "b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86",
               "original_name": "split_lenssampledoc.apk",
               "role": "split",
               "split": "lenssampledoc"
             },
             {
-              "artifact": "2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e",
+              "artifact": "7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90",
               "original_name": "split_mainassetpack.apk",
               "role": "split",
               "split": "mainassetpack"
@@ -53927,8 +53927,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 45495031,
-          "version_name": "16.0.20618.20014"
+          "version_code": 45497803,
+          "version_name": "16.0.20625.20022"
         },
         {
           "certificate_sha256": [
@@ -53965,31 +53965,31 @@
           },
           "files": [
             {
-              "artifact": "d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d",
+              "artifact": "30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a2957c6357e8478621fc994c484e0c4f8a4861b6f9ffda08656a2aa5a77a2740",
+              "artifact": "5dce939ada63ff9ad40e15439bbfa477f9d8eab495cab93310c1fb7266fe0ea1",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b",
+              "artifact": "a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c",
+              "artifact": "b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86",
               "original_name": "split_lenssampledoc.apk",
               "role": "split",
               "split": "lenssampledoc"
             },
             {
-              "artifact": "2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e",
+              "artifact": "7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90",
               "original_name": "split_mainassetpack.apk",
               "role": "split",
               "split": "mainassetpack"
@@ -53997,8 +53997,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 45495031,
-          "version_name": "16.0.20618.20014"
+          "version_code": 45497803,
+          "version_name": "16.0.20625.20022"
         }
       ]
     },
@@ -85554,58 +85554,58 @@
     {
       "assets": [
         {
-          "name": "d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d.apk",
+          "name": "30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c.apk",
           "role": "base",
-          "sha256": "d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d",
-          "size": 312014400,
+          "sha256": "30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c",
+          "size": 322032728,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/d705c2bafeb5c7f4eea8cbd167fb89ae08bbfe1645ccecca5ad850d4ff4cf09d.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/30e6b99b784dffd08175fe851ee16658a83f415ba238d91ddd13ce46dbc3841c.apk"
         },
         {
-          "name": "a2957c6357e8478621fc994c484e0c4f8a4861b6f9ffda08656a2aa5a77a2740.apk",
+          "name": "5dce939ada63ff9ad40e15439bbfa477f9d8eab495cab93310c1fb7266fe0ea1.apk",
           "role": "split",
-          "sha256": "a2957c6357e8478621fc994c484e0c4f8a4861b6f9ffda08656a2aa5a77a2740",
-          "size": 671954,
+          "sha256": "5dce939ada63ff9ad40e15439bbfa477f9d8eab495cab93310c1fb7266fe0ea1",
+          "size": 696530,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/a2957c6357e8478621fc994c484e0c4f8a4861b6f9ffda08656a2aa5a77a2740.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/5dce939ada63ff9ad40e15439bbfa477f9d8eab495cab93310c1fb7266fe0ea1.apk"
         },
         {
-          "name": "d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b.apk",
+          "name": "a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62.apk",
           "role": "split",
-          "sha256": "d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b",
-          "size": 2396954,
+          "sha256": "a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62",
+          "size": 2401352,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/d2e8d54b128eec47f880a6ad35e4a59dd88007bc8727943e932fcad544d4cb8b.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/a3edc110a83c9671ae94793c6f589394396e2bf334f0cbfee8a34002cc8f3b62.apk"
         },
         {
-          "name": "e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c.apk",
+          "name": "b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86.apk",
           "role": "split",
-          "sha256": "e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c",
+          "sha256": "b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86",
           "size": 16534,
           "split": "lenssampledoc",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/e9f6ac3b750359de3d39de2bbf88b3eada4ddaa608ead26a3466ad6786c7c16c.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/b59ef2a042bb5da4c4285178cb974f8bb36ddd0545f39dd060501d80b51c2e86.apk"
         },
         {
-          "name": "2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e.apk",
+          "name": "7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90.apk",
           "role": "split",
-          "sha256": "2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e",
+          "sha256": "7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90",
           "size": 2654434,
           "split": "mainassetpack",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/2a1baeb66cad7cda40b0052eadbcc43a48121bd1fefa350b5a611d670cfaf55e.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/7063796fe983862fbcf8979e2253f08ff5eb33e7c6625eabc2d74d3df594ec90.apk"
         }
       ],
       "certificate_sha256": [
         "1fb4de760f40f30e66d308518a1bd9d14ef1411bffa9d6762876b602661d54ed"
       ],
-      "manifest_sha256": "b10c8a41d27065020d45cc277a88b3ca86d9cabf5d18843aee3cb0c5bf115bc8",
+      "manifest_sha256": "81a72491283feae73540d15479b80f88bcdd158e0c5179765f93eca2bb9b967f",
       "manifest_size": 1541,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/manifest-b10c8a41d27065020d45cc277a88b3ca86d9cabf5d18843aee3cb0c5bf115bc8.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.microsoft.office.officehubrow-library/manifest-81a72491283feae73540d15479b80f88bcdd158e0c5179765f93eca2bb9b967f.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.microsoft.office.officehubrow/metadata.json",
       "package": "com.microsoft.office.officehubrow",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.microsoft.office.officehubrow-library",
-      "version_code": 45495031,
-      "version_name": "16.0.20618.20014"
+      "version_code": 45497803,
+      "version_name": "16.0.20625.20022"
     },
     {
       "assets": [
