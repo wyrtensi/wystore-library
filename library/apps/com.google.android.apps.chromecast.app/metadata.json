@@ -9,7 +9,7 @@
       "description": "Приложение Google Home помогает использовать все возможности Gemini для Home.<br><br>Будьте в курсе событий<br>Приложение Google Home дает доступ к актуальной информации о состоянии дома, чтобы вы точно ничего не упустили.<br><br>Следите за тем, что важно для вас<br>Мы обновили дизайн, чтобы вы могли объединять устройства в группы и быстро находить нужные настройки. А ещё вы можете в любой момент узнать, что происходит в доме.<br><br>Быстро проверяйте события камеры<br>Смотрите трансляции с камеры и видео из архива, когда потребуется.<br>Управляйте устройствами умного дома по-новому<br>Хотите найти что-то в архиве видеозаписей или узнать, что произошло за день? Gemini для Home вам поможет. Просто скажите, что вам нужно.<br><br>* Некоторые продукты и функции доступны не во всех регионах. Требуются совместимые устройства.",
       "shortDescription": "Настройка устройств Nest, Chromecast, Google Home и управление ими",
       "versionName": null,
-      "updatedDate": "2026-10-28",
+      "updatedDate": "2026-11-04",
       "playUrl": "https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app",
       "changelog": "В каждом новом выпуске мы улучшаем приложение, добавляем в него функции и исправляем ошибки. Что нового: <a href=\"http://g.co/home/notes\">g.co/home/notes</a>.",
       "icon": "images/91461ebf3ce079e88764a70f8eda5f8c67745c95e28b6ae6fdcb323d18fbcb2e.png",
@@ -30,7 +30,7 @@
       "description": "The Google Home app helps you get the most out of Gemini for Home.<br><br> See your home at a glance<br> The Google Home app is designed to show you the status of your home and keep you up to date with what you may have missed.<br><br>Keep up with what’s important<br>Updated design and streamlined organization help you group your devices into dashboards and easily navigate your settings. Plus you can check in on your home anytime.<br><br> Scan camera events quickly<br> The camera live view and history interface makes it easier than ever to see what happened.<br><br> Search or ask your home<br> Control your home in a brand new way. Just say what you want your devices to do with Gemini for Home.<br><br>* Some products and features may not be available in all regions. Compatible devices required.",
       "shortDescription": "Set up and control your compatible Nest, Chromecast, and Google Home devices.",
       "versionName": null,
-      "updatedDate": "2026-10-28",
+      "updatedDate": "2026-11-04",
       "playUrl": "https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app",
       "changelog": "We improve the app with new features, improvements and bug fixes each release. See what's new: <a href=\"http://g.co/home/notes\">g.co/home/notes</a>",
       "icon": "images/91461ebf3ce079e88764a70f8eda5f8c67745c95e28b6ae6fdcb323d18fbcb2e.png",
@@ -52,12 +52,22 @@
         "versionName": null,
         "updatedDate": "2026-10-28",
         "text": "В каждом новом выпуске мы улучшаем приложение, добавляем в него функции и исправляем ошибки. Что нового: <a href=\"http://g.co/home/notes\">g.co/home/notes</a>."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-04",
+        "text": "В каждом новом выпуске мы улучшаем приложение, добавляем в него функции и исправляем ошибки. Что нового: <a href=\"http://g.co/home/notes\">g.co/home/notes</a>."
       }
     ],
     "en_US": [
       {
         "versionName": null,
         "updatedDate": "2026-10-28",
+        "text": "We improve the app with new features, improvements and bug fixes each release. See what's new: <a href=\"http://g.co/home/notes\">g.co/home/notes</a>"
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-04",
         "text": "We improve the app with new features, improvements and bug fixes each release. See what's new: <a href=\"http://g.co/home/notes\">g.co/home/notes</a>"
       }
     ]

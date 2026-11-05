@@ -12,7 +12,7 @@
       "updatedDate": "2026-11-03",
       "playUrl": "https://play.google.com/store/apps/details?id=com.google.earth",
       "changelog": "Спасибо за использование сервиса \"Google Планета Земля\"! Эта версия отличается измененным интерфейсом, а также новыми функциями, позволяющими работать совместно с пользователями других устройств, создавать карты в любых условиях, а также добавлять на карты фотографии с камеры устройства.",
-      "icon": "images/57a158dfcd22a6c686caa07f0c5a8e4a1da63ceff8562ec1fb0dc8b2088091fd.png",
+      "icon": "images/ea19697e082f9531fff13756d4f5787afe7c0f5c8384a1efd51112eed6364973.png",
       "screenshots": [
         "images/6b303e4d8281248458bc340a73476fe746db9c6436ff876f7abccdfcb808f4b2.png",
         "images/6c872b4cd336363d5008869ddabf5e2485ca6c90403d80c3326c8ef16a9f7a31.png",
@@ -27,13 +27,13 @@
     "en_US": {
       "title": "Google Earth",
       "developer": "Google LLC",
-      "description": "Create and collaborate on immersive, data-driven maps from anywhere, with the new Google Earth. See the world from above with high-resolution satellite imagery, explore 3D terrain and buildings in hundreds of cities, and dive in to streets and neighbourhoods with Street View's 360° perspectives.",
+      "description": "Create and collaborate on immersive, data-driven maps from anywhere, with the new Google Earth. See the world from above with high-resolution satellite imagery, explore 3D terrain and buildings in hundreds of cities, and dive in to streets and neighborhoods with Street View's 360° perspectives.",
       "shortDescription": "Examine the planet",
       "versionName": null,
       "updatedDate": "2026-11-03",
       "playUrl": "https://play.google.com/store/apps/details?id=com.google.earth",
       "changelog": "Thanks for using Google Earth! This release brings a fresh new look, with new features to help you collaborate with others across devices, create maps on the go, and add photos from your camera to your maps.",
-      "icon": "images/57a158dfcd22a6c686caa07f0c5a8e4a1da63ceff8562ec1fb0dc8b2088091fd.png",
+      "icon": "images/ea19697e082f9531fff13756d4f5787afe7c0f5c8384a1efd51112eed6364973.png",
       "screenshots": [
         "images/6b303e4d8281248458bc340a73476fe746db9c6436ff876f7abccdfcb808f4b2.png",
         "images/6c872b4cd336363d5008869ddabf5e2485ca6c90403d80c3326c8ef16a9f7a31.png",
@@ -73,7 +73,7 @@
     ]
   },
   "imageSources": {
-    "https://play-lh.googleusercontent.com/LiMlRqQHaWo8hpN7T6U_OzJLJ0B1D3qnk1Hczd9yy7jsuGb2HacuS9bPFWSRMLNzcWrIlnySRaopDtOZFXousA": "57a158dfcd22a6c686caa07f0c5a8e4a1da63ceff8562ec1fb0dc8b2088091fd.png",
+    "https://play-lh.googleusercontent.com/F1XopRE2Iz5J6RS8P4MxD3ERp71TvUxhTjbOLrGIYwkmos0JGTFZ54TQ-8fBJbWtK1XjCL_Md4GU_gpaD985_w": "ea19697e082f9531fff13756d4f5787afe7c0f5c8384a1efd51112eed6364973.png",
     "https://play-lh.googleusercontent.com/kRcwvMZpVX0WIrehvFXoM6TqY9G4JwZB0_XrVE_zRtxgmYLk1iVzT8OfMzw72ylimew4utGNnsFVfPcvNXnPspg": "6b303e4d8281248458bc340a73476fe746db9c6436ff876f7abccdfcb808f4b2.png",
     "https://play-lh.googleusercontent.com/7EXz0NXUg43piSy086wq4A_6uwCnJjWKT1DgNY2vGRM6WcEVFtKS67mIJzi5ADsFSokbJozjnhDI3zo1qYCF4w": "6c872b4cd336363d5008869ddabf5e2485ca6c90403d80c3326c8ef16a9f7a31.png",
     "https://play-lh.googleusercontent.com/oGpg38sR6djRViHmHC6iHNgXeXC2O5vSnd7qOcmzGpk3BeEFWe1wBNd_YmK1tba8MvVU4vmcNyDKUJrv_Xe6": "6f8a8cc1ff488f3549ebed6ebc8103dcd42dfb022918277c4b986ecb98d8a1c0.png",

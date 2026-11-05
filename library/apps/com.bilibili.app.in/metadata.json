@@ -8,7 +8,7 @@
       "developer": "BILIBILI INC.",
       "description": "🎬 Welcome to bilibili – the ultimate home for anime fans, gamers, tech geeks, and culture lovers.<br><br>Ever dreamed of a place where you could binge anime edits, watch live esports with 10,000 danmu (bullet comments), and explore street food from across the globe—all in a single afternoon?<br><br>That's what we do here.<br><br>We're bilibili. We watch, we laugh, we remix, we overthink, and then we create again.<br><br>Whatever you're into—we've got it.<br>🎮 Hardcore into gaming?<br>From competitive esports to chill strategy Let's Plays, we've got gameplay videos, walkthroughs, speedruns, and rage quits galore.<br>🤖 Love cool gadgets and tech?<br>Dive into in-depth unboxings, honest reviews, or sci-fi concepts brought to life.<br>🎨 Obsessed with anime and fandoms?<br>This is your paradise—AMVs, cosplay tutorials, parody dubs, and wild fan theories included.<br>🌍 Into global culture?<br>Explore music, performing arts, creative writing, and street food from all over the world. Here, culture is binged just like a series.<br>💡 Hear creators in your language<br>With our new AI Dubbing feature, you can enjoy creators from around the world without needing subtitles. Fewer language barriers, more \"I get you.\"<br>Your passion deserves a stage. Or at least a fanbase. 🚀<br>Got a hot take? A crazy remix idea? A cosplay transformation to show off? This is your space.<br><br>Everyone here is a creator in the making—drawing, dubbing, animating, narrating, memeing, and constantly inventing something new. From \"fan\" to \"creator,\" you're just one upload away.<br><br>✨ We're not just a video app.<br><br>We're a creative community where culture meets fandom, memes meet meaning, and your interests meet their tribe.<br><br>We'll see you in the danmu. Or maybe on the Trending tab 😉<br><br>– With creativity & culture,<br><br>The bilibili team 💙💗",
       "shortDescription": "Сообщество для всех фэндомов",
-      "versionName": "6.7.1",
+      "versionName": "6.8.0",
       "updatedDate": "2026-11-03",
       "playUrl": "https://play.google.com/store/apps/details?id=com.bilibili.app.in",
       "changelog": "We made some improvements and squashed a few bugs.",
@@ -29,7 +29,7 @@
       "developer": "BILIBILI INC.",
       "description": "🎬 Welcome to bilibili – the ultimate home for anime fans, gamers, tech geeks, and culture lovers.<br><br>Ever dreamed of a place where you could binge anime edits, watch live esports with 10,000 danmu (bullet comments), and explore street food from across the globe—all in a single afternoon?<br><br>That's what we do here.<br><br>We're bilibili. We watch, we laugh, we remix, we overthink, and then we create again.<br><br>Whatever you're into—we've got it.<br>🎮 Hardcore into gaming?<br>From competitive esports to chill strategy Let's Plays, we've got gameplay videos, walkthroughs, speedruns, and rage quits galore.<br>🤖 Love cool gadgets and tech?<br>Dive into in-depth unboxings, honest reviews, or sci-fi concepts brought to life.<br>🎨 Obsessed with anime and fandoms?<br>This is your paradise—AMVs, cosplay tutorials, parody dubs, and wild fan theories included.<br>🌍 Into global culture?<br>Explore music, performing arts, creative writing, and street food from all over the world. Here, culture is binged just like a series.<br>💡 Hear creators in your language<br>With our new AI Dubbing feature, you can enjoy creators from around the world without needing subtitles. Fewer language barriers, more \"I get you.\"<br>Your passion deserves a stage. Or at least a fanbase. 🚀<br>Got a hot take? A crazy remix idea? A cosplay transformation to show off? This is your space.<br><br>Everyone here is a creator in the making—drawing, dubbing, animating, narrating, memeing, and constantly inventing something new. From \"fan\" to \"creator,\" you're just one upload away.<br><br>✨ We're not just a video app.<br><br>We're a creative community where culture meets fandom, memes meet meaning, and your interests meet their tribe.<br><br>We'll see you in the danmu. Or maybe on the Trending tab 😉<br><br>– With creativity & culture,<br><br>The bilibili team 💙💗",
       "shortDescription": "Community for Every Fandom",
-      "versionName": "6.7.1",
+      "versionName": "6.8.0",
       "updatedDate": "2026-11-03",
       "playUrl": "https://play.google.com/store/apps/details?id=com.bilibili.app.in",
       "changelog": "We made some improvements and squashed a few bugs.",
@@ -57,6 +57,11 @@
         "versionName": "6.7.1",
         "updatedDate": "2026-11-03",
         "text": "We made some improvements and squashed a few bugs."
+      },
+      {
+        "versionName": "6.8.0",
+        "updatedDate": "2026-11-03",
+        "text": "We made some improvements and squashed a few bugs."
       }
     ],
     "en_US": [
@@ -67,6 +72,11 @@
       },
       {
         "versionName": "6.7.1",
+        "updatedDate": "2026-11-03",
+        "text": "We made some improvements and squashed a few bugs."
+      },
+      {
+        "versionName": "6.8.0",
         "updatedDate": "2026-11-03",
         "text": "We made some improvements and squashed a few bugs."
       }
