@@ -11,7 +11,7 @@
       "versionName": null,
       "updatedDate": "2026-11-02",
       "playUrl": "https://play.google.com/store/apps/details?id=com.wbd.stream",
-      "changelog": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience.",
+      "changelog": "Bug fixes and performance improvements are the main focus this time. To get the most out of your   <br>streaming experience, make sure your app is up-to-date.",
       "icon": "images/eccb94511a3b6682c8590572bc068bda2e230b6bda5372ce4e64f513c1a273e3.png",
       "screenshots": [
         "images/2f4e8923acf8215104e6b9dc7f59202fa130fc6b5c12534599ad963fe365c2e8.jpg",
@@ -32,7 +32,7 @@
       "versionName": null,
       "updatedDate": "2026-11-02",
       "playUrl": "https://play.google.com/store/apps/details?id=com.wbd.stream",
-      "changelog": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience.",
+      "changelog": "Bug fixes and performance improvements are the main focus this time. To get the most out of your   <br>streaming experience, make sure your app is up-to-date.",
       "icon": "images/eccb94511a3b6682c8590572bc068bda2e230b6bda5372ce4e64f513c1a273e3.png",
       "screenshots": [
         "images/2f4e8923acf8215104e6b9dc7f59202fa130fc6b5c12534599ad963fe365c2e8.jpg",
@@ -57,6 +57,11 @@
         "versionName": null,
         "updatedDate": "2026-11-02",
         "text": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-02",
+        "text": "Bug fixes and performance improvements are the main focus this time. To get the most out of your   <br>streaming experience, make sure your app is up-to-date."
       }
     ],
     "en_US": [
@@ -69,6 +74,11 @@
         "versionName": null,
         "updatedDate": "2026-11-02",
         "text": "We've got tons of fixes and performance improvements in this release. Don't forget to keep your app   <br>updated to get the optimal streaming experience."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-02",
+        "text": "Bug fixes and performance improvements are the main focus this time. To get the most out of your   <br>streaming experience, make sure your app is up-to-date."
       }
     ]
   },
