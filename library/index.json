@@ -31738,28 +31738,16 @@
     {
       "artifacts": [
         {
-          "name": "8985aaabdc8cbed1d73991ab82295d01a0ca282ea4efcb4927de896c300116ff.apk",
-          "sha256": "8985aaabdc8cbed1d73991ab82295d01a0ca282ea4efcb4927de896c300116ff",
+          "name": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea.apk",
+          "sha256": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
           "size": 188760156,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/8985aaabdc8cbed1d73991ab82295d01a0ca282ea4efcb4927de896c300116ff.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea.apk"
         },
         {
-          "name": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk",
-          "sha256": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
-          "size": 95710457,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk"
-        },
-        {
-          "name": "e8bf73e2ff18e0e2225411a0f80c50303b94d3df74c27f2abe7767f3e7a63bef.apk",
-          "sha256": "e8bf73e2ff18e0e2225411a0f80c50303b94d3df74c27f2abe7767f3e7a63bef",
-          "size": 95710457,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/e8bf73e2ff18e0e2225411a0f80c50303b94d3df74c27f2abe7767f3e7a63bef.apk"
-        },
-        {
-          "name": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371.apk",
-          "sha256": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
-          "size": 188760156,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371.apk"
+          "name": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3.apk",
+          "sha256": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
+          "size": 95862009,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -31767,16 +31755,16 @@
       "package": "com.facebook.stella",
       "publication": {
         "catalog": {
-          "name": "catalog-6dffeea1f0a70f5503c4843a0ab08750245e3f352bb329cbc3e6178e6c4b16bf.json",
-          "sha256": "6dffeea1f0a70f5503c4843a0ab08750245e3f352bb329cbc3e6178e6c4b16bf",
-          "size": 29124,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-6dffeea1f0a70f5503c4843a0ab08750245e3f352bb329cbc3e6178e6c4b16bf.json"
+          "name": "catalog-f546ed8b6ecf010864ec433a9a1ed3c8af725d1ca9692fb2550ce48c97e8d6eb.json",
+          "sha256": "f546ed8b6ecf010864ec433a9a1ed3c8af725d1ca9692fb2550ce48c97e8d6eb",
+          "size": 28361,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-f546ed8b6ecf010864ec433a9a1ed3c8af725d1ca9692fb2550ce48c97e8d6eb.json"
         },
         "compat_manifest": {
-          "name": "manifest-a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664.json",
-          "sha256": "a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664",
+          "name": "manifest-52c248f6445ea670e1cd5dfb9496b6373299e4a2a6bd3246cd2212f82f85c289.json",
+          "sha256": "52c248f6445ea670e1cd5dfb9496b6373299e4a2a6bd3246cd2212f82f85c289",
           "size": 828,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/manifest-a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/manifest-52c248f6445ea670e1cd5dfb9496b6373299e4a2a6bd3246cd2212f82f85c289.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.facebook.stella-library",
         "tag": "com.facebook.stella-library"
@@ -31973,13 +31961,13 @@
           },
           "files": [
             {
-              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "artifact": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "artifact": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -31987,8 +31975,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 969702176,
-          "version_name": "297.0.0.22.166"
+          "version_code": 969702200,
+          "version_name": "297.1.0.23.166"
         },
         {
           "certificate_scope": {
@@ -32119,13 +32107,13 @@
           },
           "files": [
             {
-              "artifact": "e8bf73e2ff18e0e2225411a0f80c50303b94d3df74c27f2abe7767f3e7a63bef",
+              "artifact": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "8985aaabdc8cbed1d73991ab82295d01a0ca282ea4efcb4927de896c300116ff",
+              "artifact": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -32133,8 +32121,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 969702175,
-          "version_name": "297.0.0.22.166"
+          "version_code": 969702200,
+          "version_name": "297.1.0.23.166"
         },
         {
           "certificate_scope": {
@@ -32265,13 +32253,13 @@
           },
           "files": [
             {
-              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "artifact": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "artifact": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -32279,8 +32267,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 969702176,
-          "version_name": "297.0.0.22.166"
+          "version_code": 969702200,
+          "version_name": "297.1.0.23.166"
         },
         {
           "certificate_scope": {
@@ -32411,13 +32399,13 @@
           },
           "files": [
             {
-              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "artifact": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "artifact": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -32425,8 +32413,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 969702176,
-          "version_name": "297.0.0.22.166"
+          "version_code": 969702200,
+          "version_name": "297.1.0.23.166"
         },
         {
           "certificate_scope": {
@@ -32557,13 +32545,13 @@
           },
           "files": [
             {
-              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "artifact": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "artifact": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -32571,8 +32559,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 969702176,
-          "version_name": "297.0.0.22.166"
+          "version_code": 969702200,
+          "version_name": "297.1.0.23.166"
         },
         {
           "certificate_scope": {
@@ -32703,13 +32691,13 @@
           },
           "files": [
             {
-              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "artifact": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "artifact": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -32717,8 +32705,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 969702176,
-          "version_name": "297.0.0.22.166"
+          "version_code": 969702200,
+          "version_name": "297.1.0.23.166"
         },
         {
           "certificate_scope": {
@@ -32849,13 +32837,13 @@
           },
           "files": [
             {
-              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "artifact": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "artifact": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -32863,8 +32851,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 969702176,
-          "version_name": "297.0.0.22.166"
+          "version_code": 969702200,
+          "version_name": "297.1.0.23.166"
         },
         {
           "certificate_scope": {
@@ -32995,13 +32983,13 @@
           },
           "files": [
             {
-              "artifact": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
+              "artifact": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+              "artifact": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -33009,8 +32997,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 969702176,
-          "version_name": "297.0.0.22.166"
+          "version_code": 969702200,
+          "version_name": "297.1.0.23.166"
         }
       ]
     },
@@ -85064,20 +85052,20 @@
     {
       "assets": [
         {
-          "name": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk",
+          "name": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3.apk",
           "role": "base",
-          "sha256": "bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0",
-          "size": 95710457,
+          "sha256": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
+          "size": 95862009,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/bff5359c9af11df1cb45181f3f1b8c2156c7894581f017923c3cb3ea5be5fbb0.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3.apk"
         },
         {
-          "name": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371.apk",
+          "name": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea.apk",
           "role": "split",
-          "sha256": "ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371",
+          "sha256": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
           "size": 188760156,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/ed3993d9f94a5671e3183a21c135a5d4926d2539cc85ac491854dc97380a6371.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea.apk"
         }
       ],
       "certificate_scope": {
@@ -85087,15 +85075,15 @@
       "certificate_sha256": [
         "c56f50a826029dbd893a527103a224ca1ca2074ed79deee76fae18e1d6e6c768"
       ],
-      "manifest_sha256": "a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664",
+      "manifest_sha256": "52c248f6445ea670e1cd5dfb9496b6373299e4a2a6bd3246cd2212f82f85c289",
       "manifest_size": 828,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/manifest-a4992629a8e1f71a893933ff80d5cbe0904f4c41c3afce91b7be8c3dab8f5664.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/manifest-52c248f6445ea670e1cd5dfb9496b6373299e4a2a6bd3246cd2212f82f85c289.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.facebook.stella/metadata.json",
       "package": "com.facebook.stella",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.facebook.stella-library",
-      "version_code": 969702176,
-      "version_name": "297.0.0.22.166"
+      "version_code": 969702200,
+      "version_name": "297.1.0.23.166"
     },
     {
       "assets": [
