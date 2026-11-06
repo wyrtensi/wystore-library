@@ -4705,22 +4705,22 @@
     {
       "artifacts": [
         {
-          "name": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7.apk",
-          "sha256": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7",
-          "size": 206136446,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7.apk"
+          "name": "21435b826af80f590f8977bc66a2158f01dcc42551e9541bcf5cf5b107047ea6.apk",
+          "sha256": "21435b826af80f590f8977bc66a2158f01dcc42551e9541bcf5cf5b107047ea6",
+          "size": 198395250,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/21435b826af80f590f8977bc66a2158f01dcc42551e9541bcf5cf5b107047ea6.apk"
         },
         {
-          "name": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710.apk",
-          "sha256": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710",
-          "size": 206136446,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710.apk"
+          "name": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a.apk",
+          "sha256": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a",
+          "size": 198395250,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a.apk"
         },
         {
-          "name": "b5635f7305ed70ed60021a4a1ea3acab39bade907fcb31cd603074789648285c.apk",
-          "sha256": "b5635f7305ed70ed60021a4a1ea3acab39bade907fcb31cd603074789648285c",
-          "size": 173941838,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/b5635f7305ed70ed60021a4a1ea3acab39bade907fcb31cd603074789648285c.apk"
+          "name": "708112b5ea686d90837d843eb86de4202098c6bfb133444b6627da07e5763cb3.apk",
+          "sha256": "708112b5ea686d90837d843eb86de4202098c6bfb133444b6627da07e5763cb3",
+          "size": 166131010,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/708112b5ea686d90837d843eb86de4202098c6bfb133444b6627da07e5763cb3.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -4728,16 +4728,16 @@
       "package": "com.amazon.avod.thirdpartyclient",
       "publication": {
         "catalog": {
-          "name": "catalog-69dcf8e3e559b8d40095b5b0b4c460d57d1625f0b645fcb55842c57a7d75b196.json",
-          "sha256": "69dcf8e3e559b8d40095b5b0b4c460d57d1625f0b645fcb55842c57a7d75b196",
-          "size": 38097,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/catalog-69dcf8e3e559b8d40095b5b0b4c460d57d1625f0b645fcb55842c57a7d75b196.json"
+          "name": "catalog-733a0938b3f763830f52733bb0ddab3d7f22548f345dccb544656f80932b04e9.json",
+          "sha256": "733a0938b3f763830f52733bb0ddab3d7f22548f345dccb544656f80932b04e9",
+          "size": 38083,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/catalog-733a0938b3f763830f52733bb0ddab3d7f22548f345dccb544656f80932b04e9.json"
         },
         "compat_manifest": {
-          "name": "manifest-ffa0d784069568eb62dd937482c898a011ba4a90360818a49522f8837a7598bb.json",
-          "sha256": "ffa0d784069568eb62dd937482c898a011ba4a90360818a49522f8837a7598bb",
-          "size": 504,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/manifest-ffa0d784069568eb62dd937482c898a011ba4a90360818a49522f8837a7598bb.json"
+          "name": "manifest-42ab36196d239cde2f3121521c484b541bba3bf1ce751b3e3147403496a5c6c0.json",
+          "sha256": "42ab36196d239cde2f3121521c484b541bba3bf1ce751b3e3147403496a5c6c0",
+          "size": 503,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/manifest-42ab36196d239cde2f3121521c484b541bba3bf1ce751b3e3147403496a5c6c0.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.amazon.avod.thirdpartyclient-library",
         "tag": "com.amazon.avod.thirdpartyclient-library"
@@ -4887,7 +4887,7 @@
           },
           "files": [
             {
-              "artifact": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710",
+              "artifact": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -4895,8 +4895,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -5016,7 +5016,7 @@
           },
           "files": [
             {
-              "artifact": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710",
+              "artifact": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -5024,8 +5024,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -5145,7 +5145,7 @@
           },
           "files": [
             {
-              "artifact": "b5635f7305ed70ed60021a4a1ea3acab39bade907fcb31cd603074789648285c",
+              "artifact": "708112b5ea686d90837d843eb86de4202098c6bfb133444b6627da07e5763cb3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -5153,8 +5153,8 @@
           ],
           "id": "android12_armv7_en",
           "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
-          "version_code": 477001445,
-          "version_name": "3.0.477.1445"
+          "version_code": 479000845,
+          "version_name": "3.0.479.845"
         },
         {
           "certificate_sha256": [
@@ -5274,7 +5274,7 @@
           },
           "files": [
             {
-              "artifact": "b5635f7305ed70ed60021a4a1ea3acab39bade907fcb31cd603074789648285c",
+              "artifact": "708112b5ea686d90837d843eb86de4202098c6bfb133444b6627da07e5763cb3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -5282,8 +5282,8 @@
           ],
           "id": "android12_armv7_ru",
           "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
-          "version_code": 477001445,
-          "version_name": "3.0.477.1445"
+          "version_code": 479000845,
+          "version_name": "3.0.479.845"
         },
         {
           "certificate_sha256": [
@@ -5403,7 +5403,7 @@
           },
           "files": [
             {
-              "artifact": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710",
+              "artifact": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -5411,8 +5411,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -5532,7 +5532,7 @@
           },
           "files": [
             {
-              "artifact": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710",
+              "artifact": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -5540,8 +5540,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -5661,7 +5661,7 @@
           },
           "files": [
             {
-              "artifact": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710",
+              "artifact": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -5669,8 +5669,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -5790,7 +5790,7 @@
           },
           "files": [
             {
-              "artifact": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710",
+              "artifact": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -5798,8 +5798,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -5919,7 +5919,7 @@
           },
           "files": [
             {
-              "artifact": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7",
+              "artifact": "21435b826af80f590f8977bc66a2158f01dcc42551e9541bcf5cf5b107047ea6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -5927,8 +5927,8 @@
           ],
           "id": "android9_arm64_en",
           "profile_fingerprint": "be05300b1a1a01b7e63da9d8df1e2a5c558be09f3dee7b831bf4b63aae2344d2",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -6048,7 +6048,7 @@
           },
           "files": [
             {
-              "artifact": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7",
+              "artifact": "21435b826af80f590f8977bc66a2158f01dcc42551e9541bcf5cf5b107047ea6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -6056,8 +6056,8 @@
           ],
           "id": "android9_arm64_ru",
           "profile_fingerprint": "dd34bd49045a6d0eb1f4351ab95578fcb34ec50f82213af3ee6a03de1fe039e0",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -6177,7 +6177,7 @@
           },
           "files": [
             {
-              "artifact": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7",
+              "artifact": "21435b826af80f590f8977bc66a2158f01dcc42551e9541bcf5cf5b107047ea6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -6185,8 +6185,8 @@
           ],
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -6306,7 +6306,7 @@
           },
           "files": [
             {
-              "artifact": "742b09eed4682856d1bf1b92635e418324def9f3c98aec255c6fc26e6852a6e7",
+              "artifact": "21435b826af80f590f8977bc66a2158f01dcc42551e9541bcf5cf5b107047ea6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -6314,8 +6314,8 @@
           ],
           "id": "legacy_arm64_ru",
           "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -6435,7 +6435,7 @@
           },
           "files": [
             {
-              "artifact": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710",
+              "artifact": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -6443,8 +6443,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         },
         {
           "certificate_sha256": [
@@ -6564,7 +6564,7 @@
           },
           "files": [
             {
-              "artifact": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710",
+              "artifact": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -6572,8 +6572,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 477001447,
-          "version_name": "3.0.477.1447"
+          "version_code": 479000847,
+          "version_name": "3.0.479.847"
         }
       ]
     },
@@ -84110,26 +84110,26 @@
     {
       "assets": [
         {
-          "name": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710.apk",
+          "name": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a.apk",
           "role": "base",
-          "sha256": "a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710",
-          "size": 206136446,
+          "sha256": "40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a",
+          "size": 198395250,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/a137822a19f46bcced05c4265c5e0896dc469399547674f45d16f642312b7710.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/40b6624331c4831adf45f9106b43f3e8d512102bd577133ae18a980baa495e6a.apk"
         }
       ],
       "certificate_sha256": [
         "2f19adeb284eb36f7f07786152b9a1d14b21653203ad0b04ebbf9c73ab6d7625"
       ],
-      "manifest_sha256": "ffa0d784069568eb62dd937482c898a011ba4a90360818a49522f8837a7598bb",
-      "manifest_size": 504,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/manifest-ffa0d784069568eb62dd937482c898a011ba4a90360818a49522f8837a7598bb.json",
+      "manifest_sha256": "42ab36196d239cde2f3121521c484b541bba3bf1ce751b3e3147403496a5c6c0",
+      "manifest_size": 503,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.avod.thirdpartyclient-library/manifest-42ab36196d239cde2f3121521c484b541bba3bf1ce751b3e3147403496a5c6c0.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.amazon.avod.thirdpartyclient/metadata.json",
       "package": "com.amazon.avod.thirdpartyclient",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.amazon.avod.thirdpartyclient-library",
-      "version_code": 477001447,
-      "version_name": "3.0.477.1447"
+      "version_code": 479000847,
+      "version_name": "3.0.479.847"
     },
     {
       "assets": [
