@@ -32999,6 +32999,18 @@
     {
       "artifacts": [
         {
+          "name": "039e30c7eda72ce08772aa7df866e3b7c26a601fa01e551be20764ac9bbf484e.apk",
+          "sha256": "039e30c7eda72ce08772aa7df866e3b7c26a601fa01e551be20764ac9bbf484e",
+          "size": 288669,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/039e30c7eda72ce08772aa7df866e3b7c26a601fa01e551be20764ac9bbf484e.apk"
+        },
+        {
+          "name": "08767120caa6e998acc1df785ceebea058c618129ddadba32f1388846995aab6.apk",
+          "sha256": "08767120caa6e998acc1df785ceebea058c618129ddadba32f1388846995aab6",
+          "size": 4965245,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/08767120caa6e998acc1df785ceebea058c618129ddadba32f1388846995aab6.apk"
+        },
+        {
           "name": "0c1250a073b0bfa6c0ced67acc9891f3fb8a0a541876d13e35a0ec448689bd9b.apk",
           "sha256": "0c1250a073b0bfa6c0ced67acc9891f3fb8a0a541876d13e35a0ec448689bd9b",
           "size": 297035,
@@ -33011,22 +33023,40 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb.apk"
         },
         {
-          "name": "264390fe852ab4c271278ad99ab140e69f01888a4a9a368ffd327b1fd8fa5a90.apk",
-          "sha256": "264390fe852ab4c271278ad99ab140e69f01888a4a9a368ffd327b1fd8fa5a90",
-          "size": 1360082,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/264390fe852ab4c271278ad99ab140e69f01888a4a9a368ffd327b1fd8fa5a90.apk"
-        },
-        {
           "name": "297bdc336bd381ae75fc1f5a57e0832c54465448c564021381a7b2ef8413a45c.apk",
           "sha256": "297bdc336bd381ae75fc1f5a57e0832c54465448c564021381a7b2ef8413a45c",
           "size": 1360082,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/297bdc336bd381ae75fc1f5a57e0832c54465448c564021381a7b2ef8413a45c.apk"
         },
         {
+          "name": "33f223397d5b05496c47c41e4327ed784ab90775870b22d577ad00305cfa1004.apk",
+          "sha256": "33f223397d5b05496c47c41e4327ed784ab90775870b22d577ad00305cfa1004",
+          "size": 4965245,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/33f223397d5b05496c47c41e4327ed784ab90775870b22d577ad00305cfa1004.apk"
+        },
+        {
           "name": "3bf162cfaa3e561092c84237ca161fe99984cf53c0835640ff567ccfd434a82e.apk",
           "sha256": "3bf162cfaa3e561092c84237ca161fe99984cf53c0835640ff567ccfd434a82e",
           "size": 382710,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/3bf162cfaa3e561092c84237ca161fe99984cf53c0835640ff567ccfd434a82e.apk"
+        },
+        {
+          "name": "502aeff219f33aa2f78857929d244e17266031789cb49ed370cf1c08dd8ed0d1.apk",
+          "sha256": "502aeff219f33aa2f78857929d244e17266031789cb49ed370cf1c08dd8ed0d1",
+          "size": 370248,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/502aeff219f33aa2f78857929d244e17266031789cb49ed370cf1c08dd8ed0d1.apk"
+        },
+        {
+          "name": "70bd0c3e9ffda3b3f1e8d6df3a9e99ccf3e5602449d8596615750f6940fd945a.apk",
+          "sha256": "70bd0c3e9ffda3b3f1e8d6df3a9e99ccf3e5602449d8596615750f6940fd945a",
+          "size": 419400,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/70bd0c3e9ffda3b3f1e8d6df3a9e99ccf3e5602449d8596615750f6940fd945a.apk"
+        },
+        {
+          "name": "71f122d875425cadb907a07761e42ad484ab17fe2353218a4c04f74108bf1ef9.apk",
+          "sha256": "71f122d875425cadb907a07761e42ad484ab17fe2353218a4c04f74108bf1ef9",
+          "size": 1859794,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/71f122d875425cadb907a07761e42ad484ab17fe2353218a4c04f74108bf1ef9.apk"
         },
         {
           "name": "79fd650c51797725ed576d57b67b2e2a4e6be747f7f095b484ebf50a4668dc15.apk",
@@ -33041,6 +33071,12 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/7b644cf1acff895032f8a7db2630c98fddc5109fb80ea759cdc08a7f95c94daa.apk"
         },
         {
+          "name": "84e5f7ea6c76e967c8a796ce46827808b513fd46fd38d8887adaff157c1d13b7.apk",
+          "sha256": "84e5f7ea6c76e967c8a796ce46827808b513fd46fd38d8887adaff157c1d13b7",
+          "size": 1360082,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/84e5f7ea6c76e967c8a796ce46827808b513fd46fd38d8887adaff157c1d13b7.apk"
+        },
+        {
           "name": "9342ff9c3de8122f9ef68e71e4129b49aadd0f1ddef338edb791468c2ada2bbc.apk",
           "sha256": "9342ff9c3de8122f9ef68e71e4129b49aadd0f1ddef338edb791468c2ada2bbc",
           "size": 1822930,
@@ -33053,16 +33089,64 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240.apk"
         },
         {
+          "name": "a0fa7ff4b020bf09740312e4bef339dd67a2bc79347cb95f9c858ff872090367.apk",
+          "sha256": "a0fa7ff4b020bf09740312e4bef339dd67a2bc79347cb95f9c858ff872090367",
+          "size": 64088222,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/a0fa7ff4b020bf09740312e4bef339dd67a2bc79347cb95f9c858ff872090367.apk"
+        },
+        {
+          "name": "a15d968c99233733743c7c9e73bfb6774348253257862a9ee336641d5b490eb6.apk",
+          "sha256": "a15d968c99233733743c7c9e73bfb6774348253257862a9ee336641d5b490eb6",
+          "size": 4965245,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/a15d968c99233733743c7c9e73bfb6774348253257862a9ee336641d5b490eb6.apk"
+        },
+        {
+          "name": "b2c30b34a17c0ad3aa834357d2c380b873579607d456de2f35a9b04fbce3d18b.apk",
+          "sha256": "b2c30b34a17c0ad3aa834357d2c380b873579607d456de2f35a9b04fbce3d18b",
+          "size": 1384658,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/b2c30b34a17c0ad3aa834357d2c380b873579607d456de2f35a9b04fbce3d18b.apk"
+        },
+        {
+          "name": "bdd1aee150f59f9f30a821e95bf54a8b5fcecc91fe0b5601fea5b1dd26fa46f6.apk",
+          "sha256": "bdd1aee150f59f9f30a821e95bf54a8b5fcecc91fe0b5601fea5b1dd26fa46f6",
+          "size": 65204843,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/bdd1aee150f59f9f30a821e95bf54a8b5fcecc91fe0b5601fea5b1dd26fa46f6.apk"
+        },
+        {
           "name": "c3ae85c5a5252e49f159a47ea8d4a1ef9a213551d03ddc89b468d99eb67404a9.apk",
           "sha256": "c3ae85c5a5252e49f159a47ea8d4a1ef9a213551d03ddc89b468d99eb67404a9",
           "size": 65009822,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/c3ae85c5a5252e49f159a47ea8d4a1ef9a213551d03ddc89b468d99eb67404a9.apk"
         },
         {
+          "name": "c52a8155a80ed5485ab68757cf90f28fdfc34d0d7c121e719034c19539e734a9.apk",
+          "sha256": "c52a8155a80ed5485ab68757cf90f28fdfc34d0d7c121e719034c19539e734a9",
+          "size": 5489506,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/c52a8155a80ed5485ab68757cf90f28fdfc34d0d7c121e719034c19539e734a9.apk"
+        },
+        {
+          "name": "c9dddd9a7f21b13bff017188f716be602dd60bac99403cf263161f5333443350.apk",
+          "sha256": "c9dddd9a7f21b13bff017188f716be602dd60bac99403cf263161f5333443350",
+          "size": 382710,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/c9dddd9a7f21b13bff017188f716be602dd60bac99403cf263161f5333443350.apk"
+        },
+        {
+          "name": "da56d4f0804030ba02c7bf3478d8a823da27e1c63a3dd88ec5caecf6cc6a4d04.apk",
+          "sha256": "da56d4f0804030ba02c7bf3478d8a823da27e1c63a3dd88ec5caecf6cc6a4d04",
+          "size": 1384658,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/da56d4f0804030ba02c7bf3478d8a823da27e1c63a3dd88ec5caecf6cc6a4d04.apk"
+        },
+        {
           "name": "dc2a7ce0969e73c3e182dfc96253a83827a8a0001a49feea5ed98c3d93ea8017.apk",
           "sha256": "dc2a7ce0969e73c3e182dfc96253a83827a8a0001a49feea5ed98c3d93ea8017",
           "size": 5489506,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/dc2a7ce0969e73c3e182dfc96253a83827a8a0001a49feea5ed98c3d93ea8017.apk"
+        },
+        {
+          "name": "df4cf8e0a719f8aaf005c136562f112ad5fa58f04768ce2c83ac366e8478b220.apk",
+          "sha256": "df4cf8e0a719f8aaf005c136562f112ad5fa58f04768ce2c83ac366e8478b220",
+          "size": 64414315,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/df4cf8e0a719f8aaf005c136562f112ad5fa58f04768ce2c83ac366e8478b220.apk"
         },
         {
           "name": "e97254fd633594b192f1cdf316060c1bc68aa4454aed6955594aa81b78ecb6e6.apk",
@@ -33076,10 +33160,10 @@
       "package": "com.fitbit.FitbitMobile",
       "publication": {
         "catalog": {
-          "name": "catalog-ebfb83fcdd84abc9a2702b8056746c885cf21214df0a9d0aad0fe3319e815074.json",
-          "sha256": "ebfb83fcdd84abc9a2702b8056746c885cf21214df0a9d0aad0fe3319e815074",
-          "size": 27175,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/catalog-ebfb83fcdd84abc9a2702b8056746c885cf21214df0a9d0aad0fe3319e815074.json"
+          "name": "catalog-68e2cf71239aba06399d9c40ee2e8cee7a89becf9f0dd82e84796a25429c46b2.json",
+          "sha256": "68e2cf71239aba06399d9c40ee2e8cee7a89becf9f0dd82e84796a25429c46b2",
+          "size": 32542,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.fitbit.FitbitMobile-library/catalog-68e2cf71239aba06399d9c40ee2e8cee7a89becf9f0dd82e84796a25429c46b2.json"
         },
         "compat_manifest": {
           "name": "manifest-72b203a5add92e76b5ed04f89628ce60897821ff50984c1f735266ba9c69778e.json",
@@ -33181,25 +33265,25 @@
           },
           "files": [
             {
-              "artifact": "c3ae85c5a5252e49f159a47ea8d4a1ef9a213551d03ddc89b468d99eb67404a9",
+              "artifact": "bdd1aee150f59f9f30a821e95bf54a8b5fcecc91fe0b5601fea5b1dd26fa46f6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "7b644cf1acff895032f8a7db2630c98fddc5109fb80ea759cdc08a7f95c94daa",
+              "artifact": "08767120caa6e998acc1df785ceebea058c618129ddadba32f1388846995aab6",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "264390fe852ab4c271278ad99ab140e69f01888a4a9a368ffd327b1fd8fa5a90",
+              "artifact": "da56d4f0804030ba02c7bf3478d8a823da27e1c63a3dd88ec5caecf6cc6a4d04",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "e97254fd633594b192f1cdf316060c1bc68aa4454aed6955594aa81b78ecb6e6",
+              "artifact": "70bd0c3e9ffda3b3f1e8d6df3a9e99ccf3e5602449d8596615750f6940fd945a",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -33207,8 +33291,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 1104134730,
-          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+          "version_code": 1104141578,
+          "version_name": "5.12.health-mobile-1104141578-1013013828"
         },
         {
           "certificate_scope": {
@@ -33319,25 +33403,25 @@
           },
           "files": [
             {
-              "artifact": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
+              "artifact": "a0fa7ff4b020bf09740312e4bef339dd67a2bc79347cb95f9c858ff872090367",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb",
+              "artifact": "a15d968c99233733743c7c9e73bfb6774348253257862a9ee336641d5b490eb6",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "297bdc336bd381ae75fc1f5a57e0832c54465448c564021381a7b2ef8413a45c",
+              "artifact": "84e5f7ea6c76e967c8a796ce46827808b513fd46fd38d8887adaff157c1d13b7",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "3bf162cfaa3e561092c84237ca161fe99984cf53c0835640ff567ccfd434a82e",
+              "artifact": "c9dddd9a7f21b13bff017188f716be602dd60bac99403cf263161f5333443350",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -33345,8 +33429,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 1104134730,
-          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+          "version_code": 1104134735,
+          "version_name": "5.11.1.health-mobile-1104134735-1009336852"
         },
         {
           "certificate_scope": {
@@ -33388,25 +33472,25 @@
           },
           "files": [
             {
-              "artifact": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
+              "artifact": "df4cf8e0a719f8aaf005c136562f112ad5fa58f04768ce2c83ac366e8478b220",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb",
+              "artifact": "33f223397d5b05496c47c41e4327ed784ab90775870b22d577ad00305cfa1004",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "79fd650c51797725ed576d57b67b2e2a4e6be747f7f095b484ebf50a4668dc15",
+              "artifact": "71f122d875425cadb907a07761e42ad484ab17fe2353218a4c04f74108bf1ef9",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "3bf162cfaa3e561092c84237ca161fe99984cf53c0835640ff567ccfd434a82e",
+              "artifact": "502aeff219f33aa2f78857929d244e17266031789cb49ed370cf1c08dd8ed0d1",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -33414,8 +33498,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 1104134730,
-          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+          "version_code": 1104141578,
+          "version_name": "5.12.health-mobile-1104141578-1013013828"
         },
         {
           "certificate_scope": {
@@ -33526,25 +33610,25 @@
           },
           "files": [
             {
-              "artifact": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
+              "artifact": "df4cf8e0a719f8aaf005c136562f112ad5fa58f04768ce2c83ac366e8478b220",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "79fd650c51797725ed576d57b67b2e2a4e6be747f7f095b484ebf50a4668dc15",
+              "artifact": "71f122d875425cadb907a07761e42ad484ab17fe2353218a4c04f74108bf1ef9",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "dc2a7ce0969e73c3e182dfc96253a83827a8a0001a49feea5ed98c3d93ea8017",
+              "artifact": "c52a8155a80ed5485ab68757cf90f28fdfc34d0d7c121e719034c19539e734a9",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "0c1250a073b0bfa6c0ced67acc9891f3fb8a0a541876d13e35a0ec448689bd9b",
+              "artifact": "039e30c7eda72ce08772aa7df866e3b7c26a601fa01e551be20764ac9bbf484e",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -33552,8 +33636,8 @@
           ],
           "id": "android13_x86_64_ru",
           "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
-          "version_code": 1104134730,
-          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+          "version_code": 1104141578,
+          "version_name": "5.12.health-mobile-1104141578-1013013828"
         },
         {
           "certificate_scope": {
@@ -33595,25 +33679,25 @@
           },
           "files": [
             {
-              "artifact": "991f75380cd98e7ae44820f09fccf9d72e0219703b846a4e209b44ed23088240",
+              "artifact": "df4cf8e0a719f8aaf005c136562f112ad5fa58f04768ce2c83ac366e8478b220",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "20514d762f81a3c0f008edef21769375d865a7a5baba7cae8f1bea257e2a70cb",
+              "artifact": "33f223397d5b05496c47c41e4327ed784ab90775870b22d577ad00305cfa1004",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "297bdc336bd381ae75fc1f5a57e0832c54465448c564021381a7b2ef8413a45c",
+              "artifact": "b2c30b34a17c0ad3aa834357d2c380b873579607d456de2f35a9b04fbce3d18b",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "3bf162cfaa3e561092c84237ca161fe99984cf53c0835640ff567ccfd434a82e",
+              "artifact": "502aeff219f33aa2f78857929d244e17266031789cb49ed370cf1c08dd8ed0d1",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -33621,8 +33705,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 1104134730,
-          "version_name": "5.11.1.health-mobile-1104134730-1009077909"
+          "version_code": 1104141578,
+          "version_name": "5.12.health-mobile-1104141578-1013013828"
         },
         {
           "certificate_scope": {
