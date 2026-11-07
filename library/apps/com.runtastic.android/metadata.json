@@ -11,7 +11,7 @@
       "versionName": null,
       "updatedDate": "2026-11-05",
       "playUrl": "https://play.google.com/store/apps/details?id=com.runtastic.android",
-      "changelog": "Set event-based Goals for your 5K, 10K, Half Marathon, or Marathon through our new Goals Questionnaire. Never lose sight of race day with home screen Widgets - your goal, right where you need it.",
+      "changelog": "HIIT is in! High-intensity interval training is now trackable in the adidas Running App. Track every rep as you turn up the intensity and accelerate your progress.",
       "icon": "images/c1b4c68484b936dbdcb66ab3131f25beca97c24c43c3aef58de69967a9fd8a55.png",
       "screenshots": [
         "images/6e0bebb6e1e59deba963a5ae8de97d0e099a8227d3c01a49b8572ea02299f2a1.png",
@@ -32,7 +32,7 @@
       "versionName": null,
       "updatedDate": "2026-11-05",
       "playUrl": "https://play.google.com/store/apps/details?id=com.runtastic.android",
-      "changelog": "Set event-based Goals for your 5K, 10K, Half Marathon, or Marathon through our new Goals Questionnaire. Never lose sight of race day with home screen Widgets - your goal, right where you need it.",
+      "changelog": "HIIT is in! High-intensity interval training is now trackable in the adidas Running App. Track every rep as you turn up the intensity and accelerate your progress.",
       "icon": "images/c1b4c68484b936dbdcb66ab3131f25beca97c24c43c3aef58de69967a9fd8a55.png",
       "screenshots": [
         "images/6e0bebb6e1e59deba963a5ae8de97d0e099a8227d3c01a49b8572ea02299f2a1.png",
@@ -62,6 +62,11 @@
         "versionName": null,
         "updatedDate": "2026-11-05",
         "text": "Set event-based Goals for your 5K, 10K, Half Marathon, or Marathon through our new Goals Questionnaire. Never lose sight of race day with home screen Widgets - your goal, right where you need it."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-05",
+        "text": "HIIT is in! High-intensity interval training is now trackable in the adidas Running App. Track every rep as you turn up the intensity and accelerate your progress."
       }
     ],
     "en_US": [
@@ -79,6 +84,11 @@
         "versionName": null,
         "updatedDate": "2026-11-05",
         "text": "Set event-based Goals for your 5K, 10K, Half Marathon, or Marathon through our new Goals Questionnaire. Never lose sight of race day with home screen Widgets - your goal, right where you need it."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-05",
+        "text": "HIIT is in! High-intensity interval training is now trackable in the adidas Running App. Track every rep as you turn up the intensity and accelerate your progress."
       }
     ]
   },

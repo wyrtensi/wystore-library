@@ -9,7 +9,7 @@
       "description": "Пользуясь официальным приложением ChatGPT, вы получаете мгновенные ответы и вдохновение, где бы вы ни находились.<br><br>Это бесплатное приложение предоставляет вам новейшие улучшения моделей от OpenAI, включая доступ к GPT-4o, нашей новейшей и самой умной модели.<br><br>С ChatGPT в вашем кармане вы получите следующие функции:<br><br>· Голосовой режим — коснитесь значка «Наушники», чтобы говорить на ходу, заказать сказку на ночь для всей семьи или разрешить спор за обеденным столом.<br>· Загрузка фотографий — расшифруйте рукописный рецепт или спросите о памятнике.  <br>· Творческое вдохновение — идеи подарков на день рождения или создание индивидуальной поздравительной открытки.<br>· Индивидуальный совет — помощь в разработке индивидуального ответа или обсуждение трудной ситуации.<br>· Персонализированное обучение — объясните, что такое электричество, ребенку, любящему динозавров, или быстро ознакомьтесь с историческим событием..<br>· Профессиональный вклад — коллективное обсуждение маркетингового текста или бизнес-плана.<br>· Мгновенные ответы — получите рекомендации рецептов, если у вас есть всего несколько ингредиентов.<br><br>Присоединяйтесь к сотням миллионов пользователей и попробуйте приложение, покорившее мир. Загрузите ChatGPT сегодня.<br><br>Условия использования: https://openai.com/terms",
       "shortDescription": "Ваш ИИ-ассистент для текстов, поиска, генерации изображений и не только",
       "versionName": "1.2026.300",
-      "updatedDate": "2026-10-30",
+      "updatedDate": "2026-11-06",
       "playUrl": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
       "changelog": "Minor fixes and improvements",
       "icon": "images/4e2fd1df4ed6e215262bdfff54c272c83176ba8bf58e0392b2123d6acb762d14.png",
@@ -30,7 +30,7 @@
       "description": "Introducing ChatGPT for Android: OpenAI’s latest advancements at your fingertips.<br><br>This official app is free, syncs your history across devices, and brings you the latest from OpenAI, including the new image generator.<br><br>With ChatGPT in your pocket, you’ll find:<br><br>· Image generation–Generate original images from a description, or transform existing ones with a few simple words. <br>· Advanced Voice Mode–Tap the soundwave icon to have a real-time convo on the go. Settle a dinner table debate, or practice a new language. <br>· Photo upload—Snap or upload a picture to transcribe a handwritten recipe or get info about a landmark. <br>· Creative inspiration—Find custom birthday gift ideas or create a personalized greeting card.<br>· Tailored advice—Talk through a tough situation, ask for a detailed travel itinerary, or get help crafting the perfect response. <br>· Personalized learning—Explain electricity to a dinosaur-loving kid or easily brush up yourself on a historic event.<br>· Professional input—Brainstorm marketing copy or map out a business plan.<br>· Instant answers—Get recipe suggestions when you only have a few ingredients.<br>· Screen share with Accessibility Services — In limited availability, users can choose to let ChatGPT help answer questions about screen details without requiring screenshot uploads.<br><br>Join hundreds of millions of users and try the app captivating the world. Download ChatGPT today.<br><br>Terms of service & privacy policy:<br>https://openai.com/policies/terms-of-use<br>https://openai.com/policies/privacy-policy",
       "shortDescription": "Your AI assistant for writing, search, image generation, and more",
       "versionName": "1.2026.300",
-      "updatedDate": "2026-10-30",
+      "updatedDate": "2026-11-06",
       "playUrl": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
       "changelog": "Minor fixes and improvements",
       "icon": "images/4e2fd1df4ed6e215262bdfff54c272c83176ba8bf58e0392b2123d6acb762d14.png",
@@ -57,6 +57,11 @@
         "versionName": "1.2026.300",
         "updatedDate": "2026-10-30",
         "text": "Minor fixes and improvements"
+      },
+      {
+        "versionName": "1.2026.300",
+        "updatedDate": "2026-11-06",
+        "text": "Minor fixes and improvements"
       }
     ],
     "en_US": [
@@ -68,6 +73,11 @@
       {
         "versionName": "1.2026.300",
         "updatedDate": "2026-10-30",
+        "text": "Minor fixes and improvements"
+      },
+      {
+        "versionName": "1.2026.300",
+        "updatedDate": "2026-11-06",
         "text": "Minor fixes and improvements"
       }
     ]
