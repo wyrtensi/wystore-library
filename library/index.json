@@ -33878,22 +33878,22 @@
     {
       "artifacts": [
         {
-          "name": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f.apk",
-          "sha256": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f",
-          "size": 131162946,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f.apk"
+          "name": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc.apk",
+          "sha256": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc",
+          "size": 138965829,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc.apk"
         },
         {
-          "name": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292.apk",
-          "sha256": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292",
+          "name": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7.apk",
+          "sha256": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7",
+          "size": 462236,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7.apk"
+        },
+        {
+          "name": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9.apk",
+          "sha256": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9",
           "size": 73931056,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292.apk"
-        },
-        {
-          "name": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813.apk",
-          "sha256": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813",
-          "size": 458140,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -33901,16 +33901,16 @@
       "package": "com.funcamerastudio.videomaker",
       "publication": {
         "catalog": {
-          "name": "catalog-ef529e227b8a110fae0b74a03ed3b6ac46b147a59f054a3508be8e5527faa868.json",
-          "sha256": "ef529e227b8a110fae0b74a03ed3b6ac46b147a59f054a3508be8e5527faa868",
+          "name": "catalog-48e7659418c0bb3cc4207e5e5784aaada53bbc81ee3a9128f28525f86bd1a533.json",
+          "sha256": "48e7659418c0bb3cc4207e5e5784aaada53bbc81ee3a9128f28525f86bd1a533",
           "size": 35456,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/catalog-ef529e227b8a110fae0b74a03ed3b6ac46b147a59f054a3508be8e5527faa868.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/catalog-48e7659418c0bb3cc4207e5e5784aaada53bbc81ee3a9128f28525f86bd1a533.json"
         },
         "compat_manifest": {
-          "name": "manifest-e0f088144c48952faad658b157d08ac36aea91288f4ac5962550af74ea708b73.json",
-          "sha256": "e0f088144c48952faad658b157d08ac36aea91288f4ac5962550af74ea708b73",
+          "name": "manifest-8bc97d0ef91c7cfdc439d14e106868d852f62a6ad2fa8f1633316f9dbc92790d.json",
+          "sha256": "8bc97d0ef91c7cfdc439d14e106868d852f62a6ad2fa8f1633316f9dbc92790d",
           "size": 1014,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/manifest-e0f088144c48952faad658b157d08ac36aea91288f4ac5962550af74ea708b73.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/manifest-8bc97d0ef91c7cfdc439d14e106868d852f62a6ad2fa8f1633316f9dbc92790d.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.funcamerastudio.videomaker-library",
         "tag": "com.funcamerastudio.videomaker-library"
@@ -34148,19 +34148,19 @@
           },
           "files": [
             {
-              "artifact": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f",
+              "artifact": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292",
+              "artifact": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813",
+              "artifact": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -34168,8 +34168,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 262,
-          "version_name": "6.7.4.0"
+          "version_code": 263,
+          "version_name": "6.7.9.2"
         },
         {
           "certificate_sha256": [
@@ -34341,19 +34341,19 @@
           },
           "files": [
             {
-              "artifact": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f",
+              "artifact": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292",
+              "artifact": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813",
+              "artifact": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -34361,8 +34361,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 262,
-          "version_name": "6.7.4.0"
+          "version_code": 263,
+          "version_name": "6.7.9.2"
         },
         {
           "certificate_sha256": [
@@ -34534,19 +34534,19 @@
           },
           "files": [
             {
-              "artifact": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f",
+              "artifact": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292",
+              "artifact": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813",
+              "artifact": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -34554,8 +34554,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 262,
-          "version_name": "6.7.4.0"
+          "version_code": 263,
+          "version_name": "6.7.9.2"
         },
         {
           "certificate_sha256": [
@@ -34727,19 +34727,19 @@
           },
           "files": [
             {
-              "artifact": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f",
+              "artifact": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292",
+              "artifact": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813",
+              "artifact": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -34747,8 +34747,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 262,
-          "version_name": "6.7.4.0"
+          "version_code": 263,
+          "version_name": "6.7.9.2"
         },
         {
           "certificate_sha256": [
@@ -34920,19 +34920,19 @@
           },
           "files": [
             {
-              "artifact": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f",
+              "artifact": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292",
+              "artifact": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813",
+              "artifact": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -34940,8 +34940,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 262,
-          "version_name": "6.7.4.0"
+          "version_code": 263,
+          "version_name": "6.7.9.2"
         },
         {
           "certificate_sha256": [
@@ -35113,19 +35113,19 @@
           },
           "files": [
             {
-              "artifact": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f",
+              "artifact": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292",
+              "artifact": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813",
+              "artifact": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -35133,8 +35133,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 262,
-          "version_name": "6.7.4.0"
+          "version_code": 263,
+          "version_name": "6.7.9.2"
         },
         {
           "certificate_sha256": [
@@ -35306,19 +35306,19 @@
           },
           "files": [
             {
-              "artifact": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f",
+              "artifact": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292",
+              "artifact": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813",
+              "artifact": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -35326,8 +35326,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 262,
-          "version_name": "6.7.4.0"
+          "version_code": 263,
+          "version_name": "6.7.9.2"
         },
         {
           "certificate_sha256": [
@@ -35499,19 +35499,19 @@
           },
           "files": [
             {
-              "artifact": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f",
+              "artifact": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292",
+              "artifact": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813",
+              "artifact": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -35519,8 +35519,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 262,
-          "version_name": "6.7.4.0"
+          "version_code": 263,
+          "version_name": "6.7.9.2"
         }
       ]
     },
@@ -85092,42 +85092,42 @@
     {
       "assets": [
         {
-          "name": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f.apk",
+          "name": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc.apk",
           "role": "base",
-          "sha256": "2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f",
-          "size": 131162946,
+          "sha256": "941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc",
+          "size": 138965829,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/2a645878e4c62aebd9311c1bbb458481c65f1e872f9d9c90494cee3492657e3f.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/941386c2cb7a8634dd99dc153b159382409fdeb3f62dba37cde74500c34d4cdc.apk"
         },
         {
-          "name": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292.apk",
+          "name": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9.apk",
           "role": "split",
-          "sha256": "6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292",
+          "sha256": "9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9",
           "size": 73931056,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/6e12e943291f4c80f4cd41171e6909fc61f5e28fec9b842e531a6cd3d05ba292.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/9e98f16d06004ed1a1574abe2bce133d8f4ce85165b70a304b943bb185103fd9.apk"
         },
         {
-          "name": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813.apk",
+          "name": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7.apk",
           "role": "split",
-          "sha256": "bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813",
-          "size": 458140,
+          "sha256": "9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7",
+          "size": 462236,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/bf989a9ae145189979275d8e4d08a9b3e6bb9b9eb571aca29f2ced90180e0813.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/9daa32a1c3b4b41c912adab99289388e2d25dca7b695e16bfc16f91564e874d7.apk"
         }
       ],
       "certificate_sha256": [
         "289eb9c74fcf89ae544575ee202f364e0832a40ccf032fd127ed1df3b4cc0b80"
       ],
-      "manifest_sha256": "e0f088144c48952faad658b157d08ac36aea91288f4ac5962550af74ea708b73",
+      "manifest_sha256": "8bc97d0ef91c7cfdc439d14e106868d852f62a6ad2fa8f1633316f9dbc92790d",
       "manifest_size": 1014,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/manifest-e0f088144c48952faad658b157d08ac36aea91288f4ac5962550af74ea708b73.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.funcamerastudio.videomaker-library/manifest-8bc97d0ef91c7cfdc439d14e106868d852f62a6ad2fa8f1633316f9dbc92790d.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.funcamerastudio.videomaker/metadata.json",
       "package": "com.funcamerastudio.videomaker",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.funcamerastudio.videomaker-library",
-      "version_code": 262,
-      "version_name": "6.7.4.0"
+      "version_code": 263,
+      "version_name": "6.7.9.2"
     },
     {
       "assets": [
