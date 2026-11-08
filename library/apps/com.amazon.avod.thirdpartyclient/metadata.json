@@ -9,7 +9,7 @@
       "description": "Смотрите фильмы, сериалы, прямые трансляции и спортивные соревнования, включая такие сериалы и фильмы Amazon MGM Studios, как «Дом у дороги», «Властелин колец: кольца власти», «Фолаут», «Ричер», «Парни», «Мысль о тебе» и многое другое. Вы можете просматривать видео, находить избранное или же смотреть фильмы и сериалы, рекомендованными именно вам.<br><br> Возможности приложения<br> • Скачивайте видео, чтобы смотреть их где угодно.<br> • Берите напрокат или покупайте новые фильмы и популярные сериалы (доступность зависит от рынка).<br> • Транслируйте контент с телефона или планшета на большой экран с помощью Chromecast или Fire TV.<br> • Создайте несколько профилей, чтобы каждый пользователь получал особенные впечатления.<br> • Загляните за кулисы фильмов и сериалов благодаря эксклюзивной функции X-Ray на базе IMDb (доступность зависит от рынка).<br><br> С нашими условиями и правилами использования можно ознакомиться на сайте amazon.com/videoterms. Amazon, логотип Amazon, Prime Video являются товарными знаками Amazon.com, Inc. или дочерних компаний.",
       "shortDescription": "Смотрите фильмы, сериалы, прямые трансляции и спортивные соревнования",
       "versionName": null,
-      "updatedDate": "2026-11-05",
+      "updatedDate": "2026-11-06",
       "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient",
       "changelog": "Enjoy Amazon Prime Video in over 200 countries and territories around the globe! <br>Download movies and TV shows using Wi-Fi or cellular networks.",
       "icon": "images/a1342a92272a245310904d5c6c2fe8196b032f668f345ef0fdcebded979ef97e.png",
@@ -30,7 +30,7 @@
       "description": "Watch movies, TV shows, live programming, and sports including Amazon MGM Studios-produced series and moviesRoad House, The Lord of the Rings: The Rings of Power, Fallout, Reacher, The Boys, and The Idea of You, and much more. Browse titles, search for your favorites, or enjoy movies and shows recommended just for you.<br><br>App features:<br> • Download videos to watch anywhere.<br> • Rent or buy new-release movies and popular TV shows (availability varies by marketplace).<br> • Cast from your phone or tablet to the big screen with Chromecast or FireTV.<br> • Create multiple profiles so each person gets a personalized entertainment experience.<br> • Go behind the scenes of movies and TV shows with exclusive X-Ray access, powered by IMDb.<br><br> For our Terms of Use and usage rules, go to amazon.com/videoterms. Amazon, the Amazon logo, and Prime Video are trademarks of Amazon.com, Inc. or its affiliates.",
       "shortDescription": "Watch movies, TV shows, live programming, and sports",
       "versionName": null,
-      "updatedDate": "2026-11-05",
+      "updatedDate": "2026-11-06",
       "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient",
       "changelog": "Enjoy Amazon Prime Video in over 200 countries and territories around the globe! <br>Download movies and TV shows using Wi-Fi or cellular networks.",
       "icon": "images/a1342a92272a245310904d5c6c2fe8196b032f668f345ef0fdcebded979ef97e.png",
@@ -67,6 +67,11 @@
         "versionName": null,
         "updatedDate": "2026-11-05",
         "text": "Enjoy Amazon Prime Video in over 200 countries and territories around the globe! <br>Download movies and TV shows using Wi-Fi or cellular networks."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-06",
+        "text": "Enjoy Amazon Prime Video in over 200 countries and territories around the globe! <br>Download movies and TV shows using Wi-Fi or cellular networks."
       }
     ],
     "en_US": [
@@ -88,6 +93,11 @@
       {
         "versionName": null,
         "updatedDate": "2026-11-05",
+        "text": "Enjoy Amazon Prime Video in over 200 countries and territories around the globe! <br>Download movies and TV shows using Wi-Fi or cellular networks."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-06",
         "text": "Enjoy Amazon Prime Video in over 200 countries and territories around the globe! <br>Download movies and TV shows using Wi-Fi or cellular networks."
       }
     ]
