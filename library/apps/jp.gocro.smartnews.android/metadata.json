@@ -14,14 +14,14 @@
       "changelog": "- Performance improvements and bug fixes to enhance your reading experience.",
       "icon": "images/41164742a6d2778144efe6012905074753f9727a3debceee3213b3c21b3f472c.png",
       "screenshots": [
-        "images/63856ce4ab559a2eef99257d6e1b3644244c370c2354c6d1acbc82ac587a3a2e.png",
-        "images/de1229d8d23ce983b549a596fc57a1433a05f945b945c26e88ebc97496ef46b7.png",
         "images/98785110491f82397b0756e0d57ca19ba2e6f70ec37e129c141d19e46520e405.png",
         "images/27ebf60e82fca63d0306e5aae1bb895849f021ab1b712b73d19995aab949678e.jpg",
         "images/cb2e8f51cd8350e321a544eb008af48c3147992340382d33c1592845026bb3b7.png",
         "images/5dabb14b30af3735f369bb3c504a77a7f221c3d23b8d149df262f93e7ae22c8c.png",
         "images/d1b57cb2eadf17bf24f7ee8dfe120b25875326b4a947ad7c4dbbdcf5d2ab404d.jpg",
-        "images/0b5ea7f22d8d35550ff90f1404df04c9060e274236be7b986709ec3184a7c772.png"
+        "images/0b5ea7f22d8d35550ff90f1404df04c9060e274236be7b986709ec3184a7c772.png",
+        "images/454647baa6d6fae1b091ca294a61b61a61bb9f702e39e5ff4fbcecf313f1ae84.png",
+        "images/3f9f5fbfe34ee3bd0ec01f1831f929c70810024ed2aa84fc8c84c4c2c250aeec.png"
       ]
     },
     "en_US": {
@@ -35,14 +35,14 @@
       "changelog": "- Performance improvements and bug fixes to enhance your reading experience.",
       "icon": "images/41164742a6d2778144efe6012905074753f9727a3debceee3213b3c21b3f472c.png",
       "screenshots": [
-        "images/63856ce4ab559a2eef99257d6e1b3644244c370c2354c6d1acbc82ac587a3a2e.png",
-        "images/de1229d8d23ce983b549a596fc57a1433a05f945b945c26e88ebc97496ef46b7.png",
         "images/98785110491f82397b0756e0d57ca19ba2e6f70ec37e129c141d19e46520e405.png",
         "images/27ebf60e82fca63d0306e5aae1bb895849f021ab1b712b73d19995aab949678e.jpg",
         "images/cb2e8f51cd8350e321a544eb008af48c3147992340382d33c1592845026bb3b7.png",
         "images/5dabb14b30af3735f369bb3c504a77a7f221c3d23b8d149df262f93e7ae22c8c.png",
         "images/d1b57cb2eadf17bf24f7ee8dfe120b25875326b4a947ad7c4dbbdcf5d2ab404d.jpg",
-        "images/0b5ea7f22d8d35550ff90f1404df04c9060e274236be7b986709ec3184a7c772.png"
+        "images/0b5ea7f22d8d35550ff90f1404df04c9060e274236be7b986709ec3184a7c772.png",
+        "images/454647baa6d6fae1b091ca294a61b61a61bb9f702e39e5ff4fbcecf313f1ae84.png",
+        "images/3f9f5fbfe34ee3bd0ec01f1831f929c70810024ed2aa84fc8c84c4c2c250aeec.png"
       ]
     }
   },
@@ -64,13 +64,13 @@
   },
   "imageSources": {
     "https://play-lh.googleusercontent.com/V6wYSXrSloYomj44CkX6XnfflRfG3qTYh451MXUZHBUxqszW0pUrLt5TdlOXJv_qt3Kv37vQ725Ql7E6b49u6Q": "41164742a6d2778144efe6012905074753f9727a3debceee3213b3c21b3f472c.png",
-    "https://play-lh.googleusercontent.com/JVqXDIdkfFz9T8LNQ_kJCruEs8Qq8sSHaxDODpY29epWSx-ya80zXZNDfVGa6X50qey4L-IXGz4damK_dlaM": "63856ce4ab559a2eef99257d6e1b3644244c370c2354c6d1acbc82ac587a3a2e.png",
-    "https://play-lh.googleusercontent.com/SpjmqaIY8zLhNYvE74SclH_uMQE552Fu8hFyoTfT2pJ3sJV0Vi1GCRBAMhxawmdo3Y84FT9et-4OTyobmU2YLA": "de1229d8d23ce983b549a596fc57a1433a05f945b945c26e88ebc97496ef46b7.png",
     "https://play-lh.googleusercontent.com/TkwCQqIityVaXjvsSCzTlEMXg1p0JuiFSpXb649r5soOoxwo3Vsni2dUGl-Ui3rULVdiq6TcGgaPHeLupWkYNjY": "98785110491f82397b0756e0d57ca19ba2e6f70ec37e129c141d19e46520e405.png",
     "https://play-lh.googleusercontent.com/mjzRv62lbct2WAxyZmmu8lhV7NcITuJsXpGhNI3cpItEHDJDzDv2wng2_51pxyFKCcdQH42JaGSW-8X8j2VIrAc": "27ebf60e82fca63d0306e5aae1bb895849f021ab1b712b73d19995aab949678e.jpg",
     "https://play-lh.googleusercontent.com/ILkLVTRxUrf293qZrkSk0ST_cmNyw8L8VDA1KBMAUMc-RzdRfPCSlBDkfcR9YnwMSv9tE78gU1fCr8iQh582_A": "cb2e8f51cd8350e321a544eb008af48c3147992340382d33c1592845026bb3b7.png",
     "https://play-lh.googleusercontent.com/mfvQ1ruXWRNl3TChQ2xzIg-MfrFMsrlxMJYZ8b_agGCwRqMO0j0f3p5y3fllNsoavGn2u2aOCcAlPmr0kpsf": "5dabb14b30af3735f369bb3c504a77a7f221c3d23b8d149df262f93e7ae22c8c.png",
     "https://play-lh.googleusercontent.com/FW7ytpdkEo2E_XrJhXtyPPOhXxCQ5hcNgFyNoOJyQ7uJWKCuZPGSLHvXk-WdoE6ENbunOCR5z1xs_2_sbnCwnQ": "d1b57cb2eadf17bf24f7ee8dfe120b25875326b4a947ad7c4dbbdcf5d2ab404d.jpg",
-    "https://play-lh.googleusercontent.com/4GFshzwl1rE86HTXju9gjQYtKUWMqZtiitIpjY9u_s6po6sk4y1uf6I_cIQyN5ug3b7PvWZ9TAKwdjUvXJi5": "0b5ea7f22d8d35550ff90f1404df04c9060e274236be7b986709ec3184a7c772.png"
+    "https://play-lh.googleusercontent.com/4GFshzwl1rE86HTXju9gjQYtKUWMqZtiitIpjY9u_s6po6sk4y1uf6I_cIQyN5ug3b7PvWZ9TAKwdjUvXJi5": "0b5ea7f22d8d35550ff90f1404df04c9060e274236be7b986709ec3184a7c772.png",
+    "https://play-lh.googleusercontent.com/IsRUSP6Coshe1vF19Cp1oaC0VUWnAzqOtvpgV4xkqxr_E_daWg415g5IhxfN-tRdzHZXUBnOczf4OGCF8bVXo2s": "454647baa6d6fae1b091ca294a61b61a61bb9f702e39e5ff4fbcecf313f1ae84.png",
+    "https://play-lh.googleusercontent.com/Onp0_fCUnljnDOhPy1FgmrjmuZlkjzIapINvBkGIJftQfmVyuPG30BVSCrg_Eazfz2pe7kWJYQ7KVpu5MQor": "3f9f5fbfe34ee3bd0ec01f1831f929c70810024ed2aa84fc8c84c4c2c250aeec.png"
   }
 }

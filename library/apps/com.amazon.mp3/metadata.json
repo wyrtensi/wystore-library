@@ -9,7 +9,7 @@
       "description": "We're changing the way you discover and play the music you love. Listen free to music and podcasts with ads—no credit card required. Prime members can enjoy all the music + top podcasts ad-free. Want more benefits? Get 100 million songs on-demand, ad-free top podcasts, and audiobooks with Amazon Music Unlimited.<br><br><br><b><u>Included with your Prime membership at no additional cost:</u></b><br>• All the music ad-free <br>• The largest catalog of ad-free top podcasts<br>• Discover new music and podcasts based on your likes <br>• Shuffle play any artist, album, or playlist <br><br><b><u>Amazon Music Unlimited:</u></b><br>• Unlimited access to 100 million songs <br>• Pick and play any song, ad-free <br>• The most ad-free top podcasts<br>• Access the largest catalog of audiobooks <br>• Listen to one audiobook each month <br>• Listen offline <br>• Unlimited skips<br>• Experience our fast-growing collection of spatial audio<br><br><b><u>Or listen to free streaming music, no credit card required:</u></b><br>• Thousands of stations and top playlists<br>• Millions of podcast episodes <br>• Discover new music and podcasts based on your likes <br>• No credit card required<br><br><b><u>Import your playlists:</u></b><br>• Move existing playlists from other music platforms to Amazon Music in a few quick steps. Learn more at http://www.amazon.com/playlistimport<br><br><b><u>My Music:</u></b><br>• Listen to music you’ve purchased from Amazon – MP3s or AutoRip CDs/Vinyl. Your Amazon purchases are stored for free in the Amazon cloud<br><br><b><u>Wear OS features</u></b><br>• Access your favorite music, right from your wrist<br>• Play top recommendations, songs from your library, or search for your favorite artists, albums, playlists, and more<br>• Use your watch to cast to and control playback on compatible Android devices<br>• Download your Playlists and Albums onto your watch and listen to them in Offline Mode when you're on the go<br><br><br><b><u>Visit us at:</u></b><br>www.amazon.com/music/unlimited<br>www.amazon.com/music/prime<br>www.facebook.com/amazonmusic<br>www.twitter.com/amazonmusic<br>www.instagram.com/amazonmusic",
       "shortDescription": "Слушайте подкасты, популярные плейлисты, хиты и любимые песни.",
       "versionName": null,
-      "updatedDate": "2026-11-01",
+      "updatedDate": "2026-11-05",
       "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.mp3",
       "changelog": "We’re improving your Amazon Music listening experience all the time. In this version, we fixed some bugs and made other improvements.",
       "icon": "images/a58043d5116ae2118b227eb51728eed5bf807c2bd4ffc82e0c28dbc3a81aca94.png",
@@ -30,7 +30,7 @@
       "description": "We're changing the way you discover and play the music you love. Listen free to music and podcasts with ads—no credit card required. Prime members can enjoy all the music + top podcasts ad-free. Want more benefits? Get 100 million songs on-demand, ad-free top podcasts, and audiobooks with Amazon Music Unlimited.<br><br><br><b><u>Included with your Prime membership at no additional cost:</u></b><br>• All the music ad-free <br>• The largest catalog of ad-free top podcasts<br>• Discover new music and podcasts based on your likes <br>• Shuffle play any artist, album, or playlist <br><br><b><u>Amazon Music Unlimited:</u></b><br>• Unlimited access to 100 million songs <br>• Pick and play any song, ad-free <br>• The most ad-free top podcasts<br>• Access the largest catalog of audiobooks <br>• Listen to one audiobook each month <br>• Listen offline <br>• Unlimited skips<br>• Experience our fast-growing collection of spatial audio<br><br><b><u>Or listen to free streaming music, no credit card required:</u></b><br>• Thousands of stations and top playlists<br>• Millions of podcast episodes <br>• Discover new music and podcasts based on your likes <br>• No credit card required<br><br><b><u>Import your playlists:</u></b><br>• Move existing playlists from other music platforms to Amazon Music in a few quick steps. Learn more at http://www.amazon.com/playlistimport<br><br><b><u>My Music:</u></b><br>• Listen to music you’ve purchased from Amazon – MP3s or AutoRip CDs/Vinyl. Your Amazon purchases are stored for free in the Amazon cloud<br><br><b><u>Wear OS features</u></b><br>• Access your favorite music, right from your wrist<br>• Play top recommendations, songs from your library, or search for your favorite artists, albums, playlists, and more<br>• Use your watch to cast to and control playback on compatible Android devices<br>• Download your Playlists and Albums onto your watch and listen to them in Offline Mode when you're on the go<br><br><br><b><u>Visit us at:</u></b><br>www.amazon.com/music/unlimited<br>www.amazon.com/music/prime<br>www.facebook.com/amazonmusic<br>www.twitter.com/amazonmusic<br>www.instagram.com/amazonmusic",
       "shortDescription": "Listen to podcasts, trending playlists, hit music and your favorite songs",
       "versionName": null,
-      "updatedDate": "2026-11-01",
+      "updatedDate": "2026-11-05",
       "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.mp3",
       "changelog": "We’re improving your Amazon Music listening experience all the time. In this version, we fixed some bugs and made other improvements.",
       "icon": "images/a58043d5116ae2118b227eb51728eed5bf807c2bd4ffc82e0c28dbc3a81aca94.png",
@@ -57,6 +57,11 @@
         "versionName": null,
         "updatedDate": "2026-11-01",
         "text": "We’re improving your Amazon Music listening experience all the time. In this version, we fixed some bugs and made other improvements."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-05",
+        "text": "We’re improving your Amazon Music listening experience all the time. In this version, we fixed some bugs and made other improvements."
       }
     ],
     "en_US": [
@@ -68,6 +73,11 @@
       {
         "versionName": null,
         "updatedDate": "2026-11-01",
+        "text": "We’re improving your Amazon Music listening experience all the time. In this version, we fixed some bugs and made other improvements."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-05",
         "text": "We’re improving your Amazon Music listening experience all the time. In this version, we fixed some bugs and made other improvements."
       }
     ]
