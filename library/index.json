@@ -11403,24 +11403,6 @@
           "sha256": "c4a7bbd17204d073fa8964a2d62ef86276bdfb610d2fd06c0abc10546161fe5a",
           "size": 62675156,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.mShop.android.shopping-library/c4a7bbd17204d073fa8964a2d62ef86276bdfb610d2fd06c0abc10546161fe5a.apk"
-        },
-        {
-          "name": "c9c0c813a3ac1e55d3e2e3574411083b5ff8dc3889ebe973c2419dc4b9f32142.apk",
-          "sha256": "c9c0c813a3ac1e55d3e2e3574411083b5ff8dc3889ebe973c2419dc4b9f32142",
-          "size": 62675156,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.mShop.android.shopping-library/c9c0c813a3ac1e55d3e2e3574411083b5ff8dc3889ebe973c2419dc4b9f32142.apk"
-        },
-        {
-          "name": "d96d3eb3910e503843c12d023da5e345d1d3a8e34b3b251be5ea1c55845e8d38.apk",
-          "sha256": "d96d3eb3910e503843c12d023da5e345d1d3a8e34b3b251be5ea1c55845e8d38",
-          "size": 110021789,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.mShop.android.shopping-library/d96d3eb3910e503843c12d023da5e345d1d3a8e34b3b251be5ea1c55845e8d38.apk"
-        },
-        {
-          "name": "f6bae39d25f52c26e2ac96080b4e2087b3635b373a4a8ca746fb1ee7f59afc02.apk",
-          "sha256": "f6bae39d25f52c26e2ac96080b4e2087b3635b373a4a8ca746fb1ee7f59afc02",
-          "size": 4210859,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.mShop.android.shopping-library/f6bae39d25f52c26e2ac96080b4e2087b3635b373a4a8ca746fb1ee7f59afc02.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -11428,10 +11410,10 @@
       "package": "com.amazon.mShop.android.shopping",
       "publication": {
         "catalog": {
-          "name": "catalog-f24b6450978647305bf0772adbfe71169c3326db485f8ad14ad89480ce453d9f.json",
-          "sha256": "f24b6450978647305bf0772adbfe71169c3326db485f8ad14ad89480ce453d9f",
-          "size": 41150,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.mShop.android.shopping-library/catalog-f24b6450978647305bf0772adbfe71169c3326db485f8ad14ad89480ce453d9f.json"
+          "name": "catalog-2ecb2ea492a37b7b5c393dd4ddbc37543e9b2295c4f9d8b6ced971579e45032a.json",
+          "sha256": "2ecb2ea492a37b7b5c393dd4ddbc37543e9b2295c4f9d8b6ced971579e45032a",
+          "size": 39965,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.amazon.mShop.android.shopping-library/catalog-2ecb2ea492a37b7b5c393dd4ddbc37543e9b2295c4f9d8b6ced971579e45032a.json"
         },
         "compat_manifest": {
           "name": "manifest-36d1e5e902865af632127d0cab4aa51ac8c8d2674665d84fdc4f73068b6ec7bb.json",
@@ -11702,19 +11684,19 @@
           },
           "files": [
             {
-              "artifact": "d96d3eb3910e503843c12d023da5e345d1d3a8e34b3b251be5ea1c55845e8d38",
+              "artifact": "ad61ce0f32bbe204296c07aa6957ce7492b62563c8617ba8c3c7bc2fecb4d740",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "c9c0c813a3ac1e55d3e2e3574411083b5ff8dc3889ebe973c2419dc4b9f32142",
+              "artifact": "c4a7bbd17204d073fa8964a2d62ef86276bdfb610d2fd06c0abc10546161fe5a",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "f6bae39d25f52c26e2ac96080b4e2087b3635b373a4a8ca746fb1ee7f59afc02",
+              "artifact": "17fef5dc925bcaa588870848b228f5cffff0b81038137bd84e34f2dcbba64ad9",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -11722,8 +11704,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 1243260206,
-          "version_name": "32.20.0.100"
+          "version_code": 1243262206,
+          "version_name": "32.20.2.100"
         },
         {
           "certificate_sha256": [
