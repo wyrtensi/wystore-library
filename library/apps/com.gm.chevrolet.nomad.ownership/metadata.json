@@ -8,10 +8,10 @@
       "developer": "General Motors (GM)",
       "description": "Stay connected to your Chevrolet from the palm of your hand with the myChevrolet app. Use your phone to locate your vehicle from anywhere, check its health, manage charging, prepare your cabin before you leave, and get help when you need it. <br>Download the app that is always with you to make every drive easier. <br><br>With the myChevrolet app, you can:<br>•\tRemotely start, lock, and unlock your vehicle.<br>•\tCheck fuel level, tire pressure, oil life, and more.<br>•\tSet your preferred cabin temperature.<br>•\tView charging status and locate charging stations.<br>•\tPlan trips and navigate with maps. <br>•\tRequest help with Roadside Assistance.<br>•\tSchedule service, find your dealership, and more.<br><br>Disclosures: <br>Mobile app functionality is available on select devices and requires data connection. Services availability, features and functionality vary by vehicle, device and the plan you are enrolled in. Roadside service availability and providers vary by country. Map coverage, features and functionality varies by country. See onstar.com for details and limitations.",
       "shortDescription": "Владение автомобилем упрощено. Загрузите приложение myChevrolet® сегодня.",
-      "versionName": "8.20.0",
+      "versionName": "8.21.0",
       "updatedDate": "2026-10-29",
       "playUrl": "https://play.google.com/store/apps/details?id=com.gm.chevrolet.nomad.ownership",
-      "changelog": "See our commitment to enhancing your ownership experience through updates and software refinements below because Better Never Stops.<br><br>- Minor fixes and improvements<br>",
+      "changelog": "See how we’re helping you stay connected to your vehicle to get more from your ownership experience through the updates below.<br><br>- Minor fixes and improvements",
       "icon": "images/ec40a6725e404556e320110136fc7d6a042fc0f0eb73cff94b76a3b4c2c9163a.png",
       "screenshots": [
         "images/da1642e1059aa4180ceb4510a236e4694e77a79654f4653701921b7d2016c1aa.jpg",
@@ -29,10 +29,10 @@
       "developer": "General Motors (GM)",
       "description": "Stay connected to your Chevrolet from the palm of your hand with the myChevrolet app. Use your phone to locate your vehicle from anywhere, check its health, manage charging, prepare your cabin before you leave, and get help when you need it. <br>Download the app that is always with you to make every drive easier. <br><br>With the myChevrolet app, you can:<br>•\tRemotely start, lock, and unlock your vehicle.<br>•\tCheck fuel level, tire pressure, oil life, and more.<br>•\tSet your preferred cabin temperature.<br>•\tView charging status and locate charging stations.<br>•\tPlan trips and navigate with maps. <br>•\tRequest help with Roadside Assistance.<br>•\tSchedule service, find your dealership, and more.<br><br>Disclosures: <br>Mobile app functionality is available on select devices and requires data connection. Services availability, features and functionality vary by vehicle, device and the plan you are enrolled in. Roadside service availability and providers vary by country. Map coverage, features and functionality varies by country. See onstar.com for details and limitations.",
       "shortDescription": "Vehicle ownership simplified. Get the myChevrolet® app today.",
-      "versionName": "8.20.0",
+      "versionName": "8.21.0",
       "updatedDate": "2026-10-29",
       "playUrl": "https://play.google.com/store/apps/details?id=com.gm.chevrolet.nomad.ownership",
-      "changelog": "See our commitment to enhancing your ownership experience through updates and software refinements below because Better Never Stops.<br><br>- Minor fixes and improvements<br>",
+      "changelog": "See how we’re helping you stay connected to your vehicle to get more from your ownership experience through the updates below.<br><br>- Minor fixes and improvements",
       "icon": "images/ec40a6725e404556e320110136fc7d6a042fc0f0eb73cff94b76a3b4c2c9163a.png",
       "screenshots": [
         "images/da1642e1059aa4180ceb4510a236e4694e77a79654f4653701921b7d2016c1aa.jpg",
@@ -57,6 +57,11 @@
         "versionName": "8.20.0",
         "updatedDate": "2026-10-29",
         "text": "See our commitment to enhancing your ownership experience through updates and software refinements below because Better Never Stops.<br><br>- Minor fixes and improvements<br>"
+      },
+      {
+        "versionName": "8.21.0",
+        "updatedDate": "2026-10-29",
+        "text": "See how we’re helping you stay connected to your vehicle to get more from your ownership experience through the updates below.<br><br>- Minor fixes and improvements"
       }
     ],
     "en_US": [
@@ -69,6 +74,11 @@
         "versionName": "8.20.0",
         "updatedDate": "2026-10-29",
         "text": "See our commitment to enhancing your ownership experience through updates and software refinements below because Better Never Stops.<br><br>- Minor fixes and improvements<br>"
+      },
+      {
+        "versionName": "8.21.0",
+        "updatedDate": "2026-10-29",
+        "text": "See how we’re helping you stay connected to your vehicle to get more from your ownership experience through the updates below.<br><br>- Minor fixes and improvements"
       }
     ]
   },

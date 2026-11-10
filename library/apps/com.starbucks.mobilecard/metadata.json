@@ -9,7 +9,7 @@
       "description": "Ordering ahead is just a download away. Get the Starbucks® app for an easier way to enjoy your favorites and discover Rewards in every sip as a member. <br><br>ORDER SEAMLESSLY <br>• Order in the app when you’re on your way<br>• Customize and create your perfect drink<br>• Save your favorite stores<br>• View past orders & save custom drinks <br>• Save payment methods and scan to pay in stores<br>• Tip your barista for your delicious drink<br><br>JOIN STARBUCKS® REWARDS<br>• Earn Stars to use on free food & drinks<br>• Start at Green status & level up to Gold or Reserve for exclusive benefits<br>• Enjoy a free drink on your birthday*, plus more time to redeem as you level up<br>• Try one free customization a month on Free Mod Mondays**<br>• Enjoy early access to new items<br>• Get Bonus Stars for digitally reloading your Starbucks Card (minimum $30)<br>• Explore games and offers just for you<br><br>SEND & SAVE eGIFTS <br>• Save all your Starbucks Cards in one spot<br>• Send eGifts via email, text, or messaging app<br>• Choose from unique designs for every occasion<br><br>FIND A STORE<br>• See stores near you<br>• Get directions and hours<br>• View store amenities like drive-thru & Wi-Fi <br><br>Must be a Starbucks Rewards member to enjoy exclusive member benefits and app features.<br><br>*Birthday Reward: <br>Green members: Redeemable on member’s birthday only, at participating stores.   <br>Gold members: Redeemable for 7 days starting on member’s birthday, at participating stores. <br>Reserve members: Redeemable for 30 days starting on member’s birthday, at participating stores.   <br>Free birthday drink must be standard menu size. <br>Excludes alcohol and multi-serve items.  To qualify, you must have made at least one Star-earning transaction prior to your birthday each year. <br> <br>**Mod Monday: <br>Redeemable at participating stores.  Members will receive one free customization each month, up to $2 (pre-tax) each. Not valid for use with Rewards or other offers, discounts or promotions.",
       "shortDescription": "Заказывайте, оплачивайте и получайте вознаграждение",
       "versionName": "6.134.1",
-      "updatedDate": "2026-10-31",
+      "updatedDate": "2026-11-04",
       "playUrl": "https://play.google.com/store/apps/details?id=com.starbucks.mobilecard",
       "changelog": "We made some changes to make things run smoothly.",
       "icon": "images/ca4d44f7868fd788da84199e6e0c57cc8ccd5fa10b16d696d575f41da4b83e4e.png",
@@ -30,7 +30,7 @@
       "description": "Ordering ahead is just a download away. Get the Starbucks® app for an easier way to enjoy your favorites and discover Rewards in every sip as a member. <br><br>ORDER SEAMLESSLY <br>• Order in the app when you’re on your way<br>• Customize and create your perfect drink<br>• Save your favorite stores<br>• View past orders & save custom drinks <br>• Save payment methods and scan to pay in stores<br>• Tip your barista for your delicious drink<br><br>JOIN STARBUCKS® REWARDS<br>• Earn Stars to use on free food & drinks<br>• Start at Green status & level up to Gold or Reserve for exclusive benefits<br>• Enjoy a free drink on your birthday*, plus more time to redeem as you level up<br>• Try one free customization a month on Free Mod Mondays**<br>• Enjoy early access to new items<br>• Get Bonus Stars for digitally reloading your Starbucks Card (minimum $30)<br>• Explore games and offers just for you<br><br>SEND & SAVE eGIFTS <br>• Save all your Starbucks Cards in one spot<br>• Send eGifts via email, text, or messaging app<br>• Choose from unique designs for every occasion<br><br>FIND A STORE<br>• See stores near you<br>• Get directions and hours<br>• View store amenities like drive-thru & Wi-Fi <br><br>Must be a Starbucks Rewards member to enjoy exclusive member benefits and app features.<br><br>*Birthday Reward: <br>Green members: Redeemable on member’s birthday only, at participating stores.   <br>Gold members: Redeemable for 7 days starting on member’s birthday, at participating stores. <br>Reserve members: Redeemable for 30 days starting on member’s birthday, at participating stores.   <br>Free birthday drink must be standard menu size. <br>Excludes alcohol and multi-serve items.  To qualify, you must have made at least one Star-earning transaction prior to your birthday each year. <br> <br>**Mod Monday: <br>Redeemable at participating stores.  Members will receive one free customization each month, up to $2 (pre-tax) each. Not valid for use with Rewards or other offers, discounts or promotions.",
       "shortDescription": "Order, pay and get rewarded",
       "versionName": "6.134.1",
-      "updatedDate": "2026-10-31",
+      "updatedDate": "2026-11-04",
       "playUrl": "https://play.google.com/store/apps/details?id=com.starbucks.mobilecard",
       "changelog": "We made some changes to make things run smoothly.",
       "icon": "images/ca4d44f7868fd788da84199e6e0c57cc8ccd5fa10b16d696d575f41da4b83e4e.png",
@@ -57,6 +57,11 @@
         "versionName": "6.134.1",
         "updatedDate": "2026-10-31",
         "text": "We made some changes to make things run smoothly."
+      },
+      {
+        "versionName": "6.134.1",
+        "updatedDate": "2026-11-04",
+        "text": "We made some changes to make things run smoothly."
       }
     ],
     "en_US": [
@@ -68,6 +73,11 @@
       {
         "versionName": "6.134.1",
         "updatedDate": "2026-10-31",
+        "text": "We made some changes to make things run smoothly."
+      },
+      {
+        "versionName": "6.134.1",
+        "updatedDate": "2026-11-04",
         "text": "We made some changes to make things run smoothly."
       }
     ]
