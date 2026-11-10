@@ -31708,12 +31708,6 @@
     {
       "artifacts": [
         {
-          "name": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea.apk",
-          "sha256": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
-          "size": 188760156,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea.apk"
-        },
-        {
           "name": "378925a9021d732630150797870fb6c3a0ed0ed3fb1abd7d50a7ca7213fced70.apk",
           "sha256": "378925a9021d732630150797870fb6c3a0ed0ed3fb1abd7d50a7ca7213fced70",
           "size": 179688881,
@@ -31732,12 +31726,6 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/ba9c00aa817b83b75bff36a5c4f9e0e3016c45e6519f1c7787c412c8fb50cdfe.apk"
         },
         {
-          "name": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3.apk",
-          "sha256": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
-          "size": 95862009,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3.apk"
-        },
-        {
           "name": "ffabf78ac9b74028ed3c60bc7afd11298f478fd33f2892002638d4bff02910d1.apk",
           "sha256": "ffabf78ac9b74028ed3c60bc7afd11298f478fd33f2892002638d4bff02910d1",
           "size": 97094947,
@@ -31749,10 +31737,10 @@
       "package": "com.facebook.stella",
       "publication": {
         "catalog": {
-          "name": "catalog-f86ca647dec229cca6d9b73c6100bf1e2760863f7dfc74f4d4463b8ee6d185f2.json",
-          "sha256": "f86ca647dec229cca6d9b73c6100bf1e2760863f7dfc74f4d4463b8ee6d185f2",
-          "size": 29887,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-f86ca647dec229cca6d9b73c6100bf1e2760863f7dfc74f4d4463b8ee6d185f2.json"
+          "name": "catalog-1717943fe1a36b8c29c2d1f62a939c3139c07f0f65d835a83f1d417a3fb77a31.json",
+          "sha256": "1717943fe1a36b8c29c2d1f62a939c3139c07f0f65d835a83f1d417a3fb77a31",
+          "size": 29124,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-1717943fe1a36b8c29c2d1f62a939c3139c07f0f65d835a83f1d417a3fb77a31.json"
         },
         "compat_manifest": {
           "name": "manifest-5256053ec722408a66223d3f3699bb4740234b5c9a5994db500639e508a0ee53.json",
@@ -31955,13 +31943,13 @@
           },
           "files": [
             {
-              "artifact": "fa005300fba848885a2a437bb43b2904d183f2562ec14608e8135ef3214defd3",
+              "artifact": "ba9c00aa817b83b75bff36a5c4f9e0e3016c45e6519f1c7787c412c8fb50cdfe",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "2ecba250a8731f4966cdc993124a3c479a732b021112bc013e9715d112e448ea",
+              "artifact": "378925a9021d732630150797870fb6c3a0ed0ed3fb1abd7d50a7ca7213fced70",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -31969,8 +31957,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 969702200,
-          "version_name": "297.1.0.23.166"
+          "version_code": 969802294,
+          "version_name": "298.0.0.28.160"
         },
         {
           "certificate_scope": {
@@ -32247,13 +32235,13 @@
           },
           "files": [
             {
-              "artifact": "ba9c00aa817b83b75bff36a5c4f9e0e3016c45e6519f1c7787c412c8fb50cdfe",
+              "artifact": "ffabf78ac9b74028ed3c60bc7afd11298f478fd33f2892002638d4bff02910d1",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "378925a9021d732630150797870fb6c3a0ed0ed3fb1abd7d50a7ca7213fced70",
+              "artifact": "799318a2223cc9a9bd254901e4e4b99855b08d88f5da1f97cc190413bb767d31",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -32261,7 +32249,7 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 969802294,
+          "version_code": 969802295,
           "version_name": "298.0.0.28.160"
         },
         {
