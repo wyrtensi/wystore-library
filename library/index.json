@@ -37331,40 +37331,10 @@
     {
       "artifacts": [
         {
-          "name": "0a4bcd2dbcada29a9c34e9a7db66e93ccc2a144a4cf03cf359d96b0f70b6f295.apk",
-          "sha256": "0a4bcd2dbcada29a9c34e9a7db66e93ccc2a144a4cf03cf359d96b0f70b6f295",
-          "size": 14193611,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/0a4bcd2dbcada29a9c34e9a7db66e93ccc2a144a4cf03cf359d96b0f70b6f295.apk"
-        },
-        {
-          "name": "2fd1b50728c727f7d25b75e15ea5161585d793f0e9ad3f3b1b275cacb2bee255.apk",
-          "sha256": "2fd1b50728c727f7d25b75e15ea5161585d793f0e9ad3f3b1b275cacb2bee255",
-          "size": 299196,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/2fd1b50728c727f7d25b75e15ea5161585d793f0e9ad3f3b1b275cacb2bee255.apk"
-        },
-        {
-          "name": "3377a0a981df448e10038ec6be18aa33189f316a563de86ab7c165cda4411478.apk",
-          "sha256": "3377a0a981df448e10038ec6be18aa33189f316a563de86ab7c165cda4411478",
-          "size": 2050393,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/3377a0a981df448e10038ec6be18aa33189f316a563de86ab7c165cda4411478.apk"
-        },
-        {
-          "name": "39bf8b226399b2afbec7227813b6bd29fca2e5813ff5a540918f142bf74ca9c8.apk",
-          "sha256": "39bf8b226399b2afbec7227813b6bd29fca2e5813ff5a540918f142bf74ca9c8",
-          "size": 483515,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/39bf8b226399b2afbec7227813b6bd29fca2e5813ff5a540918f142bf74ca9c8.apk"
-        },
-        {
           "name": "3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb.apk",
           "sha256": "3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb",
           "size": 64243475,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb.apk"
-        },
-        {
-          "name": "583b8ba8ff79ab1b3cd50959252f2ca42a94927d63581ff473dbdb31f1a3a1a7.apk",
-          "sha256": "583b8ba8ff79ab1b3cd50959252f2ca42a94927d63581ff473dbdb31f1a3a1a7",
-          "size": 299196,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/583b8ba8ff79ab1b3cd50959252f2ca42a94927d63581ff473dbdb31f1a3a1a7.apk"
         },
         {
           "name": "6365e3bab0378c5bd09f55714bcce7dd6ea2986be1fd2f5b43b530a409a5c986.apk",
@@ -37377,6 +37347,24 @@
           "sha256": "70baaf0ea09d44e2a5f95e6784c4ae7df6d8e6c0e4b5eccd751a85701c47c363",
           "size": 2062681,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/70baaf0ea09d44e2a5f95e6784c4ae7df6d8e6c0e4b5eccd751a85701c47c363.apk"
+        },
+        {
+          "name": "7f30dcaf509f3e37d97fb1e0be21b5c5fd206d6cf9566d0993cb0a566f4a39e4.apk",
+          "sha256": "7f30dcaf509f3e37d97fb1e0be21b5c5fd206d6cf9566d0993cb0a566f4a39e4",
+          "size": 2369881,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/7f30dcaf509f3e37d97fb1e0be21b5c5fd206d6cf9566d0993cb0a566f4a39e4.apk"
+        },
+        {
+          "name": "89f6ae81bac3761665db5289eba4901572d6aa0224e992eb325bd4237af3ae80.apk",
+          "sha256": "89f6ae81bac3761665db5289eba4901572d6aa0224e992eb325bd4237af3ae80",
+          "size": 299196,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/89f6ae81bac3761665db5289eba4901572d6aa0224e992eb325bd4237af3ae80.apk"
+        },
+        {
+          "name": "9970258a1b39e88408a82045cc61388150e6a130b317be677863c102e49c3cae.apk",
+          "sha256": "9970258a1b39e88408a82045cc61388150e6a130b317be677863c102e49c3cae",
+          "size": 15733677,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/9970258a1b39e88408a82045cc61388150e6a130b317be677863c102e49c3cae.apk"
         },
         {
           "name": "a3fc1c49bd0d5aad6b981b697f43b62a413bd8166a2eda7efe1b64bc090fa5a2.apk",
@@ -37397,28 +37385,10 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/a7fed600e1d9b39bdbb85e8dd2057a1cc2ed7f2872bc37d36cb29b5c71ac8b1d.apk"
         },
         {
-          "name": "a905564af933a6d697f7c1d55437c150f5f324575419852c580f57725148e240.apk",
-          "sha256": "a905564af933a6d697f7c1d55437c150f5f324575419852c580f57725148e240",
-          "size": 65576786,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/a905564af933a6d697f7c1d55437c150f5f324575419852c580f57725148e240.apk"
-        },
-        {
-          "name": "afdf4d3090a30bb26e9bda8d83b7af8fe044e0fc062ad42df05cac7a0870ac7e.apk",
-          "sha256": "afdf4d3090a30bb26e9bda8d83b7af8fe044e0fc062ad42df05cac7a0870ac7e",
-          "size": 417979,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/afdf4d3090a30bb26e9bda8d83b7af8fe044e0fc062ad42df05cac7a0870ac7e.apk"
-        },
-        {
           "name": "b17fff300e8d9fb3383a7b5e27e104eeafca19bb5f08a131ec473fc5af1535d6.apk",
           "sha256": "b17fff300e8d9fb3383a7b5e27e104eeafca19bb5f08a131ec473fc5af1535d6",
           "size": 417979,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/b17fff300e8d9fb3383a7b5e27e104eeafca19bb5f08a131ec473fc5af1535d6.apk"
-        },
-        {
-          "name": "bbe539416b6a9e40bf03d7f14ddac0f0bcf50ea0d68c84ebfc29ddba76615216.apk",
-          "sha256": "bbe539416b6a9e40bf03d7f14ddac0f0bcf50ea0d68c84ebfc29ddba76615216",
-          "size": 14193611,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/bbe539416b6a9e40bf03d7f14ddac0f0bcf50ea0d68c84ebfc29ddba76615216.apk"
         },
         {
           "name": "bc53b906c37313f40c7c70938b875be62449ad32568b447bf514b8516aae5e3a.apk",
@@ -37427,58 +37397,16 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/bc53b906c37313f40c7c70938b875be62449ad32568b447bf514b8516aae5e3a.apk"
         },
         {
-          "name": "bd14ac18b20611f06712da4d625c8a8a0d7f9f5155cf72caab817ef9e6283cfd.apk",
-          "sha256": "bd14ac18b20611f06712da4d625c8a8a0d7f9f5155cf72caab817ef9e6283cfd",
-          "size": 64114514,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/bd14ac18b20611f06712da4d625c8a8a0d7f9f5155cf72caab817ef9e6283cfd.apk"
-        },
-        {
-          "name": "c7875e05b09cf55f721b5c058d4dab2540d69010cdcf43ab5e525fececc3966e.apk",
-          "sha256": "c7875e05b09cf55f721b5c058d4dab2540d69010cdcf43ab5e525fececc3966e",
-          "size": 2050393,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/c7875e05b09cf55f721b5c058d4dab2540d69010cdcf43ab5e525fececc3966e.apk"
-        },
-        {
           "name": "c96a23d3e5d8a1fd9e2894eb11adfbfe105ac76e7ae9111109bd0186ced2c9fa.apk",
           "sha256": "c96a23d3e5d8a1fd9e2894eb11adfbfe105ac76e7ae9111109bd0186ced2c9fa",
           "size": 14226379,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/c96a23d3e5d8a1fd9e2894eb11adfbfe105ac76e7ae9111109bd0186ced2c9fa.apk"
         },
         {
-          "name": "cac10b0e4d761245052af8be29667bcc998bf99df61a4697e89cd2572c1d4aaf.apk",
-          "sha256": "cac10b0e4d761245052af8be29667bcc998bf99df61a4697e89cd2572c1d4aaf",
-          "size": 15635373,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/cac10b0e4d761245052af8be29667bcc998bf99df61a4697e89cd2572c1d4aaf.apk"
-        },
-        {
           "name": "d4faee2c72f48f4ef3ce690358688bec36e74438be4a055f07f82f2793143146.apk",
           "sha256": "d4faee2c72f48f4ef3ce690358688bec36e74438be4a055f07f82f2793143146",
           "size": 87441839,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/d4faee2c72f48f4ef3ce690358688bec36e74438be4a055f07f82f2793143146.apk"
-        },
-        {
-          "name": "da0392e223d1ef77ddc7b4618e8a78c16f04be9be49e8264564b60ef2b310546.apk",
-          "sha256": "da0392e223d1ef77ddc7b4618e8a78c16f04be9be49e8264564b60ef2b310546",
-          "size": 2353497,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/da0392e223d1ef77ddc7b4618e8a78c16f04be9be49e8264564b60ef2b310546.apk"
-        },
-        {
-          "name": "ddc94eba698cfb2962b7b5da732ea6b52c94cff12d61cae8e9777749aeb22de1.apk",
-          "sha256": "ddc94eba698cfb2962b7b5da732ea6b52c94cff12d61cae8e9777749aeb22de1",
-          "size": 1774924,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/ddc94eba698cfb2962b7b5da732ea6b52c94cff12d61cae8e9777749aeb22de1.apk"
-        },
-        {
-          "name": "f515646b50b88823ad16547c33e91a329d6bff3789747a54852f464dd447e894.apk",
-          "sha256": "f515646b50b88823ad16547c33e91a329d6bff3789747a54852f464dd447e894",
-          "size": 15635373,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/f515646b50b88823ad16547c33e91a329d6bff3789747a54852f464dd447e894.apk"
-        },
-        {
-          "name": "fb19f8247abab52e5b7d5d9dca28930eec03f30546c9b4d793f8568dd870c3f7.apk",
-          "sha256": "fb19f8247abab52e5b7d5d9dca28930eec03f30546c9b4d793f8568dd870c3f7",
-          "size": 64114514,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/fb19f8247abab52e5b7d5d9dca28930eec03f30546c9b4d793f8568dd870c3f7.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -37486,16 +37414,16 @@
       "package": "com.google.android.apps.chromecast.app",
       "publication": {
         "catalog": {
-          "name": "catalog-f076357a830203c34780ef34e6d7ab4b66ddd8a8a807eabc8987b0da329cb817.json",
-          "sha256": "f076357a830203c34780ef34e6d7ab4b66ddd8a8a807eabc8987b0da329cb817",
-          "size": 54344,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/catalog-f076357a830203c34780ef34e6d7ab4b66ddd8a8a807eabc8987b0da329cb817.json"
+          "name": "catalog-57a0541233c230152506e046908338b8de577d9a309df367bd4727ce3866a4ce.json",
+          "sha256": "57a0541233c230152506e046908338b8de577d9a309df367bd4727ce3866a4ce",
+          "size": 49553,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/catalog-57a0541233c230152506e046908338b8de577d9a309df367bd4727ce3866a4ce.json"
         },
         "compat_manifest": {
-          "name": "manifest-7cf294403e4d41553663d8e8b50b8643b835208a7df2fd48a3ab88a80d67d0d9.json",
-          "sha256": "7cf294403e4d41553663d8e8b50b8643b835208a7df2fd48a3ab88a80d67d0d9",
+          "name": "manifest-29dda58e08621ccb6c324604af81b69e2d7a713d33b464c489666aefe38056d3.json",
+          "sha256": "29dda58e08621ccb6c324604af81b69e2d7a713d33b464c489666aefe38056d3",
           "size": 1355,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/manifest-7cf294403e4d41553663d8e8b50b8643b835208a7df2fd48a3ab88a80d67d0d9.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/manifest-29dda58e08621ccb6c324604af81b69e2d7a713d33b464c489666aefe38056d3.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.google.android.apps.chromecast.app-library",
         "tag": "com.google.android.apps.chromecast.app-library"
@@ -37550,25 +37478,25 @@
           },
           "files": [
             {
-              "artifact": "a905564af933a6d697f7c1d55437c150f5f324575419852c580f57725148e240",
+              "artifact": "a61d116ec527b0abf185bb417b024bf977da97e1e73d07c540e87baf8e5539a7",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "bbe539416b6a9e40bf03d7f14ddac0f0bcf50ea0d68c84ebfc29ddba76615216",
+              "artifact": "c96a23d3e5d8a1fd9e2894eb11adfbfe105ac76e7ae9111109bd0186ced2c9fa",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "da0392e223d1ef77ddc7b4618e8a78c16f04be9be49e8264564b60ef2b310546",
+              "artifact": "7f30dcaf509f3e37d97fb1e0be21b5c5fd206d6cf9566d0993cb0a566f4a39e4",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "39bf8b226399b2afbec7227813b6bd29fca2e5813ff5a540918f142bf74ca9c8",
+              "artifact": "6365e3bab0378c5bd09f55714bcce7dd6ea2986be1fd2f5b43b530a409a5c986",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -37576,8 +37504,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 30589402,
-          "version_name": "4.36.24.0"
+          "version_code": 30590850,
+          "version_name": "4.37.27.0"
         },
         {
           "certificate_scope": {
@@ -38128,25 +38056,25 @@
           },
           "files": [
             {
-              "artifact": "fb19f8247abab52e5b7d5d9dca28930eec03f30546c9b4d793f8568dd870c3f7",
+              "artifact": "3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "c7875e05b09cf55f721b5c058d4dab2540d69010cdcf43ab5e525fececc3966e",
+              "artifact": "70baaf0ea09d44e2a5f95e6784c4ae7df6d8e6c0e4b5eccd751a85701c47c363",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "cac10b0e4d761245052af8be29667bcc998bf99df61a4697e89cd2572c1d4aaf",
+              "artifact": "9970258a1b39e88408a82045cc61388150e6a130b317be677863c102e49c3cae",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "2fd1b50728c727f7d25b75e15ea5161585d793f0e9ad3f3b1b275cacb2bee255",
+              "artifact": "89f6ae81bac3761665db5289eba4901572d6aa0224e992eb325bd4237af3ae80",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -38154,8 +38082,8 @@
           ],
           "id": "android13_x86_64_en",
           "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
-          "version_code": 30589415,
-          "version_name": "4.36.24.1"
+          "version_code": 30590850,
+          "version_name": "4.37.27.0"
         },
         {
           "certificate_scope": {
@@ -38198,25 +38126,25 @@
           },
           "files": [
             {
-              "artifact": "bd14ac18b20611f06712da4d625c8a8a0d7f9f5155cf72caab817ef9e6283cfd",
+              "artifact": "3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ddc94eba698cfb2962b7b5da732ea6b52c94cff12d61cae8e9777749aeb22de1",
+              "artifact": "bc53b906c37313f40c7c70938b875be62449ad32568b447bf514b8516aae5e3a",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "f515646b50b88823ad16547c33e91a329d6bff3789747a54852f464dd447e894",
+              "artifact": "9970258a1b39e88408a82045cc61388150e6a130b317be677863c102e49c3cae",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "583b8ba8ff79ab1b3cd50959252f2ca42a94927d63581ff473dbdb31f1a3a1a7",
+              "artifact": "89f6ae81bac3761665db5289eba4901572d6aa0224e992eb325bd4237af3ae80",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -38224,8 +38152,8 @@
           ],
           "id": "android13_x86_64_ru",
           "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
-          "version_code": 30589402,
-          "version_name": "4.36.24.0"
+          "version_code": 30590850,
+          "version_name": "4.37.27.0"
         },
         {
           "certificate_scope": {
@@ -38345,25 +38273,25 @@
           },
           "files": [
             {
-              "artifact": "bd14ac18b20611f06712da4d625c8a8a0d7f9f5155cf72caab817ef9e6283cfd",
+              "artifact": "3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "0a4bcd2dbcada29a9c34e9a7db66e93ccc2a144a4cf03cf359d96b0f70b6f295",
+              "artifact": "a3fc1c49bd0d5aad6b981b697f43b62a413bd8166a2eda7efe1b64bc090fa5a2",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "ddc94eba698cfb2962b7b5da732ea6b52c94cff12d61cae8e9777749aeb22de1",
+              "artifact": "bc53b906c37313f40c7c70938b875be62449ad32568b447bf514b8516aae5e3a",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "afdf4d3090a30bb26e9bda8d83b7af8fe044e0fc062ad42df05cac7a0870ac7e",
+              "artifact": "b17fff300e8d9fb3383a7b5e27e104eeafca19bb5f08a131ec473fc5af1535d6",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -38371,8 +38299,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 30589402,
-          "version_name": "4.36.24.0"
+          "version_code": 30590850,
+          "version_name": "4.37.27.0"
         },
         {
           "certificate_scope": {
@@ -39344,25 +39272,25 @@
           },
           "files": [
             {
-              "artifact": "bd14ac18b20611f06712da4d625c8a8a0d7f9f5155cf72caab817ef9e6283cfd",
+              "artifact": "3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "0a4bcd2dbcada29a9c34e9a7db66e93ccc2a144a4cf03cf359d96b0f70b6f295",
+              "artifact": "a3fc1c49bd0d5aad6b981b697f43b62a413bd8166a2eda7efe1b64bc090fa5a2",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "3377a0a981df448e10038ec6be18aa33189f316a563de86ab7c165cda4411478",
+              "artifact": "70baaf0ea09d44e2a5f95e6784c4ae7df6d8e6c0e4b5eccd751a85701c47c363",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "afdf4d3090a30bb26e9bda8d83b7af8fe044e0fc062ad42df05cac7a0870ac7e",
+              "artifact": "b17fff300e8d9fb3383a7b5e27e104eeafca19bb5f08a131ec473fc5af1535d6",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -39370,8 +39298,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 30589402,
-          "version_name": "4.36.24.0"
+          "version_code": 30590850,
+          "version_name": "4.37.27.0"
         }
       ]
     },
@@ -85338,36 +85266,36 @@
     {
       "assets": [
         {
-          "name": "bd14ac18b20611f06712da4d625c8a8a0d7f9f5155cf72caab817ef9e6283cfd.apk",
+          "name": "3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb.apk",
           "role": "base",
-          "sha256": "bd14ac18b20611f06712da4d625c8a8a0d7f9f5155cf72caab817ef9e6283cfd",
-          "size": 64114514,
+          "sha256": "3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb",
+          "size": 64243475,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/bd14ac18b20611f06712da4d625c8a8a0d7f9f5155cf72caab817ef9e6283cfd.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb.apk"
         },
         {
-          "name": "0a4bcd2dbcada29a9c34e9a7db66e93ccc2a144a4cf03cf359d96b0f70b6f295.apk",
+          "name": "a3fc1c49bd0d5aad6b981b697f43b62a413bd8166a2eda7efe1b64bc090fa5a2.apk",
           "role": "split",
-          "sha256": "0a4bcd2dbcada29a9c34e9a7db66e93ccc2a144a4cf03cf359d96b0f70b6f295",
-          "size": 14193611,
+          "sha256": "a3fc1c49bd0d5aad6b981b697f43b62a413bd8166a2eda7efe1b64bc090fa5a2",
+          "size": 14226379,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/0a4bcd2dbcada29a9c34e9a7db66e93ccc2a144a4cf03cf359d96b0f70b6f295.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/a3fc1c49bd0d5aad6b981b697f43b62a413bd8166a2eda7efe1b64bc090fa5a2.apk"
         },
         {
-          "name": "3377a0a981df448e10038ec6be18aa33189f316a563de86ab7c165cda4411478.apk",
+          "name": "70baaf0ea09d44e2a5f95e6784c4ae7df6d8e6c0e4b5eccd751a85701c47c363.apk",
           "role": "split",
-          "sha256": "3377a0a981df448e10038ec6be18aa33189f316a563de86ab7c165cda4411478",
-          "size": 2050393,
+          "sha256": "70baaf0ea09d44e2a5f95e6784c4ae7df6d8e6c0e4b5eccd751a85701c47c363",
+          "size": 2062681,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/3377a0a981df448e10038ec6be18aa33189f316a563de86ab7c165cda4411478.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/70baaf0ea09d44e2a5f95e6784c4ae7df6d8e6c0e4b5eccd751a85701c47c363.apk"
         },
         {
-          "name": "afdf4d3090a30bb26e9bda8d83b7af8fe044e0fc062ad42df05cac7a0870ac7e.apk",
+          "name": "b17fff300e8d9fb3383a7b5e27e104eeafca19bb5f08a131ec473fc5af1535d6.apk",
           "role": "split",
-          "sha256": "afdf4d3090a30bb26e9bda8d83b7af8fe044e0fc062ad42df05cac7a0870ac7e",
+          "sha256": "b17fff300e8d9fb3383a7b5e27e104eeafca19bb5f08a131ec473fc5af1535d6",
           "size": 417979,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/afdf4d3090a30bb26e9bda8d83b7af8fe044e0fc062ad42df05cac7a0870ac7e.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/b17fff300e8d9fb3383a7b5e27e104eeafca19bb5f08a131ec473fc5af1535d6.apk"
         }
       ],
       "certificate_scope": {
@@ -85377,15 +85305,15 @@
       "certificate_sha256": [
         "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6"
       ],
-      "manifest_sha256": "7cf294403e4d41553663d8e8b50b8643b835208a7df2fd48a3ab88a80d67d0d9",
+      "manifest_sha256": "29dda58e08621ccb6c324604af81b69e2d7a713d33b464c489666aefe38056d3",
       "manifest_size": 1355,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/manifest-7cf294403e4d41553663d8e8b50b8643b835208a7df2fd48a3ab88a80d67d0d9.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/manifest-29dda58e08621ccb6c324604af81b69e2d7a713d33b464c489666aefe38056d3.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.google.android.apps.chromecast.app/metadata.json",
       "package": "com.google.android.apps.chromecast.app",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.google.android.apps.chromecast.app-library",
-      "version_code": 30589402,
-      "version_name": "4.36.24.0"
+      "version_code": 30590850,
+      "version_name": "4.37.27.0"
     },
     {
       "assets": [
