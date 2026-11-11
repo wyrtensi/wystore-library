@@ -11,7 +11,7 @@
       "versionName": null,
       "updatedDate": "2026-11-05",
       "playUrl": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
-      "changelog": "Быстро находите и отмечайте друзей в комментариях.",
+      "changelog": "Мы работаем над тем, чтобы сделать ваш опыт использования TikTok лучше с помощью обновлений и исправлений ошибок.<br>",
       "icon": "images/f1460d10ef1929d8494b8e049aa045ab8b913f193a39fcf6a25e1c5afdfb0d5d.png",
       "screenshots": [
         "images/c32a671235597df5a6cc2c94da0d6538e9ef6de49f081409dfe8359e10e643e0.jpg",
@@ -32,7 +32,7 @@
       "versionName": null,
       "updatedDate": "2026-11-05",
       "playUrl": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
-      "changelog": "Quickly find and tag your friends in comments.",
+      "changelog": "We've been working on making your experience on TikTok better with updates and bug fixes.",
       "icon": "images/f1460d10ef1929d8494b8e049aa045ab8b913f193a39fcf6a25e1c5afdfb0d5d.png",
       "screenshots": [
         "images/c32a671235597df5a6cc2c94da0d6538e9ef6de49f081409dfe8359e10e643e0.jpg",
@@ -67,6 +67,11 @@
         "versionName": null,
         "updatedDate": "2026-11-05",
         "text": "Быстро находите и отмечайте друзей в комментариях."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-05",
+        "text": "Мы работаем над тем, чтобы сделать ваш опыт использования TikTok лучше с помощью обновлений и исправлений ошибок.<br>"
       }
     ],
     "en_US": [
@@ -89,6 +94,11 @@
         "versionName": null,
         "updatedDate": "2026-11-05",
         "text": "Quickly find and tag your friends in comments."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-05",
+        "text": "We've been working on making your experience on TikTok better with updates and bug fixes."
       }
     ]
   },

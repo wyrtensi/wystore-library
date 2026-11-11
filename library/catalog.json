@@ -205,7 +205,7 @@
         },
         "en_US": {
           "title": "MyFitnessPal: Calorie Counter",
-          "shortDescription": "Track calories, macros & nutrition with AI. Log Fitness, workouts & meals daily"
+          "shortDescription": "Track calories, macros & nutrition with AI. Coaching tailored to your goals."
         }
       },
       "categories": [
@@ -810,11 +810,11 @@
       "locales": {
         "ru_RU": {
           "title": "Microsoft Copilot",
-          "shortDescription": "Create content, explore ideas, and get answers with Copilot."
+          "shortDescription": "Work smarter with intelligence for writing, planning, organizing & productivity."
         },
         "en_US": {
           "title": "Microsoft Copilot",
-          "shortDescription": "Create content, explore ideas, and get answers with Copilot."
+          "shortDescription": "Work smarter with intelligence for writing, planning, organizing & productivity."
         }
       },
       "categories": [
