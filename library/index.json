@@ -3,52 +3,52 @@
     {
       "artifacts": [
         {
-          "name": "01808440079b55395395e3bfe29a01c9a2d26a535a9a0220e45aac5b8c13db37.apk",
-          "sha256": "01808440079b55395395e3bfe29a01c9a2d26a535a9a0220e45aac5b8c13db37",
-          "size": 91054,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/01808440079b55395395e3bfe29a01c9a2d26a535a9a0220e45aac5b8c13db37.apk"
+          "name": "18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494.apk",
+          "sha256": "18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494",
+          "size": 75814156,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494.apk"
         },
         {
-          "name": "2938d778bd4ae4358cc483c6abf61bdde7679843740ef28049a4496849563878.apk",
-          "sha256": "2938d778bd4ae4358cc483c6abf61bdde7679843740ef28049a4496849563878",
-          "size": 96105555,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/2938d778bd4ae4358cc483c6abf61bdde7679843740ef28049a4496849563878.apk"
-        },
-        {
-          "name": "2c5da07cdbcd66e05a46feae4150638355922ce3f4f260805e445660d66f3f7f.apk",
-          "sha256": "2c5da07cdbcd66e05a46feae4150638355922ce3f4f260805e445660d66f3f7f",
+          "name": "513f97814bbc54e617efafd5cab3bc50edb82b17c5746265502e8b995e201b31.apk",
+          "sha256": "513f97814bbc54e617efafd5cab3bc50edb82b17c5746265502e8b995e201b31",
           "size": 99070,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/2c5da07cdbcd66e05a46feae4150638355922ce3f4f260805e445660d66f3f7f.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/513f97814bbc54e617efafd5cab3bc50edb82b17c5746265502e8b995e201b31.apk"
         },
         {
-          "name": "4240593d012e2f8ec1f7b0d09cdf167857c27edc8e3e222b572615cb3e4df70b.apk",
-          "sha256": "4240593d012e2f8ec1f7b0d09cdf167857c27edc8e3e222b572615cb3e4df70b",
-          "size": 73422050,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/4240593d012e2f8ec1f7b0d09cdf167857c27edc8e3e222b572615cb3e4df70b.apk"
+          "name": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c.apk",
+          "sha256": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c",
+          "size": 97133808,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c.apk"
         },
         {
-          "name": "a9dd8058351d98404ea3b4223617e34f2a01aba92da3ff22772b539150524d51.apk",
-          "sha256": "a9dd8058351d98404ea3b4223617e34f2a01aba92da3ff22772b539150524d51",
-          "size": 63706380,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/a9dd8058351d98404ea3b4223617e34f2a01aba92da3ff22772b539150524d51.apk"
+          "name": "a83a533515d98d9ba3c98547158e9e7d6dcb664af3a87d0cc9a7f3f683468962.apk",
+          "sha256": "a83a533515d98d9ba3c98547158e9e7d6dcb664af3a87d0cc9a7f3f683468962",
+          "size": 85234914,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/a83a533515d98d9ba3c98547158e9e7d6dcb664af3a87d0cc9a7f3f683468962.apk"
         },
         {
-          "name": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3.apk",
-          "sha256": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
-          "size": 63706380,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3.apk"
+          "name": "cc08dff6e612cacde76f431b2ce8099b1134f8d46ea196a536394c79b84cb8a0.apk",
+          "sha256": "cc08dff6e612cacde76f431b2ce8099b1134f8d46ea196a536394c79b84cb8a0",
+          "size": 75814156,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/cc08dff6e612cacde76f431b2ce8099b1134f8d46ea196a536394c79b84cb8a0.apk"
         },
         {
-          "name": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b.apk",
-          "sha256": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+          "name": "fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471.apk",
+          "sha256": "fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471",
           "size": 82686,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471.apk"
         },
         {
-          "name": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1.apk",
-          "sha256": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
-          "size": 95515731,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1.apk"
+          "name": "fbee856c1c1b14afb4447dfff67f6bb9c8fb00a6f231f8390095f2b8ec3ff105.apk",
+          "sha256": "fbee856c1c1b14afb4447dfff67f6bb9c8fb00a6f231f8390095f2b8ec3ff105",
+          "size": 97740016,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/fbee856c1c1b14afb4447dfff67f6bb9c8fb00a6f231f8390095f2b8ec3ff105.apk"
+        },
+        {
+          "name": "ffc32c9ba1b5a1a0d01b85fc5694c90aa7b16891334b560eba02315e148c4aaf.apk",
+          "sha256": "ffc32c9ba1b5a1a0d01b85fc5694c90aa7b16891334b560eba02315e148c4aaf",
+          "size": 91054,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/ffc32c9ba1b5a1a0d01b85fc5694c90aa7b16891334b560eba02315e148c4aaf.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -56,16 +56,16 @@
       "package": "ai.perplexity.app.android",
       "publication": {
         "catalog": {
-          "name": "catalog-f85f8684f9e086d272935c1df588d80f14c7439f8dffcf8dfd3b4b71d0d5ebcc.json",
-          "sha256": "f85f8684f9e086d272935c1df588d80f14c7439f8dffcf8dfd3b4b71d0d5ebcc",
+          "name": "catalog-54096f6d3b9a93f344e9e24b8e2b0ca121255f5e4122fc7c38dbcb4043adc814.json",
+          "sha256": "54096f6d3b9a93f344e9e24b8e2b0ca121255f5e4122fc7c38dbcb4043adc814",
           "size": 38186,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/catalog-f85f8684f9e086d272935c1df588d80f14c7439f8dffcf8dfd3b4b71d0d5ebcc.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/catalog-54096f6d3b9a93f344e9e24b8e2b0ca121255f5e4122fc7c38dbcb4043adc814.json"
         },
         "compat_manifest": {
-          "name": "manifest-552ebb15a747a4ffdf0edf89a6145447512f6242e588fa5aaddffe839e515721.json",
-          "sha256": "552ebb15a747a4ffdf0edf89a6145447512f6242e588fa5aaddffe839e515721",
+          "name": "manifest-0a39ac2591a76abcbc12efe7ca8d4858bb5127db7431276a1a512d4c6cd659d1.json",
+          "sha256": "0a39ac2591a76abcbc12efe7ca8d4858bb5127db7431276a1a512d4c6cd659d1",
           "size": 1010,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/manifest-552ebb15a747a4ffdf0edf89a6145447512f6242e588fa5aaddffe839e515721.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/manifest-0a39ac2591a76abcbc12efe7ca8d4858bb5127db7431276a1a512d4c6cd659d1.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/ai.perplexity.app.android-library",
         "tag": "ai.perplexity.app.android-library"
@@ -255,19 +255,19 @@
           },
           "files": [
             {
-              "artifact": "2938d778bd4ae4358cc483c6abf61bdde7679843740ef28049a4496849563878",
+              "artifact": "fbee856c1c1b14afb4447dfff67f6bb9c8fb00a6f231f8390095f2b8ec3ff105",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a9dd8058351d98404ea3b4223617e34f2a01aba92da3ff22772b539150524d51",
+              "artifact": "cc08dff6e612cacde76f431b2ce8099b1134f8d46ea196a536394c79b84cb8a0",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "2c5da07cdbcd66e05a46feae4150638355922ce3f4f260805e445660d66f3f7f",
+              "artifact": "513f97814bbc54e617efafd5cab3bc50edb82b17c5746265502e8b995e201b31",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -275,8 +275,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 260673,
-          "version_name": "2.103.0"
+          "version_code": 260675,
+          "version_name": "2.104.0"
         },
         {
           "certificate_sha256": [
@@ -412,19 +412,19 @@
           },
           "files": [
             {
-              "artifact": "2938d778bd4ae4358cc483c6abf61bdde7679843740ef28049a4496849563878",
+              "artifact": "fbee856c1c1b14afb4447dfff67f6bb9c8fb00a6f231f8390095f2b8ec3ff105",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a9dd8058351d98404ea3b4223617e34f2a01aba92da3ff22772b539150524d51",
+              "artifact": "cc08dff6e612cacde76f431b2ce8099b1134f8d46ea196a536394c79b84cb8a0",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "2c5da07cdbcd66e05a46feae4150638355922ce3f4f260805e445660d66f3f7f",
+              "artifact": "513f97814bbc54e617efafd5cab3bc50edb82b17c5746265502e8b995e201b31",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -432,8 +432,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 260673,
-          "version_name": "2.103.0"
+          "version_code": 260675,
+          "version_name": "2.104.0"
         },
         {
           "certificate_sha256": [
@@ -569,19 +569,19 @@
           },
           "files": [
             {
-              "artifact": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+              "artifact": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
+              "artifact": "18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+              "artifact": "fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -589,8 +589,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 260673,
-          "version_name": "2.103.0"
+          "version_code": 260675,
+          "version_name": "2.104.0"
         },
         {
           "certificate_sha256": [
@@ -726,19 +726,19 @@
           },
           "files": [
             {
-              "artifact": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+              "artifact": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
+              "artifact": "18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+              "artifact": "fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -746,8 +746,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 260673,
-          "version_name": "2.103.0"
+          "version_code": 260675,
+          "version_name": "2.104.0"
         },
         {
           "certificate_sha256": [
@@ -883,19 +883,19 @@
           },
           "files": [
             {
-              "artifact": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+              "artifact": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "4240593d012e2f8ec1f7b0d09cdf167857c27edc8e3e222b572615cb3e4df70b",
+              "artifact": "a83a533515d98d9ba3c98547158e9e7d6dcb664af3a87d0cc9a7f3f683468962",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "01808440079b55395395e3bfe29a01c9a2d26a535a9a0220e45aac5b8c13db37",
+              "artifact": "ffc32c9ba1b5a1a0d01b85fc5694c90aa7b16891334b560eba02315e148c4aaf",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -903,8 +903,8 @@
           ],
           "id": "android13_x86_64_en",
           "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
-          "version_code": 260673,
-          "version_name": "2.103.0"
+          "version_code": 260675,
+          "version_name": "2.104.0"
         },
         {
           "certificate_sha256": [
@@ -1040,19 +1040,19 @@
           },
           "files": [
             {
-              "artifact": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+              "artifact": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "4240593d012e2f8ec1f7b0d09cdf167857c27edc8e3e222b572615cb3e4df70b",
+              "artifact": "a83a533515d98d9ba3c98547158e9e7d6dcb664af3a87d0cc9a7f3f683468962",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "01808440079b55395395e3bfe29a01c9a2d26a535a9a0220e45aac5b8c13db37",
+              "artifact": "ffc32c9ba1b5a1a0d01b85fc5694c90aa7b16891334b560eba02315e148c4aaf",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -1060,8 +1060,8 @@
           ],
           "id": "android13_x86_64_ru",
           "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
-          "version_code": 260673,
-          "version_name": "2.103.0"
+          "version_code": 260675,
+          "version_name": "2.104.0"
         },
         {
           "certificate_sha256": [
@@ -1197,19 +1197,19 @@
           },
           "files": [
             {
-              "artifact": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+              "artifact": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
+              "artifact": "18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+              "artifact": "fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -1217,8 +1217,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 260673,
-          "version_name": "2.103.0"
+          "version_code": 260675,
+          "version_name": "2.104.0"
         },
         {
           "certificate_sha256": [
@@ -1354,19 +1354,19 @@
           },
           "files": [
             {
-              "artifact": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+              "artifact": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
+              "artifact": "18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+              "artifact": "fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -1374,8 +1374,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 260673,
-          "version_name": "2.103.0"
+          "version_code": 260675,
+          "version_name": "2.104.0"
         },
         {
           "certificate_sha256": [
@@ -1511,19 +1511,19 @@
           },
           "files": [
             {
-              "artifact": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+              "artifact": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
+              "artifact": "18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+              "artifact": "fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -1531,8 +1531,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 260673,
-          "version_name": "2.103.0"
+          "version_code": 260675,
+          "version_name": "2.104.0"
         },
         {
           "certificate_sha256": [
@@ -1668,19 +1668,19 @@
           },
           "files": [
             {
-              "artifact": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
+              "artifact": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
+              "artifact": "18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+              "artifact": "fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -1688,8 +1688,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 260673,
-          "version_name": "2.103.0"
+          "version_code": 260675,
+          "version_name": "2.104.0"
         }
       ]
     },
@@ -84000,42 +84000,42 @@
     {
       "assets": [
         {
-          "name": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1.apk",
+          "name": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c.apk",
           "role": "base",
-          "sha256": "d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1",
-          "size": 95515731,
+          "sha256": "805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c",
+          "size": 97133808,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/d1a7218379202ce077af4f067948590a41e119b2422d95b558fea648710018b1.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/805de99e16ab207ae19be82645be0e953a2030f4c3ed7d8a46d7f294d6d0298c.apk"
         },
         {
-          "name": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3.apk",
+          "name": "18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494.apk",
           "role": "split",
-          "sha256": "ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3",
-          "size": 63706380,
+          "sha256": "18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494",
+          "size": 75814156,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/ab083a454046dddac99a69719d0f10b457478f86b2845fa5bfe355ecf3cf86e3.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/18cf3ddd89657a8c5a910491f9691496e696a3cecd679520c838a93a84654494.apk"
         },
         {
-          "name": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b.apk",
+          "name": "fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471.apk",
           "role": "split",
-          "sha256": "cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b",
+          "sha256": "fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471",
           "size": 82686,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/cc5c6d0f05a9b178ecabe4575dfce8ed08c93edc5067778f0960f28e9cab3e0b.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/fb6408b5f16fd898fd7700689334d40a1f5badc0977347a0a6b8feffbe0d0471.apk"
         }
       ],
       "certificate_sha256": [
         "b5c7a5c959b1626fb0e77bc5b72e8c394ab5c2671702a8ddf10b9bdbb0bf6d18"
       ],
-      "manifest_sha256": "552ebb15a747a4ffdf0edf89a6145447512f6242e588fa5aaddffe839e515721",
+      "manifest_sha256": "0a39ac2591a76abcbc12efe7ca8d4858bb5127db7431276a1a512d4c6cd659d1",
       "manifest_size": 1010,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/manifest-552ebb15a747a4ffdf0edf89a6145447512f6242e588fa5aaddffe839e515721.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.perplexity.app.android-library/manifest-0a39ac2591a76abcbc12efe7ca8d4858bb5127db7431276a1a512d4c6cd659d1.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/ai.perplexity.app.android/metadata.json",
       "package": "ai.perplexity.app.android",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/ai.perplexity.app.android-library",
-      "version_code": 260673,
-      "version_name": "2.103.0"
+      "version_code": 260675,
+      "version_name": "2.104.0"
     },
     {
       "assets": [
