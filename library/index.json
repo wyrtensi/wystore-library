@@ -62476,16 +62476,16 @@
     {
       "artifacts": [
         {
-          "name": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f.apk",
-          "sha256": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
-          "size": 82473163,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f.apk"
+          "name": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a.apk",
+          "sha256": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
+          "size": 82566719,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a.apk"
         },
         {
-          "name": "a74daa3f37ea86c2cd6dda09b2d086acefad76dca862a4b31eab11fdfd3eaed2.apk",
-          "sha256": "a74daa3f37ea86c2cd6dda09b2d086acefad76dca862a4b31eab11fdfd3eaed2",
-          "size": 82472884,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/a74daa3f37ea86c2cd6dda09b2d086acefad76dca862a4b31eab11fdfd3eaed2.apk"
+          "name": "ee1a52db1f2152758845f56a6d193cf0ced4397858e4a18cf09eb5e2327988e8.apk",
+          "sha256": "ee1a52db1f2152758845f56a6d193cf0ced4397858e4a18cf09eb5e2327988e8",
+          "size": 82566440,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/ee1a52db1f2152758845f56a6d193cf0ced4397858e4a18cf09eb5e2327988e8.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -62493,16 +62493,16 @@
       "package": "com.starbucks.mobilecard",
       "publication": {
         "catalog": {
-          "name": "catalog-74041a65eb9c93f3615fd9f1a8be81dab3ff324f1384f555793d2c820173e6e3.json",
-          "sha256": "74041a65eb9c93f3615fd9f1a8be81dab3ff324f1384f555793d2c820173e6e3",
-          "size": 42044,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/catalog-74041a65eb9c93f3615fd9f1a8be81dab3ff324f1384f555793d2c820173e6e3.json"
+          "name": "catalog-ac43a52c93e388e544ca6a49958491843c3db5f4ec743fae6b1df56e750b2ca0.json",
+          "sha256": "ac43a52c93e388e544ca6a49958491843c3db5f4ec743fae6b1df56e750b2ca0",
+          "size": 42016,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/catalog-ac43a52c93e388e544ca6a49958491843c3db5f4ec743fae6b1df56e750b2ca0.json"
         },
         "compat_manifest": {
-          "name": "manifest-7d000b08b2f5a3ce3399c2ccc29052b7461a8f8760d84349e9f8efaec881257a.json",
-          "sha256": "7d000b08b2f5a3ce3399c2ccc29052b7461a8f8760d84349e9f8efaec881257a",
-          "size": 486,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/manifest-7d000b08b2f5a3ce3399c2ccc29052b7461a8f8760d84349e9f8efaec881257a.json"
+          "name": "manifest-6aad3a141a9a292abf39d47d1836bfbbd4f14ccddf77322ef41df279bce7b3c7.json",
+          "sha256": "6aad3a141a9a292abf39d47d1836bfbbd4f14ccddf77322ef41df279bce7b3c7",
+          "size": 484,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/manifest-6aad3a141a9a292abf39d47d1836bfbbd4f14ccddf77322ef41df279bce7b3c7.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.starbucks.mobilecard-library",
         "tag": "com.starbucks.mobilecard-library"
@@ -62666,7 +62666,7 @@
           },
           "files": [
             {
-              "artifact": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
+              "artifact": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -62674,8 +62674,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -62809,7 +62809,7 @@
           },
           "files": [
             {
-              "artifact": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
+              "artifact": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -62817,8 +62817,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -62952,7 +62952,7 @@
           },
           "files": [
             {
-              "artifact": "a74daa3f37ea86c2cd6dda09b2d086acefad76dca862a4b31eab11fdfd3eaed2",
+              "artifact": "ee1a52db1f2152758845f56a6d193cf0ced4397858e4a18cf09eb5e2327988e8",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -62960,8 +62960,8 @@
           ],
           "id": "android12_armv7_en",
           "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -63095,7 +63095,7 @@
           },
           "files": [
             {
-              "artifact": "a74daa3f37ea86c2cd6dda09b2d086acefad76dca862a4b31eab11fdfd3eaed2",
+              "artifact": "ee1a52db1f2152758845f56a6d193cf0ced4397858e4a18cf09eb5e2327988e8",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -63103,8 +63103,8 @@
           ],
           "id": "android12_armv7_ru",
           "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -63238,7 +63238,7 @@
           },
           "files": [
             {
-              "artifact": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
+              "artifact": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -63246,8 +63246,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -63381,7 +63381,7 @@
           },
           "files": [
             {
-              "artifact": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
+              "artifact": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -63389,8 +63389,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -63524,7 +63524,7 @@
           },
           "files": [
             {
-              "artifact": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
+              "artifact": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -63532,8 +63532,8 @@
           ],
           "id": "android13_x86_64_en",
           "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -63667,7 +63667,7 @@
           },
           "files": [
             {
-              "artifact": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
+              "artifact": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -63675,8 +63675,8 @@
           ],
           "id": "android13_x86_64_ru",
           "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -63810,7 +63810,7 @@
           },
           "files": [
             {
-              "artifact": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
+              "artifact": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -63818,8 +63818,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -63953,7 +63953,7 @@
           },
           "files": [
             {
-              "artifact": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
+              "artifact": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -63961,8 +63961,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -64096,7 +64096,7 @@
           },
           "files": [
             {
-              "artifact": "a74daa3f37ea86c2cd6dda09b2d086acefad76dca862a4b31eab11fdfd3eaed2",
+              "artifact": "ee1a52db1f2152758845f56a6d193cf0ced4397858e4a18cf09eb5e2327988e8",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -64104,8 +64104,8 @@
           ],
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -64239,7 +64239,7 @@
           },
           "files": [
             {
-              "artifact": "a74daa3f37ea86c2cd6dda09b2d086acefad76dca862a4b31eab11fdfd3eaed2",
+              "artifact": "ee1a52db1f2152758845f56a6d193cf0ced4397858e4a18cf09eb5e2327988e8",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -64247,8 +64247,8 @@
           ],
           "id": "legacy_arm64_ru",
           "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -64382,7 +64382,7 @@
           },
           "files": [
             {
-              "artifact": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
+              "artifact": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -64390,8 +64390,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         },
         {
           "certificate_sha256": [
@@ -64525,7 +64525,7 @@
           },
           "files": [
             {
-              "artifact": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
+              "artifact": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -64533,8 +64533,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 38223,
-          "version_name": "6.134.1"
+          "version_code": 38227,
+          "version_name": "6.135"
         }
       ]
     },
@@ -86056,26 +86056,26 @@
     {
       "assets": [
         {
-          "name": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f.apk",
+          "name": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a.apk",
           "role": "base",
-          "sha256": "4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f",
-          "size": 82473163,
+          "sha256": "a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a",
+          "size": 82566719,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/4783fd82fddc7e3f30623781d1e2be07e227965421d008111a5e42f3aa4f0d4f.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/a33e21d7dbc41befdab50b21475cd2631054b424c3c2746152f28b96a173f29a.apk"
         }
       ],
       "certificate_sha256": [
         "3e67a81efa21cbc7714a4f42becafddd06c4e762a66893a99389eb0e3f55a021"
       ],
-      "manifest_sha256": "7d000b08b2f5a3ce3399c2ccc29052b7461a8f8760d84349e9f8efaec881257a",
-      "manifest_size": 486,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/manifest-7d000b08b2f5a3ce3399c2ccc29052b7461a8f8760d84349e9f8efaec881257a.json",
+      "manifest_sha256": "6aad3a141a9a292abf39d47d1836bfbbd4f14ccddf77322ef41df279bce7b3c7",
+      "manifest_size": 484,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.starbucks.mobilecard-library/manifest-6aad3a141a9a292abf39d47d1836bfbbd4f14ccddf77322ef41df279bce7b3c7.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.starbucks.mobilecard/metadata.json",
       "package": "com.starbucks.mobilecard",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.starbucks.mobilecard-library",
-      "version_code": 38223,
-      "version_name": "6.134.1"
+      "version_code": 38227,
+      "version_name": "6.135"
     },
     {
       "assets": [
