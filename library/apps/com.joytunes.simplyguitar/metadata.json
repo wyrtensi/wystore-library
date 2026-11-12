@@ -8,7 +8,7 @@
       "developer": "Simply Ltd",
       "description": "Учитесь гитаре своим темпом с пошаговыми учебниками топ-преподователей и получайте от приложения отклик по мере практики и заучивания песен!<br><br>Опыт не нужен | Для всех возрастов | Для любой гитары<br><br>--- Пусть сбудутся ваши музыкальные мечты! ---<br><br>• Играйте аккорды и песни прямо сейчас!<br>• Учите по шагам уроки с HD-видео.<br>• Получайте отклик приложения, чтобы знать, насколько верно вы играете.<br>• Изучите все приёмы, чтобы исполнять любимые песни:<br>- Основы игры.<br>- Табулатуры.<br>- Аккорды.<br>- Переключение аккордов.<br>- Страмминг.<br>- Неоценимые советы и подсказки для корректной игры.<br>- Упражнения для оттачивания техники.<br>• Слежение за прогрессом.<br>• Учитесь настройке гитары (включен профессиональный тюнер!).<br>• Получайте поддержку от наших музыкантов.<br>• Получайте удовольствие и совершенствуйтесь в игре.<br><br>--- Как работает Simply Guitar ---<br><br>• Поместите перед вами и начинайте играть: приложение распознает, что вы играете.<br>• Получите отклик на игру, чтобы быстро обучаться и улучшать навыки игры.<br>• Раскройте для себя волшебство музыки и разучивание песен с удовольствием: изучайте уроки, чтобы звучать профессионально.<br>• Постоянно есть новые песни и уроки.<br><br>--- Информация ---<br><br>Simply Guitar — продукт Simply (раньше JoyTunes), компании приз-приложений Simply Piano и Piano Maestro. Simply — эксперты в создании образовательных и развлекательных приложений для быстрого и легкого обучения музыке. Рекомендовано десятками тысяч учителей музыки по всему миру, более 1 млн песен разучиваются каждую неделю.<br>Призы и признание:<br>- SF Music Tech Summit Startup Innovators Challenge Winner.<br>- Лучший инструмент для начинающих, NAMM.<br>- Приз EMI Innovation Challenge.<br><br>--- Контакт ---<br><br>Вопросы, отклики или предложения? Напишите нам: guitar@hellosimply.com<br><br>Вдохновенной игры!<br><br>Конфиденциальность: http://www.hellosimply.com/legal/privacy<br>Использование: http://www.hellosimply.com/legal/terms",
       "shortDescription": "Игра на гитаре быстро и с интересом — для любой гитары.",
-      "versionName": "9.8.0",
+      "versionName": "9.8.1",
       "updatedDate": "2026-11-09",
       "playUrl": "https://play.google.com/store/apps/details?id=com.joytunes.simplyguitar",
       "changelog": "НОВЫЙ способ научиться игре на гитаре с видеоуроками и замечаниями в реальном времени! Опыта не нужно, Simply Guitar научит вас всему. Вперед!",
@@ -29,7 +29,7 @@
       "developer": "Simply Ltd",
       "description": "Learn to play the guitar at your own pace with step-by-step tutorials, made by world-class music teachers, and receive feedback from the app while you learn to play your favorite songs!<br> <br>No experience needed  | For all ages | Works with any guitar<br><br>--- Make your musical dreams come true ---<br> <br>• Play chords & songs straight away!<br>• Learn step by step with high-quality video lessons<br>• Receive feedback from the app and know when you are playing correctly or need guidance<br>• Learn all the necessary techniques to play the songs you love:       <br>      - Guitar fundamentals<br>      - Read and play tabs<br>      - Playing chords<br>      - Chord switching<br>      - Strumming techniques <br>      - Invaluable tips and tricks for playing correctly<br>      - Technique boosting exercises<br>• Track your progress <br>• Learn to tune your guitar (professional tuner included!)<br>• Receive fast support from our musicians <br>• Have fun and quickly improve your skills<br><br><br>--- How Simply Guitar works ---<br> <br>• Place your device in front of you and play; the app will immediately recognize what you are playing<br>• Get feedback on your playing to quickly learn and improve your guitar skills<br>• Discover the magic of music with fun songs and complete lessons to start sounding like a pro<br>• New songs and lessons are added regularly.<br> <br>--- Good to know ---<br> <br>Simply Guitar is developed by Simply (formerly JoyTunes), creators of award-winning apps Simply Piano and Piano Maestro. Simply are experts in creating educational and fun music apps for learning to play quickly and easily. Recommended and used by tens of thousands of music teachers worldwide with over 1 million songs learned every week.<br> <br>Awards & Recognition:<br>- SF Music Tech Summit Startup Innovators Challenge Winner<br>- Best Tool for Beginners, NAMM<br>- EMI Innovation Challenge Award<br> <br>--- Contact ---<br> <br>Have questions, feedback or suggestions? Reach out to us through the app under Menu > Have a Question.<br> <br>Enjoy playing!<br> <br>Privacy policy: http://www.hellosimply.com/legal/privacy<br>Terms of use: http://www.hellosimply.com/legal/terms",
       "shortDescription": "A fast and fun way to learn guitar - works with any guitar.",
-      "versionName": "9.8.0",
+      "versionName": "9.8.1",
       "updatedDate": "2026-11-09",
       "playUrl": "https://play.google.com/store/apps/details?id=com.joytunes.simplyguitar",
       "changelog": "The NEW way to learn guitar with guided video lessons & real-time feedback. No experience needed, Simply Guitar teaches you everything. Have fun & start playing now!",
@@ -67,6 +67,11 @@
         "versionName": "9.8.0",
         "updatedDate": "2026-11-09",
         "text": "НОВЫЙ способ научиться игре на гитаре с видеоуроками и замечаниями в реальном времени! Опыта не нужно, Simply Guitar научит вас всему. Вперед!"
+      },
+      {
+        "versionName": "9.8.1",
+        "updatedDate": "2026-11-09",
+        "text": "НОВЫЙ способ научиться игре на гитаре с видеоуроками и замечаниями в реальном времени! Опыта не нужно, Simply Guitar научит вас всему. Вперед!"
       }
     ],
     "en_US": [
@@ -87,6 +92,11 @@
       },
       {
         "versionName": "9.8.0",
+        "updatedDate": "2026-11-09",
+        "text": "The NEW way to learn guitar with guided video lessons & real-time feedback. No experience needed, Simply Guitar teaches you everything. Have fun & start playing now!"
+      },
+      {
+        "versionName": "9.8.1",
         "updatedDate": "2026-11-09",
         "text": "The NEW way to learn guitar with guided video lessons & real-time feedback. No experience needed, Simply Guitar teaches you everything. Have fun & start playing now!"
       }

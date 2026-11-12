@@ -25,7 +25,7 @@
       ]
     },
     "en_US": {
-      "title": "Avast One: Antivirus, Security",
+      "title": "Avast Antivirus & Security",
       "developer": "Avast Software",
       "description": "Protect against viruses & other types of malware with Avast One, our free All-in-one Mobile security app for Android. Trusted by hundreds of millions - much more than just antivirus protection.  <br><br>Avast One is your personal digital guardian; choose protection your way, for your life's online moments.  <br>  <br><u><b>Avast One</b></u> <br>■ <b>Avast Free Antivirus</b> - Stay safer from viruses and other malware with award-winning (AV-Comparatives) security that’s free and easy-to-use <br>■ <b>Scam Guardian</b> - Stay safer from scams with expert help <br>■ <b>Avast SecureLine VPN</b> - Keep your online activities hidden from internet service providers, hackers, and advertisers with our private VPN <br>■ <b>Avast Cleanup</b> - Clean up your devices by getting rid of junk files like browser history, duplicate photos, and old contacts <br><br><u><b>Antivirus</b></u> <br>■ <b>Antivirus</b> - Automatically scan for viruses and other kinds of malware, including spyware, Trojans, adware, ransomware, and more. Web, file, and app scanning provides complete mobile protection. <br>■ <b>Mobile Security</b> - Keep your device safer against viruses and malware with 24/7 protection <br>■ <b>Hack Alert</b> - Stay informed about password leaks  <br>■ <b>Network Inspector (Wi-Fi Security)</b> - Confidently connect to Wi-Fi anywhere. Stop hackers from accessing your personal data. <br>■ <b>Virus Cleaner</b> <br>■ <b>File Scanner</b> <br>■ Secure your device against phishing attacks from emails and infected websites <br><br><u><b>Scam Guardian</b></u> <br>■ 24/7 AI-powered scam protection <br>■ <b>Web Guard</b> - Advanced AI tools to help keep you safe from hidden scams while browsing, banking, and shopping online. Scan and block malware-infected links, as well as Trojans, adware, and spyware (for privacy and safe web browsing, e.g. Chrome). <br>■ <b>Avast Assistant</b> - Think someone’s trying to scam you? Get answers quickly from Avast Assistant, your built-in AI partner <br><br><u><b>Scam Guardian Pro</b></u> <br>■ <b>Call Guard (Call Blocker)</b> - Automatically blocks scam calls and labels if the call is a potential scam, spam, or a verified business <br>■ <b>Safe SMS</b> - AI-powered scam protection for every text message <br>■ <b>Email Guard</b> - We’ll keep your inbox safe by continuously monitoring your emails for anything suspicious <br><br><u><b>Avast SecureLine VPN</b></u> <br>■ Protect your privacy <br>■ Keep your online activities hidden from internet service providers, hackers, and advertisers with our private VPN (Virtual Private Network) <br>■ Use the perfect location for whatever you’re doing  <br>■ Connect to over 100 locations worldwide, so you can enjoy what you’re doing more securely and privately.  <br>■ Watch shows and sports wherever you are more safely with streaming-optimized servers  <br><br><u><b>Avast Cleanup</b></u> <br>■ <b>Phone Cleaner</b> - Clean up your devices by getting rid of junk files <br>■ <b>Browser Cleaner</b> - Get rid of junk files like browser history, temporary files, and cookies that can slow your phone down and compromise your privacy <br><br>This app uses Accessibility Service API to protect the visually impaired and other users against phishing attacks and malicious websites via Web Guard feature.  <br><br>Contacts: A particular subset of this permission group is required to access device accounts to enable “restore a pin” action as part of App Lock feature.   <br><br>Location: Allows Network Inspector feature to identify new networks and scan them for threats.",
       "shortDescription": "Mobile Scam protection with Call blocker, Email and SMS guard & Virus cleaner.",
@@ -35,14 +35,14 @@
       "changelog": null,
       "icon": "images/4f417e0858e3f545e26eb77256fe59898d1503e5a089009922f3d811e1ec4a08.png",
       "screenshots": [
-        "images/306c0d7e64c30be86a49a32281b9b3e413898c74b33de909e76fbe7f50cbc1c9.jpg",
-        "images/be7b4453a980fe7fe01694968faf355fcb41cee6d0a4f53fb546e7feb74583b0.jpg",
-        "images/66e40a7fe32cc95a28adc70e5478ba9b298337c9fa685a481dedf967ab6b7003.jpg",
-        "images/a998dbae0f14d9bc0939898d729851098ccf8087871b0158be7c14caaa5b91c3.jpg",
-        "images/53645effe9bb46be7576788051c465f49e5168c07c82a7c32d59c7b9b70e7e6a.jpg",
-        "images/c699fb201848f18ec331ffe57c01d62b42cad9f4b124354100c2fc6d30616322.jpg",
-        "images/7741bb64accb5a74ddfea92890f94e88aa82292f0a1adb3b1761130ccacea444.jpg",
-        "images/1d6c75f5207de94089bc2c10e815454e8196d5b445d3b4178e0c1f43fbb616c0.jpg"
+        "images/d480f89aced16d5eeb9f9a75ea3593b6b04e8af03a916b6ce382bd28a6549c09.jpg",
+        "images/f400825228ba0847ac739119274024c6677ff578a0453d4454d0e5c6f5ed58dd.jpg",
+        "images/19526df4e2effa4a0d33700034d6b271fb77af2885caeac70584b537a85150a1.jpg",
+        "images/f084b1077db6f51f3d81e7ab0271888e0909dc400c852f0897dd2958f6ed4050.jpg",
+        "images/3c82ced9cf94ea9c0e96b47055448defe7be479123df5dfd202f66c5fb399610.jpg",
+        "images/0d0d11bbefb777786f9818e03de0baf1577f99e2391c83455489834e3cc9683e.jpg",
+        "images/14dd708272ed146c0c7e10149d3800aeb7d400fca259d3fc9459cc5f0b0800f8.jpg",
+        "images/2944ae2163cf215199a75412ea653423efc8ff66aa6a8f65f23cc02185e59253.jpg"
       ]
     }
   },
@@ -61,13 +61,13 @@
     "https://play-lh.googleusercontent.com/3TKxNt-dUzNFV4BM57NOhOfONQFyUe6aGZTGOxNaQGR1AAA6akjvkKl7UY3umny2iZx5y2yc28KqAISSxgPvQQ": "ab5bbc95ee7689a21cb8e2c89cf04297f561fc99b9652a9d0f95bfe8ca317e9e.jpg",
     "https://play-lh.googleusercontent.com/iPBfE4RuMUukPzGZawXeWWy51-4ZoOJjqdMXIpPcWHsu9UQwuL3itXKvx4yvIO7XINTR1PjIaDR_Umw_QJRXvw": "bca66fb979b42e92db1d841225d23d92f4ce42ee0cbe8a16fe9b4403f9610c29.jpg",
     "https://play-lh.googleusercontent.com/Qa9dOOZG1V2muJuTN3GHrtUYGvegTFt3-Lo2y3wknKiyt4jtlv8_z4qG3c5V3xDlb8WGQJWqJpFWgHQ9lOO-aA": "4f417e0858e3f545e26eb77256fe59898d1503e5a089009922f3d811e1ec4a08.png",
-    "https://play-lh.googleusercontent.com/DDAHc8jou-etgvfL9e3mTylIi1L9j1sanuGTmG4UKWzKPiqxE5fou7EoBtG5jG4L4xmBgjDCpEwY2xy4cLqbmQ": "306c0d7e64c30be86a49a32281b9b3e413898c74b33de909e76fbe7f50cbc1c9.jpg",
-    "https://play-lh.googleusercontent.com/a8ar3eX0CXBw2L4VcAgxAwIGrlj5l9xjVCpdQI01p7LZvQp_R4GRJVT2P3nCTl7-TXK4Ui0zhNig7AeSglr7EA": "be7b4453a980fe7fe01694968faf355fcb41cee6d0a4f53fb546e7feb74583b0.jpg",
-    "https://play-lh.googleusercontent.com/baAYoICqwNUnCs9bcvyYB4wvDc62o2bu0fkSZyZx_y4wGQnAX2Xd6Hs3AZZT-5ML54jeHNjaoxkC_0a-g_mHmQ": "66e40a7fe32cc95a28adc70e5478ba9b298337c9fa685a481dedf967ab6b7003.jpg",
-    "https://play-lh.googleusercontent.com/pMJOQuo2H3qpdRqE7GQnScNmN7SzNp3ZZzj41qbIR0pIIKozGEVj-dhWp7E28dKeJaICtbgZUaje3Q1koueHSA": "a998dbae0f14d9bc0939898d729851098ccf8087871b0158be7c14caaa5b91c3.jpg",
-    "https://play-lh.googleusercontent.com/10VY3GLihKl9MJqPbKSDiSsC1uUhNbq3XU3pvaM4WGVTymiap1CvJo2SLGYIbgv7AaW0MVNMkPLFUW77iBuWUA": "53645effe9bb46be7576788051c465f49e5168c07c82a7c32d59c7b9b70e7e6a.jpg",
-    "https://play-lh.googleusercontent.com/Em1XH2y2Jmy96yZUBVHguGhu5kUjV5L4fooetdksW6XLxcRl0XX-I5aq3AFKOBRFdm5UJvkqZ6XQqN1S8HLgcw": "c699fb201848f18ec331ffe57c01d62b42cad9f4b124354100c2fc6d30616322.jpg",
-    "https://play-lh.googleusercontent.com/yh9sYgpWQjqZvQyG2wHVbsnBayxM34UphRi6Sdx5PjgrwByQN3cf2cW9EQJ3GhgcUFcR8CNYn3R5ulc3UQdUR7w": "7741bb64accb5a74ddfea92890f94e88aa82292f0a1adb3b1761130ccacea444.jpg",
-    "https://play-lh.googleusercontent.com/p9JWjXH3e_6eG-XfJFXWD72pOQe-9sVZWr36Fie58ACuIXoQdU44LRt_0VP41UCrHNcfMVQ6HzePIuuDlH89": "1d6c75f5207de94089bc2c10e815454e8196d5b445d3b4178e0c1f43fbb616c0.jpg"
+    "https://play-lh.googleusercontent.com/SBI6aAtZAHNsxp9GXwOYLM_qnv0rZ5qVnrwdGL4oopmvrspiadi8-j6NkyRKQid5JV1P_HN99BwEV7WtQCw5Jg": "d480f89aced16d5eeb9f9a75ea3593b6b04e8af03a916b6ce382bd28a6549c09.jpg",
+    "https://play-lh.googleusercontent.com/ExtrMC0S360t9G5KXXsZFREUHb7czdzJY_YN2heiuIvzC7RzUf65dwG3OOu_92lgLjOvK3T2RdfSdTIAmL_9J94": "f400825228ba0847ac739119274024c6677ff578a0453d4454d0e5c6f5ed58dd.jpg",
+    "https://play-lh.googleusercontent.com/1sICPmpvbURqjWG7NRTH1rOuQkHfPZb_OO7uzrey5woZ-R-bJ1YW78CbFG5k5bydd9e2rHn3qqtzyZZKkT89_pc": "19526df4e2effa4a0d33700034d6b271fb77af2885caeac70584b537a85150a1.jpg",
+    "https://play-lh.googleusercontent.com/QBgsFUawl8ISG0n_Sq82og96hhrVNtiQJI6BlejmgrkBYw-P2PISu_Pw976AJzdJX0elZdWoYRn_MaAmSA77": "f084b1077db6f51f3d81e7ab0271888e0909dc400c852f0897dd2958f6ed4050.jpg",
+    "https://play-lh.googleusercontent.com/DsuzLJ7oA9TeQjhHR7HWQO8Cmdo88WdWbfvuzOIPw_K7VOht28df-xSV6TB0spBP5fGlFozK0cCIWdKLh-Tn": "3c82ced9cf94ea9c0e96b47055448defe7be479123df5dfd202f66c5fb399610.jpg",
+    "https://play-lh.googleusercontent.com/sQYs2xdffIP8eg9THveuDh1b5pYv0MaL-yaug2legfphl4_BZRF2Sw7Z0npWkkRYPklXHro1Lb9WHAJN_aaGLKQ": "0d0d11bbefb777786f9818e03de0baf1577f99e2391c83455489834e3cc9683e.jpg",
+    "https://play-lh.googleusercontent.com/pCwyZu1E5ndeZ4_fmOKqGET0LdlfvjvvRrnxECsDXbrc5eygTmp9LW_idhWjVR-xnFlpJgrSvyO-v4f8o0_HZA": "14dd708272ed146c0c7e10149d3800aeb7d400fca259d3fc9459cc5f0b0800f8.jpg",
+    "https://play-lh.googleusercontent.com/G0TVOLJ9xM6urukeNRwRmL8Qr7ZSe9kIJbW4pQwFZC5u4jNwo84p_En888Ih1IrNTPvR9IYg2q--VivBSsYlng": "2944ae2163cf215199a75412ea653423efc8ff66aa6a8f65f23cc02185e59253.jpg"
   }
 }

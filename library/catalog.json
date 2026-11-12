@@ -33,11 +33,11 @@
       "locales": {
         "ru_RU": {
           "title": "Vivaldi - Мощный веб-браузер",
-          "shortDescription": "Мощный приватный браузер! Встроенный адблок, синхронизация и вкладки как на ПК"
+          "shortDescription": "Мощный браузер: блокирует рекламу и трекеры, с расширениями. Создан в Европе."
         },
         "en_US": {
-          "title": "Vivaldi Browser - Fast & Safe",
-          "shortDescription": "Powerful, Personal & Private web browser! Fast browsing, 0 tracking, ad blocker."
+          "title": "Vivaldi Browser: Fast, Private",
+          "shortDescription": "Fast, powerful browser: blocks ads & trackers, runs extensions. Made in Europe."
         }
       },
       "categories": [
@@ -162,8 +162,8 @@
           "shortDescription": "Устанавливайте контакты. Находите новые возможности."
         },
         "en_US": {
-          "title": "LinkedIn: Community & Network",
-          "shortDescription": "Find Jobs, Insights and News"
+          "title": "LinkedIn: Job Search & Network",
+          "shortDescription": "Smarter career moves start here. AI job alerts, insights & the right tools."
         }
       },
       "categories": [
@@ -1065,7 +1065,7 @@
           "shortDescription": "Мобильная защита эл. почты, SMS и от мошенников и вирусов, блокировщик вызовов."
         },
         "en_US": {
-          "title": "Avast One: Antivirus, Security",
+          "title": "Avast Antivirus & Security",
           "shortDescription": "Mobile Scam protection with Call blocker, Email and SMS guard & Virus cleaner."
         }
       },
