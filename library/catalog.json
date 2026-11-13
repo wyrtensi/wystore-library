@@ -162,8 +162,8 @@
           "shortDescription": "Устанавливайте контакты. Находите новые возможности."
         },
         "en_US": {
-          "title": "LinkedIn: Job Search & Network",
-          "shortDescription": "Smarter career moves start here. AI job alerts, insights & the right tools."
+          "title": "LinkedIn: Community & Network",
+          "shortDescription": "Find Jobs, Insights and News"
         }
       },
       "categories": [
@@ -511,7 +511,7 @@
       "metadataPath": "apps/com.walmart.android/metadata.json",
       "title": "Walmart: Shopping & Savings",
       "developer": "Walmart",
-      "icon": "apps/com.walmart.android/images/9ca8e5fe98fca2b372e3c19e3774f34ecd1756b40285c90b35f31a35290f7b55.jpg",
+      "icon": "apps/com.walmart.android/images/71f13be4f74f59b77f3836746b0e3504e7d318d75b0758a5fb84b1b1ac2712da.png",
       "foreign_category": true,
       "locales": {
         "ru_RU": {

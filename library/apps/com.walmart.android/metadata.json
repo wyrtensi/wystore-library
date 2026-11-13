@@ -12,7 +12,7 @@
       "updatedDate": "2026-11-06",
       "playUrl": "https://play.google.com/store/apps/details?id=com.walmart.android",
       "changelog": "Thanks for using the Walmart app!  We update our app regularly so you can save time and money.",
-      "icon": "images/9ca8e5fe98fca2b372e3c19e3774f34ecd1756b40285c90b35f31a35290f7b55.jpg",
+      "icon": "images/71f13be4f74f59b77f3836746b0e3504e7d318d75b0758a5fb84b1b1ac2712da.png",
       "screenshots": [
         "images/143fc119bed7f21e9502bd1fa5c773553757c8b4818efd615d4c5c8455c0e63f.jpg",
         "images/1abe425e603f7e7fb9bfc45fe71061d1b55fc60c68548dfaa885ec500f6189d0.jpg",
@@ -33,7 +33,7 @@
       "updatedDate": "2026-11-06",
       "playUrl": "https://play.google.com/store/apps/details?id=com.walmart.android",
       "changelog": "Thanks for using the Walmart app!  We update our app regularly so you can save time and money.",
-      "icon": "images/9ca8e5fe98fca2b372e3c19e3774f34ecd1756b40285c90b35f31a35290f7b55.jpg",
+      "icon": "images/71f13be4f74f59b77f3836746b0e3504e7d318d75b0758a5fb84b1b1ac2712da.png",
       "screenshots": [
         "images/143fc119bed7f21e9502bd1fa5c773553757c8b4818efd615d4c5c8455c0e63f.jpg",
         "images/1abe425e603f7e7fb9bfc45fe71061d1b55fc60c68548dfaa885ec500f6189d0.jpg",
@@ -113,7 +113,7 @@
     ]
   },
   "imageSources": {
-    "https://play-lh.googleusercontent.com/uWXZHyYx_7M_aOFK_qINeboJGvmNgXSNRpCzjKyIWyHYcJbgZ0Ky0KlQBy5i1bmkphZdZ-lo9zc2De-KbQBKKA": "9ca8e5fe98fca2b372e3c19e3774f34ecd1756b40285c90b35f31a35290f7b55.jpg",
+    "https://play-lh.googleusercontent.com/1elS7Hmbe7i-1ukmh-MiaHo6U9xrLyxZtUoKNngyv_OrwLmoJCQWKg2_QWgbyEm6xChr_X6PgRBxITIc5kToHkg": "71f13be4f74f59b77f3836746b0e3504e7d318d75b0758a5fb84b1b1ac2712da.png",
     "https://play-lh.googleusercontent.com/ANgpOzERS7GyCj_JbXPVt_kzp7J6lx_p8z3aXPTLesJ8lzMzdXN0HEli4-CSyQerY-QqBifd8-QR4wevVu3e": "143fc119bed7f21e9502bd1fa5c773553757c8b4818efd615d4c5c8455c0e63f.jpg",
     "https://play-lh.googleusercontent.com/smKJLsNOHDFoMQNFYom5NHSjh2XSdXwaAIKHLwqmY-H1VEqX1ooF4_u8k07f9cuRGmurxcGg73fx2lCyGOw2fA": "1abe425e603f7e7fb9bfc45fe71061d1b55fc60c68548dfaa885ec500f6189d0.jpg",
     "https://play-lh.googleusercontent.com/zG-YNbHNOd7cHNeXSwIU3LMnBNm7XmxerZhNDDvlY62DUI1F2gpXmQxXMcCQu2tCNQOJcM0VhR3fUiBJP5c-Hw": "56e651e0b2c67d990f0b33361dd2b0dc6d0467e04a328638bdd1523224aa98c9.jpg",

@@ -32,7 +32,7 @@
       "versionName": null,
       "updatedDate": "2026-11-06",
       "playUrl": "https://play.google.com/store/apps/details?id=com.myfitnesspal.android",
-      "changelog": "Happy Halloween to all who celebrate the spookiest today of the year. No major feature updates or bugs to report this week. Just the quiet, steady upkeep that keeps the app running smoother than a protein shake.",
+      "changelog": "✅Fixed: The \"Foods Highest In\" totals were off when you logged the same food more than once.<br>➡️Now they add up the way you'd expect.<br><br>✅Fixed: Tapping Log Exercise under a Coach reply was crashing the app.<br>➡️Now you can log your workout from Coach with no crashes.<br><br>🐜 The bugs tried to form a fitness club. Unfortunately, their membership has been… squashed.<br><br>*For all the latest fixes, update to the latest app version",
       "icon": "images/8ce1d74ede5fad08fdb38862cadde44a99967b3b2674fdae31c54df5c18b0738.jpg",
       "screenshots": [
         "images/a5d90b1b8b7ab850260b22afeec1c513b998f5a30f4f9be2c55dbb05a55d5f7d.png",
@@ -84,6 +84,11 @@
         "versionName": null,
         "updatedDate": "2026-11-06",
         "text": "Happy Halloween to all who celebrate the spookiest today of the year. No major feature updates or bugs to report this week. Just the quiet, steady upkeep that keeps the app running smoother than a protein shake."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-06",
+        "text": "✅Fixed: The \"Foods Highest In\" totals were off when you logged the same food more than once.<br>➡️Now they add up the way you'd expect.<br><br>✅Fixed: Tapping Log Exercise under a Coach reply was crashing the app.<br>➡️Now you can log your workout from Coach with no crashes.<br><br>🐜 The bugs tried to form a fitness club. Unfortunately, their membership has been… squashed.<br><br>*For all the latest fixes, update to the latest app version"
       }
     ]
   },

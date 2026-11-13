@@ -14,14 +14,14 @@
       "changelog": "Спасибо за использование сервиса \"Google Планета Земля\"! Эта версия отличается измененным интерфейсом, а также новыми функциями, позволяющими работать совместно с пользователями других устройств, создавать карты в любых условиях, а также добавлять на карты фотографии с камеры устройства.",
       "icon": "images/ea19697e082f9531fff13756d4f5787afe7c0f5c8384a1efd51112eed6364973.png",
       "screenshots": [
-        "images/6b303e4d8281248458bc340a73476fe746db9c6436ff876f7abccdfcb808f4b2.png",
-        "images/6c872b4cd336363d5008869ddabf5e2485ca6c90403d80c3326c8ef16a9f7a31.png",
-        "images/6f8a8cc1ff488f3549ebed6ebc8103dcd42dfb022918277c4b986ecb98d8a1c0.png",
-        "images/a0de2dcef4918c6b29d440f7ba1e7c2ff0a0e4ee63be115ec52cc767e843ee38.png",
-        "images/32e895f7da9acfd7b73d98cdbe6df92a2ff6774b769d1ab3f1fb5b44af88474c.png",
-        "images/a00c44882346698b7e99bd7a3351252e9bd40ff1a185cccd9c2bc67a5f452a17.png",
-        "images/08ae81a4c50b27b92996c5dc645ae9c81aa0f6b164dfebedc061068425dfd483.png",
-        "images/a93da03f22e8f78e4d4637053f518b85142b431abc959ac9e11d9680a930d333.png"
+        "images/2b926580c23ca7e22a5416eecc471adefda517f6ccfd8c1b26926148db4c7659.png",
+        "images/4a3c996666fcc5979c280e5933b9ae08a1d5f80671c1183203a9873817699071.png",
+        "images/9c9ce8c5052843caa417dcd3f66274ffa323b98b1c6ef7bc579f82c67787e003.png",
+        "images/0b550b86ee110c0496fca470919aa641c72920c456c2a308e66d82135d6efe11.png",
+        "images/4e1bbe9ac14eb818bf4bd49b60c9047473f59c8baeeb8e862273316e3d09163d.png",
+        "images/0f3bbbd5f3165be8f4689225152f64179bbadb7bb8520a676f86e3acdb3f1d0a.png",
+        "images/1a30c21f2feaf6ff9890bd2f5ad25b8dc5b7d66ee42f940e2e2b1b9b299d75f6.png",
+        "images/eba8e9cdae56336f2060a2053953d97b3e8c2f4802b770c5c0e901b8b5e9faf4.png"
       ]
     },
     "en_US": {
@@ -35,14 +35,14 @@
       "changelog": "Thanks for using Google Earth! This release brings a fresh new look, with new features to help you collaborate with others across devices, create maps on the go, and add photos from your camera to your maps.",
       "icon": "images/ea19697e082f9531fff13756d4f5787afe7c0f5c8384a1efd51112eed6364973.png",
       "screenshots": [
-        "images/6b303e4d8281248458bc340a73476fe746db9c6436ff876f7abccdfcb808f4b2.png",
-        "images/6c872b4cd336363d5008869ddabf5e2485ca6c90403d80c3326c8ef16a9f7a31.png",
-        "images/6f8a8cc1ff488f3549ebed6ebc8103dcd42dfb022918277c4b986ecb98d8a1c0.png",
-        "images/a0de2dcef4918c6b29d440f7ba1e7c2ff0a0e4ee63be115ec52cc767e843ee38.png",
-        "images/32e895f7da9acfd7b73d98cdbe6df92a2ff6774b769d1ab3f1fb5b44af88474c.png",
-        "images/a00c44882346698b7e99bd7a3351252e9bd40ff1a185cccd9c2bc67a5f452a17.png",
-        "images/08ae81a4c50b27b92996c5dc645ae9c81aa0f6b164dfebedc061068425dfd483.png",
-        "images/a93da03f22e8f78e4d4637053f518b85142b431abc959ac9e11d9680a930d333.png"
+        "images/2b926580c23ca7e22a5416eecc471adefda517f6ccfd8c1b26926148db4c7659.png",
+        "images/4a3c996666fcc5979c280e5933b9ae08a1d5f80671c1183203a9873817699071.png",
+        "images/9c9ce8c5052843caa417dcd3f66274ffa323b98b1c6ef7bc579f82c67787e003.png",
+        "images/0b550b86ee110c0496fca470919aa641c72920c456c2a308e66d82135d6efe11.png",
+        "images/4e1bbe9ac14eb818bf4bd49b60c9047473f59c8baeeb8e862273316e3d09163d.png",
+        "images/0f3bbbd5f3165be8f4689225152f64179bbadb7bb8520a676f86e3acdb3f1d0a.png",
+        "images/1a30c21f2feaf6ff9890bd2f5ad25b8dc5b7d66ee42f940e2e2b1b9b299d75f6.png",
+        "images/eba8e9cdae56336f2060a2053953d97b3e8c2f4802b770c5c0e901b8b5e9faf4.png"
       ]
     }
   },
@@ -74,13 +74,13 @@
   },
   "imageSources": {
     "https://play-lh.googleusercontent.com/F1XopRE2Iz5J6RS8P4MxD3ERp71TvUxhTjbOLrGIYwkmos0JGTFZ54TQ-8fBJbWtK1XjCL_Md4GU_gpaD985_w": "ea19697e082f9531fff13756d4f5787afe7c0f5c8384a1efd51112eed6364973.png",
-    "https://play-lh.googleusercontent.com/kRcwvMZpVX0WIrehvFXoM6TqY9G4JwZB0_XrVE_zRtxgmYLk1iVzT8OfMzw72ylimew4utGNnsFVfPcvNXnPspg": "6b303e4d8281248458bc340a73476fe746db9c6436ff876f7abccdfcb808f4b2.png",
-    "https://play-lh.googleusercontent.com/7EXz0NXUg43piSy086wq4A_6uwCnJjWKT1DgNY2vGRM6WcEVFtKS67mIJzi5ADsFSokbJozjnhDI3zo1qYCF4w": "6c872b4cd336363d5008869ddabf5e2485ca6c90403d80c3326c8ef16a9f7a31.png",
-    "https://play-lh.googleusercontent.com/oGpg38sR6djRViHmHC6iHNgXeXC2O5vSnd7qOcmzGpk3BeEFWe1wBNd_YmK1tba8MvVU4vmcNyDKUJrv_Xe6": "6f8a8cc1ff488f3549ebed6ebc8103dcd42dfb022918277c4b986ecb98d8a1c0.png",
-    "https://play-lh.googleusercontent.com/5biFw7NTcNgiQUBmTw84qMxZevnCZEvOXRR-7rpU-Sz6WkJ20rgtD02ZqjwgmDfTuUnZecYYZp0SJR7H-63xag": "a0de2dcef4918c6b29d440f7ba1e7c2ff0a0e4ee63be115ec52cc767e843ee38.png",
-    "https://play-lh.googleusercontent.com/XaDFNyGAnUeTHutUpOzZn0K29fl88Hq1gWxBNqVaOTomXRmlsF1yQt3gzwH_Uq4jQ-ppSvvjvb9opXqd5LMjS4c": "32e895f7da9acfd7b73d98cdbe6df92a2ff6774b769d1ab3f1fb5b44af88474c.png",
-    "https://play-lh.googleusercontent.com/Zr58vChatl1BXu8IDMjFZ-_vkBSMQ5RUA6SLP4jBd2VEWO5OEmBr2fHSGKBtBBpIrQQqcTGQQjP_VzHTMCAa6Q": "a00c44882346698b7e99bd7a3351252e9bd40ff1a185cccd9c2bc67a5f452a17.png",
-    "https://play-lh.googleusercontent.com/c3UQ-Gn9SqpYThyZVBsg6DVuM512SUkSYefwHww8onyI1MIWnZfOF9tEOSvg2ECSmIeITa9Yqz9J49gc2XRj": "08ae81a4c50b27b92996c5dc645ae9c81aa0f6b164dfebedc061068425dfd483.png",
-    "https://play-lh.googleusercontent.com/Gtl7ebHvaSiQGa3C1IWvvPNfPqiSTbOI7DtcT9j1HjIqGYvBTEPiqEb26LO45K434ZtReDc8O1N3hASoWgJ2": "a93da03f22e8f78e4d4637053f518b85142b431abc959ac9e11d9680a930d333.png"
+    "https://play-lh.googleusercontent.com/Y79Ng_7Gty9SPii5ND6Oq8Lt6ioT96LE9D_uPiK0L2LkbGMmhIhQfq06pxr9zQvkwmaQ3voG8eQt3neoYLSnOw": "2b926580c23ca7e22a5416eecc471adefda517f6ccfd8c1b26926148db4c7659.png",
+    "https://play-lh.googleusercontent.com/1WNzM5sEfsVumLOOVpfert7ZvwaPdSMjnaQw65uQTk9Zunz1Af6Qe4zrGTGUORUlgwg9RsWqwWK3k8w2Jj06fF4": "4a3c996666fcc5979c280e5933b9ae08a1d5f80671c1183203a9873817699071.png",
+    "https://play-lh.googleusercontent.com/-85OxFJSA-SAdi-n4uFHQ-iUELTlWQF1PJ5ACVI48AFqchccHqNGVJGiU3JdLdA9dhLjG6hmx8OWRYLnczdt5A": "9c9ce8c5052843caa417dcd3f66274ffa323b98b1c6ef7bc579f82c67787e003.png",
+    "https://play-lh.googleusercontent.com/HHT2gST8T5oyNxE0sPaw4Q3yLNdv2E478h4Zy61pA_G7vyO-xZ27dpXKR0q60knck82GoaCQE0VIrZ94uY0j4g": "0b550b86ee110c0496fca470919aa641c72920c456c2a308e66d82135d6efe11.png",
+    "https://play-lh.googleusercontent.com/soYjNrumD-7y8lWZalhy5eJ9D4kAMF-eZwCoq2AVVLxEv0KWrpnieDfW7E2x31ndo-Tt2PDoQlA4jiUs1rpt": "4e1bbe9ac14eb818bf4bd49b60c9047473f59c8baeeb8e862273316e3d09163d.png",
+    "https://play-lh.googleusercontent.com/Er5PoLb-KQ_VG8LLmVYzn-PhdyKap9CJJdTWbTSCbjEV5J5SS9xIR9ancwF-cROeL786lRC5X7LBQrU9QQi04A": "0f3bbbd5f3165be8f4689225152f64179bbadb7bb8520a676f86e3acdb3f1d0a.png",
+    "https://play-lh.googleusercontent.com/sgGikUbnGz4ENKxj9z1wPUpnq62476p5GWggm4XBqFT0HR4BfX1b7uZod9IdHQO0McbjPGHA41AgZBm1k1KBTw": "1a30c21f2feaf6ff9890bd2f5ad25b8dc5b7d66ee42f940e2e2b1b9b299d75f6.png",
+    "https://play-lh.googleusercontent.com/VnmHGTE0Ggh6dMlaM4CfRG5Wm1dHE9jfsf5hHmUX0cUeQbbZoLa4k0qIG-fce0dNXI5qRPUM6harWBHEFJpJoA": "eba8e9cdae56336f2060a2053953d97b3e8c2f4802b770c5c0e901b8b5e9faf4.png"
   }
 }
