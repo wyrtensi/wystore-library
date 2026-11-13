@@ -54011,40 +54011,40 @@
     {
       "artifacts": [
         {
-          "name": "025a818106c212c146282e24c6afaa643bd460afbd88817eb360e6373daceb29.apk",
-          "sha256": "025a818106c212c146282e24c6afaa643bd460afbd88817eb360e6373daceb29",
-          "size": 1745704,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/025a818106c212c146282e24c6afaa643bd460afbd88817eb360e6373daceb29.apk"
-        },
-        {
-          "name": "0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58.apk",
-          "sha256": "0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58",
-          "size": 2200495,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58.apk"
-        },
-        {
-          "name": "b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574.apk",
-          "sha256": "b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574",
+          "name": "16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143.apk",
+          "sha256": "16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143",
           "size": 5046851,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143.apk"
         },
         {
-          "name": "b6ecaae5130f39ca165f402dea09df35d8acfa6fd1d8f68a5e23ccb0a69c07f4.apk",
-          "sha256": "b6ecaae5130f39ca165f402dea09df35d8acfa6fd1d8f68a5e23ccb0a69c07f4",
-          "size": 6046260,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/b6ecaae5130f39ca165f402dea09df35d8acfa6fd1d8f68a5e23ccb0a69c07f4.apk"
+          "name": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69.apk",
+          "sha256": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69",
+          "size": 62599111,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69.apk"
         },
         {
-          "name": "bf1ea7367626e2dbeacd73ce7420f3fea3e9aaa298fecf9b71f4284800479260.apk",
-          "sha256": "bf1ea7367626e2dbeacd73ce7420f3fea3e9aaa298fecf9b71f4284800479260",
+          "name": "5fd70c8362f47601a935ba8b95645954da5537ff52a797ead1b4b6b558ee1782.apk",
+          "sha256": "5fd70c8362f47601a935ba8b95645954da5537ff52a797ead1b4b6b558ee1782",
           "size": 602592,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/bf1ea7367626e2dbeacd73ce7420f3fea3e9aaa298fecf9b71f4284800479260.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/5fd70c8362f47601a935ba8b95645954da5537ff52a797ead1b4b6b558ee1782.apk"
         },
         {
-          "name": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076.apk",
-          "sha256": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076",
-          "size": 61824238,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076.apk"
+          "name": "a5404a997c0ff445601f14f9e16cfb8e406618ea51a6c3b64c727db32b5d61f3.apk",
+          "sha256": "a5404a997c0ff445601f14f9e16cfb8e406618ea51a6c3b64c727db32b5d61f3",
+          "size": 6046260,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/a5404a997c0ff445601f14f9e16cfb8e406618ea51a6c3b64c727db32b5d61f3.apk"
+        },
+        {
+          "name": "ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686.apk",
+          "sha256": "ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686",
+          "size": 2200495,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686.apk"
+        },
+        {
+          "name": "f1a340f3882aa1fab1ebcbca2afa7c5396153b71cf0a0388bc565af44a0d63f9.apk",
+          "sha256": "f1a340f3882aa1fab1ebcbca2afa7c5396153b71cf0a0388bc565af44a0d63f9",
+          "size": 1745704,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/f1a340f3882aa1fab1ebcbca2afa7c5396153b71cf0a0388bc565af44a0d63f9.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -54052,16 +54052,16 @@
       "package": "com.myfitnesspal.android",
       "publication": {
         "catalog": {
-          "name": "catalog-cddc610095b1b3688ad285afc77c63f3f8827e1a7101c90da394cb09813056d5.json",
-          "sha256": "cddc610095b1b3688ad285afc77c63f3f8827e1a7101c90da394cb09813056d5",
+          "name": "catalog-904908e1720f2942efca3d161d29f284b958ea3b1ef490894137640afe4bb655.json",
+          "sha256": "904908e1720f2942efca3d161d29f284b958ea3b1ef490894137640afe4bb655",
           "size": 19278,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/catalog-cddc610095b1b3688ad285afc77c63f3f8827e1a7101c90da394cb09813056d5.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/catalog-904908e1720f2942efca3d161d29f284b958ea3b1ef490894137640afe4bb655.json"
         },
         "compat_manifest": {
-          "name": "manifest-916528e002a5f19f5d0a425ee4d62669132ba5925b450b1b4391fb86b57cd52d.json",
-          "sha256": "916528e002a5f19f5d0a425ee4d62669132ba5925b450b1b4391fb86b57cd52d",
+          "name": "manifest-548acf764d9b09e6efd07f9088ea425b7657cca87990aad47d8cab7207a86464.json",
+          "sha256": "548acf764d9b09e6efd07f9088ea425b7657cca87990aad47d8cab7207a86464",
           "size": 1009,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/manifest-916528e002a5f19f5d0a425ee4d62669132ba5925b450b1b4391fb86b57cd52d.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/manifest-548acf764d9b09e6efd07f9088ea425b7657cca87990aad47d8cab7207a86464.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.myfitnesspal.android-library",
         "tag": "com.myfitnesspal.android-library"
@@ -54164,19 +54164,19 @@
           },
           "files": [
             {
-              "artifact": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076",
+              "artifact": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574",
+              "artifact": "16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58",
+              "artifact": "ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -54184,8 +54184,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 51651,
-          "version_name": "26.44.0"
+          "version_code": 51670,
+          "version_name": "26.45.0"
         },
         {
           "certificate_sha256": [
@@ -54224,25 +54224,25 @@
           },
           "files": [
             {
-              "artifact": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076",
+              "artifact": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574",
+              "artifact": "16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf1ea7367626e2dbeacd73ce7420f3fea3e9aaa298fecf9b71f4284800479260",
+              "artifact": "5fd70c8362f47601a935ba8b95645954da5537ff52a797ead1b4b6b558ee1782",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58",
+              "artifact": "ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -54250,8 +54250,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 51651,
-          "version_name": "26.44.0"
+          "version_code": 51670,
+          "version_name": "26.45.0"
         },
         {
           "certificate_sha256": [
@@ -54288,19 +54288,19 @@
           },
           "files": [
             {
-              "artifact": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076",
+              "artifact": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "b6ecaae5130f39ca165f402dea09df35d8acfa6fd1d8f68a5e23ccb0a69c07f4",
+              "artifact": "a5404a997c0ff445601f14f9e16cfb8e406618ea51a6c3b64c727db32b5d61f3",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "025a818106c212c146282e24c6afaa643bd460afbd88817eb360e6373daceb29",
+              "artifact": "f1a340f3882aa1fab1ebcbca2afa7c5396153b71cf0a0388bc565af44a0d63f9",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -54308,8 +54308,8 @@
           ],
           "id": "android13_x86_64_en",
           "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
-          "version_code": 51651,
-          "version_name": "26.44.0"
+          "version_code": 51670,
+          "version_name": "26.45.0"
         },
         {
           "certificate_sha256": [
@@ -54348,25 +54348,25 @@
           },
           "files": [
             {
-              "artifact": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076",
+              "artifact": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "bf1ea7367626e2dbeacd73ce7420f3fea3e9aaa298fecf9b71f4284800479260",
+              "artifact": "5fd70c8362f47601a935ba8b95645954da5537ff52a797ead1b4b6b558ee1782",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "b6ecaae5130f39ca165f402dea09df35d8acfa6fd1d8f68a5e23ccb0a69c07f4",
+              "artifact": "a5404a997c0ff445601f14f9e16cfb8e406618ea51a6c3b64c727db32b5d61f3",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "025a818106c212c146282e24c6afaa643bd460afbd88817eb360e6373daceb29",
+              "artifact": "f1a340f3882aa1fab1ebcbca2afa7c5396153b71cf0a0388bc565af44a0d63f9",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -54374,8 +54374,8 @@
           ],
           "id": "android13_x86_64_ru",
           "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
-          "version_code": 51651,
-          "version_name": "26.44.0"
+          "version_code": 51670,
+          "version_name": "26.45.0"
         },
         {
           "certificate_sha256": [
@@ -54412,19 +54412,19 @@
           },
           "files": [
             {
-              "artifact": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076",
+              "artifact": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574",
+              "artifact": "16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58",
+              "artifact": "ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -54432,8 +54432,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 51651,
-          "version_name": "26.44.0"
+          "version_code": 51670,
+          "version_name": "26.45.0"
         },
         {
           "certificate_sha256": [
@@ -54472,25 +54472,25 @@
           },
           "files": [
             {
-              "artifact": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076",
+              "artifact": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574",
+              "artifact": "16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf1ea7367626e2dbeacd73ce7420f3fea3e9aaa298fecf9b71f4284800479260",
+              "artifact": "5fd70c8362f47601a935ba8b95645954da5537ff52a797ead1b4b6b558ee1782",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58",
+              "artifact": "ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -54498,8 +54498,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 51651,
-          "version_name": "26.44.0"
+          "version_code": 51670,
+          "version_name": "26.45.0"
         },
         {
           "certificate_sha256": [
@@ -54538,25 +54538,25 @@
           },
           "files": [
             {
-              "artifact": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076",
+              "artifact": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574",
+              "artifact": "16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bf1ea7367626e2dbeacd73ce7420f3fea3e9aaa298fecf9b71f4284800479260",
+              "artifact": "5fd70c8362f47601a935ba8b95645954da5537ff52a797ead1b4b6b558ee1782",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58",
+              "artifact": "ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -54564,8 +54564,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 51651,
-          "version_name": "26.44.0"
+          "version_code": 51670,
+          "version_name": "26.45.0"
         },
         {
           "certificate_sha256": [
@@ -54602,19 +54602,19 @@
           },
           "files": [
             {
-              "artifact": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076",
+              "artifact": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574",
+              "artifact": "16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58",
+              "artifact": "ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -54622,8 +54622,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 51651,
-          "version_name": "26.44.0"
+          "version_code": 51670,
+          "version_name": "26.45.0"
         }
       ]
     },
@@ -85640,42 +85640,42 @@
     {
       "assets": [
         {
-          "name": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076.apk",
+          "name": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69.apk",
           "role": "base",
-          "sha256": "ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076",
-          "size": 61824238,
+          "sha256": "3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69",
+          "size": 62599111,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/ea23903ff2442f3ea63373929135c891631bdadd67fa0e18c64cf144dc59a076.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/3bbed961aae074241d2b12f9e952164bcdd0a0151cc945a5c5492898f7f0cd69.apk"
         },
         {
-          "name": "b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574.apk",
+          "name": "16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143.apk",
           "role": "split",
-          "sha256": "b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574",
+          "sha256": "16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143",
           "size": 5046851,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/b54b019caa698f949880a44ba9ccec3512de35baa33a3d9dba9fd4ca39809574.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/16bddaa459a0b0a826b3ddb7e2b3f151157c2e3767ff329fef346383880ba143.apk"
         },
         {
-          "name": "0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58.apk",
+          "name": "ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686.apk",
           "role": "split",
-          "sha256": "0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58",
+          "sha256": "ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686",
           "size": 2200495,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/0d7d3775bfcdd8742476169508c2046da494b40a27d14eb82f4113c576923e58.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/ce2160b11e741b61122d984292d746d84d79831e5b9ba621b9c6875324634686.apk"
         }
       ],
       "certificate_sha256": [
         "e2f39185315095611b23f9602cef6332a89db8960ee76a45fb41eeef4975d95d"
       ],
-      "manifest_sha256": "916528e002a5f19f5d0a425ee4d62669132ba5925b450b1b4391fb86b57cd52d",
+      "manifest_sha256": "548acf764d9b09e6efd07f9088ea425b7657cca87990aad47d8cab7207a86464",
       "manifest_size": 1009,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/manifest-916528e002a5f19f5d0a425ee4d62669132ba5925b450b1b4391fb86b57cd52d.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.myfitnesspal.android-library/manifest-548acf764d9b09e6efd07f9088ea425b7657cca87990aad47d8cab7207a86464.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.myfitnesspal.android/metadata.json",
       "package": "com.myfitnesspal.android",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.myfitnesspal.android-library",
-      "version_code": 51651,
-      "version_name": "26.44.0"
+      "version_code": 51670,
+      "version_name": "26.45.0"
     },
     {
       "assets": [
