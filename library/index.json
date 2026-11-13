@@ -23415,64 +23415,64 @@
     {
       "artifacts": [
         {
-          "name": "087fe263a5df14648604fc545d5b3c529f14e427394d44be2796918ac1871bef.apk",
-          "sha256": "087fe263a5df14648604fc545d5b3c529f14e427394d44be2796918ac1871bef",
-          "size": 109868455,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/087fe263a5df14648604fc545d5b3c529f14e427394d44be2796918ac1871bef.apk"
+          "name": "0ee1941e4056aa43163eb5751fc7865269b9d7a548928de67f8417280521eadf.apk",
+          "sha256": "0ee1941e4056aa43163eb5751fc7865269b9d7a548928de67f8417280521eadf",
+          "size": 9458737,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/0ee1941e4056aa43163eb5751fc7865269b9d7a548928de67f8417280521eadf.apk"
         },
         {
-          "name": "1f70e289a10d77e8ed8d428d4097fdb1a55d6ecd6a3cc10d8c2886504cbdd790.apk",
-          "sha256": "1f70e289a10d77e8ed8d428d4097fdb1a55d6ecd6a3cc10d8c2886504cbdd790",
-          "size": 2509520,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/1f70e289a10d77e8ed8d428d4097fdb1a55d6ecd6a3cc10d8c2886504cbdd790.apk"
-        },
-        {
-          "name": "286275164497dd339b65002f64cec15b5aac12441bdd3d3f9c9f9491f36e83f6.apk",
-          "sha256": "286275164497dd339b65002f64cec15b5aac12441bdd3d3f9c9f9491f36e83f6",
-          "size": 9401236,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/286275164497dd339b65002f64cec15b5aac12441bdd3d3f9c9f9491f36e83f6.apk"
-        },
-        {
-          "name": "9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6.apk",
-          "sha256": "9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6",
-          "size": 109016487,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6.apk"
-        },
-        {
-          "name": "ac6699cd14a22ad2ac5af20dd6e9c00c2d0bf372cb60e5851ee8ec0d54b1fae2.apk",
-          "sha256": "ac6699cd14a22ad2ac5af20dd6e9c00c2d0bf372cb60e5851ee8ec0d54b1fae2",
-          "size": 590034,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/ac6699cd14a22ad2ac5af20dd6e9c00c2d0bf372cb60e5851ee8ec0d54b1fae2.apk"
-        },
-        {
-          "name": "b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629.apk",
-          "sha256": "b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629",
-          "size": 2370256,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629.apk"
-        },
-        {
-          "name": "b50841f43c683af3273500275d4dd265bf7066dee660f3c517730b4ae70d7618.apk",
-          "sha256": "b50841f43c683af3273500275d4dd265bf7066dee660f3c517730b4ae70d7618",
-          "size": 774354,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/b50841f43c683af3273500275d4dd265bf7066dee660f3c517730b4ae70d7618.apk"
-        },
-        {
-          "name": "b6d6efe1c7f1d069f6f5a22dd0286af23ee4db88ecb44ca4dd3a1c274d1a064f.apk",
-          "sha256": "b6d6efe1c7f1d069f6f5a22dd0286af23ee4db88ecb44ca4dd3a1c274d1a064f",
-          "size": 569554,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/b6d6efe1c7f1d069f6f5a22dd0286af23ee4db88ecb44ca4dd3a1c274d1a064f.apk"
-        },
-        {
-          "name": "dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385.apk",
-          "sha256": "dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385",
-          "size": 9401236,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385.apk"
-        },
-        {
-          "name": "ed71a9447aff2b12d60072c8afd2c6a066e00b94c7a408a7c63393f118106f66.apk",
-          "sha256": "ed71a9447aff2b12d60072c8afd2c6a066e00b94c7a408a7c63393f118106f66",
+          "name": "21159a31a856a6c66c1f5461f9fc75dfb8f5aae9c3e22f5fcfc0f495090137a9.apk",
+          "sha256": "21159a31a856a6c66c1f5461f9fc75dfb8f5aae9c3e22f5fcfc0f495090137a9",
           "size": 975058,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/ed71a9447aff2b12d60072c8afd2c6a066e00b94c7a408a7c63393f118106f66.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/21159a31a856a6c66c1f5461f9fc75dfb8f5aae9c3e22f5fcfc0f495090137a9.apk"
+        },
+        {
+          "name": "5231712e2d5d29349144e0d625d3ebb909a3501bee8d9fa09ee6bd0f9a51f590.apk",
+          "sha256": "5231712e2d5d29349144e0d625d3ebb909a3501bee8d9fa09ee6bd0f9a51f590",
+          "size": 590034,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/5231712e2d5d29349144e0d625d3ebb909a3501bee8d9fa09ee6bd0f9a51f590.apk"
+        },
+        {
+          "name": "5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2.apk",
+          "sha256": "5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2",
+          "size": 111964968,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2.apk"
+        },
+        {
+          "name": "75a6ab29955d9d4aa400caf0ee3091e496f10baee24f7f53156fa3cf33ad9d97.apk",
+          "sha256": "75a6ab29955d9d4aa400caf0ee3091e496f10baee24f7f53156fa3cf33ad9d97",
+          "size": 774354,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/75a6ab29955d9d4aa400caf0ee3091e496f10baee24f7f53156fa3cf33ad9d97.apk"
+        },
+        {
+          "name": "7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34.apk",
+          "sha256": "7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34",
+          "size": 9458737,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34.apk"
+        },
+        {
+          "name": "97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70.apk",
+          "sha256": "97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70",
+          "size": 2370256,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70.apk"
+        },
+        {
+          "name": "ac8c73c0f33837bcb8ae33fb27d046c22ec288783cdf2e5235697686a1e380a4.apk",
+          "sha256": "ac8c73c0f33837bcb8ae33fb27d046c22ec288783cdf2e5235697686a1e380a4",
+          "size": 569554,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/ac8c73c0f33837bcb8ae33fb27d046c22ec288783cdf2e5235697686a1e380a4.apk"
+        },
+        {
+          "name": "b85ae2adab933431d31fd4d3961ea8e6fcee527bf20a2f1754eb64918bef603b.apk",
+          "sha256": "b85ae2adab933431d31fd4d3961ea8e6fcee527bf20a2f1754eb64918bef603b",
+          "size": 2509520,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/b85ae2adab933431d31fd4d3961ea8e6fcee527bf20a2f1754eb64918bef603b.apk"
+        },
+        {
+          "name": "eb075df1d6cc9fd3300e52785f44778ab3ea6de3b98a27b6bed49abd4596d77a.apk",
+          "sha256": "eb075df1d6cc9fd3300e52785f44778ab3ea6de3b98a27b6bed49abd4596d77a",
+          "size": 112812840,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/eb075df1d6cc9fd3300e52785f44778ab3ea6de3b98a27b6bed49abd4596d77a.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -23480,16 +23480,16 @@
       "package": "com.bumble.app",
       "publication": {
         "catalog": {
-          "name": "catalog-80a0131e766d86807cb8df6618efd8f7e02b1761b30f53b43b764d63ae5f1ae0.json",
-          "sha256": "80a0131e766d86807cb8df6618efd8f7e02b1761b30f53b43b764d63ae5f1ae0",
+          "name": "catalog-f9b01dd3c5277a12f04069a1f532ed410a33f19f46538380d50e4ec28e80f4d2.json",
+          "sha256": "f9b01dd3c5277a12f04069a1f532ed410a33f19f46538380d50e4ec28e80f4d2",
           "size": 22118,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/catalog-80a0131e766d86807cb8df6618efd8f7e02b1761b30f53b43b764d63ae5f1ae0.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/catalog-f9b01dd3c5277a12f04069a1f532ed410a33f19f46538380d50e4ec28e80f4d2.json"
         },
         "compat_manifest": {
-          "name": "manifest-4f0fbac523876c0477d09a712a21308cda438c83274ec9109d5c07633458b2e3.json",
-          "sha256": "4f0fbac523876c0477d09a712a21308cda438c83274ec9109d5c07633458b2e3",
+          "name": "manifest-ee0d2339aab3e0d23aa27f55b565bdd4809ddb1c552bc63789594867f447f4bf.json",
+          "sha256": "ee0d2339aab3e0d23aa27f55b565bdd4809ddb1c552bc63789594867f447f4bf",
           "size": 1254,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/manifest-4f0fbac523876c0477d09a712a21308cda438c83274ec9109d5c07633458b2e3.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/manifest-ee0d2339aab3e0d23aa27f55b565bdd4809ddb1c552bc63789594867f447f4bf.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.bumble.app-library",
         "tag": "com.bumble.app-library"
@@ -23600,25 +23600,25 @@
           },
           "files": [
             {
-              "artifact": "087fe263a5df14648604fc545d5b3c529f14e427394d44be2796918ac1871bef",
+              "artifact": "eb075df1d6cc9fd3300e52785f44778ab3ea6de3b98a27b6bed49abd4596d77a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "286275164497dd339b65002f64cec15b5aac12441bdd3d3f9c9f9491f36e83f6",
+              "artifact": "0ee1941e4056aa43163eb5751fc7865269b9d7a548928de67f8417280521eadf",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "ed71a9447aff2b12d60072c8afd2c6a066e00b94c7a408a7c63393f118106f66",
+              "artifact": "21159a31a856a6c66c1f5461f9fc75dfb8f5aae9c3e22f5fcfc0f495090137a9",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "1f70e289a10d77e8ed8d428d4097fdb1a55d6ecd6a3cc10d8c2886504cbdd790",
+              "artifact": "b85ae2adab933431d31fd4d3961ea8e6fcee527bf20a2f1754eb64918bef603b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -23626,8 +23626,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 4133,
-          "version_name": "5.491.0"
+          "version_code": 4139,
+          "version_name": "5.492.0"
         },
         {
           "certificate_sha256": [
@@ -23666,25 +23666,25 @@
           },
           "files": [
             {
-              "artifact": "087fe263a5df14648604fc545d5b3c529f14e427394d44be2796918ac1871bef",
+              "artifact": "eb075df1d6cc9fd3300e52785f44778ab3ea6de3b98a27b6bed49abd4596d77a",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "286275164497dd339b65002f64cec15b5aac12441bdd3d3f9c9f9491f36e83f6",
+              "artifact": "0ee1941e4056aa43163eb5751fc7865269b9d7a548928de67f8417280521eadf",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "ac6699cd14a22ad2ac5af20dd6e9c00c2d0bf372cb60e5851ee8ec0d54b1fae2",
+              "artifact": "5231712e2d5d29349144e0d625d3ebb909a3501bee8d9fa09ee6bd0f9a51f590",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "1f70e289a10d77e8ed8d428d4097fdb1a55d6ecd6a3cc10d8c2886504cbdd790",
+              "artifact": "b85ae2adab933431d31fd4d3961ea8e6fcee527bf20a2f1754eb64918bef603b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -23692,8 +23692,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 4133,
-          "version_name": "5.491.0"
+          "version_code": 4139,
+          "version_name": "5.492.0"
         },
         {
           "certificate_sha256": [
@@ -23738,25 +23738,25 @@
           },
           "files": [
             {
-              "artifact": "9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6",
+              "artifact": "5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385",
+              "artifact": "7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b50841f43c683af3273500275d4dd265bf7066dee660f3c517730b4ae70d7618",
+              "artifact": "75a6ab29955d9d4aa400caf0ee3091e496f10baee24f7f53156fa3cf33ad9d97",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629",
+              "artifact": "97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -23764,8 +23764,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 4133,
-          "version_name": "5.491.0"
+          "version_code": 4139,
+          "version_name": "5.492.0"
         },
         {
           "certificate_sha256": [
@@ -23804,25 +23804,25 @@
           },
           "files": [
             {
-              "artifact": "9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6",
+              "artifact": "5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385",
+              "artifact": "7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b6d6efe1c7f1d069f6f5a22dd0286af23ee4db88ecb44ca4dd3a1c274d1a064f",
+              "artifact": "ac8c73c0f33837bcb8ae33fb27d046c22ec288783cdf2e5235697686a1e380a4",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629",
+              "artifact": "97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -23830,8 +23830,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 4133,
-          "version_name": "5.491.0"
+          "version_code": 4139,
+          "version_name": "5.492.0"
         },
         {
           "certificate_sha256": [
@@ -23876,25 +23876,25 @@
           },
           "files": [
             {
-              "artifact": "9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6",
+              "artifact": "5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385",
+              "artifact": "7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b50841f43c683af3273500275d4dd265bf7066dee660f3c517730b4ae70d7618",
+              "artifact": "75a6ab29955d9d4aa400caf0ee3091e496f10baee24f7f53156fa3cf33ad9d97",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629",
+              "artifact": "97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -23902,8 +23902,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 4133,
-          "version_name": "5.491.0"
+          "version_code": 4139,
+          "version_name": "5.492.0"
         },
         {
           "certificate_sha256": [
@@ -23942,25 +23942,25 @@
           },
           "files": [
             {
-              "artifact": "9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6",
+              "artifact": "5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385",
+              "artifact": "7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b6d6efe1c7f1d069f6f5a22dd0286af23ee4db88ecb44ca4dd3a1c274d1a064f",
+              "artifact": "ac8c73c0f33837bcb8ae33fb27d046c22ec288783cdf2e5235697686a1e380a4",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629",
+              "artifact": "97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -23968,8 +23968,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 4133,
-          "version_name": "5.491.0"
+          "version_code": 4139,
+          "version_name": "5.492.0"
         },
         {
           "certificate_sha256": [
@@ -24008,25 +24008,25 @@
           },
           "files": [
             {
-              "artifact": "9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6",
+              "artifact": "5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385",
+              "artifact": "7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b6d6efe1c7f1d069f6f5a22dd0286af23ee4db88ecb44ca4dd3a1c274d1a064f",
+              "artifact": "ac8c73c0f33837bcb8ae33fb27d046c22ec288783cdf2e5235697686a1e380a4",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629",
+              "artifact": "97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -24034,8 +24034,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 4133,
-          "version_name": "5.491.0"
+          "version_code": 4139,
+          "version_name": "5.492.0"
         },
         {
           "certificate_sha256": [
@@ -24080,25 +24080,25 @@
           },
           "files": [
             {
-              "artifact": "9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6",
+              "artifact": "5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385",
+              "artifact": "7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b50841f43c683af3273500275d4dd265bf7066dee660f3c517730b4ae70d7618",
+              "artifact": "75a6ab29955d9d4aa400caf0ee3091e496f10baee24f7f53156fa3cf33ad9d97",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629",
+              "artifact": "97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -24106,8 +24106,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 4133,
-          "version_name": "5.491.0"
+          "version_code": 4139,
+          "version_name": "5.492.0"
         }
       ]
     },
@@ -84656,50 +84656,50 @@
     {
       "assets": [
         {
-          "name": "9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6.apk",
+          "name": "5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2.apk",
           "role": "base",
-          "sha256": "9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6",
-          "size": 109016487,
+          "sha256": "5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2",
+          "size": 111964968,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/9178a1eb3daff233353c2721dc8ed734e850aa1ea2c594a8fad7ca53447b19a6.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/5f97a815b83c26dfb22140b4572b775f1266425c5d7eb6a292dca2978f7700c2.apk"
         },
         {
-          "name": "dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385.apk",
+          "name": "7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34.apk",
           "role": "split",
-          "sha256": "dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385",
-          "size": 9401236,
+          "sha256": "7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34",
+          "size": 9458737,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/dab3c5e5d3c85c75961529dc2e9266fc558746545364e7d7d6c5ba92ca19c385.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/7b3846b414055f15943b75810151b9d5176637a73c09911bf9dd72f59ed7de34.apk"
         },
         {
-          "name": "b50841f43c683af3273500275d4dd265bf7066dee660f3c517730b4ae70d7618.apk",
+          "name": "75a6ab29955d9d4aa400caf0ee3091e496f10baee24f7f53156fa3cf33ad9d97.apk",
           "role": "split",
-          "sha256": "b50841f43c683af3273500275d4dd265bf7066dee660f3c517730b4ae70d7618",
+          "sha256": "75a6ab29955d9d4aa400caf0ee3091e496f10baee24f7f53156fa3cf33ad9d97",
           "size": 774354,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/b50841f43c683af3273500275d4dd265bf7066dee660f3c517730b4ae70d7618.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/75a6ab29955d9d4aa400caf0ee3091e496f10baee24f7f53156fa3cf33ad9d97.apk"
         },
         {
-          "name": "b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629.apk",
+          "name": "97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70.apk",
           "role": "split",
-          "sha256": "b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629",
+          "sha256": "97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70",
           "size": 2370256,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/b0262acd8a975632483c87ad916f081f8dbaccd8695dc5dbc95432db73c7d629.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/97df5cdbfdea62a859b3e57522cdb472c096ece05d9c4701fd0a9501c7250d70.apk"
         }
       ],
       "certificate_sha256": [
         "e29e741af1ed089e8ba189fe55b3eee768308217502b8ecfe3a5c216a51dc3bf"
       ],
-      "manifest_sha256": "4f0fbac523876c0477d09a712a21308cda438c83274ec9109d5c07633458b2e3",
+      "manifest_sha256": "ee0d2339aab3e0d23aa27f55b565bdd4809ddb1c552bc63789594867f447f4bf",
       "manifest_size": 1254,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/manifest-4f0fbac523876c0477d09a712a21308cda438c83274ec9109d5c07633458b2e3.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.bumble.app-library/manifest-ee0d2339aab3e0d23aa27f55b565bdd4809ddb1c552bc63789594867f447f4bf.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.bumble.app/metadata.json",
       "package": "com.bumble.app",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.bumble.app-library",
-      "version_code": 4133,
-      "version_name": "5.491.0"
+      "version_code": 4139,
+      "version_name": "5.492.0"
     },
     {
       "assets": [
