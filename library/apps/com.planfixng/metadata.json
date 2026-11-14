@@ -8,10 +8,10 @@
       "developer": "Planfix Inc.",
       "description": "Planfix помогает организовать совместную работу людей и управлять ею.<br>С помощью Planfix вы можете ставить задачи сотрудникам, общаться с клиентами, работать над проектами, распределять и отслеживать заявки — и многое другое.<br><br>Planfix одинаково хорошо подходит для бизнеса и некоммерческих организаций, общественных объединений или любой другой группы людей, работающих над общим делом.",
       "shortDescription": "Planfix— это платформа для создания системы управления предприятием",
-      "versionName": "0.74.2",
-      "updatedDate": "2026-10-18",
+      "versionName": "0.75",
+      "updatedDate": "2026-11-13",
       "playUrl": "https://play.google.com/store/apps/details?id=com.planfixng",
-      "changelog": "Что нового:<br>• Небольшие доработки и исправления ошибок",
+      "changelog": "Новое:<br>— Вход по QR-коду.<br>— Отправка файлов в другие приложения.<br>— Раздел «Избранное».<br>— Просмотр комментариев в карточке сотрудника.<br><br>Доработки:<br>— Вертикальное расположение виджетов в планировщике.<br>— Добавление отложенных комментариев по лонгтапу.<br>— Меню действий в расписании при долгом нажатии на событие.<br>— Смена статуса задачи в планировщике.<br>— Создание общей задачи для нескольких выбранных контактов.",
       "icon": "images/cb5fb1cd1554835a10e4c26e70c506dd85f6a9eaab9c295408238b1c0abed8dd.png",
       "screenshots": [
         "images/65ff548ff13a5456c04b49d007c0ec83381961b3c0527305d35b23a2ad1e4ebb.png",
@@ -28,10 +28,10 @@
       "developer": "Planfix Inc.",
       "description": "Planfix is a SaaS management system that works according to your rules. You can use Planfix to manage your organization's internal tasks, project management, client requests, CRM, support, logistics, and much more. A significant advantage of Planfix is that it provides the ability to use one system for all your business units. All departments and offices work in one general information space. As orders, projects, and tasks reach different stages, they are taken on by various departments, who all exchange data. This helps your organization work like a fine-tuned machine — no data is lost, and no time is spent transferring it between different systems.<br><br>Configuration happens through the web service. The mobile app lets you receive messages from colleagues and clients — regarding new tasks, comments, and reminders — and handle them quickly and effectively. The app is currently being actively developed, and every release contains new features.",
       "shortDescription": "Planfix is a platform for creating Enterprise Management Systems",
-      "versionName": "0.74.2",
-      "updatedDate": "2026-10-18",
+      "versionName": "0.75",
+      "updatedDate": "2026-11-13",
       "playUrl": "https://play.google.com/store/apps/details?id=com.planfixng",
-      "changelog": "What's new:<br>• Minor bug fixes and updates",
+      "changelog": "What’s new:<br>– Sign in with a QR code.<br>– Share files from Planfix with other apps.<br>– Access your favorite items in the new Favorites section.<br>– View an employee’s comments right from their profile.<br><br>Improvements:<br>– Choose a vertical layout for Planner widgets in the web app, and you’ll see the same layout on mobile.<br>– Add scheduled comments with a long press, whether you’re using the quick or full comment form.<br>– Change a task’s status right from Planner.",
       "icon": "images/cb5fb1cd1554835a10e4c26e70c506dd85f6a9eaab9c295408238b1c0abed8dd.png",
       "screenshots": [
         "images/96e6960eafa3ddc4780e8cec8ffb77c2064e7ea5dd70514325a02cf17064f8ed.png",
@@ -50,6 +50,11 @@
         "versionName": "0.74.2",
         "updatedDate": "2026-10-18",
         "text": "Что нового:<br>• Небольшие доработки и исправления ошибок"
+      },
+      {
+        "versionName": "0.75",
+        "updatedDate": "2026-11-13",
+        "text": "Новое:<br>— Вход по QR-коду.<br>— Отправка файлов в другие приложения.<br>— Раздел «Избранное».<br>— Просмотр комментариев в карточке сотрудника.<br><br>Доработки:<br>— Вертикальное расположение виджетов в планировщике.<br>— Добавление отложенных комментариев по лонгтапу.<br>— Меню действий в расписании при долгом нажатии на событие.<br>— Смена статуса задачи в планировщике.<br>— Создание общей задачи для нескольких выбранных контактов."
       }
     ],
     "en_US": [
@@ -57,6 +62,11 @@
         "versionName": "0.74.2",
         "updatedDate": "2026-10-18",
         "text": "What's new:<br>• Minor bug fixes and updates"
+      },
+      {
+        "versionName": "0.75",
+        "updatedDate": "2026-11-13",
+        "text": "What’s new:<br>– Sign in with a QR code.<br>– Share files from Planfix with other apps.<br>– Access your favorite items in the new Favorites section.<br>– View an employee’s comments right from their profile.<br><br>Improvements:<br>– Choose a vertical layout for Planner widgets in the web app, and you’ll see the same layout on mobile.<br>– Add scheduled comments with a long press, whether you’re using the quick or full comment form.<br>– Change a task’s status right from Planner."
       }
     ]
   },

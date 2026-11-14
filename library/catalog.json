@@ -1055,13 +1055,13 @@
     {
       "package": "com.avast.android.mobilesecurity",
       "metadataPath": "apps/com.avast.android.mobilesecurity/metadata.json",
-      "title": "Avast One: антивирус & VPN",
+      "title": "Avast антивирус & Безопасность",
       "developer": "Avast Software",
       "icon": "apps/com.avast.android.mobilesecurity/images/6b6d09e26751ef51c1c0363ab96c94f4adafd33cb4cac75a9fe1e59af4656361.png",
       "foreign_category": true,
       "locales": {
         "ru_RU": {
-          "title": "Avast One: антивирус & VPN",
+          "title": "Avast антивирус & Безопасность",
           "shortDescription": "Мобильная защита эл. почты, SMS и от мошенников и вирусов, блокировщик вызовов."
         },
         "en_US": {
