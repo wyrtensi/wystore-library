@@ -936,11 +936,11 @@
       "locales": {
         "ru_RU": {
           "title": "NewsBreak: Local News & Alerts",
-          "shortDescription": "Восстановите связь с вашим районом! Ежедневные оповещения о новостях для заголовков местных новостей!"
+          "shortDescription": "Ваш район, ваши предпочтения: события, погода, цены на бензин, карта преступности и оповещения."
         },
         "en_US": {
           "title": "NewsBreak: Local News & Alerts",
-          "shortDescription": "Reconnect with your neighborhood! Daily news alerts for local news headlines!"
+          "shortDescription": "Your neighborhood, your way: events, weather, gas prices, crime map & alerts"
         }
       },
       "categories": [
