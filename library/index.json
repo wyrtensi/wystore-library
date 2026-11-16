@@ -39246,6 +39246,12 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/1719b6634fc46985b50bcb1f8cb2f3307ee27890b3fd0c81b25029e8bad89a98.apk"
         },
         {
+          "name": "282880e1d605915997df8fd387c93089735fc285860ede026a3cdb354ce5f77b.apk",
+          "sha256": "282880e1d605915997df8fd387c93089735fc285860ede026a3cdb354ce5f77b",
+          "size": 353695,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/282880e1d605915997df8fd387c93089735fc285860ede026a3cdb354ce5f77b.apk"
+        },
+        {
           "name": "387746c8be48945d0a39924d946d2bc6a461ce99a9df831c0cd2f302e9c78cf2.apk",
           "sha256": "387746c8be48945d0a39924d946d2bc6a461ce99a9df831c0cd2f302e9c78cf2",
           "size": 243106,
@@ -39256,6 +39262,12 @@
           "sha256": "4d29a67d8257e7c45b767e613da79e09df6d3e7933357f07ecb0541e4a600500",
           "size": 1577535,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/4d29a67d8257e7c45b767e613da79e09df6d3e7933357f07ecb0541e4a600500.apk"
+        },
+        {
+          "name": "57f79fce89f293e98b6731540cbc5842e18042049bd133c9e6de698ae7e52e30.apk",
+          "sha256": "57f79fce89f293e98b6731540cbc5842e18042049bd133c9e6de698ae7e52e30",
+          "size": 45243716,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/57f79fce89f293e98b6731540cbc5842e18042049bd133c9e6de698ae7e52e30.apk"
         },
         {
           "name": "664eebc74145261f5549a68734802f2381e1e9396c8f9752542a4eb2ca34ff3d.apk",
@@ -39274,6 +39286,12 @@
           "sha256": "7199cdc49617080913f634e3578fcfc82cf65ee132016f9374fd9a8f42de0507",
           "size": 1548878,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/7199cdc49617080913f634e3578fcfc82cf65ee132016f9374fd9a8f42de0507.apk"
+        },
+        {
+          "name": "8d5168b6364c85771c1a770c936643195edf0b513eb6226c17ea63762df6d621.apk",
+          "sha256": "8d5168b6364c85771c1a770c936643195edf0b513eb6226c17ea63762df6d621",
+          "size": 1548878,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/8d5168b6364c85771c1a770c936643195edf0b513eb6226c17ea63762df6d621.apk"
         },
         {
           "name": "9e37730eb606b24d36920e5655cbde8eacdac525ce127efb3c81f5278ff82646.apk",
@@ -39317,10 +39335,10 @@
       "package": "com.google.android.apps.walletnfcrel",
       "publication": {
         "catalog": {
-          "name": "catalog-0d34d1968ce14b7d65a8ffd36794ba2a69c159900de04e52a1c65d0f32ecc1ea.json",
-          "sha256": "0d34d1968ce14b7d65a8ffd36794ba2a69c159900de04e52a1c65d0f32ecc1ea",
-          "size": 46247,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/catalog-0d34d1968ce14b7d65a8ffd36794ba2a69c159900de04e52a1c65d0f32ecc1ea.json"
+          "name": "catalog-661a5c6d7d119a622c2902ccaae73004afc4aadcea2dfc27ab7e4e75af70ea19.json",
+          "sha256": "661a5c6d7d119a622c2902ccaae73004afc4aadcea2dfc27ab7e4e75af70ea19",
+          "size": 47438,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.walletnfcrel-library/catalog-661a5c6d7d119a622c2902ccaae73004afc4aadcea2dfc27ab7e4e75af70ea19.json"
         },
         "compat_manifest": {
           "name": "manifest-55009d0a548d8c410ee72b71bb8e2f2484f11520c209de72b41690923565becf.json",
@@ -39547,19 +39565,19 @@
           },
           "files": [
             {
-              "artifact": "6f3cf622071e850d4c81e74734490fcba32602821a2098c550b92034117f3a95",
+              "artifact": "57f79fce89f293e98b6731540cbc5842e18042049bd133c9e6de698ae7e52e30",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "664eebc74145261f5549a68734802f2381e1e9396c8f9752542a4eb2ca34ff3d",
+              "artifact": "8d5168b6364c85771c1a770c936643195edf0b513eb6226c17ea63762df6d621",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "d7e475ad49657b3f9f0ab9f86606e07e199243ce607f12e3668740dd179cbb87",
+              "artifact": "282880e1d605915997df8fd387c93089735fc285860ede026a3cdb354ce5f77b",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -39567,8 +39585,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 934023188,
-          "version_name": "26.44.1009480308"
+          "version_code": 934024497,
+          "version_name": "26.44.1017588526"
         },
         {
           "certificate_scope": {
