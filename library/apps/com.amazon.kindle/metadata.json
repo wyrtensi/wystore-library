@@ -9,7 +9,7 @@
       "description": "READ ANYTIME, ANYWHERE<br>On the bus, on your break, in your bed—never be without something to read. The Kindle app puts millions of books, magazines, newspapers, comics, and manga at your fingertips.<br><br>FIND YOUR NEXT GREAT READ<br>- Find your next great read with Kindle. Choose from millions of Kindle books (including books with Audible narration), magazines, audiobooks, and comics. Explore new releases, Amazon Charts best sellers, and titles across genres like romance, science fiction, children’s books, self-help, religion, nonfiction, and more—and try any book with a sample in the app before you buy on Amazon.com<br><br>- Kindle Unlimited members can enjoy unlimited reading and listening, with the freedom to explore over 1 million titles, thousands of audiobooks, and current magazines.<br><br>- Thousands of books, magazines, comics, and more included with Amazon Prime. <br><br>GO BEYOND PAPER<br>Turn your phone or tablet into a book with the Kindle app—so you can read anytime, anywhere. Explore these reading features in the Kindle app:<br><br>- Read your way. Customize your text size, font type, margins, text alignment, and orientation (portrait or landscape)—and choose whether to turn pages from left to right or continuously scroll. Read comfortably day and night with adjustable brightness and background colors. Go to the Aa menu in your book to get started.<br><br>- Look up words, people, and places while you read. Breeze through words you don’t know and characters you can’t remember with the built-in dictionary, X-Ray, Wikipedia lookup, instant translations, and search within your book. Simply tap and hold a word to view its definition, or follow links to Google and Wikipedia to get more information.<br><br>- Track your reading progress. See what percent of the book you’ve read, real page numbers (for most top titles), and how much time you have left in the chapter or book based on your actual reading speed.<br><br>- Bookmark places you want to revisit, and make highlights and take notes throughout your book. Open My Notebook to see all your notes in the same place. <br><br>- Hop, skim, and jump with Page Flip. Flip between pages or get a bird’s-eye view of your book with Page Flip—don’t worry, we’ll save your place.<br><br>- Zoom in on high-definition color images in Kindle books, magazines, comics, and manga.<br><br>- Sync your books across devices. When you’re reading a book, the Kindle app will automatically sync where you left off—along with any bookmarks, highlights, or notes—so you can start reading on one device and pick up where you left off on another.<br><br>- When you can’t read, listen. Switch seamlessly from reading your Kindle book to listening to the Audible book, all within the Kindle app.<br><br>- Get notified when authors you love have new releases.<br><br>By using this app, you  agree to Amazon’s Conditions of Use (www.amazon.com/conditionsofuse)  and Privacy Notice (www.amazon.com/privacy).",
       "shortDescription": "Читайте книги. Миллионы электронных книг. Ваша библиотека в кармане, в любое время и в любом месте.",
       "versionName": null,
-      "updatedDate": "2026-10-22",
+      "updatedDate": "2026-11-16",
       "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.kindle",
       "changelog": "Several experience improvements and bug fixes.",
       "icon": "images/6882972f599423717ec82661775747586c780f7659c121602dc3c1b123230ac0.png",
@@ -30,7 +30,7 @@
       "description": "READ ANYTIME, ANYWHERE<br>On the bus, on your break, in your bed—never be without something to read. The Kindle app puts millions of books, magazines, newspapers, comics, and manga at your fingertips.<br><br>FIND YOUR NEXT GREAT READ<br>- Find your next great read with Kindle. Choose from millions of Kindle books (including books with Audible narration), magazines, audiobooks, and comics. Explore new releases, Amazon Charts best sellers, and titles across genres like romance, science fiction, children’s books, self-help, religion, nonfiction, and more—and try any book with a sample in the app before you buy on Amazon.com<br><br>- Kindle Unlimited members can enjoy unlimited reading and listening, with the freedom to explore over 1 million titles, thousands of audiobooks, and current magazines.<br><br>- Thousands of books, magazines, comics, and more included with Amazon Prime. <br><br>GO BEYOND PAPER<br>Turn your phone or tablet into a book with the Kindle app—so you can read anytime, anywhere. Explore these reading features in the Kindle app:<br><br>- Read your way. Customize your text size, font type, margins, text alignment, and orientation (portrait or landscape)—and choose whether to turn pages from left to right or continuously scroll. Read comfortably day and night with adjustable brightness and background colors. Go to the Aa menu in your book to get started.<br><br>- Look up words, people, and places while you read. Breeze through words you don’t know and characters you can’t remember with the built-in dictionary, X-Ray, Wikipedia lookup, instant translations, and search within your book. Simply tap and hold a word to view its definition, or follow links to Google and Wikipedia to get more information.<br><br>- Track your reading progress. See what percent of the book you’ve read, real page numbers (for most top titles), and how much time you have left in the chapter or book based on your actual reading speed.<br><br>- Bookmark places you want to revisit, and make highlights and take notes throughout your book. Open My Notebook to see all your notes in the same place. <br><br>- Hop, skim, and jump with Page Flip. Flip between pages or get a bird’s-eye view of your book with Page Flip—don’t worry, we’ll save your place.<br><br>- Zoom in on high-definition color images in Kindle books, magazines, comics, and manga.<br><br>- Sync your books across devices. When you’re reading a book, the Kindle app will automatically sync where you left off—along with any bookmarks, highlights, or notes—so you can start reading on one device and pick up where you left off on another.<br><br>- When you can’t read, listen. Switch seamlessly from reading your Kindle book to listening to the Audible book, all within the Kindle app.<br><br>- Get notified when authors you love have new releases.<br><br>By using this app, you  agree to Amazon’s Conditions of Use (www.amazon.com/conditionsofuse)  and Privacy Notice (www.amazon.com/privacy).",
       "shortDescription": "Read books. Millions of ebooks. Your library in your pocket, anytime, anywhere.",
       "versionName": null,
-      "updatedDate": "2026-10-22",
+      "updatedDate": "2026-11-16",
       "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.kindle",
       "changelog": "Several experience improvements and bug fixes.",
       "icon": "images/6882972f599423717ec82661775747586c780f7659c121602dc3c1b123230ac0.png",
@@ -52,12 +52,22 @@
         "versionName": null,
         "updatedDate": "2026-10-22",
         "text": "Several experience improvements and bug fixes."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-16",
+        "text": "Several experience improvements and bug fixes."
       }
     ],
     "en_US": [
       {
         "versionName": null,
         "updatedDate": "2026-10-22",
+        "text": "Several experience improvements and bug fixes."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-16",
         "text": "Several experience improvements and bug fixes."
       }
     ]
