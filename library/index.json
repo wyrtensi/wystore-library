@@ -37408,10 +37408,10 @@
       "package": "com.google.android.apps.chromecast.app",
       "publication": {
         "catalog": {
-          "name": "catalog-ca07cfbc52f80a9059614562fce9ea3b7a676a2fe9b936bd2b78cf13adfdeac8.json",
-          "sha256": "ca07cfbc52f80a9059614562fce9ea3b7a676a2fe9b936bd2b78cf13adfdeac8",
+          "name": "catalog-f36afad26a59c96cb54bd28b797cc2065ffc340205e035f5e2d97b11c5480e5a.json",
+          "sha256": "f36afad26a59c96cb54bd28b797cc2065ffc340205e035f5e2d97b11c5480e5a",
           "size": 53545,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/catalog-ca07cfbc52f80a9059614562fce9ea3b7a676a2fe9b936bd2b78cf13adfdeac8.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.google.android.apps.chromecast.app-library/catalog-f36afad26a59c96cb54bd28b797cc2065ffc340205e035f5e2d97b11c5480e5a.json"
         },
         "compat_manifest": {
           "name": "manifest-29dda58e08621ccb6c324604af81b69e2d7a713d33b464c489666aefe38056d3.json",
@@ -37973,25 +37973,25 @@
           },
           "files": [
             {
-              "artifact": "3eeae43e9e7396b31c6ae0f044d2edbbb921ce746aef357f87b745237c342bcb",
+              "artifact": "4970f6685f08083c70e2bed243cf08168e111e4f52d9dff770625c681675d958",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a3fc1c49bd0d5aad6b981b697f43b62a413bd8166a2eda7efe1b64bc090fa5a2",
+              "artifact": "bdb4399f5506447baeda9ff008bc1332ac26a0a60d61cbe1f604dc96f7aa3e93",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "bc53b906c37313f40c7c70938b875be62449ad32568b447bf514b8516aae5e3a",
+              "artifact": "5b8a0ee0adc4db6ce8d8e6e346b9ed547f0cd68ee40784531cfa66809348537f",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "b17fff300e8d9fb3383a7b5e27e104eeafca19bb5f08a131ec473fc5af1535d6",
+              "artifact": "0420944dcfa4a51e4d95a7ea28ea3472e3522f9fcdd4c5de9aa538c0073d21cc",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -37999,8 +37999,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 30590850,
-          "version_name": "4.37.27.0"
+          "version_code": 30592293,
+          "version_name": "4.38.26.0"
         },
         {
           "certificate_scope": {
