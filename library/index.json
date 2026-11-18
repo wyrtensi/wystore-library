@@ -67773,40 +67773,40 @@
     {
       "artifacts": [
         {
-          "name": "31ec09102ff0b3baeba0b02406aef087d370448490685b7a354b71be98dfd69f.apk",
-          "sha256": "31ec09102ff0b3baeba0b02406aef087d370448490685b7a354b71be98dfd69f",
+          "name": "5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1.apk",
+          "sha256": "5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1",
           "size": 8225035,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/31ec09102ff0b3baeba0b02406aef087d370448490685b7a354b71be98dfd69f.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1.apk"
         },
         {
-          "name": "594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf.apk",
-          "sha256": "594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf",
-          "size": 350374019,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf.apk"
+          "name": "65e400c55b40a0359be2ed33f8dea7219c31ff51500ed750ba17dd17f0f7a433.apk",
+          "sha256": "65e400c55b40a0359be2ed33f8dea7219c31ff51500ed750ba17dd17f0f7a433",
+          "size": 8225035,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/65e400c55b40a0359be2ed33f8dea7219c31ff51500ed750ba17dd17f0f7a433.apk"
         },
         {
-          "name": "5c359b66bb9374f1add4a26411ad486bcaf7cbb9a5124c5f83e89c23fd0f1e77.apk",
-          "sha256": "5c359b66bb9374f1add4a26411ad486bcaf7cbb9a5124c5f83e89c23fd0f1e77",
+          "name": "824981c31319551e37213658e6a035284f0480110af242ac36595bb1e221f826.apk",
+          "sha256": "824981c31319551e37213658e6a035284f0480110af242ac36595bb1e221f826",
           "size": 351389827,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/5c359b66bb9374f1add4a26411ad486bcaf7cbb9a5124c5f83e89c23fd0f1e77.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/824981c31319551e37213658e6a035284f0480110af242ac36595bb1e221f826.apk"
         },
         {
-          "name": "709542a8f5d2e1f09d47b69024881b992acc92e309f4fc1c7c8d277e9b7b6f08.apk",
-          "sha256": "709542a8f5d2e1f09d47b69024881b992acc92e309f4fc1c7c8d277e9b7b6f08",
-          "size": 8225035,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/709542a8f5d2e1f09d47b69024881b992acc92e309f4fc1c7c8d277e9b7b6f08.apk"
-        },
-        {
-          "name": "7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c.apk",
-          "sha256": "7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c",
-          "size": 8225035,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c.apk"
-        },
-        {
-          "name": "80fca9130610323407c4fc2c6a63e6932a9b386b4b076b3863df54503f6a56df.apk",
-          "sha256": "80fca9130610323407c4fc2c6a63e6932a9b386b4b076b3863df54503f6a56df",
+          "name": "9734f050dcbeca57f30053bfac845ee220dd42793920b5a773e041821c4750e3.apk",
+          "sha256": "9734f050dcbeca57f30053bfac845ee220dd42793920b5a773e041821c4750e3",
           "size": 361760814,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/80fca9130610323407c4fc2c6a63e6932a9b386b4b076b3863df54503f6a56df.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/9734f050dcbeca57f30053bfac845ee220dd42793920b5a773e041821c4750e3.apk"
+        },
+        {
+          "name": "aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6.apk",
+          "sha256": "aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6",
+          "size": 350374019,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6.apk"
+        },
+        {
+          "name": "fe3eb4373ac6bb03d09ad6e8c155aeee4255ad96a7f48f6139fb2a5d44cb1288.apk",
+          "sha256": "fe3eb4373ac6bb03d09ad6e8c155aeee4255ad96a7f48f6139fb2a5d44cb1288",
+          "size": 8225035,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/fe3eb4373ac6bb03d09ad6e8c155aeee4255ad96a7f48f6139fb2a5d44cb1288.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -67814,16 +67814,16 @@
       "package": "com.vivaldi.browser",
       "publication": {
         "catalog": {
-          "name": "catalog-9743386fc81134a2e8b30c594f976479aabc3adeb606ac196772d3da600c642b.json",
-          "sha256": "9743386fc81134a2e8b30c594f976479aabc3adeb606ac196772d3da600c642b",
+          "name": "catalog-d23b264002a5ece7d4462c48b755f5abf64808798880a94df97cb53b8a81da94.json",
+          "sha256": "d23b264002a5ece7d4462c48b755f5abf64808798880a94df97cb53b8a81da94",
           "size": 30832,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/catalog-9743386fc81134a2e8b30c594f976479aabc3adeb606ac196772d3da600c642b.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/catalog-d23b264002a5ece7d4462c48b755f5abf64808798880a94df97cb53b8a81da94.json"
         },
         "compat_manifest": {
-          "name": "manifest-74c2e043e8304ad36dca97c647c518e7a1ec6db5c5db697b64a871453aa28f0d.json",
-          "sha256": "74c2e043e8304ad36dca97c647c518e7a1ec6db5c5db697b64a871453aa28f0d",
+          "name": "manifest-3e3965668d21007f35c0aaa7240d03f851988159af54e443475dcabbd1b87e36.json",
+          "sha256": "3e3965668d21007f35c0aaa7240d03f851988159af54e443475dcabbd1b87e36",
           "size": 743,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/manifest-74c2e043e8304ad36dca97c647c518e7a1ec6db5c5db697b64a871453aa28f0d.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/manifest-3e3965668d21007f35c0aaa7240d03f851988159af54e443475dcabbd1b87e36.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.vivaldi.browser-library",
         "tag": "com.vivaldi.browser-library"
@@ -67992,13 +67992,13 @@
           },
           "files": [
             {
-              "artifact": "5c359b66bb9374f1add4a26411ad486bcaf7cbb9a5124c5f83e89c23fd0f1e77",
+              "artifact": "824981c31319551e37213658e6a035284f0480110af242ac36595bb1e221f826",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "709542a8f5d2e1f09d47b69024881b992acc92e309f4fc1c7c8d277e9b7b6f08",
+              "artifact": "65e400c55b40a0359be2ed33f8dea7219c31ff51500ed750ba17dd17f0f7a433",
               "original_name": "split_chrome.apk",
               "role": "split",
               "split": "chrome"
@@ -68006,8 +68006,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 541920082,
-          "version_name": "8.3.4192.82"
+          "version_code": 541920096,
+          "version_name": "8.3.4192.96"
         },
         {
           "certificate_sha256": [
@@ -68122,13 +68122,13 @@
           },
           "files": [
             {
-              "artifact": "5c359b66bb9374f1add4a26411ad486bcaf7cbb9a5124c5f83e89c23fd0f1e77",
+              "artifact": "824981c31319551e37213658e6a035284f0480110af242ac36595bb1e221f826",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "709542a8f5d2e1f09d47b69024881b992acc92e309f4fc1c7c8d277e9b7b6f08",
+              "artifact": "65e400c55b40a0359be2ed33f8dea7219c31ff51500ed750ba17dd17f0f7a433",
               "original_name": "split_chrome.apk",
               "role": "split",
               "split": "chrome"
@@ -68136,8 +68136,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 541920082,
-          "version_name": "8.3.4192.82"
+          "version_code": 541920096,
+          "version_name": "8.3.4192.96"
         },
         {
           "certificate_sha256": [
@@ -68252,13 +68252,13 @@
           },
           "files": [
             {
-              "artifact": "594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf",
+              "artifact": "aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c",
+              "artifact": "5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1",
               "original_name": "split_chrome.apk",
               "role": "split",
               "split": "chrome"
@@ -68266,8 +68266,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 541920082,
-          "version_name": "8.3.4192.82"
+          "version_code": 541920096,
+          "version_name": "8.3.4192.96"
         },
         {
           "certificate_sha256": [
@@ -68382,13 +68382,13 @@
           },
           "files": [
             {
-              "artifact": "594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf",
+              "artifact": "aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c",
+              "artifact": "5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1",
               "original_name": "split_chrome.apk",
               "role": "split",
               "split": "chrome"
@@ -68396,8 +68396,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 541920082,
-          "version_name": "8.3.4192.82"
+          "version_code": 541920096,
+          "version_name": "8.3.4192.96"
         },
         {
           "certificate_sha256": [
@@ -68512,13 +68512,13 @@
           },
           "files": [
             {
-              "artifact": "80fca9130610323407c4fc2c6a63e6932a9b386b4b076b3863df54503f6a56df",
+              "artifact": "9734f050dcbeca57f30053bfac845ee220dd42793920b5a773e041821c4750e3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "31ec09102ff0b3baeba0b02406aef087d370448490685b7a354b71be98dfd69f",
+              "artifact": "fe3eb4373ac6bb03d09ad6e8c155aeee4255ad96a7f48f6139fb2a5d44cb1288",
               "original_name": "split_chrome.apk",
               "role": "split",
               "split": "chrome"
@@ -68526,8 +68526,8 @@
           ],
           "id": "android13_x86_64_en",
           "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
-          "version_code": 741920082,
-          "version_name": "8.3.4192.82"
+          "version_code": 741920096,
+          "version_name": "8.3.4192.96"
         },
         {
           "certificate_sha256": [
@@ -68642,13 +68642,13 @@
           },
           "files": [
             {
-              "artifact": "80fca9130610323407c4fc2c6a63e6932a9b386b4b076b3863df54503f6a56df",
+              "artifact": "9734f050dcbeca57f30053bfac845ee220dd42793920b5a773e041821c4750e3",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "31ec09102ff0b3baeba0b02406aef087d370448490685b7a354b71be98dfd69f",
+              "artifact": "fe3eb4373ac6bb03d09ad6e8c155aeee4255ad96a7f48f6139fb2a5d44cb1288",
               "original_name": "split_chrome.apk",
               "role": "split",
               "split": "chrome"
@@ -68656,8 +68656,8 @@
           ],
           "id": "android13_x86_64_ru",
           "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
-          "version_code": 741920082,
-          "version_name": "8.3.4192.82"
+          "version_code": 741920096,
+          "version_name": "8.3.4192.96"
         },
         {
           "certificate_sha256": [
@@ -68772,13 +68772,13 @@
           },
           "files": [
             {
-              "artifact": "594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf",
+              "artifact": "aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c",
+              "artifact": "5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1",
               "original_name": "split_chrome.apk",
               "role": "split",
               "split": "chrome"
@@ -68786,8 +68786,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 541920082,
-          "version_name": "8.3.4192.82"
+          "version_code": 541920096,
+          "version_name": "8.3.4192.96"
         },
         {
           "certificate_sha256": [
@@ -68902,13 +68902,13 @@
           },
           "files": [
             {
-              "artifact": "594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf",
+              "artifact": "aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c",
+              "artifact": "5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1",
               "original_name": "split_chrome.apk",
               "role": "split",
               "split": "chrome"
@@ -68916,8 +68916,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 541920082,
-          "version_name": "8.3.4192.82"
+          "version_code": 541920096,
+          "version_name": "8.3.4192.96"
         },
         {
           "certificate_sha256": [
@@ -69032,13 +69032,13 @@
           },
           "files": [
             {
-              "artifact": "594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf",
+              "artifact": "aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c",
+              "artifact": "5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1",
               "original_name": "split_chrome.apk",
               "role": "split",
               "split": "chrome"
@@ -69046,8 +69046,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 541920082,
-          "version_name": "8.3.4192.82"
+          "version_code": 541920096,
+          "version_name": "8.3.4192.96"
         },
         {
           "certificate_sha256": [
@@ -69162,13 +69162,13 @@
           },
           "files": [
             {
-              "artifact": "594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf",
+              "artifact": "aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c",
+              "artifact": "5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1",
               "original_name": "split_chrome.apk",
               "role": "split",
               "split": "chrome"
@@ -69176,8 +69176,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 541920082,
-          "version_name": "8.3.4192.82"
+          "version_code": 541920096,
+          "version_name": "8.3.4192.96"
         }
       ]
     },
@@ -86194,34 +86194,34 @@
     {
       "assets": [
         {
-          "name": "594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf.apk",
+          "name": "aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6.apk",
           "role": "base",
-          "sha256": "594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf",
+          "sha256": "aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6",
           "size": 350374019,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/594004f9a61a3a64d439e3e766bd662e65bc1fe8676f8d6a2482523e5cc113bf.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/aaa903496ed82179f36f3ea96ad7defdaa5df2cff67cb2557b4b00714fc72ef6.apk"
         },
         {
-          "name": "7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c.apk",
+          "name": "5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1.apk",
           "role": "split",
-          "sha256": "7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c",
+          "sha256": "5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1",
           "size": 8225035,
           "split": "chrome",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/7b6bbf55cb0df0291ce665944f46dca81a57f60fdb16701776a1c243816e641c.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/5874cdb8efd06aef99febf9bd0b62ec4b8ae426a93e7f0fbd6e18080c495aee1.apk"
         }
       ],
       "certificate_sha256": [
         "e8a78544655ba8c09817f732768f5689b1662ec4b2bc5a0bc0ec138d33ca3d1e"
       ],
-      "manifest_sha256": "74c2e043e8304ad36dca97c647c518e7a1ec6db5c5db697b64a871453aa28f0d",
+      "manifest_sha256": "3e3965668d21007f35c0aaa7240d03f851988159af54e443475dcabbd1b87e36",
       "manifest_size": 743,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/manifest-74c2e043e8304ad36dca97c647c518e7a1ec6db5c5db697b64a871453aa28f0d.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.vivaldi.browser-library/manifest-3e3965668d21007f35c0aaa7240d03f851988159af54e443475dcabbd1b87e36.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.vivaldi.browser/metadata.json",
       "package": "com.vivaldi.browser",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.vivaldi.browser-library",
-      "version_code": 541920082,
-      "version_name": "8.3.4192.82"
+      "version_code": 541920096,
+      "version_name": "8.3.4192.96"
     },
     {
       "assets": [
