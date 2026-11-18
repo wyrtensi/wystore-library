@@ -31719,10 +31719,10 @@
       "package": "com.facebook.stella",
       "publication": {
         "catalog": {
-          "name": "catalog-27c2b4d9c0c123b52a7e190dfddd5bee9910199e656103bb05a2dc3f446b9ce2.json",
-          "sha256": "27c2b4d9c0c123b52a7e190dfddd5bee9910199e656103bb05a2dc3f446b9ce2",
+          "name": "catalog-d9fa91ecfec3e147e8e33ebc2968d70da4590fba8aea055d68de7eb657e4432f.json",
+          "sha256": "d9fa91ecfec3e147e8e33ebc2968d70da4590fba8aea055d68de7eb657e4432f",
           "size": 29124,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-27c2b4d9c0c123b52a7e190dfddd5bee9910199e656103bb05a2dc3f446b9ce2.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-d9fa91ecfec3e147e8e33ebc2968d70da4590fba8aea055d68de7eb657e4432f.json"
         },
         "compat_manifest": {
           "name": "manifest-45264b495007b10fbfeb424a17a75faa53c5ccb6d0552485f3521d186990f6de.json",
@@ -32509,13 +32509,13 @@
           },
           "files": [
             {
-              "artifact": "0c2296ff64b6d61e125bb583a9e648c0f52afce786636197fcac94dd061d50a8",
+              "artifact": "7bee9776d32bb63b6cb66164894fd56448f206f91174916912b77f423a9f4c1d",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a4249c99e3f679c924b693c0bedc84b5004f9bcfb82100f766914fac715b31fd",
+              "artifact": "3d45e59a4b0af82264f63dab339274a7e0464a4dab6bb02e0f602d598dd00a45",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -32523,7 +32523,7 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 969902547,
+          "version_code": 969902548,
           "version_name": "299.0.0.27.166"
         },
         {
