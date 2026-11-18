@@ -9,7 +9,7 @@
       "description": "Новая версия сервиса \"Google Планета Земля\" позволяет самостоятельно или совместно с другими пользователями создавать собственные карты из любой точки мира. Взгляните на мир с высоты благодаря спутниковым снимкам высокого разрешения, посмотрите на 3D-рельеф и здания в сотнях городов и совершите путешествие по улицам и районам, используя возможности кругового обзора в Просмотре улиц.",
       "shortDescription": "Знакомство с планетой",
       "versionName": null,
-      "updatedDate": "2026-11-03",
+      "updatedDate": "2026-11-18",
       "playUrl": "https://play.google.com/store/apps/details?id=com.google.earth",
       "changelog": "Спасибо за использование сервиса \"Google Планета Земля\"! Эта версия отличается измененным интерфейсом, а также новыми функциями, позволяющими работать совместно с пользователями других устройств, создавать карты в любых условиях, а также добавлять на карты фотографии с камеры устройства.",
       "icon": "images/ea19697e082f9531fff13756d4f5787afe7c0f5c8384a1efd51112eed6364973.png",
@@ -30,7 +30,7 @@
       "description": "Create and collaborate on immersive, data-driven maps from anywhere, with the new Google Earth. See the world from above with high-resolution satellite imagery, explore 3D terrain and buildings in hundreds of cities, and dive in to streets and neighborhoods with Street View's 360° perspectives.",
       "shortDescription": "Examine the planet",
       "versionName": null,
-      "updatedDate": "2026-11-03",
+      "updatedDate": "2026-11-18",
       "playUrl": "https://play.google.com/store/apps/details?id=com.google.earth",
       "changelog": "Thanks for using Google Earth! This release brings a fresh new look, with new features to help you collaborate with others across devices, create maps on the go, and add photos from your camera to your maps.",
       "icon": "images/ea19697e082f9531fff13756d4f5787afe7c0f5c8384a1efd51112eed6364973.png",
@@ -57,6 +57,11 @@
         "versionName": null,
         "updatedDate": "2026-11-03",
         "text": "Спасибо за использование сервиса \"Google Планета Земля\"! Эта версия отличается измененным интерфейсом, а также новыми функциями, позволяющими работать совместно с пользователями других устройств, создавать карты в любых условиях, а также добавлять на карты фотографии с камеры устройства."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-18",
+        "text": "Спасибо за использование сервиса \"Google Планета Земля\"! Эта версия отличается измененным интерфейсом, а также новыми функциями, позволяющими работать совместно с пользователями других устройств, создавать карты в любых условиях, а также добавлять на карты фотографии с камеры устройства."
       }
     ],
     "en_US": [
@@ -68,6 +73,11 @@
       {
         "versionName": null,
         "updatedDate": "2026-11-03",
+        "text": "Thanks for using Google Earth! This release brings a fresh new look, with new features to help you collaborate with others across devices, create maps on the go, and add photos from your camera to your maps."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-18",
         "text": "Thanks for using Google Earth! This release brings a fresh new look, with new features to help you collaborate with others across devices, create maps on the go, and add photos from your camera to your maps."
       }
     ]
