@@ -71414,10 +71414,22 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/1600a05ff60318059441d29debe791e182de1c89186ad279c249f881a2e371ac.apk"
         },
         {
+          "name": "25d234bceebb45e06f4b47c8c09b241c2afb410b5d562c4fa540049fbbacce9c.apk",
+          "sha256": "25d234bceebb45e06f4b47c8c09b241c2afb410b5d562c4fa540049fbbacce9c",
+          "size": 151033326,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/25d234bceebb45e06f4b47c8c09b241c2afb410b5d562c4fa540049fbbacce9c.apk"
+        },
+        {
           "name": "31285eac5c31195ac55bad9dff56dbc08b03c71e0f953ff9916f491e145f6382.apk",
           "sha256": "31285eac5c31195ac55bad9dff56dbc08b03c71e0f953ff9916f491e145f6382",
           "size": 147363498,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/31285eac5c31195ac55bad9dff56dbc08b03c71e0f953ff9916f491e145f6382.apk"
+        },
+        {
+          "name": "3c4b7824a3d457b4f0206cf26a00ec1561b685954c3ad9fc88c8ef93256d93f2.apk",
+          "sha256": "3c4b7824a3d457b4f0206cf26a00ec1561b685954c3ad9fc88c8ef93256d93f2",
+          "size": 29097,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/3c4b7824a3d457b4f0206cf26a00ec1561b685954c3ad9fc88c8ef93256d93f2.apk"
         },
         {
           "name": "6379ced54bee4281e0f23ddffe06cdd833b93264abe8fc49354eff8e8e8dcd8f.apk",
@@ -71432,6 +71444,12 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/6470a85234b55e3649522b7b5fff0b36efccf7022c1abb86fdb0720665518bc0.apk"
         },
         {
+          "name": "7acc8a886db0c5c03188e2ceef36b86b1f37d422f14a5c236d408472a4209901.apk",
+          "sha256": "7acc8a886db0c5c03188e2ceef36b86b1f37d422f14a5c236d408472a4209901",
+          "size": 14791231,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/7acc8a886db0c5c03188e2ceef36b86b1f37d422f14a5c236d408472a4209901.apk"
+        },
+        {
           "name": "9e2b927eb406af8601a9c59bc274a6c199f3a962371906d3e3252da916a34290.apk",
           "sha256": "9e2b927eb406af8601a9c59bc274a6c199f3a962371906d3e3252da916a34290",
           "size": 2515198,
@@ -71442,6 +71460,12 @@
           "sha256": "b010d8d864ce40dec3cc6cb95fe0c495f8bb6fe303f0dce767b57b45855dc938",
           "size": 2515198,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/b010d8d864ce40dec3cc6cb95fe0c495f8bb6fe303f0dce767b57b45855dc938.apk"
+        },
+        {
+          "name": "b358da4dc2ab1062ca1eeeba4decfe1d851882e3843e05f01184f7d8b35e6dfb.apk",
+          "sha256": "b358da4dc2ab1062ca1eeeba4decfe1d851882e3843e05f01184f7d8b35e6dfb",
+          "size": 2548022,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/b358da4dc2ab1062ca1eeeba4decfe1d851882e3843e05f01184f7d8b35e6dfb.apk"
         },
         {
           "name": "b538b9df4a8dbe5d829dcab10bc61de7513a685e97dbdf73f842b9943c87e7de.apk",
@@ -71473,10 +71497,10 @@
       "package": "com.whatsapp",
       "publication": {
         "catalog": {
-          "name": "catalog-da7624202e30e0c417a89bd6c232a4909075a7665e9f76aec14f3b3a61e8230a.json",
-          "sha256": "da7624202e30e0c417a89bd6c232a4909075a7665e9f76aec14f3b3a61e8230a",
-          "size": 37016,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/catalog-da7624202e30e0c417a89bd6c232a4909075a7665e9f76aec14f3b3a61e8230a.json"
+          "name": "catalog-0c8d0bd98da8b299a94c974df9d141a2c2e104c251853c1c74cada241bab4784.json",
+          "sha256": "0c8d0bd98da8b299a94c974df9d141a2c2e104c251853c1c74cada241bab4784",
+          "size": 38509,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.whatsapp-library/catalog-0c8d0bd98da8b299a94c974df9d141a2c2e104c251853c1c74cada241bab4784.json"
         },
         "compat_manifest": {
           "name": "manifest-b29e352ff7095d3bf615e8a2848dcbeb82124c042a4fafdd0f40a454c5047535.json",
@@ -72613,25 +72637,25 @@
           },
           "files": [
             {
-              "artifact": "31285eac5c31195ac55bad9dff56dbc08b03c71e0f953ff9916f491e145f6382",
+              "artifact": "25d234bceebb45e06f4b47c8c09b241c2afb410b5d562c4fa540049fbbacce9c",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "6379ced54bee4281e0f23ddffe06cdd833b93264abe8fc49354eff8e8e8dcd8f",
+              "artifact": "7acc8a886db0c5c03188e2ceef36b86b1f37d422f14a5c236d408472a4209901",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b010d8d864ce40dec3cc6cb95fe0c495f8bb6fe303f0dce767b57b45855dc938",
+              "artifact": "b358da4dc2ab1062ca1eeeba4decfe1d851882e3843e05f01184f7d8b35e6dfb",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "1600a05ff60318059441d29debe791e182de1c89186ad279c249f881a2e371ac",
+              "artifact": "3c4b7824a3d457b4f0206cf26a00ec1561b685954c3ad9fc88c8ef93256d93f2",
               "original_name": "split_i18n_en.apk",
               "role": "split",
               "split": "i18n_en"
@@ -72639,8 +72663,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 264409011,
-          "version_name": "2.26.44.90"
+          "version_code": 264509300,
+          "version_name": "2.26.45.93"
         },
         {
           "certificate_scope": {
