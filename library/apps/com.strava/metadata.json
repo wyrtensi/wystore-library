@@ -11,7 +11,7 @@
       "versionName": null,
       "updatedDate": "2026-11-18",
       "playUrl": "https://play.google.com/store/apps/details?id=com.strava",
-      "changelog": "Привет! Мы исправили пару ошибок и кое-что улучшили. Теперь приложение может посоревноваться с вами в скорости. Спасибо, что вы с нами!<br>",
+      "changelog": "Теперь подписчики могут напрямую подключить Strava к Google Gemini, чтобы получать более персонализированные ответы, основанные на истории их тренировок. Анализируйте свой прогресс, выявляйте закономерности в тренировках и извлекайте из них максимальную пользу.<br>",
       "icon": "images/5eca650ebfcece7b35f881f1fa5531a6ea274fbc6b84584c6b7560121b19198c.png",
       "screenshots": [
         "images/c336708717d311b2a6c3a30adf67418703f99865e5a0c717941c7ee688bc2716.jpg",
@@ -32,7 +32,7 @@
       "versionName": null,
       "updatedDate": "2026-11-18",
       "playUrl": "https://play.google.com/store/apps/details?id=com.strava",
-      "changelog": "Hi there. We fixed a couple bugs and made some performance improvements, so the app should now be almost as speedy as you. Have fun out there!<br>",
+      "changelog": "Subscribers can now connect Strava directly to Google Gemini for more personalized answers grounded in their activity history. Explore your progress, uncover insights across your activities, and get more out of every effort.<br>",
       "icon": "images/5eca650ebfcece7b35f881f1fa5531a6ea274fbc6b84584c6b7560121b19198c.png",
       "screenshots": [
         "images/c29d2758f86888a17052da136132efd0c44354750b098f2f24e576b339bdd987.jpg",
@@ -82,6 +82,11 @@
         "versionName": null,
         "updatedDate": "2026-11-18",
         "text": "Привет! Мы исправили пару ошибок и кое-что улучшили. Теперь приложение может посоревноваться с вами в скорости. Спасибо, что вы с нами!<br>"
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-18",
+        "text": "Теперь подписчики могут напрямую подключить Strava к Google Gemini, чтобы получать более персонализированные ответы, основанные на истории их тренировок. Анализируйте свой прогресс, выявляйте закономерности в тренировках и извлекайте из них максимальную пользу.<br>"
       }
     ],
     "en_US": [
@@ -119,6 +124,11 @@
         "versionName": null,
         "updatedDate": "2026-11-18",
         "text": "Hi there. We fixed a couple bugs and made some performance improvements, so the app should now be almost as speedy as you. Have fun out there!<br>"
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-18",
+        "text": "Subscribers can now connect Strava directly to Google Gemini for more personalized answers grounded in their activity history. Explore your progress, uncover insights across your activities, and get more out of every effort.<br>"
       }
     ]
   },

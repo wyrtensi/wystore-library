@@ -11,7 +11,7 @@
       "versionName": null,
       "updatedDate": "2026-11-16",
       "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.kindle",
-      "changelog": "Several experience improvements and bug fixes.",
+      "changelog": "If you have a device that recognizes a stylus as a pen, you can now turn on the \"Writing Toolbar\" from the 3-dot menu in the top navigation bar to access new annotation features. In books that let you change font sizes or text layout, you can create highlights and underlines, and circle words to create outlines that neaten and \"snap\" to the text. You can also create handwritten notes. In print replica books and imported PDF personal documents, you can create direct markups.",
       "icon": "images/6882972f599423717ec82661775747586c780f7659c121602dc3c1b123230ac0.png",
       "screenshots": [
         "images/0a722f702e2b6caaf50824eb5cc41c11cec6e23215deb23945e60ab201c73b60.jpg",
@@ -32,7 +32,7 @@
       "versionName": null,
       "updatedDate": "2026-11-16",
       "playUrl": "https://play.google.com/store/apps/details?id=com.amazon.kindle",
-      "changelog": "Several experience improvements and bug fixes.",
+      "changelog": "If you have a device that recognizes a stylus as a pen, you can now turn on the \"Writing Toolbar\" from the 3-dot menu in the top navigation bar to access new annotation features. In books that let you change font sizes or text layout, you can create highlights and underlines, and circle words to create outlines that neaten and \"snap\" to the text. You can also create handwritten notes. In print replica books and imported PDF personal documents, you can create direct markups.",
       "icon": "images/6882972f599423717ec82661775747586c780f7659c121602dc3c1b123230ac0.png",
       "screenshots": [
         "images/0a722f702e2b6caaf50824eb5cc41c11cec6e23215deb23945e60ab201c73b60.jpg",
@@ -57,6 +57,11 @@
         "versionName": null,
         "updatedDate": "2026-11-16",
         "text": "Several experience improvements and bug fixes."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-16",
+        "text": "If you have a device that recognizes a stylus as a pen, you can now turn on the \"Writing Toolbar\" from the 3-dot menu in the top navigation bar to access new annotation features. In books that let you change font sizes or text layout, you can create highlights and underlines, and circle words to create outlines that neaten and \"snap\" to the text. You can also create handwritten notes. In print replica books and imported PDF personal documents, you can create direct markups."
       }
     ],
     "en_US": [
@@ -69,6 +74,11 @@
         "versionName": null,
         "updatedDate": "2026-11-16",
         "text": "Several experience improvements and bug fixes."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-16",
+        "text": "If you have a device that recognizes a stylus as a pen, you can now turn on the \"Writing Toolbar\" from the 3-dot menu in the top navigation bar to access new annotation features. In books that let you change font sizes or text layout, you can create highlights and underlines, and circle words to create outlines that neaten and \"snap\" to the text. You can also create handwritten notes. In print replica books and imported PDF personal documents, you can create direct markups."
       }
     ]
   },

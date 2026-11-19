@@ -14,14 +14,14 @@
       "changelog": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better.",
       "icon": "images/e4050d289d79d300debcf072a210482469404102a88243242766e87c9bdcde2a.png",
       "screenshots": [
-        "images/fd60127b16a2e9d3f8ef6d8ccd29398fb2fb241ea0eebb794212416639d278fa.png",
-        "images/be0ae73055bee459d406d58c16ce0781fba57af7175f202a14cec0ef686edb64.png",
-        "images/57dca512f006df089cdbedf55cb5b385f8c7dbcf875019403565a1bb87b993c7.png",
-        "images/468975436c4c5eadd7f6c9c4456a41abfe16767b88f9f9a9b4e39b8d6b565eb6.png",
-        "images/31cba815080d4a2a6c32478657b7d330c32e49fdeb407e37cfa31a09d584a295.jpg",
-        "images/91bed2f2eb82a506869eeec3727ea8588cebeb9ac79fd26a4366a72fc18dbbf6.jpg",
-        "images/36a840d4aa3de53a70b93971e15fe693bbc991a2d59d813690bea8ff2d052d30.jpg",
-        "images/31cba815080d4a2a6c32478657b7d330c32e49fdeb407e37cfa31a09d584a295.jpg"
+        "images/b2737c643a6fd3d5c8bed544e870195178251e6732182ccddbbe75058bbefe75.jpg",
+        "images/158fc6e43c5cec4792c07547d26087dfe8700877a173b39dfb64c4d1d581af67.jpg",
+        "images/26974079b397228ae0fbf0a9738839cb931d54ee47cbae5a4179b719b109a05c.jpg",
+        "images/8eb18b4023e8d02bfdb80910eef48663d24f20ddd20b37b9270ef440a9149aec.jpg",
+        "images/b00c8a732115864287fe0195e809364b50c8db04c4f2336e25eec32b559dd801.jpg",
+        "images/2ecceecaf9d5d9b8f9e441fc28b571458b273e007d518faf9424122b9da7467e.jpg",
+        "images/0cb504265f21c645b5ff34b9eea7bca556e68a29d91f541c50bf22b93c3a30d0.jpg",
+        "images/acfa2b5c93689f1cb9bacb8b85d4a849a44657b83d3c404c756bf9c56ecdc788.jpg"
       ]
     },
     "en_US": {
@@ -35,14 +35,14 @@
       "changelog": "We've been fixing things up. A bug fix here! An update there! We hope you find your streaming experience even better.",
       "icon": "images/e4050d289d79d300debcf072a210482469404102a88243242766e87c9bdcde2a.png",
       "screenshots": [
-        "images/fd60127b16a2e9d3f8ef6d8ccd29398fb2fb241ea0eebb794212416639d278fa.png",
-        "images/be0ae73055bee459d406d58c16ce0781fba57af7175f202a14cec0ef686edb64.png",
-        "images/57dca512f006df089cdbedf55cb5b385f8c7dbcf875019403565a1bb87b993c7.png",
-        "images/468975436c4c5eadd7f6c9c4456a41abfe16767b88f9f9a9b4e39b8d6b565eb6.png",
-        "images/31cba815080d4a2a6c32478657b7d330c32e49fdeb407e37cfa31a09d584a295.jpg",
-        "images/91bed2f2eb82a506869eeec3727ea8588cebeb9ac79fd26a4366a72fc18dbbf6.jpg",
-        "images/36a840d4aa3de53a70b93971e15fe693bbc991a2d59d813690bea8ff2d052d30.jpg",
-        "images/31cba815080d4a2a6c32478657b7d330c32e49fdeb407e37cfa31a09d584a295.jpg"
+        "images/b2737c643a6fd3d5c8bed544e870195178251e6732182ccddbbe75058bbefe75.jpg",
+        "images/158fc6e43c5cec4792c07547d26087dfe8700877a173b39dfb64c4d1d581af67.jpg",
+        "images/26974079b397228ae0fbf0a9738839cb931d54ee47cbae5a4179b719b109a05c.jpg",
+        "images/8eb18b4023e8d02bfdb80910eef48663d24f20ddd20b37b9270ef440a9149aec.jpg",
+        "images/b00c8a732115864287fe0195e809364b50c8db04c4f2336e25eec32b559dd801.jpg",
+        "images/2ecceecaf9d5d9b8f9e441fc28b571458b273e007d518faf9424122b9da7467e.jpg",
+        "images/0cb504265f21c645b5ff34b9eea7bca556e68a29d91f541c50bf22b93c3a30d0.jpg",
+        "images/acfa2b5c93689f1cb9bacb8b85d4a849a44657b83d3c404c756bf9c56ecdc788.jpg"
       ]
     }
   },
@@ -94,12 +94,13 @@
   },
   "imageSources": {
     "https://play-lh.googleusercontent.com/AEX_3Bk5_SEZfR4fUcJsWiyqW_RRVcLED9AM2HMUVHAPVTZhZHfP2q3M35mRe4LtCXlb712DtkKwkZa_nJ-0": "e4050d289d79d300debcf072a210482469404102a88243242766e87c9bdcde2a.png",
-    "https://play-lh.googleusercontent.com/2m8FbKFXO8HkOf2xw-_0QVk7z4VaEj8s2ljq_cszb3PMYWY2cjl_EFh-8OxdxSBYu9o_qzTshXLmcsf1fiuztIM": "fd60127b16a2e9d3f8ef6d8ccd29398fb2fb241ea0eebb794212416639d278fa.png",
-    "https://play-lh.googleusercontent.com/hi_JX08aIgGU0HYoQ5MRrqNUVKThS3QEQ4GnCQXcTXbXV5NOGNhRFUB9-cSdJIhRhKhj1-QcCbP5YV39GaXk8g": "be0ae73055bee459d406d58c16ce0781fba57af7175f202a14cec0ef686edb64.png",
-    "https://play-lh.googleusercontent.com/gZOZz-W2qvM8Jcy2c-t_YK6pQW3Bo7_PyzQkWfyla2Uvf8Fam0GOGT3iPhP7w7Y6gqefwm7Sh4xk6WRKJZ4q": "57dca512f006df089cdbedf55cb5b385f8c7dbcf875019403565a1bb87b993c7.png",
-    "https://play-lh.googleusercontent.com/JaiKlD4YuMnDAUEovyBD19yj_WB37890INHPz2lq-KD0PyM3HzqstyrkE396YkHMLeqDn8n1Jhd9zmESZBSOkiQ": "468975436c4c5eadd7f6c9c4456a41abfe16767b88f9f9a9b4e39b8d6b565eb6.png",
-    "https://play-lh.googleusercontent.com/3Tk9LegwgQVv-i9jkgIlWQR07Ct2Dg8GlowyY5S5ArJ03P4HGw5GUVQCWr_ERqFs9nVvWJgCodvCKpnNiH52xw": "31cba815080d4a2a6c32478657b7d330c32e49fdeb407e37cfa31a09d584a295.jpg",
-    "https://play-lh.googleusercontent.com/AvpNzMXwt67tihFPCf2tR2QyhZ_fgCJEhq2Dia3jGYQjabarM-0Wg1TZg4riQu70EAwOXIW0YBE6Xm4aLOwXpg": "91bed2f2eb82a506869eeec3727ea8588cebeb9ac79fd26a4366a72fc18dbbf6.jpg",
-    "https://play-lh.googleusercontent.com/uO5QFGo1YGFZOZFRDUvE9NQPDNLluMQFmYQ-ruHDHOe2bygq8gk1bVyBj-7n5wsdgGvzCVwbJFyYyuIRslC3QA": "36a840d4aa3de53a70b93971e15fe693bbc991a2d59d813690bea8ff2d052d30.jpg"
+    "https://play-lh.googleusercontent.com/pcsb/AEecphZUOzVyBiERTeedNifI0UH0bsehTzCwBvGL8yVK12e6AYDm8oF3Rg15s9hc-pE7O9TAgIx-CVAw_BqMmykCFgqSfBLxJw": "b2737c643a6fd3d5c8bed544e870195178251e6732182ccddbbe75058bbefe75.jpg",
+    "https://play-lh.googleusercontent.com/pcsb/AEecphbz_Vp2FBSnF3Ssa9ozHYpT9ZQseXS7EGRtBoRYEzp8fUOTP9yZcjtq50MUSNkPFHIeSV5-GQ8C3csUP5s5U7tTqOpoInAE": "158fc6e43c5cec4792c07547d26087dfe8700877a173b39dfb64c4d1d581af67.jpg",
+    "https://play-lh.googleusercontent.com/pcsb/AEecphZU5MwBhO7SP900LqZ4WrKcfqVC2Z-qQzFfOBsPrxlzxqkZny9dfL7TyFcjngTs-7x--eXdt3zzfG9NxKQSWo5DEQ1EWHri": "26974079b397228ae0fbf0a9738839cb931d54ee47cbae5a4179b719b109a05c.jpg",
+    "https://play-lh.googleusercontent.com/pcsb/AEecphaSoxdDGCDAc3l_999S6_9jFPVvf8rEuba8WQAwoDR5TUITu2-F7owy36M6EPyYSn5ghAFGCISuKU6RTd9RhhhpIxoqVeY": "8eb18b4023e8d02bfdb80910eef48663d24f20ddd20b37b9270ef440a9149aec.jpg",
+    "https://play-lh.googleusercontent.com/pcsb/AEecphYHpKELYrmDOUxzQLhh1TBwmOZNzxo0DsgJIVhPOIoGEvHCL8-ukJJ2FZUerWTFJVOjICNSUHx8BJlPeZDi5sFkqmg9lpA": "b00c8a732115864287fe0195e809364b50c8db04c4f2336e25eec32b559dd801.jpg",
+    "https://play-lh.googleusercontent.com/pcsb/AEecphZG4zziYxn3ty-1B_wdctO0WGHHyvzbj6skTXW6F_2jC-Fkk5E9YFVXB71I4fpT9M0IV1bEw-9ydPO6nLKrz5KOs0NC-H8": "2ecceecaf9d5d9b8f9e441fc28b571458b273e007d518faf9424122b9da7467e.jpg",
+    "https://play-lh.googleusercontent.com/pcsb/AEecphYc0crxgvdDSG0XczpEwQ1QuloZZXjtE4OUvTp1ZFVSSWJxBP02DuhTDTyaNnAu9w7m4nde2y4vH0a_IevF9Hj_i7ZQ15c": "0cb504265f21c645b5ff34b9eea7bca556e68a29d91f541c50bf22b93c3a30d0.jpg",
+    "https://play-lh.googleusercontent.com/pcsb/AEecphZEjRI3-1_m7xv3zwbtvYj4Cw5I6qzHQC-VT3e8QjJ27bL2pwjPyLkd26emf-vskO9ejRn38bYt3mQNSb82cWlJbYiqWRlB": "acfa2b5c93689f1cb9bacb8b85d4a849a44657b83d3c404c756bf9c56ecdc788.jpg"
   }
 }
