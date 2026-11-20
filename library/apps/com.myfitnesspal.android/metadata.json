@@ -32,7 +32,7 @@
       "versionName": null,
       "updatedDate": "2026-11-13",
       "playUrl": "https://play.google.com/store/apps/details?id=com.myfitnesspal.android",
-      "changelog": "✅Fixed: The \"Foods Highest In\" totals were off when you logged the same food more than once.<br>➡️Now they add up the way you'd expect.<br><br>✅Fixed: Tapping Log Exercise under a Coach reply was crashing the app.<br>➡️Now you can log your workout from Coach with no crashes.<br><br>🐜 The bugs tried to form a fitness club. Unfortunately, their membership has been… squashed.<br><br>*For all the latest fixes, update to the latest app version",
+      "changelog": "✅Fixed: Going offline while managing Personalization Preferences triggered a never-ending spinner.<br>➡️Now it resolves without leaving you stuck on that screen.<br><br>✅Fixed: Opening a link with the app running in the background caused the Today screen to flash first.<br>➡️Now your links open as expected with no cameo appearances.<br><br>🦋 No bugs were harmed in the making of this update. Just released back into the wild.<br><br>*For all the latest fixes, update to the latest app version",
       "icon": "images/8ce1d74ede5fad08fdb38862cadde44a99967b3b2674fdae31c54df5c18b0738.jpg",
       "screenshots": [
         "images/a5d90b1b8b7ab850260b22afeec1c513b998f5a30f4f9be2c55dbb05a55d5f7d.png",
@@ -99,6 +99,11 @@
         "versionName": null,
         "updatedDate": "2026-11-13",
         "text": "✅Fixed: The \"Foods Highest In\" totals were off when you logged the same food more than once.<br>➡️Now they add up the way you'd expect.<br><br>✅Fixed: Tapping Log Exercise under a Coach reply was crashing the app.<br>➡️Now you can log your workout from Coach with no crashes.<br><br>🐜 The bugs tried to form a fitness club. Unfortunately, their membership has been… squashed.<br><br>*For all the latest fixes, update to the latest app version"
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-13",
+        "text": "✅Fixed: Going offline while managing Personalization Preferences triggered a never-ending spinner.<br>➡️Now it resolves without leaving you stuck on that screen.<br><br>✅Fixed: Opening a link with the app running in the background caused the Today screen to flash first.<br>➡️Now your links open as expected with no cameo appearances.<br><br>🦋 No bugs were harmed in the making of this update. Just released back into the wild.<br><br>*For all the latest fixes, update to the latest app version"
       }
     ]
   },
