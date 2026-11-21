@@ -8,8 +8,8 @@
       "developer": "Planfix Inc.",
       "description": "Planfix помогает организовать совместную работу людей и управлять ею.<br>С помощью Planfix вы можете ставить задачи сотрудникам, общаться с клиентами, работать над проектами, распределять и отслеживать заявки — и многое другое.<br><br>Planfix одинаково хорошо подходит для бизнеса и некоммерческих организаций, общественных объединений или любой другой группы людей, работающих над общим делом.",
       "shortDescription": "Planfix— это платформа для создания системы управления предприятием",
-      "versionName": "0.75.2",
-      "updatedDate": "2026-11-19",
+      "versionName": "0.75.3",
+      "updatedDate": "2026-11-20",
       "playUrl": "https://play.google.com/store/apps/details?id=com.planfixng",
       "changelog": "Что нового:<br>• Небольшие доработки и исправления ошибок",
       "icon": "images/cb5fb1cd1554835a10e4c26e70c506dd85f6a9eaab9c295408238b1c0abed8dd.png",
@@ -28,8 +28,8 @@
       "developer": "Planfix Inc.",
       "description": "Planfix is a SaaS management system that works according to your rules. You can use Planfix to manage your organization's internal tasks, project management, client requests, CRM, support, logistics, and much more. A significant advantage of Planfix is that it provides the ability to use one system for all your business units. All departments and offices work in one general information space. As orders, projects, and tasks reach different stages, they are taken on by various departments, who all exchange data. This helps your organization work like a fine-tuned machine — no data is lost, and no time is spent transferring it between different systems.<br><br>Configuration happens through the web service. The mobile app lets you receive messages from colleagues and clients — regarding new tasks, comments, and reminders — and handle them quickly and effectively. The app is currently being actively developed, and every release contains new features.",
       "shortDescription": "Planfix is a platform for creating Enterprise Management Systems",
-      "versionName": "0.75.2",
-      "updatedDate": "2026-11-19",
+      "versionName": "0.75.3",
+      "updatedDate": "2026-11-20",
       "playUrl": "https://play.google.com/store/apps/details?id=com.planfixng",
       "changelog": "What's new:<br>• Minor bug fixes and updates",
       "icon": "images/cb5fb1cd1554835a10e4c26e70c506dd85f6a9eaab9c295408238b1c0abed8dd.png",
@@ -65,6 +65,11 @@
         "versionName": "0.75.2",
         "updatedDate": "2026-11-19",
         "text": "Что нового:<br>• Небольшие доработки и исправления ошибок"
+      },
+      {
+        "versionName": "0.75.3",
+        "updatedDate": "2026-11-20",
+        "text": "Что нового:<br>• Небольшие доработки и исправления ошибок"
       }
     ],
     "en_US": [
@@ -86,6 +91,11 @@
       {
         "versionName": "0.75.2",
         "updatedDate": "2026-11-19",
+        "text": "What's new:<br>• Minor bug fixes and updates"
+      },
+      {
+        "versionName": "0.75.3",
+        "updatedDate": "2026-11-20",
         "text": "What's new:<br>• Minor bug fixes and updates"
       }
     ]
