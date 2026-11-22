@@ -250,3 +250,20 @@ class VariantSyncTests(unittest.TestCase):
         calls = self.publisher.cleanup_applications.call_args_list
         self.assertEqual([[a['package'] for a in c.args[0]] for c in calls], [['org.example.app'], ['org.example.other']])
         self.assertEqual([c.kwargs['configured_packages'] for c in calls], [{'org.example.app'}, {'org.example.other'}])
+
+    @patch('wystore_library.variant_sync.collect_compatibility', return_value={'min_sdk': 26})
+    @patch('wystore_library.variant_sync.verify_manifest')
+    def test_first_application_failure_still_syncs_and_checkpoints_later_applications(self, verify, compatibility):
+        self.config.write_text(json.dumps({'schema': 1, 'apps': [{'package': 'org.example.bad', 'profiles': ['px_9a']}, {'package': 'org.example.good', 'profiles': ['px_9a']}]}))
+        verify.side_effect = lambda manifest, folder, package, version, certs, **kwargs: {**self.verified, 'package': package}
+        original_info = self.client.info.side_effect
+        def info(package, profile):
+            if package == 'org.example.bad':
+                raise RuntimeError('Play temporary error')
+            return original_info(package, profile)
+        self.client.info.side_effect = info
+        with self.assertRaisesRegex(RuntimeError, 'Play temporary error'):
+            run(self.config, 'owner/repo', self.root / 'out', self.client, self.publisher, self.profiles)
+        self.publisher.publish_index.assert_called_once()
+        self.assertEqual([a['package'] for a in self.committed['applications']], ['org.example.good'])
+        self.assertEqual(self.committed['migration_pending'], ['org.example.bad'])

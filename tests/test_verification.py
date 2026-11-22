@@ -112,15 +112,16 @@ class ProfileManifestTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             verify_manifest(manifest, '.', 'org.example.app', 2, None, sdk=35)
 
-    def test_scoped_manifest_records_signers_and_checks_previous(self):
+    def test_scoped_manifest_records_signers_including_play_rotation(self):
         with TemporaryDirectory() as tmp:
             (Path(tmp) / 'base.apk').write_bytes(b'apk')
             h = hashlib.sha256(b'apk').hexdigest()
             manifest = {'schema':'playfetch/v1', 'app':{'package':'org.example.app', 'version_code':2}, 'device':{'sdk':35}, 'files':[{'name':'base.apk','role':'base','size':3,'local':{'sha256':h},'play_sha256':h}]}
             details = verification.ApkInspection('org.example.app', 2, '', {'a'*64, 'c'*64}, {'b'*40, 'd'*40}, {'mode':'android-sdk','sdk':35})
             with patch('wystore_library.verification.inspect_apk_details', return_value=details):
-                with self.assertRaisesRegex(ValueError, 'changed'):
-                    verify_manifest(manifest, tmp, 'org.example.app', 2, ['a'*64], sdk=35)
+                rotated = verify_manifest(manifest, tmp, 'org.example.app', 2, ['a'*64], sdk=35)
+                self.assertEqual(rotated['certificate_sha256'], ['a'*64, 'c'*64])
+                self.assertEqual(rotated['certificate_scope'], {'mode':'android-sdk', 'sdk':35})
                 result = verify_manifest(manifest, tmp, 'org.example.app', 2, None, sdk=35)
                 self.assertEqual(result['certificate_sha256'], ['a'*64, 'c'*64])
                 self.assertEqual(result['certificate_scope'], {'mode':'android-sdk', 'sdk':35})
@@ -317,8 +318,9 @@ class FailureTests(unittest.TestCase):
         self.inspect.stop()
         with patch('wystore_library.verification.inspect_apk_details', return_value=verification.ApkInspection('org.other',2,'',{'a'*64},{'b'*40})):
             with self.assertRaises(ValueError): self.verify()
-    def test_changed_signer_rejected(self):
-        with self.assertRaises(ValueError): self.verify(['c'*64])
+    def test_changed_signer_from_authenticated_play_is_accepted(self):
+        result = self.verify(['c'*64])
+        self.assertEqual(result['certificate_sha256'], ['a'*64])
     def test_unknown_file_role_rejected(self):
         self.manifest['files'][0]['role'] = 'obb'
         with self.assertRaises(ValueError): self.verify()

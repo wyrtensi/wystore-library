@@ -79,6 +79,7 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
         publisher.cleanup_applications(sorted(applications.values(), key=lambda a: a['package']), sorted({profile for _, profile in pairs}), configured_packages=set(configured))
     with tempfile.TemporaryDirectory(prefix='sync-', dir=output) as temp:
         root = Path(temp)
+        failures = []
         for package in selected:
             old = applications.get(package)
             old_variants = {v['id']: copy.deepcopy(v) for v in old.get('variants', [])} if old else {}
@@ -88,123 +89,141 @@ def run(config, repository, output, client, publisher, profiles, check_only=Fals
             legacy = entries.get((package, 'px_9a')) if not old else None
             new_paths = {}
             dirty = False
-            for profile_id, profile in profiles.items():
-                print(f'{package} {profile_id}: checking version', flush=True)
-                result = client.info(package, profile_id)
-                info = result.get('app') if isinstance(result, dict) else None
-                if not isinstance(info, dict) or info.get('package') != package or type(info.get('version_code')) is not int or info['version_code'] < 0 or info.get('free') is not True:
-                    raise ValueError('Play returned an unknown, paid or invalid version')
-                version = info['version_code']
-                version_name = info.get('version_name')
-                if legacy and profile_id == 'px_9a' and version < legacy['version_code']:
-                    print(f'{package} {profile_id}: preserving published version {legacy["version_code"]} (Play offers {version})', flush=True)
-                    version = legacy['version_code']
-                    version_name = legacy.get('version_name')
-                previous = old_variants.get(profile_id)
-                if version == 0:
-                    if info.get('version_name') != '':
-                        raise ValueError('Play returned an invalid unavailable version')
-                    if profile_id == 'px_9a' and not previous:
-                        raise ValueError(f'{package}: default px_9a has no available Play version')
-                    record = {'id': profile_id, 'version_code': 0, 'profile_fingerprint': fingerprints[profile_id], 'reason': 'play_unavailable'}
-                    if unavailable.get(profile_id) != record:
-                        unavailable[profile_id] = record
+            app_folder_prefix = f'{package}-'
+            try:
+                for profile_id, profile in profiles.items():
+                    print(f'{package} {profile_id}: checking version', flush=True)
+                    result = client.info(package, profile_id)
+                    info = result.get('app') if isinstance(result, dict) else None
+                    if not isinstance(info, dict) or info.get('package') != package or type(info.get('version_code')) is not int or info['version_code'] < 0 or info.get('free') is not True:
+                        raise ValueError('Play returned an unknown, paid or invalid version')
+                    version = info['version_code']
+                    version_name = info.get('version_name')
+                    if legacy and profile_id == 'px_9a' and version < legacy['version_code']:
+                        print(f'{package} {profile_id}: preserving published version {legacy["version_code"]} (Play offers {version})', flush=True)
+                        version = legacy['version_code']
+                        version_name = legacy.get('version_name')
+                    previous = old_variants.get(profile_id)
+                    if version == 0:
+                        if info.get('version_name') != '':
+                            raise ValueError('Play returned an invalid unavailable version')
+                        if profile_id == 'px_9a' and not previous:
+                            raise ValueError(f'{package}: default px_9a has no available Play version')
+                        record = {'id': profile_id, 'version_code': 0, 'profile_fingerprint': fingerprints[profile_id], 'reason': 'play_unavailable'}
+                        if unavailable.get(profile_id) != record:
+                            unavailable[profile_id] = record
+                            dirty = True
+                        continue
+                    if unavailable.get(profile_id, {}).get('reason') == 'play_unavailable':
+                        unavailable.pop(profile_id)
                         dirty = True
-                    continue
-                if unavailable.get(profile_id, {}).get('reason') == 'play_unavailable':
-                    unavailable.pop(profile_id)
+                    if previous and version < previous['version_code']:
+                        continue
+                    if previous and version == previous['version_code'] and previous['profile_fingerprint'] == fingerprints[profile_id]:
+                        continue
+                    failed = unavailable.get(profile_id)
+                    if failed and failed.get('version_code') == version and failed.get('profile_fingerprint') == fingerprints[profile_id]:
+                        continue
                     dirty = True
-                if previous and version < previous['version_code']:
-                    continue
-                if previous and version == previous['version_code'] and previous['profile_fingerprint'] == fingerprints[profile_id]:
-                    continue
-                failed = unavailable.get(profile_id)
-                if failed and failed.get('version_code') == version and failed.get('profile_fingerprint') == fingerprints[profile_id]:
-                    continue
-                dirty = True
-                if check_only:
-                    continue
-                cert_source = previous or (legacy if profile_id == 'px_9a' else None)
-                certs = cert_source.get('certificate_sha256') if cert_source else None
-                if cert_source and (not isinstance(certs, list) or not certs):
-                    raise ValueError('Previous publisher certificate is unavailable')
-                folder = root / f'{package}-{profile_id}'
-                folder.mkdir()
-                print(f'{package} {profile_id}: downloading version {version}', flush=True)
-                manifest = client.pull(package, profile_id, version, folder)
-                try:
-                    verified = verify_manifest(manifest, folder, package, version, certs, sdk=profile['sdk'])
-                    compatibility = collect_compatibility(folder, verified, profile, manifest.get('device'))
-                except ProfileIncompatible as error:
-                    unavailable[profile_id] = {'id': profile_id, 'version_code': version, 'profile_fingerprint': fingerprints[profile_id], 'reason': error.reason}
-                    if error.minimum_sdk is not None:
-                        unavailable[profile_id]['minimum_sdk'] = error.minimum_sdk
+                    if check_only:
+                        continue
+                    cert_source = previous or (legacy if profile_id == 'px_9a' else None)
+                    certs = cert_source.get('certificate_sha256') if cert_source else None
+                    if cert_source and (not isinstance(certs, list) or not certs):
+                        raise ValueError('Previous publisher certificate is unavailable')
+                    folder = root / f'{package}-{profile_id}'
+                    folder.mkdir()
+                    print(f'{package} {profile_id}: downloading version {version}', flush=True)
+                    manifest = client.pull(package, profile_id, version, folder)
+                    try:
+                        verified = verify_manifest(manifest, folder, package, version, certs, sdk=profile['sdk'])
+                        compatibility = collect_compatibility(folder, verified, profile, manifest.get('device'))
+                    except ProfileIncompatible as error:
+                        unavailable[profile_id] = {'id': profile_id, 'version_code': version, 'profile_fingerprint': fingerprints[profile_id], 'reason': error.reason}
+                        if error.minimum_sdk is not None:
+                            unavailable[profile_id]['minimum_sdk'] = error.minimum_sdk
+                        shutil.rmtree(folder)
+                        continue
+                    if version_name is not None and not isinstance(version_name, str):
+                        raise ValueError('Invalid Play version name')
+                    files = []
+                    for record in verified['files']:
+                        digest = record['sha256']
+                        name = digest + '.apk'
+                        url = f'https://github.com/{repository}/releases/download/{package}-library/{name}'
+                        desc = {'name': name, 'sha256': digest, 'size': record['size'], 'url': url}
+                        if digest in artifacts and artifacts[digest] != desc:
+                            raise ValueError('Conflicting verified artifact')
+                        artifacts[digest] = desc
+                        if digest not in new_paths:
+                            path = root / name
+                            if not path.exists():
+                                shutil.copyfile(folder / record['name'], path)
+                            new_paths[digest] = path
+                        files.append({'artifact': digest, 'original_name': record['name'], 'role': record['role'], 'split': record['split']})
                     shutil.rmtree(folder)
+                    variant = {'id': profile_id, 'profile_fingerprint': fingerprints[profile_id], 'version_code': version, 'version_name': version_name or '', 'certificate_sha256': verified['certificate_sha256'], 'compatibility': compatibility, 'files': files}
+                    if 'certificate_scope' in verified:
+                        variant['certificate_scope'] = verified['certificate_scope']
+                    variants[profile_id] = variant
+                    unavailable.pop(profile_id, None)
+                if check_only:
+                    changed |= dirty
                     continue
-                if version_name is not None and not isinstance(version_name, str):
-                    raise ValueError('Invalid Play version name')
-                files = []
-                for record in verified['files']:
-                    digest = record['sha256']
-                    name = digest + '.apk'
-                    url = f'https://github.com/{repository}/releases/download/{package}-library/{name}'
-                    desc = {'name': name, 'sha256': digest, 'size': record['size'], 'url': url}
-                    if digest in artifacts and artifacts[digest] != desc:
-                        raise ValueError('Conflicting verified artifact')
-                    artifacts[digest] = desc
-                    if digest not in new_paths:
-                        path = root / name
-                        if not path.exists():
-                            shutil.copyfile(folder / record['name'], path)
-                        new_paths[digest] = path
-                    files.append({'artifact': digest, 'original_name': record['name'], 'role': record['role'], 'split': record['split']})
-                shutil.rmtree(folder)
-                variant = {'id': profile_id, 'profile_fingerprint': fingerprints[profile_id], 'version_code': version, 'version_name': version_name or '', 'certificate_sha256': verified['certificate_sha256'], 'compatibility': compatibility, 'files': files}
-                if 'certificate_scope' in verified:
-                    variant['certificate_scope'] = verified['certificate_scope']
-                variants[profile_id] = variant
-                unavailable.pop(profile_id, None)
-            if check_only:
-                changed |= dirty
-                continue
-            if not dirty:
-                continue
-            if 'px_9a' not in variants:
-                raise ValueError(f'{package}: default px_9a variant is unavailable; migration cannot proceed')
-            used = {file['artifact'] for v in variants.values() for file in v['files']}
-            if not used.issubset(artifacts):
-                raise ValueError('Variant references missing artifact')
-            app = {'package': package, 'name': configured[package].get('name') or package, 'default_variant': 'px_9a', 'variants': [variants[k] for k in sorted(variants)], 'artifacts': [artifacts[k] for k in sorted(used)], 'unavailable': [unavailable[k] for k in sorted(unavailable)]}
-            tag = package + '-library'
-            url = lambda name: f'https://github.com/{repository}/releases/download/{tag}/{name}'
-            default = variants['px_9a']
-            compat = {'package': package, 'version_code': default['version_code'], 'version_name': default['version_name'], 'profile': 'px_9a', 'certificate_sha256': default['certificate_sha256'], 'files': [{'name': artifacts[f['artifact']]['name'], 'sha256': f['artifact'], 'size': artifacts[f['artifact']]['size'], 'role': f['role'], 'split': f['split']} for f in default['files']]}
-            if 'certificate_scope' in default:
-                compat['certificate_scope'] = default['certificate_scope']
-            manifest_desc, manifest_path = _descriptor(_json_bytes(compat), 'manifest', root, url)
-            catalog_desc, catalog_path = _descriptor(_json_bytes(app), 'catalog', root, url)
-            app['publication'] = {'tag': tag, 'release_url': f'https://github.com/{repository}/releases/tag/{tag}', 'catalog': catalog_desc, 'compat_manifest': manifest_desc}
-            expected = {a['name']: {'sha256': a['sha256'], 'size': a['size']} for a in app['artifacts'] + [catalog_desc, manifest_desc]}
-            paths = [new_paths[k] for k in used if k in new_paths] + [catalog_path, manifest_path]
-            print(f'{package}: publishing {len(variants)} variants and {len(used)} unique APKs', flush=True)
-            actual = publisher.publish_application(package, paths, expected, title=app['name'], notes='Choose one compatible variant from the library index.')
-            if actual != {a['name']: a['url'] for a in app['artifacts'] + [catalog_desc, manifest_desc]}:
-                raise RuntimeError('Published asset URLs differ from the expected stable URLs')
-            for path in [*new_paths.values(), catalog_path, manifest_path]:
-                path.unlink()
-            applications[package] = app
-            for key in [key for key in entries if key[0] == package]:
-                del entries[key]
-            entries[(package, 'px_9a')] = _projection(app, repository)
-            changed = True
-            new_index = copy.deepcopy(index)
-            new_index.update({'schema': 1, 'variant_schema': 1, 'delivery_profiles': list(profiles.values()), 'applications': sorted(applications.values(), key=lambda a: a['package']), 'entries': sorted(entries.values(), key=lambda e: (e['package'], e['profile'])), 'migration_pending': sorted(set(configured) - set(applications))})
-            index_path = root / 'index.json'
-            index_path.write_bytes(_json_bytes(new_index))
-            if checkpointed and publisher.read_index() != index:
-                raise RuntimeError('Library index changed during synchronization; refusing to overwrite it')
-            publisher.publish_index(index_path)
-            index = new_index
-            checkpointed = True
-            publisher.cleanup_applications([app], sorted({profile for _, profile in pairs}), configured_packages={package})
+                if not dirty:
+                    continue
+                if 'px_9a' not in variants:
+                    raise ValueError(f'{package}: default px_9a variant is unavailable; migration cannot proceed')
+                used = {file['artifact'] for v in variants.values() for file in v['files']}
+                if not used.issubset(artifacts):
+                    raise ValueError('Variant references missing artifact')
+                app = {'package': package, 'name': configured[package].get('name') or package, 'default_variant': 'px_9a', 'variants': [variants[k] for k in sorted(variants)], 'artifacts': [artifacts[k] for k in sorted(used)], 'unavailable': [unavailable[k] for k in sorted(unavailable)]}
+                tag = package + '-library'
+                url = lambda name: f'https://github.com/{repository}/releases/download/{tag}/{name}'
+                default = variants['px_9a']
+                compat = {'package': package, 'version_code': default['version_code'], 'version_name': default['version_name'], 'profile': 'px_9a', 'certificate_sha256': default['certificate_sha256'], 'files': [{'name': artifacts[f['artifact']]['name'], 'sha256': f['artifact'], 'size': artifacts[f['artifact']]['size'], 'role': f['role'], 'split': f['split']} for f in default['files']]}
+                if 'certificate_scope' in default:
+                    compat['certificate_scope'] = default['certificate_scope']
+                manifest_desc, manifest_path = _descriptor(_json_bytes(compat), 'manifest', root, url)
+                catalog_desc, catalog_path = _descriptor(_json_bytes(app), 'catalog', root, url)
+                app['publication'] = {'tag': tag, 'release_url': f'https://github.com/{repository}/releases/tag/{tag}', 'catalog': catalog_desc, 'compat_manifest': manifest_desc}
+                expected = {a['name']: {'sha256': a['sha256'], 'size': a['size']} for a in app['artifacts'] + [catalog_desc, manifest_desc]}
+                paths = [new_paths[k] for k in used if k in new_paths] + [catalog_path, manifest_path]
+                print(f'{package}: publishing {len(variants)} variants and {len(used)} unique APKs', flush=True)
+                actual = publisher.publish_application(package, paths, expected, title=app['name'], notes='Choose one compatible variant from the library index.')
+                if actual != {a['name']: a['url'] for a in app['artifacts'] + [catalog_desc, manifest_desc]}:
+                    raise RuntimeError('Published asset URLs differ from the expected stable URLs')
+                for path in [*new_paths.values(), catalog_path, manifest_path]:
+                    path.unlink()
+                applications[package] = app
+                for key in [key for key in entries if key[0] == package]:
+                    del entries[key]
+                entries[(package, 'px_9a')] = _projection(app, repository)
+                changed = True
+                new_index = copy.deepcopy(index)
+                new_index.update({'schema': 1, 'variant_schema': 1, 'delivery_profiles': list(profiles.values()), 'applications': sorted(applications.values(), key=lambda a: a['package']), 'entries': sorted(entries.values(), key=lambda e: (e['package'], e['profile'])), 'migration_pending': sorted(set(configured) - set(applications))})
+                index_path = root / 'index.json'
+                index_path.write_bytes(_json_bytes(new_index))
+                if checkpointed and publisher.read_index() != index:
+                    raise RuntimeError('Library index changed during synchronization; refusing to overwrite it')
+                publisher.publish_index(index_path)
+                index = new_index
+                checkpointed = True
+                publisher.cleanup_applications([app], sorted({profile for _, profile in pairs}), configured_packages={package})
+            except (RuntimeError, ValueError) as error:
+                if 'changed during synchronization' in str(error):
+                    raise
+                for path in new_paths.values():
+                    if path.exists():
+                        path.unlink()
+                for child in root.iterdir():
+                    if child.is_dir() and child.name.startswith(app_folder_prefix):
+                        shutil.rmtree(child, ignore_errors=True)
+                print(f'{package}: sync failed, continuing with remaining applications: {error}', flush=True)
+                failures.append((package, error))
+        if len(failures) == 1:
+            raise failures[0][1]
+        if len(failures) > 1:
+            summary = '; '.join(f'{pkg}: {err}' for pkg, err in failures)
+            raise RuntimeError(f'Failed to synchronize {len(failures)} applications: {summary}')
     return changed

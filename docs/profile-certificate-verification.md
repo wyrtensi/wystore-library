@@ -24,8 +24,11 @@ determines which identity is recorded for future update continuity.
 - Verify the downloaded bytes against Google delivery hashes and the local
   manifest, then check package name, version, split identities and signatures.
 - Every split must have the same applicable signer set. An empty applicable
-  set or changed previously recorded signer rejects the set. Signing-key changes
-  still require manual review; a missing listing certificate is not a failure.
+  set rejects the set. Authenticated Google Play deliveries whose publisher
+  certificate rotated or changed are logged and accepted, because Google Play
+  enforces publisher signing continuity and Android/Wy Store check signing
+  lineage against any installed app; a missing listing certificate is not a
+  failure.
 - Without an SDK, record all cryptographically verified signer identities.
 - Add `certificate_scope: {"mode": "android-sdk", "sdk": N}` to the public
   manifest and index only when another verified signer identity was excluded
