@@ -31767,10 +31767,10 @@
       "package": "com.facebook.stella",
       "publication": {
         "catalog": {
-          "name": "catalog-5402ed81a2088628239165d6b0e304e0df9593d9244bd8bb7efc1b5db2fd5875.json",
-          "sha256": "5402ed81a2088628239165d6b0e304e0df9593d9244bd8bb7efc1b5db2fd5875",
+          "name": "catalog-8f917d74473788f238a274109294e379978648d038d697820f433fe43fe83b36.json",
+          "sha256": "8f917d74473788f238a274109294e379978648d038d697820f433fe43fe83b36",
           "size": 29831,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-5402ed81a2088628239165d6b0e304e0df9593d9244bd8bb7efc1b5db2fd5875.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.facebook.stella-library/catalog-8f917d74473788f238a274109294e379978648d038d697820f433fe43fe83b36.json"
         },
         "compat_manifest": {
           "name": "manifest-23ad81c0271d79b18075b0406749bb6cd18cfc395a76628c47cd3594031b60e7.json",
@@ -31973,13 +31973,13 @@
           },
           "files": [
             {
-              "artifact": "7bee9776d32bb63b6cb66164894fd56448f206f91174916912b77f423a9f4c1d",
+              "artifact": "de32c276a7f5ef4047b705563a3cf85eee443558b9948d4c0930c9240e14aa99",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "3d45e59a4b0af82264f63dab339274a7e0464a4dab6bb02e0f602d598dd00a45",
+              "artifact": "438155697d0d970ead30a48366af70ed6119e7e29f65b215895967cc557c0b8f",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -31987,8 +31987,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 969902548,
-          "version_name": "299.0.0.27.166"
+          "version_code": 970002542,
+          "version_name": "300.0.0.34.163"
         },
         {
           "certificate_scope": {
@@ -32411,13 +32411,13 @@
           },
           "files": [
             {
-              "artifact": "7bee9776d32bb63b6cb66164894fd56448f206f91174916912b77f423a9f4c1d",
+              "artifact": "de32c276a7f5ef4047b705563a3cf85eee443558b9948d4c0930c9240e14aa99",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "3d45e59a4b0af82264f63dab339274a7e0464a4dab6bb02e0f602d598dd00a45",
+              "artifact": "438155697d0d970ead30a48366af70ed6119e7e29f65b215895967cc557c0b8f",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
@@ -32425,8 +32425,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 969902548,
-          "version_name": "299.0.0.27.166"
+          "version_code": 970002542,
+          "version_name": "300.0.0.34.163"
         },
         {
           "certificate_scope": {
