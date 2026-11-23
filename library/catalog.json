@@ -1324,6 +1324,27 @@
       "categories": [
         "transport"
       ]
+    },
+    {
+      "package": "org.outline.android.client",
+      "metadataPath": "apps/org.outline.android.client/metadata.json",
+      "title": "Outline",
+      "developer": "Outline Foundation",
+      "icon": "apps/org.outline.android.client/images/bd369a6184277ed95b72fafc2ce70bf1423cdf478b041cd455e4471eba259da4.png",
+      "foreign_category": true,
+      "locales": {
+        "ru_RU": {
+          "title": "Outline",
+          "shortDescription": "Настройте свой собственный мощный VPN-сервер"
+        },
+        "en_US": {
+          "title": "Outline",
+          "shortDescription": "Set up your own powerful VPN server"
+        }
+      },
+      "categories": [
+        "tools"
+      ]
     }
   ]
 }

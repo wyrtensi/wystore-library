@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "package": "org.outline.android.client",
+  "market": "us",
+  "locales": {
+    "ru_RU": {
+      "title": "Outline",
+      "developer": "Outline Foundation",
+      "description": "Outline is an easy way for you to set up your own virtual private network (VPN) server to more safely access the open internet and keep your communications private. <br><br>If you have received an access key, download the Outline app to get started. <br><br>If you haven’t received an access key, you’ll first need to set-up your own server. Get started by downloading the Outline Manager from <a href=\"https://www.google.com/url?q=https%3A%2F%2Fs3.amazonaws.com%2Foutline-vpn%2Findex.html%3Fref%3Dplaystore&sa=D&sntz=1&usg=AOvVaw0rmgqKhkBwTx7L25nT9UkW\">getoutline.org</a>. Creating your own server is quick and easy, and instructions in the Manager will guide you through each step. <br><br>How Do I Set Up Outline? <br>- Outline consists of two related products: the Outline Manager and Outline. <br>- The Outline Manager lets you create and operate your own VPN, and share access with anyone you choose by sending them an invitation directly from the Manager. Once you’ve downloaded the Manager, you can easily set up a VPN server on a cloud provider in less than five minutes. <br>- After setup is complete, you can download the Outline app on your phone and desktop. <br>- Share internet access with coworkers or friends by inviting them directly from the Manager. <br>- If you’ve received an access code from someone using an Outline Manager you’re all set! Just download the app and get started. <br><br>Why use Outline?<br>- Fast, reliable access to the open internet, powered by the Shadowsocks protocol<br>- Allows you to create and maintain your own VPN server and provide access with those you trust<br>- Strong encryption keeps your communications private<br>- Completely open source and audited by a nonprofit security firm",
+      "shortDescription": "Настройте свой собственный мощный VPN-сервер",
+      "versionName": "1.23.0",
+      "updatedDate": "2026-11-18",
+      "playUrl": "https://play.google.com/store/apps/details?id=org.outline.android.client",
+      "changelog": "Android now used Capacitor 9",
+      "icon": "images/bd369a6184277ed95b72fafc2ce70bf1423cdf478b041cd455e4471eba259da4.png",
+      "screenshots": [
+        "images/14fdaa7bc37467318d612e4e510c205c4e0d7c32ac0afd8ba04dcf09c23d2aab.png",
+        "images/a660358c30fb28d080c5d4cb30006bc7d9dca51a8600a5997230f4bf359017e6.png",
+        "images/98990c580d9a1859b23865a56c30a1916ab82147ee997d67fe94bb3d2638f050.png",
+        "images/03e9129cc6f27001ee1362cee41ed92882e91096f4853ed8f6c31ca070f3ae4f.png"
+      ]
+    },
+    "en_US": {
+      "title": "Outline",
+      "developer": "Outline Foundation",
+      "description": "Outline is an easy way for you to set up your own virtual private network (VPN) server to more safely access the open internet and keep your communications private. <br><br>If you have received an access key, download the Outline app to get started. <br><br>If you haven’t received an access key, you’ll first need to set-up your own server. Get started by downloading the Outline Manager from <a href=\"https://www.google.com/url?q=https%3A%2F%2Fs3.amazonaws.com%2Foutline-vpn%2Findex.html%3Fref%3Dplaystore&sa=D&sntz=1&usg=AOvVaw0rmgqKhkBwTx7L25nT9UkW\">getoutline.org</a>. Creating your own server is quick and easy, and instructions in the Manager will guide you through each step. <br><br>How Do I Set Up Outline? <br>- Outline consists of two related products: the Outline Manager and Outline. <br>- The Outline Manager lets you create and operate your own VPN, and share access with anyone you choose by sending them an invitation directly from the Manager. Once you’ve downloaded the Manager, you can easily set up a VPN server on a cloud provider in less than five minutes. <br>- After setup is complete, you can download the Outline app on your phone and desktop. <br>- Share internet access with coworkers or friends by inviting them directly from the Manager. <br>- If you’ve received an access code from someone using an Outline Manager you’re all set! Just download the app and get started. <br><br>Why use Outline?<br>- Fast, reliable access to the open internet, powered by the Shadowsocks protocol<br>- Allows you to create and maintain your own VPN server and provide access with those you trust<br>- Strong encryption keeps your communications private<br>- Completely open source and audited by a nonprofit security firm",
+      "shortDescription": "Set up your own powerful VPN server",
+      "versionName": "1.23.0",
+      "updatedDate": "2026-11-18",
+      "playUrl": "https://play.google.com/store/apps/details?id=org.outline.android.client",
+      "changelog": "Android now used Capacitor 9",
+      "icon": "images/bd369a6184277ed95b72fafc2ce70bf1423cdf478b041cd455e4471eba259da4.png",
+      "screenshots": [
+        "images/14fdaa7bc37467318d612e4e510c205c4e0d7c32ac0afd8ba04dcf09c23d2aab.png",
+        "images/a660358c30fb28d080c5d4cb30006bc7d9dca51a8600a5997230f4bf359017e6.png",
+        "images/98990c580d9a1859b23865a56c30a1916ab82147ee997d67fe94bb3d2638f050.png",
+        "images/03e9129cc6f27001ee1362cee41ed92882e91096f4853ed8f6c31ca070f3ae4f.png"
+      ]
+    }
+  },
+  "changelogHistory": {
+    "ru_RU": [
+      {
+        "versionName": "1.23.0",
+        "updatedDate": "2026-11-18",
+        "text": "Android now used Capacitor 9"
+      }
+    ],
+    "en_US": [
+      {
+        "versionName": "1.23.0",
+        "updatedDate": "2026-11-18",
+        "text": "Android now used Capacitor 9"
+      }
+    ]
+  },
+  "imageSources": {
+    "https://play-lh.googleusercontent.com/rLC5bM3-nsB3zZlrz0tTXmGoomJfejRCazxJbTw4nRagIOCTWXfff2f3GLbsUNu8Pj5FBKAjRihoKDVGRGozHA": "bd369a6184277ed95b72fafc2ce70bf1423cdf478b041cd455e4471eba259da4.png",
+    "https://play-lh.googleusercontent.com/VF8JHjdp_lDJj80ozdiol0xR3pzMHUx-ez6yyxz8YMNzCmRV501phKo3Ja5Q1CFZ9x5_I9ZBYfYr7gYbVEhe8A": "14fdaa7bc37467318d612e4e510c205c4e0d7c32ac0afd8ba04dcf09c23d2aab.png",
+    "https://play-lh.googleusercontent.com/gzUGQSAAM8G0cK1bz15ahXwid3DeBCkIoYcqXZZRaQloDg1-usDb2Z6UpL-JE8u3e-Tl986-8BbWBaDYlf--_H4": "a660358c30fb28d080c5d4cb30006bc7d9dca51a8600a5997230f4bf359017e6.png",
+    "https://play-lh.googleusercontent.com/_wc6dP78cIllaK8Gl30nLBJsgkyUAYxaAODoONd9YPDG1QvtkfGYl6PshGIwPnlu-nyms3QcSyMAk3pQKH3WcQ": "98990c580d9a1859b23865a56c30a1916ab82147ee997d67fe94bb3d2638f050.png",
+    "https://play-lh.googleusercontent.com/ZF4G_nM0RN1OH4dg_E3Ma4WYoiW3tkZqkTegfk_q1r9E3odeNDR468_TFF6CLjgper41-7TYlLiwIGWZeFMT": "03e9129cc6f27001ee1362cee41ed92882e91096f4853ed8f6c31ca070f3ae4f.png"
+  }
+}

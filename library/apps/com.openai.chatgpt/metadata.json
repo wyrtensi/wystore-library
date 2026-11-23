@@ -29,10 +29,10 @@
       "developer": "OpenAI",
       "description": "Introducing ChatGPT for Android: OpenAI’s latest advancements at your fingertips.<br><br>This official app is free, syncs your history across devices, and brings you the latest from OpenAI, including the new image generator.<br><br>With ChatGPT in your pocket, you’ll find:<br><br>· Image generation–Generate original images from a description, or transform existing ones with a few simple words. <br>· Advanced Voice Mode–Tap the soundwave icon to have a real-time convo on the go. Settle a dinner table debate, or practice a new language. <br>· Photo upload—Snap or upload a picture to transcribe a handwritten recipe or get info about a landmark. <br>· Creative inspiration—Find custom birthday gift ideas or create a personalized greeting card.<br>· Tailored advice—Talk through a tough situation, ask for a detailed travel itinerary, or get help crafting the perfect response. <br>· Personalized learning—Explain electricity to a dinosaur-loving kid or easily brush up yourself on a historic event.<br>· Professional input—Brainstorm marketing copy or map out a business plan.<br>· Instant answers—Get recipe suggestions when you only have a few ingredients.<br>· Screen share with Accessibility Services — In limited availability, users can choose to let ChatGPT help answer questions about screen details without requiring screenshot uploads.<br><br>Join hundreds of millions of users and try the app captivating the world. Download ChatGPT today.<br><br>Terms of service & privacy policy:<br>https://openai.com/policies/terms-of-use<br>https://openai.com/policies/privacy-policy",
       "shortDescription": "Your AI assistant for writing, search, image generation, and more",
-      "versionName": "1.2026.314",
+      "versionName": "1.2026.321",
       "updatedDate": "2026-11-21",
       "playUrl": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
-      "changelog": null,
+      "changelog": "Minor fixes and improvements",
       "icon": "images/4e2fd1df4ed6e215262bdfff54c272c83176ba8bf58e0392b2123d6acb762d14.png",
       "screenshots": [
         "images/a0e97cc37a443eeb315372ff2b807ace238f031ea1a41eaa26832855b070d419.jpg",
@@ -83,6 +83,11 @@
       {
         "versionName": "1.2026.300",
         "updatedDate": "2026-11-06",
+        "text": "Minor fixes and improvements"
+      },
+      {
+        "versionName": "1.2026.321",
+        "updatedDate": "2026-11-21",
         "text": "Minor fixes and improvements"
       }
     ]
