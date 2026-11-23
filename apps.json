@@ -504,6 +504,14 @@
       ],
       "name": "myChevrolet",
       "category": "Auto & vehicles"
+    },
+    {
+      "package": "org.outline.android.client",
+      "profiles": [
+        "px_9a"
+      ],
+      "name": "Outline",
+      "category": "Tools"
     }
   ]
 }
