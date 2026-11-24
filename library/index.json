@@ -44037,10 +44037,34 @@
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/3b70ff1faca225eb2402d7abeb882f11fcb00e3030dbf74cadc0b67a3bb0064d.apk"
         },
         {
+          "name": "3e2ca9f6a4e1049140a60f7dbace888051952fdac61dc638002a73e4a4e9b959.apk",
+          "sha256": "3e2ca9f6a4e1049140a60f7dbace888051952fdac61dc638002a73e4a4e9b959",
+          "size": 278323644,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/3e2ca9f6a4e1049140a60f7dbace888051952fdac61dc638002a73e4a4e9b959.apk"
+        },
+        {
+          "name": "69fa06368ac726c5c33e8f7206d43a230b9abbe098d2c17939d697104b78d26e.apk",
+          "sha256": "69fa06368ac726c5c33e8f7206d43a230b9abbe098d2c17939d697104b78d26e",
+          "size": 4947449,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/69fa06368ac726c5c33e8f7206d43a230b9abbe098d2c17939d697104b78d26e.apk"
+        },
+        {
           "name": "73f6e92333ceb9493c6db25ae7245b8cf72041b074b3c50a80c13509671f335f.apk",
           "sha256": "73f6e92333ceb9493c6db25ae7245b8cf72041b074b3c50a80c13509671f335f",
           "size": 271451820,
           "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/73f6e92333ceb9493c6db25ae7245b8cf72041b074b3c50a80c13509671f335f.apk"
+        },
+        {
+          "name": "73f85caf6756704927157ae45672252ba8602ef379d10842311af5cce9857272.apk",
+          "sha256": "73f85caf6756704927157ae45672252ba8602ef379d10842311af5cce9857272",
+          "size": 161513916,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/73f85caf6756704927157ae45672252ba8602ef379d10842311af5cce9857272.apk"
+        },
+        {
+          "name": "a70c3e0b0c029d867f2f56a038fdab0df8e383624e86f484acd80a8f758f73e5.apk",
+          "sha256": "a70c3e0b0c029d867f2f56a038fdab0df8e383624e86f484acd80a8f758f73e5",
+          "size": 4947449,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/a70c3e0b0c029d867f2f56a038fdab0df8e383624e86f484acd80a8f758f73e5.apk"
         },
         {
           "name": "b0b6b41bd54de745ee9c3a524af83fc496216369b6eb494729e5464b1fb43757.apk",
@@ -44072,10 +44096,10 @@
       "package": "com.instagram.android",
       "publication": {
         "catalog": {
-          "name": "catalog-cb25f1494249fca5942318a306897ed22ed9be13966720e0650703e2cb1fd423.json",
-          "sha256": "cb25f1494249fca5942318a306897ed22ed9be13966720e0650703e2cb1fd423",
-          "size": 44145,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/catalog-cb25f1494249fca5942318a306897ed22ed9be13966720e0650703e2cb1fd423.json"
+          "name": "catalog-674257d278d55f5dc20313a97118967bea6f51637888fb805e7ffc635916605f.json",
+          "sha256": "674257d278d55f5dc20313a97118967bea6f51637888fb805e7ffc635916605f",
+          "size": 45677,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.instagram.android-library/catalog-674257d278d55f5dc20313a97118967bea6f51637888fb805e7ffc635916605f.json"
         },
         "compat_manifest": {
           "name": "manifest-1866a79d0be07a19b45e094ec66eeffab1c9c8eefdc11fa44f21fb62834c57be.json",
@@ -44400,13 +44424,13 @@
           },
           "files": [
             {
-              "artifact": "f9b4218724b80078ebbb33bef550467a69ec92c4998b3c0e62866300b17e30bd",
+              "artifact": "73f85caf6756704927157ae45672252ba8602ef379d10842311af5cce9857272",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "b0b6b41bd54de745ee9c3a524af83fc496216369b6eb494729e5464b1fb43757",
+              "artifact": "a70c3e0b0c029d867f2f56a038fdab0df8e383624e86f484acd80a8f758f73e5",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -44414,8 +44438,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 386215122,
-          "version_name": "456.1.0.56.78"
+          "version_code": 386314341,
+          "version_name": "457.0.0.55.73"
         },
         {
           "certificate_sha256": [
@@ -44808,13 +44832,13 @@
           },
           "files": [
             {
-              "artifact": "73f6e92333ceb9493c6db25ae7245b8cf72041b074b3c50a80c13509671f335f",
+              "artifact": "3e2ca9f6a4e1049140a60f7dbace888051952fdac61dc638002a73e4a4e9b959",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "cab1bb626601f6d9ba69ce3f953089bafa4d8ee48b4fafbcc4c0d959f6f794cf",
+              "artifact": "69fa06368ac726c5c33e8f7206d43a230b9abbe098d2c17939d697104b78d26e",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -44822,8 +44846,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 386215122,
-          "version_name": "456.1.0.56.78"
+          "version_code": 386314341,
+          "version_name": "457.0.0.55.73"
         },
         {
           "certificate_scope": {
@@ -45416,13 +45440,13 @@
           },
           "files": [
             {
-              "artifact": "73f6e92333ceb9493c6db25ae7245b8cf72041b074b3c50a80c13509671f335f",
+              "artifact": "3e2ca9f6a4e1049140a60f7dbace888051952fdac61dc638002a73e4a4e9b959",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "cab1bb626601f6d9ba69ce3f953089bafa4d8ee48b4fafbcc4c0d959f6f794cf",
+              "artifact": "69fa06368ac726c5c33e8f7206d43a230b9abbe098d2c17939d697104b78d26e",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -45430,8 +45454,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 386215122,
-          "version_name": "456.1.0.56.78"
+          "version_code": 386314341,
+          "version_name": "457.0.0.55.73"
         },
         {
           "certificate_scope": {
