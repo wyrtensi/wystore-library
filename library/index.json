@@ -1696,76 +1696,76 @@
     {
       "artifacts": [
         {
-          "name": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825.apk",
-          "sha256": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825",
-          "size": 60519704,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825.apk"
+          "name": "19d94c89cad67522431dfeab7037ff88c2ede9d424cd89b1cbd05f939d12273f.apk",
+          "sha256": "19d94c89cad67522431dfeab7037ff88c2ede9d424cd89b1cbd05f939d12273f",
+          "size": 3494537,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/19d94c89cad67522431dfeab7037ff88c2ede9d424cd89b1cbd05f939d12273f.apk"
         },
         {
-          "name": "09ec39ee7e057ddba182de140fa6a0eed3e85c6da0edd1205cf990fd9d08866a.apk",
-          "sha256": "09ec39ee7e057ddba182de140fa6a0eed3e85c6da0edd1205cf990fd9d08866a",
+          "name": "3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17.apk",
+          "sha256": "3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17",
+          "size": 3494537,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17.apk"
+        },
+        {
+          "name": "40b901ed06b774c345c06cc01ea79a61562194301058a06022d13ac4b870d22f.apk",
+          "sha256": "40b901ed06b774c345c06cc01ea79a61562194301058a06022d13ac4b870d22f",
+          "size": 1048786,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/40b901ed06b774c345c06cc01ea79a61562194301058a06022d13ac4b870d22f.apk"
+        },
+        {
+          "name": "6385f7d30803734e4288ab9bce4a864a50b38fddd55216bc2d0e5bd24e72851d.apk",
+          "sha256": "6385f7d30803734e4288ab9bce4a864a50b38fddd55216bc2d0e5bd24e72851d",
+          "size": 540480,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/6385f7d30803734e4288ab9bce4a864a50b38fddd55216bc2d0e5bd24e72851d.apk"
+        },
+        {
+          "name": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d.apk",
+          "sha256": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d",
+          "size": 60724506,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d.apk"
+        },
+        {
+          "name": "8169f404cde388a4a8adb2f2cce6fdb67bdc4cb7eb2067bcd49581f5a88381fa.apk",
+          "sha256": "8169f404cde388a4a8adb2f2cce6fdb67bdc4cb7eb2067bcd49581f5a88381fa",
           "size": 3363447,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/09ec39ee7e057ddba182de140fa6a0eed3e85c6da0edd1205cf990fd9d08866a.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/8169f404cde388a4a8adb2f2cce6fdb67bdc4cb7eb2067bcd49581f5a88381fa.apk"
         },
         {
-          "name": "0a25306b087df0c306d2e925a53078a043d0d15ec4cb17a949e10a644ad5bc6c.apk",
-          "sha256": "0a25306b087df0c306d2e925a53078a043d0d15ec4cb17a949e10a644ad5bc6c",
-          "size": 60712216,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/0a25306b087df0c306d2e925a53078a043d0d15ec4cb17a949e10a644ad5bc6c.apk"
+          "name": "85c4a3cebd2af4d1f13d707b1af7a6146ac0db3459152b2cc289722d3361955d.apk",
+          "sha256": "85c4a3cebd2af4d1f13d707b1af7a6146ac0db3459152b2cc289722d3361955d",
+          "size": 139474,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/85c4a3cebd2af4d1f13d707b1af7a6146ac0db3459152b2cc289722d3361955d.apk"
         },
         {
-          "name": "21e1ae6ca2a279d9dd3f2e39f4c2d77f24345ab2c22cee7706e52dbc2a95e21e.apk",
-          "sha256": "21e1ae6ca2a279d9dd3f2e39f4c2d77f24345ab2c22cee7706e52dbc2a95e21e",
-          "size": 323529,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/21e1ae6ca2a279d9dd3f2e39f4c2d77f24345ab2c22cee7706e52dbc2a95e21e.apk"
+          "name": "916f1787ed6da466dcfeeb4ab778289c0ec250d850e3d6465459f043ba2d86fc.apk",
+          "sha256": "916f1787ed6da466dcfeeb4ab778289c0ec250d850e3d6465459f043ba2d86fc",
+          "size": 60921114,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/916f1787ed6da466dcfeeb4ab778289c0ec250d850e3d6465459f043ba2d86fc.apk"
         },
         {
-          "name": "468d3f6708787c679f1e525e461a68de1687fc976f3f8a8f8566a054d9df8bb2.apk",
-          "sha256": "468d3f6708787c679f1e525e461a68de1687fc976f3f8a8f8566a054d9df8bb2",
+          "name": "c14dd562448e743ad0ee30e9d06a270695688b797b07938f0ece506406edfbd2.apk",
+          "sha256": "c14dd562448e743ad0ee30e9d06a270695688b797b07938f0ece506406edfbd2",
           "size": 344274,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/468d3f6708787c679f1e525e461a68de1687fc976f3f8a8f8566a054d9df8bb2.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/c14dd562448e743ad0ee30e9d06a270695688b797b07938f0ece506406edfbd2.apk"
         },
         {
-          "name": "702bc6f6c8a0f1425124c8f0ec3be3572d3b6e7c9908986fc8c1e46a2eb52097.apk",
-          "sha256": "702bc6f6c8a0f1425124c8f0ec3be3572d3b6e7c9908986fc8c1e46a2eb52097",
-          "size": 995538,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/702bc6f6c8a0f1425124c8f0ec3be3572d3b6e7c9908986fc8c1e46a2eb52097.apk"
+          "name": "c26d066cd0cc5fbf9d897952b424815100b5294fe8b0fa8329bf1962669847fa.apk",
+          "sha256": "c26d066cd0cc5fbf9d897952b424815100b5294fe8b0fa8329bf1962669847fa",
+          "size": 1048786,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/c26d066cd0cc5fbf9d897952b424815100b5294fe8b0fa8329bf1962669847fa.apk"
         },
         {
-          "name": "a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d.apk",
-          "sha256": "a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d",
-          "size": 3494537,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d.apk"
+          "name": "caf0f4f9328260c83dcdb7cff6a36cacc30305525a4efaf58d2746272cc3e518.apk",
+          "sha256": "caf0f4f9328260c83dcdb7cff6a36cacc30305525a4efaf58d2746272cc3e518",
+          "size": 319243,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/caf0f4f9328260c83dcdb7cff6a36cacc30305525a4efaf58d2746272cc3e518.apk"
         },
         {
-          "name": "bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752.apk",
-          "sha256": "bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752",
-          "size": 512000,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752.apk"
-        },
-        {
-          "name": "e03bc83bb3f31daba1be5c1b0e7f65f2c008d6ec98186ad8b65ee8c28781e68a.apk",
-          "sha256": "e03bc83bb3f31daba1be5c1b0e7f65f2c008d6ec98186ad8b65ee8c28781e68a",
-          "size": 548864,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/e03bc83bb3f31daba1be5c1b0e7f65f2c008d6ec98186ad8b65ee8c28781e68a.apk"
-        },
-        {
-          "name": "e2c69a8b3eb0bae9db3b8e6200b060c5636ed4acf8efb8574ad06aab7ca4c679.apk",
-          "sha256": "e2c69a8b3eb0bae9db3b8e6200b060c5636ed4acf8efb8574ad06aab7ca4c679",
-          "size": 3494537,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/e2c69a8b3eb0bae9db3b8e6200b060c5636ed4acf8efb8574ad06aab7ca4c679.apk"
-        },
-        {
-          "name": "e2f9cadf63d60f7c80f4d3c2f4eaadd792061c7e4ca1a98c38b48ee7240a606b.apk",
-          "sha256": "e2f9cadf63d60f7c80f4d3c2f4eaadd792061c7e4ca1a98c38b48ee7240a606b",
-          "size": 995538,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/e2f9cadf63d60f7c80f4d3c2f4eaadd792061c7e4ca1a98c38b48ee7240a606b.apk"
-        },
-        {
-          "name": "ec73016454b3a8637578fe7bbc65d75302863ff5ea8aa67a5c6856177b2ae82c.apk",
-          "sha256": "ec73016454b3a8637578fe7bbc65d75302863ff5ea8aa67a5c6856177b2ae82c",
-          "size": 135378,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/ec73016454b3a8637578fe7bbc65d75302863ff5ea8aa67a5c6856177b2ae82c.apk"
+          "name": "cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3.apk",
+          "sha256": "cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3",
+          "size": 507712,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -1773,16 +1773,16 @@
       "package": "ai.x.grok",
       "publication": {
         "catalog": {
-          "name": "catalog-6c1f5b7ef1181bad276eec8f50d8cd0ed1cedf5600014108dfa6403fa27e42e2.json",
-          "sha256": "6c1f5b7ef1181bad276eec8f50d8cd0ed1cedf5600014108dfa6403fa27e42e2",
-          "size": 25312,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/catalog-6c1f5b7ef1181bad276eec8f50d8cd0ed1cedf5600014108dfa6403fa27e42e2.json"
+          "name": "catalog-1ca78adb382f857cdabe9f0f521e684409100c6fbf5f168fde93df6b2644fc4e.json",
+          "sha256": "1ca78adb382f857cdabe9f0f521e684409100c6fbf5f168fde93df6b2644fc4e",
+          "size": 25314,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/catalog-1ca78adb382f857cdabe9f0f521e684409100c6fbf5f168fde93df6b2644fc4e.json"
         },
         "compat_manifest": {
-          "name": "manifest-9939eee3a8e0dc6c14a10588229ad09b3beb69875756be60646dade7b349166e.json",
-          "sha256": "9939eee3a8e0dc6c14a10588229ad09b3beb69875756be60646dade7b349166e",
+          "name": "manifest-6d122815b634a1c57f956325666d46d902ad7ce9ad9c353d8d5cf06319ab7224.json",
+          "sha256": "6d122815b634a1c57f956325666d46d902ad7ce9ad9c353d8d5cf06319ab7224",
           "size": 1261,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/manifest-9939eee3a8e0dc6c14a10588229ad09b3beb69875756be60646dade7b349166e.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/manifest-6d122815b634a1c57f956325666d46d902ad7ce9ad9c353d8d5cf06319ab7224.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/ai.x.grok-library",
         "tag": "ai.x.grok-library"
@@ -1877,25 +1877,25 @@
           },
           "files": [
             {
-              "artifact": "0a25306b087df0c306d2e925a53078a043d0d15ec4cb17a949e10a644ad5bc6c",
+              "artifact": "916f1787ed6da466dcfeeb4ab778289c0ec250d850e3d6465459f043ba2d86fc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "e2c69a8b3eb0bae9db3b8e6200b060c5636ed4acf8efb8574ad06aab7ca4c679",
+              "artifact": "19d94c89cad67522431dfeab7037ff88c2ede9d424cd89b1cbd05f939d12273f",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "468d3f6708787c679f1e525e461a68de1687fc976f3f8a8f8566a054d9df8bb2",
+              "artifact": "c14dd562448e743ad0ee30e9d06a270695688b797b07938f0ece506406edfbd2",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "e03bc83bb3f31daba1be5c1b0e7f65f2c008d6ec98186ad8b65ee8c28781e68a",
+              "artifact": "6385f7d30803734e4288ab9bce4a864a50b38fddd55216bc2d0e5bd24e72851d",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -1903,8 +1903,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 11258200,
-          "version_name": "1.2.58-release.00"
+          "version_code": 11260200,
+          "version_name": "1.2.60-release.00"
         },
         {
           "certificate_sha256": [
@@ -1940,25 +1940,25 @@
           },
           "files": [
             {
-              "artifact": "0a25306b087df0c306d2e925a53078a043d0d15ec4cb17a949e10a644ad5bc6c",
+              "artifact": "916f1787ed6da466dcfeeb4ab778289c0ec250d850e3d6465459f043ba2d86fc",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "e2c69a8b3eb0bae9db3b8e6200b060c5636ed4acf8efb8574ad06aab7ca4c679",
+              "artifact": "19d94c89cad67522431dfeab7037ff88c2ede9d424cd89b1cbd05f939d12273f",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "e2f9cadf63d60f7c80f4d3c2f4eaadd792061c7e4ca1a98c38b48ee7240a606b",
+              "artifact": "c26d066cd0cc5fbf9d897952b424815100b5294fe8b0fa8329bf1962669847fa",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "e03bc83bb3f31daba1be5c1b0e7f65f2c008d6ec98186ad8b65ee8c28781e68a",
+              "artifact": "6385f7d30803734e4288ab9bce4a864a50b38fddd55216bc2d0e5bd24e72851d",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -1966,8 +1966,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 11258200,
-          "version_name": "1.2.58-release.00"
+          "version_code": 11260200,
+          "version_name": "1.2.60-release.00"
         },
         {
           "certificate_sha256": [
@@ -2008,25 +2008,25 @@
           },
           "files": [
             {
-              "artifact": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825",
+              "artifact": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d",
+              "artifact": "3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "ec73016454b3a8637578fe7bbc65d75302863ff5ea8aa67a5c6856177b2ae82c",
+              "artifact": "85c4a3cebd2af4d1f13d707b1af7a6146ac0db3459152b2cc289722d3361955d",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752",
+              "artifact": "cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -2034,8 +2034,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 11258200,
-          "version_name": "1.2.58-release.00"
+          "version_code": 11260200,
+          "version_name": "1.2.60-release.00"
         },
         {
           "certificate_sha256": [
@@ -2071,25 +2071,25 @@
           },
           "files": [
             {
-              "artifact": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825",
+              "artifact": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d",
+              "artifact": "3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "702bc6f6c8a0f1425124c8f0ec3be3572d3b6e7c9908986fc8c1e46a2eb52097",
+              "artifact": "40b901ed06b774c345c06cc01ea79a61562194301058a06022d13ac4b870d22f",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752",
+              "artifact": "cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -2097,8 +2097,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 11258200,
-          "version_name": "1.2.58-release.00"
+          "version_code": 11260200,
+          "version_name": "1.2.60-release.00"
         },
         {
           "certificate_sha256": [
@@ -2139,25 +2139,25 @@
           },
           "files": [
             {
-              "artifact": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825",
+              "artifact": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "ec73016454b3a8637578fe7bbc65d75302863ff5ea8aa67a5c6856177b2ae82c",
+              "artifact": "85c4a3cebd2af4d1f13d707b1af7a6146ac0db3459152b2cc289722d3361955d",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "09ec39ee7e057ddba182de140fa6a0eed3e85c6da0edd1205cf990fd9d08866a",
+              "artifact": "8169f404cde388a4a8adb2f2cce6fdb67bdc4cb7eb2067bcd49581f5a88381fa",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "21e1ae6ca2a279d9dd3f2e39f4c2d77f24345ab2c22cee7706e52dbc2a95e21e",
+              "artifact": "caf0f4f9328260c83dcdb7cff6a36cacc30305525a4efaf58d2746272cc3e518",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -2165,8 +2165,8 @@
           ],
           "id": "android13_x86_64_en",
           "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
-          "version_code": 11258200,
-          "version_name": "1.2.58-release.00"
+          "version_code": 11260200,
+          "version_name": "1.2.60-release.00"
         },
         {
           "certificate_sha256": [
@@ -2202,25 +2202,25 @@
           },
           "files": [
             {
-              "artifact": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825",
+              "artifact": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "702bc6f6c8a0f1425124c8f0ec3be3572d3b6e7c9908986fc8c1e46a2eb52097",
+              "artifact": "40b901ed06b774c345c06cc01ea79a61562194301058a06022d13ac4b870d22f",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "09ec39ee7e057ddba182de140fa6a0eed3e85c6da0edd1205cf990fd9d08866a",
+              "artifact": "8169f404cde388a4a8adb2f2cce6fdb67bdc4cb7eb2067bcd49581f5a88381fa",
               "original_name": "split_config.x86_64.apk",
               "role": "split",
               "split": "config.x86_64"
             },
             {
-              "artifact": "21e1ae6ca2a279d9dd3f2e39f4c2d77f24345ab2c22cee7706e52dbc2a95e21e",
+              "artifact": "caf0f4f9328260c83dcdb7cff6a36cacc30305525a4efaf58d2746272cc3e518",
               "original_name": "split_config.xhdpi.apk",
               "role": "split",
               "split": "config.xhdpi"
@@ -2228,8 +2228,8 @@
           ],
           "id": "android13_x86_64_ru",
           "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
-          "version_code": 11258200,
-          "version_name": "1.2.58-release.00"
+          "version_code": 11260200,
+          "version_name": "1.2.60-release.00"
         },
         {
           "certificate_sha256": [
@@ -2270,25 +2270,25 @@
           },
           "files": [
             {
-              "artifact": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825",
+              "artifact": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d",
+              "artifact": "3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "ec73016454b3a8637578fe7bbc65d75302863ff5ea8aa67a5c6856177b2ae82c",
+              "artifact": "85c4a3cebd2af4d1f13d707b1af7a6146ac0db3459152b2cc289722d3361955d",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752",
+              "artifact": "cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -2296,8 +2296,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 11258200,
-          "version_name": "1.2.58-release.00"
+          "version_code": 11260200,
+          "version_name": "1.2.60-release.00"
         },
         {
           "certificate_sha256": [
@@ -2333,25 +2333,25 @@
           },
           "files": [
             {
-              "artifact": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825",
+              "artifact": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d",
+              "artifact": "3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "702bc6f6c8a0f1425124c8f0ec3be3572d3b6e7c9908986fc8c1e46a2eb52097",
+              "artifact": "40b901ed06b774c345c06cc01ea79a61562194301058a06022d13ac4b870d22f",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752",
+              "artifact": "cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -2359,8 +2359,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 11258200,
-          "version_name": "1.2.58-release.00"
+          "version_code": 11260200,
+          "version_name": "1.2.60-release.00"
         },
         {
           "certificate_sha256": [
@@ -2396,25 +2396,25 @@
           },
           "files": [
             {
-              "artifact": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825",
+              "artifact": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d",
+              "artifact": "3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "702bc6f6c8a0f1425124c8f0ec3be3572d3b6e7c9908986fc8c1e46a2eb52097",
+              "artifact": "40b901ed06b774c345c06cc01ea79a61562194301058a06022d13ac4b870d22f",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752",
+              "artifact": "cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -2422,8 +2422,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 11258200,
-          "version_name": "1.2.58-release.00"
+          "version_code": 11260200,
+          "version_name": "1.2.60-release.00"
         },
         {
           "certificate_sha256": [
@@ -2464,25 +2464,25 @@
           },
           "files": [
             {
-              "artifact": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825",
+              "artifact": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d",
+              "artifact": "3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "ec73016454b3a8637578fe7bbc65d75302863ff5ea8aa67a5c6856177b2ae82c",
+              "artifact": "85c4a3cebd2af4d1f13d707b1af7a6146ac0db3459152b2cc289722d3361955d",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752",
+              "artifact": "cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
@@ -2490,8 +2490,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 11258200,
-          "version_name": "1.2.58-release.00"
+          "version_code": 11260200,
+          "version_name": "1.2.60-release.00"
         }
       ]
     },
@@ -84856,50 +84856,50 @@
     {
       "assets": [
         {
-          "name": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825.apk",
+          "name": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d.apk",
           "role": "base",
-          "sha256": "072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825",
-          "size": 60519704,
+          "sha256": "73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d",
+          "size": 60724506,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/072446687c42929b03f16aad5153d9349d40bae131be39f8d0b31068e94f9825.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/73a7e07376d31e9ab41d3f919275a3880937cb300e2d2c51c23cb8bcaf72908d.apk"
         },
         {
-          "name": "a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d.apk",
+          "name": "3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17.apk",
           "role": "split",
-          "sha256": "a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d",
+          "sha256": "3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17",
           "size": 3494537,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/a00421a96153dd3e2893518258d4175bfea42d59e10d00b3cb5db394df2bd31d.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/3c92beb6379fe1618b23e7c0f8b63b7524f14757087ef01763c1ab6cbaf7de17.apk"
         },
         {
-          "name": "ec73016454b3a8637578fe7bbc65d75302863ff5ea8aa67a5c6856177b2ae82c.apk",
+          "name": "85c4a3cebd2af4d1f13d707b1af7a6146ac0db3459152b2cc289722d3361955d.apk",
           "role": "split",
-          "sha256": "ec73016454b3a8637578fe7bbc65d75302863ff5ea8aa67a5c6856177b2ae82c",
-          "size": 135378,
+          "sha256": "85c4a3cebd2af4d1f13d707b1af7a6146ac0db3459152b2cc289722d3361955d",
+          "size": 139474,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/ec73016454b3a8637578fe7bbc65d75302863ff5ea8aa67a5c6856177b2ae82c.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/85c4a3cebd2af4d1f13d707b1af7a6146ac0db3459152b2cc289722d3361955d.apk"
         },
         {
-          "name": "bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752.apk",
+          "name": "cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3.apk",
           "role": "split",
-          "sha256": "bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752",
-          "size": 512000,
+          "sha256": "cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3",
+          "size": 507712,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/bb084adab4c4762aa195faee3dcb0de18aabb955623060b5020128d2885fb752.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/cc9e4171ef650221fb3026e17b35e4685966e68ccb0b4615eb8dc7cb963170c3.apk"
         }
       ],
       "certificate_sha256": [
         "521bf5ce7c981faba4ebd86d23f778885537cad021bc107d8915d005e99f4a12"
       ],
-      "manifest_sha256": "9939eee3a8e0dc6c14a10588229ad09b3beb69875756be60646dade7b349166e",
+      "manifest_sha256": "6d122815b634a1c57f956325666d46d902ad7ce9ad9c353d8d5cf06319ab7224",
       "manifest_size": 1261,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/manifest-9939eee3a8e0dc6c14a10588229ad09b3beb69875756be60646dade7b349166e.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/ai.x.grok-library/manifest-6d122815b634a1c57f956325666d46d902ad7ce9ad9c353d8d5cf06319ab7224.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/ai.x.grok/metadata.json",
       "package": "ai.x.grok",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/ai.x.grok-library",
-      "version_code": 11258200,
-      "version_name": "1.2.58-release.00"
+      "version_code": 11260200,
+      "version_name": "1.2.60-release.00"
     },
     {
       "assets": [
