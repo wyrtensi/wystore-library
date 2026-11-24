@@ -11,7 +11,7 @@
       "versionName": null,
       "updatedDate": "2026-11-19",
       "playUrl": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
-      "changelog": "Мы работаем над тем, чтобы сделать ваш опыт использования TikTok лучше с помощью обновлений и исправлений ошибок.<br>",
+      "changelog": "Мы совершенствуем TikTok, чтобы сделать создание и просмотр контента в нашем приложении еще более быстрыми и удобными.",
       "icon": "images/f1460d10ef1929d8494b8e049aa045ab8b913f193a39fcf6a25e1c5afdfb0d5d.png",
       "screenshots": [
         "images/200bf69b354b5794515f0c1a18aeb1409d6600f940d364cc280bcf2d783d4582.jpg",
@@ -32,7 +32,7 @@
       "versionName": null,
       "updatedDate": "2026-11-19",
       "playUrl": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
-      "changelog": "We've been working on making your experience on TikTok better with updates and bug fixes.",
+      "changelog": "We polish up TikTok to make creating and browsing on our app faster and better than ever.",
       "icon": "images/f1460d10ef1929d8494b8e049aa045ab8b913f193a39fcf6a25e1c5afdfb0d5d.png",
       "screenshots": [
         "images/200bf69b354b5794515f0c1a18aeb1409d6600f940d364cc280bcf2d783d4582.jpg",
@@ -92,6 +92,11 @@
         "versionName": null,
         "updatedDate": "2026-11-19",
         "text": "Мы работаем над тем, чтобы сделать ваш опыт использования TikTok лучше с помощью обновлений и исправлений ошибок.<br>"
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-19",
+        "text": "Мы совершенствуем TikTok, чтобы сделать создание и просмотр контента в нашем приложении еще более быстрыми и удобными."
       }
     ],
     "en_US": [
@@ -139,6 +144,11 @@
         "versionName": null,
         "updatedDate": "2026-11-19",
         "text": "We've been working on making your experience on TikTok better with updates and bug fixes."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-19",
+        "text": "We polish up TikTok to make creating and browsing on our app faster and better than ever."
       }
     ]
   },
