@@ -9,7 +9,7 @@
       "description": "<b>Xender - best sharing app fulfilling all your transfer needs</b><br><br>☆ Share Music, Share Video, Share Photo, Share MV, Share It, Share Me, Share File<br>☆ Transfer any files (app, music, video, pdf, Word, Excel, zip, folder..) anywhere, anytime<br>☆ Faster, more compatible, and more data-efficient than Quick Share and AirDrop<br>  - Transfer files from Android to Android <br>  - Transfer music from Android to iPhone<br>  - Transfer videos from iPhone to iPhone<br>  - Transfer photos from Android to Laptop/PC<br>  - Transfer pictures from iPhone to Laptop/PC<br>  - Transfer MP3 from iPhone to Desktop/PC<br>  - Transfer MP4 from Android to Desktop/PC<br>  - Transfer files from Android to MacBook<br>  - Transfer songs from iPhone to MacBook<br>  - Etc.<br>☆ No mobile data usage<br>☆ 200 times Bluetooth speed: WiFi File Transfer Master!<br>☆ Cross-Platform Connect & Share: Connect to Windows PC, Mac<br>☆ No USB cable<br>☆ Choice of 2 Billion users<br>☆ Over 200 million files transferred daily<br>☆ Play all music, videos right after receive<br>☆ To MP3: Convert Video to Audio<br>☆ Social Media Downloader: Save video, photos from Facebook, Instagram, Tik Tok, Whatsapp<br><br><b>Main features</b><br><br>☆  <b>High speed share</b><br>Send video, music, photos to friends in seconds! Highest speed can reach 40Mb/s.<br><br>☆   <b>No file size limit</b><br>Share large files without size limit.<br><br>☆  <b>Free of network or data usage</b><br>No cable, no internet, no data usage! Share anywhere anytime.<br><br>☆   <b>Share all kinds of files</b><br>Transfer anything you want: documents, music, pictures, videos, apps.<br><br>☆   <b>New Feature: Cross-platform connectivity</b><br>Connect & share between any devices: Android, iOS, Windows PC, Mac.<br><br>☆   <b>Manage phone media</b><br>View, upload, download, delete phone media (photos, music, video) from PC. Share between phone and PC.<br><br>☆   <b>To MP3</b><br>Convert Video to Audio<br><br>☆   <b>Social media download</b><br>Save videos, photos from Facebook, Instagram, Tik Tok, Whatsapp.<br><br>☆   <b>Phone Copy</b><br>Copy contents from old phone to new phone at a simple step.<br><br>☆   <b>File manager</b><br>View phone storage. Delete files, clear up space.<br><br>Visit our website: https://xender.com/<br>Support: service@xender.com",
       "shortDescription": "Быстрый обмен! Делитесь видео, улучшенный AirDrop, кроссплатформенность, подключение ПК и Mac.",
       "versionName": null,
-      "updatedDate": "2026-09-16",
+      "updatedDate": "2026-11-25",
       "playUrl": "https://play.google.com/store/apps/details?id=cn.xender",
       "changelog": "1. Исправление ошибок и оптимизация перевода",
       "icon": "images/925b07ea6cbc8583fc6a008ef18580f25bc7521552bb65f9e1dea26df5d9babd.png",
@@ -28,7 +28,7 @@
       "description": "<b>Xender - best sharing app fulfilling all your transfer needs</b><br><br>☆ Share Music, Share Video, Share Photo, Share MV, Share It, Share Me, Share File<br>☆ Transfer any files (app, music, video, pdf, Word, Excel, zip, folder..) anywhere, anytime<br>☆ Faster, more compatible, and more data-efficient than Quick Share and AirDrop<br>  - Transfer files from Android to Android <br>  - Transfer music from Android to iPhone<br>  - Transfer videos from iPhone to iPhone<br>  - Transfer photos from Android to Laptop/PC<br>  - Transfer pictures from iPhone to Laptop/PC<br>  - Transfer MP3 from iPhone to Desktop/PC<br>  - Transfer MP4 from Android to Desktop/PC<br>  - Transfer files from Android to MacBook<br>  - Transfer songs from iPhone to MacBook<br>  - Etc.<br>☆ No mobile data usage<br>☆ 200 times Bluetooth speed: WiFi File Transfer Master!<br>☆ Cross-Platform Connect & Share: Connect to Windows PC, Mac<br>☆ No USB cable<br>☆ Choice of 2 Billion users<br>☆ Over 200 million files transferred daily<br>☆ Play all music, videos right after receive<br>☆ To MP3: Convert Video to Audio<br>☆ Social Media Downloader: Save video, photos from Facebook, Instagram, Tik Tok, Whatsapp<br><br><b>Main features</b><br><br>☆  <b>High speed share</b><br>Send video, music, photos to friends in seconds! Highest speed can reach 40Mb/s.<br><br>☆   <b>No file size limit</b><br>Share large files without size limit.<br><br>☆  <b>Free of network or data usage</b><br>No cable, no internet, no data usage! Share anywhere anytime.<br><br>☆   <b>Share all kinds of files</b><br>Transfer anything you want: documents, music, pictures, videos, apps.<br><br>☆   <b>New Feature: Cross-platform connectivity</b><br>Connect & share between any devices: Android, iOS, Windows PC, Mac.<br><br>☆   <b>Manage phone media</b><br>View, upload, download, delete phone media (photos, music, video) from PC. Share between phone and PC.<br><br>☆   <b>To MP3</b><br>Convert Video to Audio<br><br>☆   <b>Social media download</b><br>Save videos, photos from Facebook, Instagram, Tik Tok, Whatsapp.<br><br>☆   <b>Phone Copy</b><br>Copy contents from old phone to new phone at a simple step.<br><br>☆   <b>File manager</b><br>View phone storage. Delete files, clear up space.<br><br>Visit our website: https://xender.com/<br>Support: service@xender.com",
       "shortDescription": "Quick Share! Share Video, Better AirDrop, Cross-platform, Connect PC and Mac",
       "versionName": null,
-      "updatedDate": "2026-09-16",
+      "updatedDate": "2026-11-25",
       "playUrl": "https://play.google.com/store/apps/details?id=cn.xender",
       "changelog": "1. Other bug fixes and transfer optimizations",
       "icon": "images/925b07ea6cbc8583fc6a008ef18580f25bc7521552bb65f9e1dea26df5d9babd.png",
@@ -48,12 +48,22 @@
         "versionName": null,
         "updatedDate": "2026-09-16",
         "text": "1. Исправление ошибок и оптимизация перевода"
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-25",
+        "text": "1. Исправление ошибок и оптимизация перевода"
       }
     ],
     "en_US": [
       {
         "versionName": null,
         "updatedDate": "2026-09-16",
+        "text": "1. Other bug fixes and transfer optimizations"
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-25",
         "text": "1. Other bug fixes and transfer optimizations"
       }
     ]
