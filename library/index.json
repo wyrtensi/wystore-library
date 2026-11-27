@@ -49411,22 +49411,22 @@
     {
       "artifacts": [
         {
-          "name": "0e7fb2f29dceef2fa6c5d4103fe7d01ea150e74301a355993a5336ee2dd7ea62.apk",
-          "sha256": "0e7fb2f29dceef2fa6c5d4103fe7d01ea150e74301a355993a5336ee2dd7ea62",
-          "size": 143047192,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/0e7fb2f29dceef2fa6c5d4103fe7d01ea150e74301a355993a5336ee2dd7ea62.apk"
+          "name": "8c1b919cf042b12582c8bb67d92c2cdf720b708aaec7a4bc359d97d5246042e0.apk",
+          "sha256": "8c1b919cf042b12582c8bb67d92c2cdf720b708aaec7a4bc359d97d5246042e0",
+          "size": 144189376,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/8c1b919cf042b12582c8bb67d92c2cdf720b708aaec7a4bc359d97d5246042e0.apk"
         },
         {
-          "name": "33c72570ade14ddb3068ce1ca2ffdace90cb4f66c08e281fc3a3004ac5d73b15.apk",
-          "sha256": "33c72570ade14ddb3068ce1ca2ffdace90cb4f66c08e281fc3a3004ac5d73b15",
-          "size": 143047192,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/33c72570ade14ddb3068ce1ca2ffdace90cb4f66c08e281fc3a3004ac5d73b15.apk"
+          "name": "cf1285ee7e67ff806b3d482c83a5396215020bdaf2297046f087ca67c1872883.apk",
+          "sha256": "cf1285ee7e67ff806b3d482c83a5396215020bdaf2297046f087ca67c1872883",
+          "size": 144189376,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/cf1285ee7e67ff806b3d482c83a5396215020bdaf2297046f087ca67c1872883.apk"
         },
         {
-          "name": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2.apk",
-          "sha256": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2",
-          "size": 141109784,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2.apk"
+          "name": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2.apk",
+          "sha256": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2",
+          "size": 142235584,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -49434,16 +49434,16 @@
       "package": "com.mcdonalds.mobileapp",
       "publication": {
         "catalog": {
-          "name": "catalog-d992b10b762201c1820a0441f8801123c2e06926f8b05eda8822d63f6c5c5535.json",
-          "sha256": "d992b10b762201c1820a0441f8801123c2e06926f8b05eda8822d63f6c5c5535",
-          "size": 73505,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/catalog-d992b10b762201c1820a0441f8801123c2e06926f8b05eda8822d63f6c5c5535.json"
+          "name": "catalog-c1f59aaeb09ea6533c63ffffb9d66455ae6486095d19f325be168ef2b06d6eaa.json",
+          "sha256": "c1f59aaeb09ea6533c63ffffb9d66455ae6486095d19f325be168ef2b06d6eaa",
+          "size": 72861,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/catalog-c1f59aaeb09ea6533c63ffffb9d66455ae6486095d19f325be168ef2b06d6eaa.json"
         },
         "compat_manifest": {
-          "name": "manifest-049c6a587fdbd26b67bb8f0bde8b437db68a11cd0db9b8907e1a126e51314e3b.json",
-          "sha256": "049c6a587fdbd26b67bb8f0bde8b437db68a11cd0db9b8907e1a126e51314e3b",
+          "name": "manifest-194c17466686e82cdaf9ff05110063cf1ba06e25c7ae6955fd4217644c30f81a.json",
+          "sha256": "194c17466686e82cdaf9ff05110063cf1ba06e25c7ae6955fd4217644c30f81a",
           "size": 485,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/manifest-049c6a587fdbd26b67bb8f0bde8b437db68a11cd0db9b8907e1a126e51314e3b.json"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/manifest-194c17466686e82cdaf9ff05110063cf1ba06e25c7ae6955fd4217644c30f81a.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.mcdonalds.mobileapp-library",
         "tag": "com.mcdonalds.mobileapp-library"
@@ -49718,15 +49718,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "0e7fb2f29dceef2fa6c5d4103fe7d01ea150e74301a355993a5336ee2dd7ea62",
+              "artifact": "cf1285ee7e67ff806b3d482c83a5396215020bdaf2297046f087ca67c1872883",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -49734,8 +49733,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -49980,15 +49979,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "0e7fb2f29dceef2fa6c5d4103fe7d01ea150e74301a355993a5336ee2dd7ea62",
+              "artifact": "cf1285ee7e67ff806b3d482c83a5396215020bdaf2297046f087ca67c1872883",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -49996,8 +49994,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -50242,15 +50240,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "33c72570ade14ddb3068ce1ca2ffdace90cb4f66c08e281fc3a3004ac5d73b15",
+              "artifact": "8c1b919cf042b12582c8bb67d92c2cdf720b708aaec7a4bc359d97d5246042e0",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -50258,8 +50255,8 @@
           ],
           "id": "android12_armv7_en",
           "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -50504,15 +50501,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "33c72570ade14ddb3068ce1ca2ffdace90cb4f66c08e281fc3a3004ac5d73b15",
+              "artifact": "8c1b919cf042b12582c8bb67d92c2cdf720b708aaec7a4bc359d97d5246042e0",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -50520,8 +50516,8 @@
           ],
           "id": "android12_armv7_ru",
           "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -50766,15 +50762,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2",
+              "artifact": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -50782,8 +50777,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -51028,15 +51023,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2",
+              "artifact": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -51044,8 +51038,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -51290,15 +51284,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2",
+              "artifact": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -51306,8 +51299,8 @@
           ],
           "id": "android13_x86_64_en",
           "profile_fingerprint": "f4d3e6dd6e6f38ccfa491eb8bd9a2838da32b208aa1a87033ff85cf96973fdec",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -51552,15 +51545,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2",
+              "artifact": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -51568,8 +51560,8 @@
           ],
           "id": "android13_x86_64_ru",
           "profile_fingerprint": "b8b764e9a5c9d8ca06ede89547ee24fd1cbfe9b4b9a03363cd728e0e49d09163",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -51814,15 +51806,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2",
+              "artifact": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -51830,8 +51821,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -52076,15 +52067,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2",
+              "artifact": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -52092,8 +52082,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -52338,15 +52328,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "33c72570ade14ddb3068ce1ca2ffdace90cb4f66c08e281fc3a3004ac5d73b15",
+              "artifact": "8c1b919cf042b12582c8bb67d92c2cdf720b708aaec7a4bc359d97d5246042e0",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -52354,8 +52343,8 @@
           ],
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -52600,15 +52589,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "33c72570ade14ddb3068ce1ca2ffdace90cb4f66c08e281fc3a3004ac5d73b15",
+              "artifact": "8c1b919cf042b12582c8bb67d92c2cdf720b708aaec7a4bc359d97d5246042e0",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -52616,8 +52604,8 @@
           ],
           "id": "legacy_arm64_ru",
           "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -52862,15 +52850,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2",
+              "artifact": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -52878,8 +52865,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         },
         {
           "certificate_sha256": [
@@ -53124,15 +53111,14 @@
             "provided_split_types": [],
             "required_features": [
               "android.hardware.faketouch",
-              "android.hardware.location",
-              "android.hardware.screen.portrait"
+              "android.hardware.location"
             ],
             "required_split_types": [],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2",
+              "artifact": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -53140,8 +53126,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 82337,
-          "version_name": "3.53.0"
+          "version_code": 82632,
+          "version_name": "3.55.1"
         }
       ]
     },
@@ -86306,26 +86292,26 @@
     {
       "assets": [
         {
-          "name": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2.apk",
+          "name": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2.apk",
           "role": "base",
-          "sha256": "3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2",
-          "size": 141109784,
+          "sha256": "db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2",
+          "size": 142235584,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/3550f27785171cc9bf78f168125f62f8e7a0dac3b1bf9ec6fcd759da223248d2.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/db4a569ff4c73da855c2a45d58d0d6c9c77a0ebda57899a5a7dc634a99965bf2.apk"
         }
       ],
       "certificate_sha256": [
         "392db11ddc91594b2bc7c0b05d75175f466c3495c7345a0bcd77df70380458b0"
       ],
-      "manifest_sha256": "049c6a587fdbd26b67bb8f0bde8b437db68a11cd0db9b8907e1a126e51314e3b",
+      "manifest_sha256": "194c17466686e82cdaf9ff05110063cf1ba06e25c7ae6955fd4217644c30f81a",
       "manifest_size": 485,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/manifest-049c6a587fdbd26b67bb8f0bde8b437db68a11cd0db9b8907e1a126e51314e3b.json",
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.mcdonalds.mobileapp-library/manifest-194c17466686e82cdaf9ff05110063cf1ba06e25c7ae6955fd4217644c30f81a.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.mcdonalds.mobileapp/metadata.json",
       "package": "com.mcdonalds.mobileapp",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.mcdonalds.mobileapp-library",
-      "version_code": 82337,
-      "version_name": "3.53.0"
+      "version_code": 82632,
+      "version_name": "3.55.1"
     },
     {
       "assets": [
