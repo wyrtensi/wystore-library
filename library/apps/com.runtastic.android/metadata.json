@@ -11,7 +11,7 @@
       "versionName": null,
       "updatedDate": "2026-11-24",
       "playUrl": "https://play.google.com/store/apps/details?id=com.runtastic.android",
-      "changelog": "HIIT is in! High-intensity interval training is now trackable in the adidas Running App. Track every rep as you turn up the intensity and accelerate your progress.",
+      "changelog": "Just a little maintenance this time! Bug fixes and performance tweaks to keep your workouts running smooth.",
       "icon": "images/c1b4c68484b936dbdcb66ab3131f25beca97c24c43c3aef58de69967a9fd8a55.png",
       "screenshots": [
         "images/6e0bebb6e1e59deba963a5ae8de97d0e099a8227d3c01a49b8572ea02299f2a1.png",
@@ -32,7 +32,7 @@
       "versionName": null,
       "updatedDate": "2026-11-24",
       "playUrl": "https://play.google.com/store/apps/details?id=com.runtastic.android",
-      "changelog": "HIIT is in! High-intensity interval training is now trackable in the adidas Running App. Track every rep as you turn up the intensity and accelerate your progress.",
+      "changelog": "Just a little maintenance this time! Bug fixes and performance tweaks to keep your workouts running smooth.",
       "icon": "images/c1b4c68484b936dbdcb66ab3131f25beca97c24c43c3aef58de69967a9fd8a55.png",
       "screenshots": [
         "images/6e0bebb6e1e59deba963a5ae8de97d0e099a8227d3c01a49b8572ea02299f2a1.png",
@@ -72,6 +72,11 @@
         "versionName": null,
         "updatedDate": "2026-11-24",
         "text": "HIIT is in! High-intensity interval training is now trackable in the adidas Running App. Track every rep as you turn up the intensity and accelerate your progress."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-24",
+        "text": "Just a little maintenance this time! Bug fixes and performance tweaks to keep your workouts running smooth."
       }
     ],
     "en_US": [
@@ -99,6 +104,11 @@
         "versionName": null,
         "updatedDate": "2026-11-24",
         "text": "HIIT is in! High-intensity interval training is now trackable in the adidas Running App. Track every rep as you turn up the intensity and accelerate your progress."
+      },
+      {
+        "versionName": null,
+        "updatedDate": "2026-11-24",
+        "text": "Just a little maintenance this time! Bug fixes and performance tweaks to keep your workouts running smooth."
       }
     ]
   },
