@@ -72767,70 +72767,112 @@
     {
       "artifacts": [
         {
-          "name": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb.apk",
-          "sha256": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb",
-          "size": 309148,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb.apk"
+          "name": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9.apk",
+          "sha256": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9",
+          "size": 264087613,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9.apk"
         },
         {
-          "name": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4.apk",
-          "sha256": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4",
-          "size": 257550338,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4.apk"
+          "name": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15.apk",
+          "sha256": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15",
+          "size": 16852,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15.apk"
         },
         {
-          "name": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413.apk",
-          "sha256": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413",
-          "size": 12637,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413.apk"
+          "name": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616.apk",
+          "sha256": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616",
+          "size": 74155,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616.apk"
         },
         {
-          "name": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861.apk",
-          "sha256": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861",
+          "name": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977.apk",
+          "sha256": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977",
           "size": 12717,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977.apk"
         },
         {
-          "name": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68.apk",
-          "sha256": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68",
+          "name": "596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09.apk",
+          "sha256": "596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09",
+          "size": 489051247,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09.apk"
+        },
+        {
+          "name": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5.apk",
+          "sha256": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5",
+          "size": 37290,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5.apk"
+        },
+        {
+          "name": "74171631899d0dacfcbb8a45d37040315836b63511a4befcf29e3cdc6726bb60.apk",
+          "sha256": "74171631899d0dacfcbb8a45d37040315836b63511a4befcf29e3cdc6726bb60",
+          "size": 541870,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/74171631899d0dacfcbb8a45d37040315836b63511a4befcf29e3cdc6726bb60.apk"
+        },
+        {
+          "name": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e.apk",
+          "sha256": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e",
           "size": 135671,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e.apk"
         },
         {
-          "name": "7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70.apk",
-          "sha256": "7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70",
-          "size": 483027063,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70.apk"
+          "name": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd.apk",
+          "sha256": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd",
+          "size": 45493,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd.apk"
         },
         {
-          "name": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759.apk",
-          "sha256": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759",
-          "size": 154630256,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759.apk"
+          "name": "a34f2b4829e18f43f8370d29d52c0b0973084f5a6ab96ff766e40e7ee3aa255e.apk",
+          "sha256": "a34f2b4829e18f43f8370d29d52c0b0973084f5a6ab96ff766e40e7ee3aa255e",
+          "size": 1241754,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/a34f2b4829e18f43f8370d29d52c0b0973084f5a6ab96ff766e40e7ee3aa255e.apk"
         },
         {
-          "name": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419.apk",
-          "sha256": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419",
-          "size": 53177251,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419.apk"
+          "name": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73.apk",
+          "sha256": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73",
+          "size": 53930833,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73.apk"
         },
         {
-          "name": "b58ca2d1ced62ad0cb8f828ffafe861c5fbb29c107591492cd49df2b4dc5bff5.apk",
-          "sha256": "b58ca2d1ced62ad0cb8f828ffafe861c5fbb29c107591492cd49df2b4dc5bff5",
-          "size": 1225370,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/b58ca2d1ced62ad0cb8f828ffafe861c5fbb29c107591492cd49df2b4dc5bff5.apk"
+          "name": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60.apk",
+          "sha256": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60",
+          "size": 296565,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60.apk"
         },
         {
-          "name": "c15d12a5f7e7970dd212f312339a36693128fbef32a94e782b955dc108f3bab2.apk",
-          "sha256": "c15d12a5f7e7970dd212f312339a36693128fbef32a94e782b955dc108f3bab2",
-          "size": 537774,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/c15d12a5f7e7970dd212f312339a36693128fbef32a94e782b955dc108f3bab2.apk"
-        },
-        {
-          "name": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0.apk",
-          "sha256": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0",
+          "name": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1.apk",
+          "sha256": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1",
           "size": 12637,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1.apk"
+        },
+        {
+          "name": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a.apk",
+          "sha256": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a",
+          "size": 12637,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a.apk"
+        },
+        {
+          "name": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf.apk",
+          "sha256": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf",
+          "size": 12637,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf.apk"
+        },
+        {
+          "name": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a.apk",
+          "sha256": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a",
+          "size": 16790,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a.apk"
+        },
+        {
+          "name": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249.apk",
+          "sha256": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249",
+          "size": 16852,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249.apk"
+        },
+        {
+          "name": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2.apk",
+          "sha256": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2",
+          "size": 151657050,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2.apk"
         }
       ],
       "default_variant": "px_9a",
@@ -72838,16 +72880,16 @@
       "package": "com.zhiliaoapp.musically",
       "publication": {
         "catalog": {
-          "name": "catalog-032197f941be23803cbba924ba5282f0f7b9e6d88d7cbbb76a53d1d57bc6a744.json",
-          "sha256": "032197f941be23803cbba924ba5282f0f7b9e6d88d7cbbb76a53d1d57bc6a744",
-          "size": 59283,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/catalog-032197f941be23803cbba924ba5282f0f7b9e6d88d7cbbb76a53d1d57bc6a744.json"
+          "name": "catalog-4b7db25746ae1fcd4b773e739470cc8a3595c568cc930146658776b9b7609104.json",
+          "sha256": "4b7db25746ae1fcd4b773e739470cc8a3595c568cc930146658776b9b7609104",
+          "size": 77812,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/catalog-4b7db25746ae1fcd4b773e739470cc8a3595c568cc930146658776b9b7609104.json"
         },
         "compat_manifest": {
-          "name": "manifest-08c1e93e94c9ae01d7be3901f048dc870633b2e3555592e090e5e28440f97eaa.json",
-          "sha256": "08c1e93e94c9ae01d7be3901f048dc870633b2e3555592e090e5e28440f97eaa",
-          "size": 2583,
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/manifest-08c1e93e94c9ae01d7be3901f048dc870633b2e3555592e090e5e28440f97eaa.json"
+          "name": "manifest-773294b7c72b791bf9e6cd2890742d63c04da4f25c097ff06d47b1b36f768490.json",
+          "sha256": "773294b7c72b791bf9e6cd2890742d63c04da4f25c097ff06d47b1b36f768490",
+          "size": 4428,
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/manifest-773294b7c72b791bf9e6cd2890742d63c04da4f25c097ff06d47b1b36f768490.json"
         },
         "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.zhiliaoapp.musically-library",
         "tag": "com.zhiliaoapp.musically-library"
@@ -72889,8 +72931,15 @@
               "base__abi",
               "base__density",
               "df_a_dex__module",
+              "df_kakao__abi",
+              "df_kakao__module",
+              "df_line__abi",
+              "df_line__module",
+              "df_line_nonus__module",
               "df_location__abi",
               "df_location__module",
+              "df_oppo_hyperboost__abi",
+              "df_oppo_hyperboost__module",
               "df_pns_biz__abi",
               "df_pns_biz__module"
             ],
@@ -72902,62 +72951,107 @@
             "required_split_types": [
               "base__abi",
               "base__density",
+              "df_kakao__abi",
+              "df_line__abi",
               "df_location__abi",
+              "df_oppo_hyperboost__abi",
               "df_pns_biz__abi"
             ],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759",
+              "artifact": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419",
+              "artifact": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "c15d12a5f7e7970dd212f312339a36693128fbef32a94e782b955dc108f3bab2",
+              "artifact": "74171631899d0dacfcbb8a45d37040315836b63511a4befcf29e3cdc6726bb60",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb",
+              "artifact": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4",
+              "artifact": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9",
               "original_name": "split_df_a_dex.apk",
               "role": "split",
               "split": "df_a_dex"
             },
             {
-              "artifact": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413",
+              "artifact": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15",
+              "original_name": "split_df_kakao.apk",
+              "role": "split",
+              "split": "df_kakao"
+            },
+            {
+              "artifact": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616",
+              "original_name": "split_df_kakao.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_kakao.config.arm64_v8a"
+            },
+            {
+              "artifact": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249",
+              "original_name": "split_df_line.apk",
+              "role": "split",
+              "split": "df_line"
+            },
+            {
+              "artifact": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5",
+              "original_name": "split_df_line.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_line.config.arm64_v8a"
+            },
+            {
+              "artifact": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a",
+              "original_name": "split_df_line_nonus.apk",
+              "role": "split",
+              "split": "df_line_nonus"
+            },
+            {
+              "artifact": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1",
               "original_name": "split_df_location.apk",
               "role": "split",
               "split": "df_location"
             },
             {
-              "artifact": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68",
+              "artifact": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e",
               "original_name": "split_df_location.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_location.config.arm64_v8a"
             },
             {
-              "artifact": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0",
+              "artifact": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a",
+              "original_name": "split_df_oppo_hyperboost.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost"
+            },
+            {
+              "artifact": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd",
+              "original_name": "split_df_oppo_hyperboost.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost.config.arm64_v8a"
+            },
+            {
+              "artifact": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf",
               "original_name": "split_df_pns_biz.apk",
               "role": "split",
               "split": "df_pns_biz"
             },
             {
-              "artifact": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861",
+              "artifact": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977",
               "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_pns_biz.config.arm64_v8a"
@@ -72965,8 +73059,8 @@
           ],
           "id": "android12_arm64_en",
           "profile_fingerprint": "b46a053e2d89cdb497864cefc1b75ada16dd86f7ac9dceae3d8c6fcb5f69dbad",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -72991,8 +73085,15 @@
               "base__abi",
               "base__density",
               "df_a_dex__module",
+              "df_kakao__abi",
+              "df_kakao__module",
+              "df_line__abi",
+              "df_line__module",
+              "df_line_nonus__module",
               "df_location__abi",
               "df_location__module",
+              "df_oppo_hyperboost__abi",
+              "df_oppo_hyperboost__module",
               "df_pns_biz__abi",
               "df_pns_biz__module"
             ],
@@ -73004,62 +73105,107 @@
             "required_split_types": [
               "base__abi",
               "base__density",
+              "df_kakao__abi",
+              "df_line__abi",
               "df_location__abi",
+              "df_oppo_hyperboost__abi",
               "df_pns_biz__abi"
             ],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759",
+              "artifact": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419",
+              "artifact": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b58ca2d1ced62ad0cb8f828ffafe861c5fbb29c107591492cd49df2b4dc5bff5",
+              "artifact": "a34f2b4829e18f43f8370d29d52c0b0973084f5a6ab96ff766e40e7ee3aa255e",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb",
+              "artifact": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4",
+              "artifact": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9",
               "original_name": "split_df_a_dex.apk",
               "role": "split",
               "split": "df_a_dex"
             },
             {
-              "artifact": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413",
+              "artifact": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15",
+              "original_name": "split_df_kakao.apk",
+              "role": "split",
+              "split": "df_kakao"
+            },
+            {
+              "artifact": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616",
+              "original_name": "split_df_kakao.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_kakao.config.arm64_v8a"
+            },
+            {
+              "artifact": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249",
+              "original_name": "split_df_line.apk",
+              "role": "split",
+              "split": "df_line"
+            },
+            {
+              "artifact": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5",
+              "original_name": "split_df_line.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_line.config.arm64_v8a"
+            },
+            {
+              "artifact": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a",
+              "original_name": "split_df_line_nonus.apk",
+              "role": "split",
+              "split": "df_line_nonus"
+            },
+            {
+              "artifact": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1",
               "original_name": "split_df_location.apk",
               "role": "split",
               "split": "df_location"
             },
             {
-              "artifact": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68",
+              "artifact": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e",
               "original_name": "split_df_location.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_location.config.arm64_v8a"
             },
             {
-              "artifact": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0",
+              "artifact": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a",
+              "original_name": "split_df_oppo_hyperboost.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost"
+            },
+            {
+              "artifact": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd",
+              "original_name": "split_df_oppo_hyperboost.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost.config.arm64_v8a"
+            },
+            {
+              "artifact": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf",
               "original_name": "split_df_pns_biz.apk",
               "role": "split",
               "split": "df_pns_biz"
             },
             {
-              "artifact": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861",
+              "artifact": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977",
               "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_pns_biz.config.arm64_v8a"
@@ -73067,8 +73213,8 @@
           ],
           "id": "android12_arm64_ru",
           "profile_fingerprint": "5a2267b4736decfe804b29899f1f137060dde5906293c25dda370e1fe4ff3aad",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -73236,7 +73382,7 @@
           },
           "files": [
             {
-              "artifact": "7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70",
+              "artifact": "596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -73244,8 +73390,8 @@
           ],
           "id": "android12_armv7_en",
           "profile_fingerprint": "1108100f0f480b96380a24c7d638f15618c82cb6ddff7cc0ee3295e3cd5bd145",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -73413,7 +73559,7 @@
           },
           "files": [
             {
-              "artifact": "7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70",
+              "artifact": "596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -73421,8 +73567,8 @@
           ],
           "id": "android12_armv7_ru",
           "profile_fingerprint": "2830283704806e77a6c06ecc8a4f0d5a9d2ac823a35a01347263e15e315f04ee",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -73446,8 +73592,15 @@
               "base__abi",
               "base__density",
               "df_a_dex__module",
+              "df_kakao__abi",
+              "df_kakao__module",
+              "df_line__abi",
+              "df_line__module",
+              "df_line_nonus__module",
               "df_location__abi",
               "df_location__module",
+              "df_oppo_hyperboost__abi",
+              "df_oppo_hyperboost__module",
               "df_pns_biz__abi",
               "df_pns_biz__module"
             ],
@@ -73459,62 +73612,107 @@
             "required_split_types": [
               "base__abi",
               "base__density",
+              "df_kakao__abi",
+              "df_line__abi",
               "df_location__abi",
+              "df_oppo_hyperboost__abi",
               "df_pns_biz__abi"
             ],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759",
+              "artifact": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419",
+              "artifact": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "c15d12a5f7e7970dd212f312339a36693128fbef32a94e782b955dc108f3bab2",
+              "artifact": "74171631899d0dacfcbb8a45d37040315836b63511a4befcf29e3cdc6726bb60",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb",
+              "artifact": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4",
+              "artifact": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9",
               "original_name": "split_df_a_dex.apk",
               "role": "split",
               "split": "df_a_dex"
             },
             {
-              "artifact": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413",
+              "artifact": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15",
+              "original_name": "split_df_kakao.apk",
+              "role": "split",
+              "split": "df_kakao"
+            },
+            {
+              "artifact": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616",
+              "original_name": "split_df_kakao.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_kakao.config.arm64_v8a"
+            },
+            {
+              "artifact": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249",
+              "original_name": "split_df_line.apk",
+              "role": "split",
+              "split": "df_line"
+            },
+            {
+              "artifact": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5",
+              "original_name": "split_df_line.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_line.config.arm64_v8a"
+            },
+            {
+              "artifact": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a",
+              "original_name": "split_df_line_nonus.apk",
+              "role": "split",
+              "split": "df_line_nonus"
+            },
+            {
+              "artifact": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1",
               "original_name": "split_df_location.apk",
               "role": "split",
               "split": "df_location"
             },
             {
-              "artifact": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68",
+              "artifact": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e",
               "original_name": "split_df_location.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_location.config.arm64_v8a"
             },
             {
-              "artifact": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0",
+              "artifact": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a",
+              "original_name": "split_df_oppo_hyperboost.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost"
+            },
+            {
+              "artifact": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd",
+              "original_name": "split_df_oppo_hyperboost.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost.config.arm64_v8a"
+            },
+            {
+              "artifact": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf",
               "original_name": "split_df_pns_biz.apk",
               "role": "split",
               "split": "df_pns_biz"
             },
             {
-              "artifact": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861",
+              "artifact": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977",
               "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_pns_biz.config.arm64_v8a"
@@ -73522,8 +73720,8 @@
           ],
           "id": "android13_arm64_en",
           "profile_fingerprint": "92895fa7549b617587b8424e0e13ffcf98fbd5405e01fd2e28a133568ac1633d",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -73548,8 +73746,15 @@
               "base__abi",
               "base__density",
               "df_a_dex__module",
+              "df_kakao__abi",
+              "df_kakao__module",
+              "df_line__abi",
+              "df_line__module",
+              "df_line_nonus__module",
               "df_location__abi",
               "df_location__module",
+              "df_oppo_hyperboost__abi",
+              "df_oppo_hyperboost__module",
               "df_pns_biz__abi",
               "df_pns_biz__module"
             ],
@@ -73561,62 +73766,107 @@
             "required_split_types": [
               "base__abi",
               "base__density",
+              "df_kakao__abi",
+              "df_line__abi",
               "df_location__abi",
+              "df_oppo_hyperboost__abi",
               "df_pns_biz__abi"
             ],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759",
+              "artifact": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419",
+              "artifact": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b58ca2d1ced62ad0cb8f828ffafe861c5fbb29c107591492cd49df2b4dc5bff5",
+              "artifact": "a34f2b4829e18f43f8370d29d52c0b0973084f5a6ab96ff766e40e7ee3aa255e",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb",
+              "artifact": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4",
+              "artifact": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9",
               "original_name": "split_df_a_dex.apk",
               "role": "split",
               "split": "df_a_dex"
             },
             {
-              "artifact": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413",
+              "artifact": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15",
+              "original_name": "split_df_kakao.apk",
+              "role": "split",
+              "split": "df_kakao"
+            },
+            {
+              "artifact": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616",
+              "original_name": "split_df_kakao.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_kakao.config.arm64_v8a"
+            },
+            {
+              "artifact": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249",
+              "original_name": "split_df_line.apk",
+              "role": "split",
+              "split": "df_line"
+            },
+            {
+              "artifact": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5",
+              "original_name": "split_df_line.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_line.config.arm64_v8a"
+            },
+            {
+              "artifact": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a",
+              "original_name": "split_df_line_nonus.apk",
+              "role": "split",
+              "split": "df_line_nonus"
+            },
+            {
+              "artifact": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1",
               "original_name": "split_df_location.apk",
               "role": "split",
               "split": "df_location"
             },
             {
-              "artifact": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68",
+              "artifact": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e",
               "original_name": "split_df_location.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_location.config.arm64_v8a"
             },
             {
-              "artifact": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0",
+              "artifact": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a",
+              "original_name": "split_df_oppo_hyperboost.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost"
+            },
+            {
+              "artifact": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd",
+              "original_name": "split_df_oppo_hyperboost.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost.config.arm64_v8a"
+            },
+            {
+              "artifact": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf",
               "original_name": "split_df_pns_biz.apk",
               "role": "split",
               "split": "df_pns_biz"
             },
             {
-              "artifact": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861",
+              "artifact": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977",
               "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_pns_biz.config.arm64_v8a"
@@ -73624,8 +73874,8 @@
           ],
           "id": "android13_arm64_ru",
           "profile_fingerprint": "b23f7adb65a6a5f447ff8185436c3502b6fc52d5bded813093149ee9f2c00e35",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -73649,8 +73899,15 @@
               "base__abi",
               "base__density",
               "df_a_dex__module",
+              "df_kakao__abi",
+              "df_kakao__module",
+              "df_line__abi",
+              "df_line__module",
+              "df_line_nonus__module",
               "df_location__abi",
               "df_location__module",
+              "df_oppo_hyperboost__abi",
+              "df_oppo_hyperboost__module",
               "df_pns_biz__abi",
               "df_pns_biz__module"
             ],
@@ -73662,62 +73919,107 @@
             "required_split_types": [
               "base__abi",
               "base__density",
+              "df_kakao__abi",
+              "df_line__abi",
               "df_location__abi",
+              "df_oppo_hyperboost__abi",
               "df_pns_biz__abi"
             ],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759",
+              "artifact": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419",
+              "artifact": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "c15d12a5f7e7970dd212f312339a36693128fbef32a94e782b955dc108f3bab2",
+              "artifact": "74171631899d0dacfcbb8a45d37040315836b63511a4befcf29e3cdc6726bb60",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb",
+              "artifact": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4",
+              "artifact": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9",
               "original_name": "split_df_a_dex.apk",
               "role": "split",
               "split": "df_a_dex"
             },
             {
-              "artifact": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413",
+              "artifact": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15",
+              "original_name": "split_df_kakao.apk",
+              "role": "split",
+              "split": "df_kakao"
+            },
+            {
+              "artifact": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616",
+              "original_name": "split_df_kakao.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_kakao.config.arm64_v8a"
+            },
+            {
+              "artifact": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249",
+              "original_name": "split_df_line.apk",
+              "role": "split",
+              "split": "df_line"
+            },
+            {
+              "artifact": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5",
+              "original_name": "split_df_line.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_line.config.arm64_v8a"
+            },
+            {
+              "artifact": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a",
+              "original_name": "split_df_line_nonus.apk",
+              "role": "split",
+              "split": "df_line_nonus"
+            },
+            {
+              "artifact": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1",
               "original_name": "split_df_location.apk",
               "role": "split",
               "split": "df_location"
             },
             {
-              "artifact": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68",
+              "artifact": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e",
               "original_name": "split_df_location.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_location.config.arm64_v8a"
             },
             {
-              "artifact": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0",
+              "artifact": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a",
+              "original_name": "split_df_oppo_hyperboost.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost"
+            },
+            {
+              "artifact": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd",
+              "original_name": "split_df_oppo_hyperboost.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost.config.arm64_v8a"
+            },
+            {
+              "artifact": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf",
               "original_name": "split_df_pns_biz.apk",
               "role": "split",
               "split": "df_pns_biz"
             },
             {
-              "artifact": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861",
+              "artifact": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977",
               "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_pns_biz.config.arm64_v8a"
@@ -73725,8 +74027,8 @@
           ],
           "id": "android16_arm64_en",
           "profile_fingerprint": "2ef808a1bf89123640233b5e1890fe12353a73e1956c8b9109ed45a8de2f6a7c",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -73751,8 +74053,15 @@
               "base__abi",
               "base__density",
               "df_a_dex__module",
+              "df_kakao__abi",
+              "df_kakao__module",
+              "df_line__abi",
+              "df_line__module",
+              "df_line_nonus__module",
               "df_location__abi",
               "df_location__module",
+              "df_oppo_hyperboost__abi",
+              "df_oppo_hyperboost__module",
               "df_pns_biz__abi",
               "df_pns_biz__module"
             ],
@@ -73764,62 +74073,107 @@
             "required_split_types": [
               "base__abi",
               "base__density",
+              "df_kakao__abi",
+              "df_line__abi",
               "df_location__abi",
+              "df_oppo_hyperboost__abi",
               "df_pns_biz__abi"
             ],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759",
+              "artifact": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419",
+              "artifact": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b58ca2d1ced62ad0cb8f828ffafe861c5fbb29c107591492cd49df2b4dc5bff5",
+              "artifact": "a34f2b4829e18f43f8370d29d52c0b0973084f5a6ab96ff766e40e7ee3aa255e",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb",
+              "artifact": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4",
+              "artifact": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9",
               "original_name": "split_df_a_dex.apk",
               "role": "split",
               "split": "df_a_dex"
             },
             {
-              "artifact": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413",
+              "artifact": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15",
+              "original_name": "split_df_kakao.apk",
+              "role": "split",
+              "split": "df_kakao"
+            },
+            {
+              "artifact": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616",
+              "original_name": "split_df_kakao.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_kakao.config.arm64_v8a"
+            },
+            {
+              "artifact": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249",
+              "original_name": "split_df_line.apk",
+              "role": "split",
+              "split": "df_line"
+            },
+            {
+              "artifact": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5",
+              "original_name": "split_df_line.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_line.config.arm64_v8a"
+            },
+            {
+              "artifact": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a",
+              "original_name": "split_df_line_nonus.apk",
+              "role": "split",
+              "split": "df_line_nonus"
+            },
+            {
+              "artifact": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1",
               "original_name": "split_df_location.apk",
               "role": "split",
               "split": "df_location"
             },
             {
-              "artifact": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68",
+              "artifact": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e",
               "original_name": "split_df_location.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_location.config.arm64_v8a"
             },
             {
-              "artifact": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0",
+              "artifact": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a",
+              "original_name": "split_df_oppo_hyperboost.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost"
+            },
+            {
+              "artifact": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd",
+              "original_name": "split_df_oppo_hyperboost.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost.config.arm64_v8a"
+            },
+            {
+              "artifact": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf",
               "original_name": "split_df_pns_biz.apk",
               "role": "split",
               "split": "df_pns_biz"
             },
             {
-              "artifact": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861",
+              "artifact": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977",
               "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_pns_biz.config.arm64_v8a"
@@ -73827,8 +74181,8 @@
           ],
           "id": "android16_arm64_ru",
           "profile_fingerprint": "9fad77fdc89e8b8dd671b3a7ecb6febde6074f9e3e3e94bbe93574fe64b6e192",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -73996,7 +74350,7 @@
           },
           "files": [
             {
-              "artifact": "7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70",
+              "artifact": "596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -74004,8 +74358,8 @@
           ],
           "id": "android9_arm64_en",
           "profile_fingerprint": "be05300b1a1a01b7e63da9d8df1e2a5c558be09f3dee7b831bf4b63aae2344d2",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -74173,7 +74527,7 @@
           },
           "files": [
             {
-              "artifact": "7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70",
+              "artifact": "596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -74181,8 +74535,8 @@
           ],
           "id": "android9_arm64_ru",
           "profile_fingerprint": "dd34bd49045a6d0eb1f4351ab95578fcb34ec50f82213af3ee6a03de1fe039e0",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -74350,7 +74704,7 @@
           },
           "files": [
             {
-              "artifact": "7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70",
+              "artifact": "596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -74358,8 +74712,8 @@
           ],
           "id": "legacy_arm64_en",
           "profile_fingerprint": "91cc26493d11810c8f04a37fa03497e556be1c6f73d130483d3b2e630e9eb103",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -74527,7 +74881,7 @@
           },
           "files": [
             {
-              "artifact": "7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70",
+              "artifact": "596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -74535,8 +74889,8 @@
           ],
           "id": "legacy_arm64_ru",
           "profile_fingerprint": "bfc545382d85cca26a12ac52510dd69a78e2ce333b19b9408988e24334789e2f",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -74704,7 +75058,7 @@
           },
           "files": [
             {
-              "artifact": "7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70",
+              "artifact": "596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -74712,8 +75066,8 @@
           ],
           "id": "legacy_armv7_en",
           "profile_fingerprint": "1f5a19af795b870baa8e348fa48d82820cba897cc1c70306b1e226abc03ee70f",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -74881,7 +75235,7 @@
           },
           "files": [
             {
-              "artifact": "7321ae3537572004956e2308c7eb5b1d82e6eb536c2c2fac432f3d8a1801ff70",
+              "artifact": "596d8a1841a47017e6f64eed2a091a175a96711cd7c8e261ab316f1115367c09",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
@@ -74889,8 +75243,8 @@
           ],
           "id": "legacy_armv7_ru",
           "profile_fingerprint": "fb82da1b9fa1adfaa332d706e4394923030e10da3946fc4fcdb6aca3aee91c2a",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -74915,8 +75269,15 @@
               "base__abi",
               "base__density",
               "df_a_dex__module",
+              "df_kakao__abi",
+              "df_kakao__module",
+              "df_line__abi",
+              "df_line__module",
+              "df_line_nonus__module",
               "df_location__abi",
               "df_location__module",
+              "df_oppo_hyperboost__abi",
+              "df_oppo_hyperboost__module",
               "df_pns_biz__abi",
               "df_pns_biz__module"
             ],
@@ -74928,62 +75289,107 @@
             "required_split_types": [
               "base__abi",
               "base__density",
+              "df_kakao__abi",
+              "df_line__abi",
               "df_location__abi",
+              "df_oppo_hyperboost__abi",
               "df_pns_biz__abi"
             ],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759",
+              "artifact": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419",
+              "artifact": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "b58ca2d1ced62ad0cb8f828ffafe861c5fbb29c107591492cd49df2b4dc5bff5",
+              "artifact": "a34f2b4829e18f43f8370d29d52c0b0973084f5a6ab96ff766e40e7ee3aa255e",
               "original_name": "split_config.ru.apk",
               "role": "split",
               "split": "config.ru"
             },
             {
-              "artifact": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb",
+              "artifact": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4",
+              "artifact": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9",
               "original_name": "split_df_a_dex.apk",
               "role": "split",
               "split": "df_a_dex"
             },
             {
-              "artifact": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413",
+              "artifact": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15",
+              "original_name": "split_df_kakao.apk",
+              "role": "split",
+              "split": "df_kakao"
+            },
+            {
+              "artifact": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616",
+              "original_name": "split_df_kakao.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_kakao.config.arm64_v8a"
+            },
+            {
+              "artifact": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249",
+              "original_name": "split_df_line.apk",
+              "role": "split",
+              "split": "df_line"
+            },
+            {
+              "artifact": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5",
+              "original_name": "split_df_line.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_line.config.arm64_v8a"
+            },
+            {
+              "artifact": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a",
+              "original_name": "split_df_line_nonus.apk",
+              "role": "split",
+              "split": "df_line_nonus"
+            },
+            {
+              "artifact": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1",
               "original_name": "split_df_location.apk",
               "role": "split",
               "split": "df_location"
             },
             {
-              "artifact": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68",
+              "artifact": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e",
               "original_name": "split_df_location.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_location.config.arm64_v8a"
             },
             {
-              "artifact": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0",
+              "artifact": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a",
+              "original_name": "split_df_oppo_hyperboost.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost"
+            },
+            {
+              "artifact": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd",
+              "original_name": "split_df_oppo_hyperboost.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost.config.arm64_v8a"
+            },
+            {
+              "artifact": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf",
               "original_name": "split_df_pns_biz.apk",
               "role": "split",
               "split": "df_pns_biz"
             },
             {
-              "artifact": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861",
+              "artifact": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977",
               "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_pns_biz.config.arm64_v8a"
@@ -74991,8 +75397,8 @@
           ],
           "id": "modern_arm64_ru",
           "profile_fingerprint": "8734ac74040962198bd5e0567097587d4f22b8fe3462affeee816dc3a1d50af2",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         },
         {
           "certificate_sha256": [
@@ -75016,8 +75422,15 @@
               "base__abi",
               "base__density",
               "df_a_dex__module",
+              "df_kakao__abi",
+              "df_kakao__module",
+              "df_line__abi",
+              "df_line__module",
+              "df_line_nonus__module",
               "df_location__abi",
               "df_location__module",
+              "df_oppo_hyperboost__abi",
+              "df_oppo_hyperboost__module",
               "df_pns_biz__abi",
               "df_pns_biz__module"
             ],
@@ -75029,62 +75442,107 @@
             "required_split_types": [
               "base__abi",
               "base__density",
+              "df_kakao__abi",
+              "df_line__abi",
               "df_location__abi",
+              "df_oppo_hyperboost__abi",
               "df_pns_biz__abi"
             ],
             "uses_splits": []
           },
           "files": [
             {
-              "artifact": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759",
+              "artifact": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2",
               "original_name": "base.apk",
               "role": "base",
               "split": ""
             },
             {
-              "artifact": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419",
+              "artifact": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73",
               "original_name": "split_config.arm64_v8a.apk",
               "role": "split",
               "split": "config.arm64_v8a"
             },
             {
-              "artifact": "c15d12a5f7e7970dd212f312339a36693128fbef32a94e782b955dc108f3bab2",
+              "artifact": "74171631899d0dacfcbb8a45d37040315836b63511a4befcf29e3cdc6726bb60",
               "original_name": "split_config.en.apk",
               "role": "split",
               "split": "config.en"
             },
             {
-              "artifact": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb",
+              "artifact": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60",
               "original_name": "split_config.xxhdpi.apk",
               "role": "split",
               "split": "config.xxhdpi"
             },
             {
-              "artifact": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4",
+              "artifact": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9",
               "original_name": "split_df_a_dex.apk",
               "role": "split",
               "split": "df_a_dex"
             },
             {
-              "artifact": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413",
+              "artifact": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15",
+              "original_name": "split_df_kakao.apk",
+              "role": "split",
+              "split": "df_kakao"
+            },
+            {
+              "artifact": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616",
+              "original_name": "split_df_kakao.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_kakao.config.arm64_v8a"
+            },
+            {
+              "artifact": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249",
+              "original_name": "split_df_line.apk",
+              "role": "split",
+              "split": "df_line"
+            },
+            {
+              "artifact": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5",
+              "original_name": "split_df_line.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_line.config.arm64_v8a"
+            },
+            {
+              "artifact": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a",
+              "original_name": "split_df_line_nonus.apk",
+              "role": "split",
+              "split": "df_line_nonus"
+            },
+            {
+              "artifact": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1",
               "original_name": "split_df_location.apk",
               "role": "split",
               "split": "df_location"
             },
             {
-              "artifact": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68",
+              "artifact": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e",
               "original_name": "split_df_location.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_location.config.arm64_v8a"
             },
             {
-              "artifact": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0",
+              "artifact": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a",
+              "original_name": "split_df_oppo_hyperboost.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost"
+            },
+            {
+              "artifact": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd",
+              "original_name": "split_df_oppo_hyperboost.config.arm64_v8a.apk",
+              "role": "split",
+              "split": "df_oppo_hyperboost.config.arm64_v8a"
+            },
+            {
+              "artifact": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf",
               "original_name": "split_df_pns_biz.apk",
               "role": "split",
               "split": "df_pns_biz"
             },
             {
-              "artifact": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861",
+              "artifact": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977",
               "original_name": "split_df_pns_biz.config.arm64_v8a.apk",
               "role": "split",
               "split": "df_pns_biz.config.arm64_v8a"
@@ -75092,8 +75550,8 @@
           ],
           "id": "px_9a",
           "profile_fingerprint": "70530b19b4e8d093ad7860d9d1ff917dfa84e4d573e9029207a5318e786be551",
-          "version_code": 2024709030,
-          "version_name": "47.9.3"
+          "version_code": 2024800040,
+          "version_name": "48.0.4"
         }
       ]
     },
@@ -87204,90 +87662,146 @@
     {
       "assets": [
         {
-          "name": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759.apk",
+          "name": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2.apk",
           "role": "base",
-          "sha256": "78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759",
-          "size": 154630256,
+          "sha256": "fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2",
+          "size": 151657050,
           "split": "",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/78c343e15268fbcc75dd4cf6d190e30fea753470df42410ae64b32b236352759.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/fe78ed4931bfd0e1622cab388122a40cb0315aefec99fa408cef72aceb3b17a2.apk"
         },
         {
-          "name": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419.apk",
+          "name": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73.apk",
           "role": "split",
-          "sha256": "90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419",
-          "size": 53177251,
+          "sha256": "bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73",
+          "size": 53930833,
           "split": "config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/90618e6e4f750d53902a46b9d720731661741a0e6b5df4e80ba52981f450d419.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/bebf5dfd0231bab6a297809505ddb250f140460f03f43aa6dd074d02c058ba73.apk"
         },
         {
-          "name": "c15d12a5f7e7970dd212f312339a36693128fbef32a94e782b955dc108f3bab2.apk",
+          "name": "74171631899d0dacfcbb8a45d37040315836b63511a4befcf29e3cdc6726bb60.apk",
           "role": "split",
-          "sha256": "c15d12a5f7e7970dd212f312339a36693128fbef32a94e782b955dc108f3bab2",
-          "size": 537774,
+          "sha256": "74171631899d0dacfcbb8a45d37040315836b63511a4befcf29e3cdc6726bb60",
+          "size": 541870,
           "split": "config.en",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/c15d12a5f7e7970dd212f312339a36693128fbef32a94e782b955dc108f3bab2.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/74171631899d0dacfcbb8a45d37040315836b63511a4befcf29e3cdc6726bb60.apk"
         },
         {
-          "name": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb.apk",
+          "name": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60.apk",
           "role": "split",
-          "sha256": "14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb",
-          "size": 309148,
+          "sha256": "c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60",
+          "size": 296565,
           "split": "config.xxhdpi",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/14fdff8d32c5e9e9a22544bd683488cf6ab9919ccd5808c33ddf286ce1298ccb.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/c9c1345698d37e84abb529bd1cc88bbd35473270f957fcaa8042db4a091aec60.apk"
         },
         {
-          "name": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4.apk",
+          "name": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9.apk",
           "role": "split",
-          "sha256": "1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4",
-          "size": 257550338,
+          "sha256": "052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9",
+          "size": 264087613,
           "split": "df_a_dex",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/1f7e2521e5c9a0826e1f6b14735dc91e379aada180e330b9e5fc8fc025c34aa4.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/052e90e04b01eac378731f33b5fae7b139eb5709106b17201de3890463c494f9.apk"
         },
         {
-          "name": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413.apk",
+          "name": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15.apk",
           "role": "split",
-          "sha256": "2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413",
+          "sha256": "21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15",
+          "size": 16852,
+          "split": "df_kakao",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/21172b530232cdd7908adbaaefe27bb2fb110df58211a7e71416a3a2ec910f15.apk"
+        },
+        {
+          "name": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616.apk",
+          "role": "split",
+          "sha256": "2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616",
+          "size": 74155,
+          "split": "df_kakao.config.arm64_v8a",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/2e19a604aa9a6d4b200b82e0d2bc72c30d98e7c0e80ac0e35bf819c948f41616.apk"
+        },
+        {
+          "name": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249.apk",
+          "role": "split",
+          "sha256": "eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249",
+          "size": 16852,
+          "split": "df_line",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/eeccf7d1f0ce74e3fda1273dba34fbe7f465b8d994af409d42590e67831b4249.apk"
+        },
+        {
+          "name": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5.apk",
+          "role": "split",
+          "sha256": "6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5",
+          "size": 37290,
+          "split": "df_line.config.arm64_v8a",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/6e6dadf51d528460664b8441139f26ff91ef1a9847a110db66737353c80dbdf5.apk"
+        },
+        {
+          "name": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a.apk",
+          "role": "split",
+          "sha256": "e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a",
+          "size": 16790,
+          "split": "df_line_nonus",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/e531e994f96a247dd1e3ac4b4996ce8851f8f22f7ddad818ef790ac57eedda5a.apk"
+        },
+        {
+          "name": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1.apk",
+          "role": "split",
+          "sha256": "d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1",
           "size": 12637,
           "split": "df_location",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/2da0fc0895af473cb7b97e4d8a8ecae7aa4fc056d9a2e2abb97273cdf84d9413.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/d6ada72dfa0d182799593735c96d56b58636d4bce3b3528927d641ee9e9f20a1.apk"
         },
         {
-          "name": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68.apk",
+          "name": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e.apk",
           "role": "split",
-          "sha256": "67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68",
+          "sha256": "9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e",
           "size": 135671,
           "split": "df_location.config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/67755e90b2001673ec144732c8f2fb64fde963912c4d2ff0cb2c5d993713aa68.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/9563beacfe8946185c8ad0e3079b751471e133580df20620a415fdc1763f350e.apk"
         },
         {
-          "name": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0.apk",
+          "name": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a.apk",
           "role": "split",
-          "sha256": "c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0",
+          "sha256": "d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a",
+          "size": 12637,
+          "split": "df_oppo_hyperboost",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/d92e5166c9ec4c708e3e27f70b60187128e617dc0f75dfd54d040d61fbf1fb4a.apk"
+        },
+        {
+          "name": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd.apk",
+          "role": "split",
+          "sha256": "9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd",
+          "size": 45493,
+          "split": "df_oppo_hyperboost.config.arm64_v8a",
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/9daadc5bf3788701bebe38a5e393ee9dd3ac9c652eae7a161e08ec34c23331cd.apk"
+        },
+        {
+          "name": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf.apk",
+          "role": "split",
+          "sha256": "e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf",
           "size": 12637,
           "split": "df_pns_biz",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/c2cb85cb958fcb0d93e51861b7dcb8924fbfc34d296e000a9c7e1dcd4f5020d0.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/e27d0cf89f152ff246ab44aa119212b8257e076327b3ba161e57e53296d45ccf.apk"
         },
         {
-          "name": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861.apk",
+          "name": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977.apk",
           "role": "split",
-          "sha256": "2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861",
+          "sha256": "564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977",
           "size": 12717,
           "split": "df_pns_biz.config.arm64_v8a",
-          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/2fe61fdc7264c7be6df57631d224085f24662c3ab244d31b7b3bb15e80544861.apk"
+          "url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/564466be7b43427225a02c6eaf5f64d1a117ef4ec143bb5e300e58bc55104977.apk"
         }
       ],
       "certificate_sha256": [
         "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
       ],
-      "manifest_sha256": "08c1e93e94c9ae01d7be3901f048dc870633b2e3555592e090e5e28440f97eaa",
-      "manifest_size": 2583,
-      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/manifest-08c1e93e94c9ae01d7be3901f048dc870633b2e3555592e090e5e28440f97eaa.json",
+      "manifest_sha256": "773294b7c72b791bf9e6cd2890742d63c04da4f25c097ff06d47b1b36f768490",
+      "manifest_size": 4428,
+      "manifest_url": "https://github.com/wyrtensi/wystore-library/releases/download/com.zhiliaoapp.musically-library/manifest-773294b7c72b791bf9e6cd2890742d63c04da4f25c097ff06d47b1b36f768490.json",
       "metadata_url": "https://raw.githubusercontent.com/wyrtensi/wystore-library/main/library/apps/com.zhiliaoapp.musically/metadata.json",
       "package": "com.zhiliaoapp.musically",
       "profile": "px_9a",
       "release_url": "https://github.com/wyrtensi/wystore-library/releases/tag/com.zhiliaoapp.musically-library",
-      "version_code": 2024709030,
-      "version_name": "47.9.3"
+      "version_code": 2024800040,
+      "version_name": "48.0.4"
     },
     {
       "assets": [
